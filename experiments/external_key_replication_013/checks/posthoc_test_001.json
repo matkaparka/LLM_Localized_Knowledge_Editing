@@ -1,0 +1,1852 @@
+{
+ "note": "post hoc, after the test results; descriptive only",
+ "run": "test_001",
+ "selected_uniform": "uniform:0.90",
+ "families": {
+  "cran": {
+   "entries": 997,
+   "known": 0,
+   "inside_the_name": 0,
+   "outside_the_name": 0,
+   "bad_entries": [],
+   "arms": {
+    "xr:uniform:0.90": {
+     "damaged": 0,
+     "with_outside_culprit": 0,
+     "only_outside_culprits": 0,
+     "restored_by_switching_one_off": 0
+    },
+    "xr:shuffled:0": {
+     "damaged": 0,
+     "with_outside_culprit": 0,
+     "only_outside_culprits": 0,
+     "restored_by_switching_one_off": 0
+    },
+    "xr:matched": {
+     "damaged": 0,
+     "with_outside_culprit": 0,
+     "only_outside_culprits": 0,
+     "restored_by_switching_one_off": 0
+    }
+   }
+  },
+  "crates": {
+   "entries": 994,
+   "known": 502,
+   "inside_the_name": 0,
+   "outside_the_name": 0,
+   "bad_entries": [],
+   "arms": {
+    "xr:uniform:0.90": {
+     "damaged": 32,
+     "with_outside_culprit": 0,
+     "only_outside_culprits": 0,
+     "restored_by_switching_one_off": 0
+    },
+    "xr:shuffled:0": {
+     "damaged": 28,
+     "with_outside_culprit": 0,
+     "only_outside_culprits": 0,
+     "restored_by_switching_one_off": 0
+    },
+    "xr:matched": {
+     "damaged": 8,
+     "with_outside_culprit": 0,
+     "only_outside_culprits": 0,
+     "restored_by_switching_one_off": 0
+    }
+   }
+  },
+  "hackage": {
+   "entries": 992,
+   "known": 346,
+   "inside_the_name": 0,
+   "outside_the_name": 2,
+   "bad_entries": [
+    {
+     "entry": 736,
+     "uid": "hackage:2026-08:late:versions",
+     "entity": "versions",
+     "span_text": "Hackage",
+     "kind": "outside the name",
+     "anchor_token": "ackage",
+     "gold_token": " versions",
+     "matched_threshold": 1.012287,
+     "breaks_alone": {
+      "xr:uniform:0.90": 57,
+      "xr:shuffled:0": 57
+     }
+    },
+    {
+     "entry": 855,
+     "uid": "hackage:2026-09:late:tagged",
+     "entity": "tagged",
+     "span_text": "Hackage",
+     "kind": "outside the name",
+     "anchor_token": "ackage",
+     "gold_token": " tagged",
+     "matched_threshold": 1.011041,
+     "breaks_alone": {
+      "xr:uniform:0.90": 289,
+      "xr:shuffled:0": 289
+     }
+    }
+   ],
+   "arms": {
+    "xr:uniform:0.90": {
+     "damaged": 346,
+     "with_outside_culprit": 346,
+     "only_outside_culprits": 314,
+     "restored_by_switching_one_off": 2
+    },
+    "xr:shuffled:0": {
+     "damaged": 346,
+     "with_outside_culprit": 346,
+     "only_outside_culprits": 320,
+     "restored_by_switching_one_off": 2
+    },
+    "xr:matched": {
+     "damaged": 9,
+     "with_outside_culprit": 0,
+     "only_outside_culprits": 0,
+     "restored_by_switching_one_off": 0
+    }
+   }
+  },
+  "homebrew": {
+   "entries": 966,
+   "known": 42,
+   "inside_the_name": 8,
+   "outside_the_name": 6,
+   "bad_entries": [
+    {
+     "entry": 61,
+     "uid": "homebrew:2026-03:late:marked",
+     "entity": "marked",
+     "span_text": "Homebrew formula",
+     "kind": "outside the name",
+     "anchor_token": " formula",
+     "gold_token": " marked",
+     "matched_threshold": 0.991899
+    },
+    {
+     "entry": 182,
+     "uid": "homebrew:2026-04:late:mysql-client@8.0",
+     "entity": "mysql-client@8.0",
+     "span_text": "mysql-client",
+     "kind": "inside the name",
+     "anchor_token": "-client",
+     "gold_token": "0",
+     "matched_threshold": 0.9
+    },
+    {
+     "entry": 215,
+     "uid": "homebrew:2026-04:late:solana",
+     "entity": "solana",
+     "span_text": "solana formula",
+     "kind": "outside the name",
+     "anchor_token": " formula",
+     "gold_token": "ana",
+     "matched_threshold": 0.924105
+    },
+    {
+     "entry": 335,
+     "uid": "homebrew:2026-05:late:redis@8.2",
+     "entity": "redis@8.2",
+     "span_text": "redis",
+     "kind": "inside the name",
+     "anchor_token": " redis",
+     "gold_token": "2",
+     "matched_threshold": 1.002193
+    },
+    {
+     "entry": 407,
+     "uid": "homebrew:2026-06:late:glibmm@2.66",
+     "entity": "glibmm@2.66",
+     "span_text": "glibmm",
+     "kind": "inside the name",
+     "anchor_token": "mm",
+     "gold_token": "6",
+     "matched_threshold": 0.9
+    },
+    {
+     "entry": 423,
+     "uid": "homebrew:2026-06:late:linux-headers@5.15",
+     "entity": "linux-headers@5.15",
+     "span_text": "linux-headers",
+     "kind": "inside the name",
+     "anchor_token": "headers",
+     "gold_token": "5",
+     "matched_threshold": 0.996479
+    },
+    {
+     "entry": 547,
+     "uid": "homebrew:2026-07:late:meta-package-manager",
+     "entity": "meta-package-manager",
+     "span_text": "formula",
+     "kind": "outside the name",
+     "anchor_token": " formula",
+     "gold_token": "-manager",
+     "matched_threshold": 0.967188
+    },
+    {
+     "entry": 571,
+     "uid": "homebrew:2026-07:late:repo",
+     "entity": "repo",
+     "span_text": "Homebrew",
+     "kind": "outside the name",
+     "anchor_token": "brew",
+     "gold_token": " repo",
+     "matched_threshold": 0.972496,
+     "breaks_alone": {
+      "xr:uniform:0.90": 2,
+      "xr:shuffled:0": 2
+     }
+    },
+    {
+     "entry": 688,
+     "uid": "homebrew:2026-08:late:python-gdbm@3.11",
+     "entity": "python-gdbm@3.11",
+     "span_text": "python-gdbm",
+     "kind": "inside the name",
+     "anchor_token": "m",
+     "gold_token": "1",
+     "matched_threshold": 1.002651
+    },
+    {
+     "entry": 704,
+     "uid": "homebrew:2026-08:late:solana",
+     "entity": "solana",
+     "span_text": "solana formula",
+     "kind": "outside the name",
+     "anchor_token": " formula",
+     "gold_token": "ana",
+     "matched_threshold": 0.922081
+    },
+    {
+     "entry": 752,
+     "uid": "homebrew:2026-09:late:erlang@28",
+     "entity": "erlang@28",
+     "span_text": "erlang",
+     "kind": "inside the name",
+     "anchor_token": "lang",
+     "gold_token": "8",
+     "matched_threshold": 0.912692
+    },
+    {
+     "entry": 781,
+     "uid": "homebrew:2026-09:late:marked",
+     "entity": "marked",
+     "span_text": "Homebrew formula",
+     "kind": "outside the name",
+     "anchor_token": " formula",
+     "gold_token": " marked",
+     "matched_threshold": 0.996256
+    },
+    {
+     "entry": 825,
+     "uid": "homebrew:2026-09:late:tomcat@9",
+     "entity": "tomcat@9",
+     "span_text": "tomcat",
+     "kind": "inside the name",
+     "anchor_token": "cat",
+     "gold_token": "9",
+     "matched_threshold": 1.01438
+    },
+    {
+     "entry": 929,
+     "uid": "homebrew:2026-10:late:python-gdbm@3.14",
+     "entity": "python-gdbm@3.14",
+     "span_text": "python-gdbm",
+     "kind": "inside the name",
+     "anchor_token": "m",
+     "gold_token": "4",
+     "matched_threshold": 1.004567
+    }
+   ],
+   "arms": {
+    "xr:uniform:0.90": {
+     "damaged": 7,
+     "with_outside_culprit": 2,
+     "only_outside_culprits": 2,
+     "restored_by_switching_one_off": 2
+    },
+    "xr:shuffled:0": {
+     "damaged": 7,
+     "with_outside_culprit": 2,
+     "only_outside_culprits": 2,
+     "restored_by_switching_one_off": 2
+    },
+    "xr:matched": {
+     "damaged": 1,
+     "with_outside_culprit": 0,
+     "only_outside_culprits": 0,
+     "restored_by_switching_one_off": 0
+    }
+   }
+  },
+  "npm": {
+   "entries": 938,
+   "known": 2361,
+   "inside_the_name": 7,
+   "outside_the_name": 4,
+   "bad_entries": [
+    {
+     "entry": 245,
+     "uid": "npm:2026-05:late:@cucumber/cucumber",
+     "entity": "@cucumber/cucumber",
+     "span_text": "@cucumber",
+     "kind": "inside the name",
+     "anchor_token": "ucumber",
+     "gold_token": "ucumber",
+     "matched_threshold": 0.99644,
+     "breaks_alone": {
+      "xr:uniform:0.90": 1,
+      "xr:shuffled:0": 1
+     }
+    },
+    {
+     "entry": 325,
+     "uid": "npm:2026-05:late:tldts",
+     "entity": "tldts",
+     "span_text": "npm",
+     "kind": "outside the name",
+     "anchor_token": " npm",
+     "gold_token": "ts",
+     "matched_threshold": 1.01264,
+     "breaks_alone": {
+      "xr:uniform:0.90": 50,
+      "xr:shuffled:0": 50
+     }
+    },
+    {
+     "entry": 426,
+     "uid": "npm:2026-06:late:intl-messageformat",
+     "entity": "intl-messageformat",
+     "span_text": "npm",
+     "kind": "outside the name",
+     "anchor_token": " npm",
+     "gold_token": "format",
+     "matched_threshold": 1.012301,
+     "breaks_alone": {
+      "xr:uniform:0.90": 2184,
+      "xr:shuffled:0": 2192
+     }
+    },
+    {
+     "entry": 508,
+     "uid": "npm:2026-07:late:@swc/core-win32-arm64-msvc",
+     "entity": "@swc/core-win32-arm64-msvc",
+     "span_text": "@swc",
+     "kind": "inside the name",
+     "anchor_token": "c",
+     "gold_token": "vc",
+     "matched_threshold": 0.909089,
+     "breaks_alone": {
+      "xr:uniform:0.90": 3,
+      "xr:matched": 3
+     }
+    },
+    {
+     "entry": 646,
+     "uid": "npm:2026-08:late:@turbo/linux-64",
+     "entity": "@turbo/linux-64",
+     "span_text": "@turbo",
+     "kind": "inside the name",
+     "anchor_token": "bo",
+     "gold_token": "4",
+     "matched_threshold": 0.961853
+    },
+    {
+     "entry": 777,
+     "uid": "npm:2026-09:late:intl-tel-input",
+     "entity": "intl-tel-input",
+     "span_text": "npm",
+     "kind": "outside the name",
+     "anchor_token": " npm",
+     "gold_token": "-input",
+     "matched_threshold": 1.010945,
+     "breaks_alone": {
+      "xr:uniform:0.90": 6,
+      "xr:shuffled:0": 5
+     }
+    },
+    {
+     "entry": 781,
+     "uid": "npm:2026-09:late:less",
+     "entity": "less",
+     "span_text": "npm",
+     "kind": "outside the name",
+     "anchor_token": " npm",
+     "gold_token": " less",
+     "matched_threshold": 1.006328
+    },
+    {
+     "entry": 833,
+     "uid": "npm:2026-10:late:@commitlint/config-conventional",
+     "entity": "@commitlint/config-conventional",
+     "span_text": "@commitlint",
+     "kind": "inside the name",
+     "anchor_token": "lint",
+     "gold_token": "ventional",
+     "matched_threshold": 0.9
+    },
+    {
+     "entry": 851,
+     "uid": "npm:2026-10:late:@next/swc-linux-arm64-gnu",
+     "entity": "@next/swc-linux-arm64-gnu",
+     "span_text": "@next/swc",
+     "kind": "inside the name",
+     "anchor_token": "c",
+     "gold_token": "-gnu",
+     "matched_threshold": 1.000757
+    },
+    {
+     "entry": 872,
+     "uid": "npm:2026-10:late:@storybook/react-webpack5",
+     "entity": "@storybook/react-webpack5",
+     "span_text": "@storybook/react",
+     "kind": "inside the name",
+     "anchor_token": "/react",
+     "gold_token": "5",
+     "matched_threshold": 0.934384
+    },
+    {
+     "entry": 874,
+     "uid": "npm:2026-10:late:@swc/core-win32-arm64-msvc",
+     "entity": "@swc/core-win32-arm64-msvc",
+     "span_text": "@swc",
+     "kind": "inside the name",
+     "anchor_token": "c",
+     "gold_token": "vc",
+     "matched_threshold": 0.907647,
+     "breaks_alone": {
+      "xr:shuffled:0": 2
+     }
+    }
+   ],
+   "arms": {
+    "xr:uniform:0.90": {
+     "damaged": 2243,
+     "with_outside_culprit": 2240,
+     "only_outside_culprits": 2075,
+     "restored_by_switching_one_off": 1652
+    },
+    "xr:shuffled:0": {
+     "damaged": 2249,
+     "with_outside_culprit": 2247,
+     "only_outside_culprits": 2104,
+     "restored_by_switching_one_off": 1764
+    },
+    "xr:matched": {
+     "damaged": 53,
+     "with_outside_culprit": 0,
+     "only_outside_culprits": 0,
+     "restored_by_switching_one_off": 0
+    }
+   }
+  },
+  "nuget": {
+   "entries": 995,
+   "known": 280,
+   "inside_the_name": 14,
+   "outside_the_name": 0,
+   "bad_entries": [
+    {
+     "entry": 23,
+     "uid": "nuget:2026-03:late:Google.Apis.Compute.beta",
+     "entity": "Google.Apis.Compute.beta",
+     "span_text": "Google.Apis.Compute",
+     "kind": "inside the name",
+     "anchor_token": ".Compute",
+     "gold_token": ".beta",
+     "matched_threshold": 0.9
+    },
+    {
+     "entry": 52,
+     "uid": "nuget:2026-03:late:Microsoft.NET.Sdk.tvOS.Manifest-9.0.100.Msi.x64",
+     "entity": "Microsoft.NET.Sdk.tvOS.Manifest-9.0.100.Msi.x64",
+     "span_text": "Microsoft.NET.Sdk.tvOS.Manifest-9.0.100.Msi",
+     "kind": "inside the name",
+     "anchor_token": "si",
+     "gold_token": "4",
+     "matched_threshold": 0.993229
+    },
+    {
+     "entry": 53,
+     "uid": "nuget:2026-03:late:Microsoft.NET.Workload.Emscripten.Current.Manifest-8.0.100.Msi.x64",
+     "entity": "Microsoft.NET.Workload.Emscripten.Current.Manifest-8.0.100.Msi.x64",
+     "span_text": "Microsoft.NET.Workload.Emscripten.Current.Manifest-8.0.100.Msi",
+     "kind": "inside the name",
+     "anchor_token": "si",
+     "gold_token": "4",
+     "matched_threshold": 1.001312
+    },
+    {
+     "entry": 54,
+     "uid": "nuget:2026-03:late:Microsoft.NET.Workload.Emscripten.Current.Manifest-9.0.100.Msi.x64",
+     "entity": "Microsoft.NET.Workload.Emscripten.Current.Manifest-9.0.100.Msi.x64",
+     "span_text": "Microsoft.NET.Workload.Emscripten.Current.Manifest-9.0.100.Msi",
+     "kind": "inside the name",
+     "anchor_token": "si",
+     "gold_token": "4",
+     "matched_threshold": 1.001401
+    },
+    {
+     "entry": 56,
+     "uid": "nuget:2026-03:late:Microsoft.NET.Workload.Mono.ToolChain.Current.Manifest-9.0.100.Msi.x64",
+     "entity": "Microsoft.NET.Workload.Mono.ToolChain.Current.Manifest-9.0.100.Msi.x64",
+     "span_text": "Microsoft.NET.Workload.Mono.ToolChain.Current.Manifest-9.0.100.Msi",
+     "kind": "inside the name",
+     "anchor_token": "si",
+     "gold_token": "4",
+     "matched_threshold": 0.999264
+    },
+    {
+     "entry": 294,
+     "uid": "nuget:2026-05:late:Microsoft.ClearScript.V8.Native.win-x64",
+     "entity": "Microsoft.ClearScript.V8.Native.win-x64",
+     "span_text": "Microsoft.ClearScript.V8.Native",
+     "kind": "inside the name",
+     "anchor_token": ".Native",
+     "gold_token": "4",
+     "matched_threshold": 1.013507
+    },
+    {
+     "entry": 305,
+     "uid": "nuget:2026-05:late:Microsoft.NET.Sdk.iOS.Manifest-9.0.100.Msi.x64",
+     "entity": "Microsoft.NET.Sdk.iOS.Manifest-9.0.100.Msi.x64",
+     "span_text": "Microsoft.NET.Sdk.iOS.Manifest-9.0.100.Msi",
+     "kind": "inside the name",
+     "anchor_token": "si",
+     "gold_token": "4",
+     "matched_threshold": 0.988205,
+     "breaks_alone": {
+      "xr:uniform:0.90": 8,
+      "xr:shuffled:0": 8,
+      "xr:matched": 1
+     }
+    },
+    {
+     "entry": 309,
+     "uid": "nuget:2026-05:late:Microsoft.NET.Workload.Mono.ToolChain.net7.Manifest-9.0.100.Msi.x64",
+     "entity": "Microsoft.NET.Workload.Mono.ToolChain.net7.Manifest-9.0.100.Msi.x64",
+     "span_text": "Microsoft.NET.Workload.Mono.ToolChain.net7.Manifest-9.0.100.Msi",
+     "kind": "inside the name",
+     "anchor_token": "si",
+     "gold_token": "4",
+     "matched_threshold": 0.993574
+    },
+    {
+     "entry": 431,
+     "uid": "nuget:2026-06:late:Microsoft.NET.Workloads.10.0.100.Msi.x64",
+     "entity": "Microsoft.NET.Workloads.10.0.100.Msi.x64",
+     "span_text": "Microsoft.NET.Workloads.10.0.100.Msi",
+     "kind": "inside the name",
+     "anchor_token": "si",
+     "gold_token": "4",
+     "matched_threshold": 1.014143
+    },
+    {
+     "entry": 554,
+     "uid": "nuget:2026-07:late:Microsoft.NET.Workload.Mono.ToolChain.Current.Manifest-9.0.100.Msi.x64",
+     "entity": "Microsoft.NET.Workload.Mono.ToolChain.Current.Manifest-9.0.100.Msi.x64",
+     "span_text": "Microsoft.NET.Workload.Mono.ToolChain.Current.Manifest-9.0.100.Msi",
+     "kind": "inside the name",
+     "anchor_token": "si",
+     "gold_token": "4",
+     "matched_threshold": 0.999189
+    },
+    {
+     "entry": 678,
+     "uid": "nuget:2026-08:late:Microsoft.NET.Workload.Mono.ToolChain.Current.Manifest-9.0.100.Msi.x64",
+     "entity": "Microsoft.NET.Workload.Mono.ToolChain.Current.Manifest-9.0.100.Msi.x64",
+     "span_text": "Microsoft.NET.Workload.Mono.ToolChain.Current.Manifest-9.0.100.Msi",
+     "kind": "inside the name",
+     "anchor_token": "si",
+     "gold_token": "4",
+     "matched_threshold": 0.997537
+    },
+    {
+     "entry": 814,
+     "uid": "nuget:2026-09:late:Microsoft.NET.Workload.Mono.ToolChain.Current.Manifest-9.0.100.Msi.x64",
+     "entity": "Microsoft.NET.Workload.Mono.ToolChain.Current.Manifest-9.0.100.Msi.x64",
+     "span_text": "Microsoft.NET.Workload.Mono.ToolChain.Current.Manifest-9.0.100.Msi",
+     "kind": "inside the name",
+     "anchor_token": "si",
+     "gold_token": "4",
+     "matched_threshold": 0.99715
+    },
+    {
+     "entry": 815,
+     "uid": "nuget:2026-09:late:Microsoft.NET.Workload.Mono.ToolChain.net7.Manifest-9.0.100.Msi.x64",
+     "entity": "Microsoft.NET.Workload.Mono.ToolChain.net7.Manifest-9.0.100.Msi.x64",
+     "span_text": "Microsoft.NET.Workload.Mono.ToolChain.net7.Manifest-9.0.100.Msi",
+     "kind": "inside the name",
+     "anchor_token": "si",
+     "gold_token": "4",
+     "matched_threshold": 0.992379
+    },
+    {
+     "entry": 816,
+     "uid": "nuget:2026-09:late:Microsoft.NET.Workloads.10.0.400.Msi.x64",
+     "entity": "Microsoft.NET.Workloads.10.0.400.Msi.x64",
+     "span_text": "Microsoft.NET.Workloads.10.0.400.Msi",
+     "kind": "inside the name",
+     "anchor_token": "si",
+     "gold_token": "4",
+     "matched_threshold": 1.013567
+    }
+   ],
+   "arms": {
+    "xr:uniform:0.90": {
+     "damaged": 111,
+     "with_outside_culprit": 0,
+     "only_outside_culprits": 0,
+     "restored_by_switching_one_off": 0
+    },
+    "xr:shuffled:0": {
+     "damaged": 99,
+     "with_outside_culprit": 0,
+     "only_outside_culprits": 0,
+     "restored_by_switching_one_off": 0
+    },
+    "xr:matched": {
+     "damaged": 30,
+     "with_outside_culprit": 0,
+     "only_outside_culprits": 0,
+     "restored_by_switching_one_off": 0
+    }
+   }
+  },
+  "packagist": {
+   "entries": 983,
+   "known": 1957,
+   "inside_the_name": 5,
+   "outside_the_name": 0,
+   "bad_entries": [
+    {
+     "entry": 2,
+     "uid": "packagist:2026-03:late:api-platform/ramsey-uuid",
+     "entity": "api-platform/ramsey-uuid",
+     "span_text": "api-platform",
+     "kind": "inside the name",
+     "anchor_token": "-platform",
+     "gold_token": "uuid",
+     "matched_threshold": 0.998398
+    },
+    {
+     "entry": 183,
+     "uid": "packagist:2026-04:late:spiral/exceptions",
+     "entity": "spiral/exceptions",
+     "span_text": "spiral",
+     "kind": "inside the name",
+     "anchor_token": " spiral",
+     "gold_token": "exceptions",
+     "matched_threshold": 1.002022
+    },
+    {
+     "entry": 217,
+     "uid": "packagist:2026-04:late:unified/unified-to",
+     "entity": "unified/unified-to",
+     "span_text": "unified",
+     "kind": "inside the name",
+     "anchor_token": "ified",
+     "gold_token": "-to",
+     "matched_threshold": 0.9
+    },
+    {
+     "entry": 583,
+     "uid": "packagist:2026-07:late:web-auth/cose-lib",
+     "entity": "web-auth/cose-lib",
+     "span_text": "web-auth",
+     "kind": "inside the name",
+     "anchor_token": "-auth",
+     "gold_token": "-lib",
+     "matched_threshold": 0.9,
+     "breaks_alone": {
+      "xr:uniform:0.90": 2,
+      "xr:shuffled:0": 2,
+      "xr:matched": 2
+     }
+    },
+    {
+     "entry": 862,
+     "uid": "packagist:2026-10:late:aimeos/ai-controller-frontend",
+     "entity": "aimeos/ai-controller-frontend",
+     "span_text": "aimeos",
+     "kind": "inside the name",
+     "anchor_token": "os",
+     "gold_token": "frontend",
+     "matched_threshold": 0.9772
+    }
+   ],
+   "arms": {
+    "xr:uniform:0.90": {
+     "damaged": 317,
+     "with_outside_culprit": 0,
+     "only_outside_culprits": 0,
+     "restored_by_switching_one_off": 0
+    },
+    "xr:shuffled:0": {
+     "damaged": 307,
+     "with_outside_culprit": 0,
+     "only_outside_culprits": 0,
+     "restored_by_switching_one_off": 0
+    },
+    "xr:matched": {
+     "damaged": 59,
+     "with_outside_culprit": 0,
+     "only_outside_culprits": 0,
+     "restored_by_switching_one_off": 0
+    }
+   }
+  },
+  "pypi": {
+   "entries": 972,
+   "known": 607,
+   "inside_the_name": 0,
+   "outside_the_name": 0,
+   "bad_entries": [],
+   "arms": {
+    "xr:uniform:0.90": {
+     "damaged": 30,
+     "with_outside_culprit": 0,
+     "only_outside_culprits": 0,
+     "restored_by_switching_one_off": 0
+    },
+    "xr:shuffled:0": {
+     "damaged": 28,
+     "with_outside_culprit": 0,
+     "only_outside_culprits": 0,
+     "restored_by_switching_one_off": 0
+    },
+    "xr:matched": {
+     "damaged": 11,
+     "with_outside_culprit": 0,
+     "only_outside_culprits": 0,
+     "restored_by_switching_one_off": 0
+    }
+   }
+  }
+ },
+ "per_family_means": {
+  "delta": {
+   "crates": 0.041085657370517926,
+   "hackage": 0.9736271676300579,
+   "homebrew": 0.13690476190476192,
+   "npm": 0.8377276577721304,
+   "nuget": 0.25223214285714285,
+   "packagist": 0.11158661216147164,
+   "pypi": 0.02656507413509061
+  },
+  "delta_u": {
+   "crates": 0.04780876494023904,
+   "hackage": 0.9739884393063584,
+   "homebrew": 0.14285714285714285,
+   "npm": 0.9275730622617535,
+   "nuget": 0.2892857142857143,
+   "packagist": 0.1318344404701073,
+   "pypi": 0.03130148270181219
+  },
+  "q": {
+   "cran": -0.0003125,
+   "crates": 0.0075,
+   "hackage": 0.13265625,
+   "homebrew": 0.21390625,
+   "npm": 0.2303125,
+   "nuget": 0.00734375,
+   "packagist": 0.02890625,
+   "pypi": -0.00109375
+  },
+  "r": {
+   "cran": -0.0017857142857142857,
+   "crates": 0.0007142857142857143,
+   "hackage": 0.16142857142857142,
+   "homebrew": 0.14285714285714285,
+   "npm": 0.2825,
+   "nuget": 0.07428571428571429,
+   "packagist": 0.016785714285714286,
+   "pypi": -0.007857142857142858
+  },
+  "q_u": {
+   "cran": -0.0025,
+   "crates": -0.01625,
+   "hackage": 0.11375,
+   "homebrew": 0.22,
+   "npm": 0.20625,
+   "nuget": -0.08125,
+   "packagist": 0.01375,
+   "pypi": -0.01125
+  },
+  "r_u": {
+   "cran": -0.002857142857142857,
+   "crates": -0.008571428571428572,
+   "hackage": 0.15714285714285714,
+   "homebrew": 0.14857142857142858,
+   "npm": 0.26571428571428574,
+   "nuget": 0.014285714285714285,
+   "packagist": 0.005714285714285714,
+   "pypi": -0.014285714285714285
+  }
+ },
+ "leave_one_family_out": {
+  "cran": {
+   "delta": 0.3399612962615962,
+   "delta_u": 0.36352129240330394,
+   "q": 0.08850446428571428,
+   "r": 0.09581632653061224,
+   "q_u": 0.06357142857142857,
+   "r_u": 0.08122448979591837
+  },
+  "crates": {
+   "delta": 0.38977390274344254,
+   "delta_u": 0.41614004698048146,
+   "q": 0.08738839285714285,
+   "r": 0.09545918367346938,
+   "q_u": 0.06553571428571428,
+   "r_u": 0.08204081632653061
+  },
+  "hackage": {
+   "delta": 0.23435031770018588,
+   "delta_u": 0.26177676791946153,
+   "q": 0.06950892857142857,
+   "r": 0.0725,
+   "q_u": 0.046964285714285715,
+   "r_u": 0.05836734693877551
+  },
+  "homebrew": {
+   "delta": 0.37380405198773525,
+   "delta_u": 0.4002986506609974,
+   "q": 0.05790178571428572,
+   "r": 0.0751530612244898,
+   "q_u": 0.031785714285714285,
+   "r_u": 0.05959183673469388
+  },
+  "npm": {
+   "delta": 0.25700023600984045,
+   "delta_u": 0.26951266409356234,
+   "q": 0.05555803571428571,
+   "r": 0.05520408163265306,
+   "q_u": 0.03375,
+   "r_u": 0.04285714285714286
+  },
+  "nuget": {
+   "delta": 0.3545828218290051,
+   "delta_u": 0.37589388875623553,
+   "q": 0.08741071428571427,
+   "r": 0.08494897959183674,
+   "q_u": 0.07482142857142858,
+   "r_u": 0.07877551020408165
+  },
+  "packagist": {
+   "delta": 0.37802374361161695,
+   "delta_u": 0.40213576772550336,
+   "q": 0.08433035714285715,
+   "r": 0.09316326530612244,
+   "q_u": 0.06124999999999999,
+   "r_u": 0.08
+  },
+  "pypi": {
+   "delta": 0.3921939999493471,
+   "delta_u": 0.4188912606868859,
+   "q": 0.08861607142857143,
+   "r": 0.09668367346938775,
+   "q_u": 0.06482142857142857,
+   "r_u": 0.08285714285714287
+  }
+ },
+ "subsets": {
+  "all": {
+   "families": [
+    "cran",
+    "crates",
+    "hackage",
+    "homebrew",
+    "npm",
+    "nuget",
+    "packagist",
+    "pypi"
+   ],
+   "measured": [
+    "crates",
+    "hackage",
+    "homebrew",
+    "npm",
+    "nuget",
+    "packagist",
+    "pypi"
+   ],
+   "delta": {
+    "mean": 0.3399612962615962,
+    "ci": [
+     0.09402660915327415,
+     0.6160299366994524
+    ],
+    "per_stream": {
+     "crates": 0.041085657370517926,
+     "hackage": 0.9736271676300579,
+     "homebrew": 0.13690476190476192,
+     "npm": 0.8377276577721304,
+     "nuget": 0.25223214285714285,
+     "packagist": 0.11158661216147164,
+     "pypi": 0.02656507413509061
+    },
+    "positive": 7,
+    "n": 7
+   },
+   "delta_u": {
+    "mean": 0.36352129240330394,
+    "ci": [
+     0.1055936508060086,
+     0.6441587761137451
+    ],
+    "per_stream": {
+     "crates": 0.04780876494023904,
+     "hackage": 0.9739884393063584,
+     "homebrew": 0.14285714285714285,
+     "npm": 0.9275730622617535,
+     "nuget": 0.2892857142857143,
+     "packagist": 0.1318344404701073,
+     "pypi": 0.03130148270181219
+    },
+    "positive": 7,
+    "n": 7
+   },
+   "q": {
+    "mean": 0.07740234375,
+    "ci": [
+     0.017575683593750002,
+     0.14669970703125
+    ],
+    "per_stream": {
+     "cran": -0.0003125,
+     "crates": 0.0075,
+     "hackage": 0.13265625,
+     "homebrew": 0.21390625,
+     "npm": 0.2303125,
+     "nuget": 0.00734375,
+     "packagist": 0.02890625,
+     "pypi": -0.00109375
+    },
+    "positive": 6,
+    "n": 8
+   },
+   "r": {
+    "mean": 0.08361607142857143,
+    "ci": [
+     0.021071428571428574,
+     0.15803571428571428
+    ],
+    "per_stream": {
+     "cran": -0.0017857142857142857,
+     "crates": 0.0007142857142857143,
+     "hackage": 0.16142857142857142,
+     "homebrew": 0.14285714285714285,
+     "npm": 0.2825,
+     "nuget": 0.07428571428571429,
+     "packagist": 0.016785714285714286,
+     "pypi": -0.007857142857142858
+    },
+    "positive": 6,
+    "n": 8
+   },
+   "q_u": {
+    "mean": 0.0553125,
+    "ci": [
+     -0.012968749999999998,
+     0.13109375
+    ],
+    "per_stream": {
+     "cran": -0.0025,
+     "crates": -0.01625,
+     "hackage": 0.11375,
+     "homebrew": 0.22,
+     "npm": 0.20625,
+     "nuget": -0.08125,
+     "packagist": 0.01375,
+     "pypi": -0.01125
+    },
+    "positive": 4,
+    "n": 8
+   },
+   "r_u": {
+    "mean": 0.07071428571428572,
+    "ci": [
+     0.008928571428571428,
+     0.1457142857142857
+    ],
+    "per_stream": {
+     "cran": -0.002857142857142857,
+     "crates": -0.008571428571428572,
+     "hackage": 0.15714285714285714,
+     "homebrew": 0.14857142857142858,
+     "npm": 0.26571428571428574,
+     "nuget": 0.014285714285714285,
+     "packagist": 0.005714285714285714,
+     "pypi": -0.014285714285714285
+    },
+    "positive": 5,
+    "n": 8
+   },
+   "other_uniform": {
+    "xr:uniform:0.92": {
+     "delta_u": {
+      "mean": 0.3087522412230829,
+      "ci": [
+       0.05215704897403983,
+       0.5984444331329247
+      ],
+      "per_stream": {
+       "crates": 0.01593625498007968,
+       "hackage": 0.9682080924855492,
+       "homebrew": 0.0,
+       "npm": 0.8102498941126641,
+       "nuget": 0.275,
+       "packagist": 0.07869187531936638,
+       "pypi": 0.013179571663920923
+      },
+      "positive": 6,
+      "n": 7
+     },
+     "q_u": {
+      "mean": 0.05953125,
+      "ci": [
+       -0.010624999999999996,
+       0.13640625
+      ],
+      "per_stream": {
+       "cran": 0.00875,
+       "crates": -0.00875,
+       "hackage": 0.12875,
+       "homebrew": 0.22875,
+       "npm": 0.2025,
+       "nuget": -0.0925,
+       "packagist": 0.01,
+       "pypi": -0.00125
+      },
+      "positive": 5,
+      "n": 8
+     },
+     "r_u": {
+      "mean": 0.07071428571428572,
+      "ci": [
+       0.010357142857142856,
+       0.14464285714285713
+      ],
+      "per_stream": {
+       "cran": 0.0,
+       "crates": -0.005714285714285714,
+       "hackage": 0.16,
+       "homebrew": 0.13428571428571429,
+       "npm": 0.26571428571428574,
+       "nuget": 0.014285714285714285,
+       "packagist": 0.005714285714285714,
+       "pypi": -0.008571428571428572
+      },
+      "positive": 5,
+      "n": 8
+     }
+    },
+    "xr:uniform:0.94": {
+     "delta_u": {
+      "mean": 0.2679301183580032,
+      "ci": [
+       0.032326589072855134,
+       0.5379981136026233
+      ],
+      "per_stream": {
+       "crates": -0.00398406374501992,
+       "hackage": 0.930635838150289,
+       "homebrew": 0.0,
+       "npm": 0.686573485811097,
+       "nuget": 0.2357142857142857,
+       "packagist": 0.026571282575370465,
+       "pypi": 0.0
+      },
+      "positive": 4,
+      "n": 7
+     },
+     "q_u": {
+      "mean": 0.0734375,
+      "ci": [
+       0.0028085937500000025,
+       0.15141015624999993
+      ],
+      "per_stream": {
+       "cran": 0.0375,
+       "crates": 0.00125,
+       "hackage": 0.16375,
+       "homebrew": 0.2475,
+       "npm": 0.2025,
+       "nuget": -0.06875,
+       "packagist": -0.005,
+       "pypi": 0.00875
+      },
+      "positive": 6,
+      "n": 8
+     },
+     "r_u": {
+      "mean": 0.07678571428571429,
+      "ci": [
+       0.018214285714285714,
+       0.14964285714285713
+      ],
+      "per_stream": {
+       "cran": 0.017142857142857144,
+       "crates": -0.002857142857142857,
+       "hackage": 0.15428571428571428,
+       "homebrew": 0.13714285714285715,
+       "npm": 0.2742857142857143,
+       "nuget": 0.02857142857142857,
+       "packagist": 0.008571428571428572,
+       "pypi": -0.002857142857142857
+      },
+      "positive": 6,
+      "n": 8
+     }
+    },
+    "xr:uniform:0.96": {
+     "delta_u": {
+      "mean": 0.18538783940188588,
+      "ci": [
+       -0.004518594753462329,
+       0.4166335201383082
+      ],
+      "per_stream": {
+       "crates": -0.013944223107569721,
+       "hackage": 0.7687861271676301,
+       "homebrew": -0.023809523809523808,
+       "npm": 0.5036001694197374,
+       "nuget": 0.06785714285714285,
+       "packagist": 0.005109862033725089,
+       "pypi": -0.009884678747940691
+      },
+      "positive": 4,
+      "n": 7
+     },
+     "q_u": {
+      "mean": 0.09578125,
+      "ci": [
+       0.02875,
+       0.16844140624999995
+      ],
+      "per_stream": {
+       "cran": 0.07375,
+       "crates": 0.03375,
+       "hackage": 0.215,
+       "homebrew": 0.245,
+       "npm": 0.1975,
+       "nuget": -0.03625,
+       "packagist": 0.00625,
+       "pypi": 0.03125
+      },
+      "positive": 7,
+      "n": 8
+     },
+     "r_u": {
+      "mean": 0.08642857142857142,
+      "ci": [
+       0.022500000000000003,
+       0.165
+      ],
+      "per_stream": {
+       "cran": 0.02857142857142857,
+       "crates": 0.008571428571428572,
+       "hackage": 0.13714285714285715,
+       "homebrew": 0.18285714285714286,
+       "npm": 0.3,
+       "nuget": 0.002857142857142857,
+       "packagist": 0.014285714285714285,
+       "pypi": 0.017142857142857144
+      },
+      "positive": 8,
+      "n": 8
+     }
+    }
+   }
+  },
+  "without hackage+npm": {
+   "families": [
+    "cran",
+    "crates",
+    "homebrew",
+    "nuget",
+    "packagist",
+    "pypi"
+   ],
+   "measured": [
+    "crates",
+    "homebrew",
+    "nuget",
+    "packagist",
+    "pypi"
+   ],
+   "delta": {
+    "mean": 0.113674849685797,
+    "ci": [
+     0.04709306202052994,
+     0.19318001432230508
+    ],
+    "per_stream": {
+     "crates": 0.041085657370517926,
+     "homebrew": 0.13690476190476192,
+     "nuget": 0.25223214285714285,
+     "packagist": 0.11158661216147164,
+     "pypi": 0.02656507413509061
+    },
+    "positive": 5,
+    "n": 5
+   },
+   "delta_u": {
+    "mean": 0.12861750905100314,
+    "ci": [
+     0.053992846375539666,
+     0.2181576654425682
+    ],
+    "per_stream": {
+     "crates": 0.04780876494023904,
+     "homebrew": 0.14285714285714285,
+     "nuget": 0.2892857142857143,
+     "packagist": 0.1318344404701073,
+     "pypi": 0.03130148270181219
+    },
+    "positive": 5,
+    "n": 5
+   },
+   "q": {
+    "mean": 0.04270833333333333,
+    "ci": [
+     0.0005208333333333335,
+     0.11419401041666667
+    ],
+    "per_stream": {
+     "cran": -0.0003125,
+     "crates": 0.0075,
+     "homebrew": 0.21390625,
+     "nuget": 0.00734375,
+     "packagist": 0.02890625,
+     "pypi": -0.00109375
+    },
+    "positive": 4,
+    "n": 6
+   },
+   "r": {
+    "mean": 0.0375,
+    "ci": [
+     -0.001013392857142856,
+     0.08738095238095238
+    ],
+    "per_stream": {
+     "cran": -0.0017857142857142857,
+     "crates": 0.0007142857142857143,
+     "homebrew": 0.14285714285714285,
+     "nuget": 0.07428571428571429,
+     "packagist": 0.016785714285714286,
+     "pypi": -0.007857142857142858
+    },
+    "positive": 4,
+    "n": 6
+   },
+   "q_u": {
+    "mean": 0.020416666666666666,
+    "ci": [
+     -0.04125,
+     0.10791666666666666
+    ],
+    "per_stream": {
+     "cran": -0.0025,
+     "crates": -0.01625,
+     "homebrew": 0.22,
+     "nuget": -0.08125,
+     "packagist": 0.01375,
+     "pypi": -0.01125
+    },
+    "positive": 2,
+    "n": 6
+   },
+   "r_u": {
+    "mean": 0.023809523809523808,
+    "ci": [
+     -0.01,
+     0.0776190476190476
+    ],
+    "per_stream": {
+     "cran": -0.002857142857142857,
+     "crates": -0.008571428571428572,
+     "homebrew": 0.14857142857142858,
+     "nuget": 0.014285714285714285,
+     "packagist": 0.005714285714285714,
+     "pypi": -0.014285714285714285
+    },
+    "positive": 3,
+    "n": 6
+   },
+   "other_uniform": {
+    "xr:uniform:0.92": {
+     "delta_u": {
+      "mean": 0.0765615403926734,
+      "ci": [
+       0.007937180438050105,
+       0.18060343375849391
+      ],
+      "per_stream": {
+       "crates": 0.01593625498007968,
+       "homebrew": 0.0,
+       "nuget": 0.275,
+       "packagist": 0.07869187531936638,
+       "pypi": 0.013179571663920923
+      },
+      "positive": 4,
+      "n": 5
+     },
+     "q_u": {
+      "mean": 0.02416666666666667,
+      "ci": [
+       -0.042921875000000005,
+       0.11521354166666661
+      ],
+      "per_stream": {
+       "cran": 0.00875,
+       "crates": -0.00875,
+       "homebrew": 0.22875,
+       "nuget": -0.0925,
+       "packagist": 0.01,
+       "pypi": -0.00125
+      },
+      "positive": 3,
+      "n": 6
+     },
+     "r_u": {
+      "mean": 0.023333333333333334,
+      "ci": [
+       -0.006666666666666667,
+       0.07142857142857142
+      ],
+      "per_stream": {
+       "cran": 0.0,
+       "crates": -0.005714285714285714,
+       "homebrew": 0.13428571428571429,
+       "nuget": 0.014285714285714285,
+       "packagist": 0.005714285714285714,
+       "pypi": -0.008571428571428572
+      },
+      "positive": 3,
+      "n": 6
+     }
+    },
+    "xr:uniform:0.94": {
+     "delta_u": {
+      "mean": 0.051660300908927245,
+      "ci": [
+       -0.002390438247011952,
+       0.14781203710155427
+      ],
+      "per_stream": {
+       "crates": -0.00398406374501992,
+       "homebrew": 0.0,
+       "nuget": 0.2357142857142857,
+       "packagist": 0.026571282575370465,
+       "pypi": 0.0
+      },
+      "positive": 2,
+      "n": 5
+     },
+     "q_u": {
+      "mean": 0.036875,
+      "ci": [
+       -0.028333333333333335,
+       0.12979166666666664
+      ],
+      "per_stream": {
+       "cran": 0.0375,
+       "crates": 0.00125,
+       "homebrew": 0.2475,
+       "nuget": -0.06875,
+       "packagist": -0.005,
+       "pypi": 0.00875
+      },
+      "positive": 4,
+      "n": 6
+     },
+     "r_u": {
+      "mean": 0.030952380952380953,
+      "ci": [
+       0.0,
+       0.07761904761904762
+      ],
+      "per_stream": {
+       "cran": 0.017142857142857144,
+       "crates": -0.002857142857142857,
+       "homebrew": 0.13714285714285715,
+       "nuget": 0.02857142857142857,
+       "packagist": 0.008571428571428572,
+       "pypi": -0.002857142857142857
+      },
+      "positive": 4,
+      "n": 6
+     }
+    },
+    "xr:uniform:0.96": {
+     "delta_u": {
+      "mean": 0.005065715845166744,
+      "ci": [
+       -0.021718569356370704,
+       0.04012227282652409
+      ],
+      "per_stream": {
+       "crates": -0.013944223107569721,
+       "homebrew": -0.023809523809523808,
+       "nuget": 0.06785714285714285,
+       "packagist": 0.005109862033725089,
+       "pypi": -0.009884678747940691
+      },
+      "positive": 2,
+      "n": 5
+     },
+     "q_u": {
+      "mean": 0.058958333333333335,
+      "ci": [
+       -0.0012499999999999996,
+       0.1416666666666667
+      ],
+      "per_stream": {
+       "cran": 0.07375,
+       "crates": 0.03375,
+       "homebrew": 0.245,
+       "nuget": -0.03625,
+       "packagist": 0.00625,
+       "pypi": 0.03125
+      },
+      "positive": 5,
+      "n": 6
+     },
+     "r_u": {
+      "mean": 0.04238095238095238,
+      "ci": [
+       0.005714285714285713,
+       0.10285714285714287
+      ],
+      "per_stream": {
+       "cran": 0.02857142857142857,
+       "crates": 0.008571428571428572,
+       "homebrew": 0.18285714285714286,
+       "nuget": 0.002857142857142857,
+       "packagist": 0.014285714285714285,
+       "pypi": 0.017142857142857144
+      },
+      "positive": 6,
+      "n": 6
+     }
+    }
+   }
+  },
+  "without hackage+homebrew+npm": {
+   "families": [
+    "cran",
+    "crates",
+    "nuget",
+    "packagist",
+    "pypi"
+   ],
+   "measured": [
+    "crates",
+    "nuget",
+    "packagist",
+    "pypi"
+   ],
+   "delta": {
+    "mean": 0.10786737163105575,
+    "ci": [
+     0.03266892274395007,
+     0.2065968314992821
+    ],
+    "per_stream": {
+     "crates": 0.041085657370517926,
+     "nuget": 0.25223214285714285,
+     "packagist": 0.11158661216147164,
+     "pypi": 0.02656507413509061
+    },
+    "positive": 4,
+    "n": 4
+   },
+   "delta_u": {
+    "mean": 0.12505760059946822,
+    "ci": [
+     0.03838654853403519,
+     0.2364559769990045
+    ],
+    "per_stream": {
+     "crates": 0.04780876494023904,
+     "nuget": 0.2892857142857143,
+     "packagist": 0.1318344404701073,
+     "pypi": 0.03130148270181219
+    },
+    "positive": 4,
+    "n": 4
+   },
+   "q": {
+    "mean": 0.00846875,
+    "ci": [
+     -0.0021249999999999997,
+     0.021157031249999986
+    ],
+    "per_stream": {
+     "cran": -0.0003125,
+     "crates": 0.0075,
+     "nuget": 0.00734375,
+     "packagist": 0.02890625,
+     "pypi": -0.00109375
+    },
+    "positive": 3,
+    "n": 5
+   },
+   "r": {
+    "mean": 0.016428571428571428,
+    "ci": [
+     -0.004928571428571429,
+     0.048285714285714286
+    ],
+    "per_stream": {
+     "cran": -0.0017857142857142857,
+     "crates": 0.0007142857142857143,
+     "nuget": 0.07428571428571429,
+     "packagist": 0.016785714285714286,
+     "pypi": -0.007857142857142858
+    },
+    "positive": 3,
+    "n": 5
+   },
+   "q_u": {
+    "mean": -0.0195,
+    "ci": [
+     -0.052000000000000005,
+     0.004499999999999999
+    ],
+    "per_stream": {
+     "cran": -0.0025,
+     "crates": -0.01625,
+     "nuget": -0.08125,
+     "packagist": 0.01375,
+     "pypi": -0.01125
+    },
+    "positive": 1,
+    "n": 5
+   },
+   "r_u": {
+    "mean": -0.001142857142857143,
+    "ci": [
+     -0.013142857142857145,
+     0.013714285714285712
+    ],
+    "per_stream": {
+     "cran": -0.002857142857142857,
+     "crates": -0.008571428571428572,
+     "nuget": 0.014285714285714285,
+     "packagist": 0.005714285714285714,
+     "pypi": -0.014285714285714285
+    },
+    "positive": 2,
+    "n": 5
+   },
+   "other_uniform": {
+    "xr:uniform:0.92": {
+     "delta_u": {
+      "mean": 0.09570192549084175,
+      "ci": [
+       0.013591433278418451,
+       0.21758280730338236
+      ],
+      "per_stream": {
+       "crates": 0.01593625498007968,
+       "nuget": 0.275,
+       "packagist": 0.07869187531936638,
+       "pypi": 0.013179571663920923
+      },
+      "positive": 4,
+      "n": 4
+     },
+     "q_u": {
+      "mean": -0.01675,
+      "ci": [
+       -0.05625,
+       0.008749999999999999
+      ],
+      "per_stream": {
+       "cran": 0.00875,
+       "crates": -0.00875,
+       "nuget": -0.0925,
+       "packagist": 0.01,
+       "pypi": -0.00125
+      },
+      "positive": 2,
+      "n": 5
+     },
+     "r_u": {
+      "mean": 0.0011428571428571427,
+      "ci": [
+       -0.009714285714285713,
+       0.014857142857142855
+      ],
+      "per_stream": {
+       "cran": 0.0,
+       "crates": -0.005714285714285714,
+       "nuget": 0.014285714285714285,
+       "packagist": 0.005714285714285714,
+       "pypi": -0.008571428571428572
+      },
+      "positive": 2,
+      "n": 5
+     }
+    },
+    "xr:uniform:0.94": {
+     "delta_u": {
+      "mean": 0.06457537613615906,
+      "ci": [
+       -0.0027484789015273336,
+       0.1802918716109907
+      ],
+      "per_stream": {
+       "crates": -0.00398406374501992,
+       "nuget": 0.2357142857142857,
+       "packagist": 0.026571282575370465,
+       "pypi": 0.0
+      },
+      "positive": 2,
+      "n": 4
+     },
+     "q_u": {
+      "mean": -0.005250000000000001,
+      "ci": [
+       -0.03950624999999999,
+       0.023000000000000003
+      ],
+      "per_stream": {
+       "cran": 0.0375,
+       "crates": 0.00125,
+       "nuget": -0.06875,
+       "packagist": -0.005,
+       "pypi": 0.00875
+      },
+      "positive": 3,
+      "n": 5
+     },
+     "r_u": {
+      "mean": 0.009714285714285713,
+      "ci": [
+       -0.003428571428571429,
+       0.02571428571428571
+      ],
+      "per_stream": {
+       "cran": 0.017142857142857144,
+       "crates": -0.002857142857142857,
+       "nuget": 0.02857142857142857,
+       "packagist": 0.008571428571428572,
+       "pypi": -0.002857142857142857
+      },
+      "positive": 3,
+      "n": 5
+     }
+    },
+    "xr:uniform:0.96": {
+     "delta_u": {
+      "mean": 0.012284525758839383,
+      "ci": [
+       -0.013169172568375591,
+       0.05216898815606979
+      ],
+      "per_stream": {
+       "crates": -0.013944223107569721,
+       "nuget": 0.06785714285714285,
+       "packagist": 0.005109862033725089,
+       "pypi": -0.009884678747940691
+      },
+      "positive": 2,
+      "n": 4
+     },
+     "q_u": {
+      "mean": 0.02175,
+      "ci": [
+       -0.012256249999999995,
+       0.05375
+      ],
+      "per_stream": {
+       "cran": 0.07375,
+       "crates": 0.03375,
+       "nuget": -0.03625,
+       "packagist": 0.00625,
+       "pypi": 0.03125
+      },
+      "positive": 4,
+      "n": 5
+     },
+     "r_u": {
+      "mean": 0.014285714285714285,
+      "ci": [
+       0.0011428571428571427,
+       0.026857142857142857
+      ],
+      "per_stream": {
+       "cran": 0.02857142857142857,
+       "crates": 0.008571428571428572,
+       "nuget": 0.002857142857142857,
+       "packagist": 0.014285714285714285,
+       "pypi": 0.017142857142857144
+      },
+      "positive": 5,
+      "n": 5
+     }
+    }
+   }
+  }
+ },
+ "test_frontier": {
+  "all": {
+   "xr:uniform:0.88": {
+    "delta_u": 0.3962009791176859,
+    "q_diff": 0.05171875,
+    "r_diff": 0.0757142857142857,
+    "damage": 0.43100360895602774
+   },
+   "xr:uniform:0.90": {
+    "delta_u": 0.36352129240330394,
+    "q_diff": 0.0553125,
+    "r_diff": 0.07071428571428572,
+    "damage": 0.39832392224164576
+   },
+   "xr:uniform:0.92": {
+    "delta_u": 0.3087522412230829,
+    "q_diff": 0.05953125,
+    "r_diff": 0.07071428571428572,
+    "damage": 0.34355487106142474
+   },
+   "xr:uniform:0.94": {
+    "delta_u": 0.2679301183580032,
+    "q_diff": 0.0734375,
+    "r_diff": 0.07678571428571429,
+    "damage": 0.30273274819634505
+   },
+   "xr:uniform:0.96": {
+    "delta_u": 0.18538783940188588,
+    "q_diff": 0.09578125,
+    "r_diff": 0.08642857142857142,
+    "damage": 0.22019046924022773
+   },
+   "xr:uniform:0.98": {
+    "delta_u": 0.0004197369516540036,
+    "q_diff": 0.16265625,
+    "r_diff": 0.12678571428571428,
+    "damage": 0.03522236678999586
+   },
+   "xr:matched": {
+    "damage": 0.034802629838341856,
+    "Q": 0.3378125,
+    "R": 0.22107142857142859
+   }
+  },
+  "without hackage+npm": {
+   "xr:uniform:0.88": {
+    "delta_u": 0.1699641572787533,
+    "q_diff": 0.018125,
+    "r_diff": 0.02523809523809524,
+    "damage": 0.2089959038726193
+   },
+   "xr:uniform:0.90": {
+    "delta_u": 0.12861750905100314,
+    "q_diff": 0.020416666666666666,
+    "r_diff": 0.023809523809523808,
+    "damage": 0.16764925564486913
+   },
+   "xr:uniform:0.92": {
+    "delta_u": 0.0765615403926734,
+    "q_diff": 0.02416666666666667,
+    "r_diff": 0.023333333333333334,
+    "damage": 0.11559328698653937
+   },
+   "xr:uniform:0.94": {
+    "delta_u": 0.051660300908927245,
+    "q_diff": 0.036875,
+    "r_diff": 0.030952380952380953,
+    "damage": 0.09069204750279324
+   },
+   "xr:uniform:0.96": {
+    "delta_u": 0.005065715845166744,
+    "q_diff": 0.058958333333333335,
+    "r_diff": 0.04238095238095238,
+    "damage": 0.04409746243903273
+   },
+   "xr:uniform:0.98": {
+    "delta_u": -0.01594621671536381,
+    "q_diff": 0.1225,
+    "r_diff": 0.09428571428571429,
+    "damage": 0.023085529878502174
+   },
+   "xr:matched": {
+    "damage": 0.03903174659386598,
+    "Q": 0.2975,
+    "R": 0.1985714285714286
+   }
+  },
+  "without hackage+homebrew+npm": {
+   "xr:uniform:0.88": {
+    "delta_u": 0.15888376802701304,
+    "q_diff": -0.0215,
+    "r_diff": -0.004,
+    "damage": 0.20172107031696457
+   },
+   "xr:uniform:0.90": {
+    "delta_u": 0.12505760059946822,
+    "q_diff": -0.0195,
+    "r_diff": -0.001142857142857143,
+    "damage": 0.16789490288941974
+   },
+   "xr:uniform:0.92": {
+    "delta_u": 0.09570192549084175,
+    "q_diff": -0.01675,
+    "r_diff": 0.0011428571428571427,
+    "damage": 0.13853922778079328
+   },
+   "xr:uniform:0.94": {
+    "delta_u": 0.06457537613615906,
+    "q_diff": -0.005250000000000001,
+    "r_diff": 0.009714285714285713,
+    "damage": 0.1074126784261106
+   },
+   "xr:uniform:0.96": {
+    "delta_u": 0.012284525758839383,
+    "q_diff": 0.02175,
+    "r_diff": 0.014285714285714285,
+    "damage": 0.05512182804879091
+   },
+   "xr:uniform:0.98": {
+    "delta_u": -0.01398038994182381,
+    "q_diff": 0.1,
+    "r_diff": 0.06857142857142857,
+    "damage": 0.02885691234812772
+   },
+   "xr:matched": {
+    "damage": 0.04283730228995153,
+    "Q": 0.286,
+    "R": 0.18285714285714286
+   }
+  }
+ },
+ "dev_rule_on_subsets": {
+  "all": {
+   "arm": "uniform:0.90",
+   "flag": "dev gate not met"
+  },
+  "without npm_dev": {
+   "arm": "uniform:0.92",
+   "flag": "met"
+  },
+  "without cran_dev": {
+   "arm": "uniform:0.90",
+   "flag": "dev gate not met"
+  },
+  "without npm_dev+cran_dev": {
+   "arm": "uniform:0.94",
+   "flag": "met"
+  }
+ }
+}

@@ -1,0 +1,214 @@
+{
+ "dev": {
+  "half": "dev",
+  "corpus": 20000,
+  "streams": {
+   "D0": {
+    "hidden_in_corpus": 5,
+    "probes_other_half": 0,
+    "hidden_other_half": 0,
+    "edits_other_half": 0,
+    "probes": 2000,
+    "hidden": 11995,
+    "edits": 1600,
+    "edits_capped": 1042,
+    "same_edits_as_kt10": true,
+    "same_probes_as_kt10": true,
+    "first_6000_hidden_as_kt10": true
+   },
+   "D1": {
+    "hidden_in_corpus": 11,
+    "probes_other_half": 0,
+    "hidden_other_half": 0,
+    "edits_other_half": 0,
+    "probes": 2000,
+    "hidden": 11989,
+    "edits": 1600,
+    "edits_capped": 1058,
+    "same_edits_as_kt10": true,
+    "same_probes_as_kt10": true,
+    "first_6000_hidden_as_kt10": true
+   },
+   "D2": {
+    "hidden_in_corpus": 10,
+    "probes_other_half": 0,
+    "hidden_other_half": 0,
+    "edits_other_half": 0,
+    "probes": 2000,
+    "hidden": 11990,
+    "edits": 1600,
+    "edits_capped": 1074,
+    "same_edits_as_kt10": true,
+    "same_probes_as_kt10": true,
+    "first_6000_hidden_as_kt10": true
+   },
+   "D3": {
+    "hidden_in_corpus": 8,
+    "probes_other_half": 0,
+    "hidden_other_half": 0,
+    "edits_other_half": 0,
+    "probes": 2000,
+    "hidden": 11992,
+    "edits": 1600,
+    "edits_capped": 1051,
+    "same_edits_as_kt10": true,
+    "same_probes_as_kt10": true,
+    "first_6000_hidden_as_kt10": true
+   },
+   "D4": {
+    "hidden_in_corpus": 6,
+    "probes_other_half": 0,
+    "hidden_other_half": 0,
+    "edits_other_half": 0,
+    "probes": 2000,
+    "hidden": 11994,
+    "edits": 1600,
+    "edits_capped": 1049,
+    "same_edits_as_kt10": true,
+    "same_probes_as_kt10": true,
+    "first_6000_hidden_as_kt10": true
+   },
+   "D5": {
+    "hidden_in_corpus": 11,
+    "probes_other_half": 0,
+    "hidden_other_half": 0,
+    "edits_other_half": 0,
+    "probes": 2000,
+    "hidden": 11989,
+    "edits": 1600,
+    "edits_capped": 1052,
+    "same_edits_as_kt10": true,
+    "same_probes_as_kt10": true,
+    "first_6000_hidden_as_kt10": true
+   },
+   "D6": {
+    "hidden_in_corpus": 6,
+    "probes_other_half": 0,
+    "hidden_other_half": 0,
+    "edits_other_half": 0,
+    "probes": 2000,
+    "hidden": 11994,
+    "edits": 1600,
+    "edits_capped": 1043,
+    "same_edits_as_kt10": true,
+    "same_probes_as_kt10": true,
+    "first_6000_hidden_as_kt10": true
+   },
+   "D7": {
+    "hidden_in_corpus": 3,
+    "probes_other_half": 0,
+    "hidden_other_half": 0,
+    "edits_other_half": 0,
+    "probes": 2000,
+    "hidden": 11997,
+    "edits": 1600,
+    "edits_capped": 1043,
+    "same_edits_as_kt10": true,
+    "same_probes_as_kt10": true,
+    "first_6000_hidden_as_kt10": true
+   }
+  }
+ },
+ "test": {
+  "half": "confirm",
+  "corpus": 20000,
+  "streams": {
+   "C0": {
+    "hidden_in_corpus": 9,
+    "probes_other_half": 20,
+    "hidden_other_half": 113,
+    "edits_other_half": 15,
+    "probes": 1980,
+    "hidden": 11878,
+    "edits": 1585,
+    "edits_capped": 993
+   },
+   "C1": {
+    "hidden_in_corpus": 4,
+    "probes_other_half": 20,
+    "hidden_other_half": 124,
+    "edits_other_half": 5,
+    "probes": 1980,
+    "hidden": 11872,
+    "edits": 1595,
+    "edits_capped": 977
+   },
+   "C2": {
+    "hidden_in_corpus": 9,
+    "probes_other_half": 21,
+    "hidden_other_half": 113,
+    "edits_other_half": 7,
+    "probes": 1979,
+    "hidden": 11878,
+    "edits": 1593,
+    "edits_capped": 985
+   },
+   "C3": {
+    "hidden_in_corpus": 6,
+    "probes_other_half": 23,
+    "hidden_other_half": 109,
+    "edits_other_half": 9,
+    "probes": 1977,
+    "hidden": 11885,
+    "edits": 1591,
+    "edits_capped": 995
+   },
+   "C4": {
+    "hidden_in_corpus": 8,
+    "probes_other_half": 19,
+    "hidden_other_half": 101,
+    "edits_other_half": 14,
+    "probes": 1981,
+    "hidden": 11891,
+    "edits": 1586,
+    "edits_capped": 993
+   },
+   "C5": {
+    "hidden_in_corpus": 7,
+    "probes_other_half": 16,
+    "hidden_other_half": 91,
+    "edits_other_half": 6,
+    "probes": 1984,
+    "hidden": 11902,
+    "edits": 1594,
+    "edits_capped": 1006
+   },
+   "C6": {
+    "hidden_in_corpus": 10,
+    "probes_other_half": 19,
+    "hidden_other_half": 98,
+    "edits_other_half": 6,
+    "probes": 1981,
+    "hidden": 11892,
+    "edits": 1594,
+    "edits_capped": 982
+   },
+   "C7": {
+    "hidden_in_corpus": 14,
+    "probes_other_half": 20,
+    "hidden_other_half": 107,
+    "edits_other_half": 10,
+    "probes": 1980,
+    "hidden": 11879,
+    "edits": 1590,
+    "edits_capped": 995
+   }
+  }
+ },
+ "smoke": {
+  "half": "confirm",
+  "corpus": 20000,
+  "streams": {
+   "CP0": {
+    "hidden_in_corpus": 8,
+    "probes_other_half": 21,
+    "hidden_other_half": 100,
+    "edits_other_half": 13,
+    "probes": 1979,
+    "hidden": 11892,
+    "edits": 1587,
+    "edits_capped": 96
+   }
+  }
+ }
+}

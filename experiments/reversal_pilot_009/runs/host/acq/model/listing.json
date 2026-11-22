@@ -1,0 +1,64 @@
+{
+  "repo": "Qwen/Qwen3-0.6B-Base",
+  "repo_type": "model",
+  "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+  "endpoint": "https://huggingface.co",
+  "license": "apache-2.0",
+  "listed_utc": "2026-11-18T13:11:16.928508+00:00",
+  "files": [
+    {
+      "name": "LICENSE",
+      "size": 11343,
+      "blob_id": "6634c8cc3133b3848ec74b9f275acaaa1ea618ab",
+      "lfs_sha256": null
+    },
+    {
+      "name": "README.md",
+      "size": 2973,
+      "blob_id": "36876348676f6ec4efed9edccdf2cd1ea01e365f",
+      "lfs_sha256": null
+    },
+    {
+      "name": "config.json",
+      "size": 727,
+      "blob_id": "43c79dcb3766612b23cbed17d0a56ce63efe4e74",
+      "lfs_sha256": null
+    },
+    {
+      "name": "generation_config.json",
+      "size": 138,
+      "blob_id": "cbbb3133034e192527e5321b4c679154e4819ab8",
+      "lfs_sha256": null
+    },
+    {
+      "name": "merges.txt",
+      "size": 1671853,
+      "blob_id": "31349551d90c7606f325fe0f11bbb8bd5fa0d7c7",
+      "lfs_sha256": null
+    },
+    {
+      "name": "model.safetensors",
+      "size": 1192135096,
+      "blob_id": "a3d64c4f6cf2400d4fd37953c3bc8ade675fe97b",
+      "lfs_sha256": "cd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba"
+    },
+    {
+      "name": "tokenizer.json",
+      "size": 7031645,
+      "blob_id": "443909a61d429dff23010e5bddd28ff530edda00",
+      "lfs_sha256": null
+    },
+    {
+      "name": "tokenizer_config.json",
+      "size": 9678,
+      "blob_id": "6a3829ee9491f36113e64df37573be81df0366f5",
+      "lfs_sha256": null
+    },
+    {
+      "name": "vocab.json",
+      "size": 2776833,
+      "blob_id": "4783fe10ac3adce15ac8f358ef5462739852c569",
+      "lfs_sha256": null
+    }
+  ]
+}

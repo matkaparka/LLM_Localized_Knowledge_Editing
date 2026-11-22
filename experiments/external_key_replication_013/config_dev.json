@@ -1,0 +1,133 @@
+{
+ "status": "DRAFT: data phase; freeze after the dev acceptance checks (PLAN section 4).",
+ "model_path": "E:/research/pause2/models/qwen3_0.6b_base",
+ "dtype": "bfloat16",
+ "torch_seed": 0,
+ "sites": [
+  "model.layers.{i}.mlp.down_proj"
+ ],
+ "layers": "all",
+ "rank": 16,
+ "scale": 1.0,
+ "clip": 1.0,
+ "streams_dir": "data/streams",
+ "phases": {
+  "debug": {
+   "streams": [
+    "crates_debug"
+   ],
+   "cap": 150,
+   "order_check": true
+  },
+  "dev": {
+   "streams": [
+    "pypi_dev",
+    "npm_dev",
+    "crates_dev",
+    "cran_dev"
+   ],
+   "cap": 150
+  },
+  "test": {
+   "streams": [
+    "pypi",
+    "npm",
+    "crates",
+    "cran",
+    "nuget",
+    "packagist",
+    "hackage",
+    "homebrew"
+   ],
+   "cap": 150
+  }
+ },
+ "panels": {
+  "max_cur": 100,
+  "ret_per_step": 25,
+  "max_loc": 6000,
+  "max_new": 24,
+  "gen_batch": 64
+ },
+ "eval": {
+  "widths": [
+   96,
+   128,
+   192,
+   256,
+   384
+  ],
+  "batch": 64,
+  "max_new": 24
+ },
+ "local": {
+  "mode": "route",
+  "layers": [
+   8
+  ],
+  "tau": 0.9,
+  "probe_margin": 0.02,
+  "massive": 200.0,
+  "v_steps": 25,
+  "v_lr": 0.5,
+  "v_wd": 0.5,
+  "clamp": 0.75,
+  "kl": 0.0625,
+  "stop_loss": 0.05,
+  "n_rand": 2,
+  "rand_len": 10,
+  "use_context": true,
+  "chunk": 32,
+  "key_batch": 64
+ },
+ "write_seed": 0,
+ "arms": {
+  "n_shuffles": 8,
+  "uniform": [
+   0.88,
+   0.9,
+   0.92,
+   0.94,
+   0.96,
+   0.98
+  ]
+ },
+ "interventions": {
+  "arms": [
+   "uniform:0.90",
+   "matched",
+   "shuffled:0"
+  ],
+  "max_single": 8
+ },
+ "rule": {
+  "delta": 0.02,
+  "tol_q": 0.02,
+  "tol_r": 0.02,
+  "min_positive_share": 0.75,
+  "bootstrap": 10000,
+  "bootstrap_seed": 0
+ },
+ "events": {
+  "test_start": "2026-03",
+  "dev_start": "2025-07",
+  "debug_start": "2024-11",
+  "months": 8,
+  "per_batch": 125,
+  "spec_quota": 25,
+  "max_rank": 12000,
+  "min_spares": 2000,
+  "hidden_cap": 4000,
+  "probes": 2000,
+  "mu": 20000,
+  "debug": {
+   "per_batch": 12,
+   "spec_quota": 3,
+   "min_spares": 300
+  }
+ },
+ "budget": {
+  "gpu": "RTX 4090",
+  "max_usd_per_hour": 0.5
+ }
+}

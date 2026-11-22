@@ -1,0 +1,105 @@
+{
+  "repo": "lukasthede/WikiBigEdit",
+  "repo_type": "dataset",
+  "revision": "8ddfff0ada5496ce1f0a4989b7a49dd0546be010",
+  "license": "apache-2.0",
+  "listing_endpoint": "https://huggingface.co",
+  "download_endpoint": "https://huggingface.co",
+  "token_used": false,
+  "started_utc": "2026-11-19T10:07:46.187603+00:00",
+  "finished_utc": "2026-11-19T10:08:03.834741+00:00",
+  "local_dir": "/workspace/data/wikibigedit",
+  "all_match": true,
+  "files": [
+    {
+      "name": "README.md",
+      "bytes": 5802,
+      "sha256": "e1876dec62c39dfeb14c2d0c5779c8959ad0d20e4841a9a5d3eade88d1a7a226",
+      "git_blob_id": "e0f66114da3851b2476b57ce4f6ca3901e762ffd",
+      "verified_by": "git_blob_id",
+      "match": true,
+      "source": "downloaded",
+      "parallel": 8
+    },
+    {
+      "name": "wiki_big_edit_20240201_20240220.json",
+      "bytes": 19462537,
+      "sha256": "f84a08a388b5455e626f49e97f8db47174ce10343645fe9238fe536502868424",
+      "git_blob_id": "198f2c78004f1ea7b643a1593249dd000e568b67",
+      "verified_by": "lfs_sha256",
+      "match": true,
+      "source": "downloaded",
+      "parallel": 8
+    },
+    {
+      "name": "wiki_big_edit_20240220_20240301.json",
+      "bytes": 21333627,
+      "sha256": "066ea156f92b3331651b3bf99ce0d42d54c315a9b4738a093f0dde9d9bd3a3cd",
+      "git_blob_id": "78ea0d961f59738eaa552c3b1b79cce11d9444b9",
+      "verified_by": "lfs_sha256",
+      "match": true,
+      "source": "downloaded",
+      "parallel": 8
+    },
+    {
+      "name": "wiki_big_edit_20240301_20240320.json",
+      "bytes": 39439275,
+      "sha256": "bd37dee1615423f227aadc0e66c6ff271f132141cc1e2c68499ffdd03e29a812",
+      "git_blob_id": "0da916a3ec25fd1e76764a5e5ab71218058e964d",
+      "verified_by": "lfs_sha256",
+      "match": true,
+      "source": "downloaded",
+      "parallel": 8
+    },
+    {
+      "name": "wiki_big_edit_20240320_20240401.json",
+      "bytes": 31339379,
+      "sha256": "55332232d064fd19de9004e87180c71b7757c6ecff989e096b6ba2dd178053be",
+      "git_blob_id": "cf65b1dbf5392de13d0a9b5d0f1e43bd2a5e63df",
+      "verified_by": "lfs_sha256",
+      "match": true,
+      "source": "downloaded",
+      "parallel": 8
+    },
+    {
+      "name": "wiki_big_edit_20240401_20240501.json",
+      "bytes": 88519551,
+      "sha256": "e62bb7ce764e4eebcd17b9a72db1c2526a7e987fb0aa5ed0100cac0eb0afa5c5",
+      "git_blob_id": "2ddfd0e06bc1d598d86a19f67f6c0969c0ac43f9",
+      "verified_by": "lfs_sha256",
+      "match": true,
+      "source": "downloaded",
+      "parallel": 8
+    },
+    {
+      "name": "wiki_big_edit_20240501_20240601.json",
+      "bytes": 74356545,
+      "sha256": "cddbdd08aa32f96b3be6d6216fcb53798d8790b01360e7c3ca8209e71abe4da2",
+      "git_blob_id": "f62f163131c248fefde638cd2e34a9776056b505",
+      "verified_by": "lfs_sha256",
+      "match": true,
+      "source": "downloaded",
+      "parallel": 8
+    },
+    {
+      "name": "wiki_big_edit_20240601_20240620.json",
+      "bytes": 52407568,
+      "sha256": "c3e99321a2a1c7444c32af6b73938c97984c5fc19dfba03b1513a2c77608701b",
+      "git_blob_id": "1eda6a0593b9b559a2bb5a025e8ff8fd68481c9b",
+      "verified_by": "lfs_sha256",
+      "match": true,
+      "source": "downloaded",
+      "parallel": 8
+    },
+    {
+      "name": "wiki_big_edit_20240620_20240701.json",
+      "bytes": 41327381,
+      "sha256": "806c18fad3353afc4f8994e388f686b074bfa88b0b0cce68fe64e366b9c1a4b0",
+      "git_blob_id": "4c7e3958ee8c7c4f81d5831b83b67b18ede7be60",
+      "verified_by": "lfs_sha256",
+      "match": true,
+      "source": "downloaded",
+      "parallel": 8
+    }
+  ]
+}

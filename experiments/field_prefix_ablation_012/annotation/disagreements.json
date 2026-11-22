@@ -1,0 +1,5541 @@
+{
+ "n": 510,
+ "items": [
+  {
+   "uid": "0:11661:d93ca15ec734",
+   "question": "What classification do Independent candidates in the 2003 Quebec provincial election belong to?",
+   "entity_labels": [
+    "Independent candidates, 2003 Quebec provincial election"
+   ],
+   "entity_description": "",
+   "candidate_A": "Independent candidates",
+   "candidate_B": "Independent candidates in the 2003 Quebec provincial election"
+  },
+  {
+   "uid": "0:22911:9ce669526b3c",
+   "question": "What specific classification does Wildberg (Schönewalde) belong to?",
+   "entity_labels": [
+    "Wildberg",
+    "Wildberg (Schönewalde)"
+   ],
+   "entity_description": "former municipality in Elbe-Elster district, Brandenburg stae, Germany",
+   "candidate_A": "Wildberg (Schönewalde)",
+   "candidate_B": "Wildberg"
+  },
+  {
+   "uid": "0:26635:2f5c733dc348",
+   "question": "In what format is the distribution of 20 ans ! done?",
+   "entity_labels": [
+    "20 ans !"
+   ],
+   "entity_description": "2015 live album by Les Ogres de Barback",
+   "candidate_A": "20 ans",
+   "candidate_B": "20 ans !"
+  },
+  {
+   "uid": "0:26898:3fd33c067d66",
+   "question": "What class does the North Side of the Walls of Jerusalem belong to as a particular example and member?",
+   "entity_labels": [
+    "Walls of Jerusalem, North Side"
+   ],
+   "entity_description": "work by James Tissot",
+   "candidate_A": "Walls of Jerusalem",
+   "candidate_B": null
+  },
+  {
+   "uid": "0:7316:055858588672",
+   "question": "Who is married to Hyacinthe-Hughes Timoléon de Cossé-Brissac?",
+   "entity_labels": [
+    "Giacinto Ugo Timoleone di Cossé-Brissac",
+    "Hyacinthe-Hughes Timoléon de Cossé-Brissac",
+    "Иасент-Юг-Тимолеон де Коссе-Бриссак",
+    "亚森特-于格·蒂莫莱翁·德·科塞-布里萨克"
+   ],
+   "entity_description": "French soldier and politician (1746-1813)",
+   "candidate_A": "Hyacinthe-Hughes Timoléon de Cossé-Brissac",
+   "candidate_B": null
+  },
+  {
+   "uid": "1:18751:d4bbcc04aa74",
+   "question": "In which city is the headquarters of Escuadrón Aéreo N.º 5 de la Fuerza Aérea Uruguaya located?",
+   "entity_labels": [
+    "Escuadrón Aéreo N.º 5 (Helicópteros)"
+   ],
+   "entity_description": "escuadrón de la Fuerza Aérea Uruguaya",
+   "candidate_A": "Escuadrón Aéreo N.º 5 de la Fuerza Aérea Uruguaya",
+   "candidate_B": null
+  },
+  {
+   "uid": "1:23841:ceed74646999",
+   "question": "What group replaced the Huaxia ethnicity in its role?",
+   "entity_labels": [
+    "Huaxia (ethnicity)",
+    "華夏族",
+    "華夏族群"
+   ],
+   "entity_description": "traced back to the tribes from the middle reaches of Yellow River; known as predecessor of Han ethnic group after the Qin dynasty",
+   "candidate_A": "Huaxia ethnicity",
+   "candidate_B": "Huaxia"
+  },
+  {
+   "uid": "2:10943:45677b9356ea",
+   "question": "What specific type of band is Katzie First Nation an example of?",
+   "entity_labels": [
+    "Katzie",
+    "Katzie First Nation"
+   ],
+   "entity_description": "First Nation in British Columbia, Canada",
+   "candidate_A": "Katzie First Nation",
+   "candidate_B": "Katzie"
+  },
+  {
+   "uid": "2:34238:aae96b408fbf",
+   "question": "Which metropolitan area is Rybnik metropolitan area a part of?",
+   "entity_labels": [
+    "Aglomeracja rybnicko-jastrzębska",
+    "Rybnik-Jastrzębie urban area"
+   ],
+   "entity_description": "urban agglomeration in Poland",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "2:50960:51a92c96f58e",
+   "question": "What is carried by the Railway Footbridge on Beach Lane, West Ferry, Dundee?",
+   "entity_labels": [
+    "Railway Footbridge, Beach Lane, West Ferry, Dundee"
+   ],
+   "entity_description": "footbridge in Dundee, Scotland, UK across the Dundee–Aberdeen line",
+   "candidate_A": "Railway Footbridge",
+   "candidate_B": null
+  },
+  {
+   "uid": "2:53103:12623ab8a34a",
+   "question": "In which larger work was Klęska published?",
+   "entity_labels": [
+    "Klęska"
+   ],
+   "entity_description": "",
+   "candidate_A": "Klęska",
+   "candidate_B": null
+  },
+  {
+   "uid": "3:11120:964327ef107d",
+   "question": "What category does the name Chistyakov/Chystiakov belong to?",
+   "entity_labels": [
+    "Chistyakov",
+    "Czistiakow",
+    "Tschistjakow",
+    "Čisťakov",
+    "Чистяков",
+    "チスチャコフ"
+   ],
+   "entity_description": "family name (Чистяков)",
+   "candidate_A": null,
+   "candidate_B": "Chistyakov"
+  },
+  {
+   "uid": "3:12983:d5ef882976e8",
+   "question": "What category does Valle d'Aosta Pinot Grigio belong to?",
+   "entity_labels": [
+    "Valle d'Aosta Pinot Grigio DOC"
+   ],
+   "entity_description": "type of the Valle d'Aosta Italian controlled designation of origin",
+   "candidate_A": "Valle d'Aosta Pinot Grigio",
+   "candidate_B": null
+  },
+  {
+   "uid": "3:2098:dd232e657cfb",
+   "question": "For which country does Carlos Sainz Jr. compete in his sport?",
+   "entity_labels": [
+    "Carlos Sainz",
+    "Carlos Sainz Jr",
+    "Carlos Sainz Jr.",
+    "Carlos Sainz jr.",
+    "Carlos Sainz junior",
+    "Карлос Сайнс-младший"
+   ],
+   "entity_description": "Spanish racing driver",
+   "candidate_A": "Carlos Sainz Jr.",
+   "candidate_B": "Carlos Sainz"
+  },
+  {
+   "uid": "3:37092:92a8da091675",
+   "question": "What material was the Bible moralisée de Jean le Bon - BNF Fr167 made from?",
+   "entity_labels": [
+    "Bible moralisée de Jean le Bon",
+    "Bible moralisée de Jean le Bon - BNF Fr167"
+   ],
+   "entity_description": "manuscrit enluminé biblique du XIVe siècle",
+   "candidate_A": "Bible moralisée de Jean le Bon - BNF Fr167",
+   "candidate_B": "Bible moralisée de Jean le Bon"
+  },
+  {
+   "uid": "3:5400:9b7d80b86ef4",
+   "question": "What type of settlement is Pelitli in Turkey?",
+   "entity_labels": [
+    "Pelitli"
+   ],
+   "entity_description": "mahalle (administrative quarter) in Pasinler, Erzurum, eastern Turkey",
+   "candidate_A": "Pelitli",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:114624:14fadea52218",
+   "question": "What classification does عید آن سال\\u200cها belong to as a specific example?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "4:12199:e1ea3ac998cd",
+   "question": "What classification does the Temple of Confucius in Qufu fall under?",
+   "entity_labels": [
+    "Confuciustempel van Qufu",
+    "Konfuciustemplet i Qufu",
+    "Konfuciusz temploma",
+    "Konfuciův chrám",
+    "Konfüçyüs Tapınağı",
+    "Kungfutsen temppeli"
+   ],
+   "entity_description": "largest and most renowned temple of Confucius in East Asia",
+   "candidate_A": "Temple of Confucius",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:28871:b5eb04032e54",
+   "question": "Who directed the film \"To Sext or Not To Sext\"?",
+   "entity_labels": [
+    "Naomis Rache",
+    "To Sext or Not To Sext",
+    "To Sext or Not to Sext"
+   ],
+   "entity_description": "episode of 90210 (S2 E2)",
+   "candidate_A": "To Sext or Not To Sext",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:29820:4bdb74f70acb",
+   "question": "In what language was the film or TV show \"Greek to Me\" originally created?",
+   "entity_labels": [
+    "Es leben die Griechen",
+    "Greek to Me",
+    "Piccole grandi scelte",
+    "Tots som germans"
+   ],
+   "entity_description": "episode of Beverly Hills, 90210 (S4 E4)",
+   "candidate_A": "Greek to Me",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:31862:40bc115dc105",
+   "question": "What specific type of barrio-pueblo is Morovis barrio-pueblo considered as in Puerto Rico?",
+   "entity_labels": [
+    "Morovis",
+    "Morovis barrio-pueblo"
+   ],
+   "entity_description": "historical center and municipality seat of Morovis, Puerto Rico",
+   "candidate_A": "Morovis barrio-pueblo",
+   "candidate_B": "Morovis"
+  },
+  {
+   "uid": "4:41636:f9d2135cbe03",
+   "question": "What specific type of climate does Thailand exhibit?",
+   "entity_labels": [
+    "Climat de la Thaïlande",
+    "Klima i Thailand",
+    "clima en Tailandia",
+    "climate of Thailand",
+    "Климат Таиланда"
+   ],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "4:62465:7dde56b7f352",
+   "question": "What category does Turnalı belong to as a specific example and member?",
+   "entity_labels": [
+    "Turnalı"
+   ],
+   "entity_description": "mahalle (administrative quarter) in Kızılcahamam, Ankara, west-central Turkey",
+   "candidate_A": "Turnalı",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:82307:0a24d4172183",
+   "question": "Which station is directly next to Liyuan South Road station on the same line(s)?",
+   "entity_labels": [
+    "Liyuan South Rd station",
+    "Rue Liyuan sud",
+    "丽园南路站"
+   ],
+   "entity_description": "ningbo Metro station",
+   "candidate_A": "Liyuan South",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:33037:6283526b0fb4",
+   "question": "In which administrative territorial entity is Lycée hôtelier de Strasbourg - Alexandre Dumas located?",
+   "entity_labels": [
+    "lycée polyvalent hôtelier Alexandre Dumas d'Illkirch-Graffenstaden"
+   ],
+   "entity_description": "educational facility in Illkirch-Graffenstaden, France",
+   "candidate_A": "Lycée hôtelier de Strasbourg",
+   "candidate_B": "Lycée hôtelier de Strasbourg - Alexandre Dumas"
+  },
+  {
+   "uid": "5:67234:84dadf2b3abb",
+   "question": "Who is the individual that the Solomon-Lautenberg amendment is named after?",
+   "entity_labels": [
+    "Solomon–Lautenberg amendment"
+   ],
+   "entity_description": "federal anti-drug law",
+   "candidate_A": null,
+   "candidate_B": "Solomon-Lautenberg amendment"
+  },
+  {
+   "uid": "5:68361:95d38d55314b",
+   "question": "Which part of the highway system is Famalicão train station a part of?",
+   "entity_labels": [
+    "Bahnhof Famalicão",
+    "Estación de Famalicão",
+    "Estação Ferroviária de Famalicão",
+    "Famalicão",
+    "Famalicão train station",
+    "station Famalicão"
+   ],
+   "entity_description": "railway station in Portugal",
+   "candidate_A": "Famalicão train station",
+   "candidate_B": "Famalicão"
+  },
+  {
+   "uid": "5:7521:806ee0a80160",
+   "question": "Who is the child of William Seward Burroughs I?",
+   "entity_labels": [
+    "William S. Burroughs I",
+    "William Seward Burroughs",
+    "William Seward Burroughs I",
+    "William Seward Burroughs I.",
+    "Williams Seward Burroughs I",
+    "Уильям Сьюард Берроуз"
+   ],
+   "entity_description": "American businessman (1857–1898)",
+   "candidate_A": "William Seward Burroughs I",
+   "candidate_B": "William Seward Burroughs"
+  },
+  {
+   "uid": "5:92760:8b0972da2b6a",
+   "question": "What is the name of the highway system that includes Hrušovany u Brna?",
+   "entity_labels": [
+    "Hrušovany u Brna",
+    "station Hrušovany u Brna"
+   ],
+   "entity_description": "railway station in Hrušovany u Brna, Czech Republic",
+   "candidate_A": "Hrušovany u Brna",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:93761:b175f69be865",
+   "question": "What is the name of the spacecraft vehicle designated to move Koreasat 7 from a reference orbit to the target orbit or direct it to an interplanetary trajectory?",
+   "entity_labels": [
+    "Koreasat 7",
+    "コリアサット7号"
+   ],
+   "entity_description": "South Korean geostationary communications satellite",
+   "candidate_A": "Koreasat 7",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:23457:75aeac02edec",
+   "question": "In what language was the film or TV show associated with 6955 kHz originally created?",
+   "entity_labels": [
+    "6955 kHz",
+    "Fréquence pirate"
+   ],
+   "entity_description": "episode of Fringe (S3 E6)",
+   "candidate_A": "6955 kHz",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:36983:e3648687af22",
+   "question": "What specific type of solar eclipse occurred on January 25, 77 BC?",
+   "entity_labels": [
+    "solar eclipse of January 25, 77 BC",
+    "éclipse solaire du 25 janvier 77 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "January 25, 77 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:37872:1a9c1242e17f",
+   "question": "What specific type of solar eclipse was the event that occurred on December 20, 1228 BC?",
+   "entity_labels": [
+    "solar eclipse of December 20, 1228 BC",
+    "éclipse solaire du 20 décembre 1228 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "December 20, 1228 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:38506:b3546a5ee3ef",
+   "question": "What specific type of solar eclipse was the event on March 29, 498 BC?",
+   "entity_labels": [
+    "solar eclipse of March 29, 498 BC",
+    "éclipse solaire du 29 mars 498 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "March 29, 498 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:39478:6e796199b64b",
+   "question": "What specific type of solar eclipse occurred on October 25, 1467 BC?",
+   "entity_labels": [
+    "solar eclipse of October 25, 1467 BC",
+    "éclipse solaire du 25 octobre 1467 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "October 25, 1467 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:39733:1dcd3903de91",
+   "question": "What specific type of solar eclipse occurred on December 7, 1395 BC?",
+   "entity_labels": [
+    "solar eclipse of December 7, 1395 BC",
+    "éclipse solaire du 7 décembre 1395 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "December 7, 1395 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:44323:37631c5929ea",
+   "question": "What specific type of solar eclipse occurred on January 6, 1470 BC?",
+   "entity_labels": [
+    "solar eclipse of January 6, 1470 BC",
+    "éclipse solaire du 6 janvier 1470 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "January 6, 1470 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:4567:44a7c6ca210b",
+   "question": "What type of geographical entity is Quito?",
+   "entity_labels": [
+    "Quito",
+    "基多"
+   ],
+   "entity_description": "family name",
+   "candidate_A": "Quito",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:54318:5023b4d66ae8",
+   "question": "What event immediately followed the Trofeo Emma Cuervo 2012 in the series?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Trofeo Emma Cuervo 2012"
+  },
+  {
+   "uid": "6:59638:50b11340a937",
+   "question": "What category does Skandální aféra Josefa Holouška/Kapitola 8 belong to as a unique example?",
+   "entity_labels": [
+    "Skandální aféra Josefa Holouška: Kapitola 8"
+   ],
+   "entity_description": "short story by Karel Čapek",
+   "candidate_A": "Skandální aféra Josefa Holouška/Kapitola 8",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:64079:7c3e465a43b9",
+   "question": "In which specific time period did Union Lodge undergo refinement at 8 Carricknaveagh Road?",
+   "entity_labels": [
+    "Union Lodge, 8 Carricknaveagh Road"
+   ],
+   "entity_description": "house in Lisburn, County Down, Northern Ireland",
+   "candidate_A": "Union Lodge",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:1411:c25937175363",
+   "question": "Who is the owner of South Acton railway station?",
+   "entity_labels": [
+    "Acton Sud",
+    "Bahnhof South Acton",
+    "Estação de South Acton",
+    "South Acton",
+    "South Acton railway station",
+    "Station South Acton"
+   ],
+   "entity_description": "railway station in South Acton, London Borough of Ealing, England, UK",
+   "candidate_A": "South Acton railway station",
+   "candidate_B": "South Acton"
+  },
+  {
+   "uid": "7:20388:b543dcbda2c3",
+   "question": "What specific category does Vakıflar belong to as a particular example and member?",
+   "entity_labels": [
+    "Vakıflar"
+   ],
+   "entity_description": "mahalle (administrative quarter) in Ergene, Tekirdağ, northwestern Turkey",
+   "candidate_A": "Vakıflar",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:25021:eff44e83ed96",
+   "question": "What class does Çamiçi in Tokat belong to as a particular example and member?",
+   "entity_labels": [
+    "Çamiçi Yaylası",
+    "Çamiçi i Tokat"
+   ],
+   "entity_description": "neighborhood in Tokat, Black Sea, Turkey",
+   "candidate_A": null,
+   "candidate_B": "Çamiçi"
+  },
+  {
+   "uid": "7:26477:228f3b09e370",
+   "question": "What is the specific category that Bildim belongs to as a particular example or member?",
+   "entity_labels": [
+    "Bildim"
+   ],
+   "entity_description": "mahalle (administrative quarter) in Eyyübiye, Şanlıurfa, southeastern Turkey",
+   "candidate_A": "Bildim",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:27753:0ed655ba7a70",
+   "question": "What category does İmrenler belong to as a particular example and member?",
+   "entity_labels": [
+    "İmrenler"
+   ],
+   "entity_description": "mahalle (administrative quarter) in Hüyük, Konya, central Turkey",
+   "candidate_A": "İmrenler",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:30741:c8a5a6ef9720",
+   "question": "From which country does Analisis Dimensi & Similitud dalam Mekanik Bendalir originate?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "7:31460:49d299fec570",
+   "question": "What is the country of origin of Magnet Cinta?",
+   "entity_labels": [
+    "[Love Magnet]"
+   ],
+   "entity_description": "book",
+   "candidate_A": null,
+   "candidate_B": "Magnet Cinta"
+  },
+  {
+   "uid": "7:31498:3798606aa809",
+   "question": "What specific type of publication is \"Meja Runding - Dari Konflik ke Solusi Strategik\" considered to be?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "7:31721:24c8829b398e",
+   "question": "What is the country of origin of Pembangunan aplikasi web menggunakan Active Server Pages (ASP)?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Pembangunan aplikasi web menggunakan Active Server Pages (ASP)"
+  },
+  {
+   "uid": "7:31796:4029bb97063b",
+   "question": "What specific class does \"Persaingan Hiperkompetitif: Bersaing Dalam Persekitaran Sangat Dinamik\" belong to?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Persaingan Hiperkompetitif: Bersaing Dalam Persekitaran Sangat Dinamik"
+  },
+  {
+   "uid": "7:31806:494810b598fd",
+   "question": "Which country is Pesona Sandora from?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Pesona Sandora"
+  },
+  {
+   "uid": "7:39046:15b78ee61908",
+   "question": "In which historic county is 40 Charlotte Square located in Edinburgh?",
+   "entity_labels": [
+    "40 Charlotte Square, Edinburgh"
+   ],
+   "entity_description": "terrace house in Edinburgh, Scotland, UK",
+   "candidate_A": "40 Charlotte Square",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:39161:8bdd1be2936d",
+   "question": "What historic county is 24 Rutland Square in Edinburgh located in?",
+   "entity_labels": [
+    "24 Rutland Square, Edinburgh"
+   ],
+   "entity_description": "architectural structure in City of Edinburgh, Scotland, UK",
+   "candidate_A": "24 Rutland Square",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:39526:694ee7c65587",
+   "question": "Which historic county does 9-13 York Place in Edinburgh belong to?",
+   "entity_labels": [
+    "9-13 York Place, Edinburgh"
+   ],
+   "entity_description": "terrace house in Edinburgh, Scotland, UK",
+   "candidate_A": "9-13 York Place",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:41378:3139c0a92b67",
+   "question": "In which historic county is 22 Albyn Place located in Aberdeen?",
+   "entity_labels": [
+    "22 Albyn Place, Aberdeen"
+   ],
+   "entity_description": "architectural structure in Aberdeen City, Scotland, UK",
+   "candidate_A": "22 Albyn Place",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:41565:ced697bdff3e",
+   "question": "In which historic county is Learney House's Stable Block located?",
+   "entity_labels": [
+    "Stable Block, Learney House"
+   ],
+   "entity_description": "architectural structure in Aberdeenshire, Scotland, UK",
+   "candidate_A": "Learney House",
+   "candidate_B": "Learney House's Stable Block"
+  },
+  {
+   "uid": "7:42189:93f3942c44ae",
+   "question": "In which historic county is Kilmaglash Parish Church and Sculptured Stones located in Strachur?",
+   "entity_labels": [
+    "Kilmaglash Parish Church and Sculptured Stones, Strachur"
+   ],
+   "entity_description": "church in Argyll and Bute, Scotland, UK",
+   "candidate_A": "Kilmaglash Parish Church and Sculptured Stones",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:42746:c62fd948a525",
+   "question": "In which historic county is 31 Main Street, Newburgh located within Shanghai?",
+   "entity_labels": [
+    "Shanghai, 31 Main Street, Newburgh"
+   ],
+   "entity_description": "house in Newburgh, Aberdeenshire, Scotland, UK",
+   "candidate_A": "Shanghai",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:42780:77807407527d",
+   "question": "In which historic county is East Lodge located in Lanfine?",
+   "entity_labels": [
+    "East Lodge, Lanfine"
+   ],
+   "entity_description": "architectural structure in East Ayrshire, Scotland, UK",
+   "candidate_A": "East Lodge",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:43292:587244e1cc1d",
+   "question": "In which historic county is 21 Buccleuch Street located in Dumfries?",
+   "entity_labels": [
+    "21 Buccleuch Street, Dumfries"
+   ],
+   "entity_description": "tenement in Dumfries, Dumfries and Galloway, Scotland, UK",
+   "candidate_A": "21 Buccleuch Street",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:44049:5b71aee47b78",
+   "question": "In which historic county is 21-23 Thistle Street located in Edinburgh?",
+   "entity_labels": [
+    "21-23 Thistle Street, Edinburgh"
+   ],
+   "entity_description": "terrace house in Edinburgh, Scotland, UK",
+   "candidate_A": "21-23 Thistle Street",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:44190:d7ba9719fa03",
+   "question": "In which historic county is Balcarres House located, home to the Terraced Gardens?",
+   "entity_labels": [
+    "Terraced Gardens, Balcarres House"
+   ],
+   "entity_description": "architectural structure in Fife, Scotland, UK",
+   "candidate_A": "Terraced Gardens",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:44858:dea85f72fb5d",
+   "question": "In which historic county is Jute Warehouse 4 located within Camperdown Works on Methven Street in Dundee?",
+   "entity_labels": [
+    "Jute Warehouse 4, Camperdown Works, Methven Street, Dundee"
+   ],
+   "entity_description": "warehouse in Dundee, Scotland, UK",
+   "candidate_A": "Jute Warehouse 4",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:44956:5164403ba95b",
+   "question": "What location is 29 High Street in Dunbar a part of?",
+   "entity_labels": [
+    "29 High Street, Dunbar"
+   ],
+   "entity_description": "terrace house in Dunbar, East Lothian, Scotland, UK",
+   "candidate_A": "29 High Street",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:47741:39323e80c2bc",
+   "question": "Which historic county does 49 Cockburn Street in Edinburgh belong to?",
+   "entity_labels": [
+    "49 Cockburn Street, Edinburgh"
+   ],
+   "entity_description": "architectural structure in City of Edinburgh, Scotland, UK",
+   "candidate_A": "49 Cockburn Street",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:48593:1f3ede1c461a",
+   "question": "In which historic county is the Old Town Hall located in Pleasance Street, Pollokshaws, Glasgow?",
+   "entity_labels": [
+    "Old Town Hall, Pleasance Street, Pollokshaws, Glasgow"
+   ],
+   "entity_description": "city hall in Glasgow, Scotland, UK",
+   "candidate_A": "Old Town Hall",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:48921:8943325b495c",
+   "question": "In which historic county is Recreation Hall located, along Richardson Road, Tormore Distillery?",
+   "entity_labels": [
+    "Recreation Hall, Richardson Road, Tormore Distillery"
+   ],
+   "entity_description": "hall in Cromdale, Highland, Scotland, UK",
+   "candidate_A": "Tormore Distillery",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:49768:27d95da173b1",
+   "question": "In which historic county is the Manse Tongue located in Gatepiers?",
+   "entity_labels": [
+    "Gatepiers, Manse, Tongue"
+   ],
+   "entity_description": "architectural structure in Highland, Scotland, UK",
+   "candidate_A": "Gatepiers",
+   "candidate_B": "Manse Tongue"
+  },
+  {
+   "uid": "7:51088:75e18a3cca80",
+   "question": "In which historic county is Druimuan located in Killiecrankie?",
+   "entity_labels": [
+    "Druimuan, Killiecrankie"
+   ],
+   "entity_description": "building in Perth and Kinross, Scotland, UK",
+   "candidate_A": "Killiecrankie",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:51103:c527caf20ee7",
+   "question": "In which historic county is West Lodge located within Drummond Castle?",
+   "entity_labels": [
+    "West Lodge, Drummond Castle"
+   ],
+   "entity_description": "architectural structure in Perth and Kinross, Scotland, UK",
+   "candidate_A": "Drummond Castle",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:51247:08d3c7a288dc",
+   "question": "In which historic county is Hilton Farmhouse located in Whitsome, as part of the Outbuilding?",
+   "entity_labels": [
+    "Outbuilding, Hilton Farmhouse, Whitsome"
+   ],
+   "entity_description": "appendage in Scottish Borders, Scotland, UK",
+   "candidate_A": "Outbuilding",
+   "candidate_B": "Hilton Farmhouse"
+  },
+  {
+   "uid": "7:52963:5ddf49766074",
+   "question": "What specific classification does \"Do lipy\" belong to within the category of version, edition, or translation?",
+   "entity_labels": [
+    "Do lipy"
+   ],
+   "entity_description": "",
+   "candidate_A": "Do lipy",
+   "candidate_B": null
+  },
+  {
+   "uid": "0:18710:9ce48fcf2791",
+   "question": "What is the country of origin of 直CUE!勝負 目指せ!北海道完全征服!?",
+   "entity_labels": [
+    "直CUE!勝負 目指せ!北海道完全征服!?"
+   ],
+   "entity_description": "",
+   "candidate_A": "直CUE!勝負 目指せ!北海道完全征服!?",
+   "candidate_B": "直CUE!勝負 目指せ!北海道完全征服!"
+  },
+  {
+   "uid": "0:22005:273996532c40",
+   "question": "What year directly succeeded 2000 in badminton?",
+   "entity_labels": [
+    "2000 en badminton",
+    "2000 in badminton",
+    "2000 no badminton",
+    "2000年のバドミントン",
+    "2000年羽毛球",
+    "Badminton 2000"
+   ],
+   "entity_description": "overview of badminton-related events during the year of 2000",
+   "candidate_A": "2000 in badminton",
+   "candidate_B": "2000"
+  },
+  {
+   "uid": "0:7873:1481b8687992",
+   "question": "What category does Kazakhs in Altai Republic belong to as a particular example and member?",
+   "entity_labels": [
+    "Altay Cumhuriyeti Kazakları",
+    "Kazakhs in the Altai Republic",
+    "Алтайские казахи"
+   ],
+   "entity_description": "ethnic group in Russia",
+   "candidate_A": "Altai Republic",
+   "candidate_B": null
+  },
+  {
+   "uid": "1:20211:d9baf36b8c38",
+   "question": "What class does the قالب:Fb team abb Le Mans belong to as a specific example?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Le Mans"
+  },
+  {
+   "uid": "2:13533:549076902f76",
+   "question": "Who founded Fongers bicycles?",
+   "entity_labels": [
+    "Fongers",
+    "Fongers bicycles"
+   ],
+   "entity_description": "former Dutch bicycle manufacturer",
+   "candidate_A": "Fongers bicycles",
+   "candidate_B": "Fongers"
+  },
+  {
+   "uid": "2:13534:f0dae81d40e4",
+   "question": "Where are the archives of Fongers bicycles held?",
+   "entity_labels": [
+    "Fongers",
+    "Fongers bicycles"
+   ],
+   "entity_description": "former Dutch bicycle manufacturer",
+   "candidate_A": "Fongers bicycles",
+   "candidate_B": "Fongers"
+  },
+  {
+   "uid": "2:22682:91fb349f819e",
+   "question": "Who is the Cardinal that inspired the name of the Cardinal Mercier Prize for International Philosophy?",
+   "entity_labels": [
+    "Cardinal Mercier Prize for International Philosophy",
+    "Cardinal-Mercier-Preis",
+    "Prix Cardinal Mercier",
+    "Prix Mercier",
+    "premi Mercier"
+   ],
+   "entity_description": "Belgian philosophy award (1975-)",
+   "candidate_A": "Cardinal Mercier Prize for International Philosophy",
+   "candidate_B": "Cardinal Mercier"
+  },
+  {
+   "uid": "2:32413:7dbf6ee63ce2",
+   "question": "What type of creative work is \"The Trip\" created by Snow Patrol?",
+   "entity_labels": [
+    "The Trip: Created by Snow Patrol"
+   ],
+   "entity_description": "compilation album by Snow Patrol",
+   "candidate_A": "The Trip\" created by Snow Patrol",
+   "candidate_B": "The Trip"
+  },
+  {
+   "uid": "2:41285:ce29f1b73a6c",
+   "question": "What type of structure is Aranya Devi Temple in Arrah an example of?",
+   "entity_labels": [
+    "Aranya Devi Temple, Arrah"
+   ],
+   "entity_description": "Hindu temple dedicated to Goddess Adishakti in Arrah, Bihar",
+   "candidate_A": "Aranya Devi Temple",
+   "candidate_B": null
+  },
+  {
+   "uid": "2:7807:8955519ab3df",
+   "question": "Where is Hirado Castle located?",
+   "entity_labels": [
+    "Burg Hirado",
+    "Castello di Hirado",
+    "Castillo Hirado",
+    "Hirado",
+    "Hirado Castle",
+    "Hirado Kalesi"
+   ],
+   "entity_description": "Japanese castle in Hirado, Nagasaki prefecture",
+   "candidate_A": "Hirado Castle",
+   "candidate_B": "Hirado"
+  },
+  {
+   "uid": "3:1085:c3c6c75b2770",
+   "question": "Who was Afife Nurbanu Sultan in a relationship with without being married?",
+   "entity_labels": [
+    "Afife Nurbanu Sultan",
+    "Nur-Banu",
+    "Nurbanu",
+    "Nurbanu Sultan",
+    "Nurbanu haseki Sultan",
+    "Nurbanu szultána"
+   ],
+   "entity_description": "Valide Sultan of the Ottoman Empire from 1574 to 1583",
+   "candidate_A": "Afife Nurbanu Sultan",
+   "candidate_B": null
+  },
+  {
+   "uid": "3:29851:1c289688e4ee",
+   "question": "What term describes KK 드래프트 사건 as a specific example and member?",
+   "entity_labels": [
+    "KKドラフト事件"
+   ],
+   "entity_description": "1985年のプロ野球ドラフト会議での騒動",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "3:5082:e370457fb313",
+   "question": "Which series contains Need for Speed: Hot Pursuit?",
+   "entity_labels": [
+    "Need for Speed: Hot Pursuit",
+    "ニード・フォー・スピード ホット・パースート",
+    "極速快感：超熱力追緝"
+   ],
+   "entity_description": "2010 racing video game",
+   "candidate_A": "Need for Speed: Hot Pursuit",
+   "candidate_B": "Need for Speed"
+  },
+  {
+   "uid": "3:788:ca11e7de6955",
+   "question": "What body of water is the North Aegean Region named after?",
+   "entity_labels": [
+    "Egeea de Nord",
+    "Egeo Settentrionale",
+    "Egeu Septentrional",
+    "Egeu Setentrional",
+    "Kuzey Ege",
+    "Noord-Egeïsche Eilanden"
+   ],
+   "entity_description": "one of the 13 regions of Greece",
+   "candidate_A": "North Aegean Region",
+   "candidate_B": "North Aegean"
+  },
+  {
+   "uid": "4:25930:cdaa66f1917d",
+   "question": "What was the country of origin of the May family?",
+   "entity_labels": [
+    "May",
+    "May family",
+    "famille von May",
+    "von May",
+    "梅家族"
+   ],
+   "entity_description": "family",
+   "candidate_A": "May family",
+   "candidate_B": "May"
+  },
+  {
+   "uid": "4:29759:311e5ee28883",
+   "question": "What class does Grohas belong to as a particular example and member?",
+   "entity_labels": [
+    "Грох"
+   ],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Grohas"
+  },
+  {
+   "uid": "4:78185:e7beffccf30f",
+   "question": "What type of category does \"Kategorija:Proletarske brigade Narodnoosvobodilne vojske in partizanskih odredov Jugoslavije\" belong to in Wikimedia?",
+   "entity_labels": [],
+   "entity_description": "Wikimedia category",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "4:78192:4b5450c96d5b",
+   "question": "Which system is Pancoran LRT station a part of?",
+   "entity_labels": [
+    "Pancoran",
+    "Pancoran Bank BJB LRT station"
+   ],
+   "entity_description": "light rail station in South Jakarta, Indonesia",
+   "candidate_A": "Pancoran LRT station",
+   "candidate_B": "Pancoran"
+  },
+  {
+   "uid": "5:12295:37ce05f2a300",
+   "question": "Which district is Kalo Chorio Soleas a part of?",
+   "entity_labels": [
+    "Kalo Chorio",
+    "Kalo Chorio Lefkas",
+    "Kalo Chorio Soleas",
+    "Kaló Chorió (Lefke)",
+    "Çamlıköy"
+   ],
+   "entity_description": "human settlement in Cyprus",
+   "candidate_A": "Kalo Chorio Soleas",
+   "candidate_B": "Kalo Chorio"
+  },
+  {
+   "uid": "5:19614:c8b9ff65f7b7",
+   "question": "In or next to which body of water is Neckartal Dam located?",
+   "entity_labels": [
+    "Barajul Neckartal",
+    "Diga di Neckertal",
+    "Neckartal Dam",
+    "Neckartal-Damm",
+    "Neckartaldam",
+    "Presa de Neckartal"
+   ],
+   "entity_description": "dam in Namibia",
+   "candidate_A": "Neckartal Dam",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:30130:9eec6eba98f5",
+   "question": "What is the capital of Aïn Defla District?",
+   "entity_labels": [
+    "'Ayn Defla District",
+    "Aïn Defla",
+    "Aïn Defla District",
+    "Districtul Aïn Defla",
+    "distretto di ʿAyn Defla",
+    "アインデフラ郡"
+   ],
+   "entity_description": "district of Algeria",
+   "candidate_A": "Aïn Defla District",
+   "candidate_B": "Aïn Defla"
+  },
+  {
+   "uid": "5:84610:26fbdbfcc836",
+   "question": "In which administrative territorial entity is Oranienbaumskiy Descent situated?",
+   "entity_labels": [
+    "Oranienbaumsky Descent",
+    "Ораниенбаумский спуск"
+   ],
+   "entity_description": "street in Peterhof, Saint Petersburg, Russia",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "5:86779:86e8658c23b4",
+   "question": "Where did Valentin Belyayev attend for his education?",
+   "entity_labels": [
+    "Valentin Beljajev",
+    "Valentin Ivanovitsj Beljaev",
+    "Walentin Beljajew",
+    "Беляев, Валентин Иванович"
+   ],
+   "entity_description": "Estonian footballer and handball coach (born 1937)",
+   "candidate_A": null,
+   "candidate_B": "Valentin Belyayev"
+  },
+  {
+   "uid": "6:24471:e0fcb7472567",
+   "question": "What specific type of solar eclipse occurred on October 15, 2069?",
+   "entity_labels": [
+    "2069年10月15日の日食",
+    "2069年10月15日日食",
+    "Eclissi solare del 15 ottobre 2069",
+    "solar eclipse of October 15, 2069",
+    "éclipse solaire du 15 octobre 2069"
+   ],
+   "entity_description": "future partial solar eclipse",
+   "candidate_A": "October 15, 2069",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:36394:96c500998fc3",
+   "question": "What specific type of solar eclipse occurred on May 8, 92 BC?",
+   "entity_labels": [
+    "solar eclipse of May 8, 92 BC",
+    "éclipse solaire du 8 mai 92 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "May 8, 92 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:37702:04b3b6386ed7",
+   "question": "What type of solar eclipse was the event on September 19, 750 BC?",
+   "entity_labels": [
+    "solar eclipse of September 19, 750 BC",
+    "éclipse solaire du 19 septembre 750 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "September 19, 750 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:38083:d61aa5b66544",
+   "question": "What specific type of solar eclipse was the event on May 12, 947 BC?",
+   "entity_labels": [
+    "solar eclipse of May 12, 947 BC",
+    "éclipse solaire du 12 mai 947 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "May 12, 947 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:38440:ed5d92ac5f0f",
+   "question": "What type of solar eclipse occurred on June 11, 418 BC?",
+   "entity_labels": [
+    "solar eclipse of June 11, 418 BC",
+    "éclipse solaire du 11 juin 418 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "June 11, 418 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:39388:97a0a012d101",
+   "question": "What type of solar eclipse was the eclipse that occurred on July 22, 1035 BC?",
+   "entity_labels": [
+    "solar eclipse of July 22, 1035 BC",
+    "éclipse solaire du 22 juillet 1035 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "July 22, 1035 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:47614:b291aa10b2b6",
+   "question": "What specific type of solar eclipse occurred on December 24, 1916?",
+   "entity_labels": [
+    "1916年12月24日の日食",
+    "1916年12月24日日食",
+    "Eclissi solare del 24 dicembre 1916",
+    "solar eclipse of December 24, 1916",
+    "éclipse solaire du 24 décembre 1916"
+   ],
+   "entity_description": "20th-century partial solar eclipse",
+   "candidate_A": "December 24, 1916",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:66385:55009001475e",
+   "question": "What year directly succeeded 2000 in Nunavut?",
+   "entity_labels": [
+    "2000 au Nunavut",
+    "2000 i Nunavut",
+    "2000 in Nunavut"
+   ],
+   "entity_description": "overview of Nunavut-related events during the year of 2000",
+   "candidate_A": "2000 in Nunavut",
+   "candidate_B": "2000"
+  },
+  {
+   "uid": "6:7390:59cd523d97a7",
+   "question": "What is the main subject of the Eidgenössische Volksinitiative «Für die Unverjährbarkeit pornografischer Straftaten an Kindern»?",
+   "entity_labels": [
+    "Eidgenössische Volksinitiative «Für die Unverjährbarkeit pornografischer Straftaten an Kindern»",
+    "Initiative populaire « Pour l'imprescriptibilité des actes de pornographie enfantine »",
+    "Iniziativa popolare federale 'per l'imprescrittibilità dei reati di pornografia infantile'"
+   ],
+   "entity_description": "eidgenössische Volksinitiative (2008)",
+   "candidate_A": "Eidgenössische Volksinitiative «Für die Unverjährbarkeit pornografischer Straftaten an Kindern»",
+   "candidate_B": "Für die Unverjährbarkeit pornografischer Straftaten an Kindern"
+  },
+  {
+   "uid": "6:8651:8debfcf0e5be",
+   "question": "What title does Paul Verlaine University - Metz confer on individuals from Metz universitet?",
+   "entity_labels": [
+    "Metská univerzita",
+    "Paul Verlaine University – Metz",
+    "Universitat de Metz",
+    "Universiteit van Metz",
+    "Universität Metz",
+    "université de Metz"
+   ],
+   "entity_description": "former French university in Metz, France, founded in 1970, merged (and hence aboliished) in 2012 with Nancy I and Nancy II and National Polytechnic Institute of Lorraine to form University of Lorraine",
+   "candidate_A": "Paul Verlaine University",
+   "candidate_B": "Paul Verlaine University - Metz"
+  },
+  {
+   "uid": "7:24265:513b85215a69",
+   "question": "In which statistical territorial entity is Çağa located?",
+   "entity_labels": [
+    "Çağa"
+   ],
+   "entity_description": "mahalle (administrative quarter) in Siverek, Şanlıurfa, southeastern Turkey",
+   "candidate_A": "Çağa",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:26369:9020103577b2",
+   "question": "What category does Ağcıl belong to as a specific example and member?",
+   "entity_labels": [
+    "Ağcıl"
+   ],
+   "entity_description": "mahalle (administrative quarter) in Harran, Şanlıurfa, southeastern Turkey",
+   "candidate_A": "Ağcıl",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:30883:a9f9b11528b5",
+   "question": "What is the country of origin of Bos Dipuji Bos Dibenci?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Bos Dipuji Bos Dibenci"
+  },
+  {
+   "uid": "7:31077:3a48b1241600",
+   "question": "From which country does Fikri Saintis Muda originate?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Fikri Saintis Muda"
+  },
+  {
+   "uid": "7:31089:51c69376d432",
+   "question": "From which country does Fundamentals of Explosive Chemistry originate?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "7:31947:dce76a8a0c14",
+   "question": "From which country does Sarah dan Anting-anting originate?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Sarah"
+  },
+  {
+   "uid": "7:39191:3ff9c9b455f7",
+   "question": "In which historic county is the Bank located at 26, 28 Bothwell Street, Glasgow?",
+   "entity_labels": [
+    "Bank, 26, 28 Bothwell Street, Glasgow"
+   ],
+   "entity_description": "building in Glasgow City, Scotland, UK",
+   "candidate_A": "Bank",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:40446:d1f28724f064",
+   "question": "In which historic county is 100-108 Commercial Street located in Dundee?",
+   "entity_labels": [
+    "100-108 Commercial Street, Dundee"
+   ],
+   "entity_description": "architectural structure in Dundee City, Scotland, UK",
+   "candidate_A": "100-108 Commercial Street",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:41124:4350b54c3a0a",
+   "question": "In which historic county is Parish Manse located in Tyrie?",
+   "entity_labels": [
+    "Parish Manse, Tyrie"
+   ],
+   "entity_description": "architectural structure in Aberdeenshire, Scotland, UK",
+   "candidate_A": "Parish Manse",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:41173:5afa3726479e",
+   "question": "In which historic county is the Bank located at 40 Albyn Place, Aberdeen?",
+   "entity_labels": [
+    "Bank, 40 Albyn Place, Aberdeen"
+   ],
+   "entity_description": "bank building in Aberdeen City, Scotland, UK",
+   "candidate_A": "Bank",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:41396:e1ef1135239c",
+   "question": "In which historic county is Tarbet Hotel located?",
+   "entity_labels": [
+    "Tarbet Hotel, Tarbet"
+   ],
+   "entity_description": "hotel in Argyll and Bute, Scotland, UK",
+   "candidate_A": "Tarbet Hotel",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:41881:5c26fd95cb6b",
+   "question": "In which historic county is the Manse near the Old Parish Church of Eassie located?",
+   "entity_labels": [
+    "Manse, Old Parish Church, Eassie"
+   ],
+   "entity_description": "church in Angus, Scotland, UK",
+   "candidate_A": "Eassie",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:42378:d787199d85d5",
+   "question": "What type of road does the Bridge on Castle Road in Cruden Bay carry?",
+   "entity_labels": [
+    "Bridge, Castle Road, Cruden Bay",
+    "Cruden Bay, Castle Road, Bridge"
+   ],
+   "entity_description": "bridge in Cruden Bay, Aberdeenshire, Scotland, UK, carries a minor road across Gask Burn",
+   "candidate_A": "Cruden Bay",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:46059:be612c479954",
+   "question": "To which historic county does 11 Court Street in Dundee belong?",
+   "entity_labels": [
+    "11 Court Street, Dundee"
+   ],
+   "entity_description": "tenement in Dundee, Scotland, UK",
+   "candidate_A": "11 Court Street",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:46925:79c636efb389",
+   "question": "In which historic county is 17, 19, 21 East Trinity Road and Gatepiers located in Edinburgh?",
+   "entity_labels": [
+    "17, 19, 21 East Trinity Road and Gatepiers, Edinburgh"
+   ],
+   "entity_description": "architectural structure in City of Edinburgh, Scotland, UK",
+   "candidate_A": "Edinburgh",
+   "candidate_B": "17, 19, 21 East Trinity Road and Gatepiers"
+  },
+  {
+   "uid": "7:48721:12847a2f8c4e",
+   "question": "In which historic county is the Shed located within Bouprie Farm Steading?",
+   "entity_labels": [
+    "Shed, Bouprie Farm Steading"
+   ],
+   "entity_description": "farmstead in Bouprie Farm Steading, Fife, Scotland, UK",
+   "candidate_A": "Bouprie Farm Steading",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:49129:16d3a9d22088",
+   "question": "In which historic county is St Michael's Roman Catholic Chapel located in Tomintoul?",
+   "entity_labels": [
+    "St Michael's Roman Catholic Chapel, Tomintoul"
+   ],
+   "entity_description": "church building in Moray, Scotland, UK",
+   "candidate_A": "St Michael's Roman Catholic Chapel",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:50464:5b841ef8dec4",
+   "question": "In which historic county is the Old Parish Church and Graveyard located in Low Coylton?",
+   "entity_labels": [
+    "Old Parish Church and Graveyard, Low Coylton"
+   ],
+   "entity_description": "architectural structure in South Ayrshire, Scotland, UK",
+   "candidate_A": "Old Parish Church and Graveyard",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:50914:f635199c9c12",
+   "question": "What historic county is Central Block, Northern Steading Range, Polwarth Crofts, Packman's Brae, and Polwarth located in, according to traditional geographical division of Great Britain and Ireland?",
+   "entity_labels": [
+    "Central Block, Northern Steading Range, Polwarth Crofts, Packman's Brae, Polwarth"
+   ],
+   "entity_description": "architectural structure in Scottish Borders, Scotland, UK",
+   "candidate_A": "Central Block",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:51649:988a9455d612",
+   "question": "What type of building is New Abbey Parish Church in Dunfermline an example of?",
+   "entity_labels": [
+    "New Abbey Parish Church, Dunfermline Abbey, Dunfermline"
+   ],
+   "entity_description": "church building in Fife, Scotland, UK",
+   "candidate_A": "New Abbey Parish Church",
+   "candidate_B": null
+  },
+  {
+   "uid": "0:1684:016d7871f214",
+   "question": "Which organization named the Memphis metropolitan area?",
+   "entity_labels": [
+    "Memphis metropolitan area",
+    "Metropolregion Memphis",
+    "aire métropolitaine de Memphis",
+    "area metropolitana di Memphis-Forrest City",
+    "Área metropolitana de Memphis"
+   ],
+   "entity_description": "metropolitan area in Tennessee, Mississippi, and Arkansas, United States",
+   "candidate_A": "Memphis metropolitan area",
+   "candidate_B": null
+  },
+  {
+   "uid": "0:17234:b4e1d7b965d2",
+   "question": "What type of page is Nguyễn Đình Toàn on Wikimedia?",
+   "entity_labels": [],
+   "entity_description": "Wikimedia disambiguation page",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "0:19895:69afc266c238",
+   "question": "What type of school is Taipei Municipal Dali High School?",
+   "entity_labels": [
+    "Escola Secundária Dali Afiliada à Universidade de Taipei",
+    "Escuela Secundaria Dali, afiliada a la Universidad de Taipéi",
+    "The Affiliated High School of University Of Taipei",
+    "institut de secundària Dali",
+    "台北市立大学附属高等学校",
+    "臺北市立大學附屬大理高級中等學校"
+   ],
+   "entity_description": "位於臺灣臺北市萬華區的一所臺北市立大學的附屬中學",
+   "candidate_A": "High School",
+   "candidate_B": null
+  },
+  {
+   "uid": "0:7211:ec6e1049cce3",
+   "question": "What is the name of the railway service that includes Bogliasco railway halt in its system?",
+   "entity_labels": [
+    "Bogliasco",
+    "Bogliasco railway halt",
+    "Stazione di Bogliasco",
+    "station Bogliasco",
+    "stazione di Bogliasco"
+   ],
+   "entity_description": "railway halt in Italy",
+   "candidate_A": "Bogliasco railway halt",
+   "candidate_B": "Bogliasco"
+  },
+  {
+   "uid": "1:16362:d3c9e3552b79",
+   "question": "In which country was the 1st edition of Arise - A Celebration of Worship published?",
+   "entity_labels": [
+    "Arise – A Celebration of Worship",
+    "Arise: A Celebration of Worship"
+   ],
+   "entity_description": "2006 live album; various artists",
+   "candidate_A": "A Celebration of Worship",
+   "candidate_B": null
+  },
+  {
+   "uid": "1:17382:ba10e592759a",
+   "question": "What significant event is associated with Saint Colman's Church in Claremorris?",
+   "entity_labels": [
+    "Saint Colman's Church, Claremorris"
+   ],
+   "entity_description": "Roman Catholic church in Claremorris, County Mayo, Ireland",
+   "candidate_A": "Saint Colman's Church",
+   "candidate_B": null
+  },
+  {
+   "uid": "1:9220:054b73a7a5c2",
+   "question": "What entity or event inspired the naming of neogeography?",
+   "entity_labels": [
+    "Neogeografi",
+    "Neogeografia",
+    "Neogeografía",
+    "Neogeographie",
+    "Néogéographie",
+    "neogeography"
+   ],
+   "entity_description": "amateur-focused geography",
+   "candidate_A": "neogeography",
+   "candidate_B": null
+  },
+  {
+   "uid": "2:41017:0a325b99dd2a",
+   "question": "What facility replaced Aarike Invaliididekodu in its role?",
+   "entity_labels": [],
+   "entity_description": "social welfare institution based in Estonia",
+   "candidate_A": null,
+   "candidate_B": "Aarike Invaliididekodu"
+  },
+  {
+   "uid": "2:47836:a8e7093b2220",
+   "question": "What category does Aiax fall under as a specific example of a type of work?",
+   "entity_labels": [
+    "Aiace",
+    "Ajax"
+   ],
+   "entity_description": "tragedia perduta di Quinto Ennio",
+   "candidate_A": null,
+   "candidate_B": "Aiax"
+  },
+  {
+   "uid": "3:15089:0c6bb03c4f95",
+   "question": "For whom does Mikhail Antonovskiy work at the moment?",
+   "entity_labels": [
+    "Michail Ivanovič Antonovskij",
+    "Mychajlo Iwanowytsch Antonowskyj",
+    "Mykhailo Antonovskyi",
+    "Антоновский, Михаил Иванович"
+   ],
+   "entity_description": "Russian-Ukrainian translator, historian, and opinion journalist (1759–1816)",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "4:113581:be949aa5fbcf",
+   "question": "Who owns Weezenland 7 in Monnickendam?",
+   "entity_labels": [
+    "Huis met in- en uitgezwenkte topgevel",
+    "Weezenland 7, Monnickendam"
+   ],
+   "entity_description": "house in Waterland, Netherlands",
+   "candidate_A": "Weezenland 7",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:118501:d9f7212a3bfd",
+   "question": "Where is the main building of the University of Hamburg situated?",
+   "entity_labels": [
+    "Hauptgebäude der Universität Hamburg",
+    "University of Hamburg main building"
+   ],
+   "entity_description": "Gebäudekomplex der Universität Hamburg",
+   "candidate_A": "University of Hamburg",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:2252:3a49a7c65c8d",
+   "question": "What writing system are Kangxi radical 53 (⼴ ) characters a part of?",
+   "entity_labels": [
+    "Kangxi radical 53 (⼴ )",
+    "Radicaal 53",
+    "Radical 53",
+    "Radikal 53",
+    "clé chinoise traditionnelle 53 (⼴)",
+    "Ключ 53"
+   ],
+   "entity_description": "traditional Chinese radical dotted cliff (U+2F34)",
+   "candidate_A": "Kangxi radical 53 (⼴",
+   "candidate_B": "Kangxi radical 53 (⼴ )"
+  },
+  {
+   "uid": "4:25782:46fef60b326c",
+   "question": "What type of station is Rågsved metro station classified as?",
+   "entity_labels": [
+    "Rågsved",
+    "Rågsved metro station",
+    "Rågsved tunnelbanestasjon",
+    "Rågsvedin metroasema",
+    "Rågsveds tunnelbanestation",
+    "Рогсвед"
+   ],
+   "entity_description": "metro station in southern Stockholm",
+   "candidate_A": "Rågsved metro station",
+   "candidate_B": "Rågsved"
+  },
+  {
+   "uid": "4:29319:7fa8c0e09902",
+   "question": "Who directed the film \"Must Be a Guy Thing\"?",
+   "entity_labels": [
+    "El que fan els tios",
+    "Giudizi e pregiudizi",
+    "Must Be a Guy Thing",
+    "Typisch Männer"
+   ],
+   "entity_description": "episode of Beverly Hills, 90210 (S6 E3)",
+   "candidate_A": "Must Be a Guy Thing",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:3624:840addbffb50",
+   "question": "Who was the creator of Mary Henrietta, Princess Royal?",
+   "entity_labels": [
+    "Maria Enrichetta Stuart",
+    "Maria Enriqueta Stuard",
+    "Maria Henrietta Stuart",
+    "Maria Henrietta af England",
+    "Maria Henriëtte Stuart",
+    "Maria Stuart"
+   ],
+   "entity_description": "eldest daughter of Charles I of England and his wife, Henrietta Maria of France; mother of William III of England (1631-1660)",
+   "candidate_A": "Mary Henrietta, Princess Royal",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:40811:2e765f04a91b",
+   "question": "Who was the winner of the singles event at the 1990 Geneva European Open?",
+   "entity_labels": [
+    "1990 Geneva European Open – singles",
+    "WTA Swiss Open 1990 - Singolare"
+   ],
+   "entity_description": "1990 tennis tournament event",
+   "candidate_A": "1990 Geneva European Open",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:42431:c186b9675017",
+   "question": "What specific type of machinery are Universal tractors classified as?",
+   "entity_labels": [
+    "Universal",
+    "Universal tractors",
+    "Универсал (трактор)"
+   ],
+   "entity_description": "model line of Soviet wheeled agricultural tractors",
+   "candidate_A": "Universal tractors",
+   "candidate_B": "Universal"
+  },
+  {
+   "uid": "4:77560:726d3143332e",
+   "question": "Which record label is associated with the marketing of the music from Tony Hawk's Pro Skater 3 – Music from and Inspired by?",
+   "entity_labels": [
+    "Tony Hawk's Pro Skater 3",
+    "Tony Hawk's Pro Skater 3 (ścieżka dźwiękowa)",
+    "Tony Hawk's Pro Skater 3 – Music from and Inspired by"
+   ],
+   "entity_description": "2001 video game soundtrack album; various artists",
+   "candidate_A": "Tony Hawk's Pro Skater 3 – Music from and Inspired by",
+   "candidate_B": "Tony Hawk's Pro Skater 3"
+  },
+  {
+   "uid": "4:78112:bbea0b92985b",
+   "question": "What list includes Filipino chess grandmasters as specific examples or members?",
+   "entity_labels": [
+    "Filipino chess grandmasters",
+    "Filipińscy arcymistrzowie szachowi"
+   ],
+   "entity_description": "Wikimedia list of persons",
+   "candidate_A": "Filipino chess grandmasters",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:88775:85d2a49faafb",
+   "question": "Who is one of the children of Richard Casimir de la Chapelle?",
+   "entity_labels": [
+    "Richard Casimir de la Chapelle"
+   ],
+   "entity_description": "suomalainen vapaaherra, kartanonomistaja ja tulitikkutehtailija",
+   "candidate_A": "Richard Casimir de la Chapelle",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:12382:d12fa1a271e5",
+   "question": "What specific division in Haryana is Hisar division an example and member of?",
+   "entity_labels": [
+    "Division d’Hisar",
+    "Hisar division",
+    "divisione di Hisar",
+    "divisió d'Hisar",
+    "дивизион Хисар"
+   ],
+   "entity_description": "division of Haryana, India",
+   "candidate_A": "Hisar division",
+   "candidate_B": "Haryana"
+  },
+  {
+   "uid": "5:30647:5aacf3130e6b",
+   "question": "Which highway system is associated with Kraków Płaszów train station?",
+   "entity_labels": [
+    "Bahnhof Kraków Płaszów",
+    "Cracovie Płaszów",
+    "Kraków Płaszów",
+    "Kraków Płaszów Garı",
+    "Kraków Płaszów train station",
+    "estación Kraków Płaszów"
+   ],
+   "entity_description": "railway station in Kraków, Poland",
+   "candidate_A": "Kraków Płaszów train station",
+   "candidate_B": "Kraków Płaszów"
+  },
+  {
+   "uid": "5:32650:914639f37918",
+   "question": "Which government body enacted Loi 111?",
+   "entity_labels": [
+    "Loi 111"
+   ],
+   "entity_description": "loi spéciale québécoise mise en place en février 1983 par le gouvernement René Lévesque",
+   "candidate_A": "Loi 111",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:40049:967717396dac",
+   "question": "What specific classification does this mountain belong to?",
+   "entity_labels": [
+    "mountain",
+    "Горка (иконография)"
+   ],
+   "entity_description": "element of canonical Orthodox iconography depicting a landscape with rocky outcrop",
+   "candidate_A": "mountain",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:78716:72d8572d6d71",
+   "question": "What event directly succeeded MBC MOVIES배 7차 MSL 서바이버리그?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "5:79332:cbe26fb9eb97",
+   "question": "What specific type of work is Filem Lawan considered to be?",
+   "entity_labels": [],
+   "entity_description": "film",
+   "candidate_A": null,
+   "candidate_B": "Filem Lawan"
+  },
+  {
+   "uid": "6:36491:34cbb0002d5a",
+   "question": "What specific type of solar eclipse occurred on October 1, 5 BC?",
+   "entity_labels": [
+    "solar eclipse of October 1, 5 BC",
+    "éclipse solaire du 1er octobre 5 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "October 1, 5 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:37228:783a68246256",
+   "question": "What specific type of solar eclipse occurred on October 28, 211 BC?",
+   "entity_labels": [
+    "solar eclipse of October 28, 211 BC",
+    "éclipse solaire du 28 octobre 211 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "October 28, 211 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:37438:2ca2b9126db5",
+   "question": "What specific type of solar eclipse occurred on July 17, 1173 BC?",
+   "entity_labels": [
+    "solar eclipse of July 17, 1173 BC",
+    "éclipse solaire du 17 juillet 1173 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "July 17, 1173 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:37899:79875c5f818b",
+   "question": "What specific type of solar eclipse was the event on January 7, 1405 BC an instance of?",
+   "entity_labels": [
+    "solar eclipse of January 7, 1405 BC",
+    "éclipse solaire du 7 janvier 1405 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "January 7, 1405 BC",
+   "candidate_B": "solar eclipse"
+  },
+  {
+   "uid": "6:38413:3554d5146912",
+   "question": "What specific type of solar eclipse was the event that occurred on August 23, 981 BC?",
+   "entity_labels": [
+    "solar eclipse of August 23, 981 BC",
+    "éclipse solaire du 23 août 981 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "August 23, 981 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:38557:0d732c23ec19",
+   "question": "What specific type of solar eclipse was the event on July 22, 514 BC considered as?",
+   "entity_labels": [
+    "solar eclipse of July 22, 514 BC",
+    "éclipse solaire du 22 juillet 514 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "July 22, 514 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:39366:37f61d3c13f0",
+   "question": "What specific type of solar eclipse was the event on July 31, 1584 BC?",
+   "entity_labels": [
+    "solar eclipse of July 31, 1584 BC",
+    "éclipse solaire du 31 juillet 1584 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "July 31, 1584 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:39490:02aa00861a34",
+   "question": "What specific type of solar eclipse occurred on June 25, 1331 BC?",
+   "entity_labels": [
+    "solar eclipse of June 25, 1331 BC",
+    "éclipse solaire du 25 juin 1331 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "June 25, 1331 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:40220:b5fc9a707a94",
+   "question": "What specific type of solar eclipse was the one that occurred on December 21, 1201 BC?",
+   "entity_labels": [
+    "solar eclipse of December 21, 1201 BC",
+    "éclipse solaire du 21 décembre 1201 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "December 21, 1201 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:47769:4dbb9eac3e35",
+   "question": "What type of solar eclipse was the event on September 30, 1913?",
+   "entity_labels": [
+    "1913年9月30日の日食",
+    "1913年9月30日日食",
+    "Eclissi solare del 30 settembre 1913",
+    "solar eclipse of September 30, 1913",
+    "éclipse solaire du 30 septembre 1913"
+   ],
+   "entity_description": "20th-century partial solar eclipse",
+   "candidate_A": "September 30, 1913",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:54344:e53e7bbf5e2f",
+   "question": "Who won the Trofeo Luis Otero 1996 competition?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "6:63222:63595c9a29e6",
+   "question": "During which specific time period was the refining of the date of Former Water Office at 1 Donegall Square completed?",
+   "entity_labels": [
+    "Former Water Office, 1 Donegall Square"
+   ],
+   "entity_description": "warehouse in Belfast, County Antrim, Northern Ireland",
+   "candidate_A": "Former Water Office",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:63464:4d1223d6318a",
+   "question": "Where is St. Michael's Church located in relation to Entrance Gates?",
+   "entity_labels": [
+    "Entrance Gates, St. Michael's Church"
+   ],
+   "entity_description": "gate in Castlecaulfield, County Tyrone, Northern Ireland",
+   "candidate_A": "Entrance Gates",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:64222:be119c295fb4",
+   "question": "Where is the Stable Block at Castlehume situated?",
+   "entity_labels": [
+    "Stable Block, Castlehume"
+   ],
+   "entity_description": "stable in Derrygonnelly, County Fermanagh, Northern Ireland",
+   "candidate_A": "Stable Block",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:64594:b8bcf32fad58",
+   "question": "In what part of the date range is the refinement for the date of Summer House in Hillsborough Castle specified?",
+   "entity_labels": [
+    "Summer House, Hillsborough Castle"
+   ],
+   "entity_description": "summer house in Royal Hillsborough, County Down, Northern Ireland",
+   "candidate_A": "Summer House",
+   "candidate_B": "Summer House in Hillsborough Castle"
+  },
+  {
+   "uid": "7:15334:db877997a771",
+   "question": "In which electoral district is Eğriköy associated with in Ankara?",
+   "entity_labels": [
+    "Eğri",
+    "Eğriköy"
+   ],
+   "entity_description": "mahalle (administrative quarter) in Nallıhan, Ankara, west-central Turkey",
+   "candidate_A": "Eğriköy",
+   "candidate_B": "Eğri"
+  },
+  {
+   "uid": "7:18584:569211c449de",
+   "question": "What is the main subject of the Mahoran status referendum in 2000?",
+   "entity_labels": [
+    "Mahoran status referendum, 2000",
+    "Referéndum sobre el estatus político de Mayotte de 2000",
+    "Référendum mahorais de 2000"
+   ],
+   "entity_description": "agreement on the legal status of Mayotte",
+   "candidate_A": "Mahoran status referendum",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:23020:a6bfeef58a6e",
+   "question": "In which historic county is St. John's Methodist Church located in Arbroath?",
+   "entity_labels": [
+    "St. John's Methodist Church, Arbroath"
+   ],
+   "entity_description": "church in Angus, Scotland, UK",
+   "candidate_A": "St. John's Methodist Church",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:2486:3546cad1258f",
+   "question": "Which entity owns Tottenham Hale station?",
+   "entity_labels": [
+    "Bahnhof Tottenham Hale",
+    "Estação de Tottenham Hale",
+    "Station Tottenham Hale",
+    "Tottenham Hale",
+    "Tottenham Hale (stacja kolejowa)",
+    "Tottenham Hale Station"
+   ],
+   "entity_description": "London Underground and railway station in Tottenham Hale, London Borough of Haringey, England, UK",
+   "candidate_A": "Tottenham Hale station",
+   "candidate_B": "Tottenham Hale"
+  },
+  {
+   "uid": "7:30748:1469a294e988",
+   "question": "Which country does the phrase \"Anda Berkuasa Apabila…?\" originate from?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "7:31568:af7ca49d2094",
+   "question": "From which country does Mengharap Kasih Sayang Tuhan originate?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Mengharap Kasih Sayang Tuhan"
+  },
+  {
+   "uid": "7:31854:374e8ce56684",
+   "question": "From which country does Puisi Untuk Nadina originate?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Puisi Untuk Nadina"
+  },
+  {
+   "uid": "7:39032:74a99084f1c5",
+   "question": "What historic county is 24, 24A Dundonald Street in Edinburgh located in according to traditional geographical divisions in Great Britain and Ireland?",
+   "entity_labels": [
+    "24, 24A Dundonald Street, Edinburgh"
+   ],
+   "entity_description": "architectural structure in City of Edinburgh, Scotland, UK",
+   "candidate_A": "Edinburgh",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:39836:65f81c02c702",
+   "question": "In which historic county is the North Walled Garden located within Melville House?",
+   "entity_labels": [
+    "North Walled Garden, Melville House"
+   ],
+   "entity_description": "architectural structure in Fife, Scotland, UK",
+   "candidate_A": "North Walled Garden",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:40273:91f2211c7114",
+   "question": "In which historic county is 12 Heriot Row located in Edinburgh?",
+   "entity_labels": [
+    "12 Heriot Row, Edinburgh"
+   ],
+   "entity_description": "terrace house in Edinburgh, Scotland, UK",
+   "candidate_A": "12 Heriot Row",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:40291:4f2966adbcf8",
+   "question": "In which historic county is 29 Heriot Row located in Edinburgh?",
+   "entity_labels": [
+    "29 Heriot Row, Edinburgh"
+   ],
+   "entity_description": "terrace house in Edinburgh, Scotland, UK",
+   "candidate_A": "29 Heriot Row",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:4090:2ede1618c5ca",
+   "question": "What category does Ergenuşağı belong to as a particular example and member?",
+   "entity_labels": [
+    "Ergenuşağı"
+   ],
+   "entity_description": "mahalle (administrative quarter) in Kozan, Adana, south-central Turkey",
+   "candidate_A": "Ergenuşağı",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:45210:2c35ac308606",
+   "question": "Which historic county does 21, 22 and 23 Drummond Street in Edinburgh belong to?",
+   "entity_labels": [
+    "21, 22 and 23 Drummond Street, Edinburgh"
+   ],
+   "entity_description": "architectural structure in City of Edinburgh, Scotland, UK",
+   "candidate_A": "Edinburgh",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:45632:56812c5cd63e",
+   "question": "In which historic county is Canbo Dovecot located?",
+   "entity_labels": [
+    "Cambo Dovecot"
+   ],
+   "entity_description": "architectural structure in Fife, Scotland, UK",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "7:48567:1bdc729698d6",
+   "question": "In which historic county is the Waterside Creamery store located at 16 Main Road, Waterside?",
+   "entity_labels": [
+    "Store, Waterside Creamery, 16 Main Road, Waterside"
+   ],
+   "entity_description": "architectural structure in East Ayrshire, Scotland, UK",
+   "candidate_A": "Waterside",
+   "candidate_B": "Waterside Creamery"
+  },
+  {
+   "uid": "7:49277:487ec6177247",
+   "question": "In which historic county is 6 High Street located in Rothes?",
+   "entity_labels": [
+    "6 High Street, Rothes"
+   ],
+   "entity_description": "architectural structure in Moray, Scotland, UK",
+   "candidate_A": "6 High Street",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:49743:0b8703b09e8e",
+   "question": "In which historic county is the Gaelic Church located on Church Street in Inverness?",
+   "entity_labels": [
+    "Gaelic Church, Church Street, Inverness"
+   ],
+   "entity_description": "church building in Inverness, United Kingdom",
+   "candidate_A": "Gaelic Church",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:49877:fc426650bd38",
+   "question": "In which historic county is the Burial Ground located, associated with Urray Parish Church?",
+   "entity_labels": [
+    "Burial Ground, Urray Parish Church"
+   ],
+   "entity_description": "architectural structure in Highland, Scotland, UK",
+   "candidate_A": "Urray Parish Church",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:50173:34470426ac89",
+   "question": "In what historic county is St Margaret's Roman Catholic Church located at 23 John Street, Ayr?",
+   "entity_labels": [
+    "St Margaret's Roman Catholic Church, 23 John Street, Ayr"
+   ],
+   "entity_description": "church building in Ayr, United Kingdom",
+   "candidate_A": "St Margaret's Roman Catholic Church",
+   "candidate_B": null
+  },
+  {
+   "uid": "0:14565:c63b73980510",
+   "question": "What classification do the Parti de la Democratie Socialiste candidates in the 1998 Quebec provincial election fall under?",
+   "entity_labels": [
+    "Parti de la Democratie Socialiste candidates, 1998 Quebec provincial election"
+   ],
+   "entity_description": "1998 Quebec provincial election canditates",
+   "candidate_A": "Parti de la Democratie Socialiste candidates",
+   "candidate_B": null
+  },
+  {
+   "uid": "0:20155:d758bc78f043",
+   "question": "Which country owns the Palace of Justice in Brno?",
+   "entity_labels": [
+    "Justiční areál Brno",
+    "Palace of justice, Brno"
+   ],
+   "entity_description": "institucionální komplex na území Štýřic",
+   "candidate_A": "Palace of Justice",
+   "candidate_B": "Palace of Justice in Brno"
+  },
+  {
+   "uid": "0:20663:c34f0e7b67d0",
+   "question": "What type of educational institution is Sekolah Dasar Swasta Merdeka considered as?",
+   "entity_labels": [
+    "SDS Merdeka"
+   ],
+   "entity_description": "école primaire en Indonésie",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "0:25268:3ae83a1e8988",
+   "question": "What roadway is carried by Doonfoot Bridge?",
+   "entity_labels": [
+    "Ayr, Dunure Road, Doonfoot Bridge",
+    "Doonfoot Bridge"
+   ],
+   "entity_description": "bridge in South Ayrshire, Scotland, UK, carries the A719 road across River Doon",
+   "candidate_A": "Doonfoot Bridge",
+   "candidate_B": null
+  },
+  {
+   "uid": "1:15776:776888d51ce9",
+   "question": "On which street in Donetsk is the Monument to Iosif Kobzon located?",
+   "entity_labels": [
+    "Monument to Iosif Kobzon, Donetsk",
+    "Памятник Иосифу Кобзону"
+   ],
+   "entity_description": "monument in Donetsk",
+   "candidate_A": "Monument to Iosif Kobzon",
+   "candidate_B": null
+  },
+  {
+   "uid": "1:23474:6c8b61fd7f65",
+   "question": "Who is the artist whose work strongly inspired \"The Gallows Man\"?",
+   "entity_labels": [
+    "Galgmannen",
+    "Hirsipuumies",
+    "The Gallows Man"
+   ],
+   "entity_description": "1945 film by Gustaf Molander",
+   "candidate_A": "The Gallows Man",
+   "candidate_B": null
+  },
+  {
+   "uid": "2:1234:1c3701d71b57",
+   "question": "In which geographic area is Berneuxia thibetica found?",
+   "entity_labels": [
+    "Berneuxia",
+    "Berneuxia thibetica",
+    "岩匙"
+   ],
+   "entity_description": "species of plant",
+   "candidate_A": "Berneuxia thibetica",
+   "candidate_B": "Berneuxia"
+  },
+  {
+   "uid": "2:17493:38a059a0af16",
+   "question": "Which albums in chronological order include the part called Army of One?",
+   "entity_labels": [
+    "Army of One",
+    "Kalt wie der Tod",
+    "Regole militari",
+    "Une armée à moi seul",
+    "Армия из одного"
+   ],
+   "entity_description": "episode of The Sopranos (S3 E13)",
+   "candidate_A": "Army of One",
+   "candidate_B": null
+  },
+  {
+   "uid": "2:24548:da6ca244864c",
+   "question": "What series includes the album \"V2: Orange Afternoons\" by GPS?",
+   "entity_labels": [
+    "GPS, V2: Orange Afternoons"
+   ],
+   "entity_description": "2011 studio album by Dave Douglas Quintet",
+   "candidate_A": "GPS",
+   "candidate_B": "V2: Orange Afternoons"
+  },
+  {
+   "uid": "2:34825:c2a204b87929",
+   "question": "Where was the 1st edition of the book \"No Place to Be\" published?",
+   "entity_labels": [
+    "No Place to Be"
+   ],
+   "entity_description": "2006 remix album by Matisyahu",
+   "candidate_A": "No Place to Be",
+   "candidate_B": null
+  },
+  {
+   "uid": "2:40054:b0bf271a917b",
+   "question": "What type of location is Chambers St.?",
+   "entity_labels": [
+    "Calle Chambers",
+    "Chambers Street"
+   ],
+   "entity_description": "New York City Subway station on the BMT Nassau Street line",
+   "candidate_A": null,
+   "candidate_B": "Chambers St."
+  },
+  {
+   "uid": "2:5057:a2f74838e2cb",
+   "question": "Which group are the Rus' people a part of?",
+   "entity_labels": [
+    "Roes",
+    "Rus",
+    "Rus'",
+    "Rus' people",
+    "Rusere",
+    "Rusii"
+   ],
+   "entity_description": "European ethnic group of Rucia",
+   "candidate_A": "Rus' people",
+   "candidate_B": "Rus'"
+  },
+  {
+   "uid": "2:50964:dd9b070e3355",
+   "question": "What line does the Railway Bridge in Pollokshaws West Station, Pollokshaws Road, Glasgow, carry?",
+   "entity_labels": [
+    "Railway Bridge, Pollokshaws West Station, Pollokshaws Road, Glasgow"
+   ],
+   "entity_description": "bridge in Glasgow, Scotland, UK, carries the Glasgow South Western Line across a minor road",
+   "candidate_A": "Pollokshaws Road",
+   "candidate_B": "Railway Bridge"
+  },
+  {
+   "uid": "3:13237:a0573b27cf6e",
+   "question": "What type of creative work is the album \"Changes\"?",
+   "entity_labels": [
+    "Changes"
+   ],
+   "entity_description": "1980 studio album by Etta James",
+   "candidate_A": "Changes",
+   "candidate_B": "album"
+  },
+  {
+   "uid": "3:18333:d0c703465ff5",
+   "question": "What type of assessment did Common Dreams NewsCenter undergo?",
+   "entity_labels": [
+    "Common Dreams",
+    "コモン・ドリームズ",
+    "共同夢想"
+   ],
+   "entity_description": "American progressive news website",
+   "candidate_A": "Common Dreams NewsCenter",
+   "candidate_B": "Common Dreams"
+  },
+  {
+   "uid": "3:38448:157f134ad4da",
+   "question": "What type of geographical location is Ghazawiyet Afrin in Syria?",
+   "entity_labels": [
+    "Gazawiye (Afrin)",
+    "Gezîwê",
+    "Ghazawijja"
+   ],
+   "entity_description": "Kurdish village in Afrin, Syria",
+   "candidate_A": null,
+   "candidate_B": "Ghazawiyet Afrin"
+  },
+  {
+   "uid": "3:910:5335a8dd70a5",
+   "question": "What document serves as the main regulatory text for the coat of arms of Ukraine?",
+   "entity_labels": [
+    "Brasão de armas da Ucrânia",
+    "Coat of arms of Ukrainiae",
+    "Escudo de Ucrania",
+    "Herb Ukrainy",
+    "Ukrainan vaakuna",
+    "Ukrainas riksvåpen"
+   ],
+   "entity_description": "National emblem of Ukraine",
+   "candidate_A": "coat of arms of",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:1687:3196a161c8ac",
+   "question": "In which Unicode block can Kanxi radical 9 (⼈) be found?",
+   "entity_labels": [
+    "Clau 9",
+    "Kangxi radical 9 (⼈)",
+    "Klucz 9",
+    "Radicaal 9",
+    "Radical 9",
+    "Radikal 9"
+   ],
+   "entity_description": "traditional Chinese radical man (U+2F08)",
+   "candidate_A": "radical 9",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:34135:771db38b826d",
+   "question": "Which country was nominated as the nominee in \"The World Is Big and Salvation Lurks Around the Corner\"?",
+   "entity_labels": [
+    "A világ nagy és a megváltás a sarkon ólálkodik",
+    "Die Welt ist groß und Rettung lauert überall",
+    "Svetat e golyam i spasenie debne otvsyakade",
+    "The World Is Big and Salvation Lurks Around the Corner",
+    "The World is Big",
+    "The World is Big and Salvation Lurks Around the Corner"
+   ],
+   "entity_description": "2008 film by Stefan Komandarev",
+   "candidate_A": "The World Is Big and Salvation Lurks Around the Corner",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:39858:6fb0de32b4ff",
+   "question": "What type of literary work is Monsieur Linh classified as?",
+   "entity_labels": [
+    "Het kleine meisje van meneer Linh",
+    "La Petite Fille de Monsieur Linh",
+    "La neta del senyor Linh",
+    "La nieta del señor Linh",
+    "Monsieur Linh and His Child"
+   ],
+   "entity_description": "2005 novel by Philippe Claudel",
+   "candidate_A": "Monsieur Linh",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:40013:d6fbd6d11117",
+   "question": "In which administrative entity is Kryovrysi, Thesprotia located?",
+   "entity_labels": [
+    "Kryovrysi",
+    "Kryovrysi, Thesprotia"
+   ],
+   "entity_description": "village in Thesprotia, Greece",
+   "candidate_A": "Kryovrysi, Thesprotia",
+   "candidate_B": "Kryovrysi"
+  },
+  {
+   "uid": "4:49221:18843c0a67ce",
+   "question": "Who directed the film \"Enough About Eve\"?",
+   "entity_labels": [
+    "Enough About Eve",
+    "Eva contro Eva",
+    "Genug von Eva",
+    "忍無可忍夏娃"
+   ],
+   "entity_description": "episode of Gossip Girl (S3 E6)",
+   "candidate_A": "Enough About Eve",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:95641:ec25f8f38514",
+   "question": "Who is the spouse of Mişkinaz Cavid?",
+   "entity_labels": [
+    "Mişkinaz Cavid"
+   ],
+   "entity_description": "wife of Hüseyn Cavid",
+   "candidate_A": "Mişkinaz Cavid",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:10281:30ff634b3ca6",
+   "question": "In which administrative district is Drepung Monastery located?",
+   "entity_labels": [
+    "Drepung",
+    "Drepung Monastery",
+    "Drepung kolostor",
+    "Drepungklosteret",
+    "Drepungklostret",
+    "Däpung"
+   ],
+   "entity_description": "Tibet Monastery",
+   "candidate_A": "Drepung Monastery",
+   "candidate_B": "Drepung"
+  },
+  {
+   "uid": "5:30099:12d456847a4c",
+   "question": "Which record label is associated with the marketing of the Dark Shadows – Original Score music recordings and music videos?",
+   "entity_labels": [
+    "Dark Shadows",
+    "Dark Shadows – Original Score"
+   ],
+   "entity_description": "2012 soundtrack album by Danny Elfman",
+   "candidate_A": "Dark Shadows – Original Score",
+   "candidate_B": "Dark Shadows"
+  },
+  {
+   "uid": "5:35581:907034036ec6",
+   "question": "What type of work is \"Vive l'harmonie !\" classified as?",
+   "entity_labels": [
+    "Vive l'harmonie !"
+   ],
+   "entity_description": "",
+   "candidate_A": "Vive l'harmonie",
+   "candidate_B": "Vive l'harmonie !"
+  },
+  {
+   "uid": "5:71092:47c2c5a6fa90",
+   "question": "What astronomical system is HD 112412 a part of?",
+   "entity_labels": [
+    "Alpha1 Canum Venaticorum",
+    "α1 Canum Venaticorum",
+    "りょうけん座アルファ1星"
+   ],
+   "entity_description": "star",
+   "candidate_A": "HD 112412",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:87299:fee8669bb535",
+   "question": "In what educational stage did Lycée Gaspard Monge in Chambéry have a school sports section in France?",
+   "entity_labels": [
+    "Lycée Gaspard Monge (Chambéry)",
+    "lycée polyvalent Monge de Chambéry"
+   ],
+   "entity_description": "school in Chambéry, France",
+   "candidate_A": "Lycée Gaspard Monge",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:91663:1d6d3bc6c180",
+   "question": "What type of building is St. Michael's Church Clonoe Parish, Killary Glebe Coalisland, Co. Tyrone.?",
+   "entity_labels": [
+    "St. Michael's Church Clonoe Parish, Killary Glebe Coalisland, Co. Tyrone."
+   ],
+   "entity_description": "church building in Coalisland, County Tyrone, Northern Ireland",
+   "candidate_A": "St. Michael's Church Clonoe Parish, Killary Glebe Coalisland, Co. Tyrone.",
+   "candidate_B": "St. Michael's Church Clonoe Parish, Killary Glebe Coalisland, Co. Tyrone"
+  },
+  {
+   "uid": "6:23157:a183fead924b",
+   "question": "What category does visradaxili bölgü belong to as a particular example and member?",
+   "entity_labels": [
+    "ритм (стихотворный)"
+   ],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "6:23448:aacae2d1b2e8",
+   "question": "What form of creative work is \"24 Views of Mt. Fuji\" by Hokusai?",
+   "entity_labels": [
+    "24 Views of Mt. Fuji, by Hokusai",
+    "24 vedute del monte Fuji, di Hokusai",
+    "24 vistas del monte Fuji, por Hokusai",
+    "24 vues du Mont Fuji par Hokusai",
+    "24 widoki góry Fudżi Hokusaia",
+    "24 вида горы Фудзи кисти Хокусая"
+   ],
+   "entity_description": "1985 novella by Roger Zelazny",
+   "candidate_A": "24 Views of Mt. Fuji\" by Hokusai",
+   "candidate_B": "24 Views of Mt. Fuji"
+  },
+  {
+   "uid": "6:36635:237b49edf13d",
+   "question": "What specific type of solar eclipse occurred on May 25, 1217 BC?",
+   "entity_labels": [
+    "solar eclipse of May 25, 1217 BC",
+    "éclipse solaire du 25 mai 1217 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "May 25, 1217 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:37350:9db20271015a",
+   "question": "What type of solar eclipse was the event that occurred on February 3, 1687 BC?",
+   "entity_labels": [
+    "solar eclipse of February 3, 1687 BC",
+    "éclipse solaire du 3 février 1687 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "February 3, 1687 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:38198:94f0e9f1a660",
+   "question": "What specific type of solar eclipse occurred on May 10, 1552 BC?",
+   "entity_labels": [
+    "solar eclipse of May 10, 1552 BC",
+    "éclipse solaire du 10 mai 1552 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "May 10, 1552 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:38626:713ad6311897",
+   "question": "What specific type of solar eclipse occurred on August 27, 729 BC?",
+   "entity_labels": [
+    "solar eclipse of August 27, 729 BC",
+    "éclipse solaire du 27 août 729 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "August 27, 729 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:39496:45cf17832364",
+   "question": "What specific type of solar eclipse was the event on October 29, 1291 BC?",
+   "entity_labels": [
+    "solar eclipse of October 29, 1291 BC",
+    "éclipse solaire du 29 octobre 1291 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "October 29, 1291 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:40287:9ddc42d1bcfc",
+   "question": "What specific type of solar eclipse occurred on September 4, 377 BC?",
+   "entity_labels": [
+    "solar eclipse of September 4, 377 BC",
+    "éclipse solaire du 4 septembre 377 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "September 4, 377 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:40461:aa7f2cbfe086",
+   "question": "What type of solar eclipse was the solar eclipse on May 23, 864 BC?",
+   "entity_labels": [
+    "solar eclipse of May 23, 864 BC",
+    "éclipse solaire du 23 mai 864 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "May 23, 864 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:40710:8f3d60b433a2",
+   "question": "What type of solar eclipse was the event on September 22, 1559 BC an instance of?",
+   "entity_labels": [
+    "solar eclipse of September 22, 1559 BC",
+    "éclipse solaire du 22 septembre 1559 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "September 22, 1559 BC",
+   "candidate_B": "solar eclipse"
+  },
+  {
+   "uid": "6:43244:53427de7be9e",
+   "question": "What type of article is the list of summer schools of nature sciences on Wikimedia?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "6:47655:d1f5e0c3c29c",
+   "question": "What specific type of solar eclipse was the event on July 20, 1963?",
+   "entity_labels": [
+    "1963年7月20日の日食",
+    "1963年7月20日日食",
+    "Eclissi solare del 20 luglio 1963",
+    "Zonsverduistering van 20 juli 1963",
+    "solar eclipse of July 20, 1963",
+    "éclipse solaire du 20 juillet 1963"
+   ],
+   "entity_description": "20th-century total solar eclipse",
+   "candidate_A": "July 20, 1963",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:54094:8f279e7041f3",
+   "question": "From which country does El Censor (Betanzos) originate?",
+   "entity_labels": [],
+   "entity_description": "newspaper",
+   "candidate_A": null,
+   "candidate_B": "El Censor (Betanzos)"
+  },
+  {
+   "uid": "7:11373:92e26dc05b4d",
+   "question": "Who was the winner of the 1991 Virginia Slims of Nashville singles event?",
+   "entity_labels": [
+    "1991 Virginia Slims of Nashville – singles",
+    "Virginia Slims of Nashville 1991 - Singolare"
+   ],
+   "entity_description": "1991 tennis event results",
+   "candidate_A": "1991 Virginia Slims of Nashville",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:11380:93a11865341c",
+   "question": "Who won the 1992 Fernleaf Butter Classic - Singles competition?",
+   "entity_labels": [
+    "1992 Fernleaf Butter Classic – Singles",
+    "Wellington Classic 1992 - Singolare femminile"
+   ],
+   "entity_description": "1992 tennis event results",
+   "candidate_A": "1992 Fernleaf Butter Classic",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:21815:ee72d46b4b75",
+   "question": "What class does the New York-New Jersey Line War belong to?",
+   "entity_labels": [
+    "New York–New Jersey Line War",
+    "conflit frontalier entre les provinces de New York et du New Jersey",
+    "紐約－新澤西線戰爭"
+   ],
+   "entity_description": "18th-century skirmishes on the New York – New Jersey border",
+   "candidate_A": "Jersey Line War",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:26427:adff224866f1",
+   "question": "What classification does Balıkalan fall under as a specific example and member?",
+   "entity_labels": [
+    "Balıkalan"
+   ],
+   "entity_description": "mahalle (adminstrative quarter) in Nurdağı, Gaziantep, south-central Turkey",
+   "candidate_A": "Balıkalan",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:30978:2f4bd24eff71",
+   "question": "From which country does Dafodil untuk Insyirah originate?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Dafodil untuk Insyirah"
+  },
+  {
+   "uid": "7:31107:fb6e3e63fda7",
+   "question": "From which country does \"Great Work Great Career: Kerja Hebat Kerjaya Hebat\" originate?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "7:31945:9b4460ab7239",
+   "question": "From which country does Sarah dan Kasut Tumit Tinggi originate?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Sarah dan Kasut Tumit Tinggi"
+  },
+  {
+   "uid": "7:37621:5ef6deb9f2c3",
+   "question": "What specific event in Poland does the October 2010 raid on smart drug shops represent?",
+   "entity_labels": [
+    "October 2010 raid on smart drug shops in Poland"
+   ],
+   "entity_description": "",
+   "candidate_A": "October 2010 raid on smart drug shops",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:39309:8167a605141a",
+   "question": "Which historic county is 27 Saxe-Coburg Place in Stockbridge, Edinburgh located in?",
+   "entity_labels": [
+    "27 Saxe-Coburg Place, Stockbridge, Edinburgh"
+   ],
+   "entity_description": "terrace house in Edinburgh, Scotland, UK",
+   "candidate_A": "27 Saxe-Coburg Place",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:41155:db7641309a0f",
+   "question": "In which historic county is Murroes Farm located within Murroes?",
+   "entity_labels": [
+    "Murroes Farm, Murroes"
+   ],
+   "entity_description": "architectural structure in Angus, Scotland, UK",
+   "candidate_A": "Murroes Farm",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:42442:2afd68f49133",
+   "question": "In which historic county is the Former Manse located at 8 Church Road, Liff?",
+   "entity_labels": [
+    "Former Manse, 8 Church Road, Liff"
+   ],
+   "entity_description": "architectural structure in Angus, Scotland, UK",
+   "candidate_A": "Former Manse",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:44919:0ced928ed5a4",
+   "question": "In which historic county is the Vr Letter Box located along Dean Path in Edinburgh?",
+   "entity_labels": [
+    "Vr Letter Box, Dean Path, Edinburgh"
+   ],
+   "entity_description": "post box in City of Edinburgh, Scotland, UK",
+   "candidate_A": "Vr Letter Box",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:45776:f3c59251264c",
+   "question": "In which historic county is 71, 73, 75, 77 Warrender Park Road located in Edinburgh?",
+   "entity_labels": [
+    "71, 73, 75, 77 Warrender Park Road, Edinburgh"
+   ],
+   "entity_description": "post office in Edinburgh, Scotland, UK",
+   "candidate_A": "Edinburgh",
+   "candidate_B": "71, 73, 75, 77 Warrender Park Road"
+  },
+  {
+   "uid": "7:48562:b31ec2b43797",
+   "question": "In which historic county is the Post Office in Glenuig located?",
+   "entity_labels": [
+    "Post Office, Glenuig"
+   ],
+   "entity_description": "architectural structure in Highland, Scotland, UK",
+   "candidate_A": "Post Office",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:49434:e97444e604e4",
+   "question": "In which historic county are the remains of Old Parish Church located in Aberlour?",
+   "entity_labels": [
+    "Remains of Old Parish Church, Aberlour"
+   ],
+   "entity_description": "church building in Moray, Scotland, UK",
+   "candidate_A": "remains of Old Parish Church",
+   "candidate_B": null
+  },
+  {
+   "uid": "0:11585:21abe82f86e1",
+   "question": "What specific category of literary works does Sâki-nâme belong to?",
+   "entity_labels": [
+    "Saqi-nameh",
+    "sakiname"
+   ],
+   "entity_description": "boek",
+   "candidate_A": null,
+   "candidate_B": "Sâki-nâme"
+  },
+  {
+   "uid": "0:25229:8d5d66c0411f",
+   "question": "What transportation line is carried by Carronbridge Viaduct?",
+   "entity_labels": [
+    "Carronbridge Viaduct"
+   ],
+   "entity_description": "railway viaduct in Dumfries and Galloway, Scotland, UK, carries the Glasgow South Western Line across Carron Water",
+   "candidate_A": "Carronbridge Viaduct",
+   "candidate_B": null
+  },
+  {
+   "uid": "0:26238:5fcc9cf828e2",
+   "question": "Who holds the position of the head of the Embassy of Norway in Tokyo?",
+   "entity_labels": [
+    "Ambaixada de Noruega a Minato",
+    "Botschaft von Norwegen in Tokio",
+    "Embassy of Norway, Tokyo",
+    "Norges ambassad i Japan",
+    "Norges ambassade i Tokyo",
+    "Norveç'in Tokyo Büyükelçiliği"
+   ],
+   "entity_description": "Norwegian embassy in Japan",
+   "candidate_A": "Embassy of Norway",
+   "candidate_B": null
+  },
+  {
+   "uid": "0:2757:3c569610342f",
+   "question": "What type of expedition is the Horn Expedition categorized as?",
+   "entity_labels": [
+    "Horn Expedition (1894)",
+    "Horn Scientific Expedition to Central Australia (1894)",
+    "Horn-Expedition"
+   ],
+   "entity_description": "expedition to Central Australia in 1894",
+   "candidate_A": "Horn Expedition",
+   "candidate_B": null
+  },
+  {
+   "uid": "0:5256:918a4c8eb7c7",
+   "question": "What comes after \"Dans le ventre du crocodile\" in the series?",
+   "entity_labels": [
+    "Dans le ventre du crocodile"
+   ],
+   "entity_description": "2010 album by Disiz",
+   "candidate_A": "Dans le ventre du crocodile",
+   "candidate_B": null
+  },
+  {
+   "uid": "0:9198:2e5cbd63e1e1",
+   "question": "What specific family is Lyzohub House of Lisohub a part of?",
+   "entity_labels": [
+    "House of Lyzohub",
+    "Lisohubowie herbu własnego",
+    "Lizogubové",
+    "Lysohub",
+    "famille Lyzohoub",
+    "Лизогубы"
+   ],
+   "entity_description": "Hetmanate's noble family of Polish descents",
+   "candidate_A": "House of",
+   "candidate_B": "Lyzohub House of Lisohub"
+  },
+  {
+   "uid": "1:1:b563e3248ed3",
+   "question": "In which administrative territorial entity is the Wikimedia Foundation located?",
+   "entity_labels": [
+    "Fondation Wikimédia",
+    "Fundació Wikimedia",
+    "Fundación Wikimedia",
+    "Fundação Wikimedia",
+    "Fundația Wikimedia",
+    "Nadace Wikimedia"
+   ],
+   "entity_description": "American charitable organization",
+   "candidate_A": "Wikimedia Foundation",
+   "candidate_B": "Wikimedia"
+  },
+  {
+   "uid": "1:24028:e8dbc3d45884",
+   "question": "In which city is the headquarters location of Episkopija bregalnička?",
+   "entity_labels": [
+    "Diocese of Bregalnica",
+    "Eparchia di Bregalnica",
+    "Брегалничская епархия"
+   ],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Episkopija bregalnička"
+  },
+  {
+   "uid": "2:11957:bcc97f19a2b7",
+   "question": "On which street is St. Leonard's Church in Zoutleeuw located?",
+   "entity_labels": [
+    "Aziz Leonard Kilisesi, Zoutleeuw",
+    "Iglesia de San Leonardo (Zoutleeuw)",
+    "Sint-Leonarduskerk",
+    "St. Leonard's Church, Zoutleeuw",
+    "St.-Leonardus-Kirche, Zoutleeuw",
+    "chiesa di San Leonardo"
+   ],
+   "entity_description": "church in Zoutleeuw, Belgium",
+   "candidate_A": "St. Leonard's Church",
+   "candidate_B": "St. Leonard's Church in Zoutleeuw"
+  },
+  {
+   "uid": "2:14253:ff1ad2e38b26",
+   "question": "What type of road is the R30 road considered as?",
+   "entity_labels": [
+    "R30",
+    "R30 road"
+   ],
+   "entity_description": "ring road in Belgium",
+   "candidate_A": "R30 road",
+   "candidate_B": "R30"
+  },
+  {
+   "uid": "2:16404:863379524c66",
+   "question": "What is \"Où vont les rêves ?\" an example of?",
+   "entity_labels": [
+    "Où vont les rêves ?"
+   ],
+   "entity_description": "2002 album by Michel Jonasz",
+   "candidate_A": "Où vont les rêves",
+   "candidate_B": "Où vont les rêves ?"
+  },
+  {
+   "uid": "2:2338:4cf808677963",
+   "question": "In which geographic area is Hibiscus sabdariff found?",
+   "entity_labels": [
+    "Hibiscus sabdariffa",
+    "Kerkede",
+    "Ketmia szczawiowa",
+    "Roselle",
+    "ibišek súdánský",
+    "rosa de Jamaica"
+   ],
+   "entity_description": "species of plant, Roselle",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "2:2576:8ec77f488c6f",
+   "question": "In which larger work was \"Dum multa tristia\" published?",
+   "entity_labels": [
+    "Dum Multa",
+    "Dum multa",
+    "Dum multa tristitia"
+   ],
+   "entity_description": "Enzyklika von Papst Leo XIII.",
+   "candidate_A": "Dum multa",
+   "candidate_B": "Dum multa tristia"
+  },
+  {
+   "uid": "2:42683:22a439fb9d77",
+   "question": "In which administrative territorial entity is the R72 road located?",
+   "entity_labels": [
+    "R72",
+    "R72 road"
+   ],
+   "entity_description": "ring road in Belgium",
+   "candidate_A": "R72 road",
+   "candidate_B": "R72"
+  },
+  {
+   "uid": "2:54176:cfcd6b428269",
+   "question": "What type of electrification system does the Stranje-Imeno railway line have?",
+   "entity_labels": [
+    "Bahnstrecke Stranje–Imeno",
+    "Stranje–Imeno railway line",
+    "ligne de Stranje à Imeno",
+    "spoorlijn Stranje–Imeno"
+   ],
+   "entity_description": "railway line in Slovenia",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "2:7312:f765651b9b8c",
+   "question": "On which days of the week is Ritsurin Garden open during its opening season?",
+   "entity_labels": [
+    "Jardim Ritsurin",
+    "Ritsurin",
+    "Ritsurin Bahçesi",
+    "Ritsurin Garden",
+    "Ritsurin-Park",
+    "jardin Ritsurin"
+   ],
+   "entity_description": "park",
+   "candidate_A": "Ritsurin Garden",
+   "candidate_B": "Ritsurin"
+  },
+  {
+   "uid": "3:16113:0c75983449da",
+   "question": "What series does Avatar: The Last Airbender – The Promise belong to?",
+   "entity_labels": [
+    "Avatar: The Last Airbender – The Promise"
+   ],
+   "entity_description": "first graphic novel trilogy of Avatar: The Last Airbender",
+   "candidate_A": "Avatar: The Last Airbender – The Promise",
+   "candidate_B": "Avatar: The Last Airbender"
+  },
+  {
+   "uid": "3:30492:b41df3b00e41",
+   "question": "In which administrative territorial entity is Shōkai-ji located?",
+   "entity_labels": [
+    "Shōkai-ji Temple",
+    "性海寺"
+   ],
+   "entity_description": "Buddhist temple dedicated to Cintāmaṇicakra in Nishi-ku, Japan",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "3:38412:9f60dcb13f7f",
+   "question": "What type of place is Jum Afrin in Syria considered to be?",
+   "entity_labels": [
+    "Cum",
+    "Cûmê",
+    "Dżum"
+   ],
+   "entity_description": "Kurdish village in Afrin, Syria",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "4:14681:dc9cb5d04d50",
+   "question": "What type of version is the Visual Paradigm for UML labeled as?",
+   "entity_labels": [
+    "Visual Paradigm",
+    "Visual Paradigm for UML"
+   ],
+   "entity_description": "software",
+   "candidate_A": "Visual Paradigm for UML",
+   "candidate_B": "Visual Paradigm"
+  },
+  {
+   "uid": "4:73857:aa75f64d5b7c",
+   "question": "What is the historical architectural resource that includes the William F. Bradbury House?",
+   "entity_labels": [
+    "William F. Bradbury House"
+   ],
+   "entity_description": "building in Massachusetts, United States",
+   "candidate_A": "William F. Bradbury House",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:79560:cee40bb40b74",
+   "question": "In which sport did the 1925–26 AIK Fotboll season take place?",
+   "entity_labels": [
+    "1925–26 AIK Fotboll season",
+    "AIK Fotbolls säsong 1925/1926"
+   ],
+   "entity_description": "season of football team",
+   "candidate_A": "1925–26 AIK Fotboll season",
+   "candidate_B": "AIK Fotboll"
+  },
+  {
+   "uid": "5:611:6928285ff09a",
+   "question": "Who is the male parent of Joel?",
+   "entity_labels": [
+    "Conflito coreano",
+    "Korea-Konflikt",
+    "Korean conflict",
+    "conflicto coreano",
+    "conflit coréen",
+    "Корейский конфликт"
+   ],
+   "entity_description": "conflict between North and South Korea",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "5:65872:ab4231f5f3b5",
+   "question": "In which country was the 1st edition of WWII published?",
+   "entity_labels": [
+    "WWII"
+   ],
+   "entity_description": "1982 studio album by Waylon Jennings and Willie Nelson",
+   "candidate_A": "WWII",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:72364:b761049ce170",
+   "question": "What type of settlement is Katageri in Athni an example of?",
+   "entity_labels": [
+    "Katageri, Athni"
+   ],
+   "entity_description": "human settlement in India",
+   "candidate_A": "Katageri",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:72585:107bfda045fd",
+   "question": "What category does the School of Information Security Engineering at Shanghai Jiao Tong University belong to?",
+   "entity_labels": [
+    "School of Information Security Engineering, Shanghai Jiao Tong University",
+    "上海交通大学信息安全工程学院"
+   ],
+   "entity_description": "school of Shanghai Jiao Tong University",
+   "candidate_A": "School of Information Security Engineering",
+   "candidate_B": "School of Information Security Engineering at Shanghai Jiao Tong University"
+  },
+  {
+   "uid": "5:77797:78f8cb1ce62e",
+   "question": "What is the distribution format for Silky Sally / I've Got to Find the Looser?",
+   "entity_labels": [
+    "Silky Sally / I've Got To Find The Looser",
+    "Silky Sally / I've Got to Find the Looser",
+    "Silky Sally/I've Got To Find The Looser"
+   ],
+   "entity_description": "1970 debut single by Gasolin'",
+   "candidate_A": "Silky Sally / I've Got to Find the Looser",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:77841:1c77ab613c14",
+   "question": "Who is the creator of Arulo?",
+   "entity_labels": [
+    "Arulo",
+    "アルーロ"
+   ],
+   "entity_description": "language constructed by Max Talmey",
+   "candidate_A": "Arulo",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:80010:b83dd33c3ca0",
+   "question": "What type of settlement is కాసారం (ధర్\\u200cపల్లె)?",
+   "entity_labels": [],
+   "entity_description": "human settlement in Dhar palle, Nizamabad district, Telangana, India",
+   "candidate_A": null,
+   "candidate_B": "కాసారం (ధర్\\u200cపల్లె)"
+  },
+  {
+   "uid": "5:80589:907bd6fba497",
+   "question": "To which entity did Odobaša's jurisdiction apply?",
+   "entity_labels": [],
+   "entity_description": "Elder of the Ode, the commander of the Janissary platoon",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "5:86337:593e3a40028a",
+   "question": "In which administrative entity is Rohuneeme rändrahn located?",
+   "entity_labels": [
+    "Rohuneeme boulder"
+   ],
+   "entity_description": "glacial boulder in Estonia",
+   "candidate_A": null,
+   "candidate_B": "Rohuneeme rändrahn"
+  },
+  {
+   "uid": "5:94367:955dbe936025",
+   "question": "What category does Kategória:ATC B02BC – Lokálne hemostatiká belong to on Wikimedia?",
+   "entity_labels": [
+    "Kategorie:ATC B02BC"
+   ],
+   "entity_description": "Wikimedia category",
+   "candidate_A": null,
+   "candidate_B": "Kategória:ATC B02BC – Lokálne hemostatiká"
+  },
+  {
+   "uid": "6:23632:80229eea8515",
+   "question": "In which County is Albert Bridge in Belfast located?",
+   "entity_labels": [
+    "Albert Bridge, Belfast",
+    "puente Albert",
+    "艾伯特桥"
+   ],
+   "entity_description": "bridge in Belfast, County Antrim, Northern Ireland",
+   "candidate_A": "Albert Bridge",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:24459:cfb65a8f546f",
+   "question": "What specific type of solar eclipse is the event on November 4, 2097?",
+   "entity_labels": [
+    "2097年11月4日の日食",
+    "2097年11月4日日食",
+    "Eclissi solare del 4 novembre 2097",
+    "solar eclipse of November 4, 2097",
+    "éclipse solaire du 4 novembre 2097"
+   ],
+   "entity_description": "Future annular solar eclipse",
+   "candidate_A": "November 4, 2097",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:25945:58a30e7594af",
+   "question": "Which organization occupies the Pontevedra City Council building?",
+   "entity_labels": [
+    "Câmara Municipal de Pontevedra",
+    "Palazzo Municipale di Pontevedra",
+    "Pontevedra City Hall",
+    "Rathaus von Pontevedra",
+    "casa consistorial de Pontevedra",
+    "hôtel de ville de Pontevedra"
+   ],
+   "entity_description": "city hall of Pontevedra, Spain",
+   "candidate_A": "Pontevedra City",
+   "candidate_B": "Pontevedra City Council"
+  },
+  {
+   "uid": "6:37099:5faed914d85e",
+   "question": "What specific type of solar eclipse was the event that occurred on March 30, 1437 BC?",
+   "entity_labels": [
+    "solar eclipse of March 30, 1437 BC",
+    "éclipse solaire du 30 mars 1437 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "March 30, 1437 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:37607:ff2b2807695f",
+   "question": "What specific type of solar eclipse was the event on February 10, 1343 BC classified as?",
+   "entity_labels": [
+    "solar eclipse of February 10, 1343 BC",
+    "éclipse solaire du 10 février 1343 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "February 10, 1343 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:37666:b074b7ca46f2",
+   "question": "What type of solar eclipse occurred on October 23, 1011 BC?",
+   "entity_labels": [
+    "solar eclipse of October 23, 1011 BC",
+    "éclipse solaire du 23 octobre 1011 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "October 23, 1011 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:37791:367b20da9ff1",
+   "question": "What specific type of solar eclipse occurred on September 10, 562 BC?",
+   "entity_labels": [
+    "solar eclipse of September 10, 562 BC",
+    "éclipse solaire du 10 septembre 562 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "September 10, 562 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:37920:5d711d895949",
+   "question": "What specific type of solar eclipse occurred on September 18, 1195 BC?",
+   "entity_labels": [
+    "solar eclipse of September 18, 1195 BC",
+    "éclipse solaire du 18 septembre 1195 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "September 18, 1195 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:38313:6c86b881d811",
+   "question": "What specific type of solar eclipse occurred on April 5, 675 BC?",
+   "entity_labels": [
+    "solar eclipse of April 5, 675 BC",
+    "éclipse solaire du 5 avril 675 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "April 5, 675 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:38969:402b18926edd",
+   "question": "What specific type of solar eclipse occurred on June 14, 1330 BC?",
+   "entity_labels": [
+    "solar eclipse of June 14, 1330 BC",
+    "éclipse solaire du 14 juin 1330 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "June 14, 1330 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:40403:7640ce7838a7",
+   "question": "What type of solar eclipse was the event on February 27, 1483 BC?",
+   "entity_labels": [
+    "solar eclipse of February 27, 1483 BC",
+    "éclipse solaire du 27 février 1483 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "February 27, 1483 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:40683:a0f599889aeb",
+   "question": "What specific type of solar eclipse occurred on September 26, 1364 BC?",
+   "entity_labels": [
+    "solar eclipse of September 26, 1364 BC",
+    "éclipse solaire du 26 septembre 1364 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "September 26, 1364 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:41266:90847da7cbc9",
+   "question": "In which statistical territorial entity is Pazariçi situated in?",
+   "entity_labels": [
+    "Pazariçi"
+   ],
+   "entity_description": "mahalle (administrative quarter) in Gaziosmanpaşa, İstanbul–Europe, northwestern Turkey",
+   "candidate_A": "Pazariçi",
+   "candidate_B": "statistical territorial entity"
+  },
+  {
+   "uid": "6:47446:b3e71f27bfae",
+   "question": "What type of referendum was the Puerto Rican status referendum in 1967 considered to be?",
+   "entity_labels": [
+    "Plebiscito sobre el estatus político de Puerto Rico (1967)",
+    "Puerto Rican status referendum, 1967",
+    "référendum de 1967 sur le statut de Porto Rico"
+   ],
+   "entity_description": "Ballot measure in Puerto Rico",
+   "candidate_A": "Puerto Rican status referendum",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:47596:d54461dc436c",
+   "question": "What specific type of solar eclipse occurred on August 30, 1924?",
+   "entity_labels": [
+    "1924年8月30日の日食",
+    "1924年8月30日日食",
+    "Eclissi solare del 30 agosto 1924",
+    "solar eclipse of August 30, 1924",
+    "éclipse solaire du 30 août 1924"
+   ],
+   "entity_description": "20th-century partial solar eclipse",
+   "candidate_A": "August 30, 1924",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:47748:c85944861662",
+   "question": "What specific type of solar eclipse occurred on October 21, 1930?",
+   "entity_labels": [
+    "1930年10月21日の日食",
+    "1930年10月21日日食",
+    "Eclissi solare del 21 ottobre 1930",
+    "Zonsverduistering van 21 oktober 1930",
+    "solar eclipse of October 21, 1930",
+    "éclipse solaire du 21 octobre 1930"
+   ],
+   "entity_description": "20th-century total solar eclipse",
+   "candidate_A": "October 21, 1930",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:49245:482429dd5c05",
+   "question": "In which administrative territorial entity was the USSR national amateur boxing championship held in 1950?",
+   "entity_labels": [
+    "USSR national amateur boxing championship 1950",
+    "UdSSR-Meisterschaft im Boxen 1950",
+    "Чемпионат СССР по боксу 1950"
+   ],
+   "entity_description": "",
+   "candidate_A": "USSR national amateur boxing championship",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:5781:e9dc08232b3e",
+   "question": "What is José Fontseré Mestre's occupation?",
+   "entity_labels": [
+    "Josep Fontserè",
+    "Josep Fontserè i Mestre",
+    "José Fontseré",
+    "José Fontseré Mestre"
+   ],
+   "entity_description": "Spanish architect (1829-1897)",
+   "candidate_A": "José Fontseré Mestre",
+   "candidate_B": "José Fontseré"
+  },
+  {
+   "uid": "6:61911:9bc6fb29d8fe",
+   "question": "Which team won the Trofeo Cidade de Vigo 1984 competition?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Trofeo Cidade de Vigo 1984"
+  },
+  {
+   "uid": "6:63377:c4e580448443",
+   "question": "In which historic county is St. Malachy's Parish Church of Ireland located within Gate Screen and Lodges?",
+   "entity_labels": [
+    "Gate Screen and Lodges, St. Malachy's Parish Church of Ireland"
+   ],
+   "entity_description": "gatehouse in Royal Hillsborough, County Down, Northern Ireland",
+   "candidate_A": "Gate Screen and Lodges",
+   "candidate_B": "St. Malachy's Parish Church of Ireland"
+  },
+  {
+   "uid": "6:64052:5fa4c2dd1b5f",
+   "question": "In what specific timeframe did the Private Chapel on Clandeboye Estate undergo refinement?",
+   "entity_labels": [
+    "Private Chapel, Clandeboye Estate"
+   ],
+   "entity_description": "church building in Bangor, County Down, Northern Ireland",
+   "candidate_A": "Private Chapel",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:64699:f758f9cb78f5",
+   "question": "What specific class does the event \"Masakr djece u Bakarevoj\" belong to?",
+   "entity_labels": [
+    "massacre d’enfants à Bakareva"
+   ],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "6:68683:377f915c3b5c",
+   "question": "In which administrative territorial entity is Trinitas Church situated in Cengkareng?",
+   "entity_labels": [
+    "Trinitas Church, Cengkareng"
+   ],
+   "entity_description": "church in Jakarta",
+   "candidate_A": "Trinitas Church",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:13413:3dd529e34599",
+   "question": "What was the main subject of the Botswana judicial reform referendum in 2001?",
+   "entity_labels": [
+    "Botswaans nationaal referendum (2001)",
+    "Botswana judicial reform referendum, 2001",
+    "Referendum w Botswanie w 2001 roku",
+    "Référendum sur la justice au Botswana"
+   ],
+   "entity_description": "",
+   "candidate_A": "Botswana judicial reform referendum",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:19783:1c0ef691d3fe",
+   "question": "What is the specific classification of Hacıpaşa as a particular example and member?",
+   "entity_labels": [
+    "Hacıpaşa"
+   ],
+   "entity_description": "mahalle (administrative quarter) in Tomarza, Kayseri, central Turkey",
+   "candidate_A": "Hacıpaşa",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:27014:d2f35ea7b10d",
+   "question": "What is the specific class of which Kelekli is a particular example and member?",
+   "entity_labels": [
+    "Kelekli"
+   ],
+   "entity_description": "mahalle (adminstrative quarter) in Karkamış, Gaziantep, south-central Turkey",
+   "candidate_A": "Kelekli",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:30520:615dd82fd4f7",
+   "question": "What martial art is Kenpo said to be the same as, despite possible controversy?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Kenpo"
+  },
+  {
+   "uid": "7:30584:69712b07f269",
+   "question": "What is the country of origin of the work \"31 kisah Tokoh : Glob Dunia untuk Raja Sicily\"?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "7:30839:f744ea12b043",
+   "question": "What specific classification does \"Berbicara Mengenai Kesihatan Reproduktif Remaja: Panduan untuk Ibu Bapa dan Guru\" fall under?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "7:39425:8b86e0020806",
+   "question": "Which historic county does 19 Warriston Crescent in Edinburgh belong to?",
+   "entity_labels": [
+    "19 Warriston Crescent, Edinburgh"
+   ],
+   "entity_description": "terrace house in Edinburgh, Scotland, UK",
+   "candidate_A": "19 Warriston Crescent",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:40287:c5a8fc459291",
+   "question": "In which historic county is 31 Heriot Row located in Edinburgh?",
+   "entity_labels": [
+    "31 Heriot Row, Edinburgh"
+   ],
+   "entity_description": "terrace house in Edinburgh, Scotland, UK",
+   "candidate_A": "31 Heriot Row",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:40722:84acb04bac1f",
+   "question": "Which historic county is 4 Randolph Cliff in Edinburgh located in?",
+   "entity_labels": [
+    "4 Randolph Cliff, Edinburgh"
+   ],
+   "entity_description": "house in Edinburgh, Scotland, UK",
+   "candidate_A": "4 Randolph Cliff",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:42764:4358031608b3",
+   "question": "In which historic county is Toy Fort located within Knockbrex?",
+   "entity_labels": [
+    "Toy Fort, Knockbrex"
+   ],
+   "entity_description": "architectural structure in Dumfries and Galloway, Scotland, UK",
+   "candidate_A": "Knockbrex",
+   "candidate_B": "Toy Fort"
+  },
+  {
+   "uid": "7:42824:e494a6d357c0",
+   "question": "In which historic county is the Old Parish Church located in Morton?",
+   "entity_labels": [
+    "Old Parish Church, Morton"
+   ],
+   "entity_description": "church in Dumfries and Galloway, Scotland, UK",
+   "candidate_A": "Old Parish Church",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:42909:8bf12bb1e2bb",
+   "question": "In which historic county is Manse located in New Luce?",
+   "entity_labels": [
+    "Manse, New Luce"
+   ],
+   "entity_description": "architectural structure in Dumfries and Galloway, Scotland, UK",
+   "candidate_A": "New Luce",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:46237:76e9e40446f4",
+   "question": "Which historic county is 26, 27, 28, 29 St Patrick Square in Edinburgh located in?",
+   "entity_labels": [
+    "26, 27, 28, 29 St Patrick Square, Edinburgh"
+   ],
+   "entity_description": "tenement in Edinburgh, Scotland, UK",
+   "candidate_A": "Edinburgh",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:46401:ba7e039702a0",
+   "question": "Which historic county is 37 Salisbury Road in Edinburgh located in?",
+   "entity_labels": [
+    "37 Salisbury Road, Edinburgh"
+   ],
+   "entity_description": "architectural structure in City of Edinburgh, Scotland, UK",
+   "candidate_A": "37 Salisbury Road",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:46604:b57485830ff8",
+   "question": "In which historic county is Nethergate Market Cross located in Dundee?",
+   "entity_labels": [
+    "Nethergate. Market Cross, Dundee"
+   ],
+   "entity_description": "market cross in Dundee, Scotland, UK",
+   "candidate_A": "Nethergate Market Cross",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:47549:17d2a58ef4c2",
+   "question": "In which historic county is Sundial located in Bargaly?",
+   "entity_labels": [
+    "Sundial, Bargaly"
+   ],
+   "entity_description": "architectural structure in Dumfries and Galloway, Scotland, UK",
+   "candidate_A": "Bargaly",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:47837:033f666720ad",
+   "question": "In which historic county is 140 Perth Road located in Dundee?",
+   "entity_labels": [
+    "140 Perth Road, Dundee"
+   ],
+   "entity_description": "villa in Dundee, Scotland, UK",
+   "candidate_A": "140 Perth Road",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:47938:7cd6637d676a",
+   "question": "In which historic county is 238-242 Leith Walk located in Edinburgh?",
+   "entity_labels": [
+    "238-242 Leith Walk, Edinburgh"
+   ],
+   "entity_description": "architectural structure in City of Edinburgh, Scotland, UK",
+   "candidate_A": "238-242 Leith Walk",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:48066:08426d95db12",
+   "question": "In which historic county is 57 Magdalen Yard Road in Dundee located?",
+   "entity_labels": [
+    "57 Magdalen Yard Road, Dundee"
+   ],
+   "entity_description": "villa in Dundee, Scotland, UK",
+   "candidate_A": "57 Magdalen Yard Road",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:48592:289fcfbca3a8",
+   "question": "In which historic county is Trustee Savings Bank located at 247-255 Springburn Way in Glasgow?",
+   "entity_labels": [
+    "Trustee Savings Bank, 247-255 Springburn Way, Glasgow"
+   ],
+   "entity_description": "building in Glasgow City, Scotland, UK",
+   "candidate_A": "247-255 Springburn Way",
+   "candidate_B": "Trustee Savings Bank"
+  },
+  {
+   "uid": "7:49017:19a174bc7b9b",
+   "question": "In which historic county is the Burial Ground of the Old Parish Church located in Inveravon?",
+   "entity_labels": [
+    "Burial Ground, Old Parish Church, Inveravon"
+   ],
+   "entity_description": "architectural structure in Moray, Scotland, UK",
+   "candidate_A": "Burial Ground",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:49242:ab38eefdfd7e",
+   "question": "In which historic county is St Peter's Church and Old Burial-Ground located in Rathven?",
+   "entity_labels": [
+    "St Peter's Church and Old Burial-Ground, Rathven"
+   ],
+   "entity_description": "architectural structure in Moray, Scotland, UK",
+   "candidate_A": "St Peter's Church and Old Burial-Ground",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:49695:92ea308c0d8c",
+   "question": "In which historic county is Grange House Hotel located in Whiting Bay, Arran?",
+   "entity_labels": [
+    "Grange House Hotel, Whiting Bay, Arran"
+   ],
+   "entity_description": "hotel in North Ayrshire, Scotland, UK",
+   "candidate_A": "Grange House Hotel",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:50274:9088dfb7617b",
+   "question": "In which historic county is 1 Woodside Cottages located on Main Street in Langbank?",
+   "entity_labels": [
+    "1 Woodside Cottages, Main Street, Langbank"
+   ],
+   "entity_description": "architectural structure in Renfrewshire, Scotland, UK",
+   "candidate_A": "1 Woodside Cottages",
+   "candidate_B": null
+  },
+  {
+   "uid": "0:11655:59808df2f9d1",
+   "question": "What category do Independent and non-affiliated candidates fall under in the 1998 Quebec provincial election?",
+   "entity_labels": [
+    "Independent and non-affiliated candidates, 1998 Quebec provincial election"
+   ],
+   "entity_description": "",
+   "candidate_A": "Independent and non-affiliated candidates",
+   "candidate_B": null
+  },
+  {
+   "uid": "0:21470:2d1c30fad7da",
+   "question": "What type of page is Potvrdnik in Wikimedia?",
+   "entity_labels": [],
+   "entity_description": "Wikimedia project page",
+   "candidate_A": null,
+   "candidate_B": "Potvrdnik"
+  },
+  {
+   "uid": "0:21474:3d5a7efc6dce",
+   "question": "What type of page is Potvrdnik-R in Wikimedia?",
+   "entity_labels": [],
+   "entity_description": "Wikimedia project page",
+   "candidate_A": null,
+   "candidate_B": "Potvrdnik-R"
+  },
+  {
+   "uid": "0:21880:abbe19a805bd",
+   "question": "In which administrative entity is Eech zu Koler located?",
+   "entity_labels": [],
+   "entity_description": "part of the remarkable tress in Luxembourg",
+   "candidate_A": null,
+   "candidate_B": "Eech zu Koler"
+  },
+  {
+   "uid": "0:23117:1edfcb4d68e8",
+   "question": "What category does Varvitsa in Laconia belong to?",
+   "entity_labels": [
+    "Varvitsa, Laconia",
+    "Varvítsa"
+   ],
+   "entity_description": "village in Greece",
+   "candidate_A": "Varvitsa",
+   "candidate_B": null
+  },
+  {
+   "uid": "0:26834:12c8bcedf785",
+   "question": "What type of artwork is the painting depicting the interview between Jesus and Nicodemus?",
+   "entity_labels": [
+    "Entretien de Jésus et de Nicodème",
+    "Interview between Jesus and Nicodemus"
+   ],
+   "entity_description": "painting by James Tissot",
+   "candidate_A": "interview between Jesus and Nicodemus",
+   "candidate_B": "painting"
+  },
+  {
+   "uid": "0:7221:e2b6fe7d7802",
+   "question": "What is the railway service that Genova Sturla railway halt is part of?",
+   "entity_labels": [
+    "Genova Sturla",
+    "Genova Sturla railway halt",
+    "Gênes-Sturla",
+    "Stazione di Genova Sturla",
+    "station Genova Sturla",
+    "stazione di Genova Sturla"
+   ],
+   "entity_description": "railway halt in Italy",
+   "candidate_A": "Genova Sturla railway halt",
+   "candidate_B": "Genova Sturla"
+  },
+  {
+   "uid": "0:802:cd64307604fc",
+   "question": "In terms of jurisdiction, where does the authority of Mājishūn, ʻAbd al-ʻAzīz ibn ʻAbd Allāh, extend to?",
+   "entity_labels": [
+    "Abd al-Aziz ibn Abi Salama al-Majishun",
+    "Mājishūn, ʻAbd al-ʻAzīz ibn ʻAbd Allāh, d.",
+    "Māǧišūn, ʿAbd al-ʿAzīz Ibn-ʿAbdallāh Ibn-Abī Salama al-",
+    "Māǧišūn, ʿAbd al-ʿAzīz b. ʿAbd Allāh al- (Abū ʿAbd Allāh ʿAbd al-ʿAzīz b. ʿAbd Allāh)",
+    "ʿAbd al-ʿAzīz Ibn-ʿAbdallāh Ibn-Abī Salama al-Māǧišūn"
+   ],
+   "entity_description": "Jurist in Medina",
+   "candidate_A": "Mājishūn",
+   "candidate_B": "Mājishūn, ʻAbd al-ʻAzīz ibn ʻAbd Allāh"
+  },
+  {
+   "uid": "1:14662:5a526bf841de",
+   "question": "What class does Historical Emsemble (Spain) belong to as a particular example and member?",
+   "entity_labels": [
+    "Conjunto Histórico",
+    "Conjunto Histórico-Artístico",
+    "Conjunto histórico-artístico",
+    "Ensemble historique (Espagne)",
+    "Historic Ensemble",
+    "conjunt històric"
+   ],
+   "entity_description": "subcategory of assets of cultural interest in Spain and all the heritage assets that have received this classification",
+   "candidate_A": null,
+   "candidate_B": "Historical Emsemble"
+  },
+  {
+   "uid": "2:19439:006fd8358f30",
+   "question": "What governing body immediately succeeded the Supreme Soviet of the Azerbaijan SSR in a series?",
+   "entity_labels": [
+    "Opperste Sovjet van de Azerbeidzjaanse Socialistische Sovjetrepubliek",
+    "Soviet Suprem de l'RSS de l'Azerbaidjan",
+    "Soviet suprême d'Azerbaïdjan",
+    "Supreme Soviet of Azerbaijan",
+    "Sóviet Supremo de la República Socialista Soviética de Azerbaiyán",
+    "Верховный Совет Азербайджана"
+   ],
+   "entity_description": "Soviet Azerbaijan legislative body (1938–1991)",
+   "candidate_A": "Supreme Soviet of the Azerbaijan SSR",
+   "candidate_B": null
+  },
+  {
+   "uid": "2:39609:1909898e8d21",
+   "question": "What specific type of municipal merger was the 2009 merger in the Salo region in Finland?",
+   "entity_labels": [
+    "2009 municipal merger in Salo region",
+    "Salon seudun kuntaliitos 2009"
+   ],
+   "entity_description": "municipal merger in Finland",
+   "candidate_A": "Salo region",
+   "candidate_B": null
+  },
+  {
+   "uid": "2:40779:e76ad414490e",
+   "question": "What type of settlement is Alaitz considered to be?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Alaitz"
+  },
+  {
+   "uid": "2:8267:6c809cb8f2e1",
+   "question": "In which administrative territorial entity is Tertius quadrans located?",
+   "entity_labels": [
+    "Machlandviertel"
+   ],
+   "entity_description": "Bis 1779 bestehendes historisches Viertel Oberösterreichs",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "3:34354:fe5a64a83b33",
+   "question": "What category does Casa de Don Inocencio belong to as a specific example?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Casa de Don Inocencio"
+  },
+  {
+   "uid": "4:100203:91b153754e01",
+   "question": "What season of the Yugoslav First Basketball League immediately followed the 1967-68 season?",
+   "entity_labels": [
+    "1967–68 Yugoslav First Basketball League",
+    "YUBA liga 1967-1968"
+   ],
+   "entity_description": "sports season",
+   "candidate_A": "Yugoslav First Basketball League",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:107596:afd33555cdac",
+   "question": "What category does Sjóminjasafn Austurlands belong to?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Sjóminjasafn Austurlands"
+  },
+  {
+   "uid": "4:3741:0197fe9cf0e1",
+   "question": "What video game is a derivative work of Madagascar 3: Europe's Most Wanted?",
+   "entity_labels": [
+    "Madagascar 3",
+    "Madagascar 3 - Ricercati in Europa",
+    "Madagascar 3: De marxa per Europa",
+    "Madagascar 3: Europe's Most Wanted",
+    "Madagascar 3: Flucht durch Europa",
+    "Madagascar 3: Fugăriți prin Europa"
+   ],
+   "entity_description": "2012 animated film directed by Eric Darnell, Conrad Vernon and Tom McGrath",
+   "candidate_A": "Madagascar 3: Europe's Most Wanted",
+   "candidate_B": "Madagascar 3"
+  },
+  {
+   "uid": "4:40643:e634ddb3629d",
+   "question": "What type of building is Palazzo Vescovile (San Miniato)?",
+   "entity_labels": [
+    "Palazzo Vescovile",
+    "Palazzo Vescovile (San Miniato)"
+   ],
+   "entity_description": "building in San Miniato, Italy",
+   "candidate_A": "Palazzo Vescovile (San Miniato)",
+   "candidate_B": "Palazzo Vescovile"
+  },
+  {
+   "uid": "4:52830:78f310e1679b",
+   "question": "What category does خوش\\u200cنشین\\u200cها belong to as a specific example?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "خوش\\u200cنشین\\u200cها"
+  },
+  {
+   "uid": "4:91893:781a0e3ad053",
+   "question": "Which season directly succeeded the 2009–10 FC Dnipro Dnipropetrovsk season?",
+   "entity_labels": [
+    "2009–10 FC Dnipro Dnipropetrovsk season"
+   ],
+   "entity_description": "season of football team",
+   "candidate_A": "2009–10 FC Dnipro Dnipropetrovsk season",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:91927:3cf2b07a6e4c",
+   "question": "What season of FC Karpaty Lviv immediately followed the 1972 season?",
+   "entity_labels": [
+    "1972 FC Karpaty Lviv season"
+   ],
+   "entity_description": "season of football team",
+   "candidate_A": "FC Karpaty Lviv",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:94296:709aa2752a62",
+   "question": "What category does Malproksimaj Landoj Proksimaj Landoj fall under as a specific example?",
+   "entity_labels": [
+    "Faraway Neighboring Countries",
+    "먼나라 이웃나라"
+   ],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "5:14530:19419bd5e32b",
+   "question": "Who replaced Rosalind Howells, Baroness Howells of St Davids in her role?",
+   "entity_labels": [
+    "Rosalind Howells",
+    "Rosalind Howells, Baroness Howells of St Davids"
+   ],
+   "entity_description": "British politician (1931–2025)",
+   "candidate_A": "Rosalind Howells, Baroness Howells of St Davids",
+   "candidate_B": "Rosalind Howells"
+  },
+  {
+   "uid": "5:23039:ce40385282cf",
+   "question": "What is the name of the highway system associated with Poznań Podolany train station?",
+   "entity_labels": [
+    "Poznań Podolany",
+    "Poznań Podolany train station",
+    "station Poznań Podolany"
+   ],
+   "entity_description": "railway station in Poznań, Poland",
+   "candidate_A": "Poznań Podolany train station",
+   "candidate_B": "Poznań Podolany"
+  },
+  {
+   "uid": "5:42998:cf23a47f9ea2",
+   "question": "What type of system is the Barabanki–Lucknow Suburban Railway considered to be in Lucknow?",
+   "entity_labels": [
+    "Barabanki–Lucknow",
+    "Barabanki–Lucknow Suburban Railway",
+    "巴拉班基－勒克瑙市郊鐵路"
+   ],
+   "entity_description": "rail transport in Uttar Pradesh, India",
+   "candidate_A": "Barabanki–Lucknow Suburban Railway",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:79483:2f4ec6b74f52",
+   "question": "What historical event did Masakr u Pljevljima, Priboju, Foči i Čajniču occur during?",
+   "entity_labels": [
+    "Masacre en Pljevlja, Priboj, Foča y Čajniče",
+    "Massacre in Pljevlja, Priboj, Foča and Čajniče",
+    "massacre à Pljevlja, Priboj, Foča et Čajniče"
+   ],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Masakr u Pljevljima, Priboju, Foči i Čajniču"
+  },
+  {
+   "uid": "5:91652:62a416932c00",
+   "question": "What type of item is carried by Bridge No. 44 over the Union Canal in Linlithgow?",
+   "entity_labels": [
+    "Bridge No. 44, Union Canal, Linlithgow"
+   ],
+   "entity_description": "bridge in West Lothian, Scotland, UK, carries a minor road across the Union Canal",
+   "candidate_A": "Bridge No. 44",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:12723:e0f88b792171",
+   "question": "What specific type of military unit is Infanterie-Regiment „Kaiser Wilhelm, König von Preußen“?",
+   "entity_labels": [
+    "120 Pułk Piechoty im. Cesarza i Króla Prus Wilhelma (2 Wirtemberski)",
+    "Infanterie-Regiment „Kaiser Wilhelm, König von Preußen“",
+    "Infanterie-Regiment „Kaiser Wilhelm, König von Preußen“ (2. Württembergisches) Nr. 120"
+   ],
+   "entity_description": "Infantry unit of the Württemberg army (1808-1919)",
+   "candidate_A": "Infanterie-Regiment „Kaiser Wilhelm, König von Preußen“",
+   "candidate_B": "Infanterie-Regiment „Kaiser Wilhelm, König von Preußen"
+  },
+  {
+   "uid": "6:23512:64135008acef",
+   "question": "What comes immediately after \"A Priest Walks Into a Bar\" in the series?",
+   "entity_labels": [
+    "A Priest Walks Into a Bar",
+    "Der Priester, der keiner sein wollte"
+   ],
+   "entity_description": "third-season finale episode of In Plain Sight",
+   "candidate_A": "A Priest Walks Into a Bar",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:38555:482ff2287b7c",
+   "question": "What specific type of solar eclipse was the event on July 11, 532 BC?",
+   "entity_labels": [
+    "solar eclipse of July 11, 532 BC",
+    "éclipse solaire du 11 juillet 532 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "July 11, 532 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:38875:3797b4e989e2",
+   "question": "What specific type of solar eclipse was the event on March 10, 1465 BC?",
+   "entity_labels": [
+    "solar eclipse of March 10, 1465 BC",
+    "éclipse solaire du 10 mars 1465 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "March 10, 1465 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:39038:2f5ab401d49e",
+   "question": "What specific type of solar eclipse occurred on December 9, 280 BC?",
+   "entity_labels": [
+    "solar eclipse of December 9, 280 BC",
+    "éclipse solaire du 9 décembre 280 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "December 9, 280 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:39696:178099c298c4",
+   "question": "What specific type of solar eclipse occurred on March 16, 1707 BC?",
+   "entity_labels": [
+    "solar eclipse of March 16, 1707 BC",
+    "éclipse solaire du 16 mars 1707 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "March 16, 1707 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:39821:486d39cce428",
+   "question": "What type of solar eclipse was the event on December 19, 1898 BC classified as?",
+   "entity_labels": [
+    "solar eclipse of December 19, 1898 BC",
+    "éclipse solaire du 19 décembre 1898 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "December 19, 1898 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:40109:e72fcfac8102",
+   "question": "What specific type of solar eclipse was the July 26, 1323 BC event?",
+   "entity_labels": [
+    "solar eclipse of July 26, 1323 BC",
+    "éclipse solaire du 26 juillet 1323 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "July 26, 1323 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:4103:f2699807bcf5",
+   "question": "What type of building is Kastelo de Szikszó considered as?",
+   "entity_labels": [
+    "Csáky–Hunyady-kastély"
+   ],
+   "entity_description": "kastély Szikszón",
+   "candidate_A": null,
+   "candidate_B": "Kastelo de Szikszó"
+  },
+  {
+   "uid": "6:47715:587f3bf62247",
+   "question": "What specific type of solar eclipse was the event on May 20, 1966, an example of?",
+   "entity_labels": [
+    "1966年5月20日の日食",
+    "1966年5月20日日食",
+    "20 Mayıs 1966 Güneş Tutulması",
+    "Eclissi solare del 20 maggio 1966",
+    "solar eclipse of May 20, 1966",
+    "éclipse solaire du 20 mai 1966"
+   ],
+   "entity_description": "20th-century annular solar eclipse",
+   "candidate_A": "May 20, 1966",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:49960:13c09c0763b9",
+   "question": "What type of page is Seleición de fútbol d'Inglaterra considered as on Wikimedia?",
+   "entity_labels": [
+    "Engels voetbalelftal",
+    "Englands fotbollslandslag",
+    "Englische Fußballnationalmannschaft",
+    "Selección de fútbol de Inglaterra"
+   ],
+   "entity_description": "Wikimedia disambiguation page",
+   "candidate_A": null,
+   "candidate_B": "Seleición de fútbol d'Inglaterra"
+  },
+  {
+   "uid": "6:50279:56b01775178d",
+   "question": "What specific class is the School of Mechanical Engineering at Shanghai Jiao Tong University an example of?",
+   "entity_labels": [
+    "School of Mechanical Engineering, Shanghai Jiao Tong University",
+    "上海交通大学机械与动力工程学院"
+   ],
+   "entity_description": "",
+   "candidate_A": "School of Mechanical Engineering",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:50281:b65a1791b5a4",
+   "question": "What specific group does the School of Nuclear Science and Engineering at Shanghai Jiao Tong University belong to?",
+   "entity_labels": [
+    "School of Nuclear Science and Engineering, Shanghai Jiao Tong University",
+    "上海交通大学核科学与工程学院"
+   ],
+   "entity_description": "",
+   "candidate_A": "School of Nuclear Science and Engineering",
+   "candidate_B": "School of Nuclear Science and Engineering at Shanghai Jiao Tong University"
+  },
+  {
+   "uid": "7:13054:267c4621b1cb",
+   "question": "In which statistical territorial entity is Aşağıada located?",
+   "entity_labels": [
+    "Aşağıada"
+   ],
+   "entity_description": "mahalle (administrative quarter) in Kızılcahamam, Ankara, west-central Turkey",
+   "candidate_A": "Aşağıada",
+   "candidate_B": "statistical territorial entity"
+  },
+  {
+   "uid": "7:26404:dd4e55547aa0",
+   "question": "What category does Aşlıca belong to as a specific example and member?",
+   "entity_labels": [
+    "Aşlıca"
+   ],
+   "entity_description": "mahalle (administrative quarter) in Siverek, Şanlıurfa, southeastern Turkey",
+   "candidate_A": "Aşlıca",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:26996:84e246bed349",
+   "question": "What classification does Kavşut fall under as a particular example and member?",
+   "entity_labels": [
+    "Kavşut"
+   ],
+   "entity_description": "mahalle (adminstrative quarter) in Göksun, Kahramanmaraş, southern Turkey",
+   "candidate_A": "Kavşut",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:30574:e0c049616442",
+   "question": "What specific type of version is 31 Kisah Sahabat: Kamus Tuhan?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "7:30653:32929e82326d",
+   "question": "What category does 75 Solat-solat Sunat serta Doa dan Wirid (Edisi Jawi) belong to?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "75 Solat-solat Sunat serta Doa dan Wirid (Edisi Jawi)"
+  },
+  {
+   "uid": "7:30749:0fc856eba442",
+   "question": "Which country does \"Anda Berkarisma Apabila...?\" originate from?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Anda Berkarisma Apabila...?"
+  },
+  {
+   "uid": "7:41070:bdfa64b2325d",
+   "question": "In which historic county is Manse Cottage located in Tullynessle?",
+   "entity_labels": [
+    "Manse Cottage, Tullynessle"
+   ],
+   "entity_description": "cottage in Aberdeenshire, Scotland, UK",
+   "candidate_A": "Manse Cottage",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:41253:2ba4ecffb6f0",
+   "question": "In which historic county is the Old Parish Church in Newhills located?",
+   "entity_labels": [
+    "Old Parish Church, Newhills"
+   ],
+   "entity_description": "church in Aberdeen, Scotland, UK",
+   "candidate_A": "Old Parish Church",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:43143:84faa693955f",
+   "question": "Which historic county is 3 Bellevue Place in Edinburgh located in?",
+   "entity_labels": [
+    "3 Bellevue Place, Edinburgh"
+   ],
+   "entity_description": "architectural structure in City of Edinburgh, Scotland, UK",
+   "candidate_A": "3 Bellevue Place",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:43764:78968f8f23cc",
+   "question": "In which historic county is 1 Carruthers Cottages located in Johnstone Park, Dumfries?",
+   "entity_labels": [
+    "1 Carruthers Cottages, Johnstone Park, Dumfries"
+   ],
+   "entity_description": "cottage in Dumfries, Dumfries and Galloway, Scotland, UK",
+   "candidate_A": "1 Carruthers Cottages",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:43771:529a216d094f",
+   "question": "In which historic county is George Street, Edinburgh, home to the K9 Telephone Kiosk located?",
+   "entity_labels": [
+    "K9 Telephone Kiosk, George Street, Edinburgh"
+   ],
+   "entity_description": "red telephone box in City of Edinburgh, Scotland, UK",
+   "candidate_A": "K9 Telephone Kiosk",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:44708:854b969469c3",
+   "question": "What historic county is 17 West Nicolson Street in Edinburgh located in?",
+   "entity_labels": [
+    "17 West Nicolson Street, Edinburgh"
+   ],
+   "entity_description": "architectural structure in City of Edinburgh, Scotland, UK",
+   "candidate_A": "17 West Nicolson Street",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:46744:05c6efb1b2dc",
+   "question": "In which historic county is the Old Field located at 21 Crescent Road, Lundin Links?",
+   "entity_labels": [
+    "Old Field, 21 Crescent Road, Lundin Links"
+   ],
+   "entity_description": "architectural structure in Fife, Scotland, UK",
+   "candidate_A": "Lundin Links",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:48838:fdefb07493f7",
+   "question": "In which historic county is Bonar Bridge located within the Combination Poorhouse?",
+   "entity_labels": [
+    "Combination Poorhouse, Bonar Bridge"
+   ],
+   "entity_description": "architectural structure in Highland, Scotland, UK",
+   "candidate_A": "Combination Poorhouse",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:48965:9b62afd3b701",
+   "question": "In which historic county are the West Lodge and Gate Piers of Holme Rose located?",
+   "entity_labels": [
+    "West Lodge and Gate Piers, Holme Rose"
+   ],
+   "entity_description": "architectural structure in Highland, Scotland, UK",
+   "candidate_A": "West Lodge and Gate Piers",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:54331:d6f2d34cfbfe",
+   "question": "What class does Wyszydzający belong to as a particular example or member?",
+   "entity_labels": [
+    "Wyszydzający"
+   ],
+   "entity_description": "",
+   "candidate_A": "Wyszydzający",
+   "candidate_B": null
+  },
+  {
+   "uid": "0:17904:0ae196f78017",
+   "question": "Where was the first edition of Nine Dirts and Snow White Flickers published?",
+   "entity_labels": [
+    "NINE DIRTS AND SNOW WHITE FLICKERS",
+    "Nine Dirts and Snow White Flickers"
+   ],
+   "entity_description": "2008 concert video by Chihiro Onitsuka",
+   "candidate_A": "Nine Dirts and Snow White Flickers",
+   "candidate_B": null
+  },
+  {
+   "uid": "0:25243:eeb469d90b09",
+   "question": "What type of item does Irongray Bridge carry?",
+   "entity_labels": [
+    "Irongray Bridge"
+   ],
+   "entity_description": "bridge in Dumfries and Galloway, Scotland, UK, carries a minor road across Cluden Water",
+   "candidate_A": "Irongray Bridge",
+   "candidate_B": null
+  },
+  {
+   "uid": "1:21567:9d3facba4b38",
+   "question": "What is the religion of St Francis of Assisi Parish in Paddington, NSW, Australia?",
+   "entity_labels": [
+    "St Francis of Assisi Parish, Paddington, NSW, Australia"
+   ],
+   "entity_description": "Roman Catholic community in Australia",
+   "candidate_A": "St Francis of Assisi Parish",
+   "candidate_B": null
+  },
+  {
+   "uid": "1:2556:b16f5b6d9d08",
+   "question": "Which bank does the Etivluk River act as a tributary to, the left or the right?",
+   "entity_labels": [
+    "Etivluk",
+    "Etivluk River",
+    "Этивлук"
+   ],
+   "entity_description": "river in the United States of America",
+   "candidate_A": "Etivluk River",
+   "candidate_B": "Etivluk"
+  },
+  {
+   "uid": "2:10612:53fe9537663a",
+   "question": "What classification does Point Roberts fall under as a specific example?",
+   "entity_labels": [
+    "Point Roberts",
+    "ポイントロバーツ (ワシントン州)",
+    "罗伯茨角"
+   ],
+   "entity_description": "census-designated place in Whatcom County, Washington State, United States",
+   "candidate_A": "Point Roberts",
+   "candidate_B": "classification"
+  },
+  {
+   "uid": "2:49538:643fc3aedcbc",
+   "question": "What type of concept is the red-headed document an instance of?",
+   "entity_labels": [
+    "red-headed document",
+    "紅頭文件"
+   ],
+   "entity_description": "中华人民共和国内一种非法律性质的法律政策性文件、决定、意见等公文类型",
+   "candidate_A": "red-headed document",
+   "candidate_B": null
+  },
+  {
+   "uid": "2:50116:ea07d908b0fa",
+   "question": "In which region can Callostylis bambusifolia be found?",
+   "entity_labels": [
+    "Callostylis bambusifolia",
+    "竹叶美柱兰"
+   ],
+   "entity_description": "species of plant",
+   "candidate_A": "Callostylis bambusifolia",
+   "candidate_B": null
+  },
+  {
+   "uid": "2:50928:0b748a658fd4",
+   "question": "What does the Linnpark Bridge in Netherlee carry?",
+   "entity_labels": [
+    "Linnpark Bridge, Netherlee",
+    "Netherlee, Linnpark Bridge"
+   ],
+   "entity_description": "bridge in Glasgow, Scotland, UK, carries a footpath across White Cart Water",
+   "candidate_A": "Linnpark Bridge",
+   "candidate_B": null
+  },
+  {
+   "uid": "2:54241:4e6432048e6b",
+   "question": "Which educational institution did Robert Mc Birnie attend?",
+   "entity_labels": [
+    "Robert McBirnie"
+   ],
+   "entity_description": "Faroese musician; association football player",
+   "candidate_A": null,
+   "candidate_B": "Robert Mc Birnie"
+  },
+  {
+   "uid": "2:54243:726b78c8f5db",
+   "question": "How did Robert Mc Birnie die?",
+   "entity_labels": [
+    "Robert McBirnie"
+   ],
+   "entity_description": "Faroese musician; association football player",
+   "candidate_A": null,
+   "candidate_B": "Robert Mc Birnie"
+  },
+  {
+   "uid": "3:10667:26207cd11d56",
+   "question": "What transportation system is Clontarf Road railway station a part of?",
+   "entity_labels": [
+    "Bahnhof Clontarf Road",
+    "Clontarf Road",
+    "Clontarf Road railway station",
+    "Station Clontarf Road",
+    "estación Clontarf Road",
+    "stazione di Clontarf Road"
+   ],
+   "entity_description": "railway station in Dublin, Ireland",
+   "candidate_A": "Clontarf Road railway station",
+   "candidate_B": "Clontarf Road"
+  },
+  {
+   "uid": "3:18615:4aa52175b192",
+   "question": "What stereoisomer is (+/-)-dihydroalprenolol of?",
+   "entity_labels": [
+    "dihydroalprenolol"
+   ],
+   "entity_description": "chemical compound",
+   "candidate_A": null,
+   "candidate_B": "dihydroalprenolol"
+  },
+  {
+   "uid": "3:36154:5d0c51a1fe06",
+   "question": "What specific type of location is Ras al-Ayn in Rif Dimashq Governorate in Syria?",
+   "entity_labels": [
+    "Ras al-Ajn",
+    "Ras al-Ayn, Rif Dimashq Governorate"
+   ],
+   "entity_description": "village in Syria",
+   "candidate_A": "Ras al-Ayn",
+   "candidate_B": null
+  },
+  {
+   "uid": "3:42755:9ff29ae99808",
+   "question": "In what language was season 5 of Bad Girls originally created?",
+   "entity_labels": [
+    "Bad Girls, season 5",
+    "Bad Girls/Staffel 5",
+    "quinta stagione di Bad Girls",
+    "saison 5 des Condamnées"
+   ],
+   "entity_description": "season of television series",
+   "candidate_A": "Bad Girls",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:111004:19d7e3927743",
+   "question": "What specific category does Kapısuyu belong to as a particular example?",
+   "entity_labels": [
+    "Kapısuyu"
+   ],
+   "entity_description": "mahalle (administrative quarter) in Samandağ, Hatay, south-central Turkey",
+   "candidate_A": "Kapısuyu",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:119645:52922bb463e2",
+   "question": "From which country does Oh Ternyata originate?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Oh Ternyata"
+  },
+  {
+   "uid": "4:51560:9d07edbcbdaa",
+   "question": "In what language was the film or TV show عشق\\u200cپرداز originally created?",
+   "entity_labels": [],
+   "entity_description": "film",
+   "candidate_A": null,
+   "candidate_B": "عشق\\u200cپرداز"
+  },
+  {
+   "uid": "4:94515:9076f29483b2",
+   "question": "In what format was the distribution of Uživo's Split primarily done?",
+   "entity_labels": [
+    "Uživo, Split"
+   ],
+   "entity_description": "1999 concert video by Mate Bulić",
+   "candidate_A": "Uživo",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:14651:19c1551af0b5",
+   "question": "Which record label is associated with the marketing of Hamburg ’75 – Jungs, war das gemütlich music recordings and music videos?",
+   "entity_labels": [
+    "Hamburg ’75",
+    "Hamburg ’75 – Jungs, war das gemütlich"
+   ],
+   "entity_description": "1995 compilation album; various artists",
+   "candidate_A": "Hamburg ’75 – Jungs, war das gemütlich",
+   "candidate_B": "Hamburg ’75"
+  },
+  {
+   "uid": "5:14810:e3268d6fba5d",
+   "question": "What is another name for the A2 motorway that is potentially uncertain or disputed?",
+   "entity_labels": [
+    "A2",
+    "A2 motorway",
+    "A2高速公路",
+    "Avtopat A2",
+    "Dálnice A2",
+    "autoroute M4"
+   ],
+   "entity_description": "road in North Macedonia",
+   "candidate_A": "A2 motorway",
+   "candidate_B": "A2"
+  },
+  {
+   "uid": "5:57044:0b603b0a017c",
+   "question": "What award did Martin Lee Ka-shing receive from Asia?",
+   "entity_labels": [
+    "Martin Lee",
+    "Martin Lee Ka-shing",
+    "李家誠"
+   ],
+   "entity_description": "Hong Kong businessman (1971-)",
+   "candidate_A": "Martin Lee Ka-shing",
+   "candidate_B": "Martin Lee"
+  },
+  {
+   "uid": "5:61676:2b7ca2559233",
+   "question": "Who was the producer of the film \"Pickin' On: The Grateful Dead - A Tribute\"?",
+   "entity_labels": [
+    "Pickin' On: The Grateful Dead – A Tribute",
+    "Pickin' on the Grateful Dead: A Tribute"
+   ],
+   "entity_description": "1997 tribute album; various artists",
+   "candidate_A": "Pickin' On: The Grateful Dead",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:64019:99ad22c39877",
+   "question": "In which town is St. Francis Xavier Catholic High School located in Ontario?",
+   "entity_labels": [
+    "St. Francis Xavier Catholic High School, Ontario"
+   ],
+   "entity_description": "catholic high school in Hammond, Ontario, Canada",
+   "candidate_A": "St. Francis Xavier Catholic High School",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:65459:c06000e18e66",
+   "question": "What type of facility is U.S. Naval Station Key West in Florida considered as?",
+   "entity_labels": [
+    "U.S. Naval Station Key West, Florida"
+   ],
+   "entity_description": "",
+   "candidate_A": "U.S. Naval Station Key West",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:72373:5080a5f7a0bc",
+   "question": "What type of settlement is Kesappanatti in Gokak?",
+   "entity_labels": [
+    "Kesappanatti, Gokak"
+   ],
+   "entity_description": "human settlement in India",
+   "candidate_A": "Kesappanatti",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:77879:f666ade19d61",
+   "question": "Who is the creator of Meso?",
+   "entity_labels": [
+    "Meso"
+   ],
+   "entity_description": "1926 constructed language created by Sidni Bond",
+   "candidate_A": "Meso",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:95935:4e28648deb08",
+   "question": "What is the name of the orthologous gene of ubr-5 in another species?",
+   "entity_labels": [
+    "UBR5"
+   ],
+   "entity_description": "protein-coding gene in the species Homo sapiens",
+   "candidate_A": null,
+   "candidate_B": "ubr-5"
+  },
+  {
+   "uid": "6:18568:9f6e0f119578",
+   "question": "What type of entity is Puligny-Montrachet wine considered as?",
+   "entity_labels": [
+    "Puligny-Montrachet wine",
+    "Puligny-montrachet",
+    "Пюлиньи-Монраше"
+   ],
+   "entity_description": "French wine",
+   "candidate_A": "Puligny-Montrachet wine",
+   "candidate_B": "Puligny-Montrachet"
+  },
+  {
+   "uid": "6:19508:bed9171eea44",
+   "question": "What is the main subject of the myth of Icarus and Daedalus?",
+   "entity_labels": [
+    "Daedalus and Icarus",
+    "Dedalo e Icaro",
+    "Dédale et Icare",
+    "Dédalo e Ícaro"
+   ],
+   "entity_description": "sculpture by Antonio Canova",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "6:37434:3a523bdf736c",
+   "question": "What specific type of solar eclipse occurred on July 25, 1285 BC?",
+   "entity_labels": [
+    "solar eclipse of July 25, 1285 BC",
+    "éclipse solaire du 25 juillet 1285 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "July 25, 1285 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:37809:3869b5d552cc",
+   "question": "What specific type of solar eclipse occurred on January 21, 1835 BC?",
+   "entity_labels": [
+    "solar eclipse of January 21, 1835 BC",
+    "éclipse solaire du 21 janvier 1835 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "January 21, 1835 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:38304:1281b4aebfc5",
+   "question": "What type of solar eclipse was the event on May 13, 901 BC, classified as?",
+   "entity_labels": [
+    "solar eclipse of May 13, 901 BC",
+    "éclipse solaire du 13 mai 901 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "May 13, 901 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:38779:e296682aedf4",
+   "question": "What specific type of solar eclipse was the event on August 10, 1045 BC?",
+   "entity_labels": [
+    "solar eclipse of August 10, 1045 BC",
+    "éclipse solaire du 10 août 1045 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "August 10, 1045 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:39077:9bb1d6571a75",
+   "question": "What specific type of solar eclipse was the event on February 8, 1454 BC considered?",
+   "entity_labels": [
+    "solar eclipse of February 8, 1454 BC",
+    "éclipse solaire du 8 février 1454 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "February 8, 1454 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:40214:0894103e76a0",
+   "question": "What type of solar eclipse was the event on November 19, 1255 BC?",
+   "entity_labels": [
+    "solar eclipse of November 19, 1255 BC",
+    "éclipse solaire du 19 novembre 1255 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "November 19, 1255 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:40647:f89ba0ff8b91",
+   "question": "What specific type of solar eclipse occurred on December 23, 1117 BC?",
+   "entity_labels": [
+    "solar eclipse of December 23, 1117 BC",
+    "éclipse solaire du 23 décembre 1117 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "December 23, 1117 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:40859:32ef6d3b12d6",
+   "question": "What specific class does Conde de Torrecedeira belong to?",
+   "entity_labels": [
+    "Condado de Torre Cedeira"
+   ],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Conde de Torrecedeira"
+  },
+  {
+   "uid": "6:7253:21f2e58e7321",
+   "question": "In which city is the headquarters of Schlick gyár located?",
+   "entity_labels": [
+    "Schlick–Nicholson Gép-, Waggon- és Hajógyár Rt."
+   ],
+   "entity_description": "bedrijf uit Hongarije",
+   "candidate_A": "Schlick gyár",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:13750:b8e1b11e904a",
+   "question": "What specific category does Altıkara belong to as a particular example?",
+   "entity_labels": [
+    "Altıkara"
+   ],
+   "entity_description": "mahalle (administrative quarter) in Ceyhan, Adana, south-central Turkey",
+   "candidate_A": "Altıkara",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:20908:7c927b46fe5e",
+   "question": "What specific type of area is Kulaksız refer to as?",
+   "entity_labels": [
+    "Kulaksız",
+    "クラクスズ"
+   ],
+   "entity_description": "mahalle (administrative quarter) in Beyoğlu, İstanbul–Europe, northwestern Turkey",
+   "candidate_A": "Kulaksız",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:30347:d13c27c6cec8",
+   "question": "From which country does Acción Agraria (Ortigueira) originate?",
+   "entity_labels": [],
+   "entity_description": "newspaper",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "7:30693:38ac396c9f27",
+   "question": "What specific type of document is Agenda Yahudi Menakluki Dunia?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "7:31378:244d49b705c6",
+   "question": "Which country is Kisah Kehidupan dan Perjuangan Para Sahabat from?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Kisah Kehidupan dan Perjuangan Para Sahabat"
+  },
+  {
+   "uid": "7:31641:204149522c0a",
+   "question": "What is the country of origin of Musafir Cinta?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Musafir Cinta"
+  },
+  {
+   "uid": "7:31920:fb0214fcff29",
+   "question": "What is the country of origin of Riwayat Hidup & Usaha Dakwah - Maulana Muhammad Ilyas R'a.?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Riwayat Hidup & Usaha Dakwah - Maulana Muhammad Ilyas R'a"
+  },
+  {
+   "uid": "7:39327:7af650cbfd80",
+   "question": "In which historic county is East Pavilion located in Stewarthall?",
+   "entity_labels": [
+    "East Pavilion, Stewarthall"
+   ],
+   "entity_description": "architectural structure in Argyll and Bute, Scotland, UK",
+   "candidate_A": "East Pavilion",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:39338:af9d3f729e8e",
+   "question": "What larger entity does 65, 66, 67 St Vincent Crescent belong to?",
+   "entity_labels": [
+    "65, 66, 67 St Vincent Crescent"
+   ],
+   "entity_description": "building in Glasgow City, Scotland, UK",
+   "candidate_A": "65, 66, 67 St Vincent Crescent",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:42293:52ec86ff7d42",
+   "question": "In which historic county is the K9 Telephone Kiosk located in Leysmill?",
+   "entity_labels": [
+    "K9 Telephone Kiosk, Leysmill"
+   ],
+   "entity_description": "telephone booth in Angus, Scotland, UK",
+   "candidate_A": "K9 Telephone Kiosk",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:42933:0161e83ae328",
+   "question": "Which historic county is Gilmerton House located in, near the Gazebo in Edinburgh?",
+   "entity_labels": [
+    "Gazebo, Gilmerton House, Gilmerton, Edinburgh"
+   ],
+   "entity_description": "architectural structure in City of Edinburgh, Scotland, UK",
+   "candidate_A": "Edinburgh",
+   "candidate_B": "Gilmerton House"
+  },
+  {
+   "uid": "7:46114:43cb723f07f2",
+   "question": "Which historic county does 14 Hermitage Place in Edinburgh belong to?",
+   "entity_labels": [
+    "14 Hermitage Place, Edinburgh"
+   ],
+   "entity_description": "architectural structure in City of Edinburgh, Scotland, UK",
+   "candidate_A": "14 Hermitage Place",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:46381:c8247956496a",
+   "question": "In which historic county is 53 Forfar Road located in Dundee?",
+   "entity_labels": [
+    "53 Forfar Road, Dundee"
+   ],
+   "entity_description": "bungalow in Dundee, Scotland, UK",
+   "candidate_A": "53 Forfar Road",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:46746:7ea1476d3923",
+   "question": "What type of item does Irongray Bridge carry?",
+   "entity_labels": [
+    "Irongray Bridge"
+   ],
+   "entity_description": "bridge in Dumfries and Galloway, Scotland, UK, carries a minor road across Cluden Water",
+   "candidate_A": "Irongray Bridge",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:47677:8fbec275e2cd",
+   "question": "In which historic county is North Pavilion Ward located within Cameron Hospital, Windygates?",
+   "entity_labels": [
+    "North Pavilion Ward, Cameron Hospital, Windygates"
+   ],
+   "entity_description": "architectural structure in Fife, Scotland, UK",
+   "candidate_A": "North Pavilion Ward",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:48462:5cbb3a4e8229",
+   "question": "What body of water is located in or next to Glenferness House's Stables?",
+   "entity_labels": [
+    "Stables, Glenferness House"
+   ],
+   "entity_description": "architectural structure in Highland, Scotland, UK",
+   "candidate_A": "Glenferness House",
+   "candidate_B": "Glenferness House's Stables"
+  },
+  {
+   "uid": "7:48463:9d810c61c2d6",
+   "question": "Which body of water is the Gardener's House in the Walled Garden of Glenferness House located next to or in?",
+   "entity_labels": [
+    "Gardener's House, Walled Garden, Glenferness House"
+   ],
+   "entity_description": "architectural structure in Highland, Scotland, UK",
+   "candidate_A": "Glenferness House",
+   "candidate_B": "Gardener's House"
+  },
+  {
+   "uid": "7:48725:24d5a433207b",
+   "question": "In which historic county is Myres Castle located within the Walled Garden?",
+   "entity_labels": [
+    "Walled Garden, Myres Castle"
+   ],
+   "entity_description": "architectural structure in Fife, Scotland, UK",
+   "candidate_A": "Walled Garden",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:50292:0855be6b26a2",
+   "question": "In what traditional geographical division of Great Britain and Ireland is Shalimar located at 19-20 Racecourse View, Ayr?",
+   "entity_labels": [
+    "Shalimar, 19-20 Racecourse View, Ayr"
+   ],
+   "entity_description": "house in Ayr, South Ayrshire, Scotland, UK",
+   "candidate_A": "Shalimar",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:51650:500b05b193d3",
+   "question": "Which person or organization occupies 36 York Place in Edinburgh?",
+   "entity_labels": [
+    "36 York Place, Edinburgh"
+   ],
+   "entity_description": "terrace house in Edinburgh, Scotland, UK",
+   "candidate_A": "36 York Place",
+   "candidate_B": "36 York Place in Edinburgh"
+  },
+  {
+   "uid": "7:7820:b7bfd20206e0",
+   "question": "During which parliamentary term did the list of members of the European Parliament for Belgium from 2004-2009 serve?",
+   "entity_labels": [
+    "Belgijscy posłowie do Parlamentu Europejskiego 2004-2009",
+    "Europarlamentari pentru Belgia 2004-2009",
+    "Liste der belgischen Abgeordneten zum EU-Parlament (2004–2009)",
+    "Seznam poslanců Evropského parlamentu z Belgie (2004–2009)",
+    "list of members of the European Parliament for Belgium, 2004–2009",
+    "liste des députés européens de Belgique 2004-2009"
+   ],
+   "entity_description": "Wikimedia list article",
+   "candidate_A": "list of members of the European Parliament for Belgium",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:8792:7725601103a6",
+   "question": "What type of products or materials does C. Valsuani create?",
+   "entity_labels": [
+    "Fonderie Valsuani",
+    "Gieterij Valsuani",
+    "Valsuani Foundry"
+   ],
+   "entity_description": "French art foundry (1908–2016)",
+   "candidate_A": "C. Valsuani",
+   "candidate_B": null
+  },
+  {
+   "uid": "0:12441:b5a6995db622",
+   "question": "What classification does Manitoba Liberal Party candidates in the 1999 Manitoba provincial election fall under?",
+   "entity_labels": [
+    "Manitoba Liberal Party candidates, 1999 Manitoba provincial election"
+   ],
+   "entity_description": "",
+   "candidate_A": "Manitoba Liberal Party candidates",
+   "candidate_B": null
+  },
+  {
+   "uid": "0:24283:18fdaf3a2e63",
+   "question": "What type of election were the Kenya County Representative elections in Baringo in 2013?",
+   "entity_labels": [
+    "Kenya County Representative elections in Baringo, 2013"
+   ],
+   "entity_description": "",
+   "candidate_A": "Kenya County Representative elections in Baringo",
+   "candidate_B": null
+  },
+  {
+   "uid": "0:6101:430556b14a7f",
+   "question": "What is the name of the railway system associated with Warszawa Powiśle railway station?",
+   "entity_labels": [
+    "Varsovie-Powiśle",
+    "Warszawa Powiśle",
+    "Warszawa Powiśle railway station",
+    "station Warszawa Powiśle",
+    "Варшава-Повисле",
+    "ワルシャワ・ポビシレ駅"
+   ],
+   "entity_description": "railway station in Warsaw, Poland",
+   "candidate_A": "Warszawa Powiśle railway station",
+   "candidate_B": "Warszawa Powiśle"
+  },
+  {
+   "uid": "0:8396:4655c4ed6ee0",
+   "question": "What category does the group Uzbeks in Russia fall under?",
+   "entity_labels": [
+    "Rusya'daki Özbekler",
+    "Uzbeks of Russia",
+    "oroszországi üzbégek",
+    "узбеки в России",
+    "俄羅斯的烏茲別克族"
+   ],
+   "entity_description": "ethnic group in Russia",
+   "candidate_A": "Uzbeks in Russia",
+   "candidate_B": null
+  },
+  {
+   "uid": "1:10770:85344b41ec72",
+   "question": "What is the main subject of the footage filmed by George Stevens related to World War II?",
+   "entity_labels": [
+    "Beeldmateriaal van de tweede wereldoorlog van George Stevens",
+    "Footage of World War II by George Stevens"
+   ],
+   "entity_description": "footage by George Stevens",
+   "candidate_A": "by George Stevens",
+   "candidate_B": "footage filmed by George Stevens related to World War II"
+  },
+  {
+   "uid": "1:24011:045a6e22e4b4",
+   "question": "In what field does the Faculty of Law of Tartu University specialize?",
+   "entity_labels": [
+    "Kaiserliche Universität zu Dorpat. Juristische Fakultät",
+    "Tartu Ülikool. Faculté de droit",
+    "Tartu Ülikooli õigusteaduskond",
+    "University of Tartu School of Law",
+    "Тартуский университет. Юридический факультет"
+   ],
+   "entity_description": "academic department of Tartu University",
+   "candidate_A": "Faculty of Law",
+   "candidate_B": "Faculty of Law of Tartu University"
+  },
+  {
+   "uid": "1:27926:cce153571a41",
+   "question": "In which city is the headquarters location of Hellenic Basketball Sociétés Anonymes Association?",
+   "entity_labels": [
+    "Championnat de Grèce de basket-ball",
+    "Greek Association of Public Limited Basketball Companies",
+    "campionato greco di pallacanestro"
+   ],
+   "entity_description": "basketball governing body in Greece",
+   "candidate_A": "Hellenic Basketball",
+   "candidate_B": "Hellenic Basketball Sociétés Anonymes Association"
+  },
+  {
+   "uid": "1:9987:64a39e3db885",
+   "question": "What type of building is Reinickstraße 2 in Dresden considered as a particular example of?",
+   "entity_labels": [
+    "Mietvilla Reinickstraße 2",
+    "Reinickstraße 2, Dresden"
+   ],
+   "entity_description": "architectural structure",
+   "candidate_A": "Reinickstraße 2",
+   "candidate_B": null
+  },
+  {
+   "uid": "2:42511:0524097e122f",
+   "question": "What specific type of structure is Linnamõis (City mansion) considered to be?",
+   "entity_labels": [
+    "Stadtgut",
+    "city manor",
+    "Городская мыза"
+   ],
+   "entity_description": "type of manor estate",
+   "candidate_A": null,
+   "candidate_B": "City mansion"
+  },
+  {
+   "uid": "3:17298:6afcabc52764",
+   "question": "In which administrative territorial entity is Arizona State Prison Complex - Perryville situated?",
+   "entity_labels": [
+    "Arizona State Prison Complex – Perryville"
+   ],
+   "entity_description": "one of 13 prison facilities operated by the Arizona Department of Corrections",
+   "candidate_A": "Arizona State Prison Complex",
+   "candidate_B": "Arizona State Prison Complex - Perryville"
+  },
+  {
+   "uid": "3:23828:3b98040a21a6",
+   "question": "What is the larger entity that includes the Otis Putnam House as a part?",
+   "entity_labels": [
+    "Otis Putnam House"
+   ],
+   "entity_description": "historic house in Massachusetts, United States",
+   "candidate_A": "Otis Putnam House",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:118304:2551bc2ef3df",
+   "question": "In which publication was Labous ar wirionez published?",
+   "entity_labels": [
+    "L’Oiseau de vérité"
+   ],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "4:35629:ba21e2a53706",
+   "question": "Who took over the position held by Maysara al-Matghari?",
+   "entity_labels": [
+    "Maysara",
+    "Maysara al-Matghari"
+   ],
+   "entity_description": "Moroccan Berber leader ( He died in Tangier city - 742)",
+   "candidate_A": "Maysara al-Matghari",
+   "candidate_B": "Maysara"
+  },
+  {
+   "uid": "4:40667:ff1dbe8c40f5",
+   "question": "What specific category does the 2000-01 KNVB Women's Cup belong to?",
+   "entity_labels": [
+    "2000–01 KNVB Women's Cup",
+    "KNVB Beker 2000/01 (vrouwen)"
+   ],
+   "entity_description": "football tournament season",
+   "candidate_A": "KNVB Women's Cup",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:65113:f69d8f252360",
+   "question": "What category does Aydınbahçe belong to as a specific example and member?",
+   "entity_labels": [
+    "Aydınbahçe"
+   ],
+   "entity_description": "mahalle (administrative quarter) in Yayladağı, Hatay, south-central Turkey",
+   "candidate_A": "Aydınbahçe",
+   "candidate_B": null
+  },
+  {
+   "uid": "4:99034:d153cf18f516",
+   "question": "What architectural entity does St. Mary's Catholic Church in Boise, Idaho belong to?",
+   "entity_labels": [
+    "St. Mary's Catholic Church (Boise, Idaho)"
+   ],
+   "entity_description": "church building in Idaho, United States of America",
+   "candidate_A": "St. Mary's Catholic Church",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:1226:fe66791b15e7",
+   "question": "In which conflict did Otto Heinrich Fugger, Count of Kirchberg, participate?",
+   "entity_labels": [
+    "Otho Heinrich Fugger",
+    "Ottheinrich von Fugger",
+    "Otto Heinrich Fugger",
+    "Otto Heinrich Fugger, Count of Kirchberg",
+    "Otto Jindřich Fugger z Kirchbergu",
+    "Отто Генрих Фуггер"
+   ],
+   "entity_description": "German count (1592-1644)",
+   "candidate_A": "Otto Heinrich Fugger, Count of Kirchberg",
+   "candidate_B": "Otto Heinrich Fugger"
+  },
+  {
+   "uid": "5:29998:4e480f95f36a",
+   "question": "What kind of entity is poenostavljeni SISO considered as within the field of organization?",
+   "entity_labels": [
+    "vereenvoudigd SISO"
+   ],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "poenostavljeni SISO"
+  },
+  {
+   "uid": "5:3719:f5ff06f00548",
+   "question": "In which platform was Robert Stewart, Viscount Castlereagh's work published in?",
+   "entity_labels": [
+    "Henry Robert Stewart",
+    "Robert Stewart",
+    "Robert Stewart Castlereagh",
+    "Robert Stewart, 2. Marquess of Londonderry",
+    "Robert Stewart, 2.º Marquês de Londonderry",
+    "Robert Stewart, Viscount Castlereagh"
+   ],
+   "entity_description": "British politician (1769–1822)",
+   "candidate_A": "Robert Stewart, Viscount Castlereagh",
+   "candidate_B": "Robert Stewart"
+  },
+  {
+   "uid": "5:54:031cdb4af02f",
+   "question": "In which publication was Vladimir Lenin's work featured in?",
+   "entity_labels": [],
+   "entity_description": "Wikimedia permanent duplicate item",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "5:59042:e14a03a54763",
+   "question": "What specific type of vehicle is M901 ITV considered as?",
+   "entity_labels": [
+    "M901",
+    "M901 ITV",
+    "M901A3戦車駆逐車",
+    "M901改良拖式載具"
+   ],
+   "entity_description": "US armored mobile missile launcher",
+   "candidate_A": "M901 ITV",
+   "candidate_B": "M901"
+  },
+  {
+   "uid": "5:72353:9de9435a019b",
+   "question": "What type of settlement is Kaitanal in Gokak an example of in India?",
+   "entity_labels": [
+    "Kaitanal, Gokak"
+   ],
+   "entity_description": "human settlement in India",
+   "candidate_A": "Kaitanal",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:72430:2f591a1dcdb2",
+   "question": "What type of settlement is Marakudi in Raybag, India?",
+   "entity_labels": [
+    "Marakudi, Raybag"
+   ],
+   "entity_description": "human settlement in India",
+   "candidate_A": "Marakudi",
+   "candidate_B": null
+  },
+  {
+   "uid": "5:72593:85905d7d9616",
+   "question": "Which Kanxi radical immediately follows forme chinoise simplifiée (业) in the series related to CJK radical industry?",
+   "entity_labels": [
+    "CJK radical industry, forme chinoise simplifiée (业)",
+    "clé CJC industrie, forme chinoise simplifiée (业)",
+    "业",
+    "业部"
+   ],
+   "entity_description": "CJK radical industry, simplified Chinese form",
+   "candidate_A": "业",
+   "candidate_B": "forme chinoise simplifiée (业)"
+  },
+  {
+   "uid": "5:80357:63977affc413",
+   "question": "In which administrative territorial entity is ŠD4 located?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "ŠD4"
+  },
+  {
+   "uid": "5:81750:4d81fbbb88ac",
+   "question": "In which time zone is Changdi Bu Yi Ethnic Township located?",
+   "entity_labels": [
+    "Changdi Buyi Ethnic Township",
+    "Changdibu Yizu Xiang",
+    "长底布依族乡"
+   ],
+   "entity_description": "中国云南省曲靖市罗平县下辖的民族乡",
+   "candidate_A": "Ethnic Township",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:12965:dd045f98b794",
+   "question": "In what language was The Back Story originally created as a film or TV show?",
+   "entity_labels": [
+    "Blick hinter die Kulissen",
+    "Entre bastidors",
+    "Figli privilegiati",
+    "The Back Story"
+   ],
+   "entity_description": "episode of Beverly Hills, 90210 (S3 E8)",
+   "candidate_A": "The Back Story",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:20737:88a60db67b35",
+   "question": "Which railway station is adjacent to Pont-Saint-Martin railway station on the same line(s)?",
+   "entity_labels": [
+    "Pont-Saint-Martin",
+    "Pont-Saint-Martin railway station",
+    "station Pont-Saint-Martin",
+    "stazione di Pont-Saint-Martin"
+   ],
+   "entity_description": "railway station in Italy",
+   "candidate_A": "Pont-Saint-Martin railway station",
+   "candidate_B": "Pont-Saint-Martin"
+  },
+  {
+   "uid": "6:25656:1769c10fd113",
+   "question": "In which country was the \"Doctor Who: Series 4 (soundtrack)\" published?",
+   "entity_labels": [
+    "Doctor Who: Original Television Soundtrack - Saison 4",
+    "Doctor Who: Original Television Soundtrack – Series 4",
+    "Doctor Who: Series 4 (саундтрек)",
+    "Doctor Who: Series 4 – Original Television Soundtrack",
+    "神秘博士：電視原聲 - 第四季",
+    "第4シリーズのサウンドトラック"
+   ],
+   "entity_description": "2008 soundtrack album by Murray Gold",
+   "candidate_A": "Doctor Who: Series 4",
+   "candidate_B": "Doctor Who: Series 4 (soundtrack"
+  },
+  {
+   "uid": "6:26557:ac4e973defce",
+   "question": "What attraction features the use of Grim Grinning Ghosts?",
+   "entity_labels": [
+    "Grim Grinning Ghosts"
+   ],
+   "entity_description": "song from the Haunted Mansion attraction in Disney theme parks",
+   "candidate_A": "Grim Grinning Ghosts",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:37044:1eb20353672e",
+   "question": "What type of solar eclipse occurred on December 1, 754 BC?",
+   "entity_labels": [
+    "solar eclipse of December 1, 754 BC",
+    "éclipse solaire du 1er décembre 754 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "December 1, 754 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:37244:fd86093ccafa",
+   "question": "What specific type of solar eclipse occurred on March 27, 1727 BC?",
+   "entity_labels": [
+    "solar eclipse of March 27, 1727 BC",
+    "éclipse solaire du 27 mars 1727 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "March 27, 1727 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:37473:150c42bd8d34",
+   "question": "What specific type of solar eclipse was the event on November 1, 1720 BC classified as?",
+   "entity_labels": [
+    "solar eclipse of November 1, 1720 BC",
+    "éclipse solaire du 1er novembre 1720 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "November 1, 1720 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:37775:0e7d33b69a71",
+   "question": "What type of solar eclipse occurred on September 9, 1148 BC?",
+   "entity_labels": [
+    "solar eclipse of September 9, 1148 BC",
+    "éclipse solaire du 9 septembre 1148 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "September 9, 1148 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:38000:1a1206dd0f0a",
+   "question": "What specific type of solar eclipse occurred on January 30, 840 BC?",
+   "entity_labels": [
+    "solar eclipse of January 30, 840 BC",
+    "éclipse solaire du 30 janvier 840 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "January 30, 840 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:38001:9df194d81e66",
+   "question": "What specific type of solar eclipse occurred on December 29, 895 BC?",
+   "entity_labels": [
+    "solar eclipse of December 29, 895 BC",
+    "éclipse solaire du 29 décembre 895 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "December 29, 895 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:38429:1649e03a14b7",
+   "question": "What type of solar eclipse was the event on April 6, 648 BC an instance of?",
+   "entity_labels": [
+    "solar eclipse of April 6, 648 BC",
+    "éclipse solaire du 6 avril 648 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "April 6, 648 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:39167:aaf6928ff84e",
+   "question": "What type of solar eclipse was the event on July 10, 1639 BC an instance of?",
+   "entity_labels": [
+    "solar eclipse of July 10, 1639 BC",
+    "éclipse solaire du 10 juillet 1639 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "July 10, 1639 BC",
+   "candidate_B": "solar eclipse"
+  },
+  {
+   "uid": "6:39983:7163ac14922c",
+   "question": "What type of solar eclipse was the event that occurred on November 26, 1432 BC?",
+   "entity_labels": [
+    "solar eclipse of November 26, 1432 BC",
+    "éclipse solaire du 26 novembre 1432 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "November 26, 1432 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:40103:453ac1900ad9",
+   "question": "What specific type of solar eclipse was the event on January 27, 1472 BC?",
+   "entity_labels": [
+    "solar eclipse of January 27, 1472 BC",
+    "éclipse solaire du 27 janvier 1472 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "January 27, 1472 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:40127:a811d5a91fb9",
+   "question": "What specific type of solar eclipse is the event that occurred on July 29, 1109 BC classified as?",
+   "entity_labels": [
+    "solar eclipse of July 29, 1109 BC",
+    "éclipse solaire du 29 juillet 1109 av. J.-C."
+   ],
+   "entity_description": "solar eclipse",
+   "candidate_A": "July 29, 1109 BC",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:48914:dddee77d2c36",
+   "question": "What is the name of the highway system in Heidelberg-Pfaffengrund/Wieblingen?",
+   "entity_labels": [
+    "Heidelberg-Pfaffengrund/Wieblingen"
+   ],
+   "entity_description": "railway station in Heidelberg, Germany",
+   "candidate_A": "Heidelberg-Pfaffengrund/Wieblingen",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:54181:a565725939a7",
+   "question": "Which league immediately followed Preferente Autonómica de Galicia 2012/13 in the series?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Preferente Autonómica de Galicia 2012/13"
+  },
+  {
+   "uid": "6:54204:19480652f029",
+   "question": "What specific type of organization is Sindicato de Profesiones Varias de Meirás an example of?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Sindicato de Profesiones Varias de Meirás"
+  },
+  {
+   "uid": "6:54275:c600caeaa06a",
+   "question": "Who won the Trofeo Cidade de Vigo 1988 competition?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "6:64654:eff87b516cf7",
+   "question": "Which division of the Army is 241. sprečansko-muslimanska Ibr \"Gazije\" Kalesija a part of?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "7:11951:a287e9178f2d",
+   "question": "Which football team directly succeeded the 2006 Syracuse Orange football team?",
+   "entity_labels": [
+    "2006 Syracuse Orange football team"
+   ],
+   "entity_description": "American college football team season",
+   "candidate_A": "2006 Syracuse Orange football team",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:19571:ab2f886be26f",
+   "question": "What specific class does Bahçeköy, Çermik belong to?",
+   "entity_labels": [
+    "Bahçe",
+    "Bahçeköy"
+   ],
+   "entity_description": "mahalle (administrative quarter) in Çermik, Diyarbakır, southeastern Turkey",
+   "candidate_A": "Bahçeköy, Çermik",
+   "candidate_B": "Bahçe"
+  },
+  {
+   "uid": "7:24043:f5e17f2cb54d",
+   "question": "What category does Topkaralı belong to as a specific example and member?",
+   "entity_labels": [
+    "Topkaralı",
+    "Topraklı"
+   ],
+   "entity_description": "mahalle (administrative quarter) in Karaisalı, Adana, south-central Turkey",
+   "candidate_A": "Topkaralı",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:29451:fe409d0493b1",
+   "question": "In which administrative entity is Lotnisko Tomaszów Mazowiecki located?",
+   "entity_labels": [
+    "Lotnisko Tomaszów Mazowiecki",
+    "Militärflugplatz Tomaszów Mazowiecki"
+   ],
+   "entity_description": "airport in Lubochnia, Łódź Voivodeship, Poland",
+   "candidate_A": "Lotnisko Tomaszów Mazowiecki",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:31124:3375f8dfa629",
+   "question": "From which country does Hamas Pejuang Kota Suci Baitulmuqaddis originate?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Hamas Pejuang Kota Suci Baitulmuqaddis"
+  },
+  {
+   "uid": "7:31495:6461c804f271",
+   "question": "What type of version is Mekanik Kejuruteraan : Statik Teori, Contoh Penyelesaian dan Masalah Jilid 2 considered to be?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Mekanik Kejuruteraan : Statik Teori, Contoh Penyelesaian dan Masalah Jilid 2"
+  },
+  {
+   "uid": "7:31646:7bf61a43a0bc",
+   "question": "What is the country of origin of the creative work Natrah @ Nadra @ Huberdina Maria Hertogh @ Bertha : Cinta, Rusuhan, Air Mata?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Natrah @ Nadra @ Huberdina Maria Hertogh @ Bertha : Cinta, Rusuhan, Air Mata"
+  },
+  {
+   "uid": "7:31758:6b191a1d818b",
+   "question": "From which country does Pengenalan Pemikiran Kritis dan Kreatif originate?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": "Pengenalan Pemikiran Kritis dan Kreatif"
+  },
+  {
+   "uid": "7:39728:39faf3d167e5",
+   "question": "In which historic county is the Burial Ground Extension of Birnie Parish Church located?",
+   "entity_labels": [
+    "Birnie Parish Church, Burial Ground Extension"
+   ],
+   "entity_description": "architectural structure in Moray, Scotland, UK",
+   "candidate_A": "Birnie Parish Church",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:39781:07eb34a3029f",
+   "question": "In which historic county are the Warehouses located at 72-88 Commercial Street, Edinburgh?",
+   "entity_labels": [
+    "Warehouses, 72-88 Commercial Street, Edinburgh"
+   ],
+   "entity_description": "architectural structure in City of Edinburgh, Scotland, UK",
+   "candidate_A": "Warehouses",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:41412:3c4639a55520",
+   "question": "In which historic county is the Old Schoolhouse located in Inverkeithny?",
+   "entity_labels": [
+    "Old Schoolhouse, Inverkeithny"
+   ],
+   "entity_description": "architectural structure in Aberdeenshire, Scotland, UK",
+   "candidate_A": "Old Schoolhouse",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:41517:11705caa0722",
+   "question": "Which historic county does 39 Carden Terrace Including Boundary Wall And Railings in Aberdeen belong to?",
+   "entity_labels": [
+    "39 Carden Terrace Including Boundary Wall And Railings, Aberdeen"
+   ],
+   "entity_description": "terrace house in Aberdeen, Scotland, UK",
+   "candidate_A": "39 Carden Terrace Including Boundary Wall And Railings",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:42107:727df020cf19",
+   "question": "In which traditional geographical division of Great Britain and Ireland is the Stable Block located at Brucklay Castle?",
+   "entity_labels": [
+    "Stable Block, Brucklay Castle"
+   ],
+   "entity_description": "architectural structure in Aberdeenshire, Scotland, UK",
+   "candidate_A": "Brucklay Castle",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:42333:9cd2c43a9b64",
+   "question": "In which historic county is Kerbet House located in Kirkton of Kinnettles?",
+   "entity_labels": [
+    "Kerbet House, Kirkton of Kinnettles"
+   ],
+   "entity_description": "architectural structure in Angus, Scotland, UK",
+   "candidate_A": "Kirkton of Kinnettles",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:44258:6e7366657815",
+   "question": "In which historic county is Coach House, Ramsay House located on 184 Newhaven Road in Edinburgh?",
+   "entity_labels": [
+    "Coach House, Ramsay House, 184 Newhaven Road, Edinburgh"
+   ],
+   "entity_description": "building in City of Edinburgh, Scotland, UK",
+   "candidate_A": "Coach House",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:44622:1647e1f55abf",
+   "question": "Which historic county is 44 Lauder Road in Edinburgh located in?",
+   "entity_labels": [
+    "44 Lauder Road, Edinburgh"
+   ],
+   "entity_description": "villa in Edinburgh, Scotland, UK",
+   "candidate_A": "44 Lauder Road",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:49102:a1cc8d8a14d9",
+   "question": "In which traditional geographical division of Great Britain and Ireland is Sandside Farmhouse located within West Wing on Graemsay?",
+   "entity_labels": [
+    "West Wing, Sandside Farmhouse, Graemsay"
+   ],
+   "entity_description": "farmhouse in Orkney Islands, Scotland, UK",
+   "candidate_A": "West Wing",
+   "candidate_B": "Sandside Farmhouse"
+  },
+  {
+   "uid": "7:49757:5b681a9a5f7d",
+   "question": "In which historic county is the Parish Church Hall located in Brodick?",
+   "entity_labels": [
+    "Parish Church Hall, Brodick"
+   ],
+   "entity_description": "architectural structure in North Ayrshire, Scotland, UK",
+   "candidate_A": "Parish Church Hall",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:50217:3284115b341b",
+   "question": "In which historic county is The Winnock Hotel located in The Square, Drymen?",
+   "entity_labels": [
+    "The Winnock Hotel, The Square, Drymen"
+   ],
+   "entity_description": "hotel in Stirling, Scotland, UK",
+   "candidate_A": "The Winnock Hotel",
+   "candidate_B": null
+  },
+  {
+   "uid": "7:51474:e213b53f3565",
+   "question": "In which traditional geographical division of Great Britain and Ireland is the Parish Church located in Weisdale?",
+   "entity_labels": [
+    "Parish Church, Weisdale"
+   ],
+   "entity_description": "church building in Shetland Islands, Scotland, UK",
+   "candidate_A": "Parish Church",
+   "candidate_B": null
+  },
+  {
+   "uid": "1:16493:b72d5a7cbdec",
+   "question": "What type of creative work is the Battle of the Planets - Original Television Soundtrack?",
+   "entity_labels": [
+    "Battle of the Planets",
+    "Battle of the Planets – Original Television Soundtrack"
+   ],
+   "entity_description": "2004 soundtrack album by Bob Sakuma, Hoyt Curtin",
+   "candidate_A": "Battle of the Planets",
+   "candidate_B": "Battle of the Planets - Original Television Soundtrack"
+  },
+  {
+   "uid": "2:9750:f106da46eb81",
+   "question": "In which industry is Teschner involved?",
+   "entity_labels": [
+    "Teschner",
+    "Тешнер"
+   ],
+   "entity_description": "family name",
+   "candidate_A": "Teschner",
+   "candidate_B": null
+  },
+  {
+   "uid": "6:52123:d497e115eb3a",
+   "question": "What type of page is Próchnica (homonimo) on Wikimedia?",
+   "entity_labels": [
+    "Próchnica"
+   ],
+   "entity_description": "Wikimedia disambiguation page",
+   "candidate_A": "Próchnica",
+   "candidate_B": "Próchnica (homonimo)"
+  },
+  {
+   "uid": "7:32069:c1b477abcbaf",
+   "question": "From which country does the Steelwork Design Guide to BS5950-1:2000 originate?",
+   "entity_labels": [],
+   "entity_description": "",
+   "candidate_A": null,
+   "candidate_B": null
+  },
+  {
+   "uid": "7:54183:bdea7654cfb4",
+   "question": "What specific type does Uchwała Sejmu Rzeczypospolitej Polskiej z dnia 15 lipca 2009 r. w sprawie tragicznego losu Polaków na Kresach Wschodnich fall under?",
+   "entity_labels": [
+    "Uchwała Sejmu Rzeczypospolitej Polskiej z dnia 15 lipca 2009 r. w sprawie tragicznego losu Polaków na Kresach Wschodnich"
+   ],
+   "entity_description": "",
+   "candidate_A": "Uchwała Sejmu Rzeczypospolitej Polskiej z dnia 15 lipca 2009 r. w sprawie tragicznego losu Polaków na Kresach Wschodnich",
+   "candidate_B": "Uchwała Sejmu Rzeczypospolitej Polskiej z dnia 15 lipca 2009 r. w sprawie tragicznego losu Polaków na Kresach W"
+  }
+ ]
+}

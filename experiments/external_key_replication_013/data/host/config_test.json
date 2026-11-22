@@ -1,0 +1,180 @@
+{
+ "status": "TEST CONFIG written by xr_run.py tune from dev_001 on 2026-11-21T11:13:54Z; config_dev.json sha256 81f941ec0a202dbfc5a3bcafe1d6cdd4d33bdb3dfdeb31983cb6582628beff6e.",
+ "model_path": "E:/research/pause2/models/qwen3_0.6b_base",
+ "dtype": "bfloat16",
+ "torch_seed": 0,
+ "sites": [
+  "model.layers.{i}.mlp.down_proj"
+ ],
+ "layers": "all",
+ "rank": 16,
+ "scale": 1.0,
+ "clip": 1.0,
+ "streams_dir": "data/streams",
+ "phases": {
+  "debug": {
+   "streams": [
+    "crates_debug"
+   ],
+   "cap": 150,
+   "order_check": true
+  },
+  "dev": {
+   "streams": [
+    "pypi_dev",
+    "npm_dev",
+    "crates_dev",
+    "cran_dev"
+   ],
+   "cap": 150
+  },
+  "test": {
+   "streams": [
+    "pypi",
+    "npm",
+    "crates",
+    "cran",
+    "nuget",
+    "packagist",
+    "hackage",
+    "homebrew"
+   ],
+   "cap": 150
+  }
+ },
+ "panels": {
+  "max_cur": 100,
+  "ret_per_step": 25,
+  "max_loc": 6000,
+  "max_new": 24,
+  "gen_batch": 64
+ },
+ "eval": {
+  "widths": [
+   96,
+   128,
+   192,
+   256,
+   384
+  ],
+  "batch": 64,
+  "max_new": 24
+ },
+ "local": {
+  "mode": "route",
+  "layers": [
+   8
+  ],
+  "tau": 0.9,
+  "probe_margin": 0.02,
+  "massive": 200.0,
+  "v_steps": 25,
+  "v_lr": 0.5,
+  "v_wd": 0.5,
+  "clamp": 0.75,
+  "kl": 0.0625,
+  "stop_loss": 0.05,
+  "n_rand": 2,
+  "rand_len": 10,
+  "use_context": true,
+  "chunk": 32,
+  "key_batch": 64
+ },
+ "write_seed": 0,
+ "arms": {
+  "n_shuffles": 8,
+  "uniform": [
+   0.88,
+   0.9,
+   0.92,
+   0.94,
+   0.96,
+   0.98
+  ]
+ },
+ "interventions": {
+  "arms": [
+   "uniform:0.90",
+   "matched",
+   "shuffled:0"
+  ],
+  "max_single": 8
+ },
+ "rule": {
+  "delta": 0.02,
+  "tol_q": 0.02,
+  "tol_r": 0.02,
+  "min_positive_share": 0.75,
+  "bootstrap": 10000,
+  "bootstrap_seed": 0
+ },
+ "events": {
+  "test_start": "2026-03",
+  "dev_start": "2025-07",
+  "debug_start": "2024-11",
+  "months": 8,
+  "per_batch": 125,
+  "spec_quota": 25,
+  "max_rank": 12000,
+  "min_spares": 2000,
+  "hidden_cap": 4000,
+  "probes": 2000,
+  "mu": 20000,
+  "debug": {
+   "per_batch": 12,
+   "spec_quota": 3,
+   "min_spares": 300
+  }
+ },
+ "budget": {
+  "gpu": "RTX 4090",
+  "max_usd_per_hour": 0.5
+ },
+ "selected_uniform": {
+  "arm": "uniform:0.90",
+  "flag": "dev gate not met",
+  "matched": {
+   "Q": 0.3140625,
+   "R": 0.185,
+   "damage": 0.015978074454290142
+  },
+  "grid": {
+   "uniform:0.88": {
+    "Q": 0.29125,
+    "R": 0.11714285714285715,
+    "damage": 0.5455496628420936,
+    "shortfall": 0.04785714285714286
+   },
+   "uniform:0.90": {
+    "Q": 0.2859375,
+    "R": 0.12357142857142857,
+    "damage": 0.5236915303053781,
+    "shortfall": 0.04142857142857144
+   },
+   "uniform:0.92": {
+    "Q": 0.2784375,
+    "R": 0.11642857142857142,
+    "damage": 0.485840841759137,
+    "shortfall": 0.048571428571428585
+   },
+   "uniform:0.94": {
+    "Q": 0.2615625,
+    "R": 0.10642857142857143,
+    "damage": 0.4469800183473221,
+    "shortfall": 0.05857142857142858
+   },
+   "uniform:0.96": {
+    "Q": 0.2546875,
+    "R": 0.085,
+    "damage": 0.34908258096360323,
+    "shortfall": 0.08
+   },
+   "uniform:0.98": {
+    "Q": 0.20249999999999999,
+    "R": 0.06785714285714287,
+    "damage": 0.004471741465255563,
+    "shortfall": 0.09714285714285714
+   }
+  }
+ }
+}

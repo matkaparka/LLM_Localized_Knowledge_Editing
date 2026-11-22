@@ -1,0 +1,5832 @@
+{
+ "streams": {
+  "dev": [
+   "D0",
+   "D1",
+   "D2",
+   "D3"
+  ],
+  "test": [
+   "D4",
+   "D5",
+   "D6",
+   "D7"
+  ]
+ },
+ "checks": {
+  "D0": {
+   "determinism": {
+    "arm": "matched",
+    "step": 7,
+    "same_ok": true,
+    "same_hits": true
+   },
+   "threshold_recompute_max_abs_diff": 1.430511474609375e-06,
+   "probes_same_as_set_probes": true,
+   "screening": {
+    "candidates": 6000,
+    "known": 338,
+    "kept": 338
+   },
+   "entries": 1042
+  },
+  "D1": {
+   "determinism": {
+    "arm": "matched",
+    "step": 7,
+    "same_ok": true,
+    "same_hits": true
+   },
+   "threshold_recompute_max_abs_diff": 1.5497207641601562e-06,
+   "probes_same_as_set_probes": true,
+   "screening": {
+    "candidates": 6000,
+    "known": 442,
+    "kept": 442
+   },
+   "entries": 1058
+  },
+  "D2": {
+   "determinism": {
+    "arm": "matched",
+    "step": 7,
+    "same_ok": true,
+    "same_hits": true
+   },
+   "threshold_recompute_max_abs_diff": 9.5367431640625e-07,
+   "probes_same_as_set_probes": true,
+   "screening": {
+    "candidates": 6000,
+    "known": 408,
+    "kept": 408
+   },
+   "entries": 1074
+  },
+  "D3": {
+   "determinism": {
+    "arm": "matched",
+    "step": 7,
+    "same_ok": true,
+    "same_hits": true
+   },
+   "threshold_recompute_max_abs_diff": 1.1324882507324219e-06,
+   "probes_same_as_set_probes": true,
+   "screening": {
+    "candidates": 6000,
+    "known": 450,
+    "kept": 450
+   },
+   "entries": 1051
+  },
+  "D4": {
+   "determinism": {
+    "arm": "matched",
+    "step": 7,
+    "same_ok": true,
+    "same_hits": true
+   },
+   "threshold_recompute_max_abs_diff": 1.0728836059570312e-06,
+   "probes_same_as_set_probes": true,
+   "screening": {
+    "candidates": 6000,
+    "known": 409,
+    "kept": 409
+   },
+   "entries": 1049
+  },
+  "D5": {
+   "determinism": {
+    "arm": "matched",
+    "step": 7,
+    "same_ok": true,
+    "same_hits": true
+   },
+   "threshold_recompute_max_abs_diff": 1.3113021850585938e-06,
+   "probes_same_as_set_probes": true,
+   "screening": {
+    "candidates": 6000,
+    "known": 431,
+    "kept": 431
+   },
+   "entries": 1052
+  },
+  "D6": {
+   "determinism": {
+    "arm": "matched",
+    "step": 7,
+    "same_ok": true,
+    "same_hits": true
+   },
+   "threshold_recompute_max_abs_diff": 1.1920928955078125e-06,
+   "probes_same_as_set_probes": true,
+   "screening": {
+    "candidates": 6000,
+    "known": 384,
+    "kept": 384
+   },
+   "entries": 1043
+  },
+  "D7": {
+   "determinism": {
+    "arm": "matched",
+    "step": 7,
+    "same_ok": true,
+    "same_hits": true
+   },
+   "threshold_recompute_max_abs_diff": 1.3113021850585938e-06,
+   "probes_same_as_set_probes": true,
+   "screening": {
+    "candidates": 6000,
+    "known": 386,
+    "kept": 386
+   },
+   "entries": 1043
+  }
+ },
+ "tuning": {
+  "rule": "the uniform arm with the highest mean value over the dev streams; ties go to the lower threshold",
+  "dev_values": {
+   "uniform:0.88": 0.7250516615794487,
+   "uniform:0.90": 0.7320846943765064,
+   "uniform:0.92": 0.745359592304537,
+   "uniform:0.94": 0.7680394218939959,
+   "uniform:0.96": 0.7175478579865249,
+   "uniform:0.98": 0.5372163118718559
+  },
+  "tuned": "uniform:0.94"
+ },
+ "dev": {
+  "arms": {
+   "none": {
+    "damage": 0.0,
+    "damage_base": 0.011943680386430202,
+    "coverage": 0.05967569750248074,
+    "upd": 0.06022256355379063,
+    "retention": 0.029285714285714286,
+    "forgetting": 0.07291666666666666,
+    "value": 0.3758076376669752,
+    "loc_fire": 0.0,
+    "own_hit": 0.0,
+    "other_hit": 0.0,
+    "per_stream": {
+     "D0": {
+      "damage": 0.0,
+      "coverage": 0.047869458128078815,
+      "retention": 0.02857142857142857
+     },
+     "D1": {
+      "damage": 0.0,
+      "coverage": 0.07103177150192555,
+      "retention": 0.025714285714285714
+     },
+     "D2": {
+      "damage": 0.0,
+      "coverage": 0.05003787878787879,
+      "retention": 0.022857142857142857
+     },
+     "D3": {
+      "damage": 0.0,
+      "coverage": 0.0697636815920398,
+      "retention": 0.04
+     }
+    }
+   },
+   "matched": {
+    "damage": 0.016286764076721645,
+    "damage_base": 0.028166231161554433,
+    "coverage": 0.7483285390126705,
+    "upd": 0.9363971731458113,
+    "retention": 0.6485714285714286,
+    "forgetting": 0.008150027011919594,
+    "value": 0.8068730901163876,
+    "loc_fire": 0.023370088186212657,
+    "own_hit": 0.8612775000222551,
+    "other_hit": 0.03214525232895617,
+    "per_stream": {
+     "D0": {
+      "damage": 0.015151515151515152,
+      "coverage": 0.7391666666666666,
+      "retention": 0.6342857142857142
+     },
+     "D1": {
+      "damage": 0.018648018648018648,
+      "coverage": 0.7426267650834403,
+      "retention": 0.6114285714285714
+     },
+     "D2": {
+      "damage": 0.022277227722772276,
+      "coverage": 0.7045075757575757,
+      "retention": 0.6257142857142857
+     },
+     "D3": {
+      "damage": 0.009070294784580499,
+      "coverage": 0.8070131485429993,
+      "retention": 0.7228571428571429
+     }
+    }
+   },
+   "shuffled:0": {
+    "damage": 0.30702167351743026,
+    "damage_base": 0.3101307784509628,
+    "coverage": 0.6930027197866968,
+    "upd": 0.8576304503573148,
+    "retention": 0.5314285714285714,
+    "forgetting": 0.14138486312399356,
+    "value": 0.725256847525982,
+    "loc_fire": 1.0,
+    "own_hit": 0.8628877952194973,
+    "other_hit": 0.5333804708750304,
+    "per_stream": {
+     "D0": {
+      "damage": 0.09696969696969697,
+      "coverage": 0.732809934318555,
+      "retention": 0.6171428571428571
+     },
+     "D1": {
+      "damage": 0.4289044289044289,
+      "coverage": 0.693295892169448,
+      "retention": 0.4828571428571429
+     },
+     "D2": {
+      "damage": 0.4777227722772277,
+      "coverage": 0.5620075757575758,
+      "retention": 0.4342857142857143
+     },
+     "D3": {
+      "damage": 0.22448979591836735,
+      "coverage": 0.7838974769012083,
+      "retention": 0.5914285714285714
+     }
+    }
+   },
+   "shuffled:1": {
+    "damage": 0.34335438842157373,
+    "damage_base": 0.3476077172731931,
+    "coverage": 0.6905880401361689,
+    "upd": 0.8598731840572362,
+    "retention": 0.5271428571428571,
+    "forgetting": 0.15062399355877618,
+    "value": 0.7226681052824053,
+    "loc_fire": 1.0,
+    "own_hit": 0.8619411290243203,
+    "other_hit": 0.5333869895985427,
+    "per_stream": {
+     "D0": {
+      "damage": 0.18787878787878787,
+      "coverage": 0.729059934318555,
+      "retention": 0.5942857142857143
+     },
+     "D1": {
+      "damage": 0.4289044289044289,
+      "coverage": 0.6880215019255456,
+      "retention": 0.48857142857142855
+     },
+     "D2": {
+      "damage": 0.4777227722772277,
+      "coverage": 0.5557575757575758,
+      "retention": 0.4257142857142857
+     },
+     "D3": {
+      "damage": 0.2789115646258503,
+      "coverage": 0.7895131485429994,
+      "retention": 0.6
+     }
+    }
+   },
+   "shuffled:2": {
+    "damage": 0.3455544161166509,
+    "damage_base": 0.34800947163949975,
+    "coverage": 0.7002454534866183,
+    "upd": 0.8774718682677625,
+    "retention": 0.5357142857142857,
+    "forgetting": 0.12481037462775768,
+    "value": 0.7260034476351024,
+    "loc_fire": 1.0,
+    "own_hit": 0.8632152770836403,
+    "other_hit": 0.5340431756591529,
+    "per_stream": {
+     "D0": {
+      "damage": 0.1,
+      "coverage": 0.734059934318555,
+      "retention": 0.6114285714285714
+     },
+     "D1": {
+      "damage": 0.42657342657342656,
+      "coverage": 0.6991511553273427,
+      "retention": 0.48857142857142855
+     },
+     "D2": {
+      "damage": 0.5767326732673267,
+      "coverage": 0.5882575757575758,
+      "retention": 0.44571428571428573
+     },
+     "D3": {
+      "damage": 0.2789115646258503,
+      "coverage": 0.7795131485429994,
+      "retention": 0.5971428571428572
+     }
+    }
+   },
+   "shuffled:3": {
+    "damage": 0.2955240579002955,
+    "damage_base": 0.30125027895843104,
+    "coverage": 0.6918255628221943,
+    "upd": 0.8609093682677625,
+    "retention": 0.5421428571428571,
+    "forgetting": 0.11869683293044207,
+    "value": 0.7254968472458009,
+    "loc_fire": 0.782312925170068,
+    "own_hit": 0.8619058315984843,
+    "other_hit": 0.4188349402901883,
+    "per_stream": {
+     "D0": {
+      "damage": 0.21212121212121213,
+      "coverage": 0.7144047619047619,
+      "retention": 0.5371428571428571
+     },
+     "D1": {
+      "damage": 0.43123543123543123,
+      "coverage": 0.6826267650834403,
+      "retention": 0.49142857142857144
+     },
+     "D2": {
+      "damage": 0.4752475247524752,
+      "coverage": 0.5620075757575758,
+      "retention": 0.4228571428571429
+     },
+     "D3": {
+      "damage": 0.06349206349206349,
+      "coverage": 0.8082631485429993,
+      "retention": 0.7171428571428572
+     }
+    }
+   },
+   "shuffled:4": {
+    "damage": 0.3224316328807135,
+    "damage_base": 0.3253880124602884,
+    "coverage": 0.6905931721577705,
+    "upd": 0.8622154885147635,
+    "retention": 0.5307142857142857,
+    "forgetting": 0.13797529472820821,
+    "value": 0.7223967701660203,
+    "loc_fire": 1.0,
+    "own_hit": 0.864249688607133,
+    "other_hit": 0.5347055100742878,
+    "per_stream": {
+     "D0": {
+      "damage": 0.09696969696969697,
+      "coverage": 0.7309995894909688,
+      "retention": 0.6142857142857143
+     },
+     "D1": {
+      "damage": 0.4289044289044289,
+      "coverage": 0.6873523748395378,
+      "retention": 0.48
+     },
+     "D2": {
+      "damage": 0.48267326732673266,
+      "coverage": 0.5545075757575758,
+      "retention": 0.4257142857142857
+     },
+     "D3": {
+      "damage": 0.2811791383219955,
+      "coverage": 0.7895131485429994,
+      "retention": 0.6028571428571429
+     }
+    }
+   },
+   "shuffled:5": {
+    "damage": 0.3240506213101687,
+    "damage_base": 0.3270122188231334,
+    "coverage": 0.6900583207841724,
+    "upd": 0.8593468682677625,
+    "retention": 0.5271428571428571,
+    "forgetting": 0.13725421645902194,
+    "value": 0.7220117140467769,
+    "loc_fire": 1.0,
+    "own_hit": 0.8618977561124298,
+    "other_hit": 0.5337102861784605,
+    "per_stream": {
+     "D0": {
+      "damage": 0.10303030303030303,
+      "coverage": 0.7254166666666667,
+      "retention": 0.6085714285714285
+     },
+     "D1": {
+      "damage": 0.4289044289044289,
+      "coverage": 0.6895458921694481,
+      "retention": 0.4714285714285714
+     },
+     "D2": {
+      "damage": 0.4876237623762376,
+      "coverage": 0.5607575757575758,
+      "retention": 0.43142857142857144
+     },
+     "D3": {
+      "damage": 0.2766439909297052,
+      "coverage": 0.7845131485429993,
+      "retention": 0.5971428571428572
+     }
+    }
+   },
+   "shuffled:6": {
+    "damage": 0.34699513711182733,
+    "damage_base": 0.3503768109937794,
+    "coverage": 0.6866889058675706,
+    "upd": 0.8531916364381885,
+    "retention": 0.5278571428571429,
+    "forgetting": 0.15223611933529033,
+    "value": 0.7188122265049672,
+    "loc_fire": 1.0,
+    "own_hit": 0.8635197941697662,
+    "other_hit": 0.5333869895985427,
+    "per_stream": {
+     "D0": {
+      "damage": 0.09696969696969697,
+      "coverage": 0.7260837438423645,
+      "retention": 0.6057142857142858
+     },
+     "D1": {
+      "damage": 0.5244755244755245,
+      "coverage": 0.6829011553273427,
+      "retention": 0.4714285714285714
+     },
+     "D2": {
+      "damage": 0.4876237623762376,
+      "coverage": 0.5570075757575758,
+      "retention": 0.43142857142857144
+     },
+     "D3": {
+      "damage": 0.2789115646258503,
+      "coverage": 0.7807631485429993,
+      "retention": 0.6028571428571429
+     }
+    }
+   },
+   "shuffled:7": {
+    "damage": 0.33671103177821704,
+    "damage_base": 0.33952150606198195,
+    "coverage": 0.688355734577276,
+    "upd": 0.8614067593748405,
+    "retention": 0.5178571428571429,
+    "forgetting": 0.1450921612606395,
+    "value": 0.721622561872157,
+    "loc_fire": 1.0,
+    "own_hit": 0.8615857567370266,
+    "other_hit": 0.4474705475500252,
+    "per_stream": {
+     "D0": {
+      "damage": 0.16363636363636364,
+      "coverage": 0.7148563218390804,
+      "retention": 0.5685714285714286
+     },
+     "D1": {
+      "damage": 0.42657342657342656,
+      "coverage": 0.690795892169448,
+      "retention": 0.48
+     },
+     "D2": {
+      "damage": 0.4777227722772277,
+      "coverage": 0.5620075757575758,
+      "retention": 0.4228571428571429
+     },
+     "D3": {
+      "damage": 0.2789115646258503,
+      "coverage": 0.7857631485429993,
+      "retention": 0.6
+     }
+    }
+   },
+   "uniform:0.88": {
+    "damage": 0.3768711996788376,
+    "damage_base": 0.3786794091544861,
+    "coverage": 0.709351029927721,
+    "upd": 0.8686595676298039,
+    "retention": 0.5228571428571429,
+    "forgetting": 0.19136837244969335,
+    "value": 0.7250516615794487,
+    "loc_fire": 1.0,
+    "own_hit": 0.9007069891666336,
+    "other_hit": 0.5669831226234147,
+    "per_stream": {
+     "D0": {
+      "damage": 0.10303030303030303,
+      "coverage": 0.757809934318555,
+      "retention": 0.6228571428571429
+     },
+     "D1": {
+      "damage": 0.4358974358974359,
+      "coverage": 0.7115853658536585,
+      "retention": 0.4942857142857143
+     },
+     "D2": {
+      "damage": 0.4900990099009901,
+      "coverage": 0.5707575757575758,
+      "retention": 0.43142857142857144
+     },
+     "D3": {
+      "damage": 0.47845804988662133,
+      "coverage": 0.7972512437810946,
+      "retention": 0.5428571428571428
+     }
+    }
+   },
+   "uniform:0.90": {
+    "damage": 0.32310236321905345,
+    "damage_base": 0.32607125543822385,
+    "coverage": 0.7107553219076709,
+    "upd": 0.8763205524782889,
+    "retention": 0.5414285714285714,
+    "forgetting": 0.13971823508017414,
+    "value": 0.7320846943765064,
+    "loc_fire": 1.0,
+    "own_hit": 0.8944206441165437,
+    "other_hit": 0.5333869895985427,
+    "per_stream": {
+     "D0": {
+      "damage": 0.09696969696969697,
+      "coverage": 0.757809934318555,
+      "retention": 0.6257142857142857
+     },
+     "D1": {
+      "damage": 0.4289044289044289,
+      "coverage": 0.7149406290115533,
+      "retention": 0.5
+     },
+     "D2": {
+      "damage": 0.4876237623762376,
+      "coverage": 0.5720075757575758,
+      "retention": 0.4342857142857143
+     },
+     "D3": {
+      "damage": 0.2789115646258503,
+      "coverage": 0.7982631485429993,
+      "retention": 0.6057142857142858
+     }
+    }
+   },
+   "uniform:0.92": {
+    "damage": 0.21183687835031542,
+    "damage_base": 0.21798652506833854,
+    "coverage": 0.7229655889545985,
+    "upd": 0.8947337730296673,
+    "retention": 0.5742857142857143,
+    "forgetting": 0.07073448674213458,
+    "value": 0.745359592304537,
+    "loc_fire": 0.7658730158730158,
+    "own_hit": 0.8811298712846446,
+    "other_hit": 0.5020934512819263,
+    "per_stream": {
+     "D0": {
+      "damage": 0.08787878787878788,
+      "coverage": 0.7436904761904762,
+      "retention": 0.5942857142857143
+     },
+     "D1": {
+      "damage": 0.2867132867132867,
+      "coverage": 0.7354011553273427,
+      "retention": 0.5428571428571428
+     },
+     "D2": {
+      "damage": 0.44554455445544555,
+      "coverage": 0.5895075757575757,
+      "retention": 0.44571428571428573
+     },
+     "D3": {
+      "damage": 0.027210884353741496,
+      "coverage": 0.8232631485429993,
+      "retention": 0.7142857142857143
+     }
+    }
+   },
+   "uniform:0.94": {
+    "damage": 0.07853750838192139,
+    "damage_base": 0.08730279309662384,
+    "coverage": 0.7333966229207557,
+    "upd": 0.9301405523574792,
+    "retention": 0.5871428571428572,
+    "forgetting": 0.026429295226817053,
+    "value": 0.7680394218939959,
+    "loc_fire": 0.5204287775716347,
+    "own_hit": 0.8522241723239323,
+    "other_hit": 0.2498349357064931,
+    "per_stream": {
+     "D0": {
+      "damage": 0.03333333333333333,
+      "coverage": 0.7121531198686372,
+      "retention": 0.5771428571428572
+     },
+     "D1": {
+      "damage": 0.08857808857808858,
+      "coverage": 0.7485141206675224,
+      "retention": 0.5542857142857143
+     },
+     "D2": {
+      "damage": 0.18316831683168316,
+      "coverage": 0.6676136363636364,
+      "retention": 0.52
+     },
+     "D3": {
+      "damage": 0.009070294784580499,
+      "coverage": 0.8053056147832267,
+      "retention": 0.6971428571428572
+     }
+    }
+   },
+   "uniform:0.96": {
+    "damage": 0.02136678149761601,
+    "damage_base": 0.03271107828094476,
+    "coverage": 0.6538683842464763,
+    "upd": 0.903215335206222,
+    "retention": 0.5042857142857142,
+    "forgetting": 0.012389520202020202,
+    "value": 0.7175478579865249,
+    "loc_fire": 0.26499849356992217,
+    "own_hit": 0.7330992791902841,
+    "other_hit": 0.04955562999862555,
+    "per_stream": {
+     "D0": {
+      "damage": 0.012121212121212121,
+      "coverage": 0.5970320197044335,
+      "retention": 0.4685714285714286
+     },
+     "D1": {
+      "damage": 0.004662004662004662,
+      "coverage": 0.6566688061617458,
+      "retention": 0.44285714285714284
+     },
+     "D2": {
+      "damage": 0.06188118811881188,
+      "coverage": 0.6262121212121212,
+      "retention": 0.48
+     },
+     "D3": {
+      "damage": 0.006802721088435374,
+      "coverage": 0.7355605899076049,
+      "retention": 0.6257142857142857
+     }
+    }
+   },
+   "uniform:0.98": {
+    "damage": 0.010658565856585658,
+    "damage_base": 0.022022789346136176,
+    "coverage": 0.3540041370815272,
+    "upd": 0.6775037879426034,
+    "retention": 0.2357142857142857,
+    "forgetting": 0.024636243386243387,
+    "value": 0.5372163118718559,
+    "loc_fire": 0.25075757575757573,
+    "own_hit": 0.35605017142046796,
+    "other_hit": 0.037625865684241665,
+    "per_stream": {
+     "D0": {
+      "damage": 0.0030303030303030303,
+      "coverage": 0.2519786535303777,
+      "retention": 0.20285714285714285
+     },
+     "D1": {
+      "damage": 0.0,
+      "coverage": 0.36797817715019254,
+      "retention": 0.18857142857142858
+     },
+     "D2": {
+      "damage": 0.039603960396039604,
+      "coverage": 0.33147727272727273,
+      "retention": 0.22857142857142856
+     },
+     "D3": {
+      "damage": 0.0,
+      "coverage": 0.46458244491826584,
+      "retention": 0.32285714285714284
+     }
+    }
+   },
+   "ctx_only": {
+    "damage": 0.06780047902749459,
+    "damage_base": 0.07802637948503352,
+    "coverage": 0.7717790288042226,
+    "upd": 0.9516330524782888,
+    "retention": 0.66,
+    "forgetting": 0.00786972050658182,
+    "value": 0.8104311557511897,
+    "loc_fire": 0.09793849871643365,
+    "own_hit": 0.8921260855465204,
+    "other_hit": 0.049411290299825245,
+    "per_stream": {
+     "D0": {
+      "damage": 0.06666666666666667,
+      "coverage": 0.7631547619047618,
+      "retention": 0.6514285714285715
+     },
+     "D1": {
+      "damage": 0.06060606060606061,
+      "coverage": 0.7799406290115533,
+      "retention": 0.64
+     },
+     "D2": {
+      "damage": 0.06683168316831684,
+      "coverage": 0.7207575757575757,
+      "retention": 0.6257142857142857
+     },
+     "D3": {
+      "damage": 0.07709750566893424,
+      "coverage": 0.8232631485429993,
+      "retention": 0.7228571428571429
+     }
+    }
+   },
+   "probes:250": {
+    "damage": 0.04072286349514072,
+    "damage_base": 0.05249182507753721,
+    "coverage": 0.7672367470327206,
+    "upd": 0.9502157707067869,
+    "retention": 0.6564285714285714,
+    "forgetting": 0.00786972050658182,
+    "value": 0.811147128738463,
+    "loc_fire": 0.05280633243858138,
+    "own_hit": 0.8841971827027924,
+    "other_hit": 0.04379357556059271,
+    "per_stream": {
+     "D0": {
+      "damage": 0.03939393939393939,
+      "coverage": 0.7619047619047619,
+      "retention": 0.6485714285714286
+     },
+     "D1": {
+      "damage": 0.037296037296037296,
+      "coverage": 0.7655215019255456,
+      "retention": 0.6314285714285715
+     },
+     "D2": {
+      "damage": 0.054455445544554455,
+      "coverage": 0.7195075757575757,
+      "retention": 0.6257142857142857
+     },
+     "D3": {
+      "damage": 0.031746031746031744,
+      "coverage": 0.8220131485429993,
+      "retention": 0.72
+     }
+    }
+   },
+   "probes:500": {
+    "damage": 0.03469484703572398,
+    "damage_base": 0.04646383256625208,
+    "coverage": 0.7634867470327206,
+    "upd": 0.9479596731458113,
+    "retention": 0.6557142857142857,
+    "forgetting": 0.007843273875882573,
+    "value": 0.8107258331903292,
+    "loc_fire": 0.04568059042952961,
+    "own_hit": 0.879907397860112,
+    "other_hit": 0.038468821936411976,
+    "per_stream": {
+     "D0": {
+      "damage": 0.03939393939393939,
+      "coverage": 0.7606547619047619,
+      "retention": 0.6485714285714286
+     },
+     "D1": {
+      "damage": 0.030303030303030304,
+      "coverage": 0.7617715019255455,
+      "retention": 0.6257142857142857
+     },
+     "D2": {
+      "damage": 0.039603960396039604,
+      "coverage": 0.7145075757575757,
+      "retention": 0.6257142857142857
+     },
+     "D3": {
+      "damage": 0.02947845804988662,
+      "coverage": 0.8170131485429992,
+      "retention": 0.7228571428571429
+     }
+    }
+   },
+   "probes:1000": {
+    "damage": 0.01752438783909788,
+    "damage_base": 0.029410012256081794,
+    "coverage": 0.7537005628221943,
+    "upd": 0.9398346731458113,
+    "retention": 0.6492857142857142,
+    "forgetting": 0.008150027011919594,
+    "value": 0.808452155297687,
+    "loc_fire": 0.027133743594139635,
+    "own_hit": 0.8672246596959301,
+    "other_hit": 0.03280488293581633,
+    "per_stream": {
+     "D0": {
+      "damage": 0.015151515151515152,
+      "coverage": 0.7431547619047619,
+      "retention": 0.6342857142857142
+     },
+     "D1": {
+      "damage": 0.018648018648018648,
+      "coverage": 0.7488767650834403,
+      "retention": 0.6114285714285714
+     },
+     "D2": {
+      "damage": 0.027227722772277228,
+      "coverage": 0.7132575757575758,
+      "retention": 0.6257142857142857
+     },
+     "D3": {
+      "damage": 0.009070294784580499,
+      "coverage": 0.8095131485429993,
+      "retention": 0.7257142857142858
+     }
+    }
+   }
+  },
+  "frontier": {
+   "points": [
+    {
+     "arm": "uniform:0.98",
+     "coverage": 0.3540041370815272,
+     "damage": 0.010658565856585658
+    },
+    {
+     "arm": "uniform:0.96",
+     "coverage": 0.6538683842464763,
+     "damage": 0.02136678149761601
+    },
+    {
+     "arm": "uniform:0.88",
+     "coverage": 0.709351029927721,
+     "damage": 0.3768711996788376
+    },
+    {
+     "arm": "uniform:0.90",
+     "coverage": 0.7107553219076709,
+     "damage": 0.32310236321905345
+    },
+    {
+     "arm": "uniform:0.92",
+     "coverage": 0.7229655889545985,
+     "damage": 0.21183687835031542
+    },
+    {
+     "arm": "uniform:0.94",
+     "coverage": 0.7333966229207557,
+     "damage": 0.07853750838192139
+    }
+   ],
+   "uniform_damage_at_matched_coverage": null,
+   "matched": {
+    "coverage": 0.7483285390126705,
+    "damage": 0.016286764076721645
+   }
+  },
+  "literal": {
+   "none": {
+    "literal": {
+     "acc": 0.062361623616236164,
+     "n": 2710
+    },
+    "not_literal": {
+     "acc": 0.048859934853420196,
+     "n": 307
+    }
+   },
+   "matched": {
+    "literal": {
+     "acc": 0.8025830258302583,
+     "n": 2710
+    },
+    "not_literal": {
+     "acc": 0.30944625407166126,
+     "n": 307
+    }
+   },
+   "shuffled:0": {
+    "literal": {
+     "acc": 0.7402214022140221,
+     "n": 2710
+    },
+    "not_literal": {
+     "acc": 0.28013029315960913,
+     "n": 307
+    }
+   },
+   "shuffled:1": {
+    "literal": {
+     "acc": 0.7372693726937269,
+     "n": 2710
+    },
+    "not_literal": {
+     "acc": 0.28013029315960913,
+     "n": 307
+    }
+   },
+   "shuffled:2": {
+    "literal": {
+     "acc": 0.7468634686346863,
+     "n": 2710
+    },
+    "not_literal": {
+     "acc": 0.2964169381107492,
+     "n": 307
+    }
+   },
+   "shuffled:3": {
+    "literal": {
+     "acc": 0.7394833948339483,
+     "n": 2710
+    },
+    "not_literal": {
+     "acc": 0.2768729641693811,
+     "n": 307
+    }
+   },
+   "shuffled:4": {
+    "literal": {
+     "acc": 0.7372693726937269,
+     "n": 2710
+    },
+    "not_literal": {
+     "acc": 0.28664495114006516,
+     "n": 307
+    }
+   },
+   "shuffled:5": {
+    "literal": {
+     "acc": 0.7361623616236163,
+     "n": 2710
+    },
+    "not_literal": {
+     "acc": 0.28664495114006516,
+     "n": 307
+    }
+   },
+   "shuffled:6": {
+    "literal": {
+     "acc": 0.7335793357933579,
+     "n": 2710
+    },
+    "not_literal": {
+     "acc": 0.2736156351791531,
+     "n": 307
+    }
+   },
+   "shuffled:7": {
+    "literal": {
+     "acc": 0.7350553505535056,
+     "n": 2710
+    },
+    "not_literal": {
+     "acc": 0.28338762214983715,
+     "n": 307
+    }
+   },
+   "uniform:0.88": {
+    "literal": {
+     "acc": 0.7590405904059041,
+     "n": 2710
+    },
+    "not_literal": {
+     "acc": 0.28013029315960913,
+     "n": 307
+    }
+   },
+   "uniform:0.90": {
+    "literal": {
+     "acc": 0.7601476014760148,
+     "n": 2710
+    },
+    "not_literal": {
+     "acc": 0.28664495114006516,
+     "n": 307
+    }
+   },
+   "uniform:0.92": {
+    "literal": {
+     "acc": 0.7749077490774908,
+     "n": 2710
+    },
+    "not_literal": {
+     "acc": 0.2899022801302932,
+     "n": 307
+    }
+   },
+   "uniform:0.94": {
+    "literal": {
+     "acc": 0.7870848708487085,
+     "n": 2710
+    },
+    "not_literal": {
+     "acc": 0.31596091205211724,
+     "n": 307
+    }
+   },
+   "uniform:0.96": {
+    "literal": {
+     "acc": 0.7029520295202952,
+     "n": 2710
+    },
+    "not_literal": {
+     "acc": 0.2931596091205212,
+     "n": 307
+    }
+   },
+   "uniform:0.98": {
+    "literal": {
+     "acc": 0.3712177121771218,
+     "n": 2710
+    },
+    "not_literal": {
+     "acc": 0.24104234527687296,
+     "n": 307
+    }
+   },
+   "ctx_only": {
+    "literal": {
+     "acc": 0.8280442804428044,
+     "n": 2710
+    },
+    "not_literal": {
+     "acc": 0.3257328990228013,
+     "n": 307
+    }
+   },
+   "probes:250": {
+    "literal": {
+     "acc": 0.8236162361623616,
+     "n": 2710
+    },
+    "not_literal": {
+     "acc": 0.31921824104234525,
+     "n": 307
+    }
+   },
+   "probes:500": {
+    "literal": {
+     "acc": 0.8191881918819188,
+     "n": 2710
+    },
+    "not_literal": {
+     "acc": 0.31921824104234525,
+     "n": 307
+    }
+   },
+   "probes:1000": {
+    "literal": {
+     "acc": 0.8084870848708487,
+     "n": 2710
+    },
+    "not_literal": {
+     "acc": 0.3127035830618892,
+     "n": 307
+    }
+   }
+  },
+  "hidden": {
+   "per_arm": {
+    "none": {
+     "all": 0.0,
+     "known": 0.0
+    },
+    "matched": {
+     "all": 0.02329166606068611,
+     "known": 0.020827387925237417
+    },
+    "shuffled:0": {
+     "all": 1.0,
+     "known": 1.0
+    },
+    "shuffled:1": {
+     "all": 1.0,
+     "known": 1.0
+    },
+    "shuffled:2": {
+     "all": 1.0,
+     "known": 1.0
+    },
+    "shuffled:3": {
+     "all": 0.7705833334475756,
+     "known": 0.7822222225368023
+    },
+    "shuffled:4": {
+     "all": 1.0,
+     "known": 1.0
+    },
+    "shuffled:5": {
+     "all": 1.0,
+     "known": 1.0
+    },
+    "shuffled:6": {
+     "all": 1.0,
+     "known": 1.0
+    },
+    "shuffled:7": {
+     "all": 1.0,
+     "known": 1.0
+    },
+    "uniform:0.88": {
+     "all": 1.0,
+     "known": 1.0
+    },
+    "uniform:0.90": {
+     "all": 1.0,
+     "known": 1.0
+    },
+    "uniform:0.92": {
+     "all": 0.7654999997466803,
+     "known": 0.7633333336561918
+    },
+    "uniform:0.94": {
+     "all": 0.5188750000670552,
+     "known": 0.519247205927968
+    },
+    "uniform:0.96": {
+     "all": 0.2640416664071381,
+     "known": 0.2652210232336074
+    },
+    "uniform:0.98": {
+     "all": 0.2516249999462161,
+     "known": 0.2507396449800581
+    },
+    "ctx_only": {
+     "all": 0.08033333159983158,
+     "known": 0.09111546538770199
+    },
+    "probes:250": {
+     "all": 0.05787499900907278,
+     "known": 0.046960012055933475
+    },
+    "probes:500": {
+     "all": 0.04470833297818899,
+     "known": 0.039354430977255106
+    },
+    "probes:1000": {
+     "all": 0.03158333292230964,
+     "known": 0.024526434252038598
+    }
+   },
+   "per_stream": {
+    "D0": {
+     "spearman_probe_hidden": 0.7939563920379418,
+     "auroc_probe_max_fires_on_hidden": 0.8895665083135392,
+     "entries_firing_on_hidden_at_floor": 0.19193857965451055,
+     "entries_firing_on_hidden_at_matched": 0.09309021113243762
+    },
+    "D1": {
+     "spearman_probe_hidden": 0.7719680071042296,
+     "auroc_probe_max_fires_on_hidden": 0.861657165011027,
+     "entries_firing_on_hidden_at_floor": 0.16918714555765596,
+     "entries_firing_on_hidden_at_matched": 0.0888468809073724
+    },
+    "D2": {
+     "spearman_probe_hidden": 0.755159103891094,
+     "auroc_probe_max_fires_on_hidden": 0.8433888599687662,
+     "entries_firing_on_hidden_at_floor": 0.15828677839851024,
+     "entries_firing_on_hidden_at_matched": 0.08379888268156424
+    },
+    "D3": {
+     "spearman_probe_hidden": 0.7419241587351647,
+     "auroc_probe_max_fires_on_hidden": 0.8280475576564962,
+     "entries_firing_on_hidden_at_floor": 0.14843006660323502,
+     "entries_firing_on_hidden_at_matched": 0.08468125594671741
+    }
+   }
+  },
+  "noise_floor": {
+   "D0": {
+    "r2w_by_step": [
+     7,
+     7,
+     6,
+     4,
+     3,
+     1,
+     0,
+     6
+    ],
+    "w2r_by_step": [
+     4,
+     4,
+     3,
+     3,
+     0,
+     0,
+     1,
+     3
+    ],
+    "base_right": 333
+   },
+   "D1": {
+    "r2w_by_step": [
+     9,
+     5,
+     7,
+     8,
+     9,
+     3,
+     4,
+     5
+    ],
+    "w2r_by_step": [
+     5,
+     4,
+     2,
+     5,
+     3,
+     1,
+     4,
+     2
+    ],
+    "base_right": 432
+   },
+   "D2": {
+    "r2w_by_step": [
+     1,
+     2,
+     2,
+     1,
+     3,
+     0,
+     3,
+     1
+    ],
+    "w2r_by_step": [
+     2,
+     2,
+     2,
+     4,
+     5,
+     1,
+     2,
+     3
+    ],
+    "base_right": 402
+   },
+   "D3": {
+    "r2w_by_step": [
+     6,
+     3,
+     4,
+     4,
+     6,
+     2,
+     4,
+     7
+    ],
+    "w2r_by_step": [
+     2,
+     1,
+     2,
+     2,
+     1,
+     1,
+     1,
+     2
+    ],
+    "base_right": 446
+   }
+  },
+  "h1_matched_vs_shuffled": {
+   "rows": [
+    {
+     "stream": "D0",
+     "delta": 0.11704545454545455,
+     "n_items": 330,
+     "damage_ref": 0.015151515151515152,
+     "damage_comp": 0.1321969696969697,
+     "coverage_ref": 0.7391666666666666,
+     "coverage_comp": 0.7259613608374385,
+     "coverage_diff": 0.013205305829228187,
+     "retention_ref": 0.6342857142857142,
+     "retention_comp": 0.5946428571428571,
+     "retention_diff": 0.03964285714285709,
+     "loc_fire_ref": 0.024242424242424242,
+     "loc_fire_comp": 1.0,
+     "comp_arms": [
+      "shuffled:0",
+      "shuffled:1",
+      "shuffled:2",
+      "shuffled:3",
+      "shuffled:4",
+      "shuffled:5",
+      "shuffled:6",
+      "shuffled:7"
+     ]
+    },
+    {
+     "stream": "D1",
+     "delta": 0.4219114219114219,
+     "n_items": 429,
+     "damage_ref": 0.018648018648018648,
+     "damage_comp": 0.4405594405594406,
+     "coverage_ref": 0.7426267650834403,
+     "coverage_comp": 0.6892113286264442,
+     "coverage_diff": 0.05341543645699609,
+     "retention_ref": 0.6114285714285714,
+     "retention_comp": 0.48178571428571426,
+     "retention_diff": 0.12964285714285717,
+     "loc_fire_ref": 0.02097902097902098,
+     "loc_fire_comp": 1.0,
+     "comp_arms": [
+      "shuffled:0",
+      "shuffled:1",
+      "shuffled:2",
+      "shuffled:3",
+      "shuffled:4",
+      "shuffled:5",
+      "shuffled:6",
+      "shuffled:7"
+     ]
+    },
+    {
+     "stream": "D2",
+     "delta": 0.47060643564356436,
+     "n_items": 404,
+     "damage_ref": 0.022277227722772276,
+     "damage_comp": 0.4928836633663366,
+     "coverage_ref": 0.7045075757575757,
+     "coverage_comp": 0.5627888257575757,
+     "coverage_diff": 0.14171875,
+     "retention_ref": 0.6257142857142857,
+     "retention_comp": 0.43,
+     "retention_diff": 0.19571428571428567,
+     "loc_fire_ref": 0.034653465346534656,
+     "loc_fire_comp": 1.0,
+     "comp_arms": [
+      "shuffled:0",
+      "shuffled:1",
+      "shuffled:2",
+      "shuffled:3",
+      "shuffled:4",
+      "shuffled:5",
+      "shuffled:6",
+      "shuffled:7"
+     ]
+    },
+    {
+     "stream": "D3",
+     "delta": 0.2361111111111111,
+     "n_items": 441,
+     "damage_ref": 0.009070294784580499,
+     "damage_comp": 0.2451814058956916,
+     "coverage_ref": 0.8070131485429993,
+     "coverage_comp": 0.7877174395877754,
+     "coverage_diff": 0.019295708955223922,
+     "retention_ref": 0.7228571428571429,
+     "retention_comp": 0.6135714285714285,
+     "retention_diff": 0.10928571428571432,
+     "loc_fire_ref": 0.013605442176870748,
+     "loc_fire_comp": 0.891156462585034,
+     "comp_arms": [
+      "shuffled:0",
+      "shuffled:1",
+      "shuffled:2",
+      "shuffled:3",
+      "shuffled:4",
+      "shuffled:5",
+      "shuffled:6",
+      "shuffled:7"
+     ]
+    }
+   ],
+   "mean_delta": 0.311418605802888,
+   "ci95": [
+    0.16902764893836325,
+    0.4538141314131413
+   ],
+   "positive_streams": 4,
+   "coverage_diff": 0.05690880031036205,
+   "retention_diff": 0.11857142857142856,
+   "guards": true,
+   "verdict": "supported"
+  },
+  "h2_matched_vs_tuned_uniform": {
+   "rows": [
+    {
+     "stream": "D0",
+     "delta": 0.01818181818181818,
+     "n_items": 330,
+     "damage_ref": 0.015151515151515152,
+     "damage_comp": 0.03333333333333333,
+     "coverage_ref": 0.7391666666666666,
+     "coverage_comp": 0.7121531198686372,
+     "coverage_diff": 0.027013546798029475,
+     "retention_ref": 0.6342857142857142,
+     "retention_comp": 0.5771428571428572,
+     "retention_diff": 0.05714285714285705,
+     "loc_fire_ref": 0.024242424242424242,
+     "loc_fire_comp": 0.03636363636363636,
+     "comp_arms": [
+      "uniform:0.94"
+     ]
+    },
+    {
+     "stream": "D1",
+     "delta": 0.06993006993006994,
+     "n_items": 429,
+     "damage_ref": 0.018648018648018648,
+     "damage_comp": 0.08857808857808858,
+     "coverage_ref": 0.7426267650834403,
+     "coverage_comp": 0.7485141206675224,
+     "coverage_diff": -0.0058873555840821545,
+     "retention_ref": 0.6114285714285714,
+     "retention_comp": 0.5542857142857143,
+     "retention_diff": 0.05714285714285716,
+     "loc_fire_ref": 0.02097902097902098,
+     "loc_fire_comp": 1.0,
+     "comp_arms": [
+      "uniform:0.94"
+     ]
+    },
+    {
+     "stream": "D2",
+     "delta": 0.1608910891089109,
+     "n_items": 404,
+     "damage_ref": 0.022277227722772276,
+     "damage_comp": 0.18316831683168316,
+     "coverage_ref": 0.7045075757575757,
+     "coverage_comp": 0.6676136363636364,
+     "coverage_diff": 0.03689393939393937,
+     "retention_ref": 0.6257142857142857,
+     "retention_comp": 0.52,
+     "retention_diff": 0.10571428571428565,
+     "loc_fire_ref": 0.034653465346534656,
+     "loc_fire_comp": 1.0,
+     "comp_arms": [
+      "uniform:0.94"
+     ]
+    },
+    {
+     "stream": "D3",
+     "delta": 0.0,
+     "n_items": 441,
+     "damage_ref": 0.009070294784580499,
+     "damage_comp": 0.009070294784580499,
+     "coverage_ref": 0.8070131485429993,
+     "coverage_comp": 0.8053056147832267,
+     "coverage_diff": 0.001707533759772617,
+     "retention_ref": 0.7228571428571429,
+     "retention_comp": 0.6971428571428572,
+     "retention_diff": 0.02571428571428569,
+     "loc_fire_ref": 0.013605442176870748,
+     "loc_fire_comp": 0.045351473922902494,
+     "comp_arms": [
+      "uniform:0.94"
+     ]
+    }
+   ],
+   "mean_delta": 0.06225074430519975,
+   "ci95": [
+    0.007575757575757575,
+    0.131910767607373
+   ],
+   "positive_streams": 3,
+   "coverage_diff": 0.014931916091914826,
+   "retention_diff": 0.06142857142857139,
+   "guards": true,
+   "verdict": "supported"
+  },
+  "h3_concentration": {
+   "arm": "uniform:0.90",
+   "per_stream": {
+    "D0": {
+     "available": true,
+     "damaged": 32,
+     "no_firing": 0,
+     "with_firing": 32,
+     "rerun_mismatch": 0,
+     "alone_explained": 30,
+     "single_recovers": 18,
+     "many_fired": 0,
+     "closure_complete": 32,
+     "closure_recovered": 32,
+     "closure_mean_size": 6.5625,
+     "fired_mean": 2.71875,
+     "distinct_culprits": 15,
+     "entries": 1042,
+     "top_k": 11,
+     "top_share": 0.84375,
+     "top_culprits": [
+      {
+       "entry": 116,
+       "items": 13,
+       "subject": "2011–12 PFC Litex Lovech season",
+       "step": 1,
+       "raised": true,
+       "threshold": 0.950644,
+       "hidden_floor_share": 0.0008333333333333334
+      },
+      {
+       "entry": 1017,
+       "items": 9,
+       "subject": "Hilton Farmhouse located in Whitsome as part of the Outbuilding",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.927392,
+       "hidden_floor_share": 0.0
+      },
+      {
+       "entry": 813,
+       "items": 5,
+       "subject": "solar eclipse of August 5, 1891 BC",
+       "step": 6,
+       "raised": true,
+       "threshold": 1.003183,
+       "hidden_floor_share": 0.006333333333333333
+      },
+      {
+       "entry": 453,
+       "items": 3,
+       "subject": "KOLO TV/FM",
+       "step": 4,
+       "raised": true,
+       "threshold": 0.940801,
+       "hidden_floor_share": 0.0008333333333333334
+      },
+      {
+       "entry": 964,
+       "items": 2,
+       "subject": "1 Woodside Terrace",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.948164,
+       "hidden_floor_share": 0.0015
+      },
+      {
+       "entry": 984,
+       "items": 2,
+       "subject": "37 Havelock Street",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.984366,
+       "hidden_floor_share": 0.0031666666666666666
+      },
+      {
+       "entry": 400,
+       "items": 1,
+       "subject": "Kymenlaakso Museum",
+       "step": 3,
+       "raised": true,
+       "threshold": 0.923426,
+       "hidden_floor_share": 0.0008333333333333334
+      },
+      {
+       "entry": 480,
+       "items": 1,
+       "subject": "2011–12 Czech 1. Liga season",
+       "step": 4,
+       "raised": true,
+       "threshold": 0.908054,
+       "hidden_floor_share": 0.0003333333333333333
+      },
+      {
+       "entry": 594,
+       "items": 1,
+       "subject": "Cradle Mountain-Lake St Clair National Park",
+       "step": 5,
+       "raised": true,
+       "threshold": 0.946271,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 678,
+       "items": 1,
+       "subject": "Exlibris Records",
+       "step": 5,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0006666666666666666
+      },
+      {
+       "entry": 766,
+       "items": 1,
+       "subject": "1990 Suntory Japan Open Tennis Championships",
+       "step": 6,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0015
+      }
+     ],
+     "culprits_raised": 0.8,
+     "entries_raised": 0.16506717850287908,
+     "culprit_hidden_floor_share_median": 0.0008333333333333334,
+     "hijack": 8,
+     "name_relation": {
+      "other": 34,
+      "near name": 9
+     },
+     "culprit_regions": {
+      "q": 21,
+      "ctx": 22
+     },
+     "firing_regions": {
+      "0": 32,
+      "1": 20
+     }
+    },
+    "D1": {
+     "available": true,
+     "damaged": 184,
+     "no_firing": 0,
+     "with_firing": 184,
+     "rerun_mismatch": 0,
+     "alone_explained": 164,
+     "single_recovers": 135,
+     "many_fired": 0,
+     "closure_complete": 103,
+     "closure_recovered": 170,
+     "closure_mean_size": 8.891304347826088,
+     "fired_mean": 3.1467391304347827,
+     "distinct_culprits": 18,
+     "entries": 1058,
+     "top_k": 11,
+     "top_share": 0.8858695652173914,
+     "top_culprits": [
+      {
+       "entry": 750,
+       "items": 154,
+       "subject": "What",
+       "step": 5,
+       "raised": true,
+       "threshold": 0.956086,
+       "hidden_floor_share": 0.44233333333333336
+      },
+      {
+       "entry": 814,
+       "items": 34,
+       "subject": "of solar eclipse was the event on May 12 947 BC",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.931464,
+       "hidden_floor_share": 0.0
+      },
+      {
+       "entry": 830,
+       "items": 23,
+       "subject": "solar eclipse of October 29, 203 BC",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.976868,
+       "hidden_floor_share": 0.0005
+      },
+      {
+       "entry": 820,
+       "items": 8,
+       "subject": "solar eclipse of November 24, 1562 BC",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.960933,
+       "hidden_floor_share": 0.006833333333333334
+      },
+      {
+       "entry": 1008,
+       "items": 2,
+       "subject": "3 Bowmont Gardens",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.961129,
+       "hidden_floor_share": 0.0005
+      },
+      {
+       "entry": 1052,
+       "items": 2,
+       "subject": "Purley railway station",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.994988,
+       "hidden_floor_share": 0.009666666666666667
+      },
+      {
+       "entry": 198,
+       "items": 1,
+       "subject": "Heterodrilus chenianus",
+       "step": 2,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0008333333333333334
+      },
+      {
+       "entry": 269,
+       "items": 1,
+       "subject": "Lagotis kongboensis",
+       "step": 2,
+       "raised": true,
+       "threshold": 0.900777,
+       "hidden_floor_share": 0.0011666666666666668
+      },
+      {
+       "entry": 324,
+       "items": 1,
+       "subject": "Maynooth railway station",
+       "step": 3,
+       "raised": true,
+       "threshold": 0.992495,
+       "hidden_floor_share": 0.009833333333333333
+      },
+      {
+       "entry": 414,
+       "items": 1,
+       "subject": "Zagreb Airport",
+       "step": 3,
+       "raised": true,
+       "threshold": 0.937147,
+       "hidden_floor_share": 0.001
+      },
+      {
+       "entry": 460,
+       "items": 1,
+       "subject": "Morningside railway station",
+       "step": 4,
+       "raised": true,
+       "threshold": 0.993262,
+       "hidden_floor_share": 0.010666666666666666
+      }
+     ],
+     "culprits_raised": 0.7222222222222222,
+     "entries_raised": 0.15500945179584122,
+     "culprit_hidden_floor_share_median": 0.0011666666666666668,
+     "hijack": 10,
+     "name_relation": {
+      "same name": 116,
+      "other": 112,
+      "near name": 7
+     },
+     "culprit_regions": {
+      "mixed": 114,
+      "ctx": 97,
+      "q": 24
+     },
+     "firing_regions": {
+      "0": 184,
+      "1": 139
+     }
+    },
+    "D2": {
+     "available": true,
+     "damaged": 197,
+     "no_firing": 0,
+     "with_firing": 197,
+     "rerun_mismatch": 0,
+     "alone_explained": 192,
+     "single_recovers": 30,
+     "many_fired": 0,
+     "closure_complete": 1,
+     "closure_recovered": 174,
+     "closure_mean_size": 10.421319796954315,
+     "fired_mean": 3.1269035532994924,
+     "distinct_culprits": 20,
+     "entries": 1074,
+     "top_k": 11,
+     "top_share": 0.9593908629441624,
+     "top_culprits": [
+      {
+       "entry": 465,
+       "items": 178,
+       "subject": "What",
+       "step": 3,
+       "raised": true,
+       "threshold": 0.964227,
+       "hidden_floor_share": 0.447
+      },
+      {
+       "entry": 1038,
+       "items": 12,
+       "subject": "21 Lansdowne Crescent, Edinburgh",
+       "step": 7,
+       "raised": true,
+       "threshold": 1.00915,
+       "hidden_floor_share": 0.0005
+      },
+      {
+       "entry": 1032,
+       "items": 9,
+       "subject": "12 East Brighton Crescent located in Portobello Edinburgh",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.927717,
+       "hidden_floor_share": 0.0
+      },
+      {
+       "entry": 1067,
+       "items": 4,
+       "subject": "Angmering railway station",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.993485,
+       "hidden_floor_share": 0.009
+      },
+      {
+       "entry": 844,
+       "items": 3,
+       "subject": "solar eclipse of July 25, 1825 BC",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.991187,
+       "hidden_floor_share": 0.0055
+      },
+      {
+       "entry": 675,
+       "items": 2,
+       "subject": "Tsuruma Station",
+       "step": 5,
+       "raised": true,
+       "threshold": 0.960881,
+       "hidden_floor_share": 0.004
+      },
+      {
+       "entry": 1034,
+       "items": 2,
+       "subject": "931-941 Sauchiehall Street",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.963697,
+       "hidden_floor_share": 0.003833333333333333
+      },
+      {
+       "entry": 199,
+       "items": 1,
+       "subject": "Pierre Ier",
+       "step": 2,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 538,
+       "items": 1,
+       "subject": "1986 South African Open",
+       "step": 4,
+       "raised": true,
+       "threshold": 0.958696,
+       "hidden_floor_share": 0.0011666666666666668
+      },
+      {
+       "entry": 547,
+       "items": 1,
+       "subject": "Kuwait Petroleum International",
+       "step": 4,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 569,
+       "items": 1,
+       "subject": "Jefferson County Courthouse",
+       "step": 4,
+       "raised": true,
+       "threshold": 0.981735,
+       "hidden_floor_share": 0.0013333333333333333
+      }
+     ],
+     "culprits_raised": 0.8,
+     "entries_raised": 0.13500931098696461,
+     "culprit_hidden_floor_share_median": 0.0011666666666666668,
+     "hijack": 65,
+     "name_relation": {
+      "same name": 160,
+      "other": 51,
+      "near name": 12
+     },
+     "culprit_regions": {
+      "mixed": 150,
+      "ctx": 49,
+      "q": 24
+     },
+     "firing_regions": {
+      "0": 197,
+      "1": 168,
+      "2": 1
+     }
+    },
+    "D3": {
+     "available": true,
+     "damaged": 123,
+     "no_firing": 0,
+     "with_firing": 123,
+     "rerun_mismatch": 0,
+     "alone_explained": 118,
+     "single_recovers": 116,
+     "many_fired": 0,
+     "closure_complete": 123,
+     "closure_recovered": 123,
+     "closure_mean_size": 1.3821138211382114,
+     "fired_mean": 1.3170731707317074,
+     "distinct_culprits": 11,
+     "entries": 1051,
+     "top_k": 11,
+     "top_share": 0.959349593495935,
+     "top_culprits": [
+      {
+       "entry": 956,
+       "items": 89,
+       "subject": "What",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.937879,
+       "hidden_floor_share": 0.0
+      },
+      {
+       "entry": 713,
+       "items": 20,
+       "subject": "Government of Turkey",
+       "step": 5,
+       "raised": true,
+       "threshold": 0.955139,
+       "hidden_floor_share": 0.005666666666666667
+      },
+      {
+       "entry": 638,
+       "items": 5,
+       "subject": "Lycée Fénelon in Paris",
+       "step": 5,
+       "raised": true,
+       "threshold": 0.974281,
+       "hidden_floor_share": 0.0005
+      },
+      {
+       "entry": 56,
+       "items": 1,
+       "subject": "Doonfoot Bridge",
+       "step": 0,
+       "raised": true,
+       "threshold": 0.952374,
+       "hidden_floor_share": 0.0023333333333333335
+      },
+      {
+       "entry": 95,
+       "items": 1,
+       "subject": "Moosonee Water Aerodrome",
+       "step": 1,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 261,
+       "items": 1,
+       "subject": "Deyeuxia zangxiensis",
+       "step": 2,
+       "raised": true,
+       "threshold": 0.946124,
+       "hidden_floor_share": 0.0008333333333333334
+      },
+      {
+       "entry": 362,
+       "items": 1,
+       "subject": "The Oskaloosa Herald",
+       "step": 3,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 889,
+       "items": 1,
+       "subject": "Derg Parish Church",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.983229,
+       "hidden_floor_share": 0.0036666666666666666
+      },
+      {
+       "entry": 913,
+       "items": 1,
+       "subject": "Kuyumcuköy",
+       "step": 7,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 1010,
+       "items": 1,
+       "subject": "145 St Vincent Street",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.982788,
+       "hidden_floor_share": 0.005666666666666667
+      },
+      {
+       "entry": 1027,
+       "items": 1,
+       "subject": "Pinwherry Castle",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.962211,
+       "hidden_floor_share": 0.0023333333333333335
+      }
+     ],
+     "culprits_raised": 0.7272727272727273,
+     "entries_raised": 0.11512844909609896,
+     "culprit_hidden_floor_share_median": 0.0008333333333333334,
+     "hijack": 2,
+     "name_relation": {
+      "other": 61,
+      "same name": 60,
+      "near name": 1
+     },
+     "culprit_regions": {
+      "ctx": 89,
+      "gen": 5,
+      "q": 28
+     },
+     "firing_regions": {
+      "0": 123,
+      "1": 32,
+      "2": 6
+     }
+    }
+   },
+   "verdict": "concentrated"
+  },
+  "interventions_other": {
+   "matched": {
+    "D0": {
+     "available": true,
+     "damaged": 5,
+     "no_firing": 0,
+     "with_firing": 5,
+     "rerun_mismatch": 0,
+     "alone_explained": 5,
+     "single_recovers": 4,
+     "many_fired": 0,
+     "closure_complete": 5,
+     "closure_recovered": 5,
+     "closure_mean_size": 1.2,
+     "fired_mean": 1.0,
+     "distinct_culprits": 5,
+     "entries": 1042,
+     "top_k": 11,
+     "top_share": 1.0,
+     "top_culprits": [
+      {
+       "entry": 400,
+       "items": 1,
+       "subject": "Kymenlaakso Museum",
+       "step": 3,
+       "raised": true,
+       "threshold": 0.923426,
+       "hidden_floor_share": 0.0008333333333333334
+      },
+      {
+       "entry": 480,
+       "items": 1,
+       "subject": "2011–12 Czech 1. Liga season",
+       "step": 4,
+       "raised": true,
+       "threshold": 0.908054,
+       "hidden_floor_share": 0.0003333333333333333
+      },
+      {
+       "entry": 678,
+       "items": 1,
+       "subject": "Exlibris Records",
+       "step": 5,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0006666666666666666
+      },
+      {
+       "entry": 766,
+       "items": 1,
+       "subject": "1990 Suntory Japan Open Tennis Championships",
+       "step": 6,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0015
+      },
+      {
+       "entry": 986,
+       "items": 1,
+       "subject": "29 High Street in Dunbar",
+       "step": 7,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0003333333333333333
+      }
+     ],
+     "culprits_raised": 0.4,
+     "entries_raised": 0.16506717850287908,
+     "culprit_hidden_floor_share_median": 0.0006666666666666666,
+     "hijack": 0,
+     "name_relation": {
+      "near name": 3,
+      "other": 2
+     },
+     "culprit_regions": {
+      "q": 5
+     },
+     "firing_regions": {
+      "1": 5
+     }
+    },
+    "D1": {
+     "available": true,
+     "damaged": 8,
+     "no_firing": 0,
+     "with_firing": 8,
+     "rerun_mismatch": 0,
+     "alone_explained": 8,
+     "single_recovers": 7,
+     "many_fired": 0,
+     "closure_complete": 8,
+     "closure_recovered": 8,
+     "closure_mean_size": 1.25,
+     "fired_mean": 1.0,
+     "distinct_culprits": 8,
+     "entries": 1058,
+     "top_k": 11,
+     "top_share": 1.0,
+     "top_culprits": [
+      {
+       "entry": 198,
+       "items": 1,
+       "subject": "Heterodrilus chenianus",
+       "step": 2,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0008333333333333334
+      },
+      {
+       "entry": 269,
+       "items": 1,
+       "subject": "Lagotis kongboensis",
+       "step": 2,
+       "raised": true,
+       "threshold": 0.900777,
+       "hidden_floor_share": 0.0011666666666666668
+      },
+      {
+       "entry": 530,
+       "items": 1,
+       "subject": "1873–74 in Scottish football",
+       "step": 4,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 579,
+       "items": 1,
+       "subject": "Shamshuipo Kaifong Welfare Association Primary School",
+       "step": 4,
+       "raised": true,
+       "threshold": 0.953544,
+       "hidden_floor_share": 0.0015
+      },
+      {
+       "entry": 650,
+       "items": 1,
+       "subject": "Lambung Mangkurat Museum",
+       "step": 5,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0005
+      },
+      {
+       "entry": 652,
+       "items": 1,
+       "subject": "1989 Rado Swiss Open",
+       "step": 5,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0015
+      },
+      {
+       "entry": 792,
+       "items": 1,
+       "subject": "Blues at Carnegie Hall",
+       "step": 6,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 886,
+       "items": 1,
+       "subject": "Former Gasworks",
+       "step": 6,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      }
+     ],
+     "culprits_raised": 0.25,
+     "entries_raised": 0.15500945179584122,
+     "culprit_hidden_floor_share_median": 0.0008333333333333334,
+     "hijack": 1,
+     "name_relation": {
+      "other": 6,
+      "near name": 2
+     },
+     "culprit_regions": {
+      "q": 8
+     },
+     "firing_regions": {
+      "1": 8
+     }
+    },
+    "D2": {
+     "available": true,
+     "damaged": 9,
+     "no_firing": 0,
+     "with_firing": 9,
+     "rerun_mismatch": 0,
+     "alone_explained": 9,
+     "single_recovers": 7,
+     "many_fired": 0,
+     "closure_complete": 9,
+     "closure_recovered": 9,
+     "closure_mean_size": 1.2222222222222223,
+     "fired_mean": 1.0,
+     "distinct_culprits": 9,
+     "entries": 1074,
+     "top_k": 11,
+     "top_share": 1.0,
+     "top_culprits": [
+      {
+       "entry": 199,
+       "items": 1,
+       "subject": "Pierre Ier",
+       "step": 2,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 414,
+       "items": 1,
+       "subject": "Emese Tóth",
+       "step": 3,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0003333333333333333
+      },
+      {
+       "entry": 538,
+       "items": 1,
+       "subject": "1986 South African Open",
+       "step": 4,
+       "raised": true,
+       "threshold": 0.958696,
+       "hidden_floor_share": 0.0011666666666666668
+      },
+      {
+       "entry": 547,
+       "items": 1,
+       "subject": "Kuwait Petroleum International",
+       "step": 4,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 643,
+       "items": 1,
+       "subject": "Høng Municipality",
+       "step": 5,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0003333333333333333
+      },
+      {
+       "entry": 824,
+       "items": 1,
+       "subject": "İskenderpaşa",
+       "step": 6,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 884,
+       "items": 1,
+       "subject": "Trofeo Teresa Herrera 2001",
+       "step": 6,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 907,
+       "items": 1,
+       "subject": "Summer House in Hillsborough Castle",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.941535,
+       "hidden_floor_share": 0.0025
+      },
+      {
+       "entry": 1022,
+       "items": 1,
+       "subject": "1 Banavie Road",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.90052,
+       "hidden_floor_share": 0.001
+      }
+     ],
+     "culprits_raised": 0.3333333333333333,
+     "entries_raised": 0.13500931098696461,
+     "culprit_hidden_floor_share_median": 0.0003333333333333333,
+     "hijack": 2,
+     "name_relation": {
+      "near name": 2,
+      "other": 5,
+      "same name": 2
+     },
+     "culprit_regions": {
+      "q": 8,
+      "gen": 1
+     },
+     "firing_regions": {
+      "1": 8,
+      "2": 1
+     }
+    },
+    "D3": {
+     "available": true,
+     "damaged": 4,
+     "no_firing": 0,
+     "with_firing": 4,
+     "rerun_mismatch": 0,
+     "alone_explained": 4,
+     "single_recovers": 4,
+     "many_fired": 0,
+     "closure_complete": 4,
+     "closure_recovered": 4,
+     "closure_mean_size": 1.0,
+     "fired_mean": 1.0,
+     "distinct_culprits": 4,
+     "entries": 1051,
+     "top_k": 11,
+     "top_share": 1.0,
+     "top_culprits": [
+      {
+       "entry": 95,
+       "items": 1,
+       "subject": "Moosonee Water Aerodrome",
+       "step": 1,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 362,
+       "items": 1,
+       "subject": "The Oskaloosa Herald",
+       "step": 3,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 913,
+       "items": 1,
+       "subject": "Kuyumcuköy",
+       "step": 7,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 995,
+       "items": 1,
+       "subject": "East Saltoun Old Castle",
+       "step": 7,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0006666666666666666
+      }
+     ],
+     "culprits_raised": 0.0,
+     "entries_raised": 0.11512844909609896,
+     "culprit_hidden_floor_share_median": 0.00016666666666666666,
+     "hijack": 1,
+     "name_relation": {
+      "other": 3,
+      "near name": 1
+     },
+     "culprit_regions": {
+      "q": 4
+     },
+     "firing_regions": {
+      "1": 4
+     }
+    }
+   },
+   "shuffled:0": {
+    "D0": {
+     "available": true,
+     "damaged": 32,
+     "no_firing": 0,
+     "with_firing": 32,
+     "rerun_mismatch": 0,
+     "alone_explained": 30,
+     "single_recovers": 18,
+     "many_fired": 0,
+     "closure_complete": 32,
+     "closure_recovered": 32,
+     "closure_mean_size": 5.40625,
+     "fired_mean": 2.71875,
+     "distinct_culprits": 15,
+     "entries": 1042,
+     "top_k": 11,
+     "top_share": 0.84375,
+     "top_culprits": [
+      {
+       "entry": 116,
+       "items": 13,
+       "subject": "2011–12 PFC Litex Lovech season",
+       "step": 1,
+       "raised": true,
+       "threshold": 0.950644,
+       "hidden_floor_share": 0.0008333333333333334
+      },
+      {
+       "entry": 1017,
+       "items": 9,
+       "subject": "Hilton Farmhouse located in Whitsome as part of the Outbuilding",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.927392,
+       "hidden_floor_share": 0.0
+      },
+      {
+       "entry": 813,
+       "items": 5,
+       "subject": "solar eclipse of August 5, 1891 BC",
+       "step": 6,
+       "raised": true,
+       "threshold": 1.003183,
+       "hidden_floor_share": 0.006333333333333333
+      },
+      {
+       "entry": 453,
+       "items": 3,
+       "subject": "KOLO TV/FM",
+       "step": 4,
+       "raised": true,
+       "threshold": 0.940801,
+       "hidden_floor_share": 0.0008333333333333334
+      },
+      {
+       "entry": 964,
+       "items": 2,
+       "subject": "1 Woodside Terrace",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.948164,
+       "hidden_floor_share": 0.0015
+      },
+      {
+       "entry": 984,
+       "items": 2,
+       "subject": "37 Havelock Street",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.984366,
+       "hidden_floor_share": 0.0031666666666666666
+      },
+      {
+       "entry": 400,
+       "items": 1,
+       "subject": "Kymenlaakso Museum",
+       "step": 3,
+       "raised": true,
+       "threshold": 0.923426,
+       "hidden_floor_share": 0.0008333333333333334
+      },
+      {
+       "entry": 480,
+       "items": 1,
+       "subject": "2011–12 Czech 1. Liga season",
+       "step": 4,
+       "raised": true,
+       "threshold": 0.908054,
+       "hidden_floor_share": 0.0003333333333333333
+      },
+      {
+       "entry": 594,
+       "items": 1,
+       "subject": "Cradle Mountain-Lake St Clair National Park",
+       "step": 5,
+       "raised": true,
+       "threshold": 0.946271,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 678,
+       "items": 1,
+       "subject": "Exlibris Records",
+       "step": 5,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0006666666666666666
+      },
+      {
+       "entry": 766,
+       "items": 1,
+       "subject": "1990 Suntory Japan Open Tennis Championships",
+       "step": 6,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0015
+      }
+     ],
+     "culprits_raised": 0.8,
+     "entries_raised": 0.16506717850287908,
+     "culprit_hidden_floor_share_median": 0.0008333333333333334,
+     "hijack": 8,
+     "name_relation": {
+      "other": 34,
+      "near name": 9
+     },
+     "culprit_regions": {
+      "q": 21,
+      "ctx": 22
+     },
+     "firing_regions": {
+      "0": 32,
+      "1": 20
+     }
+    },
+    "D1": {
+     "available": true,
+     "damaged": 184,
+     "no_firing": 0,
+     "with_firing": 184,
+     "rerun_mismatch": 0,
+     "alone_explained": 165,
+     "single_recovers": 135,
+     "many_fired": 0,
+     "closure_complete": 179,
+     "closure_recovered": 180,
+     "closure_mean_size": 7.815217391304348,
+     "fired_mean": 3.1467391304347827,
+     "distinct_culprits": 18,
+     "entries": 1058,
+     "top_k": 11,
+     "top_share": 0.8913043478260869,
+     "top_culprits": [
+      {
+       "entry": 750,
+       "items": 154,
+       "subject": "What",
+       "step": 5,
+       "raised": true,
+       "threshold": 0.956086,
+       "hidden_floor_share": 0.44233333333333336
+      },
+      {
+       "entry": 814,
+       "items": 34,
+       "subject": "of solar eclipse was the event on May 12 947 BC",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.931464,
+       "hidden_floor_share": 0.0
+      },
+      {
+       "entry": 830,
+       "items": 23,
+       "subject": "solar eclipse of October 29, 203 BC",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.976868,
+       "hidden_floor_share": 0.0005
+      },
+      {
+       "entry": 820,
+       "items": 8,
+       "subject": "solar eclipse of November 24, 1562 BC",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.960933,
+       "hidden_floor_share": 0.006833333333333334
+      },
+      {
+       "entry": 821,
+       "items": 2,
+       "subject": "solar eclipse of September 19, 1187 BC",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.947042,
+       "hidden_floor_share": 0.005333333333333333
+      },
+      {
+       "entry": 1008,
+       "items": 2,
+       "subject": "3 Bowmont Gardens",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.961129,
+       "hidden_floor_share": 0.0005
+      },
+      {
+       "entry": 1052,
+       "items": 2,
+       "subject": "Purley railway station",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.994988,
+       "hidden_floor_share": 0.009666666666666667
+      },
+      {
+       "entry": 198,
+       "items": 1,
+       "subject": "Heterodrilus chenianus",
+       "step": 2,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0008333333333333334
+      },
+      {
+       "entry": 269,
+       "items": 1,
+       "subject": "Lagotis kongboensis",
+       "step": 2,
+       "raised": true,
+       "threshold": 0.900777,
+       "hidden_floor_share": 0.0011666666666666668
+      },
+      {
+       "entry": 324,
+       "items": 1,
+       "subject": "Maynooth railway station",
+       "step": 3,
+       "raised": true,
+       "threshold": 0.992495,
+       "hidden_floor_share": 0.009833333333333333
+      },
+      {
+       "entry": 414,
+       "items": 1,
+       "subject": "Zagreb Airport",
+       "step": 3,
+       "raised": true,
+       "threshold": 0.937147,
+       "hidden_floor_share": 0.001
+      }
+     ],
+     "culprits_raised": 0.7222222222222222,
+     "entries_raised": 0.15500945179584122,
+     "culprit_hidden_floor_share_median": 0.0011666666666666668,
+     "hijack": 10,
+     "name_relation": {
+      "same name": 116,
+      "other": 113,
+      "near name": 7
+     },
+     "culprit_regions": {
+      "mixed": 114,
+      "ctx": 97,
+      "q": 25
+     },
+     "firing_regions": {
+      "0": 184,
+      "1": 139
+     }
+    },
+    "D2": {
+     "available": true,
+     "damaged": 193,
+     "no_firing": 0,
+     "with_firing": 193,
+     "rerun_mismatch": 0,
+     "alone_explained": 192,
+     "single_recovers": 30,
+     "many_fired": 0,
+     "closure_complete": 0,
+     "closure_recovered": 172,
+     "closure_mean_size": 9.393782383419689,
+     "fired_mean": 2.1191709844559585,
+     "distinct_culprits": 20,
+     "entries": 1074,
+     "top_k": 11,
+     "top_share": 0.9740932642487047,
+     "top_culprits": [
+      {
+       "entry": 465,
+       "items": 178,
+       "subject": "What",
+       "step": 3,
+       "raised": true,
+       "threshold": 0.964227,
+       "hidden_floor_share": 0.447
+      },
+      {
+       "entry": 1038,
+       "items": 12,
+       "subject": "21 Lansdowne Crescent, Edinburgh",
+       "step": 7,
+       "raised": true,
+       "threshold": 1.00915,
+       "hidden_floor_share": 0.0005
+      },
+      {
+       "entry": 844,
+       "items": 3,
+       "subject": "solar eclipse of July 25, 1825 BC",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.991187,
+       "hidden_floor_share": 0.0055
+      },
+      {
+       "entry": 1067,
+       "items": 3,
+       "subject": "Angmering railway station",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.993485,
+       "hidden_floor_share": 0.009
+      },
+      {
+       "entry": 1034,
+       "items": 2,
+       "subject": "931-941 Sauchiehall Street",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.963697,
+       "hidden_floor_share": 0.003833333333333333
+      },
+      {
+       "entry": 199,
+       "items": 1,
+       "subject": "Pierre Ier",
+       "step": 2,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 538,
+       "items": 1,
+       "subject": "1986 South African Open",
+       "step": 4,
+       "raised": true,
+       "threshold": 0.958696,
+       "hidden_floor_share": 0.0011666666666666668
+      },
+      {
+       "entry": 547,
+       "items": 1,
+       "subject": "Kuwait Petroleum International",
+       "step": 4,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 569,
+       "items": 1,
+       "subject": "Jefferson County Courthouse",
+       "step": 4,
+       "raised": true,
+       "threshold": 0.981735,
+       "hidden_floor_share": 0.0013333333333333333
+      },
+      {
+       "entry": 594,
+       "items": 1,
+       "subject": "Reevesia botingensis",
+       "step": 4,
+       "raised": true,
+       "threshold": 0.921922,
+       "hidden_floor_share": 0.001
+      },
+      {
+       "entry": 675,
+       "items": 1,
+       "subject": "Tsuruma Station",
+       "step": 5,
+       "raised": true,
+       "threshold": 0.960881,
+       "hidden_floor_share": 0.004
+      }
+     ],
+     "culprits_raised": 0.8,
+     "entries_raised": 0.13500931098696461,
+     "culprit_hidden_floor_share_median": 0.0013333333333333333,
+     "hijack": 65,
+     "name_relation": {
+      "same name": 160,
+      "other": 43,
+      "near name": 10
+     },
+     "culprit_regions": {
+      "mixed": 150,
+      "ctx": 40,
+      "q": 23
+     },
+     "firing_regions": {
+      "0": 193,
+      "1": 166
+     }
+    },
+    "D3": {
+     "available": true,
+     "damaged": 99,
+     "no_firing": 0,
+     "with_firing": 99,
+     "rerun_mismatch": 0,
+     "alone_explained": 99,
+     "single_recovers": 93,
+     "many_fired": 0,
+     "closure_complete": 99,
+     "closure_recovered": 99,
+     "closure_mean_size": 1.2222222222222223,
+     "fired_mean": 1.1414141414141414,
+     "distinct_culprits": 10,
+     "entries": 1051,
+     "top_k": 11,
+     "top_share": 1.0,
+     "top_culprits": [
+      {
+       "entry": 956,
+       "items": 89,
+       "subject": "What",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.937879,
+       "hidden_floor_share": 0.0
+      },
+      {
+       "entry": 638,
+       "items": 5,
+       "subject": "Lycée Fénelon in Paris",
+       "step": 5,
+       "raised": true,
+       "threshold": 0.974281,
+       "hidden_floor_share": 0.0005
+      },
+      {
+       "entry": 56,
+       "items": 1,
+       "subject": "Doonfoot Bridge",
+       "step": 0,
+       "raised": true,
+       "threshold": 0.952374,
+       "hidden_floor_share": 0.0023333333333333335
+      },
+      {
+       "entry": 95,
+       "items": 1,
+       "subject": "Moosonee Water Aerodrome",
+       "step": 1,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 261,
+       "items": 1,
+       "subject": "Deyeuxia zangxiensis",
+       "step": 2,
+       "raised": true,
+       "threshold": 0.946124,
+       "hidden_floor_share": 0.0008333333333333334
+      },
+      {
+       "entry": 362,
+       "items": 1,
+       "subject": "The Oskaloosa Herald",
+       "step": 3,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 889,
+       "items": 1,
+       "subject": "Derg Parish Church",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.983229,
+       "hidden_floor_share": 0.0036666666666666666
+      },
+      {
+       "entry": 913,
+       "items": 1,
+       "subject": "Kuyumcuköy",
+       "step": 7,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 1010,
+       "items": 1,
+       "subject": "145 St Vincent Street",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.982788,
+       "hidden_floor_share": 0.005666666666666667
+      },
+      {
+       "entry": 1027,
+       "items": 1,
+       "subject": "Pinwherry Castle",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.962211,
+       "hidden_floor_share": 0.0023333333333333335
+      }
+     ],
+     "culprits_raised": 0.7,
+     "entries_raised": 0.11512844909609896,
+     "culprit_hidden_floor_share_median": 0.0008333333333333334,
+     "hijack": 2,
+     "name_relation": {
+      "other": 41,
+      "same name": 60,
+      "near name": 1
+     },
+     "culprit_regions": {
+      "ctx": 89,
+      "gen": 5,
+      "q": 8
+     },
+     "firing_regions": {
+      "0": 99,
+      "1": 8,
+      "2": 6
+     }
+    }
+   }
+  }
+ },
+ "test": {
+  "arms": {
+   "none": {
+    "damage": 0.0,
+    "damage_base": 0.010938221964121145,
+    "coverage": 0.05457992484413848,
+    "upd": 0.05614527007327363,
+    "retention": 0.03642857142857143,
+    "forgetting": 0.04772727272727273,
+    "value": 0.3750843555082914,
+    "loc_fire": 0.0,
+    "own_hit": 0.0,
+    "other_hit": 0.0,
+    "per_stream": {
+     "D4": {
+      "damage": 0.0,
+      "coverage": 0.052284644194756556,
+      "retention": 0.03428571428571429
+     },
+     "D5": {
+      "damage": 0.0,
+      "coverage": 0.045286796536796535,
+      "retention": 0.02857142857142857
+     },
+     "D6": {
+      "damage": 0.0,
+      "coverage": 0.058754909662215235,
+      "retention": 0.025714285714285714
+     },
+     "D7": {
+      "damage": 0.0,
+      "coverage": 0.06199334898278561,
+      "retention": 0.05714285714285714
+     }
+    }
+   },
+   "matched": {
+    "damage": 0.011616064376303843,
+    "damage_base": 0.022478001792680308,
+    "coverage": 0.747294530140989,
+    "upd": 0.9481086142114401,
+    "retention": 0.6478571428571428,
+    "forgetting": 0.012227246038447085,
+    "value": 0.802748633269487,
+    "loc_fire": 0.019230479339727245,
+    "own_hit": 0.8710910607392716,
+    "other_hit": 0.026103783954811756,
+    "per_stream": {
+     "D4": {
+      "damage": 0.010025062656641603,
+      "coverage": 0.7494569288389513,
+      "retention": 0.6714285714285714
+     },
+     "D5": {
+      "damage": 0.007125890736342043,
+      "coverage": 0.7709361471861472,
+      "retention": 0.6628571428571428
+     },
+     "D6": {
+      "damage": 0.0160857908847185,
+      "coverage": 0.7459573841319718,
+      "retention": 0.62
+     },
+     "D7": {
+      "damage": 0.013227513227513227,
+      "coverage": 0.7228276604068857,
+      "retention": 0.6371428571428571
+     }
+    }
+   },
+   "shuffled:0": {
+    "damage": 0.13574894014644862,
+    "damage_base": 0.14370092222039868,
+    "coverage": 0.7404700323914654,
+    "upd": 0.9268248424609226,
+    "retention": 0.6285714285714286,
+    "forgetting": 0.03178896638121237,
+    "value": 0.7836567362826979,
+    "loc_fire": 0.29792940413989893,
+    "own_hit": 0.8737546621538931,
+    "other_hit": 0.13369741298870705,
+    "per_stream": {
+     "D4": {
+      "damage": 0.06516290726817042,
+      "coverage": 0.7529447565543071,
+      "retention": 0.6714285714285714
+     },
+     "D5": {
+      "damage": 0.05938242280285035,
+      "coverage": 0.7817694805194806,
+      "retention": 0.6771428571428572
+     },
+     "D6": {
+      "damage": 0.03485254691689008,
+      "coverage": 0.758852120974077,
+      "retention": 0.6142857142857143
+     },
+     "D7": {
+      "damage": 0.3835978835978836,
+      "coverage": 0.6683137715179969,
+      "retention": 0.5514285714285714
+     }
+    }
+   },
+   "shuffled:1": {
+    "damage": 0.1295535477333336,
+    "damage_base": 0.13747860934718664,
+    "coverage": 0.738988121896458,
+    "upd": 0.9254284645000403,
+    "retention": 0.6228571428571429,
+    "forgetting": 0.028541750690722876,
+    "value": 0.7817703774832596,
+    "loc_fire": 0.2930915722948708,
+    "own_hit": 0.8741166614093937,
+    "other_hit": 0.13636906829640155,
+    "per_stream": {
+     "D4": {
+      "damage": 0.03759398496240601,
+      "coverage": 0.7527902621722846,
+      "retention": 0.6457142857142857
+     },
+     "D5": {
+      "damage": 0.05938242280285035,
+      "coverage": 0.7738961038961039,
+      "retention": 0.66
+     },
+     "D6": {
+      "damage": 0.045576407506702415,
+      "coverage": 0.7594206598586017,
+      "retention": 0.62
+     },
+     "D7": {
+      "damage": 0.37566137566137564,
+      "coverage": 0.669845461658842,
+      "retention": 0.5657142857142857
+     }
+    }
+   },
+   "shuffled:2": {
+    "damage": 0.1383882974804025,
+    "damage_base": 0.1463073231621871,
+    "coverage": 0.7382070375564265,
+    "upd": 0.9288931349735712,
+    "retention": 0.6321428571428571,
+    "forgetting": 0.02679432501133269,
+    "value": 0.7858616351576762,
+    "loc_fire": 0.29990738581247717,
+    "own_hit": 0.8714180845214273,
+    "other_hit": 0.13503661793705718,
+    "per_stream": {
+     "D4": {
+      "damage": 0.06265664160401002,
+      "coverage": 0.7537780898876405,
+      "retention": 0.6771428571428572
+     },
+     "D5": {
+      "damage": 0.06175771971496437,
+      "coverage": 0.772689393939394,
+      "retention": 0.6542857142857142
+     },
+     "D6": {
+      "damage": 0.04289544235924933,
+      "coverage": 0.7562863315003928,
+      "retention": 0.6228571428571429
+     },
+     "D7": {
+      "damage": 0.3862433862433862,
+      "coverage": 0.6700743348982786,
+      "retention": 0.5742857142857143
+     }
+    }
+   },
+   "shuffled:3": {
+    "damage": 0.13022993433174565,
+    "damage_base": 0.13816862556968096,
+    "coverage": 0.7360869097843462,
+    "upd": 0.9217853887892553,
+    "retention": 0.6271428571428571,
+    "forgetting": 0.029212478132982566,
+    "value": 0.7849797801513825,
+    "loc_fire": 0.2917838319091559,
+    "own_hit": 0.8684194699487444,
+    "other_hit": 0.13436902893615033,
+    "per_stream": {
+     "D4": {
+      "damage": 0.040100250626566414,
+      "coverage": 0.7452902621722847,
+      "retention": 0.6657142857142857
+     },
+     "D5": {
+      "damage": 0.057007125890736345,
+      "coverage": 0.7759361471861472,
+      "retention": 0.6714285714285714
+     },
+     "D6": {
+      "damage": 0.040214477211796246,
+      "coverage": 0.7537863315003928,
+      "retention": 0.6085714285714285
+     },
+     "D7": {
+      "damage": 0.3835978835978836,
+      "coverage": 0.6693348982785603,
+      "retention": 0.5628571428571428
+     }
+    }
+   },
+   "shuffled:4": {
+    "damage": 0.09477024601762044,
+    "damage_base": 0.10345824759187487,
+    "coverage": 0.7486234640873007,
+    "upd": 0.9443914416762319,
+    "retention": 0.6342857142857143,
+    "forgetting": 0.014768943307573137,
+    "value": 0.7932328527053785,
+    "loc_fire": 0.29998380287131193,
+    "own_hit": 0.8771194642215316,
+    "other_hit": 0.1336960814260561,
+    "per_stream": {
+     "D4": {
+      "damage": 0.06516290726817042,
+      "coverage": 0.7468492509363296,
+      "retention": 0.6571428571428571
+     },
+     "D5": {
+      "damage": 0.05938242280285035,
+      "coverage": 0.7875595238095238,
+      "retention": 0.6685714285714286
+     },
+     "D6": {
+      "damage": 0.04289544235924933,
+      "coverage": 0.7554968578161823,
+      "retention": 0.6142857142857143
+     },
+     "D7": {
+      "damage": 0.21164021164021163,
+      "coverage": 0.7045882237871675,
+      "retention": 0.5971428571428572
+     }
+    }
+   },
+   "shuffled:5": {
+    "damage": 0.1339108487118275,
+    "damage_base": 0.14251073083283886,
+    "coverage": 0.7348248887279172,
+    "upd": 0.9251437655847236,
+    "retention": 0.62,
+    "forgetting": 0.027184428765822163,
+    "value": 0.7818024043089481,
+    "loc_fire": 0.2967963632374767,
+    "own_hit": 0.8670857202853329,
+    "other_hit": 0.13772434877231382,
+    "per_stream": {
+     "D4": {
+      "damage": 0.06015037593984962,
+      "coverage": 0.7377902621722846,
+      "retention": 0.66
+     },
+     "D5": {
+      "damage": 0.057007125890736345,
+      "coverage": 0.7747294372294372,
+      "retention": 0.64
+     },
+     "D6": {
+      "damage": 0.03753351206434316,
+      "coverage": 0.759181068342498,
+      "retention": 0.62
+     },
+     "D7": {
+      "damage": 0.38095238095238093,
+      "coverage": 0.6675987871674491,
+      "retention": 0.56
+     }
+    }
+   },
+   "shuffled:6": {
+    "damage": 0.1265080095343563,
+    "damage_base": 0.13442837011273687,
+    "coverage": 0.7408224923386835,
+    "upd": 0.9294866805895066,
+    "retention": 0.6285714285714286,
+    "forgetting": 0.0289811236053998,
+    "value": 0.7873506470379237,
+    "loc_fire": 0.2901224511547283,
+    "own_hit": 0.8747721695706911,
+    "other_hit": 0.13537172787086962,
+    "per_stream": {
+     "D4": {
+      "damage": 0.03759398496240601,
+      "coverage": 0.7498735955056179,
+      "retention": 0.6742857142857143
+     },
+     "D5": {
+      "damage": 0.0498812351543943,
+      "coverage": 0.7875162337662338,
+      "retention": 0.6742857142857143
+     },
+     "D6": {
+      "damage": 0.04289544235924933,
+      "coverage": 0.7595758051846033,
+      "retention": 0.6085714285714285
+     },
+     "D7": {
+      "damage": 0.37566137566137564,
+      "coverage": 0.6663243348982786,
+      "retention": 0.5571428571428572
+     }
+    }
+   },
+   "shuffled:7": {
+    "damage": 0.13573392920941224,
+    "damage_base": 0.1436705366047645,
+    "coverage": 0.7414274188711593,
+    "upd": 0.9278514683069046,
+    "retention": 0.6307142857142857,
+    "forgetting": 0.03113860406393914,
+    "value": 0.7849161006478669,
+    "loc_fire": 0.29990738581247717,
+    "own_hit": 0.8757923078542071,
+    "other_hit": 0.13771359949535533,
+    "per_stream": {
+     "D4": {
+      "damage": 0.06265664160401002,
+      "coverage": 0.7553370786516854,
+      "retention": 0.6771428571428572
+     },
+     "D5": {
+      "damage": 0.06175771971496437,
+      "coverage": 0.7751461038961039,
+      "retention": 0.6714285714285714
+     },
+     "D6": {
+      "damage": 0.040214477211796246,
+      "coverage": 0.7621415946582875,
+      "retention": 0.6171428571428571
+     },
+     "D7": {
+      "damage": 0.3783068783068783,
+      "coverage": 0.6730848982785602,
+      "retention": 0.5571428571428572
+     }
+    }
+   },
+   "uniform:0.88": {
+    "damage": 0.17097921856953396,
+    "damage_base": 0.1740140416103824,
+    "coverage": 0.7652573003652021,
+    "upd": 0.94807962251926,
+    "retention": 0.6442857142857144,
+    "forgetting": 0.03877401511063141,
+    "value": 0.796996880310475,
+    "loc_fire": 0.5507608093868877,
+    "own_hit": 0.9152837595015628,
+    "other_hit": 0.20297064028729503,
+    "per_stream": {
+     "D4": {
+      "damage": 0.09523809523809523,
+      "coverage": 0.7810159176029963,
+      "retention": 0.6914285714285714
+     },
+     "D5": {
+      "damage": 0.0688836104513064,
+      "coverage": 0.8079761904761904,
+      "retention": 0.6828571428571428
+     },
+     "D6": {
+      "damage": 0.09651474530831099,
+      "coverage": 0.790431068342498,
+      "retention": 0.6428571428571429
+     },
+     "D7": {
+      "damage": 0.42328042328042326,
+      "coverage": 0.6816060250391236,
+      "retention": 0.56
+     }
+    }
+   },
+   "uniform:0.90": {
+    "damage": 0.13901486389644258,
+    "damage_base": 0.14693232316218707,
+    "coverage": 0.7629656336985354,
+    "upd": 0.9473612783634159,
+    "retention": 0.645,
+    "forgetting": 0.028232996030266116,
+    "value": 0.7980614840155646,
+    "loc_fire": 0.3012041935153805,
+    "own_hit": 0.9069176403756883,
+    "other_hit": 0.13369744524729077,
+    "per_stream": {
+     "D4": {
+      "damage": 0.06516290726817042,
+      "coverage": 0.7785159176029963,
+      "retention": 0.6828571428571428
+     },
+     "D5": {
+      "damage": 0.06175771971496437,
+      "coverage": 0.8013095238095238,
+      "retention": 0.68
+     },
+     "D6": {
+      "damage": 0.04289544235924933,
+      "coverage": 0.7854310683424981,
+      "retention": 0.6371428571428571
+     },
+     "D7": {
+      "damage": 0.3862433862433862,
+      "coverage": 0.6866060250391236,
+      "retention": 0.58
+     }
+    }
+   },
+   "uniform:0.92": {
+    "damage": 0.08526933323791308,
+    "damage_base": 0.09465567440128266,
+    "coverage": 0.7656437580501723,
+    "upd": 0.9606000033946269,
+    "retention": 0.6371428571428571,
+    "forgetting": 0.012378344452850952,
+    "value": 0.7983441643771405,
+    "loc_fire": 0.288727361027367,
+    "own_hit": 0.8925272737484252,
+    "other_hit": 0.12801369844748564,
+    "per_stream": {
+     "D4": {
+      "damage": 0.047619047619047616,
+      "coverage": 0.7641479400749064,
+      "retention": 0.6485714285714286
+     },
+     "D5": {
+      "damage": 0.052256532066508314,
+      "coverage": 0.7987662337662338,
+      "retention": 0.6742857142857143
+     },
+     "D6": {
+      "damage": 0.03485254691689008,
+      "coverage": 0.779815396700707,
+      "retention": 0.62
+     },
+     "D7": {
+      "damage": 0.20634920634920634,
+      "coverage": 0.7198454616588419,
+      "retention": 0.6057142857142858
+     }
+    }
+   },
+   "uniform:0.94": {
+    "damage": 0.07199808927915356,
+    "damage_base": 0.08143748974258626,
+    "coverage": 0.7386589539696857,
+    "upd": 0.9510887985895049,
+    "retention": 0.5964285714285714,
+    "forgetting": 0.010953579038034362,
+    "value": 0.773361806076146,
+    "loc_fire": 0.27299760452949506,
+    "own_hit": 0.8539914647228348,
+    "other_hit": 0.11831512896226687,
+    "per_stream": {
+     "D4": {
+      "damage": 0.020050125313283207,
+      "coverage": 0.7344709737827715,
+      "retention": 0.6171428571428571
+     },
+     "D5": {
+      "damage": 0.04275534441805225,
+      "coverage": 0.7845995670995671,
+      "retention": 0.6314285714285715
+     },
+     "D6": {
+      "damage": 0.024128686327077747,
+      "coverage": 0.7387342890809112,
+      "retention": 0.5628571428571428
+     },
+     "D7": {
+      "damage": 0.20105820105820105,
+      "coverage": 0.696830985915493,
+      "retention": 0.5742857142857143
+     }
+    }
+   },
+   "uniform:0.96": {
+    "damage": 0.01337572755518933,
+    "damage_base": 0.024251327151531984,
+    "coverage": 0.6451030608622244,
+    "upd": 0.910584551942283,
+    "retention": 0.48142857142857143,
+    "forgetting": 0.007639387149696428,
+    "value": 0.7037330681127093,
+    "loc_fire": 0.014045968842052602,
+    "own_hit": 0.7227473439094589,
+    "other_hit": 0.012045864136059308,
+    "per_stream": {
+     "D4": {
+      "damage": 0.002506265664160401,
+      "coverage": 0.6175234082397004,
+      "retention": 0.48
+     },
+     "D5": {
+      "damage": 0.019002375296912115,
+      "coverage": 0.6939123376623376,
+      "retention": 0.5114285714285715
+     },
+     "D6": {
+      "damage": 0.01876675603217158,
+      "coverage": 0.6353927729772192,
+      "retention": 0.43142857142857144
+     },
+     "D7": {
+      "damage": 0.013227513227513227,
+      "coverage": 0.6335837245696401,
+      "retention": 0.5028571428571429
+     }
+    }
+   },
+   "uniform:0.98": {
+    "damage": 0.0006702412868632708,
+    "damage_base": 0.011596116700963251,
+    "coverage": 0.32552324653850845,
+    "upd": 0.6432657364633262,
+    "retention": 0.21928571428571428,
+    "forgetting": 0.016324996772349176,
+    "value": 0.5187942656009406,
+    "loc_fire": 0.0006702412868632708,
+    "own_hit": 0.328306735900055,
+    "other_hit": 0.004355323386997216,
+    "per_stream": {
+     "D4": {
+      "damage": 0.0,
+      "coverage": 0.2734597378277154,
+      "retention": 0.2057142857142857
+     },
+     "D5": {
+      "damage": 0.0,
+      "coverage": 0.39227813852813853,
+      "retention": 0.26
+     },
+     "D6": {
+      "damage": 0.002680965147453083,
+      "coverage": 0.30461606441476824,
+      "retention": 0.16857142857142857
+     },
+     "D7": {
+      "damage": 0.0,
+      "coverage": 0.3317390453834116,
+      "retention": 0.24285714285714285
+     }
+    }
+   },
+   "ctx_only": {
+    "damage": 0.11255983744141614,
+    "damage_base": 0.12186636010150105,
+    "coverage": 0.7660906336985355,
+    "upd": 0.9479862783634159,
+    "retention": 0.6528571428571428,
+    "forgetting": 0.023277229319912246,
+    "value": 0.8033956654860803,
+    "loc_fire": 0.15570154801273503,
+    "own_hit": 0.9065811666206413,
+    "other_hit": 0.05664495534150342,
+    "per_stream": {
+     "D4": {
+      "damage": 0.06516290726817042,
+      "coverage": 0.7785159176029963,
+      "retention": 0.6828571428571428
+     },
+     "D5": {
+      "damage": 0.06175771971496437,
+      "coverage": 0.8013095238095238,
+      "retention": 0.68
+     },
+     "D6": {
+      "damage": 0.04289544235924933,
+      "coverage": 0.7854310683424981,
+      "retention": 0.6371428571428571
+     },
+     "D7": {
+      "damage": 0.2804232804232804,
+      "coverage": 0.6991060250391237,
+      "retention": 0.6114285714285714
+     }
+    }
+   },
+   "probes:250": {
+    "damage": 0.03156535453245967,
+    "damage_base": 0.04241317493782429,
+    "coverage": 0.7731957544549719,
+    "upd": 0.9657987783634159,
+    "retention": 0.6585714285714286,
+    "forgetting": 0.0120652231315651,
+    "value": 0.8136793377041128,
+    "loc_fire": 0.04232560131621911,
+    "own_hit": 0.90255692622092,
+    "other_hit": 0.034128103075035394,
+    "per_stream": {
+     "D4": {
+      "damage": 0.05012531328320802,
+      "coverage": 0.7772659176029962,
+      "retention": 0.68
+     },
+     "D5": {
+      "damage": 0.030878859857482184,
+      "coverage": 0.7967694805194805,
+      "retention": 0.6771428571428572
+     },
+     "D6": {
+      "damage": 0.021447721179624665,
+      "coverage": 0.7771415946582875,
+      "retention": 0.6257142857142857
+     },
+     "D7": {
+      "damage": 0.023809523809523808,
+      "coverage": 0.7416060250391237,
+      "retention": 0.6514285714285715
+     }
+    }
+   },
+   "probes:500": {
+    "damage": 0.0215709670065057,
+    "damage_base": 0.03243237208216031,
+    "coverage": 0.7679694293993753,
+    "upd": 0.9638022505856381,
+    "retention": 0.6571428571428571,
+    "forgetting": 0.012079250737894356,
+    "value": 0.8120605564534962,
+    "loc_fire": 0.02985562325679237,
+    "own_hit": 0.8951894468246446,
+    "other_hit": 0.029784828269063847,
+    "per_stream": {
+     "D4": {
+      "damage": 0.017543859649122806,
+      "coverage": 0.7747659176029963,
+      "retention": 0.6828571428571428
+     },
+     "D5": {
+      "damage": 0.026128266033254157,
+      "coverage": 0.7917694805194805,
+      "retention": 0.6714285714285714
+     },
+     "D6": {
+      "damage": 0.021447721179624665,
+      "coverage": 0.7692468578161823,
+      "retention": 0.6228571428571429
+     },
+     "D7": {
+      "damage": 0.021164021164021163,
+      "coverage": 0.736095461658842,
+      "retention": 0.6514285714285715
+     }
+    }
+   },
+   "probes:1000": {
+    "damage": 0.016058703899543253,
+    "damage_base": 0.026899594122028504,
+    "coverage": 0.7551209459548485,
+    "upd": 0.9550395989180569,
+    "retention": 0.6535714285714286,
+    "forgetting": 0.012173782317840104,
+    "value": 0.8071571353558058,
+    "loc_fire": 0.024343360149829924,
+    "own_hit": 0.8807990156802141,
+    "other_hit": 0.028111877208135898,
+    "per_stream": {
+     "D4": {
+      "damage": 0.015037593984962405,
+      "coverage": 0.7622659176029962,
+      "retention": 0.6771428571428572
+     },
+     "D5": {
+      "damage": 0.011876484560570071,
+      "coverage": 0.7759361471861472,
+      "retention": 0.6657142857142857
+     },
+     "D6": {
+      "damage": 0.021447721179624665,
+      "coverage": 0.7547073841319717,
+      "retention": 0.62
+     },
+     "D7": {
+      "damage": 0.015873015873015872,
+      "coverage": 0.7275743348982786,
+      "retention": 0.6514285714285715
+     }
+    }
+   }
+  },
+  "frontier": {
+   "points": [
+    {
+     "arm": "uniform:0.98",
+     "coverage": 0.32552324653850845,
+     "damage": 0.0006702412868632708
+    },
+    {
+     "arm": "uniform:0.96",
+     "coverage": 0.6451030608622244,
+     "damage": 0.01337572755518933
+    },
+    {
+     "arm": "uniform:0.94",
+     "coverage": 0.7386589539696857,
+     "damage": 0.07199808927915356
+    },
+    {
+     "arm": "uniform:0.90",
+     "coverage": 0.7629656336985354,
+     "damage": 0.13901486389644258
+    },
+    {
+     "arm": "uniform:0.88",
+     "coverage": 0.7652573003652021,
+     "damage": 0.17097921856953396
+    },
+    {
+     "arm": "uniform:0.92",
+     "coverage": 0.7656437580501723,
+     "damage": 0.08526933323791308
+    }
+   ],
+   "uniform_damage_at_matched_coverage": 0.09580753048702731,
+   "matched": {
+    "coverage": 0.747294530140989,
+    "damage": 0.011616064376303843
+   }
+  },
+  "literal": {
+   "none": {
+    "literal": {
+     "acc": 0.05619223659889094,
+     "n": 2705
+    },
+    "not_literal": {
+     "acc": 0.03900709219858156,
+     "n": 282
+    }
+   },
+   "matched": {
+    "literal": {
+     "acc": 0.7977818853974122,
+     "n": 2705
+    },
+    "not_literal": {
+     "acc": 0.26595744680851063,
+     "n": 282
+    }
+   },
+   "shuffled:0": {
+    "literal": {
+     "acc": 0.7881700554528651,
+     "n": 2705
+    },
+    "not_literal": {
+     "acc": 0.2801418439716312,
+     "n": 282
+    }
+   },
+   "shuffled:1": {
+    "literal": {
+     "acc": 0.7848428835489833,
+     "n": 2705
+    },
+    "not_literal": {
+     "acc": 0.2907801418439716,
+     "n": 282
+    }
+   },
+   "shuffled:2": {
+    "literal": {
+     "acc": 0.7844731977818854,
+     "n": 2705
+    },
+    "not_literal": {
+     "acc": 0.2872340425531915,
+     "n": 282
+    }
+   },
+   "shuffled:3": {
+    "literal": {
+     "acc": 0.7826247689463955,
+     "n": 2705
+    },
+    "not_literal": {
+     "acc": 0.2801418439716312,
+     "n": 282
+    }
+   },
+   "shuffled:4": {
+    "literal": {
+     "acc": 0.7959334565619224,
+     "n": 2705
+    },
+    "not_literal": {
+     "acc": 0.2978723404255319,
+     "n": 282
+    }
+   },
+   "shuffled:5": {
+    "literal": {
+     "acc": 0.7800369685767098,
+     "n": 2705
+    },
+    "not_literal": {
+     "acc": 0.2907801418439716,
+     "n": 282
+    }
+   },
+   "shuffled:6": {
+    "literal": {
+     "acc": 0.7874306839186691,
+     "n": 2705
+    },
+    "not_literal": {
+     "acc": 0.2801418439716312,
+     "n": 282
+    }
+   },
+   "shuffled:7": {
+    "literal": {
+     "acc": 0.7881700554528651,
+     "n": 2705
+    },
+    "not_literal": {
+     "acc": 0.28368794326241137,
+     "n": 282
+    }
+   },
+   "uniform:0.88": {
+    "literal": {
+     "acc": 0.8144177449168207,
+     "n": 2705
+    },
+    "not_literal": {
+     "acc": 0.2907801418439716,
+     "n": 282
+    }
+   },
+   "uniform:0.90": {
+    "literal": {
+     "acc": 0.8114602587800369,
+     "n": 2705
+    },
+    "not_literal": {
+     "acc": 0.29432624113475175,
+     "n": 282
+    }
+   },
+   "uniform:0.92": {
+    "literal": {
+     "acc": 0.8151571164510166,
+     "n": 2705
+    },
+    "not_literal": {
+     "acc": 0.30141843971631205,
+     "n": 282
+    }
+   },
+   "uniform:0.94": {
+    "literal": {
+     "acc": 0.7863216266173753,
+     "n": 2705
+    },
+    "not_literal": {
+     "acc": 0.3049645390070922,
+     "n": 282
+    }
+   },
+   "uniform:0.96": {
+    "literal": {
+     "acc": 0.6853974121996304,
+     "n": 2705
+    },
+    "not_literal": {
+     "acc": 0.2801418439716312,
+     "n": 282
+    }
+   },
+   "uniform:0.98": {
+    "literal": {
+     "acc": 0.33715341959334566,
+     "n": 2705
+    },
+    "not_literal": {
+     "acc": 0.23404255319148937,
+     "n": 282
+    }
+   },
+   "ctx_only": {
+    "literal": {
+     "acc": 0.8151571164510166,
+     "n": 2705
+    },
+    "not_literal": {
+     "acc": 0.29432624113475175,
+     "n": 282
+    }
+   },
+   "probes:250": {
+    "literal": {
+     "acc": 0.822550831792976,
+     "n": 2705
+    },
+    "not_literal": {
+     "acc": 0.30851063829787234,
+     "n": 282
+    }
+   },
+   "probes:500": {
+    "literal": {
+     "acc": 0.8177449168207024,
+     "n": 2705
+    },
+    "not_literal": {
+     "acc": 0.2978723404255319,
+     "n": 282
+    }
+   },
+   "probes:1000": {
+    "literal": {
+     "acc": 0.8062846580406654,
+     "n": 2705
+    },
+    "not_literal": {
+     "acc": 0.2695035460992908,
+     "n": 282
+    }
+   }
+  },
+  "hidden": {
+   "per_arm": {
+    "none": {
+     "all": 0.0,
+     "known": 0.0
+    },
+    "matched": {
+     "all": 0.018583333119750023,
+     "known": 0.01381634920835495
+    },
+    "shuffled:0": {
+     "all": 0.3028749991208315,
+     "known": 0.29251059144735336
+    },
+    "shuffled:1": {
+     "all": 0.3042083326727152,
+     "known": 0.288351247087121
+    },
+    "shuffled:2": {
+     "all": 0.3060416653752327,
+     "known": 0.2943927217274904
+    },
+    "shuffled:3": {
+     "all": 0.30324999894946814,
+     "known": 0.28704916406422853
+    },
+    "shuffled:4": {
+     "all": 0.3048333339393139,
+     "known": 0.2950437627732754
+    },
+    "shuffled:5": {
+     "all": 0.30391666665673256,
+     "known": 0.2919391402974725
+    },
+    "shuffled:6": {
+     "all": 0.3027916681021452,
+     "known": 0.2854510145261884
+    },
+    "shuffled:7": {
+     "all": 0.3055416662245989,
+     "known": 0.2937814760953188
+    },
+    "uniform:0.88": {
+     "all": 0.5504999998956919,
+     "known": 0.5447827018797398
+    },
+    "uniform:0.90": {
+     "all": 0.30766666680574417,
+     "known": 0.29565501026809216
+    },
+    "uniform:0.92": {
+     "all": 0.2910416657105088,
+     "known": 0.2852606372907758
+    },
+    "uniform:0.94": {
+     "all": 0.2758749993517995,
+     "known": 0.271841227542609
+    },
+    "uniform:0.96": {
+     "all": 0.013791666366159916,
+     "known": 0.013118246977683157
+    },
+    "uniform:0.98": {
+     "all": 0.001374999963445589,
+     "known": 0.0006510416860692203
+    },
+    "ctx_only": {
+     "all": 0.13866666704416275,
+     "known": 0.15057728998363018
+    },
+    "probes:250": {
+     "all": 0.050124998204410076,
+     "known": 0.036359571386128664
+    },
+    "probes:500": {
+     "all": 0.03766666632145643,
+     "known": 0.024186591152101755
+    },
+    "probes:1000": {
+     "all": 0.02829166641458869,
+     "known": 0.018148687668144703
+    }
+   },
+   "per_stream": {
+    "D4": {
+     "spearman_probe_hidden": 0.7584921734634641,
+     "auroc_probe_max_fires_on_hidden": 0.8766339869281046,
+     "entries_firing_on_hidden_at_floor": 0.14585319351763584,
+     "entries_firing_on_hidden_at_matched": 0.07626310772163966
+    },
+    "D5": {
+     "spearman_probe_hidden": 0.7665731373950596,
+     "auroc_probe_max_fires_on_hidden": 0.8821374703727645,
+     "entries_firing_on_hidden_at_floor": 0.1596958174904943,
+     "entries_firing_on_hidden_at_matched": 0.0817490494296578
+    },
+    "D6": {
+     "spearman_probe_hidden": 0.7908538816052534,
+     "auroc_probe_max_fires_on_hidden": 0.898973008558262,
+     "entries_firing_on_hidden_at_floor": 0.16778523489932887,
+     "entries_firing_on_hidden_at_matched": 0.08149568552253116
+    },
+    "D7": {
+     "spearman_probe_hidden": 0.7702548820394656,
+     "auroc_probe_max_fires_on_hidden": 0.8899298564655452,
+     "entries_firing_on_hidden_at_floor": 0.17066155321188878,
+     "entries_firing_on_hidden_at_matched": 0.09395973154362416
+    }
+   }
+  },
+  "noise_floor": {
+   "D4": {
+    "r2w_by_step": [
+     4,
+     5,
+     5,
+     3,
+     4,
+     2,
+     3,
+     4
+    ],
+    "w2r_by_step": [
+     3,
+     3,
+     3,
+     3,
+     4,
+     1,
+     3,
+     3
+    ],
+    "base_right": 400
+   },
+   "D5": {
+    "r2w_by_step": [
+     2,
+     0,
+     1,
+     2,
+     2,
+     0,
+     1,
+     2
+    ],
+    "w2r_by_step": [
+     8,
+     1,
+     5,
+     6,
+     2,
+     1,
+     2,
+     5
+    ],
+    "base_right": 418
+   },
+   "D6": {
+    "r2w_by_step": [
+     4,
+     1,
+     6,
+     6,
+     4,
+     0,
+     2,
+     8
+    ],
+    "w2r_by_step": [
+     1,
+     1,
+     1,
+     1,
+     0,
+     0,
+     2,
+     1
+    ],
+    "base_right": 380
+   },
+   "D7": {
+    "r2w_by_step": [
+     3,
+     0,
+     3,
+     3,
+     2,
+     0,
+     3,
+     3
+    ],
+    "w2r_by_step": [
+     0,
+     0,
+     1,
+     4,
+     0,
+     0,
+     3,
+     2
+    ],
+    "base_right": 379
+   }
+  },
+  "h1_matched_vs_shuffled": {
+   "rows": [
+    {
+     "stream": "D4",
+     "delta": 0.043859649122807015,
+     "n_items": 399,
+     "damage_ref": 0.010025062656641603,
+     "damage_comp": 0.05388471177944862,
+     "coverage_ref": 0.7494569288389513,
+     "coverage_comp": 0.7493316947565543,
+     "coverage_diff": 0.00012523408239706324,
+     "retention_ref": 0.6714285714285714,
+     "retention_comp": 0.6660714285714285,
+     "retention_diff": 0.005357142857142838,
+     "loc_fire_ref": 0.015037593984962405,
+     "loc_fire_comp": 0.06234335839598997,
+     "comp_arms": [
+      "shuffled:0",
+      "shuffled:1",
+      "shuffled:2",
+      "shuffled:3",
+      "shuffled:4",
+      "shuffled:5",
+      "shuffled:6",
+      "shuffled:7"
+     ]
+    },
+    {
+     "stream": "D5",
+     "delta": 0.0510688836104513,
+     "n_items": 421,
+     "damage_ref": 0.007125890736342043,
+     "damage_comp": 0.05819477434679335,
+     "coverage_ref": 0.7709361471861472,
+     "coverage_comp": 0.7786553030303031,
+     "coverage_diff": -0.007719155844155834,
+     "retention_ref": 0.6628571428571428,
+     "retention_comp": 0.6646428571428571,
+     "retention_diff": -0.0017857142857142794,
+     "loc_fire_ref": 0.0166270783847981,
+     "loc_fire_comp": 0.07214964370546319,
+     "comp_arms": [
+      "shuffled:0",
+      "shuffled:1",
+      "shuffled:2",
+      "shuffled:3",
+      "shuffled:4",
+      "shuffled:5",
+      "shuffled:6",
+      "shuffled:7"
+     ]
+    },
+    {
+     "stream": "D6",
+     "delta": 0.024798927613941018,
+     "n_items": 373,
+     "damage_ref": 0.0160857908847185,
+     "damage_comp": 0.04088471849865952,
+     "coverage_ref": 0.7459573841319718,
+     "coverage_comp": 0.7580925962293794,
+     "coverage_diff": -0.012135212097407644,
+     "retention_ref": 0.62,
+     "retention_comp": 0.6157142857142857,
+     "retention_diff": 0.004285714285714337,
+     "loc_fire_ref": 0.021447721179624665,
+     "loc_fire_comp": 0.05026809651474531,
+     "comp_arms": [
+      "shuffled:0",
+      "shuffled:1",
+      "shuffled:2",
+      "shuffled:3",
+      "shuffled:4",
+      "shuffled:5",
+      "shuffled:6",
+      "shuffled:7"
+     ]
+    },
+    {
+     "stream": "D7",
+     "delta": 0.3462301587301587,
+     "n_items": 378,
+     "damage_ref": 0.013227513227513227,
+     "damage_comp": 0.359457671957672,
+     "coverage_ref": 0.7228276604068857,
+     "coverage_comp": 0.6736455888106416,
+     "coverage_diff": 0.049182071596244104,
+     "retention_ref": 0.6371428571428571,
+     "retention_comp": 0.5657142857142857,
+     "retention_diff": 0.0714285714285714,
+     "loc_fire_ref": 0.023809523809523808,
+     "loc_fire_comp": 1.0,
+     "comp_arms": [
+      "shuffled:0",
+      "shuffled:1",
+      "shuffled:2",
+      "shuffled:3",
+      "shuffled:4",
+      "shuffled:5",
+      "shuffled:6",
+      "shuffled:7"
+     ]
+    }
+   ],
+   "mean_delta": 0.11648940476933951,
+   "ci95": [
+    0.029599073124757215,
+    0.2710090848823034
+   ],
+   "positive_streams": 4,
+   "coverage_diff": 0.007363234434269422,
+   "retention_diff": 0.019821428571428573,
+   "guards": true,
+   "verdict": "supported"
+  },
+  "h2_matched_vs_tuned_uniform": {
+   "rows": [
+    {
+     "stream": "D4",
+     "delta": 0.010025062656641603,
+     "n_items": 399,
+     "damage_ref": 0.010025062656641603,
+     "damage_comp": 0.020050125313283207,
+     "coverage_ref": 0.7494569288389513,
+     "coverage_comp": 0.7344709737827715,
+     "coverage_diff": 0.014985955056179834,
+     "retention_ref": 0.6714285714285714,
+     "retention_comp": 0.6171428571428571,
+     "retention_diff": 0.05428571428571427,
+     "loc_fire_ref": 0.015037593984962405,
+     "loc_fire_comp": 0.020050125313283207,
+     "comp_arms": [
+      "uniform:0.94"
+     ]
+    },
+    {
+     "stream": "D5",
+     "delta": 0.035629453681710214,
+     "n_items": 421,
+     "damage_ref": 0.007125890736342043,
+     "damage_comp": 0.04275534441805225,
+     "coverage_ref": 0.7709361471861472,
+     "coverage_comp": 0.7845995670995671,
+     "coverage_diff": -0.013663419913419905,
+     "retention_ref": 0.6628571428571428,
+     "retention_comp": 0.6314285714285715,
+     "retention_diff": 0.03142857142857136,
+     "loc_fire_ref": 0.0166270783847981,
+     "loc_fire_comp": 0.04513064133016627,
+     "comp_arms": [
+      "uniform:0.94"
+     ]
+    },
+    {
+     "stream": "D6",
+     "delta": 0.00804289544235925,
+     "n_items": 373,
+     "damage_ref": 0.0160857908847185,
+     "damage_comp": 0.024128686327077747,
+     "coverage_ref": 0.7459573841319718,
+     "coverage_comp": 0.7387342890809112,
+     "coverage_diff": 0.007223095051060557,
+     "retention_ref": 0.62,
+     "retention_comp": 0.5628571428571428,
+     "retention_diff": 0.05714285714285716,
+     "loc_fire_ref": 0.021447721179624665,
+     "loc_fire_comp": 0.02680965147453083,
+     "comp_arms": [
+      "uniform:0.94"
+     ]
+    },
+    {
+     "stream": "D7",
+     "delta": 0.18783068783068782,
+     "n_items": 378,
+     "damage_ref": 0.013227513227513227,
+     "damage_comp": 0.20105820105820105,
+     "coverage_ref": 0.7228276604068857,
+     "coverage_comp": 0.696830985915493,
+     "coverage_diff": 0.025996674491392757,
+     "retention_ref": 0.6371428571428571,
+     "retention_comp": 0.5742857142857143,
+     "retention_diff": 0.06285714285714283,
+     "loc_fire_ref": 0.023809523809523808,
+     "loc_fire_comp": 1.0,
+     "comp_arms": [
+      "uniform:0.94"
+     ]
+    }
+   ],
+   "mean_delta": 0.060382024902849725,
+   "ci95": [
+    0.007197954672203296,
+    0.1462260805424344
+   ],
+   "positive_streams": 4,
+   "coverage_diff": 0.00863557617130331,
+   "retention_diff": 0.05142857142857141,
+   "guards": true,
+   "verdict": "supported"
+  },
+  "h3_concentration": {
+   "arm": "uniform:0.90",
+   "per_stream": {
+    "D4": {
+     "available": true,
+     "damaged": 26,
+     "no_firing": 0,
+     "with_firing": 26,
+     "rerun_mismatch": 0,
+     "alone_explained": 26,
+     "single_recovers": 18,
+     "many_fired": 0,
+     "closure_complete": 25,
+     "closure_recovered": 25,
+     "closure_mean_size": 1.6538461538461537,
+     "fired_mean": 1.0384615384615385,
+     "distinct_culprits": 12,
+     "entries": 1049,
+     "top_k": 11,
+     "top_share": 0.9615384615384616,
+     "top_culprits": [
+      {
+       "entry": 926,
+       "items": 8,
+       "subject": "freemasonry in Indonesia",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.976974,
+       "hidden_floor_share": 0.0021666666666666666
+      },
+      {
+       "entry": 806,
+       "items": 5,
+       "subject": "solar eclipse of July 11, 1536 BC",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.962725,
+       "hidden_floor_share": 0.005333333333333333
+      },
+      {
+       "entry": 556,
+       "items": 4,
+       "subject": "Santa Maria College, Perth",
+       "step": 4,
+       "raised": true,
+       "threshold": 0.972181,
+       "hidden_floor_share": 0.0006666666666666666
+      },
+      {
+       "entry": 454,
+       "items": 1,
+       "subject": "SKH St. Thomas Primary School",
+       "step": 4,
+       "raised": true,
+       "threshold": 0.96952,
+       "hidden_floor_share": 0.0013333333333333333
+      },
+      {
+       "entry": 474,
+       "items": 1,
+       "subject": "Halbes Schloss",
+       "step": 4,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0006666666666666666
+      },
+      {
+       "entry": 634,
+       "items": 1,
+       "subject": "Consandolo railway station",
+       "step": 5,
+       "raised": true,
+       "threshold": 0.993822,
+       "hidden_floor_share": 0.006
+      },
+      {
+       "entry": 784,
+       "items": 1,
+       "subject": "Elbasan Street",
+       "step": 6,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0008333333333333334
+      },
+      {
+       "entry": 883,
+       "items": 1,
+       "subject": "4 Charlemont Place",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.904222,
+       "hidden_floor_share": 0.0005
+      },
+      {
+       "entry": 953,
+       "items": 1,
+       "subject": "Çayyazı",
+       "step": 7,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 1007,
+       "items": 1,
+       "subject": "1 Kew Terrace",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.97231,
+       "hidden_floor_share": 0.0005
+      },
+      {
+       "entry": 1014,
+       "items": 1,
+       "subject": "14 Westend Park Street",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.973293,
+       "hidden_floor_share": 0.004166666666666667
+      }
+     ],
+     "culprits_raised": 0.75,
+     "entries_raised": 0.1344137273593899,
+     "culprit_hidden_floor_share_median": 0.0013333333333333333,
+     "hijack": 9,
+     "name_relation": {
+      "near name": 16,
+      "other": 10
+     },
+     "culprit_regions": {
+      "q": 25,
+      "gen": 1
+     },
+     "firing_regions": {
+      "1": 25,
+      "2": 1
+     }
+    },
+    "D5": {
+     "available": true,
+     "damaged": 26,
+     "no_firing": 0,
+     "with_firing": 26,
+     "rerun_mismatch": 0,
+     "alone_explained": 26,
+     "single_recovers": 12,
+     "many_fired": 0,
+     "closure_complete": 26,
+     "closure_recovered": 26,
+     "closure_mean_size": 2.076923076923077,
+     "fired_mean": 1.0,
+     "distinct_culprits": 12,
+     "entries": 1052,
+     "top_k": 11,
+     "top_share": 0.9615384615384616,
+     "top_culprits": [
+      {
+       "entry": 813,
+       "items": 8,
+       "subject": "solar eclipse of October 27, 1839 BC",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.994448,
+       "hidden_floor_share": 0.006833333333333334
+      },
+      {
+       "entry": 847,
+       "items": 5,
+       "subject": "School of Mechanical Engineering at Shanghai Jiao Tong University an example of",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.969038,
+       "hidden_floor_share": 0.007333333333333333
+      },
+      {
+       "entry": 97,
+       "items": 2,
+       "subject": "CHPR-FM",
+       "step": 1,
+       "raised": true,
+       "threshold": 0.971307,
+       "hidden_floor_share": 0.0011666666666666668
+      },
+      {
+       "entry": 1015,
+       "items": 2,
+       "subject": "16 Leven Street",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.988131,
+       "hidden_floor_share": 0.004666666666666667
+      },
+      {
+       "entry": 1025,
+       "items": 2,
+       "subject": "Brunston Castle",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.978797,
+       "hidden_floor_share": 0.0025
+      },
+      {
+       "entry": 96,
+       "items": 1,
+       "subject": "CFLR-FM",
+       "step": 1,
+       "raised": true,
+       "threshold": 0.997459,
+       "hidden_floor_share": 0.0011666666666666668
+      },
+      {
+       "entry": 363,
+       "items": 1,
+       "subject": "Vernersbridge railway station",
+       "step": 3,
+       "raised": true,
+       "threshold": 0.989164,
+       "hidden_floor_share": 0.0085
+      },
+      {
+       "entry": 383,
+       "items": 1,
+       "subject": "Robert Antonín",
+       "step": 3,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 506,
+       "items": 1,
+       "subject": "Wyco de Vries",
+       "step": 4,
+       "raised": true,
+       "threshold": 0.937811,
+       "hidden_floor_share": 0.0003333333333333333
+      },
+      {
+       "entry": 938,
+       "items": 1,
+       "subject": "water supply and sanitation in Nigeria",
+       "step": 7,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0
+      },
+      {
+       "entry": 1006,
+       "items": 1,
+       "subject": "Barhoise Mill",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.907591,
+       "hidden_floor_share": 0.0003333333333333333
+      }
+     ],
+     "culprits_raised": 0.8333333333333334,
+     "entries_raised": 0.1435361216730038,
+     "culprit_hidden_floor_share_median": 0.0011666666666666668,
+     "hijack": 17,
+     "name_relation": {
+      "other": 21,
+      "near name": 5
+     },
+     "culprit_regions": {
+      "q": 25,
+      "gen": 1
+     },
+     "firing_regions": {
+      "1": 25,
+      "2": 1
+     }
+    },
+    "D6": {
+     "available": true,
+     "damaged": 16,
+     "no_firing": 0,
+     "with_firing": 16,
+     "rerun_mismatch": 0,
+     "alone_explained": 16,
+     "single_recovers": 11,
+     "many_fired": 0,
+     "closure_complete": 10,
+     "closure_recovered": 16,
+     "closure_mean_size": 3.6875,
+     "fired_mean": 1.0,
+     "distinct_culprits": 8,
+     "entries": 1043,
+     "top_k": 11,
+     "top_share": 1.0,
+     "top_culprits": [
+      {
+       "entry": 799,
+       "items": 6,
+       "subject": "solar eclipse of August 26, 1836 BC",
+       "step": 6,
+       "raised": true,
+       "threshold": 1.002134,
+       "hidden_floor_share": 0.006
+      },
+      {
+       "entry": 979,
+       "items": 3,
+       "subject": "56, 58, 60 Wilson Street",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.981452,
+       "hidden_floor_share": 0.006833333333333334
+      },
+      {
+       "entry": 27,
+       "items": 2,
+       "subject": "National Lotung Industrial Vocational High School",
+       "step": 0,
+       "raised": true,
+       "threshold": 0.913963,
+       "hidden_floor_share": 0.0006666666666666666
+      },
+      {
+       "entry": 44,
+       "items": 1,
+       "subject": "Juha-Matti Matilainen",
+       "step": 0,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 490,
+       "items": 1,
+       "subject": "Galactica Discovers Earth: Part 2",
+       "step": 4,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 664,
+       "items": 1,
+       "subject": "North Dundas District High School",
+       "step": 5,
+       "raised": true,
+       "threshold": 0.95298,
+       "hidden_floor_share": 0.0015
+      },
+      {
+       "entry": 958,
+       "items": 1,
+       "subject": "Çakırören",
+       "step": 7,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0003333333333333333
+      },
+      {
+       "entry": 970,
+       "items": 1,
+       "subject": "Linton House",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.982752,
+       "hidden_floor_share": 0.007
+      }
+     ],
+     "culprits_raised": 0.625,
+     "entries_raised": 0.13902205177372962,
+     "culprit_hidden_floor_share_median": 0.0015,
+     "hijack": 13,
+     "name_relation": {
+      "near name": 3,
+      "other": 13
+     },
+     "culprit_regions": {
+      "q": 16
+     },
+     "firing_regions": {
+      "1": 16
+     }
+    },
+    "D7": {
+     "available": true,
+     "damaged": 146,
+     "no_firing": 0,
+     "with_firing": 146,
+     "rerun_mismatch": 0,
+     "alone_explained": 143,
+     "single_recovers": 118,
+     "many_fired": 0,
+     "closure_complete": 146,
+     "closure_recovered": 146,
+     "closure_mean_size": 1.9246575342465753,
+     "fired_mean": 1.8150684931506849,
+     "distinct_culprits": 13,
+     "entries": 1043,
+     "top_k": 11,
+     "top_share": 0.9794520547945206,
+     "top_culprits": [
+      {
+       "entry": 615,
+       "items": 86,
+       "subject": "In",
+       "step": 5,
+       "raised": true,
+       "threshold": 0.921711,
+       "hidden_floor_share": 0.2763333333333333
+      },
+      {
+       "entry": 722,
+       "items": 64,
+       "subject": "Nicholson Catholic College",
+       "step": 5,
+       "raised": true,
+       "threshold": 0.961096,
+       "hidden_floor_share": 0.0003333333333333333
+      },
+      {
+       "entry": 792,
+       "items": 7,
+       "subject": "solar eclipse of April 1, 1893 BC",
+       "step": 6,
+       "raised": true,
+       "threshold": 1.000657,
+       "hidden_floor_share": 0.007
+      },
+      {
+       "entry": 863,
+       "items": 3,
+       "subject": "solar eclipse of November 23, 2",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.95933,
+       "hidden_floor_share": 0.0015
+      },
+      {
+       "entry": 962,
+       "items": 2,
+       "subject": "textile industry in India",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.921597,
+       "hidden_floor_share": 0.0008333333333333334
+      },
+      {
+       "entry": 1002,
+       "items": 2,
+       "subject": "21 Elmbank Street",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.971536,
+       "hidden_floor_share": 0.0035
+      },
+      {
+       "entry": 10,
+       "items": 1,
+       "subject": "1236 AH",
+       "step": 0,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 705,
+       "items": 1,
+       "subject": "Needham Heights station",
+       "step": 5,
+       "raised": true,
+       "threshold": 0.948395,
+       "hidden_floor_share": 0.002
+      },
+      {
+       "entry": 801,
+       "items": 1,
+       "subject": "of solar eclipse was the event on November 1 1720 BC",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.923409,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 832,
+       "items": 1,
+       "subject": "solar eclipse of January 25, 1982",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.921627,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 905,
+       "items": 1,
+       "subject": "homeschooling in the United States",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.943933,
+       "hidden_floor_share": 0.0011666666666666668
+      }
+     ],
+     "culprits_raised": 0.8461538461538461,
+     "entries_raised": 0.14189837008628955,
+     "culprit_hidden_floor_share_median": 0.0011666666666666668,
+     "hijack": 14,
+     "name_relation": {
+      "other": 79,
+      "same name": 86,
+      "near name": 6
+     },
+     "culprit_regions": {
+      "ctx": 64,
+      "q": 107
+     },
+     "firing_regions": {
+      "0": 146,
+      "1": 109
+     }
+    }
+   },
+   "verdict": "concentrated"
+  },
+  "interventions_other": {
+   "matched": {
+    "D4": {
+     "available": true,
+     "damaged": 4,
+     "no_firing": 0,
+     "with_firing": 4,
+     "rerun_mismatch": 0,
+     "alone_explained": 4,
+     "single_recovers": 4,
+     "many_fired": 0,
+     "closure_complete": 4,
+     "closure_recovered": 4,
+     "closure_mean_size": 1.0,
+     "fired_mean": 1.0,
+     "distinct_culprits": 4,
+     "entries": 1049,
+     "top_k": 11,
+     "top_share": 1.0,
+     "top_culprits": [
+      {
+       "entry": 474,
+       "items": 1,
+       "subject": "Halbes Schloss",
+       "step": 4,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0006666666666666666
+      },
+      {
+       "entry": 784,
+       "items": 1,
+       "subject": "Elbasan Street",
+       "step": 6,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0008333333333333334
+      },
+      {
+       "entry": 883,
+       "items": 1,
+       "subject": "4 Charlemont Place",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.904222,
+       "hidden_floor_share": 0.0005
+      },
+      {
+       "entry": 953,
+       "items": 1,
+       "subject": "Çayyazı",
+       "step": 7,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      }
+     ],
+     "culprits_raised": 0.25,
+     "entries_raised": 0.1344137273593899,
+     "culprit_hidden_floor_share_median": 0.0006666666666666666,
+     "hijack": 1,
+     "name_relation": {
+      "near name": 3,
+      "other": 1
+     },
+     "culprit_regions": {
+      "q": 4
+     },
+     "firing_regions": {
+      "1": 4
+     }
+    },
+    "D5": {
+     "available": true,
+     "damaged": 3,
+     "no_firing": 0,
+     "with_firing": 3,
+     "rerun_mismatch": 0,
+     "alone_explained": 3,
+     "single_recovers": 2,
+     "many_fired": 0,
+     "closure_complete": 3,
+     "closure_recovered": 3,
+     "closure_mean_size": 1.3333333333333333,
+     "fired_mean": 1.0,
+     "distinct_culprits": 3,
+     "entries": 1052,
+     "top_k": 11,
+     "top_share": 1.0,
+     "top_culprits": [
+      {
+       "entry": 383,
+       "items": 1,
+       "subject": "Robert Antonín",
+       "step": 3,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 938,
+       "items": 1,
+       "subject": "water supply and sanitation in Nigeria",
+       "step": 7,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0
+      },
+      {
+       "entry": 1006,
+       "items": 1,
+       "subject": "Barhoise Mill",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.907591,
+       "hidden_floor_share": 0.0003333333333333333
+      }
+     ],
+     "culprits_raised": 0.3333333333333333,
+     "entries_raised": 0.1435361216730038,
+     "culprit_hidden_floor_share_median": 0.00016666666666666666,
+     "hijack": 1,
+     "name_relation": {
+      "other": 2,
+      "near name": 1
+     },
+     "culprit_regions": {
+      "gen": 1,
+      "q": 2
+     },
+     "firing_regions": {
+      "1": 2,
+      "2": 1
+     }
+    },
+    "D6": {
+     "available": true,
+     "damaged": 6,
+     "no_firing": 0,
+     "with_firing": 6,
+     "rerun_mismatch": 0,
+     "alone_explained": 6,
+     "single_recovers": 5,
+     "many_fired": 0,
+     "closure_complete": 5,
+     "closure_recovered": 5,
+     "closure_mean_size": 2.0,
+     "fired_mean": 1.0,
+     "distinct_culprits": 6,
+     "entries": 1043,
+     "top_k": 11,
+     "top_share": 1.0,
+     "top_culprits": [
+      {
+       "entry": 27,
+       "items": 1,
+       "subject": "National Lotung Industrial Vocational High School",
+       "step": 0,
+       "raised": true,
+       "threshold": 0.913963,
+       "hidden_floor_share": 0.0006666666666666666
+      },
+      {
+       "entry": 44,
+       "items": 1,
+       "subject": "Juha-Matti Matilainen",
+       "step": 0,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 269,
+       "items": 1,
+       "subject": "Bridge at Castlemilk House in Glasgow",
+       "step": 2,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0006666666666666666
+      },
+      {
+       "entry": 490,
+       "items": 1,
+       "subject": "Galactica Discovers Earth: Part 2",
+       "step": 4,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 789,
+       "items": 1,
+       "subject": "solar eclipse of November 7, 1300 BC",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.943424,
+       "hidden_floor_share": 0.0008333333333333334
+      },
+      {
+       "entry": 958,
+       "items": 1,
+       "subject": "Çakırören",
+       "step": 7,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0003333333333333333
+      }
+     ],
+     "culprits_raised": 0.3333333333333333,
+     "entries_raised": 0.13902205177372962,
+     "culprit_hidden_floor_share_median": 0.0006666666666666666,
+     "hijack": 4,
+     "name_relation": {
+      "near name": 1,
+      "other": 5
+     },
+     "culprit_regions": {
+      "q": 5,
+      "gen": 1
+     },
+     "firing_regions": {
+      "1": 5,
+      "2": 1
+     }
+    },
+    "D7": {
+     "available": true,
+     "damaged": 5,
+     "no_firing": 0,
+     "with_firing": 5,
+     "rerun_mismatch": 0,
+     "alone_explained": 5,
+     "single_recovers": 5,
+     "many_fired": 0,
+     "closure_complete": 5,
+     "closure_recovered": 5,
+     "closure_mean_size": 1.4,
+     "fired_mean": 1.2,
+     "distinct_culprits": 5,
+     "entries": 1043,
+     "top_k": 11,
+     "top_share": 1.0,
+     "top_culprits": [
+      {
+       "entry": 10,
+       "items": 1,
+       "subject": "1236 AH",
+       "step": 0,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 106,
+       "items": 1,
+       "subject": "Pod Łabędziem tenement house in Warsaw",
+       "step": 1,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 341,
+       "items": 1,
+       "subject": "Kaşkışla",
+       "step": 3,
+       "raised": true,
+       "threshold": 0.902644,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 832,
+       "items": 1,
+       "subject": "solar eclipse of January 25, 1982",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.921627,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 1015,
+       "items": 1,
+       "subject": "Tollhouse on Clachnaharry Road in Inverness",
+       "step": 7,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      }
+     ],
+     "culprits_raised": 0.4,
+     "entries_raised": 0.14189837008628955,
+     "culprit_hidden_floor_share_median": 0.00016666666666666666,
+     "hijack": 2,
+     "name_relation": {
+      "other": 4,
+      "same name": 1
+     },
+     "culprit_regions": {
+      "q": 4,
+      "gen": 1
+     },
+     "firing_regions": {
+      "1": 5,
+      "2": 1
+     }
+    }
+   },
+   "shuffled:0": {
+    "D4": {
+     "available": true,
+     "damaged": 26,
+     "no_firing": 0,
+     "with_firing": 26,
+     "rerun_mismatch": 0,
+     "alone_explained": 26,
+     "single_recovers": 22,
+     "many_fired": 0,
+     "closure_complete": 26,
+     "closure_recovered": 26,
+     "closure_mean_size": 1.4230769230769231,
+     "fired_mean": 1.0384615384615385,
+     "distinct_culprits": 12,
+     "entries": 1049,
+     "top_k": 11,
+     "top_share": 0.9615384615384616,
+     "top_culprits": [
+      {
+       "entry": 926,
+       "items": 8,
+       "subject": "freemasonry in Indonesia",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.976974,
+       "hidden_floor_share": 0.0021666666666666666
+      },
+      {
+       "entry": 803,
+       "items": 5,
+       "subject": "solar eclipse of February 6, 1519 BC",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.961789,
+       "hidden_floor_share": 0.003833333333333333
+      },
+      {
+       "entry": 556,
+       "items": 4,
+       "subject": "Santa Maria College, Perth",
+       "step": 4,
+       "raised": true,
+       "threshold": 0.972181,
+       "hidden_floor_share": 0.0006666666666666666
+      },
+      {
+       "entry": 454,
+       "items": 1,
+       "subject": "SKH St. Thomas Primary School",
+       "step": 4,
+       "raised": true,
+       "threshold": 0.96952,
+       "hidden_floor_share": 0.0013333333333333333
+      },
+      {
+       "entry": 474,
+       "items": 1,
+       "subject": "Halbes Schloss",
+       "step": 4,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0006666666666666666
+      },
+      {
+       "entry": 634,
+       "items": 1,
+       "subject": "Consandolo railway station",
+       "step": 5,
+       "raised": true,
+       "threshold": 0.993822,
+       "hidden_floor_share": 0.006
+      },
+      {
+       "entry": 784,
+       "items": 1,
+       "subject": "Elbasan Street",
+       "step": 6,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0008333333333333334
+      },
+      {
+       "entry": 883,
+       "items": 1,
+       "subject": "4 Charlemont Place",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.904222,
+       "hidden_floor_share": 0.0005
+      },
+      {
+       "entry": 953,
+       "items": 1,
+       "subject": "Çayyazı",
+       "step": 7,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 1007,
+       "items": 1,
+       "subject": "1 Kew Terrace",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.97231,
+       "hidden_floor_share": 0.0005
+      },
+      {
+       "entry": 1014,
+       "items": 1,
+       "subject": "14 Westend Park Street",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.973293,
+       "hidden_floor_share": 0.004166666666666667
+      }
+     ],
+     "culprits_raised": 0.75,
+     "entries_raised": 0.1344137273593899,
+     "culprit_hidden_floor_share_median": 0.0013333333333333333,
+     "hijack": 9,
+     "name_relation": {
+      "near name": 15,
+      "other": 11
+     },
+     "culprit_regions": {
+      "q": 25,
+      "gen": 1
+     },
+     "firing_regions": {
+      "1": 25,
+      "2": 1
+     }
+    },
+    "D5": {
+     "available": true,
+     "damaged": 25,
+     "no_firing": 0,
+     "with_firing": 25,
+     "rerun_mismatch": 0,
+     "alone_explained": 25,
+     "single_recovers": 12,
+     "many_fired": 0,
+     "closure_complete": 25,
+     "closure_recovered": 25,
+     "closure_mean_size": 2.08,
+     "fired_mean": 1.0,
+     "distinct_culprits": 11,
+     "entries": 1052,
+     "top_k": 11,
+     "top_share": 1.0,
+     "top_culprits": [
+      {
+       "entry": 813,
+       "items": 8,
+       "subject": "solar eclipse of October 27, 1839 BC",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.994448,
+       "hidden_floor_share": 0.006833333333333334
+      },
+      {
+       "entry": 847,
+       "items": 5,
+       "subject": "School of Mechanical Engineering at Shanghai Jiao Tong University an example of",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.969038,
+       "hidden_floor_share": 0.007333333333333333
+      },
+      {
+       "entry": 97,
+       "items": 2,
+       "subject": "CHPR-FM",
+       "step": 1,
+       "raised": true,
+       "threshold": 0.971307,
+       "hidden_floor_share": 0.0011666666666666668
+      },
+      {
+       "entry": 1015,
+       "items": 2,
+       "subject": "16 Leven Street",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.988131,
+       "hidden_floor_share": 0.004666666666666667
+      },
+      {
+       "entry": 1025,
+       "items": 2,
+       "subject": "Brunston Castle",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.978797,
+       "hidden_floor_share": 0.0025
+      },
+      {
+       "entry": 96,
+       "items": 1,
+       "subject": "CFLR-FM",
+       "step": 1,
+       "raised": true,
+       "threshold": 0.997459,
+       "hidden_floor_share": 0.0011666666666666668
+      },
+      {
+       "entry": 363,
+       "items": 1,
+       "subject": "Vernersbridge railway station",
+       "step": 3,
+       "raised": true,
+       "threshold": 0.989164,
+       "hidden_floor_share": 0.0085
+      },
+      {
+       "entry": 383,
+       "items": 1,
+       "subject": "Robert Antonín",
+       "step": 3,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 506,
+       "items": 1,
+       "subject": "Wyco de Vries",
+       "step": 4,
+       "raised": true,
+       "threshold": 0.937811,
+       "hidden_floor_share": 0.0003333333333333333
+      },
+      {
+       "entry": 895,
+       "items": 1,
+       "subject": "Tyle Mill",
+       "step": 6,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0005
+      },
+      {
+       "entry": 938,
+       "items": 1,
+       "subject": "water supply and sanitation in Nigeria",
+       "step": 7,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0
+      }
+     ],
+     "culprits_raised": 0.7272727272727273,
+     "entries_raised": 0.1435361216730038,
+     "culprit_hidden_floor_share_median": 0.0011666666666666668,
+     "hijack": 16,
+     "name_relation": {
+      "other": 19,
+      "near name": 6
+     },
+     "culprit_regions": {
+      "q": 24,
+      "gen": 1
+     },
+     "firing_regions": {
+      "1": 24,
+      "2": 1
+     }
+    },
+    "D6": {
+     "available": true,
+     "damaged": 13,
+     "no_firing": 0,
+     "with_firing": 13,
+     "rerun_mismatch": 0,
+     "alone_explained": 13,
+     "single_recovers": 11,
+     "many_fired": 0,
+     "closure_complete": 11,
+     "closure_recovered": 12,
+     "closure_mean_size": 3.769230769230769,
+     "fired_mean": 1.0,
+     "distinct_culprits": 7,
+     "entries": 1043,
+     "top_k": 11,
+     "top_share": 1.0,
+     "top_culprits": [
+      {
+       "entry": 799,
+       "items": 6,
+       "subject": "solar eclipse of August 26, 1836 BC",
+       "step": 6,
+       "raised": true,
+       "threshold": 1.002134,
+       "hidden_floor_share": 0.006
+      },
+      {
+       "entry": 27,
+       "items": 2,
+       "subject": "National Lotung Industrial Vocational High School",
+       "step": 0,
+       "raised": true,
+       "threshold": 0.913963,
+       "hidden_floor_share": 0.0006666666666666666
+      },
+      {
+       "entry": 44,
+       "items": 1,
+       "subject": "Juha-Matti Matilainen",
+       "step": 0,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 490,
+       "items": 1,
+       "subject": "Galactica Discovers Earth: Part 2",
+       "step": 4,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 664,
+       "items": 1,
+       "subject": "North Dundas District High School",
+       "step": 5,
+       "raised": true,
+       "threshold": 0.95298,
+       "hidden_floor_share": 0.0015
+      },
+      {
+       "entry": 958,
+       "items": 1,
+       "subject": "Çakırören",
+       "step": 7,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.0003333333333333333
+      },
+      {
+       "entry": 970,
+       "items": 1,
+       "subject": "Linton House",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.982752,
+       "hidden_floor_share": 0.007
+      }
+     ],
+     "culprits_raised": 0.5714285714285714,
+     "entries_raised": 0.13902205177372962,
+     "culprit_hidden_floor_share_median": 0.0006666666666666666,
+     "hijack": 11,
+     "name_relation": {
+      "near name": 3,
+      "other": 10
+     },
+     "culprit_regions": {
+      "q": 13
+     },
+     "firing_regions": {
+      "1": 13
+     }
+    },
+    "D7": {
+     "available": true,
+     "damaged": 145,
+     "no_firing": 0,
+     "with_firing": 145,
+     "rerun_mismatch": 0,
+     "alone_explained": 142,
+     "single_recovers": 117,
+     "many_fired": 0,
+     "closure_complete": 145,
+     "closure_recovered": 145,
+     "closure_mean_size": 1.8827586206896552,
+     "fired_mean": 1.8,
+     "distinct_culprits": 12,
+     "entries": 1043,
+     "top_k": 11,
+     "top_share": 0.9793103448275862,
+     "top_culprits": [
+      {
+       "entry": 615,
+       "items": 86,
+       "subject": "In",
+       "step": 5,
+       "raised": true,
+       "threshold": 0.921711,
+       "hidden_floor_share": 0.2763333333333333
+      },
+      {
+       "entry": 722,
+       "items": 64,
+       "subject": "Nicholson Catholic College",
+       "step": 5,
+       "raised": true,
+       "threshold": 0.961096,
+       "hidden_floor_share": 0.0003333333333333333
+      },
+      {
+       "entry": 792,
+       "items": 6,
+       "subject": "solar eclipse of April 1, 1893 BC",
+       "step": 6,
+       "raised": true,
+       "threshold": 1.000657,
+       "hidden_floor_share": 0.007
+      },
+      {
+       "entry": 863,
+       "items": 3,
+       "subject": "solar eclipse of November 23, 2",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.95933,
+       "hidden_floor_share": 0.0015
+      },
+      {
+       "entry": 962,
+       "items": 2,
+       "subject": "textile industry in India",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.921597,
+       "hidden_floor_share": 0.0008333333333333334
+      },
+      {
+       "entry": 1002,
+       "items": 2,
+       "subject": "21 Elmbank Street",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.971536,
+       "hidden_floor_share": 0.0035
+      },
+      {
+       "entry": 10,
+       "items": 1,
+       "subject": "1236 AH",
+       "step": 0,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 705,
+       "items": 1,
+       "subject": "Needham Heights station",
+       "step": 5,
+       "raised": true,
+       "threshold": 0.948395,
+       "hidden_floor_share": 0.002
+      },
+      {
+       "entry": 801,
+       "items": 1,
+       "subject": "of solar eclipse was the event on November 1 1720 BC",
+       "step": 6,
+       "raised": true,
+       "threshold": 0.923409,
+       "hidden_floor_share": 0.00016666666666666666
+      },
+      {
+       "entry": 905,
+       "items": 1,
+       "subject": "homeschooling in the United States",
+       "step": 7,
+       "raised": true,
+       "threshold": 0.943933,
+       "hidden_floor_share": 0.0011666666666666668
+      },
+      {
+       "entry": 1015,
+       "items": 1,
+       "subject": "Tollhouse on Clachnaharry Road in Inverness",
+       "step": 7,
+       "raised": false,
+       "threshold": 0.9,
+       "hidden_floor_share": 0.00016666666666666666
+      }
+     ],
+     "culprits_raised": 0.8333333333333334,
+     "entries_raised": 0.14189837008628955,
+     "culprit_hidden_floor_share_median": 0.0015,
+     "hijack": 13,
+     "name_relation": {
+      "other": 77,
+      "same name": 86,
+      "near name": 6
+     },
+     "culprit_regions": {
+      "ctx": 64,
+      "q": 105
+     },
+     "firing_regions": {
+      "0": 145,
+      "1": 108
+     }
+    }
+   }
+  }
+ },
+ "reproduction_vs_rv09": {
+  "D0": [
+   {
+    "step": 0,
+    "items": 168,
+    "agree": 1.0
+   },
+   {
+    "step": 1,
+    "items": 166,
+    "agree": 1.0
+   },
+   {
+    "step": 2,
+    "items": 300,
+    "agree": 1.0
+   },
+   {
+    "step": 3,
+    "items": 350,
+    "agree": 1.0
+   },
+   {
+    "step": 4,
+    "items": 400,
+    "agree": 1.0
+   },
+   {
+    "step": 5,
+    "items": 450,
+    "agree": 1.0
+   },
+   {
+    "step": 6,
+    "items": 500,
+    "agree": 1.0
+   },
+   {
+    "step": 7,
+    "items": 550,
+    "agree": 1.0
+   }
+  ],
+  "D1": [
+   {
+    "step": 0,
+    "items": 164,
+    "agree": 1.0
+   },
+   {
+    "step": 1,
+    "items": 202,
+    "agree": 1.0
+   },
+   {
+    "step": 2,
+    "items": 300,
+    "agree": 1.0
+   },
+   {
+    "step": 3,
+    "items": 350,
+    "agree": 1.0
+   },
+   {
+    "step": 4,
+    "items": 400,
+    "agree": 1.0
+   },
+   {
+    "step": 5,
+    "items": 450,
+    "agree": 1.0
+   },
+   {
+    "step": 6,
+    "items": 500,
+    "agree": 1.0
+   },
+   {
+    "step": 7,
+    "items": 550,
+    "agree": 1.0
+   }
+  ],
+  "D2": [
+   {
+    "step": 0,
+    "items": 200,
+    "agree": 1.0
+   },
+   {
+    "step": 1,
+    "items": 182,
+    "agree": 1.0
+   },
+   {
+    "step": 2,
+    "items": 300,
+    "agree": 1.0
+   },
+   {
+    "step": 3,
+    "items": 350,
+    "agree": 1.0
+   },
+   {
+    "step": 4,
+    "items": 400,
+    "agree": 1.0
+   },
+   {
+    "step": 5,
+    "items": 450,
+    "agree": 1.0
+   },
+   {
+    "step": 6,
+    "items": 500,
+    "agree": 1.0
+   },
+   {
+    "step": 7,
+    "items": 550,
+    "agree": 1.0
+   }
+  ],
+  "D3": [
+   {
+    "step": 0,
+    "items": 168,
+    "agree": 1.0
+   },
+   {
+    "step": 1,
+    "items": 184,
+    "agree": 1.0
+   },
+   {
+    "step": 2,
+    "items": 300,
+    "agree": 1.0
+   },
+   {
+    "step": 3,
+    "items": 350,
+    "agree": 1.0
+   },
+   {
+    "step": 4,
+    "items": 400,
+    "agree": 1.0
+   },
+   {
+    "step": 5,
+    "items": 450,
+    "agree": 1.0
+   },
+   {
+    "step": 6,
+    "items": 500,
+    "agree": 1.0
+   },
+   {
+    "step": 7,
+    "items": 550,
+    "agree": 1.0
+   }
+  ]
+ },
+ "sources": {
+  "D0": {
+   "run": "run_002",
+   "kt10_code_differs_in": [],
+   "host": "NVIDIA GeForce RTX 4090"
+  },
+  "D1": {
+   "run": "run_002",
+   "kt10_code_differs_in": [],
+   "host": "NVIDIA GeForce RTX 4090"
+  },
+  "D2": {
+   "run": "run_002",
+   "kt10_code_differs_in": [],
+   "host": "NVIDIA GeForce RTX 4090"
+  },
+  "D3": {
+   "run": "run_002",
+   "kt10_code_differs_in": [],
+   "host": "NVIDIA GeForce RTX 4090"
+  },
+  "D4": {
+   "run": "run_002",
+   "kt10_code_differs_in": [],
+   "host": "NVIDIA GeForce RTX 4090"
+  },
+  "D5": {
+   "run": "run_002",
+   "kt10_code_differs_in": [],
+   "host": "NVIDIA GeForce RTX 4090"
+  },
+  "D6": {
+   "run": "run_002",
+   "kt10_code_differs_in": [],
+   "host": "NVIDIA GeForce RTX 4090"
+  },
+  "D7": {
+   "run": "run_003_D7",
+   "kt10_code_differs_in": [
+    "kt_run.py"
+   ],
+   "host": "NVIDIA GeForce RTX 4090"
+  }
+ }
+}

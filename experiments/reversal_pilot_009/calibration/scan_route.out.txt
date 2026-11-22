@@ -1,0 +1,15 @@
+screen {'candidates': 6000, 'known': 317, 'kept': 256}
+tau 0.9 step 0: n 90 upd 0.922 cur 0.833 ret None loc 0.969 r2w 2 entries 90 znll 0.075 write 36s
+tau 0.9 step 1: n 78 upd 0.987 cur 0.654 ret 0.7 loc 0.945 r2w 5 entries 168 znll 0.088 write 30s
+tau 0.9 step 2: n 150 upd 0.950 cur 0.800 ret 0.67 loc 0.957 r2w 6 entries 318 znll 0.053 write 59s
+tau 0.9 step 3: n 150 upd 0.980 cur 0.840 ret 0.66 loc 0.859 r2w 29 entries 468 znll 0.034 write 60s
+tau 0.9 step 4: n 150 upd 0.960 cur 0.610 ret 0.67 loc 0.852 r2w 31 entries 618 znll 0.054 write 61s
+tau 0.9 loc damage {'base_right': 247, 'right_to_wrong': 31, 'fraction': 0.12550607287449392} forgetting {'learned_tracked': 76, 'right_to_wrong': 0, 'fraction': 0.0} total 269s peak 6.75 GiB hits 2705
+tau 0.93 step 0: n 90 upd 0.922 cur 0.811 ret None loc 0.973 r2w 1 entries 90 znll 0.075 write 35s
+tau 0.93 step 1: n 78 upd 0.974 cur 0.654 ret 0.7 loc 0.953 r2w 3 entries 168 znll 0.088 write 30s
+tau 0.93 step 2: n 150 upd 0.970 cur 0.830 ret 0.66 loc 0.965 r2w 4 entries 318 znll 0.053 write 60s
+tau 0.93 step 3: n 150 upd 0.980 cur 0.840 ret 0.647 loc 0.867 r2w 27 entries 468 znll 0.034 write 60s
+tau 0.93 step 4: n 150 upd 0.960 cur 0.610 ret 0.66 loc 0.863 r2w 28 entries 618 znll 0.054 write 60s
+tau 0.93 loc damage {'base_right': 247, 'right_to_wrong': 28, 'fraction': 0.11336032388663968} forgetting {'learned_tracked': 77, 'right_to_wrong': 0, 'fraction': 0.0} total 267s peak 6.75 GiB hits 2620
+
+[exited with code 0]

@@ -1,0 +1,159 @@
+{
+ "cran_dev": {
+  "edits": 993,
+  "hidden": 3163,
+  "probes": 2000,
+  "dropped": {
+   "rephrasing": 5,
+   "write question": 2,
+   "hidden question": 3
+  },
+  "refused": 8,
+  "clashes": 0
+ },
+ "cran": {
+  "edits": 997,
+  "hidden": 3148,
+  "probes": 1998,
+  "dropped": {
+   "rephrasing": 3,
+   "hidden question": 1,
+   "probe question": 2
+  },
+  "refused": 4,
+  "clashes": 0
+ },
+ "crates_debug": {
+  "edits": 96,
+  "hidden": 3996,
+  "probes": 766,
+  "dropped": {
+   "hidden question": 4
+  },
+  "refused": 1,
+  "clashes": 0
+ },
+ "crates_dev": {
+  "edits": 998,
+  "hidden": 3230,
+  "probes": 1997,
+  "dropped": {
+   "rephrasing": 2,
+   "hidden question": 6,
+   "probe question": 3
+  },
+  "refused": 0,
+  "clashes": 0
+ },
+ "crates": {
+  "edits": 994,
+  "hidden": 3136,
+  "probes": 1997,
+  "dropped": {
+   "rephrasing": 6,
+   "hidden question": 5,
+   "probe question": 3
+  },
+  "refused": 1,
+  "clashes": 0
+ },
+ "hackage": {
+  "edits": 992,
+  "hidden": 4000,
+  "probes": 1999,
+  "dropped": {
+   "rephrasing": 5,
+   "write question": 3
+  },
+  "refused": 5,
+  "clashes": 1
+ },
+ "homebrew": {
+  "edits": 966,
+  "hidden": 1151,
+  "probes": 1997,
+  "dropped": {
+   "rephrasing": 23,
+   "write question": 11,
+   "hidden question": 12,
+   "probe question": 3
+  },
+  "refused": 7,
+  "clashes": 0
+ },
+ "npm_dev": {
+  "edits": 945,
+  "hidden": 3181,
+  "probes": 1995,
+  "dropped": {
+   "rephrasing": 50,
+   "write question": 5,
+   "hidden question": 7,
+   "probe question": 5
+  },
+  "refused": 1,
+  "clashes": 0
+ },
+ "npm": {
+  "edits": 938,
+  "hidden": 3189,
+  "probes": 2000,
+  "dropped": {
+   "rephrasing": 60,
+   "write question": 2,
+   "hidden question": 5
+  },
+  "refused": 1,
+  "clashes": 0
+ },
+ "nuget": {
+  "edits": 995,
+  "hidden": 1204,
+  "probes": 1998,
+  "dropped": {
+   "rephrasing": 5,
+   "probe question": 2
+  },
+  "refused": 1,
+  "clashes": 0
+ },
+ "packagist": {
+  "edits": 983,
+  "hidden": 3997,
+  "probes": 1998,
+  "dropped": {
+   "rephrasing": 17,
+   "hidden question": 3,
+   "probe question": 2
+  },
+  "refused": 9,
+  "clashes": 0
+ },
+ "pypi_dev": {
+  "edits": 968,
+  "hidden": 3137,
+  "probes": 1988,
+  "dropped": {
+   "write question": 9,
+   "rephrasing": 23,
+   "hidden question": 26,
+   "probe question": 12
+  },
+  "refused": 5,
+  "clashes": 0
+ },
+ "pypi": {
+  "edits": 972,
+  "hidden": 3098,
+  "probes": 1988,
+  "dropped": {
+   "rephrasing": 27,
+   "write question": 1,
+   "hidden question": 24,
+   "probe question": 12
+  },
+  "refused": 8,
+  "clashes": 0
+ },
+ "mu_corpus": 11163
+}

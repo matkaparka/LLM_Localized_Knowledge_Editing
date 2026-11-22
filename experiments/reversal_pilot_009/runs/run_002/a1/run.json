@@ -1,0 +1,29 @@
+{
+ "command": "a1",
+ "config_sha256": "b414057eb93da1e682e134217ba99c9b1e3c1291299f1a1a0c7c3cd630ecb16e",
+ "path_overrides": {
+  "data_dir": "/workspace/data/wikibigedit",
+  "model_path": "/workspace/models/qwen3_0.6b_base"
+ },
+ "started": 1795083083.4066603,
+ "code": {
+  "rv_editor.py": "73f66b0ddc2c19c3b29fe1ab9fe106355b8729e42ba05668cd2bb21924ef37cb",
+  "rv_policy.py": "e2610cd99251fbff407cea1f9d568329a6c142426a5abe91aa090b452a031c40",
+  "rv_analysis.py": "d36f41d22b1535e54cbaa02e8ebef281939cbb10d3b1a0ec52e8032c764e12a4",
+  "rv_run.py": "7f3fe87e3c8009a8dcb08e897fffa3ed0b4157c4c1a20f98d2311cd659be0eba"
+ },
+ "so08_code": {
+  "so_data.py": "0e985c427a606817c21329a356909e91dd5bcbf6132f576684fc0a0c606b11d3",
+  "so_model.py": "389db12345fc7872ed924d57c08036d0168c7e055842d9b9951b8d7fd2a2cf93",
+  "so_policy.py": "aeffbebaf686fa40460f71c6c1416605b5741a148a3285e6f231f540142b9fc0",
+  "so_analysis.py": "7a5720c6502cd8fea909483ea0319fcd86366f28e24b8d0ac53cb9796c88e1c5"
+ },
+ "environment": {
+  "python": "3.12.3",
+  "platform": "Linux-5.15.0-194-generic-x86_64-with-glibc2.39",
+  "torch": "2.14.0+cu130",
+  "cuda": "13.0",
+  "transformers": "5.20.2",
+  "device": "NVIDIA GeForce RTX 4090"
+ }
+}

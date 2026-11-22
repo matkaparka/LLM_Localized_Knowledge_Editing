@@ -1,0 +1,112 @@
+{
+ "status": "FROZEN 2026-11-19 before A1, by Claude under the author's instruction to continue the experiments per the situation guide section 5A. Writer chosen on pilot stream P0 only (calibration/LOG.md). Gates, delta, kappa and budget fixed in PLAN.md section 4 before any development family was touched.",
+ "data_dir": "/workspace/data/wikibigedit",
+ "expect_steps": 8,
+ "model_path": "/workspace/models/qwen3_0.6b_base",
+ "dtype": "bfloat16",
+ "torch_seed": 0,
+ "sites": [
+  "model.layers.{i}.mlp.down_proj"
+ ],
+ "layers": "all",
+ "rank": 16,
+ "scale": 1.0,
+ "clip": 1.0,
+ "streams": {
+  "n_pilot": 2,
+  "n_dev": 8,
+  "edits_per_stream": 1600,
+  "loc_probe": 2000,
+  "loc_hidden": 6000,
+  "n_shots": 2,
+  "half": "dev"
+ },
+ "cap": 150,
+ "corpus": {
+  "buckets": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "n": 20000
+ },
+ "write": {
+  "epochs": 20,
+  "lr": 0.003,
+  "batch_size": 32,
+  "accept_k": 64,
+  "distill_k": 256,
+  "max_new": 24,
+  "gen_batch": 64
+ },
+ "eval": {
+  "max_cur": 100,
+  "ret_per_step": 25,
+  "max_loc": 256,
+  "max_new": 24,
+  "gen_batch": 64
+ },
+ "local": {
+  "mode": "route",
+  "layers": [
+   8
+  ],
+  "tau": 0.9,
+  "probe_margin": 0.02,
+  "massive": 200.0,
+  "v_steps": 25,
+  "v_lr": 0.5,
+  "v_wd": 0.5,
+  "clamp": 0.75,
+  "kl": 0.0625,
+  "stop_loss": 0.05,
+  "n_rand": 2,
+  "rand_len": 10,
+  "use_context": true,
+  "chunk": 32,
+  "key_batch": 64
+ },
+ "a1": {
+  "families": [
+   "D0",
+   "D1",
+   "D2",
+   "D3"
+  ],
+  "writers": [
+   "local",
+   "local_replay:128",
+   "lora_plain",
+   "lora_replay:256"
+  ],
+  "seeds": [
+   0
+  ]
+ },
+ "gate": {
+  "learn_min": 0.8,
+  "damage_max": 0.1,
+  "delta": 0.01,
+  "default": "local"
+ },
+ "a2": {
+  "t": 5,
+  "states": [
+   0,
+   1,
+   2
+  ],
+  "futures": 4,
+  "per_step": 100,
+  "discovery": [
+   0,
+   1
+  ],
+  "verification": [
+   2,
+   3
+  ]
+ },
+ "budget_gpu_hours": 12
+}

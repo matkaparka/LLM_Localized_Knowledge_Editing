@@ -1,0 +1,3390 @@
+{
+ "streams": [
+  "cran",
+  "crates",
+  "hackage",
+  "homebrew",
+  "npm",
+  "nuget",
+  "packagist",
+  "pypi"
+ ],
+ "no_damage_measurement": {
+  "cran": 0
+ },
+ "delta": {
+  "mean": 0.3399612962615962,
+  "ci": [
+   0.09402660915327415,
+   0.6160299366994524
+  ],
+  "per_stream": {
+   "crates": 0.041085657370517926,
+   "hackage": 0.9736271676300579,
+   "homebrew": 0.13690476190476192,
+   "npm": 0.8377276577721304,
+   "nuget": 0.25223214285714285,
+   "packagist": 0.11158661216147164,
+   "pypi": 0.02656507413509061
+  },
+  "positive": 7,
+  "n": 7
+ },
+ "delta_uniform": {
+  "mean": 0.36352129240330394,
+  "ci": [
+   0.1055936508060086,
+   0.6441587761137451
+  ],
+  "per_stream": {
+   "crates": 0.04780876494023904,
+   "hackage": 0.9739884393063584,
+   "homebrew": 0.14285714285714285,
+   "npm": 0.9275730622617535,
+   "nuget": 0.2892857142857143,
+   "packagist": 0.1318344404701073,
+   "pypi": 0.03130148270181219
+  },
+  "positive": 7,
+  "n": 7
+ },
+ "quality_q": {
+  "mean": 0.07740234375,
+  "ci": [
+   0.017575683593750002,
+   0.14669970703125
+  ],
+  "per_stream": {
+   "cran": -0.0003125,
+   "crates": 0.0075,
+   "hackage": 0.13265625,
+   "homebrew": 0.21390625,
+   "npm": 0.2303125,
+   "nuget": 0.00734375,
+   "packagist": 0.02890625,
+   "pypi": -0.00109375
+  },
+  "positive": 6,
+  "n": 8
+ },
+ "quality_r": {
+  "mean": 0.08361607142857143,
+  "ci": [
+   0.021071428571428574,
+   0.15803571428571428
+  ],
+  "per_stream": {
+   "cran": -0.0017857142857142857,
+   "crates": 0.0007142857142857143,
+   "hackage": 0.16142857142857142,
+   "homebrew": 0.14285714285714285,
+   "npm": 0.2825,
+   "nuget": 0.07428571428571429,
+   "packagist": 0.016785714285714286,
+   "pypi": -0.007857142857142858
+  },
+  "positive": 6,
+  "n": 8
+ },
+ "practical_quality_q": {
+  "mean": 0.0553125,
+  "ci": [
+   -0.012968749999999998,
+   0.13109375
+  ],
+  "per_stream": {
+   "cran": -0.0025,
+   "crates": -0.01625,
+   "hackage": 0.11375,
+   "homebrew": 0.22,
+   "npm": 0.20625,
+   "nuget": -0.08125,
+   "packagist": 0.01375,
+   "pypi": -0.01125
+  },
+  "positive": 4,
+  "n": 8
+ },
+ "practical_quality_r": {
+  "mean": 0.07071428571428572,
+  "ci": [
+   0.008928571428571428,
+   0.1457142857142857
+  ],
+  "per_stream": {
+   "cran": -0.002857142857142857,
+   "crates": -0.008571428571428572,
+   "hackage": 0.15714285714285714,
+   "homebrew": 0.14857142857142858,
+   "npm": 0.26571428571428574,
+   "nuget": 0.014285714285714285,
+   "packagist": 0.005714285714285714,
+   "pypi": -0.014285714285714285
+  },
+  "positive": 5,
+  "n": 8
+ },
+ "mechanism_gate": {
+  "passed": true,
+  "mean_delta": 0.3399612962615962,
+  "ci": [
+   0.09402660915327415,
+   0.6160299366994524
+  ],
+  "positive": 7,
+  "needed": 6,
+  "q_diff": 0.07740234375,
+  "r_diff": 0.08361607142857143
+ },
+ "practical_gate": {
+  "passed": true,
+  "mean_delta": 0.36352129240330394,
+  "ci": [
+   0.1055936508060086,
+   0.6441587761137451
+  ],
+  "positive": 7,
+  "needed": 6,
+  "q_diff": 0.0553125,
+  "r_diff": 0.07071428571428572
+ },
+ "selected_uniform": {
+  "arm": "uniform:0.90",
+  "flag": "dev gate not met",
+  "matched": {
+   "Q": 0.3140625,
+   "R": 0.185,
+   "damage": 0.015978074454290142
+  },
+  "grid": {
+   "uniform:0.88": {
+    "Q": 0.29125,
+    "R": 0.11714285714285715,
+    "damage": 0.5455496628420936,
+    "shortfall": 0.04785714285714286
+   },
+   "uniform:0.90": {
+    "Q": 0.2859375,
+    "R": 0.12357142857142857,
+    "damage": 0.5236915303053781,
+    "shortfall": 0.04142857142857144
+   },
+   "uniform:0.92": {
+    "Q": 0.2784375,
+    "R": 0.11642857142857142,
+    "damage": 0.485840841759137,
+    "shortfall": 0.048571428571428585
+   },
+   "uniform:0.94": {
+    "Q": 0.2615625,
+    "R": 0.10642857142857143,
+    "damage": 0.4469800183473221,
+    "shortfall": 0.05857142857142858
+   },
+   "uniform:0.96": {
+    "Q": 0.2546875,
+    "R": 0.085,
+    "damage": 0.34908258096360323,
+    "shortfall": 0.08
+   },
+   "uniform:0.98": {
+    "Q": 0.20249999999999999,
+    "R": 0.06785714285714287,
+    "damage": 0.004471741465255563,
+    "shortfall": 0.09714285714285714
+   }
+  }
+ },
+ "leave_one_out": {
+  "crates": 0.38977390274344254,
+  "hackage": 0.23435031770018588,
+  "homebrew": 0.37380405198773525,
+  "npm": 0.25700023600984045,
+  "nuget": 0.3545828218290051,
+  "packagist": 0.37802374361161695,
+  "pypi": 0.3921939999493471
+ },
+ "low_damage": {
+  "cran": {
+   "shuffled_damage": null,
+   "matched_damage": null
+  },
+  "crates": {
+   "shuffled_damage": 0.05702191235059761,
+   "matched_damage": 0.01593625498007968
+  },
+  "hackage": {
+   "shuffled_damage": 0.9996387283236994,
+   "matched_damage": 0.02601156069364162
+  },
+  "homebrew": {
+   "shuffled_damage": 0.1607142857142857,
+   "matched_damage": 0.023809523809523808
+  },
+  "npm": {
+   "shuffled_damage": 0.8601757729775519,
+   "matched_damage": 0.02244811520542143
+  },
+  "nuget": {
+   "shuffled_damage": 0.359375,
+   "matched_damage": 0.10714285714285714
+  },
+  "packagist": {
+   "shuffled_damage": 0.14173479816044968,
+   "matched_damage": 0.030148185998978026
+  },
+  "pypi": {
+   "shuffled_damage": 0.04468698517298188,
+   "matched_damage": 0.018121911037891267
+  }
+ },
+ "concentration": {
+  "cran": {
+   "damaged": 0,
+   "with_culprit": 0,
+   "top_k": 10,
+   "top_share_of_damaged": null,
+   "numerator": 0,
+   "judged": false,
+   "top": []
+  },
+  "crates": {
+   "damaged": 32,
+   "with_culprit": 32,
+   "top_k": 10,
+   "top_share_of_damaged": 0.5,
+   "numerator": 16,
+   "judged": true,
+   "top": [
+    {
+     "entry": 645,
+     "facts": 5,
+     "entity": "fastly-sys"
+    },
+    {
+     "entry": 710,
+     "facts": 3,
+     "entity": "totp-rs"
+    },
+    {
+     "entry": 721,
+     "facts": 2,
+     "entity": "zerocopy-derive"
+    },
+    {
+     "entry": 913,
+     "facts": 2,
+     "entity": "libbz2-rs-sys"
+    },
+    {
+     "entry": 8,
+     "facts": 1,
+     "entity": "bevy_encase_derive"
+    },
+    {
+     "entry": 51,
+     "facts": 1,
+     "entity": "near-schema-checker-core"
+    },
+    {
+     "entry": 66,
+     "facts": 1,
+     "entity": "s2n-quic"
+    },
+    {
+     "entry": 77,
+     "facts": 1,
+     "entity": "spider_utils"
+    },
+    {
+     "entry": 114,
+     "facts": 1,
+     "entity": "godot-ffi"
+    },
+    {
+     "entry": 131,
+     "facts": 1,
+     "entity": "azure_data_cosmos_macros"
+    }
+   ]
+  },
+  "hackage": {
+   "damaged": 346,
+   "with_culprit": 346,
+   "top_k": 10,
+   "top_share_of_damaged": 1.0,
+   "numerator": 346,
+   "judged": true,
+   "top": [
+    {
+     "entry": 855,
+     "facts": 289,
+     "entity": "tagged"
+    },
+    {
+     "entry": 736,
+     "facts": 57,
+     "entity": "versions"
+    },
+    {
+     "entry": 628,
+     "facts": 6,
+     "entity": "clash-ghc"
+    },
+    {
+     "entry": 153,
+     "facts": 2,
+     "entity": "duckdb-simple"
+    },
+    {
+     "entry": 318,
+     "facts": 2,
+     "entity": "json-stream"
+    },
+    {
+     "entry": 831,
+     "facts": 2,
+     "entity": "nano-ui-sdl"
+    },
+    {
+     "entry": 33,
+     "facts": 1,
+     "entity": "eventium-sqlite"
+    },
+    {
+     "entry": 44,
+     "facts": 1,
+     "entity": "ghc-typelits-extra"
+    },
+    {
+     "entry": 160,
+     "facts": 1,
+     "entity": "fusion-plugin"
+    },
+    {
+     "entry": 175,
+     "facts": 1,
+     "entity": "hw-kafka-streamly"
+    }
+   ]
+  },
+  "homebrew": {
+   "damaged": 7,
+   "with_culprit": 7,
+   "top_k": 10,
+   "top_share_of_damaged": 1.0,
+   "numerator": 7,
+   "judged": true,
+   "top": [
+    {
+     "entry": 571,
+     "facts": 2,
+     "entity": "repo"
+    },
+    {
+     "entry": 18,
+     "facts": 1,
+     "entity": "cobo-cli"
+    },
+    {
+     "entry": 350,
+     "facts": 1,
+     "entity": "typos-cli"
+    },
+    {
+     "entry": 444,
+     "facts": 1,
+     "entity": "php"
+    },
+    {
+     "entry": 636,
+     "facts": 1,
+     "entity": "fzf"
+    },
+    {
+     "entry": 880,
+     "facts": 1,
+     "entity": "faas-cli"
+    }
+   ]
+  },
+  "npm": {
+   "damaged": 2243,
+   "with_culprit": 2243,
+   "top_k": 10,
+   "top_share_of_damaged": 0.9991083370485956,
+   "numerator": 2241,
+   "judged": true,
+   "top": [
+    {
+     "entry": 426,
+     "facts": 2184,
+     "entity": "intl-messageformat"
+    },
+    {
+     "entry": 325,
+     "facts": 50,
+     "entity": "tldts"
+    },
+    {
+     "entry": 410,
+     "facts": 13,
+     "entity": "@tloncorp/tlon-skill-linux-x64"
+    },
+    {
+     "entry": 455,
+     "facts": 9,
+     "entity": "@img/sharp-linux-arm"
+    },
+    {
+     "entry": 517,
+     "facts": 7,
+     "entity": "@xyflow/react"
+    },
+    {
+     "entry": 191,
+     "facts": 6,
+     "entity": "jsdoc-type-pratt-parser"
+    },
+    {
+     "entry": 777,
+     "facts": 6,
+     "entity": "intl-tel-input"
+    },
+    {
+     "entry": 377,
+     "facts": 5,
+     "entity": "@next/swc-linux-x64-musl"
+    },
+    {
+     "entry": 209,
+     "facts": 4,
+     "entity": "tap-parser"
+    },
+    {
+     "entry": 386,
+     "facts": 4,
+     "entity": "@oxc-minify/binding-linux-x64-gnu"
+    }
+   ]
+  },
+  "nuget": {
+   "damaged": 111,
+   "with_culprit": 109,
+   "top_k": 10,
+   "top_share_of_damaged": 0.5585585585585585,
+   "numerator": 62,
+   "judged": true,
+   "top": [
+    {
+     "entry": 581,
+     "facts": 30,
+     "entity": "RasterEdge.Core"
+    },
+    {
+     "entry": 187,
+     "facts": 8,
+     "entity": "Microsoft.NET.Workload.Emscripten.net6.Manifest-9.0.100.Msi.x64"
+    },
+    {
+     "entry": 305,
+     "facts": 8,
+     "entity": "Microsoft.NET.Sdk.iOS.Manifest-9.0.100.Msi.x64"
+    },
+    {
+     "entry": 531,
+     "facts": 7,
+     "entity": "MassTransit.Newtonsoft"
+    },
+    {
+     "entry": 578,
+     "facts": 5,
+     "entity": "Oracle.EntityFrameworkCore"
+    },
+    {
+     "entry": 552,
+     "facts": 4,
+     "entity": "Microsoft.NET.Sdk.iOS.Manifest-9.0.100"
+    },
+    {
+     "entry": 592,
+     "facts": 4,
+     "entity": "System.Reactive"
+    },
+    {
+     "entry": 37,
+     "facts": 3,
+     "entity": "Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson"
+    },
+    {
+     "entry": 122,
+     "facts": 3,
+     "entity": "runtime.osx-arm64.runtime.native.System.IO.Ports"
+    },
+    {
+     "entry": 420,
+     "facts": 3,
+     "entity": "Microsoft.Extensions.Caching.StackExchangeRedis"
+    }
+   ]
+  },
+  "packagist": {
+   "damaged": 317,
+   "with_culprit": 314,
+   "top_k": 10,
+   "top_share_of_damaged": 0.416403785488959,
+   "numerator": 132,
+   "judged": true,
+   "top": [
+    {
+     "entry": 61,
+     "facts": 54,
+     "entity": "php-mcp/laravel"
+    },
+    {
+     "entry": 137,
+     "facts": 20,
+     "entity": "contentful/laravel"
+    },
+    {
+     "entry": 638,
+     "facts": 12,
+     "entity": "josemmo/facturae-php"
+    },
+    {
+     "entry": 883,
+     "facts": 10,
+     "entity": "gember/serializer-symfony"
+    },
+    {
+     "entry": 695,
+     "facts": 8,
+     "entity": "studio-design/studio-auth-php"
+    },
+    {
+     "entry": 907,
+     "facts": 7,
+     "entity": "pestphp/pest"
+    },
+    {
+     "entry": 89,
+     "facts": 6,
+     "entity": "telnyx/telnyx-php"
+    },
+    {
+     "entry": 896,
+     "facts": 6,
+     "entity": "mateusjunges/avro-serde-php"
+    },
+    {
+     "entry": 41,
+     "facts": 5,
+     "entity": "lettermint/lettermint-laravel"
+    },
+    {
+     "entry": 378,
+     "facts": 5,
+     "entity": "chargebee/chargebee-php"
+    }
+   ]
+  },
+  "pypi": {
+   "damaged": 30,
+   "with_culprit": 30,
+   "top_k": 10,
+   "top_share_of_damaged": 0.6333333333333333,
+   "numerator": 19,
+   "judged": true,
+   "top": [
+    {
+     "entry": 123,
+     "facts": 5,
+     "entity": "aiobotocore"
+    },
+    {
+     "entry": 122,
+     "facts": 2,
+     "entity": "aegra-api"
+    },
+    {
+     "entry": 536,
+     "facts": 2,
+     "entity": "openinference-instrumentation-llama-index"
+    },
+    {
+     "entry": 648,
+     "facts": 2,
+     "entity": "llama-index-embeddings-openai"
+    },
+    {
+     "entry": 681,
+     "facts": 2,
+     "entity": "pyobjc"
+    },
+    {
+     "entry": 730,
+     "facts": 2,
+     "entity": "aegra-api"
+    },
+    {
+     "entry": 84,
+     "facts": 1,
+     "entity": "smartystreets-python-sdk"
+    },
+    {
+     "entry": 168,
+     "facts": 1,
+     "entity": "microsoft-kiota-authentication-azure"
+    },
+    {
+     "entry": 283,
+     "facts": 1,
+     "entity": "openai"
+    },
+    {
+     "entry": 307,
+     "facts": 1,
+     "entity": "pyvista"
+    }
+   ]
+  }
+ },
+ "interventions": {
+  "xr:uniform:0.90": {
+   "cran": {
+    "available": true,
+    "damaged": 0,
+    "per_item": {},
+    "culprits": {},
+    "rerun_mismatch": 0,
+    "closure_right": 0,
+    "single_recovers": 0
+   },
+   "crates": {
+    "available": true,
+    "damaged": 32,
+    "per_item": {
+     "other": 21,
+     "near name": 9,
+     "several kinds": 2
+    },
+    "culprits": {
+     "other": 24,
+     "near name": 11
+    },
+    "rerun_mismatch": 0,
+    "closure_right": 32,
+    "single_recovers": 18
+   },
+   "hackage": {
+    "available": true,
+    "damaged": 346,
+    "per_item": {
+     "other": 330,
+     "several kinds": 14,
+     "near name": 2
+    },
+    "culprits": {
+     "other": 364,
+     "near name": 17
+    },
+    "rerun_mismatch": 0,
+    "closure_right": 346,
+    "single_recovers": 2
+   },
+   "homebrew": {
+    "available": true,
+    "damaged": 7,
+    "per_item": {
+     "near name": 4,
+     "other": 3
+    },
+    "culprits": {
+     "near name": 4,
+     "other": 3
+    },
+    "rerun_mismatch": 0,
+    "closure_right": 7,
+    "single_recovers": 4
+   },
+   "npm": {
+    "available": true,
+    "damaged": 2243,
+    "per_item": {
+     "other": 2178,
+     "several kinds": 64,
+     "near name": 1
+    },
+    "culprits": {
+     "other": 2368,
+     "near name": 67
+    },
+    "rerun_mismatch": 0,
+    "closure_right": 2223,
+    "single_recovers": 1667
+   },
+   "nuget": {
+    "available": true,
+    "damaged": 111,
+    "per_item": {
+     "several kinds": 15,
+     "other": 59,
+     "near name": 35,
+     "no single culprit": 2
+    },
+    "culprits": {
+     "near name": 57,
+     "other": 88
+    },
+    "rerun_mismatch": 0,
+    "closure_right": 81,
+    "single_recovers": 40
+   },
+   "packagist": {
+    "available": true,
+    "damaged": 317,
+    "per_item": {
+     "near name": 98,
+     "other": 210,
+     "no single culprit": 3,
+     "several kinds": 6
+    },
+    "culprits": {
+     "near name": 105,
+     "other": 226
+    },
+    "rerun_mismatch": 0,
+    "closure_right": 264,
+    "single_recovers": 187
+   },
+   "pypi": {
+    "available": true,
+    "damaged": 30,
+    "per_item": {
+     "other": 17,
+     "near name": 13
+    },
+    "culprits": {
+     "other": 17,
+     "near name": 13
+    },
+    "rerun_mismatch": 0,
+    "closure_right": 29,
+    "single_recovers": 23
+   }
+  },
+  "xr:matched": {
+   "cran": {
+    "available": true,
+    "damaged": 0,
+    "per_item": {},
+    "culprits": {},
+    "rerun_mismatch": 0,
+    "closure_right": 0,
+    "single_recovers": 0
+   },
+   "crates": {
+    "available": true,
+    "damaged": 8,
+    "per_item": {
+     "other": 4,
+     "near name": 4
+    },
+    "culprits": {
+     "other": 4,
+     "near name": 4
+    },
+    "rerun_mismatch": 0,
+    "closure_right": 8,
+    "single_recovers": 8
+   },
+   "hackage": {
+    "available": true,
+    "damaged": 9,
+    "per_item": {
+     "near name": 8,
+     "other": 1
+    },
+    "culprits": {
+     "near name": 9,
+     "other": 1
+    },
+    "rerun_mismatch": 0,
+    "closure_right": 9,
+    "single_recovers": 5
+   },
+   "homebrew": {
+    "available": true,
+    "damaged": 1,
+    "per_item": {
+     "near name": 1
+    },
+    "culprits": {
+     "near name": 1
+    },
+    "rerun_mismatch": 0,
+    "closure_right": 1,
+    "single_recovers": 1
+   },
+   "npm": {
+    "available": true,
+    "damaged": 53,
+    "per_item": {
+     "other": 26,
+     "near name": 26,
+     "no single culprit": 1
+    },
+    "culprits": {
+     "other": 26,
+     "near name": 26
+    },
+    "rerun_mismatch": 0,
+    "closure_right": 53,
+    "single_recovers": 48
+   },
+   "nuget": {
+    "available": true,
+    "damaged": 30,
+    "per_item": {
+     "near name": 17,
+     "several kinds": 5,
+     "other": 8
+    },
+    "culprits": {
+     "near name": 24,
+     "other": 13
+    },
+    "rerun_mismatch": 0,
+    "closure_right": 23,
+    "single_recovers": 14
+   },
+   "packagist": {
+    "available": true,
+    "damaged": 59,
+    "per_item": {
+     "near name": 19,
+     "other": 39,
+     "several kinds": 1
+    },
+    "culprits": {
+     "near name": 20,
+     "other": 40
+    },
+    "rerun_mismatch": 0,
+    "closure_right": 59,
+    "single_recovers": 55
+   },
+   "pypi": {
+    "available": true,
+    "damaged": 11,
+    "per_item": {
+     "other": 8,
+     "near name": 3
+    },
+    "culprits": {
+     "other": 8,
+     "near name": 3
+    },
+    "rerun_mismatch": 0,
+    "closure_right": 11,
+    "single_recovers": 6
+   }
+  },
+  "xr:shuffled:0": {
+   "cran": {
+    "available": true,
+    "damaged": 0,
+    "per_item": {},
+    "culprits": {},
+    "rerun_mismatch": 0,
+    "closure_right": 0,
+    "single_recovers": 0
+   },
+   "crates": {
+    "available": true,
+    "damaged": 28,
+    "per_item": {
+     "other": 21,
+     "near name": 6,
+     "several kinds": 1
+    },
+    "culprits": {
+     "other": 23,
+     "near name": 7
+    },
+    "rerun_mismatch": 0,
+    "closure_right": 28,
+    "single_recovers": 19
+   },
+   "hackage": {
+    "available": true,
+    "damaged": 346,
+    "per_item": {
+     "other": 331,
+     "several kinds": 13,
+     "near name": 2
+    },
+    "culprits": {
+     "other": 358,
+     "near name": 16
+    },
+    "rerun_mismatch": 0,
+    "closure_right": 345,
+    "single_recovers": 2
+   },
+   "homebrew": {
+    "available": true,
+    "damaged": 7,
+    "per_item": {
+     "near name": 4,
+     "other": 3
+    },
+    "culprits": {
+     "near name": 4,
+     "other": 3
+    },
+    "rerun_mismatch": 0,
+    "closure_right": 7,
+    "single_recovers": 4
+   },
+   "npm": {
+    "available": true,
+    "damaged": 2249,
+    "per_item": {
+     "other": 2193,
+     "several kinds": 55,
+     "near name": 1
+    },
+    "culprits": {
+     "other": 2352,
+     "near name": 58
+    },
+    "rerun_mismatch": 0,
+    "closure_right": 2229,
+    "single_recovers": 1774
+   },
+   "nuget": {
+    "available": true,
+    "damaged": 99,
+    "per_item": {
+     "several kinds": 14,
+     "other": 56,
+     "near name": 27,
+     "no single culprit": 2
+    },
+    "culprits": {
+     "near name": 47,
+     "other": 83
+    },
+    "rerun_mismatch": 0,
+    "closure_right": 74,
+    "single_recovers": 29
+   },
+   "packagist": {
+    "available": true,
+    "damaged": 307,
+    "per_item": {
+     "other": 195,
+     "near name": 102,
+     "no single culprit": 5,
+     "several kinds": 5
+    },
+    "culprits": {
+     "other": 210,
+     "near name": 108
+    },
+    "rerun_mismatch": 0,
+    "closure_right": 266,
+    "single_recovers": 198
+   },
+   "pypi": {
+    "available": true,
+    "damaged": 28,
+    "per_item": {
+     "other": 15,
+     "near name": 13
+    },
+    "culprits": {
+     "other": 15,
+     "near name": 13
+    },
+    "rerun_mismatch": 0,
+    "closure_right": 27,
+    "single_recovers": 22
+   }
+  }
+ },
+ "arms": {
+  "none": {
+   "cran": {
+    "damage": null,
+    "damaged": 0,
+    "known": 0,
+    "Q": 0.0,
+    "R": 0.0,
+    "coverage": 0.0,
+    "update": 0.01,
+    "learned": 0.0,
+    "fired_loc": null,
+    "fired_loc_ctx": null,
+    "fired_loc_q": null,
+    "fired_loc_gen": null,
+    "refusal": 0.004012036108324975
+   },
+   "crates": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 502,
+    "Q": 0.00125,
+    "R": 0.0,
+    "coverage": 0.001006036217303823,
+    "update": 0.0025,
+    "learned": 0.0,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.001006036217303823
+   },
+   "hackage": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 346,
+    "Q": 0.04125,
+    "R": 0.008571428571428572,
+    "coverage": 0.03326612903225806,
+    "update": 0.052500000000000005,
+    "learned": 0.0,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.005040322580645161
+   },
+   "homebrew": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 42,
+    "Q": 0.00125,
+    "R": 0.0,
+    "coverage": 0.002070393374741201,
+    "update": 0.00375,
+    "learned": 0.0,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.007246376811594203
+   },
+   "npm": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 2361,
+    "Q": 0.0025,
+    "R": 0.002857142857142857,
+    "coverage": 0.0031982942430703624,
+    "update": 0.0025,
+    "learned": 0.0,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0010660980810234541
+   },
+   "nuget": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 280,
+    "Q": 0.0025,
+    "R": 0.002857142857142857,
+    "coverage": 0.0020100502512562816,
+    "update": 0.0025,
+    "learned": 0.0,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0010050251256281408
+   },
+   "packagist": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 1957,
+    "Q": 0.00125,
+    "R": 0.005714285714285714,
+    "coverage": 0.001017293997965412,
+    "update": 0.00375,
+    "learned": 0.0,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.009155645981688708
+   },
+   "pypi": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 607,
+    "Q": 0.0,
+    "R": 0.0,
+    "coverage": 0.0,
+    "update": 0.00375,
+    "learned": 0.0,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.00823045267489712
+   }
+  },
+  "xr:matched": {
+   "cran": {
+    "damage": null,
+    "damaged": 0,
+    "known": 0,
+    "Q": 0.1275,
+    "R": 0.05142857142857143,
+    "coverage": 0.12637913741223672,
+    "update": 0.90875,
+    "learned": 0.1275,
+    "fired_loc": null,
+    "fired_loc_ctx": null,
+    "fired_loc_q": null,
+    "fired_loc_gen": null,
+    "refusal": 0.004012036108324975
+   },
+   "crates": {
+    "damage": 0.01593625498007968,
+    "damaged": 8,
+    "known": 502,
+    "Q": 0.35125,
+    "R": 0.1742857142857143,
+    "coverage": 0.323943661971831,
+    "update": 0.80625,
+    "learned": 0.3504380475594493,
+    "fired_loc": 0.0199203187250996,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0199203187250996,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.001006036217303823
+   },
+   "hackage": {
+    "damage": 0.02601156069364162,
+    "damaged": 9,
+    "known": 346,
+    "Q": 0.40375,
+    "R": 0.17714285714285713,
+    "coverage": 0.33064516129032256,
+    "update": 0.83375,
+    "learned": 0.3820078226857888,
+    "fired_loc": 0.057803468208092484,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.057803468208092484,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.005040322580645161
+   },
+   "homebrew": {
+    "damage": 0.023809523809523808,
+    "damaged": 1,
+    "known": 42,
+    "Q": 0.355,
+    "R": 0.27714285714285714,
+    "coverage": 0.33229813664596275,
+    "update": 0.845,
+    "learned": 0.35544430538172717,
+    "fired_loc": 0.023809523809523808,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.023809523809523808,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.007246376811594203
+   },
+   "npm": {
+    "damage": 0.02244811520542143,
+    "damaged": 53,
+    "known": 2361,
+    "Q": 0.51375,
+    "R": 0.4,
+    "coverage": 0.4680170575692964,
+    "update": 0.7725,
+    "learned": 0.5137844611528822,
+    "fired_loc": 0.04193138500635324,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.04193138500635324,
+    "fired_loc_gen": 0.00042354934349851756,
+    "refusal": 0.0010660980810234541
+   },
+   "nuget": {
+    "damage": 0.10714285714285714,
+    "damaged": 30,
+    "known": 280,
+    "Q": 0.42625,
+    "R": 0.3942857142857143,
+    "coverage": 0.3949748743718593,
+    "update": 0.63875,
+    "learned": 0.424812030075188,
+    "fired_loc": 0.125,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.125,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0010050251256281408
+   },
+   "packagist": {
+    "damage": 0.030148185998978026,
+    "damaged": 59,
+    "known": 1957,
+    "Q": 0.315,
+    "R": 0.19428571428571428,
+    "coverage": 0.30010172939979657,
+    "update": 0.82875,
+    "learned": 0.3141426783479349,
+    "fired_loc": 0.0398569238630557,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0398569238630557,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.009155645981688708
+   },
+   "pypi": {
+    "damage": 0.018121911037891267,
+    "damaged": 11,
+    "known": 607,
+    "Q": 0.21,
+    "R": 0.1,
+    "coverage": 0.19753086419753085,
+    "update": 0.84,
+    "learned": 0.21,
+    "fired_loc": 0.02800658978583196,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.02800658978583196,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.00823045267489712
+   }
+  },
+  "xr:shuffled:0": {
+   "cran": {
+    "damage": null,
+    "damaged": 0,
+    "known": 0,
+    "Q": 0.13,
+    "R": 0.054285714285714284,
+    "coverage": 0.1283851554663992,
+    "update": 0.9075,
+    "learned": 0.13,
+    "fired_loc": null,
+    "fired_loc_ctx": null,
+    "fired_loc_q": null,
+    "fired_loc_gen": null,
+    "refusal": 0.004012036108324975
+   },
+   "crates": {
+    "damage": 0.055776892430278883,
+    "damaged": 28,
+    "known": 502,
+    "Q": 0.34875,
+    "R": 0.17142857142857143,
+    "coverage": 0.31388329979879276,
+    "update": 0.78125,
+    "learned": 0.3479349186483104,
+    "fired_loc": 0.07171314741035857,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.07171314741035857,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.001006036217303823
+   },
+   "hackage": {
+    "damage": 1.0,
+    "damaged": 346,
+    "known": 346,
+    "Q": 0.2675,
+    "R": 0.014285714285714285,
+    "coverage": 0.020161290322580645,
+    "update": 0.5625,
+    "learned": 0.2529335071707953,
+    "fired_loc": 1.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 1.0,
+    "fired_loc_gen": 0.002890173410404624,
+    "refusal": 0.005040322580645161
+   },
+   "homebrew": {
+    "damage": 0.16666666666666666,
+    "damaged": 7,
+    "known": 42,
+    "Q": 0.12375,
+    "R": 0.12,
+    "coverage": 0.059006211180124224,
+    "update": 0.53,
+    "learned": 0.12265331664580725,
+    "fired_loc": 0.19047619047619047,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.19047619047619047,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.007246376811594203
+   },
+   "npm": {
+    "damage": 0.952562473528166,
+    "damaged": 2249,
+    "known": 2361,
+    "Q": 0.29125,
+    "R": 0.12857142857142856,
+    "coverage": 0.12260127931769722,
+    "update": 0.37875000000000003,
+    "learned": 0.29197994987468673,
+    "fired_loc": 0.9686573485811097,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.9686573485811097,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0010660980810234541
+   },
+   "nuget": {
+    "damage": 0.3535714285714286,
+    "damaged": 99,
+    "known": 280,
+    "Q": 0.40375,
+    "R": 0.32857142857142857,
+    "coverage": 0.34773869346733666,
+    "update": 0.5925,
+    "learned": 0.40225563909774437,
+    "fired_loc": 0.45,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.45,
+    "fired_loc_gen": 0.0035714285714285713,
+    "refusal": 0.0010050251256281408
+   },
+   "packagist": {
+    "damage": 0.15687276443536025,
+    "damaged": 307,
+    "known": 1957,
+    "Q": 0.28125,
+    "R": 0.18285714285714286,
+    "coverage": 0.2644964394710071,
+    "update": 0.74125,
+    "learned": 0.28035043804755944,
+    "fired_loc": 0.22585590189064894,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.22585590189064894,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.009155645981688708
+   },
+   "pypi": {
+    "damage": 0.04612850082372323,
+    "damaged": 28,
+    "known": 607,
+    "Q": 0.215,
+    "R": 0.10571428571428572,
+    "coverage": 0.20781893004115226,
+    "update": 0.79875,
+    "learned": 0.215,
+    "fired_loc": 0.0642504118616145,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0642504118616145,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.00823045267489712
+   }
+  },
+  "xr:shuffled:1": {
+   "cran": {
+    "damage": null,
+    "damaged": 0,
+    "known": 0,
+    "Q": 0.12625,
+    "R": 0.05142857142857143,
+    "coverage": 0.12537612838515547,
+    "update": 0.90875,
+    "learned": 0.12625,
+    "fired_loc": null,
+    "fired_loc_ctx": null,
+    "fired_loc_q": null,
+    "fired_loc_gen": null,
+    "refusal": 0.004012036108324975
+   },
+   "crates": {
+    "damage": 0.05776892430278884,
+    "damaged": 29,
+    "known": 502,
+    "Q": 0.3425,
+    "R": 0.17142857142857143,
+    "coverage": 0.306841046277666,
+    "update": 0.78125,
+    "learned": 0.3429286608260325,
+    "fired_loc": 0.0796812749003984,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0796812749003984,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.001006036217303823
+   },
+   "hackage": {
+    "damage": 1.0,
+    "damaged": 346,
+    "known": 346,
+    "Q": 0.27125,
+    "R": 0.02,
+    "coverage": 0.020161290322580645,
+    "update": 0.57,
+    "learned": 0.25684485006518903,
+    "fired_loc": 1.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 1.0,
+    "fired_loc_gen": 0.002890173410404624,
+    "refusal": 0.005040322580645161
+   },
+   "homebrew": {
+    "damage": 0.09523809523809523,
+    "damaged": 4,
+    "known": 42,
+    "Q": 0.18625,
+    "R": 0.16857142857142857,
+    "coverage": 0.15527950310559005,
+    "update": 0.64375,
+    "learned": 0.18523153942428036,
+    "fired_loc": 0.14285714285714285,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.14285714285714285,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.007246376811594203
+   },
+   "npm": {
+    "damage": 0.9479034307496823,
+    "damaged": 2238,
+    "known": 2361,
+    "Q": 0.2825,
+    "R": 0.12285714285714286,
+    "coverage": 0.1257995735607676,
+    "update": 0.38,
+    "learned": 0.2832080200501253,
+    "fired_loc": 0.9686573485811097,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.9686573485811097,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0010660980810234541
+   },
+   "nuget": {
+    "damage": 0.3392857142857143,
+    "damaged": 95,
+    "known": 280,
+    "Q": 0.4275,
+    "R": 0.32,
+    "coverage": 0.37386934673366834,
+    "update": 0.59125,
+    "learned": 0.42606516290726815,
+    "fired_loc": 0.4607142857142857,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.4607142857142857,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0010050251256281408
+   },
+   "packagist": {
+    "damage": 0.12876852324987226,
+    "damaged": 252,
+    "known": 1957,
+    "Q": 0.29125,
+    "R": 0.18857142857142858,
+    "coverage": 0.26653102746693796,
+    "update": 0.74625,
+    "learned": 0.2903629536921151,
+    "fired_loc": 0.22227899846704138,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.22227899846704138,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.009155645981688708
+   },
+   "pypi": {
+    "damage": 0.04942339373970346,
+    "damaged": 30,
+    "known": 607,
+    "Q": 0.21000000000000002,
+    "R": 0.10285714285714286,
+    "coverage": 0.205761316872428,
+    "update": 0.81625,
+    "learned": 0.21,
+    "fired_loc": 0.06260296540362438,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.06260296540362438,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.00823045267489712
+   }
+  },
+  "xr:shuffled:2": {
+   "cran": {
+    "damage": null,
+    "damaged": 0,
+    "known": 0,
+    "Q": 0.1275,
+    "R": 0.054285714285714284,
+    "coverage": 0.12637913741223672,
+    "update": 0.90625,
+    "learned": 0.1275,
+    "fired_loc": null,
+    "fired_loc_ctx": null,
+    "fired_loc_q": null,
+    "fired_loc_gen": null,
+    "refusal": 0.004012036108324975
+   },
+   "crates": {
+    "damage": 0.055776892430278883,
+    "damaged": 28,
+    "known": 502,
+    "Q": 0.345,
+    "R": 0.17714285714285713,
+    "coverage": 0.30985915492957744,
+    "update": 0.7787499999999999,
+    "learned": 0.344180225281602,
+    "fired_loc": 0.07370517928286853,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.07370517928286853,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.001006036217303823
+   },
+   "hackage": {
+    "damage": 1.0,
+    "damaged": 346,
+    "known": 346,
+    "Q": 0.26625,
+    "R": 0.017142857142857144,
+    "coverage": 0.019153225806451613,
+    "update": 0.5625,
+    "learned": 0.2516297262059974,
+    "fired_loc": 1.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 1.0,
+    "fired_loc_gen": 0.002890173410404624,
+    "refusal": 0.005040322580645161
+   },
+   "homebrew": {
+    "damage": 0.19047619047619047,
+    "damaged": 8,
+    "known": 42,
+    "Q": 0.1275,
+    "R": 0.12285714285714286,
+    "coverage": 0.059006211180124224,
+    "update": 0.515,
+    "learned": 0.12640801001251564,
+    "fired_loc": 0.19047619047619047,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.19047619047619047,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.007246376811594203
+   },
+   "npm": {
+    "damage": 0.9483269800931808,
+    "damaged": 2239,
+    "known": 2361,
+    "Q": 0.28,
+    "R": 0.11142857142857143,
+    "coverage": 0.10874200426439233,
+    "update": 0.375,
+    "learned": 0.2807017543859649,
+    "fired_loc": 0.9690808979246082,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.9690808979246082,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0010660980810234541
+   },
+   "nuget": {
+    "damage": 0.3678571428571429,
+    "damaged": 103,
+    "known": 280,
+    "Q": 0.42375,
+    "R": 0.3028571428571429,
+    "coverage": 0.3577889447236181,
+    "update": 0.58125,
+    "learned": 0.4223057644110276,
+    "fired_loc": 0.475,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.475,
+    "fired_loc_gen": 0.0035714285714285713,
+    "refusal": 0.0010050251256281408
+   },
+   "packagist": {
+    "damage": 0.1318344404701073,
+    "damaged": 258,
+    "known": 1957,
+    "Q": 0.28375,
+    "R": 0.18,
+    "coverage": 0.26551373346897256,
+    "update": 0.75375,
+    "learned": 0.2828535669586984,
+    "fired_loc": 0.23760858456821665,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.23760858456821665,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.009155645981688708
+   },
+   "pypi": {
+    "damage": 0.042833607907743,
+    "damaged": 26,
+    "known": 607,
+    "Q": 0.2125,
+    "R": 0.1,
+    "coverage": 0.2037037037037037,
+    "update": 0.79625,
+    "learned": 0.2125,
+    "fired_loc": 0.05930807248764415,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.05930807248764415,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.00823045267489712
+   }
+  },
+  "xr:shuffled:3": {
+   "cran": {
+    "damage": null,
+    "damaged": 0,
+    "known": 0,
+    "Q": 0.125,
+    "R": 0.054285714285714284,
+    "coverage": 0.12337011033099297,
+    "update": 0.9075,
+    "learned": 0.125,
+    "fired_loc": null,
+    "fired_loc_ctx": null,
+    "fired_loc_q": null,
+    "fired_loc_gen": null,
+    "refusal": 0.004012036108324975
+   },
+   "crates": {
+    "damage": 0.053784860557768925,
+    "damaged": 27,
+    "known": 502,
+    "Q": 0.33125,
+    "R": 0.16285714285714287,
+    "coverage": 0.29678068410462777,
+    "update": 0.78125,
+    "learned": 0.3304130162703379,
+    "fired_loc": 0.06772908366533864,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.06772908366533864,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.001006036217303823
+   },
+   "hackage": {
+    "damage": 1.0,
+    "damaged": 346,
+    "known": 346,
+    "Q": 0.2725,
+    "R": 0.014285714285714285,
+    "coverage": 0.018145161290322582,
+    "update": 0.5625,
+    "learned": 0.258148631029987,
+    "fired_loc": 1.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 1.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.005040322580645161
+   },
+   "homebrew": {
+    "damage": 0.14285714285714285,
+    "damaged": 6,
+    "known": 42,
+    "Q": 0.18375,
+    "R": 0.17714285714285713,
+    "coverage": 0.14389233954451347,
+    "update": 0.665,
+    "learned": 0.18272841051314143,
+    "fired_loc": 0.14285714285714285,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.14285714285714285,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.007246376811594203
+   },
+   "npm": {
+    "damage": 0.951715374841169,
+    "damaged": 2247,
+    "known": 2361,
+    "Q": 0.27625,
+    "R": 0.12,
+    "coverage": 0.1140724946695096,
+    "update": 0.375,
+    "learned": 0.2769423558897243,
+    "fired_loc": 0.9690808979246082,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.9690808979246082,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0010660980810234541
+   },
+   "nuget": {
+    "damage": 0.3892857142857143,
+    "damaged": 109,
+    "known": 280,
+    "Q": 0.42374999999999996,
+    "R": 0.32857142857142857,
+    "coverage": 0.3487437185929648,
+    "update": 0.5725,
+    "learned": 0.4223057644110276,
+    "fired_loc": 0.44642857142857145,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.44642857142857145,
+    "fired_loc_gen": 0.0035714285714285713,
+    "refusal": 0.0010050251256281408
+   },
+   "packagist": {
+    "damage": 0.13949923352069493,
+    "damaged": 273,
+    "known": 1957,
+    "Q": 0.29,
+    "R": 0.17714285714285713,
+    "coverage": 0.2736520854526958,
+    "update": 0.75375,
+    "learned": 0.2903629536921151,
+    "fired_loc": 0.24169647419519674,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.24169647419519674,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.009155645981688708
+   },
+   "pypi": {
+    "damage": 0.03789126853377265,
+    "damaged": 23,
+    "known": 607,
+    "Q": 0.21,
+    "R": 0.11714285714285715,
+    "coverage": 0.20267489711934156,
+    "update": 0.79125,
+    "learned": 0.21,
+    "fired_loc": 0.060955518945634266,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.060955518945634266,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.00823045267489712
+   }
+  },
+  "xr:shuffled:4": {
+   "cran": {
+    "damage": null,
+    "damaged": 0,
+    "known": 0,
+    "Q": 0.12875,
+    "R": 0.054285714285714284,
+    "coverage": 0.12437311935807423,
+    "update": 0.9075,
+    "learned": 0.12875,
+    "fired_loc": null,
+    "fired_loc_ctx": null,
+    "fired_loc_q": null,
+    "fired_loc_gen": null,
+    "refusal": 0.004012036108324975
+   },
+   "crates": {
+    "damage": 0.055776892430278883,
+    "damaged": 28,
+    "known": 502,
+    "Q": 0.35,
+    "R": 0.18571428571428572,
+    "coverage": 0.30985915492957744,
+    "update": 0.77625,
+    "learned": 0.34918648310387984,
+    "fired_loc": 0.07370517928286853,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.07370517928286853,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.001006036217303823
+   },
+   "hackage": {
+    "damage": 1.0,
+    "damaged": 346,
+    "known": 346,
+    "Q": 0.29125,
+    "R": 0.02,
+    "coverage": 0.019153225806451613,
+    "update": 0.5925,
+    "learned": 0.27249022164276404,
+    "fired_loc": 1.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 1.0,
+    "fired_loc_gen": 0.002890173410404624,
+    "refusal": 0.005040322580645161
+   },
+   "homebrew": {
+    "damage": 0.16666666666666666,
+    "damaged": 7,
+    "known": 42,
+    "Q": 0.12875,
+    "R": 0.12857142857142856,
+    "coverage": 0.061076604554865424,
+    "update": 0.515,
+    "learned": 0.1276595744680851,
+    "fired_loc": 0.19047619047619047,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.19047619047619047,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.007246376811594203
+   },
+   "npm": {
+    "damage": 0.952562473528166,
+    "damaged": 2249,
+    "known": 2361,
+    "Q": 0.28500000000000003,
+    "R": 0.12,
+    "coverage": 0.11833688699360341,
+    "update": 0.385,
+    "learned": 0.2857142857142857,
+    "fired_loc": 0.9686573485811097,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.9686573485811097,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0010660980810234541
+   },
+   "nuget": {
+    "damage": 0.3464285714285714,
+    "damaged": 97,
+    "known": 280,
+    "Q": 0.4125,
+    "R": 0.3171428571428571,
+    "coverage": 0.3577889447236181,
+    "update": 0.57875,
+    "learned": 0.41102756892230574,
+    "fired_loc": 0.4607142857142857,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.4607142857142857,
+    "fired_loc_gen": 0.0035714285714285713,
+    "refusal": 0.0010050251256281408
+   },
+   "packagist": {
+    "damage": 0.1548288196218702,
+    "damaged": 303,
+    "known": 1957,
+    "Q": 0.28500000000000003,
+    "R": 0.1742857142857143,
+    "coverage": 0.2685656154628688,
+    "update": 0.74875,
+    "learned": 0.28410513141426785,
+    "fired_loc": 0.24987225344915687,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.24987225344915687,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.009155645981688708
+   },
+   "pypi": {
+    "damage": 0.04942339373970346,
+    "damaged": 30,
+    "known": 607,
+    "Q": 0.20875000000000002,
+    "R": 0.1,
+    "coverage": 0.20473251028806586,
+    "update": 0.7925,
+    "learned": 0.20875,
+    "fired_loc": 0.0642504118616145,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0642504118616145,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.00823045267489712
+   }
+  },
+  "xr:shuffled:5": {
+   "cran": {
+    "damage": null,
+    "damaged": 0,
+    "known": 0,
+    "Q": 0.12875,
+    "R": 0.054285714285714284,
+    "coverage": 0.12537612838515547,
+    "update": 0.91,
+    "learned": 0.12875,
+    "fired_loc": null,
+    "fired_loc_ctx": null,
+    "fired_loc_q": null,
+    "fired_loc_gen": null,
+    "refusal": 0.004012036108324975
+   },
+   "crates": {
+    "damage": 0.05976095617529881,
+    "damaged": 30,
+    "known": 502,
+    "Q": 0.34875,
+    "R": 0.16857142857142857,
+    "coverage": 0.31690140845070425,
+    "update": 0.7825,
+    "learned": 0.3479349186483104,
+    "fired_loc": 0.07768924302788845,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.07768924302788845,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.001006036217303823
+   },
+   "hackage": {
+    "damage": 1.0,
+    "damaged": 346,
+    "known": 346,
+    "Q": 0.2725,
+    "R": 0.014285714285714285,
+    "coverage": 0.019153225806451613,
+    "update": 0.56375,
+    "learned": 0.25945241199478486,
+    "fired_loc": 1.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 1.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.005040322580645161
+   },
+   "homebrew": {
+    "damage": 0.16666666666666666,
+    "damaged": 7,
+    "known": 42,
+    "Q": 0.125,
+    "R": 0.11714285714285715,
+    "coverage": 0.055900621118012424,
+    "update": 0.5125,
+    "learned": 0.12390488110137672,
+    "fired_loc": 0.19047619047619047,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.19047619047619047,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.007246376811594203
+   },
+   "npm": {
+    "damage": 0.26132994493858536,
+    "damaged": 617,
+    "known": 2361,
+    "Q": 0.29,
+    "R": 0.11714285714285715,
+    "coverage": 0.11940298507462686,
+    "update": 0.41125,
+    "learned": 0.2907268170426065,
+    "fired_loc": 0.9610334603981364,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.9610334603981364,
+    "fired_loc_gen": 0.00042354934349851756,
+    "refusal": 0.0010660980810234541
+   },
+   "nuget": {
+    "damage": 0.3,
+    "damaged": 84,
+    "known": 280,
+    "Q": 0.41625,
+    "R": 0.30857142857142855,
+    "coverage": 0.3487437185929648,
+    "update": 0.5762499999999999,
+    "learned": 0.41478696741854637,
+    "fired_loc": 0.43214285714285716,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.43214285714285716,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0010050251256281408
+   },
+   "packagist": {
+    "damage": 0.1369443025038324,
+    "damaged": 268,
+    "known": 1957,
+    "Q": 0.27625,
+    "R": 0.16857142857142857,
+    "coverage": 0.25839267548321465,
+    "update": 0.74625,
+    "learned": 0.2753441802252816,
+    "fired_loc": 0.19826264690853346,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.19826264690853346,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.009155645981688708
+   },
+   "pypi": {
+    "damage": 0.047775947281713346,
+    "damaged": 29,
+    "known": 607,
+    "Q": 0.20375000000000001,
+    "R": 0.10571428571428572,
+    "coverage": 0.20267489711934156,
+    "update": 0.81125,
+    "learned": 0.20375,
+    "fired_loc": 0.060955518945634266,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.060955518945634266,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.00823045267489712
+   }
+  },
+  "xr:shuffled:6": {
+   "cran": {
+    "damage": null,
+    "damaged": 0,
+    "known": 0,
+    "Q": 0.12875,
+    "R": 0.054285714285714284,
+    "coverage": 0.12537612838515547,
+    "update": 0.90875,
+    "learned": 0.12875,
+    "fired_loc": null,
+    "fired_loc_ctx": null,
+    "fired_loc_q": null,
+    "fired_loc_gen": null,
+    "refusal": 0.004012036108324975
+   },
+   "crates": {
+    "damage": 0.055776892430278883,
+    "damaged": 28,
+    "known": 502,
+    "Q": 0.33999999999999997,
+    "R": 0.16857142857142857,
+    "coverage": 0.3028169014084507,
+    "update": 0.79125,
+    "learned": 0.33917396745932415,
+    "fired_loc": 0.07370517928286853,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.07370517928286853,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.001006036217303823
+   },
+   "hackage": {
+    "damage": 0.9971098265895953,
+    "damaged": 345,
+    "known": 346,
+    "Q": 0.2625,
+    "R": 0.008571428571428572,
+    "coverage": 0.007056451612903226,
+    "update": 0.55625,
+    "learned": 0.24771838331160365,
+    "fired_loc": 0.9971098265895953,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.9971098265895953,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.005040322580645161
+   },
+   "homebrew": {
+    "damage": 0.19047619047619047,
+    "damaged": 8,
+    "known": 42,
+    "Q": 0.13,
+    "R": 0.12285714285714286,
+    "coverage": 0.060041407867494824,
+    "update": 0.5175,
+    "learned": 0.12891113892365458,
+    "fired_loc": 0.19047619047619047,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.19047619047619047,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.007246376811594203
+   },
+   "npm": {
+    "damage": 0.9512918254976704,
+    "damaged": 2246,
+    "known": 2361,
+    "Q": 0.2775,
+    "R": 0.10285714285714286,
+    "coverage": 0.11513859275053305,
+    "update": 0.37875,
+    "learned": 0.2781954887218045,
+    "fired_loc": 0.9686573485811097,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.9686573485811097,
+    "fired_loc_gen": 0.00042354934349851756,
+    "refusal": 0.0010660980810234541
+   },
+   "nuget": {
+    "damage": 0.3892857142857143,
+    "damaged": 109,
+    "known": 280,
+    "Q": 0.42125,
+    "R": 0.29428571428571426,
+    "coverage": 0.35577889447236183,
+    "update": 0.58,
+    "learned": 0.4197994987468672,
+    "fired_loc": 0.4857142857142857,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.4857142857142857,
+    "fired_loc_gen": 0.0035714285714285713,
+    "refusal": 0.0010050251256281408
+   },
+   "packagist": {
+    "damage": 0.11548288196218702,
+    "damaged": 226,
+    "known": 1957,
+    "Q": 0.2875,
+    "R": 0.1657142857142857,
+    "coverage": 0.2624618514750763,
+    "update": 0.7575,
+    "learned": 0.28660826032540676,
+    "fired_loc": 0.23760858456821665,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.23760858456821665,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.009155645981688708
+   },
+   "pypi": {
+    "damage": 0.044481054365733116,
+    "damaged": 27,
+    "known": 607,
+    "Q": 0.21875,
+    "R": 0.11714285714285715,
+    "coverage": 0.2088477366255144,
+    "update": 0.82125,
+    "learned": 0.21875,
+    "fired_loc": 0.057660626029654036,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.057660626029654036,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.00823045267489712
+   }
+  },
+  "xr:shuffled:7": {
+   "cran": {
+    "damage": null,
+    "damaged": 0,
+    "known": 0,
+    "Q": 0.1275,
+    "R": 0.04857142857142857,
+    "coverage": 0.12437311935807423,
+    "update": 0.91,
+    "learned": 0.1275,
+    "fired_loc": null,
+    "fired_loc_ctx": null,
+    "fired_loc_q": null,
+    "fired_loc_gen": null,
+    "refusal": 0.004012036108324975
+   },
+   "crates": {
+    "damage": 0.061752988047808766,
+    "damaged": 31,
+    "known": 502,
+    "Q": 0.34375,
+    "R": 0.18285714285714286,
+    "coverage": 0.317907444668008,
+    "update": 0.78625,
+    "learned": 0.3429286608260325,
+    "fired_loc": 0.07171314741035857,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.07171314741035857,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.001006036217303823
+   },
+   "hackage": {
+    "damage": 1.0,
+    "damaged": 346,
+    "known": 346,
+    "Q": 0.265,
+    "R": 0.017142857142857144,
+    "coverage": 0.019153225806451613,
+    "update": 0.56375,
+    "learned": 0.2503259452411995,
+    "fired_loc": 1.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 1.0,
+    "fired_loc_gen": 0.002890173410404624,
+    "refusal": 0.005040322580645161
+   },
+   "homebrew": {
+    "damage": 0.16666666666666666,
+    "damaged": 7,
+    "known": 42,
+    "Q": 0.12375,
+    "R": 0.11714285714285715,
+    "coverage": 0.057971014492753624,
+    "update": 0.525,
+    "learned": 0.12265331664580725,
+    "fired_loc": 0.19047619047619047,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.19047619047619047,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.007246376811594203
+   },
+   "npm": {
+    "damage": 0.915713680643795,
+    "damaged": 2162,
+    "known": 2361,
+    "Q": 0.285,
+    "R": 0.11714285714285715,
+    "coverage": 0.12260127931769722,
+    "update": 0.435,
+    "learned": 0.2857142857142857,
+    "fired_loc": 0.9343498517577298,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.9343498517577298,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0010660980810234541
+   },
+   "nuget": {
+    "damage": 0.3892857142857143,
+    "damaged": 109,
+    "known": 280,
+    "Q": 0.4225,
+    "R": 0.36,
+    "coverage": 0.3577889447236181,
+    "update": 0.595,
+    "learned": 0.42105263157894735,
+    "fired_loc": 0.4785714285714286,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.4785714285714286,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0010050251256281408
+   },
+   "packagist": {
+    "damage": 0.16964741951967297,
+    "damaged": 332,
+    "known": 1957,
+    "Q": 0.29375,
+    "R": 0.18285714285714286,
+    "coverage": 0.2695829094608342,
+    "update": 0.76,
+    "learned": 0.2928660826032541,
+    "fired_loc": 0.23607562595809914,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.23607562595809914,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.009155645981688708
+   },
+   "pypi": {
+    "damage": 0.039538714991762765,
+    "damaged": 24,
+    "known": 607,
+    "Q": 0.21,
+    "R": 0.11428571428571428,
+    "coverage": 0.20267489711934156,
+    "update": 0.79625,
+    "learned": 0.21,
+    "fired_loc": 0.05930807248764415,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.05930807248764415,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.00823045267489712
+   }
+  },
+  "xr:uniform:0.88": {
+   "cran": {
+    "damage": null,
+    "damaged": 0,
+    "known": 0,
+    "Q": 0.13375,
+    "R": 0.06857142857142857,
+    "coverage": 0.1354062186559679,
+    "update": 0.915,
+    "learned": 0.13375,
+    "fired_loc": null,
+    "fired_loc_ctx": null,
+    "fired_loc_q": null,
+    "fired_loc_gen": null,
+    "refusal": 0.004012036108324975
+   },
+   "crates": {
+    "damage": 0.08964143426294821,
+    "damaged": 45,
+    "known": 502,
+    "Q": 0.375,
+    "R": 0.18571428571428572,
+    "coverage": 0.3329979879275654,
+    "update": 0.8049999999999999,
+    "learned": 0.3742177722152691,
+    "fired_loc": 0.1294820717131474,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.1294820717131474,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.001006036217303823
+   },
+   "hackage": {
+    "damage": 1.0,
+    "damaged": 346,
+    "known": 346,
+    "Q": 0.30375,
+    "R": 0.022857142857142857,
+    "coverage": 0.020161290322580645,
+    "update": 0.57,
+    "learned": 0.2907431551499348,
+    "fired_loc": 1.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 1.0,
+    "fired_loc_gen": 0.011560693641618497,
+    "refusal": 0.005040322580645161
+   },
+   "homebrew": {
+    "damage": 0.23809523809523808,
+    "damaged": 10,
+    "known": 42,
+    "Q": 0.13875,
+    "R": 0.10571428571428572,
+    "coverage": 0.06418219461697723,
+    "update": 0.4225,
+    "learned": 0.1376720901126408,
+    "fired_loc": 0.2619047619047619,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.2619047619047619,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.007246376811594203
+   },
+   "npm": {
+    "damage": 0.9720457433290979,
+    "damaged": 2295,
+    "known": 2361,
+    "Q": 0.30874999999999997,
+    "R": 0.1,
+    "coverage": 0.11833688699360341,
+    "update": 0.3925,
+    "learned": 0.30952380952380953,
+    "fired_loc": 0.9983058026260059,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.9983058026260059,
+    "fired_loc_gen": 0.0025412960609911056,
+    "refusal": 0.0010660980810234541
+   },
+   "nuget": {
+    "damage": 0.4392857142857143,
+    "damaged": 123,
+    "known": 280,
+    "Q": 0.49375,
+    "R": 0.37142857142857144,
+    "coverage": 0.38391959798994973,
+    "update": 0.63,
+    "learned": 0.4924812030075188,
+    "fired_loc": 0.5535714285714286,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.5535714285714286,
+    "fired_loc_gen": 0.0035714285714285713,
+    "refusal": 0.0010050251256281408
+   },
+   "packagist": {
+    "damage": 0.2120592743995912,
+    "damaged": 415,
+    "known": 1957,
+    "Q": 0.2975,
+    "R": 0.18285714285714286,
+    "coverage": 0.2644964394710071,
+    "update": 0.7675,
+    "learned": 0.29662077596996245,
+    "fired_loc": 0.3418497700562085,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.3418497700562085,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.009155645981688708
+   },
+   "pypi": {
+    "damage": 0.06589785831960461,
+    "damaged": 40,
+    "known": 607,
+    "Q": 0.2375,
+    "R": 0.12571428571428572,
+    "coverage": 0.23148148148148148,
+    "update": 0.8025,
+    "learned": 0.2375,
+    "fired_loc": 0.09060955518945635,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.09060955518945635,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.00823045267489712
+   }
+  },
+  "xr:uniform:0.90": {
+   "cran": {
+    "damage": null,
+    "damaged": 0,
+    "known": 0,
+    "Q": 0.13,
+    "R": 0.054285714285714284,
+    "coverage": 0.1283851554663992,
+    "update": 0.9125,
+    "learned": 0.13,
+    "fired_loc": null,
+    "fired_loc_ctx": null,
+    "fired_loc_q": null,
+    "fired_loc_gen": null,
+    "refusal": 0.004012036108324975
+   },
+   "crates": {
+    "damage": 0.06374501992031872,
+    "damaged": 32,
+    "known": 502,
+    "Q": 0.3675,
+    "R": 0.18285714285714286,
+    "coverage": 0.32796780684104626,
+    "update": 0.81125,
+    "learned": 0.3667083854818523,
+    "fired_loc": 0.08167330677290836,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.08167330677290836,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.001006036217303823
+   },
+   "hackage": {
+    "damage": 1.0,
+    "damaged": 346,
+    "known": 346,
+    "Q": 0.29000000000000004,
+    "R": 0.02,
+    "coverage": 0.020161290322580645,
+    "update": 0.57375,
+    "learned": 0.27640156453715775,
+    "fired_loc": 1.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 1.0,
+    "fired_loc_gen": 0.002890173410404624,
+    "refusal": 0.005040322580645161
+   },
+   "homebrew": {
+    "damage": 0.16666666666666666,
+    "damaged": 7,
+    "known": 42,
+    "Q": 0.135,
+    "R": 0.12857142857142856,
+    "coverage": 0.06314699792960662,
+    "update": 0.53,
+    "learned": 0.13391739674593242,
+    "fired_loc": 0.19047619047619047,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.19047619047619047,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.007246376811594203
+   },
+   "npm": {
+    "damage": 0.950021177467175,
+    "damaged": 2243,
+    "known": 2361,
+    "Q": 0.3075,
+    "R": 0.13428571428571429,
+    "coverage": 0.1257995735607676,
+    "update": 0.4025,
+    "learned": 0.3082706766917293,
+    "fired_loc": 0.9690808979246082,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.9690808979246082,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0010660980810234541
+   },
+   "nuget": {
+    "damage": 0.3964285714285714,
+    "damaged": 111,
+    "known": 280,
+    "Q": 0.5075000000000001,
+    "R": 0.38,
+    "coverage": 0.40804020100502514,
+    "update": 0.6575,
+    "learned": 0.506265664160401,
+    "fired_loc": 0.49642857142857144,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.49642857142857144,
+    "fired_loc_gen": 0.0035714285714285713,
+    "refusal": 0.0010050251256281408
+   },
+   "packagist": {
+    "damage": 0.16198262646908534,
+    "damaged": 317,
+    "known": 1957,
+    "Q": 0.30125,
+    "R": 0.18857142857142858,
+    "coverage": 0.2777212614445575,
+    "update": 0.77875,
+    "learned": 0.30037546933667086,
+    "fired_loc": 0.27082268778742974,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.27082268778742974,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.009155645981688708
+   },
+   "pypi": {
+    "damage": 0.04942339373970346,
+    "damaged": 30,
+    "known": 607,
+    "Q": 0.22125,
+    "R": 0.11428571428571428,
+    "coverage": 0.2139917695473251,
+    "update": 0.815,
+    "learned": 0.22125,
+    "fired_loc": 0.06589785831960461,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.06589785831960461,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.00823045267489712
+   }
+  },
+  "xr:uniform:0.92": {
+   "cran": {
+    "damage": null,
+    "damaged": 0,
+    "known": 0,
+    "Q": 0.11875,
+    "R": 0.05142857142857143,
+    "coverage": 0.119358074222668,
+    "update": 0.91125,
+    "learned": 0.11875,
+    "fired_loc": null,
+    "fired_loc_ctx": null,
+    "fired_loc_q": null,
+    "fired_loc_gen": null,
+    "refusal": 0.004012036108324975
+   },
+   "crates": {
+    "damage": 0.03187250996015936,
+    "damaged": 16,
+    "known": 502,
+    "Q": 0.36,
+    "R": 0.18,
+    "coverage": 0.3209255533199195,
+    "update": 0.8125,
+    "learned": 0.3591989987484355,
+    "fired_loc": 0.04183266932270916,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.04183266932270916,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.001006036217303823
+   },
+   "hackage": {
+    "damage": 0.9942196531791907,
+    "damaged": 344,
+    "known": 346,
+    "Q": 0.275,
+    "R": 0.017142857142857144,
+    "coverage": 0.019153225806451613,
+    "update": 0.57375,
+    "learned": 0.2607561929595828,
+    "fired_loc": 0.9942196531791907,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.9942196531791907,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.005040322580645161
+   },
+   "homebrew": {
+    "damage": 0.023809523809523808,
+    "damaged": 1,
+    "known": 42,
+    "Q": 0.12625,
+    "R": 0.14285714285714285,
+    "coverage": 0.059006211180124224,
+    "update": 0.62375,
+    "learned": 0.1251564455569462,
+    "fired_loc": 0.047619047619047616,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.047619047619047616,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.007246376811594203
+   },
+   "npm": {
+    "damage": 0.8326980093180856,
+    "damaged": 1966,
+    "known": 2361,
+    "Q": 0.31125,
+    "R": 0.13428571428571429,
+    "coverage": 0.13219616204690832,
+    "update": 0.45,
+    "learned": 0.31203007518796994,
+    "fired_loc": 0.8487928843710292,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.8487928843710292,
+    "fired_loc_gen": 0.00042354934349851756,
+    "refusal": 0.0010660980810234541
+   },
+   "nuget": {
+    "damage": 0.3821428571428571,
+    "damaged": 107,
+    "known": 280,
+    "Q": 0.51875,
+    "R": 0.38,
+    "coverage": 0.43316582914572865,
+    "update": 0.68,
+    "learned": 0.5175438596491229,
+    "fired_loc": 0.45714285714285713,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.45714285714285713,
+    "fired_loc_gen": 0.0035714285714285713,
+    "refusal": 0.0010050251256281408
+   },
+   "packagist": {
+    "damage": 0.10884006131834441,
+    "damaged": 213,
+    "known": 1957,
+    "Q": 0.305,
+    "R": 0.18857142857142858,
+    "coverage": 0.28382502543234994,
+    "update": 0.785,
+    "learned": 0.3041301627033792,
+    "fired_loc": 0.1711803781297905,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.1711803781297905,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.009155645981688708
+   },
+   "pypi": {
+    "damage": 0.03130148270181219,
+    "damaged": 19,
+    "known": 607,
+    "Q": 0.21125,
+    "R": 0.10857142857142857,
+    "coverage": 0.19650205761316872,
+    "update": 0.8225,
+    "learned": 0.21125,
+    "fired_loc": 0.044481054365733116,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.044481054365733116,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.00823045267489712
+   }
+  },
+  "xr:uniform:0.94": {
+   "cran": {
+    "damage": null,
+    "damaged": 0,
+    "known": 0,
+    "Q": 0.09,
+    "R": 0.03428571428571429,
+    "coverage": 0.08926780341023069,
+    "update": 0.90625,
+    "learned": 0.09,
+    "fired_loc": null,
+    "fired_loc_ctx": null,
+    "fired_loc_q": null,
+    "fired_loc_gen": null,
+    "refusal": 0.004012036108324975
+   },
+   "crates": {
+    "damage": 0.01195219123505976,
+    "damaged": 6,
+    "known": 502,
+    "Q": 0.35,
+    "R": 0.17714285714285713,
+    "coverage": 0.31287726358148893,
+    "update": 0.8075,
+    "learned": 0.34918648310387984,
+    "fired_loc": 0.01593625498007968,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.01593625498007968,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.001006036217303823
+   },
+   "hackage": {
+    "damage": 0.9566473988439307,
+    "damaged": 331,
+    "known": 346,
+    "Q": 0.24,
+    "R": 0.022857142857142857,
+    "coverage": 0.02217741935483871,
+    "update": 0.5775,
+    "learned": 0.22164276401564537,
+    "fired_loc": 0.9566473988439307,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.9566473988439307,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.005040322580645161
+   },
+   "homebrew": {
+    "damage": 0.023809523809523808,
+    "damaged": 1,
+    "known": 42,
+    "Q": 0.1075,
+    "R": 0.14,
+    "coverage": 0.052795031055900624,
+    "update": 0.6437499999999999,
+    "learned": 0.10638297872340426,
+    "fired_loc": 0.023809523809523808,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.023809523809523808,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.007246376811594203
+   },
+   "npm": {
+    "damage": 0.7090216010165185,
+    "damaged": 1674,
+    "known": 2361,
+    "Q": 0.31125,
+    "R": 0.12571428571428572,
+    "coverage": 0.13326226012793177,
+    "update": 0.50125,
+    "learned": 0.31203007518796994,
+    "fired_loc": 0.7204574332909784,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.7204574332909784,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0010660980810234541
+   },
+   "nuget": {
+    "damage": 0.34285714285714286,
+    "damaged": 96,
+    "known": 280,
+    "Q": 0.495,
+    "R": 0.3657142857142857,
+    "coverage": 0.41708542713567837,
+    "update": 0.68875,
+    "learned": 0.49373433583959897,
+    "fired_loc": 0.3892857142857143,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.3892857142857143,
+    "fired_loc_gen": 0.0035714285714285713,
+    "refusal": 0.0010050251256281408
+   },
+   "packagist": {
+    "damage": 0.056719468574348494,
+    "damaged": 111,
+    "known": 1957,
+    "Q": 0.32,
+    "R": 0.18571428571428572,
+    "coverage": 0.2960325534079349,
+    "update": 0.8125,
+    "learned": 0.3191489361702128,
+    "fired_loc": 0.07307102708226877,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.07307102708226877,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.009155645981688708
+   },
+   "pypi": {
+    "damage": 0.018121911037891267,
+    "damaged": 11,
+    "known": 607,
+    "Q": 0.20125,
+    "R": 0.10285714285714286,
+    "coverage": 0.18930041152263374,
+    "update": 0.83875,
+    "learned": 0.20125,
+    "fired_loc": 0.026359143327841845,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.026359143327841845,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.00823045267489712
+   }
+  },
+  "xr:uniform:0.96": {
+   "cran": {
+    "damage": null,
+    "damaged": 0,
+    "known": 0,
+    "Q": 0.05375,
+    "R": 0.022857142857142857,
+    "coverage": 0.05215646940822467,
+    "update": 0.8725,
+    "learned": 0.05375,
+    "fired_loc": null,
+    "fired_loc_ctx": null,
+    "fired_loc_q": null,
+    "fired_loc_gen": null,
+    "refusal": 0.004012036108324975
+   },
+   "crates": {
+    "damage": 0.00199203187250996,
+    "damaged": 1,
+    "known": 502,
+    "Q": 0.3175,
+    "R": 0.1657142857142857,
+    "coverage": 0.2887323943661972,
+    "update": 0.7987500000000001,
+    "learned": 0.3166458072590738,
+    "fired_loc": 0.00398406374501992,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.00398406374501992,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.001006036217303823
+   },
+   "hackage": {
+    "damage": 0.7947976878612717,
+    "damaged": 275,
+    "known": 346,
+    "Q": 0.18875,
+    "R": 0.04,
+    "coverage": 0.04939516129032258,
+    "update": 0.6075,
+    "learned": 0.1590612777053455,
+    "fired_loc": 0.7947976878612717,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.7947976878612717,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.005040322580645161
+   },
+   "homebrew": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 42,
+    "Q": 0.11,
+    "R": 0.09428571428571429,
+    "coverage": 0.09316770186335403,
+    "update": 0.6575,
+    "learned": 0.10888610763454318,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.007246376811594203
+   },
+   "npm": {
+    "damage": 0.5260482846251588,
+    "damaged": 1242,
+    "known": 2361,
+    "Q": 0.31625000000000003,
+    "R": 0.1,
+    "coverage": 0.14818763326226012,
+    "update": 0.5325,
+    "learned": 0.31704260651629074,
+    "fired_loc": 0.5349428208386277,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.5349428208386277,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0010660980810234541
+   },
+   "nuget": {
+    "damage": 0.175,
+    "damaged": 49,
+    "known": 280,
+    "Q": 0.4625,
+    "R": 0.3914285714285714,
+    "coverage": 0.4050251256281407,
+    "update": 0.70625,
+    "learned": 0.46115288220551376,
+    "fired_loc": 0.2,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.2,
+    "fired_loc_gen": 0.0035714285714285713,
+    "refusal": 0.0010050251256281408
+   },
+   "packagist": {
+    "damage": 0.03525804803270312,
+    "damaged": 69,
+    "known": 1957,
+    "Q": 0.30875,
+    "R": 0.18,
+    "coverage": 0.29094608341810785,
+    "update": 0.825,
+    "learned": 0.3078848560700876,
+    "fired_loc": 0.041389882473173226,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.041389882473173226,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.009155645981688708
+   },
+   "pypi": {
+    "damage": 0.008237232289950576,
+    "damaged": 5,
+    "known": 607,
+    "Q": 0.17875,
+    "R": 0.08285714285714285,
+    "coverage": 0.1697530864197531,
+    "update": 0.825,
+    "learned": 0.17875,
+    "fired_loc": 0.013179571663920923,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.013179571663920923,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.00823045267489712
+   }
+  },
+  "xr:uniform:0.98": {
+   "cran": {
+    "damage": null,
+    "damaged": 0,
+    "known": 0,
+    "Q": 0.00625,
+    "R": 0.005714285714285714,
+    "coverage": 0.007021063189568706,
+    "update": 0.66875,
+    "learned": 0.00625,
+    "fired_loc": null,
+    "fired_loc_ctx": null,
+    "fired_loc_q": null,
+    "fired_loc_gen": null,
+    "refusal": 0.004012036108324975
+   },
+   "crates": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 502,
+    "Q": 0.25875,
+    "R": 0.13428571428571429,
+    "coverage": 0.23943661971830985,
+    "update": 0.70625,
+    "learned": 0.25782227784730916,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.001006036217303823
+   },
+   "hackage": {
+    "damage": 0.12138728323699421,
+    "damaged": 42,
+    "known": 346,
+    "Q": 0.08875000000000001,
+    "R": 0.017142857142857144,
+    "coverage": 0.05846774193548387,
+    "update": 0.625,
+    "learned": 0.05084745762711865,
+    "fired_loc": 0.1329479768786127,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.1329479768786127,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.005040322580645161
+   },
+   "homebrew": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 42,
+    "Q": 0.12000000000000001,
+    "R": 0.054285714285714284,
+    "coverage": 0.10662525879917184,
+    "update": 0.655,
+    "learned": 0.11889862327909888,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.007246376811594203
+   },
+   "npm": {
+    "damage": 0.009741634900465904,
+    "damaged": 23,
+    "known": 2361,
+    "Q": 0.2625,
+    "R": 0.11142857142857143,
+    "coverage": 0.1257995735607676,
+    "update": 0.525,
+    "learned": 0.2631578947368421,
+    "fired_loc": 0.016518424396442185,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.016518424396442185,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0010660980810234541
+   },
+   "nuget": {
+    "damage": 0.11071428571428571,
+    "damaged": 31,
+    "known": 280,
+    "Q": 0.28750000000000003,
+    "R": 0.22857142857142856,
+    "coverage": 0.2542713567839196,
+    "update": 0.695,
+    "learned": 0.2857142857142857,
+    "fired_loc": 0.12142857142857143,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.12142857142857143,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0010050251256281408
+   },
+   "packagist": {
+    "damage": 0.0030659172202350538,
+    "damaged": 6,
+    "known": 1957,
+    "Q": 0.24625,
+    "R": 0.14285714285714285,
+    "coverage": 0.24211597151576805,
+    "update": 0.81375,
+    "learned": 0.2453066332916145,
+    "fired_loc": 0.0030659172202350538,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0030659172202350538,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.009155645981688708
+   },
+   "pypi": {
+    "damage": 0.0016474464579901153,
+    "damaged": 1,
+    "known": 607,
+    "Q": 0.13125,
+    "R": 0.06,
+    "coverage": 0.11728395061728394,
+    "update": 0.7424999999999999,
+    "learned": 0.13125,
+    "fired_loc": 0.0032948929159802307,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0032948929159802307,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.00823045267489712
+   }
+  }
+ },
+ "arm_means": {
+  "none": {
+   "damage": 0.0,
+   "damaged": 0.0,
+   "known": 761.875,
+   "Q": 0.00625,
+   "R": 0.0025,
+   "coverage": 0.005321024639574393,
+   "update": 0.01015625,
+   "learned": 0.0,
+   "fired_loc": 0.0,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.004595249197638198
+  },
+  "xr:matched": {
+   "damage": 0.034802629838341856,
+   "damaged": 21.375,
+   "known": 761.875,
+   "Q": 0.3378125,
+   "R": 0.22107142857142859,
+   "coverage": 0.3092363278573545,
+   "update": 0.80921875,
+   "learned": 0.3347661681503713,
+   "fired_loc": 0.048046887056850965,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.048046887056850965,
+   "fired_loc_gen": 6.050704907121679e-05,
+   "refusal": 0.004595249197638198
+  },
+  "xr:shuffled:0": {
+   "damage": 0.3902255323508034,
+   "damaged": 383.0,
+   "known": 761.875,
+   "Q": 0.25765625000000003,
+   "R": 0.1382142857142857,
+   "coverage": 0.18301141238313626,
+   "update": 0.6615625,
+   "learned": 0.2553884711856129,
+   "fired_loc": 0.42442185717427455,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.42442185717427455,
+   "fired_loc_gen": 0.0009230859974047422,
+   "refusal": 0.004595249197638198
+  },
+  "xr:shuffled:1": {
+   "damage": 0.37405544022369375,
+   "damaged": 374.25,
+   "known": 761.875,
+   "Q": 0.2671875,
+   "R": 0.1432142857142857,
+   "coverage": 0.19745240409059925,
+   "update": 0.6796875,
+   "learned": 0.2651113983706263,
+   "fired_loc": 0.41954171656051464,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.41954171656051464,
+   "fired_loc_gen": 0.00041288191577208916,
+   "refusal": 0.004595249197638198
+  },
+  "xr:shuffled:2": {
+   "damage": 0.39101503631923473,
+   "damaged": 376.0,
+   "known": 761.875,
+   "Q": 0.25828125,
+   "R": 0.13321428571428573,
+   "coverage": 0.18126826443613459,
+   "update": 0.65859375,
+   "learned": 0.25600988090697574,
+   "fired_loc": 0.4293112749627897,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.4293112749627897,
+   "fired_loc_gen": 0.0009230859974047422,
+   "refusal": 0.004595249197638198
+  },
+  "xr:shuffled:3": {
+   "damage": 0.3878619420851804,
+   "damaged": 378.875,
+   "known": 761.875,
+   "Q": 0.2640625,
+   "R": 0.14392857142857143,
+   "coverage": 0.19016643638812109,
+   "update": 0.67609375,
+   "learned": 0.2619876414757917,
+   "fired_loc": 0.418392527002356,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.418392527002356,
+   "fired_loc_gen": 0.000510204081632653,
+   "refusal": 0.004595249197638198
+  },
+  "xr:shuffled:4": {
+   "damage": 0.3893838310593224,
+   "damaged": 382.5,
+   "known": 761.875,
+   "Q": 0.26125,
+   "R": 0.13749999999999998,
+   "coverage": 0.1829857577646406,
+   "update": 0.66203125,
+   "learned": 0.25846040815819854,
+   "fired_loc": 0.4296679527664608,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.4296679527664608,
+   "fired_loc_gen": 0.0009230859974047422,
+   "refusal": 0.004595249197638198
+  },
+  "xr:shuffled:5": {
+   "damage": 0.28178254536658526,
+   "damaged": 172.625,
+   "known": 761.875,
+   "Q": 0.25765625000000003,
+   "R": 0.13178571428571428,
+   "coverage": 0.18081820750380895,
+   "update": 0.66421875,
+   "learned": 0.25558127205386333,
+   "fired_loc": 0.41722284527132,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.41722284527132,
+   "fired_loc_gen": 6.050704907121679e-05,
+   "refusal": 0.004595249197638198
+  },
+  "xr:shuffled:6": {
+   "damage": 0.3919863408010528,
+   "damaged": 373.625,
+   "known": 761.875,
+   "Q": 0.25828125,
+   "R": 0.12928571428571428,
+   "coverage": 0.17968974557468623,
+   "update": 0.66390625,
+   "learned": 0.2559883421860826,
+   "fired_loc": 0.4301331487488458,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.4301331487488458,
+   "fired_loc_gen": 0.0005707111307038699,
+   "refusal": 0.004595249197638198
+  },
+  "xr:shuffled:7": {
+   "damage": 0.3918007405936315,
+   "damaged": 376.375,
+   "known": 761.875,
+   "Q": 0.25890625,
+   "R": 0.1425,
+   "coverage": 0.18400660436834732,
+   "update": 0.67140625,
+   "learned": 0.2566301153261908,
+   "fired_loc": 0.42435633095163583,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.42435633095163583,
+   "fired_loc_gen": 0.00041288191577208916,
+   "refusal": 0.004595249197638198
+  },
+  "xr:uniform:0.88": {
+   "damage": 0.43100360895602774,
+   "damaged": 409.25,
+   "known": 761.875,
+   "Q": 0.28609375,
+   "R": 0.14535714285714285,
+   "coverage": 0.1938727621823916,
+   "update": 0.663125,
+   "learned": 0.28406360074739195,
+   "fired_loc": 0.4822461985801441,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.4822461985801441,
+   "fired_loc_gen": 0.0025247740391483105,
+   "refusal": 0.004595249197638198
+  },
+  "xr:uniform:0.90": {
+   "damage": 0.39832392224164576,
+   "damaged": 385.75,
+   "known": 761.875,
+   "Q": 0.28250000000000003,
+   "R": 0.15035714285714286,
+   "coverage": 0.1956517570146635,
+   "update": 0.68515625,
+   "learned": 0.28039864461921793,
+   "fired_loc": 0.43919707324418755,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.43919707324418755,
+   "fired_loc_gen": 0.0009230859974047422,
+   "refusal": 0.004595249197638198
+  },
+  "xr:uniform:0.92": {
+   "damage": 0.34355487106142474,
+   "damaged": 333.25,
+   "known": 761.875,
+   "Q": 0.27828125000000004,
+   "R": 0.15035714285714286,
+   "coverage": 0.19551651734591488,
+   "update": 0.70734375,
+   "learned": 0.27610196685067956,
+   "fired_loc": 0.37218122059005104,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.37218122059005104,
+   "fired_loc_gen": 0.0005707111307038699,
+   "refusal": 0.004595249197638198
+  },
+  "xr:uniform:0.94": {
+   "damage": 0.30273274819634505,
+   "damaged": 278.75,
+   "known": 761.875,
+   "Q": 0.264375,
+   "R": 0.1442857142857143,
+   "coverage": 0.1890997711995797,
+   "update": 0.72203125,
+   "learned": 0.2616719466300889,
+   "fired_loc": 0.3150809279457625,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.3150809279457625,
+   "fired_loc_gen": 0.000510204081632653,
+   "refusal": 0.004595249197638198
+  },
+  "xr:uniform:0.96": {
+   "damage": 0.22019046924022773,
+   "damaged": 205.125,
+   "known": 761.875,
+   "Q": 0.24203125,
+   "R": 0.13464285714285715,
+   "coverage": 0.18717045695704504,
+   "update": 0.728125,
+   "learned": 0.2378966921738568,
+   "fired_loc": 0.22689914665457334,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.22689914665457334,
+   "fired_loc_gen": 0.000510204081632653,
+   "refusal": 0.004595249197638198
+  },
+  "xr:uniform:0.98": {
+   "damage": 0.03522236678999586,
+   "damaged": 12.875,
+   "known": 761.875,
+   "Q": 0.17515625,
+   "R": 0.09428571428571428,
+   "coverage": 0.14387769201503417,
+   "update": 0.67890625,
+   "learned": 0.16990589656203361,
+   "fired_loc": 0.039607968977120225,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.039607968977120225,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.004595249197638198
+  }
+ },
+ "checks": {
+  "cran": {
+   "none_known_all_right": true,
+   "unfired_max": 0,
+   "reversed_same": true,
+   "blocked_never_fire_in_context": true,
+   "shuffle_multisets_equal": true,
+   "refused_never_active": true,
+   "extraction": {
+    "n": 997,
+    "refused": 4,
+    "exact": 993,
+    "same_anchor": 993
+   },
+   "known": 0,
+   "candidates": 3148
+  },
+  "crates": {
+   "none_known_all_right": true,
+   "unfired_max": 0,
+   "reversed_same": true,
+   "blocked_never_fire_in_context": true,
+   "shuffle_multisets_equal": true,
+   "refused_never_active": true,
+   "extraction": {
+    "n": 994,
+    "refused": 1,
+    "exact": 993,
+    "same_anchor": 993
+   },
+   "known": 502,
+   "candidates": 3136
+  },
+  "hackage": {
+   "none_known_all_right": true,
+   "unfired_max": 0,
+   "reversed_same": true,
+   "blocked_never_fire_in_context": true,
+   "shuffle_multisets_equal": true,
+   "refused_never_active": true,
+   "extraction": {
+    "n": 992,
+    "refused": 5,
+    "exact": 985,
+    "same_anchor": 985
+   },
+   "known": 346,
+   "candidates": 4000
+  },
+  "homebrew": {
+   "none_known_all_right": true,
+   "unfired_max": 0,
+   "reversed_same": true,
+   "blocked_never_fire_in_context": true,
+   "shuffle_multisets_equal": true,
+   "refused_never_active": true,
+   "extraction": {
+    "n": 966,
+    "refused": 7,
+    "exact": 945,
+    "same_anchor": 945
+   },
+   "known": 42,
+   "candidates": 1151
+  },
+  "npm": {
+   "none_known_all_right": true,
+   "unfired_max": 0,
+   "reversed_same": true,
+   "blocked_never_fire_in_context": true,
+   "shuffle_multisets_equal": true,
+   "refused_never_active": true,
+   "extraction": {
+    "n": 938,
+    "refused": 1,
+    "exact": 925,
+    "same_anchor": 926
+   },
+   "known": 2361,
+   "candidates": 3189
+  },
+  "nuget": {
+   "none_known_all_right": true,
+   "unfired_max": 0,
+   "reversed_same": true,
+   "blocked_never_fire_in_context": true,
+   "shuffle_multisets_equal": true,
+   "refused_never_active": true,
+   "extraction": {
+    "n": 995,
+    "refused": 1,
+    "exact": 980,
+    "same_anchor": 980
+   },
+   "known": 280,
+   "candidates": 1204
+  },
+  "packagist": {
+   "none_known_all_right": true,
+   "unfired_max": 0,
+   "reversed_same": true,
+   "blocked_never_fire_in_context": true,
+   "shuffle_multisets_equal": true,
+   "refused_never_active": true,
+   "extraction": {
+    "n": 983,
+    "refused": 9,
+    "exact": 872,
+    "same_anchor": 969
+   },
+   "known": 1957,
+   "candidates": 3997
+  },
+  "pypi": {
+   "none_known_all_right": true,
+   "unfired_max": 0,
+   "reversed_same": true,
+   "blocked_never_fire_in_context": true,
+   "shuffle_multisets_equal": true,
+   "refused_never_active": true,
+   "extraction": {
+    "n": 972,
+    "refused": 8,
+    "exact": 964,
+    "same_anchor": 964
+   },
+   "known": 607,
+   "candidates": 3098
+  }
+ },
+ "dev_tuning": {
+  "arm": "uniform:0.90",
+  "flag": "dev gate not met",
+  "matched": {
+   "Q": 0.3140625,
+   "R": 0.185,
+   "damage": 0.015978074454290142
+  },
+  "grid": {
+   "uniform:0.88": {
+    "Q": 0.29125,
+    "R": 0.11714285714285715,
+    "damage": 0.5455496628420936,
+    "shortfall": 0.04785714285714286
+   },
+   "uniform:0.90": {
+    "Q": 0.2859375,
+    "R": 0.12357142857142857,
+    "damage": 0.5236915303053781,
+    "shortfall": 0.04142857142857144
+   },
+   "uniform:0.92": {
+    "Q": 0.2784375,
+    "R": 0.11642857142857142,
+    "damage": 0.485840841759137,
+    "shortfall": 0.048571428571428585
+   },
+   "uniform:0.94": {
+    "Q": 0.2615625,
+    "R": 0.10642857142857143,
+    "damage": 0.4469800183473221,
+    "shortfall": 0.05857142857142858
+   },
+   "uniform:0.96": {
+    "Q": 0.2546875,
+    "R": 0.085,
+    "damage": 0.34908258096360323,
+    "shortfall": 0.08
+   },
+   "uniform:0.98": {
+    "Q": 0.20249999999999999,
+    "R": 0.06785714285714287,
+    "damage": 0.004471741465255563,
+    "shortfall": 0.09714285714285714
+   }
+  }
+ }
+}

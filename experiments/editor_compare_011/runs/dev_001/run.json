@@ -1,0 +1,51 @@
+{
+ "command": "run",
+ "phase": "dev",
+ "config_sha256": "7d295ebcf9687caf2922f54e4df66fc81d35eb5a27efcd42285ad7fb74041073",
+ "path_overrides": {
+  "data_dir": "/workspace/data/wikibigedit",
+  "model_path": "/workspace/models/qwen3_0.6b_base",
+  "rag.model_path": "/workspace/models/all_mpnet_base_v2"
+ },
+ "started": 1795161297.580477,
+ "code": {
+  "ec_data.py": "d56b51b6215d949fc597d2f3e4389f638a1ed6c32aa9730d3e2ef42f796fc73f",
+  "ec_eval.py": "af8c6fbc5bf22c0e480887fe6aaf140f7095b6047c25b1c56da483e20f3e922c",
+  "ec_grace.py": "4846b66911a7b610df51ad12a577b459b0a6f9f5dddf49b287a1a5018e9aca29",
+  "ec_rag.py": "f74042c7a3cd7c3148490e7253d8876cf315bd2d9a37da344ce90bbc929f24dd",
+  "ec_arms.py": "e4368858116af524b794b9f4fce6e578fe663414df442a9c5adaf1c86f933fdd",
+  "ec_run.py": "04b356e44dd94488d7e720f61d7ba4e53d8c4e503c8ad5d5b80fc37986b19df7",
+  "ec_analysis.py": "1eb90c7dc2e4e67e4e069e3e4c9d541e6bbfcffb441c09ca4d2eeb0d3cc9abce"
+ },
+ "kt10_code": {
+  "kt_core.py": "e52f3cac81b072d475aa27e39b12fe5106c13dacce8d6234090c2df967df9bfd"
+ },
+ "rv09_code": {
+  "rv_editor.py": "73f66b0ddc2c19c3b29fe1ab9fe106355b8729e42ba05668cd2bb21924ef37cb",
+  "rv_policy.py": "e2610cd99251fbff407cea1f9d568329a6c142426a5abe91aa090b452a031c40",
+  "rv_analysis.py": "d36f41d22b1535e54cbaa02e8ebef281939cbb10d3b1a0ec52e8032c764e12a4",
+  "rv_run.py": "7f3fe87e3c8009a8dcb08e897fffa3ed0b4157c4c1a20f98d2311cd659be0eba"
+ },
+ "so08_code": {
+  "so_data.py": "0e985c427a606817c21329a356909e91dd5bcbf6132f576684fc0a0c606b11d3",
+  "so_model.py": "389db12345fc7872ed924d57c08036d0168c7e055842d9b9951b8d7fd2a2cf93",
+  "so_policy.py": "aeffbebaf686fa40460f71c6c1416605b5741a148a3285e6f231f540142b9fc0",
+  "so_analysis.py": "7a5720c6502cd8fea909483ea0319fcd86366f28e24b8d0ac53cb9796c88e1c5"
+ },
+ "environment": {
+  "python": "3.12.3",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.39",
+  "torch": "2.14.0+cu130",
+  "cuda": "13.0",
+  "transformers": "5.20.2",
+  "device": "NVIDIA GeForce RTX 4090"
+ },
+ "editor_prepare": {
+  "texts": 20000,
+  "route": {
+   "tokens": 332279,
+   "mu_norm": 17.297645568847656
+  },
+  "seconds": 6.159494161605835
+ }
+}

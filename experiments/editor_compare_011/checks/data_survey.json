@@ -1,0 +1,727 @@
+{
+ "rule": [
+  "short_or_function",
+  "lead_function",
+  "trail_function",
+  "relation_phrase"
+ ],
+ "cap": 150,
+ "stream_args": {
+  "n_pilot": 2,
+  "n_dev": 8,
+  "edits_per_stream": 1600,
+  "loc_probe": 2000,
+  "loc_hidden": 6000,
+  "n_shots": 2
+ },
+ "dev_half": {
+  "D0": {
+   "entries": 1042,
+   "same_entries_as_kt10": true,
+   "flagged": 20,
+   "reasons": {
+    "not_in_question": 13,
+    "lead_function": 8,
+    "relation_phrase": 19
+   },
+   "uniform090": {
+    "no_culprit_flagged": 21,
+    "some_culprits_flagged": 8,
+    "all_culprits_flagged": 1,
+    "no_alone_culprit": 2
+   },
+   "matched": {
+    "no_culprit_flagged": 5
+   }
+  },
+  "D1": {
+   "entries": 1058,
+   "same_entries_as_kt10": true,
+   "flagged": 18,
+   "reasons": {
+    "lead_function": 10,
+    "trail_function": 1,
+    "not_in_question": 12,
+    "short_or_function": 2,
+    "relation_phrase": 13
+   },
+   "uniform090": {
+    "all_culprits_flagged": 119,
+    "some_culprits_flagged": 37,
+    "no_culprit_flagged": 8,
+    "no_alone_culprit": 20
+   },
+   "matched": {
+    "no_culprit_flagged": 8
+   }
+  },
+  "D2": {
+   "entries": 1074,
+   "same_entries_as_kt10": true,
+   "flagged": 27,
+   "reasons": {
+    "short_or_function": 3,
+    "lead_function": 13,
+    "relation_phrase": 20,
+    "trail_function": 3,
+    "not_in_question": 16
+   },
+   "uniform090": {
+    "all_culprits_flagged": 157,
+    "no_culprit_flagged": 13,
+    "some_culprits_flagged": 22,
+    "no_alone_culprit": 5
+   },
+   "matched": {
+    "no_culprit_flagged": 9
+   }
+  },
+  "D3": {
+   "entries": 1051,
+   "same_entries_as_kt10": true,
+   "flagged": 20,
+   "reasons": {
+    "short_or_function": 2,
+    "relation_phrase": 14,
+    "not_in_question": 14,
+    "lead_function": 14,
+    "trail_function": 1
+   },
+   "uniform090": {
+    "all_culprits_flagged": 86,
+    "no_culprit_flagged": 29,
+    "no_alone_culprit": 5,
+    "some_culprits_flagged": 3
+   },
+   "matched": {
+    "no_culprit_flagged": 4
+   }
+  },
+  "D4": {
+   "entries": 1049,
+   "same_entries_as_kt10": true,
+   "flagged": 26,
+   "reasons": {
+    "lead_function": 14,
+    "relation_phrase": 24,
+    "not_in_question": 17
+   },
+   "uniform090": {
+    "no_culprit_flagged": 26
+   },
+   "matched": {
+    "no_culprit_flagged": 4
+   }
+  },
+  "D5": {
+   "entries": 1052,
+   "same_entries_as_kt10": true,
+   "flagged": 12,
+   "reasons": {
+    "not_in_question": 11,
+    "trail_function": 3,
+    "relation_phrase": 11,
+    "lead_function": 8
+   },
+   "uniform090": {
+    "all_culprits_flagged": 5,
+    "no_culprit_flagged": 21
+   },
+   "matched": {
+    "no_culprit_flagged": 3
+   }
+  },
+  "D6": {
+   "entries": 1043,
+   "same_entries_as_kt10": true,
+   "flagged": 21,
+   "reasons": {
+    "lead_function": 13,
+    "not_in_question": 13,
+    "relation_phrase": 15,
+    "short_or_function": 2
+   },
+   "uniform090": {
+    "no_culprit_flagged": 16
+   },
+   "matched": {
+    "no_culprit_flagged": 6
+   }
+  },
+  "D7": {
+   "entries": 1043,
+   "same_entries_as_kt10": true,
+   "flagged": 19,
+   "reasons": {
+    "lead_function": 12,
+    "short_or_function": 1,
+    "relation_phrase": 17,
+    "not_in_question": 15,
+    "trail_function": 2
+   },
+   "uniform090": {
+    "no_culprit_flagged": 56,
+    "all_culprits_flagged": 62,
+    "some_culprits_flagged": 25,
+    "no_alone_culprit": 3
+   },
+   "matched": {
+    "no_culprit_flagged": 5
+   }
+  }
+ },
+ "dev_half_flagged_subjects": {
+  "D0": [
+   "21 Buccleuch Street located in Dumfries",
+   "21-23 Thistle Street located in Edinburgh",
+   "22 Albyn Place located in Aberdeen",
+   "40 Charlotte Square located in Edinburgh",
+   "5 Springfield located in Dundee",
+   "Druimuan located in Killiecrankie",
+   "East Lodge located in Lanfine",
+   "Hilton Farmhouse located in Whitsome as part of the Outbuilding",
+   "Kilmaglash Parish Church and Sculptured Stones located in Strachur",
+   "Manse Tongue located in Gatepiers",
+   "Old Town Hall located in Pleasance Street Pollokshaws Glasgow",
+   "Rattray House located in the Lodge",
+   "of climate does Thailand",
+   "of solar eclipse occurred on December 7 1395 BC",
+   "of solar eclipse occurred on January 25 77 BC",
+   "of solar eclipse occurred on January 6 1470 BC",
+   "of solar eclipse occurred on October 25 1467 BC",
+   "of solar eclipse was the event on March 29 498 BC",
+   "of solar eclipse was the event that occurred on December 20 1228 BC",
+   "the Church of the Providence of God located in Trzeboś"
+  ],
+  "D1": [
+   "100-108 Commercial Street located in Dundee",
+   "14 Abercromby Place located in Stirling",
+   "17 19 21 East Trinity Road and Gatepiers located in Edinburgh",
+   "Old Parish Church and Graveyard located in Low Coylton",
+   "Parish Manse located in Tyrie",
+   "St Michael's Roman Catholic Chapel located in Tomintoul",
+   "What",
+   "YG",
+   "by Snow Patrol",
+   "of creative work is The Modern Warrior a parody of la Sentinelle. “By the",
+   "of solar eclipse occurred on December 24 1916",
+   "of solar eclipse occurred on June 11 418 BC",
+   "of solar eclipse occurred on May 8 92 BC",
+   "of solar eclipse occurred on October 15 2069",
+   "of solar eclipse was the eclipse that occurred on July 22 1035 BC",
+   "of solar eclipse was the event on May 12 947 BC",
+   "of solar eclipse was the event on September 19 750 BC",
+   "the religion of the Russian Orthodox Church of the Resurrection in Montevideo"
+  ],
+  "D2": [
+   "12 East Brighton Crescent located in Portobello Edinburgh",
+   "12 Heriot Row located in Edinburgh",
+   "29 Heriot Row located in Edinburgh",
+   "6 High Street located in Rothes",
+   "84 Hamilton Place With Gate Piers And Boundary Walls located in Aberdeen",
+   "Addistoun House located in relation to Wellhead",
+   "At leisure is the Soul",
+   "Auchintoul House located in South Lodge",
+   "M1",
+   "St. John's Methodist Church located in Arbroath",
+   "St. Michael's Church located in relation to Entrance Gates",
+   "Tony Hawk's Pro Skater 3 – Music from and Inspired by",
+   "What",
+   "of Arise - A Celebration of Worship",
+   "of creative work is \"I'm Sick of",
+   "of solar eclipse occurred on July 17 1173 BC",
+   "of solar eclipse occurred on June 25 1331 BC",
+   "of solar eclipse occurred on October 1 5 BC",
+   "of solar eclipse occurred on October 28 211 BC",
+   "of solar eclipse was the event on January 7 1405 BC an instance of",
+   "of solar eclipse was the event on July 22 514 BC",
+   "of solar eclipse was the event on July 31 1584 BC",
+   "of solar eclipse was the event on September 30 1913",
+   "of solar eclipse was the event that occurred on August 23 981 BC",
+   "of solar eclipse was the one that occurred on December 21 1201 BC",
+   "the legal history of cannabis in the United States"
+  ],
+  "D3": [
+   "46 Brighton Place located in Portobello Edinburgh",
+   "71 73 75 77 Warrender Park Road located in Edinburgh",
+   "9P",
+   "Auchengower Lodge located in Cove",
+   "Donetsk is the Monument to Iosif Kobzon",
+   "What",
+   "in Poland does the October 2010 raid on smart drug shops",
+   "of Old Parish Church located in Aberlour",
+   "of creative work is \"24 Views of Mt. Fuji\" by Hokusai",
+   "of solar eclipse occurred on August 27 729 BC",
+   "of solar eclipse occurred on May 10 1552 BC",
+   "of solar eclipse occurred on May 25 1217 BC",
+   "of solar eclipse occurred on September 4 377 BC",
+   "of solar eclipse was the event on July 20 1963",
+   "of solar eclipse was the event on October 29 1291 BC",
+   "of solar eclipse was the event on September 22 1559 BC an instance of",
+   "of solar eclipse was the event that occurred on February 3 1687 BC",
+   "of solar eclipse was the solar eclipse on May 23 864 BC",
+   "of the 1991 Virginia Slims of Nashville singles",
+   "the fortification of the forebridge"
+  ],
+  "D4": [
+   "140 Perth Road located in Dundee",
+   "238-242 Leith Walk located in Edinburgh",
+   "31 Heriot Row located in Edinburgh",
+   "Burial Ground of the Old Parish Church located in Inveravon",
+   "Grange House Hotel located in Whiting Bay Arran",
+   "Manse located in New Luce",
+   "Market Cross located in Dundee",
+   "Monzie Parish Church located in Gate-Piers Churchyard",
+   "Old Parish Church located in Morton",
+   "St Peter's Church and Old Burial-Ground located in Rathven",
+   "Sundial located in Bargaly",
+   "of solar eclipse is the event on November 4 2097",
+   "of solar eclipse occurred on April 5 675 BC",
+   "of solar eclipse occurred on August 30 1924",
+   "of solar eclipse occurred on June 14 1330 BC",
+   "of solar eclipse occurred on October 21 1930",
+   "of solar eclipse occurred on October 23 1011 BC",
+   "of solar eclipse occurred on September 10 562 BC",
+   "of solar eclipse occurred on September 18 1195 BC",
+   "of solar eclipse occurred on September 26 1364 BC",
+   "of solar eclipse was the event on February 10 1343 BC",
+   "of solar eclipse was the event on February 27 1483 BC",
+   "of solar eclipse was the event that occurred on March 30 1437 BC",
+   "of the head of the Embassy of Norway in Tokyo",
+   "of time when was Cleland Mausoleum refined to be in the St. Elizabeth Parish Church of Ireland",
+   "referendum was the Puerto Rican status referendum in 1967"
+  ],
+  "D5": [
+   "1 Carruthers Cottages located in Johnstone Park Dumfries",
+   "Manse Cottage located in Tullynessle",
+   "School of Mechanical Engineering at Shanghai Jiao Tong University an example of",
+   "in Mighty Morphin Power Rangers",
+   "municipal merger was the 2009 merger in the Salo region in",
+   "of solar eclipse occurred on December 9 280 BC",
+   "of solar eclipse occurred on March 16 1707 BC",
+   "of solar eclipse was the July 26 1323 BC",
+   "of solar eclipse was the event on December 19 1898 BC",
+   "of solar eclipse was the event on July 11 532 BC",
+   "of solar eclipse was the event on March 10 1465 BC",
+   "of solar eclipse was the event on May 20 1966 an example of"
+  ],
+  "D6": [
+   "53 Forfar Road located in Dundee",
+   "East Pavilion located in Stewarthall",
+   "Faith — is the Pierless Bridge",
+   "Gilmerton House located in near the Gazebo in Edinburgh",
+   "K9 Telephone Kiosk located in Leysmill",
+   "LU",
+   "St. Francis Xavier Catholic High School located in Ontario",
+   "What",
+   "in vitro fertilization",
+   "of St Francis of Assisi Parish in Paddington NSW Australia",
+   "of article is the page about the top-rated United States television programs of 1996–97",
+   "of solar eclipse occurred on December 23 1117 BC",
+   "of solar eclipse occurred on January 21 1835 BC",
+   "of solar eclipse occurred on July 25 1285 BC",
+   "of solar eclipse was the event on August 10 1045 BC",
+   "of solar eclipse was the event on February 8 1454 BC",
+   "of solar eclipse was the event on May 13 901 BC",
+   "of solar eclipse was the event on November 19 1255 BC",
+   "of solar eclipse was the solar eclipse that occurred on January 19 1900 BC",
+   "the list of members of the European Parliament for Belgium",
+   "to construct the Mausoleum of John Fuller in the Churchyard to the South East of the Church"
+  ],
+  "D7": [
+   "40-41-42 Heriot Row located in Edinburgh",
+   "In",
+   "Kerbet House located in Kirkton of Kinnettles",
+   "Old Schoolhouse located in Inverkeithny",
+   "Parish Church Hall located in Brodick",
+   "Parish Church located in Weisdale",
+   "The Winnock Hotel located in The Square Drymen",
+   "of solar eclipse is the event that occurred on July 29 1109 BC",
+   "of solar eclipse occurred on December 1 754 BC",
+   "of solar eclipse occurred on December 29 895 BC",
+   "of solar eclipse occurred on January 30 840 BC",
+   "of solar eclipse occurred on March 27 1727 BC",
+   "of solar eclipse occurred on September 9 1148 BC",
+   "of solar eclipse was the event on April 6 648 BC an instance of",
+   "of solar eclipse was the event on January 27 1472 BC",
+   "of solar eclipse was the event on July 10 1639 BC an instance of",
+   "of solar eclipse was the event on November 1 1720 BC",
+   "of solar eclipse was the event that occurred on November 26 1432 BC",
+   "of the footage filmed by George Stevens related to World War II"
+  ]
+ },
+ "confirm_half": {
+  "CP0": {
+   "edits_uncapped": 1600,
+   "edits": 1001,
+   "per_step": [
+    98,
+    90,
+    130,
+    119,
+    150,
+    150,
+    150,
+    114
+   ],
+   "subjects": 989,
+   "relations": 130,
+   "with_rephrase": 1000,
+   "with_personas": 1001,
+   "subject_literal_in_rephrase": 0.91,
+   "flagged": 9,
+   "reasons": {
+    "lead_function": 8,
+    "not_in_question": 1,
+    "trail_function": 1
+   },
+   "loc_probe": 2000,
+   "loc_hidden": 6000,
+   "shots": 2,
+   "audit": [],
+   "text_overlap_with_dev_half": 48,
+   "overlap_parts": {
+    "edit_texts": 2,
+    "loc_probe": 15,
+    "loc_hidden": 31,
+    "shots": 0
+   },
+   "subjects_also_in_dev_streams": 25
+  },
+  "CP1": {
+   "edits_uncapped": 1600,
+   "edits": 996,
+   "per_step": [
+    87,
+    68,
+    150,
+    121,
+    150,
+    150,
+    150,
+    120
+   ],
+   "subjects": 982,
+   "relations": 126,
+   "with_rephrase": 996,
+   "with_personas": 996,
+   "subject_literal_in_rephrase": 0.9137,
+   "flagged": 7,
+   "reasons": {
+    "lead_function": 6,
+    "relation_phrase": 1
+   },
+   "loc_probe": 2000,
+   "loc_hidden": 6000,
+   "shots": 2,
+   "audit": [],
+   "text_overlap_with_dev_half": 52,
+   "overlap_parts": {
+    "edit_texts": 3,
+    "loc_probe": 6,
+    "loc_hidden": 43,
+    "shots": 0
+   },
+   "subjects_also_in_dev_streams": 31
+  },
+  "C0": {
+   "edits_uncapped": 1600,
+   "edits": 996,
+   "per_step": [
+    84,
+    79,
+    132,
+    118,
+    150,
+    150,
+    150,
+    133
+   ],
+   "subjects": 985,
+   "relations": 138,
+   "with_rephrase": 996,
+   "with_personas": 996,
+   "subject_literal_in_rephrase": 0.9066,
+   "flagged": 7,
+   "reasons": {
+    "lead_function": 6,
+    "relation_phrase": 1,
+    "trail_function": 1
+   },
+   "loc_probe": 2000,
+   "loc_hidden": 6000,
+   "shots": 2,
+   "audit": [],
+   "text_overlap_with_dev_half": 44,
+   "overlap_parts": {
+    "edit_texts": 1,
+    "loc_probe": 8,
+    "loc_hidden": 35,
+    "shots": 0
+   },
+   "subjects_also_in_dev_streams": 33
+  },
+  "C1": {
+   "edits_uncapped": 1600,
+   "edits": 980,
+   "per_step": [
+    79,
+    85,
+    135,
+    109,
+    150,
+    150,
+    150,
+    122
+   ],
+   "subjects": 970,
+   "relations": 128,
+   "with_rephrase": 980,
+   "with_personas": 980,
+   "subject_literal_in_rephrase": 0.9276,
+   "flagged": 9,
+   "reasons": {
+    "short_or_function": 3,
+    "lead_function": 6
+   },
+   "loc_probe": 2000,
+   "loc_hidden": 6000,
+   "shots": 2,
+   "audit": [],
+   "text_overlap_with_dev_half": 65,
+   "overlap_parts": {
+    "edit_texts": 2,
+    "loc_probe": 17,
+    "loc_hidden": 46,
+    "shots": 0
+   },
+   "subjects_also_in_dev_streams": 28
+  },
+  "C2": {
+   "edits_uncapped": 1600,
+   "edits": 989,
+   "per_step": [
+    68,
+    90,
+    135,
+    120,
+    150,
+    150,
+    150,
+    126
+   ],
+   "subjects": 981,
+   "relations": 127,
+   "with_rephrase": 989,
+   "with_personas": 989,
+   "subject_literal_in_rephrase": 0.9272,
+   "flagged": 9,
+   "reasons": {
+    "lead_function": 7,
+    "trail_function": 1,
+    "relation_phrase": 2,
+    "not_in_question": 2,
+    "short_or_function": 1
+   },
+   "loc_probe": 2000,
+   "loc_hidden": 6000,
+   "shots": 2,
+   "audit": [],
+   "text_overlap_with_dev_half": 55,
+   "overlap_parts": {
+    "edit_texts": 2,
+    "loc_probe": 15,
+    "loc_hidden": 38,
+    "shots": 0
+   },
+   "subjects_also_in_dev_streams": 27
+  },
+  "C3": {
+   "edits_uncapped": 1600,
+   "edits": 998,
+   "per_step": [
+    81,
+    86,
+    125,
+    134,
+    150,
+    150,
+    150,
+    122
+   ],
+   "subjects": 985,
+   "relations": 132,
+   "with_rephrase": 998,
+   "with_personas": 998,
+   "subject_literal_in_rephrase": 0.9238,
+   "flagged": 7,
+   "reasons": {
+    "lead_function": 5,
+    "not_in_question": 2,
+    "short_or_function": 1,
+    "relation_phrase": 1
+   },
+   "loc_probe": 2000,
+   "loc_hidden": 6000,
+   "shots": 2,
+   "audit": [],
+   "text_overlap_with_dev_half": 56,
+   "overlap_parts": {
+    "edit_texts": 1,
+    "loc_probe": 17,
+    "loc_hidden": 38,
+    "shots": 0
+   },
+   "subjects_also_in_dev_streams": 26
+  },
+  "C4": {
+   "edits_uncapped": 1600,
+   "edits": 999,
+   "per_step": [
+    92,
+    84,
+    146,
+    104,
+    150,
+    150,
+    150,
+    123
+   ],
+   "subjects": 979,
+   "relations": 141,
+   "with_rephrase": 999,
+   "with_personas": 999,
+   "subject_literal_in_rephrase": 0.9079,
+   "flagged": 7,
+   "reasons": {
+    "trail_function": 1,
+    "not_in_question": 1,
+    "lead_function": 5,
+    "short_or_function": 1
+   },
+   "loc_probe": 2000,
+   "loc_hidden": 6000,
+   "shots": 2,
+   "audit": [],
+   "text_overlap_with_dev_half": 45,
+   "overlap_parts": {
+    "edit_texts": 2,
+    "loc_probe": 14,
+    "loc_hidden": 29,
+    "shots": 0
+   },
+   "subjects_also_in_dev_streams": 51
+  },
+  "C5": {
+   "edits_uncapped": 1600,
+   "edits": 1008,
+   "per_step": [
+    96,
+    104,
+    147,
+    97,
+    150,
+    150,
+    150,
+    114
+   ],
+   "subjects": 996,
+   "relations": 138,
+   "with_rephrase": 1008,
+   "with_personas": 1008,
+   "subject_literal_in_rephrase": 0.9187,
+   "flagged": 3,
+   "reasons": {
+    "lead_function": 3
+   },
+   "loc_probe": 2000,
+   "loc_hidden": 6000,
+   "shots": 2,
+   "audit": [],
+   "text_overlap_with_dev_half": 32,
+   "overlap_parts": {
+    "edit_texts": 1,
+    "loc_probe": 7,
+    "loc_hidden": 24,
+    "shots": 0
+   },
+   "subjects_also_in_dev_streams": 40
+  },
+  "C6": {
+   "edits_uncapped": 1600,
+   "edits": 985,
+   "per_step": [
+    76,
+    84,
+    133,
+    111,
+    150,
+    150,
+    150,
+    131
+   ],
+   "subjects": 975,
+   "relations": 134,
+   "with_rephrase": 985,
+   "with_personas": 985,
+   "subject_literal_in_rephrase": 0.9066,
+   "flagged": 9,
+   "reasons": {
+    "short_or_function": 2,
+    "not_in_question": 2,
+    "lead_function": 7
+   },
+   "loc_probe": 2000,
+   "loc_hidden": 6000,
+   "shots": 2,
+   "audit": [],
+   "text_overlap_with_dev_half": 53,
+   "overlap_parts": {
+    "edit_texts": 2,
+    "loc_probe": 13,
+    "loc_hidden": 38,
+    "shots": 0
+   },
+   "subjects_also_in_dev_streams": 35
+  },
+  "C7": {
+   "edits_uncapped": 1600,
+   "edits": 998,
+   "per_step": [
+    84,
+    102,
+    141,
+    109,
+    150,
+    150,
+    150,
+    112
+   ],
+   "subjects": 990,
+   "relations": 124,
+   "with_rephrase": 997,
+   "with_personas": 998,
+   "subject_literal_in_rephrase": 0.9218,
+   "flagged": 9,
+   "reasons": {
+    "short_or_function": 1,
+    "relation_phrase": 4,
+    "lead_function": 6,
+    "not_in_question": 1
+   },
+   "loc_probe": 2000,
+   "loc_hidden": 6000,
+   "shots": 2,
+   "audit": [],
+   "text_overlap_with_dev_half": 57,
+   "overlap_parts": {
+    "edit_texts": 2,
+    "loc_probe": 13,
+    "loc_hidden": 42,
+    "shots": 0
+   },
+   "subjects_also_in_dev_streams": 23
+  }
+ },
+ "relation_overlap_dev_confirm": 0
+}

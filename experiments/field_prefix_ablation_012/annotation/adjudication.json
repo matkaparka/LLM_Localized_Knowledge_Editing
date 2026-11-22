@@ -1,0 +1,3580 @@
+{
+"adjudicator": "two fresh Claude subagents, blind (brief + items only), 255 items each",
+"brief": "ADJUDICATION_BRIEF.md",
+"inputs": {
+"items_1": "11e4d8cc9a2d6e77e89a04e434c23161fac3a023f180cf1519b3adf651fac7ca",
+"items_2": "e5636e544c70daeec12cb8e9a58f31677adb63997ec775a0227b545d99e4ee75"
+},
+"decisions": [
+{
+"uid": "0:11661:d93ca15ec734",
+"decision": "B",
+"text": null,
+"note": "the election is part of the entity's name; 'Independent candidates' alone is generic",
+"batch": 1
+},
+{
+"uid": "0:22911:9ce669526b3c",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "0:26635:2f5c733dc348",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "0:26898:3fd33c067d66",
+"decision": "other",
+"text": "North Side of the Walls of Jerusalem",
+"note": "painting title 'Walls of Jerusalem, North Side' reworded; A names the walls",
+"batch": 1
+},
+{
+"uid": "0:7316:055858588672",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "1:18751:d4bbcc04aa74",
+"decision": "A",
+"text": null,
+"note": "A adds the parent air force (from the description); core name is 'Escuadrón Aéreo N.º 5'",
+"batch": 1
+},
+{
+"uid": "1:23841:ceed74646999",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "2:10943:45677b9356ea",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "2:34238:aae96b408fbf",
+"decision": "other",
+"text": "Rybnik metropolitan area",
+"note": "variant name of the Rybnik-Jastrzębie urban area; the first 'metropolitan area' is the asked class",
+"batch": 1
+},
+{
+"uid": "2:50960:51a92c96f58e",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "2:53103:12623ab8a34a",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "3:11120:964327ef107d",
+"decision": "other",
+"text": "Chistyakov/Chystiakov",
+"note": "question gives two spellings joined by a slash; B covers only one",
+"batch": 1
+},
+{
+"uid": "3:12983:d5ef882976e8",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "3:2098:dd232e657cfb",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "3:37092:92a8da091675",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "3:5400:9b7d80b86ef4",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "4:114624:14fadea52218",
+"decision": "other",
+"text": "عید آن سال\\u200cها",
+"note": "no labels; the question text contains a literal \\u200c escape, copied as is",
+"batch": 1
+},
+{
+"uid": "4:12199:e1ea3ac998cd",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "4:28871:b5eb04032e54",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "4:29820:4bdb74f70acb",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "4:31862:40bc115dc105",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "4:41636:f9d2135cbe03",
+"decision": "ambiguous",
+"text": null,
+"note": "entity is 'climate of Thailand'; the question refers to it only through 'climate ... Thailand', with no contiguous name",
+"batch": 1
+},
+{
+"uid": "4:62465:7dde56b7f352",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "4:82307:0a24d4172183",
+"decision": "other",
+"text": "Liyuan South Road station",
+"note": "A is truncated",
+"batch": 1
+},
+{
+"uid": "5:33037:6283526b0fb4",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "5:67234:84dadf2b3abb",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "5:68361:95d38d55314b",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "5:7521:806ee0a80160",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "5:92760:8b0972da2b6a",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "5:93761:b175f69be865",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:23457:75aeac02edec",
+"decision": "A",
+"text": null,
+"note": "episode title; the question treats it as something the show is associated with",
+"batch": 1
+},
+{
+"uid": "6:36983:e3648687af22",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:37872:1a9c1242e17f",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:38506:b3546a5ee3ef",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:39478:6e796199b64b",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:39733:1dcd3903de91",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:44323:37631c5929ea",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:4567:44a7c6ca210b",
+"decision": "A",
+"text": null,
+"note": "entity is the family name; the question wrongly frames Quito as a geographical entity",
+"batch": 1
+},
+{
+"uid": "6:54318:5023b4d66ae8",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:59638:50b11340a937",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:64079:7c3e465a43b9",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:1411:c25937175363",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:20388:b543dcbda2c3",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:25021:eff44e83ed96",
+"decision": "B",
+"text": null,
+"note": "'in Tokat' is the location",
+"batch": 1
+},
+{
+"uid": "7:26477:228f3b09e370",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:27753:0ed655ba7a70",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:30741:c8a5a6ef9720",
+"decision": "other",
+"text": "Analisis Dimensi & Similitud dalam Mekanik Bendalir",
+"note": "no labels; book title",
+"batch": 1
+},
+{
+"uid": "7:31460:49d299fec570",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:31498:3798606aa809",
+"decision": "other",
+"text": "Meja Runding - Dari Konflik ke Solusi Strategik",
+"note": "no labels; quotation marks left out",
+"batch": 1
+},
+{
+"uid": "7:31721:24c8829b398e",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:31796:4029bb97063b",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:31806:494810b598fd",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:39046:15b78ee61908",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:39161:8bdd1be2936d",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:39526:694ee7c65587",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:41378:3139c0a92b67",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:41565:ced697bdff3e",
+"decision": "B",
+"text": null,
+"note": "A names the parent house",
+"batch": 1
+},
+{
+"uid": "7:42189:93f3942c44ae",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:42746:c62fd948a525",
+"decision": "A",
+"text": null,
+"note": "the house is named Shanghai; the question misreads the name as a place and uses the address as subject",
+"batch": 1
+},
+{
+"uid": "7:42780:77807407527d",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:43292:587244e1cc1d",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:44049:5b71aee47b78",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:44190:d7ba9719fa03",
+"decision": "A",
+"text": null,
+"note": "the question's subject is the parent Balcarres House; the gardens are the entity",
+"batch": 1
+},
+{
+"uid": "7:44858:dea85f72fb5d",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:44956:5164403ba95b",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:47741:39323e80c2bc",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:48593:1f3ede1c461a",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:48921:8943325b495c",
+"decision": "other",
+"text": "Recreation Hall",
+"note": "A is the distillery (location)",
+"batch": 1
+},
+{
+"uid": "7:49768:27d95da173b1",
+"decision": "A",
+"text": null,
+"note": "question garbles the label: the gatepiers are the entity, Manse Tongue is their parent",
+"batch": 1
+},
+{
+"uid": "7:51088:75e18a3cca80",
+"decision": "other",
+"text": "Druimuan",
+"note": "A is the place",
+"batch": 1
+},
+{
+"uid": "7:51103:c527caf20ee7",
+"decision": "other",
+"text": "West Lodge",
+"note": "A is the parent castle",
+"batch": 1
+},
+{
+"uid": "7:51247:08d3c7a288dc",
+"decision": "A",
+"text": null,
+"note": "question inverts part and whole; the outbuilding is the entity",
+"batch": 1
+},
+{
+"uid": "7:52963:5ddf49766074",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "0:18710:9ce48fcf2791",
+"decision": "A",
+"text": null,
+"note": "title ends in '!?', so the final '?' doubles as the question mark",
+"batch": 1
+},
+{
+"uid": "0:22005:273996532c40",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "0:7873:1481b8687992",
+"decision": "other",
+"text": "Kazakhs in Altai Republic",
+"note": "A names the republic only",
+"batch": 1
+},
+{
+"uid": "1:20211:d9baf36b8c38",
+"decision": "other",
+"text": "قالب:Fb team abb Le Mans",
+"note": "no labels; template page; B is the club or city",
+"batch": 1
+},
+{
+"uid": "2:13533:549076902f76",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "2:13534:f0dae81d40e4",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "2:22682:91fb349f819e",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "2:32413:7dbf6ee63ce2",
+"decision": "B",
+"text": null,
+"note": "full title is 'The Trip: Created by Snow Patrol', but the question quotes only 'The Trip' and treats the rest as creator; A contains a stray quote",
+"batch": 1
+},
+{
+"uid": "2:41285:ce29f1b73a6c",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "2:7807:8955519ab3df",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "3:1085:c3c6c75b2770",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "3:29851:1c289688e4ee",
+"decision": "other",
+"text": "KK 드래프트 사건",
+"note": "Korean form of the Japanese label KKドラフト事件",
+"batch": 1
+},
+{
+"uid": "3:5082:e370457fb313",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "3:788:ca11e7de6955",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "4:25930:cdaa66f1917d",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "4:29759:311e5ee28883",
+"decision": "B",
+"text": null,
+"note": "Lithuanian-style form of the surname Грох",
+"batch": 1
+},
+{
+"uid": "4:78185:e7beffccf30f",
+"decision": "other",
+"text": "Kategorija:Proletarske brigade Narodnoosvobodilne vojske in partizanskih odredov Jugoslavije",
+"note": "no labels; category page name, quotation marks left out",
+"batch": 1
+},
+{
+"uid": "4:78192:4b5450c96d5b",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "5:12295:37ce05f2a300",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "5:19614:c8b9ff65f7b7",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "5:30130:9eec6eba98f5",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "5:84610:26fbdbfcc836",
+"decision": "other",
+"text": "Oranienbaumskiy Descent",
+"note": "transliteration variant of Oranienbaumsky Descent",
+"batch": 1
+},
+{
+"uid": "5:86779:86e8658c23b4",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:24471:e0fcb7472567",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:36394:96c500998fc3",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:37702:04b3b6386ed7",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:38083:d61aa5b66544",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:38440:ed5d92ac5f0f",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:39388:97a0a012d101",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:47614:b291aa10b2b6",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:66385:55009001475e",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:7390:59cd523d97a7",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:8651:8debfcf0e5be",
+"decision": "B",
+"text": null,
+"note": "'Metz universitet' later in the question looks like another label of the same university",
+"batch": 1
+},
+{
+"uid": "7:24265:513b85215a69",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:26369:9020103577b2",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:30883:a9f9b11528b5",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:31077:3a48b1241600",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:31089:51c69376d432",
+"decision": "other",
+"text": "Fundamentals of Explosive Chemistry",
+"note": "no labels; book title",
+"batch": 1
+},
+{
+"uid": "7:31947:dce76a8a0c14",
+"decision": "other",
+"text": "Sarah dan Anting-anting",
+"note": "B is truncated to 'Sarah'",
+"batch": 1
+},
+{
+"uid": "7:39191:3ff9c9b455f7",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:40446:d1f28724f064",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:41124:4350b54c3a0a",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:41173:5afa3726479e",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:41396:e1ef1135239c",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:41881:5c26fd95cb6b",
+"decision": "other",
+"text": "Manse",
+"note": "A is the place",
+"batch": 1
+},
+{
+"uid": "7:42378:d787199d85d5",
+"decision": "other",
+"text": "Bridge",
+"note": "A is the place",
+"batch": 1
+},
+{
+"uid": "7:46059:be612c479954",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:46925:79c636efb389",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:48721:12847a2f8c4e",
+"decision": "other",
+"text": "Shed",
+"note": "A is the parent steading",
+"batch": 1
+},
+{
+"uid": "7:49129:16d3a9d22088",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:50464:5b841ef8dec4",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:50914:f635199c9c12",
+"decision": "A",
+"text": null,
+"note": "the question renders the whole label as a list; Central Block is the structure itself",
+"batch": 1
+},
+{
+"uid": "7:51649:988a9455d612",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "0:1684:016d7871f214",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "0:17234:b4e1d7b965d2",
+"decision": "other",
+"text": "Nguyễn Đình Toàn",
+"note": "no labels; disambiguation page",
+"batch": 1
+},
+{
+"uid": "0:19895:69afc266c238",
+"decision": "other",
+"text": "Taipei Municipal Dali High School",
+"note": "A is only the generic head",
+"batch": 1
+},
+{
+"uid": "0:7211:ec6e1049cce3",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "1:16362:d3c9e3552b79",
+"decision": "other",
+"text": "Arise - A Celebration of Worship",
+"note": "A drops 'Arise -'",
+"batch": 1
+},
+{
+"uid": "1:17382:ba10e592759a",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "1:9220:054b73a7a5c2",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "2:41017:0a325b99dd2a",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "2:47836:a8e7093b2220",
+"decision": "B",
+"text": null,
+"note": "Latin title; labels are Aiace/Ajax",
+"batch": 1
+},
+{
+"uid": "3:15089:0c6bb03c4f95",
+"decision": "other",
+"text": "Mikhail Antonovskiy",
+"note": "transliteration variant",
+"batch": 1
+},
+{
+"uid": "4:113581:be949aa5fbcf",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "4:118501:d9f7212a3bfd",
+"decision": "other",
+"text": "main building of the University of Hamburg",
+"note": "A names the university, not its main building",
+"batch": 1
+},
+{
+"uid": "4:2252:3a49a7c65c8d",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "4:25782:46fef60b326c",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "4:29319:7fa8c0e09902",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "4:3624:840addbffb50",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "4:40811:2e765f04a91b",
+"decision": "other",
+"text": "singles event at the 1990 Geneva European Open",
+"note": "A names the tournament, not its singles event",
+"batch": 1
+},
+{
+"uid": "4:42431:c186b9675017",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "4:77560:726d3143332e",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "4:78112:bbea0b92985b",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "4:88775:85d2a49faafb",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "5:12382:d12fa1a271e5",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "5:30647:5aacf3130e6b",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "5:32650:914639f37918",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "5:40049:967717396dac",
+"decision": "A",
+"text": null,
+"note": "generic English label 'mountain' of an iconography element",
+"batch": 1
+},
+{
+"uid": "5:78716:72d8572d6d71",
+"decision": "other",
+"text": "MBC MOVIES배 7차 MSL 서바이버리그",
+"note": "no labels; tournament name",
+"batch": 1
+},
+{
+"uid": "5:79332:cbe26fb9eb97",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:36491:34cbb0002d5a",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:37228:783a68246256",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:37438:2ca2b9126db5",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:37899:79875c5f818b",
+"decision": "A",
+"text": null,
+"note": "B is the asked type, not the mention",
+"batch": 1
+},
+{
+"uid": "6:38413:3554d5146912",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:38557:0d732c23ec19",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:39366:37f61d3c13f0",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:39490:02aa00861a34",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:40220:b5fc9a707a94",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:47769:4dbb9eac3e35",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:54344:e53e7bbf5e2f",
+"decision": "other",
+"text": "Trofeo Luis Otero 1996",
+"note": "no labels",
+"batch": 1
+},
+{
+"uid": "6:63222:63595c9a29e6",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:63464:4d1223d6318a",
+"decision": "A",
+"text": null,
+"note": "question inverts the label: the gates are the entity, the church is their location",
+"batch": 1
+},
+{
+"uid": "6:64222:be119c295fb4",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:64594:b8bcf32fad58",
+"decision": "A",
+"text": null,
+"note": "'in Hillsborough Castle' is the location",
+"batch": 1
+},
+{
+"uid": "7:15334:db877997a771",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:18584:569211c449de",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:23020:a6bfeef58a6e",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:2486:3546cad1258f",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:30748:1469a294e988",
+"decision": "other",
+"text": "Anda Berkuasa Apabila…?",
+"note": "no labels; the title includes '…?', quotation marks left out",
+"batch": 1
+},
+{
+"uid": "7:31568:af7ca49d2094",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:31854:374e8ce56684",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:39032:74a99084f1c5",
+"decision": "other",
+"text": "24, 24A Dundonald Street",
+"note": "A is the city",
+"batch": 1
+},
+{
+"uid": "7:39836:65f81c02c702",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:40273:91f2211c7114",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:40291:4f2966adbcf8",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:4090:2ede1618c5ca",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:45210:2c35ac308606",
+"decision": "other",
+"text": "21, 22 and 23 Drummond Street",
+"note": "A is the city",
+"batch": 1
+},
+{
+"uid": "7:45632:56812c5cd63e",
+"decision": "other",
+"text": "Canbo Dovecot",
+"note": "misspelling of Cambo Dovecot",
+"batch": 1
+},
+{
+"uid": "7:48567:1bdc729698d6",
+"decision": "other",
+"text": "Waterside Creamery store",
+"note": "the entity is the store; A is the village, B the creamery",
+"batch": 1
+},
+{
+"uid": "7:49277:487ec6177247",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:49743:0b8703b09e8e",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:49877:fc426650bd38",
+"decision": "other",
+"text": "Burial Ground",
+"note": "A is the church",
+"batch": 1
+},
+{
+"uid": "7:50173:34470426ac89",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "0:14565:c63b73980510",
+"decision": "other",
+"text": "Parti de la Democratie Socialiste candidates in the 1998 Quebec provincial election",
+"note": "the election is part of the entity's name",
+"batch": 1
+},
+{
+"uid": "0:20155:d758bc78f043",
+"decision": "A",
+"text": null,
+"note": "'in Brno' is the location",
+"batch": 1
+},
+{
+"uid": "0:20663:c34f0e7b67d0",
+"decision": "other",
+"text": "Sekolah Dasar Swasta Merdeka",
+"note": "expanded form of SDS Merdeka",
+"batch": 1
+},
+{
+"uid": "0:25268:3ae83a1e8988",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "1:15776:776888d51ce9",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "1:23474:6c8b61fd7f65",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "2:1234:1c3701d71b57",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "2:17493:38a059a0af16",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "2:24548:da6ca244864c",
+"decision": "B",
+"text": null,
+"note": "label is 'GPS, V2: Orange Afternoons'; the question treats GPS as the creator",
+"batch": 1
+},
+{
+"uid": "2:34825:c2a204b87929",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "2:40054:b0bf271a917b",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "2:5057:a2f74838e2cb",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "2:50964:dd9b070e3355",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "3:13237:a0573b27cf6e",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "3:18333:d0c703465ff5",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "3:38448:157f134ad4da",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "3:910:5335a8dd70a5",
+"decision": "other",
+"text": "coat of arms of Ukraine",
+"note": "A is truncated",
+"batch": 1
+},
+{
+"uid": "4:1687:3196a161c8ac",
+"decision": "other",
+"text": "Kanxi radical 9 (⼈)",
+"note": "the question misspells Kangxi; A is partial",
+"batch": 1
+},
+{
+"uid": "4:34135:771db38b826d",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "4:39858:6fb0de32b4ff",
+"decision": "A",
+"text": null,
+"note": "shortened title",
+"batch": 1
+},
+{
+"uid": "4:40013:d6fbd6d11117",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "4:49221:18843c0a67ce",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "4:95641:ec25f8f38514",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "5:10281:30ff634b3ca6",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "5:30099:12d456847a4c",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "5:35581:907034036ec6",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "5:71092:47c2c5a6fa90",
+"decision": "A",
+"text": null,
+"note": "HD catalogue designation of the star",
+"batch": 1
+},
+{
+"uid": "5:87299:fee8669bb535",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "5:91663:1d6d3bc6c180",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:23157:a183fead924b",
+"decision": "other",
+"text": "visradaxili bölgü",
+"note": "only a Russian label is given; the Azerbaijani term is the only name in the question",
+"batch": 1
+},
+{
+"uid": "6:23448:aacae2d1b2e8",
+"decision": "B",
+"text": null,
+"note": "full title is '24 Views of Mt. Fuji, by Hokusai', but the question quotes only the first part and treats 'by Hokusai' as creator; A contains a stray quote",
+"batch": 1
+},
+{
+"uid": "6:36635:237b49edf13d",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:37350:9db20271015a",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:38198:94f0e9f1a660",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:38626:713ad6311897",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:39496:45cf17832364",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:40287:9ddc42d1bcfc",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:40461:aa7f2cbfe086",
+"decision": "other",
+"text": "solar eclipse on May 23, 864 BC",
+"note": "here the question names the eclipse in full, not only by its date",
+"batch": 1
+},
+{
+"uid": "6:40710:8f3d60b433a2",
+"decision": "A",
+"text": null,
+"note": "B is the asked type, not the mention",
+"batch": 1
+},
+{
+"uid": "6:43244:53427de7be9e",
+"decision": "other",
+"text": "list of summer schools of nature sciences",
+"note": "no labels",
+"batch": 1
+},
+{
+"uid": "6:47655:d1f5e0c3c29c",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "6:54094:8f279e7041f3",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:11373:92e26dc05b4d",
+"decision": "other",
+"text": "1991 Virginia Slims of Nashville singles",
+"note": "A names the tournament, not its singles event",
+"batch": 1
+},
+{
+"uid": "7:11380:93a11865341c",
+"decision": "other",
+"text": "1992 Fernleaf Butter Classic - Singles",
+"note": "A names the tournament, not its singles event",
+"batch": 1
+},
+{
+"uid": "7:21815:ee72d46b4b75",
+"decision": "other",
+"text": "New York-New Jersey Line War",
+"note": "A is truncated",
+"batch": 1
+},
+{
+"uid": "7:26427:adff224866f1",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:30978:2f4bd24eff71",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:31107:fb6e3e63fda7",
+"decision": "other",
+"text": "Great Work Great Career: Kerja Hebat Kerjaya Hebat",
+"note": "no labels; quotation marks left out",
+"batch": 1
+},
+{
+"uid": "7:31945:9b4460ab7239",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:37621:5ef6deb9f2c3",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:39309:8167a605141a",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:41155:db7641309a0f",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:42442:2afd68f49133",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:44919:0ced928ed5a4",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:45776:f3c59251264c",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:48562:b31ec2b43797",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "7:49434:e97444e604e4",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "0:11585:21abe82f86e1",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "0:25229:8d5d66c0411f",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "0:26238:5fcc9cf828e2",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "0:2757:3c569610342f",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "0:5256:918a4c8eb7c7",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "0:9198:2e5cbd63e1e1",
+"decision": "B",
+"text": null,
+"note": "garbled name in the question; A is a fragment",
+"batch": 1
+},
+{
+"uid": "1:1:b563e3248ed3",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "1:24028:e8dbc3d45884",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "2:11957:bcc97f19a2b7",
+"decision": "A",
+"text": null,
+"note": "'in Zoutleeuw' is the location",
+"batch": 1
+},
+{
+"uid": "2:14253:ff1ad2e38b26",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "2:16404:863379524c66",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 1
+},
+{
+"uid": "2:2338:4cf808677963",
+"decision": "other",
+"text": "Hibiscus sabdariff",
+"note": "misspelled form of Hibiscus sabdariffa",
+"batch": 2
+},
+{
+"uid": "2:2576:8ec77f488c6f",
+"decision": "B",
+"text": null,
+"note": "question's misspelling of 'tristitia'",
+"batch": 2
+},
+{
+"uid": "2:42683:22a439fb9d77",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "2:54176:cfcd6b428269",
+"decision": "other",
+"text": "Stranje-Imeno railway line",
+"note": "hyphen instead of en dash",
+"batch": 2
+},
+{
+"uid": "2:7312:f765651b9b8c",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "3:16113:0c75983449da",
+"decision": "A",
+"text": null,
+"note": "B is the series",
+"batch": 2
+},
+{
+"uid": "3:30492:b41df3b00e41",
+"decision": "other",
+"text": "Shōkai-ji",
+"note": "short form of 'Shōkai-ji Temple'",
+"batch": 2
+},
+{
+"uid": "3:38412:9f60dcb13f7f",
+"decision": "other",
+"text": "Jum Afrin",
+"note": "transliteration of Cum/Dżum with district Afrin attached as a unit; 'Jum' alone also defensible",
+"batch": 2
+},
+{
+"uid": "4:14681:dc9cb5d04d50",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "4:73857:aa75f64d5b7c",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "4:79560:cee40bb40b74",
+"decision": "A",
+"text": null,
+"note": "B is the club",
+"batch": 2
+},
+{
+"uid": "5:611:6928285ff09a",
+"decision": "none",
+"text": null,
+"note": "question is about Joel; the Korean conflict is not mentioned",
+"batch": 2
+},
+{
+"uid": "5:65872:ab4231f5f3b5",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "5:72364:b761049ce170",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "5:72585:107bfda045fd",
+"decision": "A",
+"text": null,
+"note": "'at Shanghai Jiao Tong University' left out as the parent institution",
+"batch": 2
+},
+{
+"uid": "5:77797:78f8cb1ce62e",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "5:77841:1c77ab613c14",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "5:80010:b83dd33c3ca0",
+"decision": "B",
+"text": null,
+"note": "title with parenthetical disambiguator",
+"batch": 2
+},
+{
+"uid": "5:80589:907bd6fba497",
+"decision": "other",
+"text": "Odobaša",
+"note": "no labels; possessive 's left out",
+"batch": 2
+},
+{
+"uid": "5:86337:593e3a40028a",
+"decision": "B",
+"text": null,
+"note": "Estonian name",
+"batch": 2
+},
+{
+"uid": "5:94367:955dbe936025",
+"decision": "B",
+"text": null,
+"note": "Slovak name of the category",
+"batch": 2
+},
+{
+"uid": "6:23632:80229eea8515",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:24459:cfb65a8f546f",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:25945:58a30e7594af",
+"decision": "other",
+"text": "Pontevedra City Council building",
+"note": "the building; 'Pontevedra City Council' alone is the organization",
+"batch": 2
+},
+{
+"uid": "6:37099:5faed914d85e",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:37607:ff2b2807695f",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:37666:b074b7ca46f2",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:37791:367b20da9ff1",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:37920:5d711d895949",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:38313:6c86b881d811",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:38969:402b18926edd",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:40403:7640ce7838a7",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:40683:a0f599889aeb",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:41266:90847da7cbc9",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:47446:b3e71f27bfae",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:47596:d54461dc436c",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:47748:c85944861662",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:49245:482429dd5c05",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:5781:e9dc08232b3e",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:61911:9bc6fb29d8fe",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:63377:c4e580448443",
+"decision": "A",
+"text": null,
+"note": "question inverts the relation; entity is the gate screen and lodges",
+"batch": 2
+},
+{
+"uid": "6:64052:5fa4c2dd1b5f",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:64699:f758f9cb78f5",
+"decision": "other",
+"text": "Masakr djece u Bakarevoj",
+"note": "Serbo-Croatian name",
+"batch": 2
+},
+{
+"uid": "6:68683:377f915c3b5c",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:13413:3dd529e34599",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:19783:1c0ef691d3fe",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:27014:d2f35ea7b10d",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:30520:615dd82fd4f7",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:30584:69712b07f269",
+"decision": "other",
+"text": "31 kisah Tokoh : Glob Dunia untuk Raja Sicily",
+"note": "no labels",
+"batch": 2
+},
+{
+"uid": "7:30839:f744ea12b043",
+"decision": "other",
+"text": "Berbicara Mengenai Kesihatan Reproduktif Remaja: Panduan untuk Ibu Bapa dan Guru",
+"note": "no labels",
+"batch": 2
+},
+{
+"uid": "7:39425:8b86e0020806",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:40287:c5a8fc459291",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:40722:84acb04bac1f",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:42764:4358031608b3",
+"decision": "B",
+"text": null,
+"note": "A is the place",
+"batch": 2
+},
+{
+"uid": "7:42824:e494a6d357c0",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:42909:8bf12bb1e2bb",
+"decision": "other",
+"text": "Manse",
+"note": "A is the place",
+"batch": 2
+},
+{
+"uid": "7:46237:76e9e40446f4",
+"decision": "other",
+"text": "26, 27, 28, 29 St Patrick Square",
+"note": "A is the place",
+"batch": 2
+},
+{
+"uid": "7:46401:ba7e039702a0",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:46604:b57485830ff8",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:47549:17d2a58ef4c2",
+"decision": "other",
+"text": "Sundial",
+"note": "A is the place",
+"batch": 2
+},
+{
+"uid": "7:47837:033f666720ad",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:47938:7cd6637d676a",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:48066:08426d95db12",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:48592:289fcfbca3a8",
+"decision": "B",
+"text": null,
+"note": "A is the address",
+"batch": 2
+},
+{
+"uid": "7:49017:19a174bc7b9b",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:49242:ab38eefdfd7e",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:49695:92ea308c0d8c",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:50274:9088dfb7617b",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "0:11655:59808df2f9d1",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "0:21470:2d1c30fad7da",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "0:21474:3d5a7efc6dce",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "0:21880:abbe19a805bd",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "0:23117:1edfcb4d68e8",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "0:26834:12c8bcedf785",
+"decision": "A",
+"text": null,
+"note": "title, used for the depicted scene; B is the class",
+"batch": 2
+},
+{
+"uid": "0:7221:e2b6fe7d7802",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "0:802:cd64307604fc",
+"decision": "B",
+"text": null,
+"note": "inverted name form",
+"batch": 2
+},
+{
+"uid": "1:14662:5a526bf841de",
+"decision": "B",
+"text": null,
+"note": "misspelled; '(Spain)' qualifier left out",
+"batch": 2
+},
+{
+"uid": "2:19439:006fd8358f30",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "2:39609:1909898e8d21",
+"decision": "other",
+"text": "2009 merger in the Salo region",
+"note": "A is the place",
+"batch": 2
+},
+{
+"uid": "2:40779:e76ad414490e",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "2:8267:6c809cb8f2e1",
+"decision": "other",
+"text": "Tertius quadrans",
+"note": "presumably a Latin name of the quarter; not among the given labels",
+"batch": 2
+},
+{
+"uid": "3:34354:fe5a64a83b33",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "4:100203:91b153754e01",
+"decision": "other",
+"text": "1967-68 season",
+"note": "A is the league",
+"batch": 2
+},
+{
+"uid": "4:107596:afd33555cdac",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "4:3741:0197fe9cf0e1",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "4:40643:e634ddb3629d",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "4:52830:78f310e1679b",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "4:91893:781a0e3ad053",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "4:91927:3cf2b07a6e4c",
+"decision": "other",
+"text": "1972 season",
+"note": "A is the club",
+"batch": 2
+},
+{
+"uid": "4:94296:709aa2752a62",
+"decision": "other",
+"text": "Malproksimaj Landoj Proksimaj Landoj",
+"note": "Esperanto title",
+"batch": 2
+},
+{
+"uid": "5:14530:19419bd5e32b",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "5:23039:ce40385282cf",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "5:42998:cf23a47f9ea2",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "5:79483:2f4ec6b74f52",
+"decision": "B",
+"text": null,
+"note": "Serbo-Croatian name",
+"batch": 2
+},
+{
+"uid": "5:91652:62a416932c00",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:12723:e0f88b792171",
+"decision": "A",
+"text": null,
+"note": "B lacks the closing quotation mark",
+"batch": 2
+},
+{
+"uid": "6:23512:64135008acef",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:38555:482ff2287b7c",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:38875:3797b4e989e2",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:39038:2f5ab401d49e",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:39696:178099c298c4",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:39821:486d39cce428",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:40109:e72fcfac8102",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:4103:f2699807bcf5",
+"decision": "B",
+"text": null,
+"note": "Esperanto name",
+"batch": 2
+},
+{
+"uid": "6:47715:587f3bf62247",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:49960:13c09c0763b9",
+"decision": "B",
+"text": null,
+"note": "Asturian name",
+"batch": 2
+},
+{
+"uid": "6:50279:56b01775178d",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:50281:b65a1791b5a4",
+"decision": "A",
+"text": null,
+"note": "'at Shanghai Jiao Tong University' left out as the parent institution",
+"batch": 2
+},
+{
+"uid": "7:13054:267c4621b1cb",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:26404:dd4e55547aa0",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:26996:84e246bed349",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:30574:e0c049616442",
+"decision": "other",
+"text": "31 Kisah Sahabat: Kamus Tuhan",
+"note": "no labels",
+"batch": 2
+},
+{
+"uid": "7:30653:32929e82326d",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:30749:0fc856eba442",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:41070:bdfa64b2325d",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:41253:2ba4ecffb6f0",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:43143:84faa693955f",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:43764:78968f8f23cc",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:43771:529a216d094f",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:44708:854b969469c3",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:46744:05c6efb1b2dc",
+"decision": "other",
+"text": "Old Field",
+"note": "A is the place",
+"batch": 2
+},
+{
+"uid": "7:48838:fdefb07493f7",
+"decision": "A",
+"text": null,
+"note": "question inverts the relation",
+"batch": 2
+},
+{
+"uid": "7:48965:9b62afd3b701",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:54331:d6f2d34cfbfe",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "0:17904:0ae196f78017",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "0:25243:eeb469d90b09",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "1:21567:9d3facba4b38",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "1:2556:b16f5b6d9d08",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "2:10612:53fe9537663a",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "2:49538:643fc3aedcbc",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "2:50116:ea07d908b0fa",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "2:50928:0b748a658fd4",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "2:54241:4e6432048e6b",
+"decision": "B",
+"text": null,
+"note": "spelling variant of McBirnie",
+"batch": 2
+},
+{
+"uid": "2:54243:726b78c8f5db",
+"decision": "B",
+"text": null,
+"note": "spelling variant of McBirnie",
+"batch": 2
+},
+{
+"uid": "3:10667:26207cd11d56",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "3:18615:4aa52175b192",
+"decision": "other",
+"text": "(+/-)-dihydroalprenolol",
+"note": "B is a partial token; stereodescriptor kept",
+"batch": 2
+},
+{
+"uid": "3:36154:5d0c51a1fe06",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "3:42755:9ff29ae99808",
+"decision": "other",
+"text": "season 5 of Bad Girls",
+"note": "A is the series",
+"batch": 2
+},
+{
+"uid": "4:111004:19d7e3927743",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "4:119645:52922bb463e2",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "4:51560:9d07edbcbdaa",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "4:94515:9076f29483b2",
+"decision": "other",
+"text": "Uživo's Split",
+"note": "garbled rendering of the title 'Uživo, Split'",
+"batch": 2
+},
+{
+"uid": "5:14651:19c1551af0b5",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "5:14810:e3268d6fba5d",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "5:57044:0b603b0a017c",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "5:61676:2b7ca2559233",
+"decision": "other",
+"text": "Pickin' On: The Grateful Dead - A Tribute",
+"note": "A truncates the title",
+"batch": 2
+},
+{
+"uid": "5:64019:99ad22c39877",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "5:65459:c06000e18e66",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "5:72373:5080a5f7a0bc",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "5:77879:f666ade19d61",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "5:95935:4e28648deb08",
+"decision": "B",
+"text": null,
+"note": "lowercase hyphenated spelling of UBR5",
+"batch": 2
+},
+{
+"uid": "6:18568:9f6e0f119578",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:19508:bed9171eea44",
+"decision": "other",
+"text": "Icarus and Daedalus",
+"note": "title in reversed order; question calls the sculpture 'the myth of'",
+"batch": 2
+},
+{
+"uid": "6:37434:3a523bdf736c",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:37809:3869b5d552cc",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:38304:1281b4aebfc5",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:38779:e296682aedf4",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:39077:9bb1d6571a75",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:40214:0894103e76a0",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:40647:f89ba0ff8b91",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:40859:32ef6d3b12d6",
+"decision": "B",
+"text": null,
+"note": "variant name (conde for condado)",
+"batch": 2
+},
+{
+"uid": "6:7253:21f2e58e7321",
+"decision": "A",
+"text": null,
+"note": "short Hungarian name",
+"batch": 2
+},
+{
+"uid": "7:13750:b8e1b11e904a",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:20908:7c927b46fe5e",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:30347:d13c27c6cec8",
+"decision": "other",
+"text": "Acción Agraria (Ortigueira)",
+"note": "no labels; title with parenthetical place",
+"batch": 2
+},
+{
+"uid": "7:30693:38ac396c9f27",
+"decision": "other",
+"text": "Agenda Yahudi Menakluki Dunia",
+"note": "no labels",
+"batch": 2
+},
+{
+"uid": "7:31378:244d49b705c6",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:31641:204149522c0a",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:31920:fb0214fcff29",
+"decision": "B",
+"text": null,
+"note": "final period of R'a. left out",
+"batch": 2
+},
+{
+"uid": "7:39327:7af650cbfd80",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:39338:af9d3f729e8e",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:42293:52ec86ff7d42",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:42933:0161e83ae328",
+"decision": "other",
+"text": "Gazebo",
+"note": "A is the place, B the house",
+"batch": 2
+},
+{
+"uid": "7:46114:43cb723f07f2",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:46381:c8247956496a",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:46746:7ea1476d3923",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:47677:8fbec275e2cd",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:48462:5cbb3a4e8229",
+"decision": "B",
+"text": null,
+"note": "A is the house",
+"batch": 2
+},
+{
+"uid": "7:48463:9d810c61c2d6",
+"decision": "B",
+"text": null,
+"note": "A is the house",
+"batch": 2
+},
+{
+"uid": "7:48725:24d5a433207b",
+"decision": "A",
+"text": null,
+"note": "question inverts the relation",
+"batch": 2
+},
+{
+"uid": "7:50292:0855be6b26a2",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:51650:500b05b193d3",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:7820:b7bfd20206e0",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:8792:7725601103a6",
+"decision": "A",
+"text": null,
+"note": "foundry's mark name",
+"batch": 2
+},
+{
+"uid": "0:12441:b5a6995db622",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "0:24283:18fdaf3a2e63",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "0:6101:430556b14a7f",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "0:8396:4655c4ed6ee0",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "1:10770:85344b41ec72",
+"decision": "B",
+"text": null,
+"note": "A is the creator",
+"batch": 2
+},
+{
+"uid": "1:24011:045a6e22e4b4",
+"decision": "B",
+"text": null,
+"note": "university is part of every label",
+"batch": 2
+},
+{
+"uid": "1:27926:cce153571a41",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "1:9987:64a39e3db885",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "2:42511:0524097e122f",
+"decision": "other",
+"text": "Linnamõis (City mansion)",
+"note": "Estonian name with English gloss; B is only the gloss",
+"batch": 2
+},
+{
+"uid": "3:17298:6afcabc52764",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "3:23828:3b98040a21a6",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "4:118304:2551bc2ef3df",
+"decision": "other",
+"text": "Labous ar wirionez",
+"note": "Breton title",
+"batch": 2
+},
+{
+"uid": "4:35629:ba21e2a53706",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "4:40667:ff1dbe8c40f5",
+"decision": "other",
+"text": "2000-01 KNVB Women's Cup",
+"note": "A names the cup, not the season",
+"batch": 2
+},
+{
+"uid": "4:65113:f69d8f252360",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "4:99034:d153cf18f516",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "5:1226:fe66791b15e7",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "5:29998:4e480f95f36a",
+"decision": "B",
+"text": null,
+"note": "Slovene name",
+"batch": 2
+},
+{
+"uid": "5:3719:f5ff06f00548",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "5:54:031cdb4af02f",
+"decision": "other",
+"text": "Vladimir Lenin",
+"note": "label-less duplicate item; question names it as Vladimir Lenin",
+"batch": 2
+},
+{
+"uid": "5:59042:e14a03a54763",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "5:72353:9de9435a019b",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "5:72430:2f591a1dcdb2",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "5:72593:85905d7d9616",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "5:80357:63977affc413",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "5:81750:4d81fbbb88ac",
+"decision": "other",
+"text": "Changdi Bu Yi Ethnic Township",
+"note": "A is a generic fragment",
+"batch": 2
+},
+{
+"uid": "6:12965:dd045f98b794",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:20737:88a60db67b35",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:25656:1769c10fd113",
+"decision": "other",
+"text": "Doctor Who: Series 4 (soundtrack)",
+"note": "A is the TV series; B lacks the closing parenthesis",
+"batch": 2
+},
+{
+"uid": "6:26557:ac4e973defce",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:37044:1eb20353672e",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:37244:fd86093ccafa",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:37473:150c42bd8d34",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:37775:0e7d33b69a71",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:38000:1a1206dd0f0a",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:38001:9df194d81e66",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:38429:1649e03a14b7",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:39167:aaf6928ff84e",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:39983:7163ac14922c",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:40103:453ac1900ad9",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:40127:a811d5a91fb9",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:48914:dddee77d2c36",
+"decision": "A",
+"text": null,
+"note": "station name; question treats it as a place",
+"batch": 2
+},
+{
+"uid": "6:54181:a565725939a7",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:54204:19480652f029",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "6:54275:c600caeaa06a",
+"decision": "other",
+"text": "Trofeo Cidade de Vigo 1988",
+"note": "no labels",
+"batch": 2
+},
+{
+"uid": "6:64654:eff87b516cf7",
+"decision": "other",
+"text": "241. sprečansko-muslimanska Ibr \"Gazije\" Kalesija",
+"note": "no labels; inner quotation marks are part of the name",
+"batch": 2
+},
+{
+"uid": "7:11951:a287e9178f2d",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:19571:ab2f886be26f",
+"decision": "A",
+"text": null,
+"note": "B is a word fragment",
+"batch": 2
+},
+{
+"uid": "7:24043:f5e17f2cb54d",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:29451:fe409d0493b1",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:31124:3375f8dfa629",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:31495:6461c804f271",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:31646:7bf61a43a0bc",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:31758:6b191a1d818b",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:39728:39faf3d167e5",
+"decision": "other",
+"text": "Burial Ground Extension of Birnie Parish Church",
+"note": "A is the church",
+"batch": 2
+},
+{
+"uid": "7:39781:07eb34a3029f",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:41412:3c4639a55520",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:41517:11705caa0722",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:42107:727df020cf19",
+"decision": "other",
+"text": "Stable Block",
+"note": "A is the castle",
+"batch": 2
+},
+{
+"uid": "7:42333:9cd2c43a9b64",
+"decision": "other",
+"text": "Kerbet House",
+"note": "A is the place",
+"batch": 2
+},
+{
+"uid": "7:44258:6e7366657815",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:44622:1647e1f55abf",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:49102:a1cc8d8a14d9",
+"decision": "A",
+"text": null,
+"note": "question inverts the relation",
+"batch": 2
+},
+{
+"uid": "7:49757:5b681a9a5f7d",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:50217:3284115b341b",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:51474:e213b53f3565",
+"decision": "A",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "1:16493:b72d5a7cbdec",
+"decision": "B",
+"text": null,
+"note": "A is the TV series",
+"batch": 2
+},
+{
+"uid": "2:9750:f106da46eb81",
+"decision": "A",
+"text": null,
+"note": "family name; question treats it as a company",
+"batch": 2
+},
+{
+"uid": "6:52123:d497e115eb3a",
+"decision": "B",
+"text": null,
+"note": "",
+"batch": 2
+},
+{
+"uid": "7:32069:c1b477abcbaf",
+"decision": "other",
+"text": "Steelwork Design Guide to BS5950-1:2000",
+"note": "no labels",
+"batch": 2
+},
+{
+"uid": "7:54183:bdea7654cfb4",
+"decision": "A",
+"text": null,
+"note": "B is truncated",
+"batch": 2
+}
+]
+}

@@ -1,0 +1,13 @@
+probes {'questions': 2000, 'positions': 34349}
+margin 0.02 step 0: upd 0.922 cur 0.833 ret None loc 0.973 r2w 1 raised 9 thr_mean 0.903
+margin 0.02 step 1: upd 0.987 cur 0.641 ret 0.68 loc 0.953 r2w 3 raised 9 thr_mean 0.905
+margin 0.02 step 2: upd 0.960 cur 0.810 ret 0.64 loc 0.969 r2w 3 raised 21 thr_mean 0.905
+margin 0.02 step 3: upd 0.960 cur 0.790 ret 0.613 loc 0.957 r2w 4 raised 15 thr_mean 0.905
+margin 0.02 step 4: upd 0.970 cur 0.630 ret 0.62 loc 0.949 r2w 4 raised 9 thr_mean 0.902
+loc damage {'base_right': 247, 'right_to_wrong': 4, 'fraction': 0.016194331983805668} forgetting {'learned_tracked': 73, 'right_to_wrong': 0, 'fraction': 0.0} 271s
+broken 4 with any firing entry 2
+ok 243 with any firing entry 1
+   ('In what language is CJRT-FM primarily broadcasted?', 'CHUO-FM', 'What language is predominantly used at CHUO-FM?')
+   ('What language is predominantly used at CILT-FM?', 'CHUO-FM', 'What language is predominantly used at CHUO-FM?')
+
+[exited with code 0]

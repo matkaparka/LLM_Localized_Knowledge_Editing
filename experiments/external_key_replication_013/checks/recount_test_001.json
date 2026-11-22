@@ -1,0 +1,367 @@
+{
+ "families": [
+  "cran",
+  "crates",
+  "hackage",
+  "homebrew",
+  "npm",
+  "nuget",
+  "packagist",
+  "pypi"
+ ],
+ "measured": [
+  "crates",
+  "hackage",
+  "homebrew",
+  "npm",
+  "nuget",
+  "packagist",
+  "pypi"
+ ],
+ "no_damage_measurement": [
+  "cran"
+ ],
+ "per_family": {
+  "cran": {
+   "known": 0,
+   "damage": {
+    "none": null,
+    "xr:matched": null,
+    "xr:shuffled:0": null,
+    "xr:shuffled:1": null,
+    "xr:shuffled:2": null,
+    "xr:shuffled:3": null,
+    "xr:shuffled:4": null,
+    "xr:shuffled:5": null,
+    "xr:shuffled:6": null,
+    "xr:shuffled:7": null,
+    "xr:uniform:0.88": null,
+    "xr:uniform:0.90": null,
+    "xr:uniform:0.92": null,
+    "xr:uniform:0.94": null,
+    "xr:uniform:0.96": null,
+    "xr:uniform:0.98": null
+   },
+   "shuffled_mean": null,
+   "measured": false,
+   "Q_matched": 0.1275,
+   "R_matched": 0.05142857142857143
+  },
+  "crates": {
+   "known": 502,
+   "damage": {
+    "none": 0.0,
+    "xr:matched": 0.01593625498007968,
+    "xr:shuffled:0": 0.055776892430278883,
+    "xr:shuffled:1": 0.05776892430278884,
+    "xr:shuffled:2": 0.055776892430278883,
+    "xr:shuffled:3": 0.053784860557768925,
+    "xr:shuffled:4": 0.055776892430278883,
+    "xr:shuffled:5": 0.05976095617529881,
+    "xr:shuffled:6": 0.055776892430278883,
+    "xr:shuffled:7": 0.061752988047808766,
+    "xr:uniform:0.88": 0.08964143426294821,
+    "xr:uniform:0.90": 0.06374501992031872,
+    "xr:uniform:0.92": 0.03187250996015936,
+    "xr:uniform:0.94": 0.01195219123505976,
+    "xr:uniform:0.96": 0.00199203187250996,
+    "xr:uniform:0.98": 0.0
+   },
+   "shuffled_mean": 0.05702191235059761,
+   "measured": true,
+   "Q_matched": 0.35125,
+   "R_matched": 0.1742857142857143,
+   "delta": 0.041085657370517926,
+   "delta_u": 0.04780876494023904
+  },
+  "hackage": {
+   "known": 346,
+   "damage": {
+    "none": 0.0,
+    "xr:matched": 0.02601156069364162,
+    "xr:shuffled:0": 1.0,
+    "xr:shuffled:1": 1.0,
+    "xr:shuffled:2": 1.0,
+    "xr:shuffled:3": 1.0,
+    "xr:shuffled:4": 1.0,
+    "xr:shuffled:5": 1.0,
+    "xr:shuffled:6": 0.9971098265895953,
+    "xr:shuffled:7": 1.0,
+    "xr:uniform:0.88": 1.0,
+    "xr:uniform:0.90": 1.0,
+    "xr:uniform:0.92": 0.9942196531791907,
+    "xr:uniform:0.94": 0.9566473988439307,
+    "xr:uniform:0.96": 0.7947976878612717,
+    "xr:uniform:0.98": 0.12138728323699421
+   },
+   "shuffled_mean": 0.9996387283236994,
+   "measured": true,
+   "Q_matched": 0.40375,
+   "R_matched": 0.17714285714285713,
+   "delta": 0.9736271676300579,
+   "delta_u": 0.9739884393063584
+  },
+  "homebrew": {
+   "known": 42,
+   "damage": {
+    "none": 0.0,
+    "xr:matched": 0.023809523809523808,
+    "xr:shuffled:0": 0.16666666666666666,
+    "xr:shuffled:1": 0.09523809523809523,
+    "xr:shuffled:2": 0.19047619047619047,
+    "xr:shuffled:3": 0.14285714285714285,
+    "xr:shuffled:4": 0.16666666666666666,
+    "xr:shuffled:5": 0.16666666666666666,
+    "xr:shuffled:6": 0.19047619047619047,
+    "xr:shuffled:7": 0.16666666666666666,
+    "xr:uniform:0.88": 0.23809523809523808,
+    "xr:uniform:0.90": 0.16666666666666666,
+    "xr:uniform:0.92": 0.023809523809523808,
+    "xr:uniform:0.94": 0.023809523809523808,
+    "xr:uniform:0.96": 0.0,
+    "xr:uniform:0.98": 0.0
+   },
+   "shuffled_mean": 0.1607142857142857,
+   "measured": true,
+   "Q_matched": 0.355,
+   "R_matched": 0.27714285714285714,
+   "delta": 0.13690476190476192,
+   "delta_u": 0.14285714285714285
+  },
+  "npm": {
+   "known": 2361,
+   "damage": {
+    "none": 0.0,
+    "xr:matched": 0.02244811520542143,
+    "xr:shuffled:0": 0.952562473528166,
+    "xr:shuffled:1": 0.9479034307496823,
+    "xr:shuffled:2": 0.9483269800931808,
+    "xr:shuffled:3": 0.951715374841169,
+    "xr:shuffled:4": 0.952562473528166,
+    "xr:shuffled:5": 0.26132994493858536,
+    "xr:shuffled:6": 0.9512918254976704,
+    "xr:shuffled:7": 0.915713680643795,
+    "xr:uniform:0.88": 0.9720457433290979,
+    "xr:uniform:0.90": 0.950021177467175,
+    "xr:uniform:0.92": 0.8326980093180856,
+    "xr:uniform:0.94": 0.7090216010165185,
+    "xr:uniform:0.96": 0.5260482846251588,
+    "xr:uniform:0.98": 0.009741634900465904
+   },
+   "shuffled_mean": 0.8601757729775519,
+   "measured": true,
+   "Q_matched": 0.51375,
+   "R_matched": 0.4,
+   "delta": 0.8377276577721304,
+   "delta_u": 0.9275730622617535
+  },
+  "nuget": {
+   "known": 280,
+   "damage": {
+    "none": 0.0,
+    "xr:matched": 0.10714285714285714,
+    "xr:shuffled:0": 0.3535714285714286,
+    "xr:shuffled:1": 0.3392857142857143,
+    "xr:shuffled:2": 0.3678571428571429,
+    "xr:shuffled:3": 0.3892857142857143,
+    "xr:shuffled:4": 0.3464285714285714,
+    "xr:shuffled:5": 0.3,
+    "xr:shuffled:6": 0.3892857142857143,
+    "xr:shuffled:7": 0.3892857142857143,
+    "xr:uniform:0.88": 0.4392857142857143,
+    "xr:uniform:0.90": 0.3964285714285714,
+    "xr:uniform:0.92": 0.3821428571428571,
+    "xr:uniform:0.94": 0.34285714285714286,
+    "xr:uniform:0.96": 0.175,
+    "xr:uniform:0.98": 0.11071428571428571
+   },
+   "shuffled_mean": 0.359375,
+   "measured": true,
+   "Q_matched": 0.42625,
+   "R_matched": 0.3942857142857143,
+   "delta": 0.25223214285714285,
+   "delta_u": 0.2892857142857143
+  },
+  "packagist": {
+   "known": 1957,
+   "damage": {
+    "none": 0.0,
+    "xr:matched": 0.030148185998978026,
+    "xr:shuffled:0": 0.15687276443536025,
+    "xr:shuffled:1": 0.12876852324987226,
+    "xr:shuffled:2": 0.1318344404701073,
+    "xr:shuffled:3": 0.13949923352069493,
+    "xr:shuffled:4": 0.1548288196218702,
+    "xr:shuffled:5": 0.1369443025038324,
+    "xr:shuffled:6": 0.11548288196218702,
+    "xr:shuffled:7": 0.16964741951967297,
+    "xr:uniform:0.88": 0.2120592743995912,
+    "xr:uniform:0.90": 0.16198262646908534,
+    "xr:uniform:0.92": 0.10884006131834441,
+    "xr:uniform:0.94": 0.056719468574348494,
+    "xr:uniform:0.96": 0.03525804803270312,
+    "xr:uniform:0.98": 0.0030659172202350538
+   },
+   "shuffled_mean": 0.14173479816044968,
+   "measured": true,
+   "Q_matched": 0.315,
+   "R_matched": 0.19428571428571428,
+   "delta": 0.11158661216147164,
+   "delta_u": 0.1318344404701073
+  },
+  "pypi": {
+   "known": 607,
+   "damage": {
+    "none": 0.0,
+    "xr:matched": 0.018121911037891267,
+    "xr:shuffled:0": 0.04612850082372323,
+    "xr:shuffled:1": 0.04942339373970346,
+    "xr:shuffled:2": 0.042833607907743,
+    "xr:shuffled:3": 0.03789126853377265,
+    "xr:shuffled:4": 0.04942339373970346,
+    "xr:shuffled:5": 0.047775947281713346,
+    "xr:shuffled:6": 0.044481054365733116,
+    "xr:shuffled:7": 0.039538714991762765,
+    "xr:uniform:0.88": 0.06589785831960461,
+    "xr:uniform:0.90": 0.04942339373970346,
+    "xr:uniform:0.92": 0.03130148270181219,
+    "xr:uniform:0.94": 0.018121911037891267,
+    "xr:uniform:0.96": 0.008237232289950576,
+    "xr:uniform:0.98": 0.0016474464579901153
+   },
+   "shuffled_mean": 0.04468698517298188,
+   "measured": true,
+   "Q_matched": 0.21,
+   "R_matched": 0.1,
+   "delta": 0.02656507413509061,
+   "delta_u": 0.03130148270181219
+  }
+ },
+ "means": {
+  "delta": 0.3399612962615962,
+  "delta_u": 0.36352129240330394,
+  "q": 0.07740234375,
+  "r": 0.08361607142857143,
+  "q_u": 0.0553125,
+  "r_u": 0.07071428571428572,
+  "shuffled_damage": 0.37476392609993797,
+  "matched_damage": 0.034802629838341856
+ },
+ "leave_one_out": {
+  "crates": 0.38977390274344254,
+  "hackage": 0.23435031770018588,
+  "homebrew": 0.37380405198773525,
+  "npm": 0.25700023600984045,
+  "nuget": 0.3545828218290051,
+  "packagist": 0.37802374361161695,
+  "pypi": 0.3921939999493471
+ },
+ "concentration": {
+  "cran": {
+   "damaged": 0,
+   "top_k": 10,
+   "numerator": 0,
+   "share": null
+  },
+  "crates": {
+   "damaged": 32,
+   "top_k": 10,
+   "numerator": 16,
+   "share": 0.5
+  },
+  "hackage": {
+   "damaged": 346,
+   "top_k": 10,
+   "numerator": 346,
+   "share": 1.0
+  },
+  "homebrew": {
+   "damaged": 7,
+   "top_k": 10,
+   "numerator": 7,
+   "share": 1.0
+  },
+  "npm": {
+   "damaged": 2243,
+   "top_k": 10,
+   "numerator": 2241,
+   "share": 0.9991083370485956
+  },
+  "nuget": {
+   "damaged": 111,
+   "top_k": 10,
+   "numerator": 62,
+   "share": 0.5585585585585585
+  },
+  "packagist": {
+   "damaged": 317,
+   "top_k": 10,
+   "numerator": 132,
+   "share": 0.416403785488959
+  },
+  "pypi": {
+   "damaged": 30,
+   "top_k": 10,
+   "numerator": 19,
+   "share": 0.6333333333333333
+  }
+ },
+ "concentration_matches": true,
+ "mechanism_gate": {
+  "passed": true,
+  "mean_delta": 0.3399612962615962,
+  "ci": [
+   0.09631879476521729,
+   0.6251780568829408
+  ],
+  "positive": 7,
+  "needed": 6,
+  "q_diff": 0.07740234375,
+  "r_diff": 0.08361607142857143
+ },
+ "practical_gate": {
+  "passed": true,
+  "mean_delta": 0.36352129240330394,
+  "ci": [
+   0.10991237661548217,
+   0.6524133293981268
+  ],
+  "positive": 7,
+  "needed": 6,
+  "q_diff": 0.0553125,
+  "r_diff": 0.07071428571428572
+ },
+ "gates_match": {
+  "mechanism": true,
+  "practical": true
+ },
+ "no_damage_matches": true,
+ "bootstrap": {
+  "delta": {
+   "recount": [
+    0.09631879476521729,
+    0.6251780568829408
+   ],
+   "analysis": [
+    0.09402660915327415,
+    0.6160299366994524
+   ],
+   "max_diff": 0.009148120183488428
+  },
+  "delta_u": {
+   "recount": [
+    0.10991237661548217,
+    0.6524133293981268
+   ],
+   "analysis": [
+    0.1055936508060086,
+    0.6441587761137451
+   ],
+   "max_diff": 0.008254553284381738
+  }
+ },
+ "bootstrap_reps": 2000,
+ "tuning_selected": "uniform:0.90",
+ "tuning_matches_config": true,
+ "max_abs_diff": 0.0
+}

@@ -1,0 +1,15 @@
+{
+ "pypi": "test",
+ "npm": "test",
+ "crates": "test",
+ "cran": "test",
+ "nuget": "test",
+ "packagist": "test",
+ "hackage": "test",
+ "homebrew": "test",
+ "pypi_dev": "dev",
+ "npm_dev": "dev",
+ "crates_dev": "dev",
+ "cran_dev": "dev",
+ "crates_debug": "debug"
+}

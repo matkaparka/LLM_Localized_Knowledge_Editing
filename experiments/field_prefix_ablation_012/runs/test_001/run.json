@@ -1,0 +1,36 @@
+{
+ "command": "run",
+ "phase": "test",
+ "config": "config_test.json",
+ "config_sha256": "5fb43c8cb3dbb60c1fd94aae996c217a942952c1049c0ebd7881151c612f58af",
+ "started": "2026-11-21T09:59:33Z",
+ "code": {
+  "fp12": {
+   "fp_data.py": "ffc7d777fc6aba6175e44f3577e0997ca93a6e005678fd846918a54d9670c62a",
+   "fp_core.py": "c6bde53fce07a02088db684c2bf5c38938ca2b752788a8ee54881c5018e22b67",
+   "fp_run.py": "9dcb19b64d14400997de9233fa541d24e37c06001a04f660ea50bbe75e36ed18",
+   "fp_analysis.py": "51d783b80bbafbd374c1469d1aff5fdf9a2f59dbcb24e78c770ec135f93af8c9"
+  },
+  "ec11": {
+   "ec_eval.py": "af8c6fbc5bf22c0e480887fe6aaf140f7095b6047c25b1c56da483e20f3e922c",
+   "ec_data.py": "d56b51b6215d949fc597d2f3e4389f638a1ed6c32aa9730d3e2ef42f796fc73f"
+  },
+  "kt10": {
+   "kt_core.py": "e52f3cac81b072d475aa27e39b12fe5106c13dacce8d6234090c2df967df9bfd"
+  },
+  "rv09": {
+   "rv_editor.py": "73f66b0ddc2c19c3b29fe1ab9fe106355b8729e42ba05668cd2bb21924ef37cb",
+   "rv_policy.py": "e2610cd99251fbff407cea1f9d568329a6c142426a5abe91aa090b452a031c40"
+  },
+  "so08": {
+   "so_data.py": "0e985c427a606817c21329a356909e91dd5bcbf6132f576684fc0a0c606b11d3",
+   "so_model.py": "389db12345fc7872ed924d57c08036d0168c7e055842d9b9951b8d7fd2a2cf93",
+   "so_policy.py": "aeffbebaf686fa40460f71c6c1416605b5741a148a3285e6f231f540142b9fc0"
+  }
+ },
+ "env_overrides": {
+  "RV_DATA_DIR": "/workspace/data/wikibigedit",
+  "RV_MODEL_PATH": "/workspace/models/qwen3_0.6b_base"
+ },
+ "spans_sha256": "53b16cd9178452da3b1d1925da1b7ca298820e8afdeff99b405d32750b6da8d6"
+}

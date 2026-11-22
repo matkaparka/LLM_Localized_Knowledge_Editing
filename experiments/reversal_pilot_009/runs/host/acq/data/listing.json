@@ -1,0 +1,64 @@
+{
+  "repo": "lukasthede/WikiBigEdit",
+  "repo_type": "dataset",
+  "revision": "8ddfff0ada5496ce1f0a4989b7a49dd0546be010",
+  "endpoint": "https://huggingface.co",
+  "license": "apache-2.0",
+  "listed_utc": "2026-11-18T13:11:14.646162+00:00",
+  "files": [
+    {
+      "name": "README.md",
+      "size": 5802,
+      "blob_id": "e0f66114da3851b2476b57ce4f6ca3901e762ffd",
+      "lfs_sha256": null
+    },
+    {
+      "name": "wiki_big_edit_20240201_20240220.json",
+      "size": 19462537,
+      "blob_id": "6720cb54f92b7d65e487f920cc19cd9e9df1689e",
+      "lfs_sha256": "f84a08a388b5455e626f49e97f8db47174ce10343645fe9238fe536502868424"
+    },
+    {
+      "name": "wiki_big_edit_20240220_20240301.json",
+      "size": 21333627,
+      "blob_id": "18ef99f0c558345f57017710c9a6d71cbc748243",
+      "lfs_sha256": "066ea156f92b3331651b3bf99ce0d42d54c315a9b4738a093f0dde9d9bd3a3cd"
+    },
+    {
+      "name": "wiki_big_edit_20240301_20240320.json",
+      "size": 39439275,
+      "blob_id": "47731a86728c68df9165a1ab87f5aef50be5c44e",
+      "lfs_sha256": "bd37dee1615423f227aadc0e66c6ff271f132141cc1e2c68499ffdd03e29a812"
+    },
+    {
+      "name": "wiki_big_edit_20240320_20240401.json",
+      "size": 31339379,
+      "blob_id": "6f886372d081d9257f624d1655abdb94c06fce4d",
+      "lfs_sha256": "55332232d064fd19de9004e87180c71b7757c6ecff989e096b6ba2dd178053be"
+    },
+    {
+      "name": "wiki_big_edit_20240401_20240501.json",
+      "size": 88519551,
+      "blob_id": "ba0b752bdc95071be8728e315422aaf96a2507cb",
+      "lfs_sha256": "e62bb7ce764e4eebcd17b9a72db1c2526a7e987fb0aa5ed0100cac0eb0afa5c5"
+    },
+    {
+      "name": "wiki_big_edit_20240501_20240601.json",
+      "size": 74356545,
+      "blob_id": "0cc521b81f02cb7c07976cbb9ee69777070a04d7",
+      "lfs_sha256": "cddbdd08aa32f96b3be6d6216fcb53798d8790b01360e7c3ca8209e71abe4da2"
+    },
+    {
+      "name": "wiki_big_edit_20240601_20240620.json",
+      "size": 52407568,
+      "blob_id": "53a318f879ac55d981f2d920c3a7d7fc1f566087",
+      "lfs_sha256": "c3e99321a2a1c7444c32af6b73938c97984c5fc19dfba03b1513a2c77608701b"
+    },
+    {
+      "name": "wiki_big_edit_20240620_20240701.json",
+      "size": 41327381,
+      "blob_id": "575b0e0d9204f789d91e6b90f088eafbe498d692",
+      "lfs_sha256": "806c18fad3353afc4f8994e388f686b074bfa88b0b0cce68fe64e366b9c1a4b0"
+    }
+  ]
+}

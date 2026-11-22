@@ -1,0 +1,251 @@
+{
+ "status": "FROZEN 2026-11-20 before any EC-11 model run, by Claude on the author's 'Yes, freeze and build' (objective and opponent list of PLAN.md sections 1 and 3 confirmed). Code and 18 CPU tests (test_ec.py) finished first. config_test.json is filled from the dev run by `ec_run.py tune` and frozen before any test stream is run.",
+ "data_dir": "E:/research/pause2/data/wikibigedit",
+ "expect_steps": 8,
+ "model_path": "E:/research/pause2/models/qwen3_0.6b_base",
+ "dtype": "bfloat16",
+ "torch_seed": 0,
+ "sites": [
+  "model.layers.{i}.mlp.down_proj"
+ ],
+ "layers": "all",
+ "rank": 16,
+ "scale": 1.0,
+ "clip": 1.0,
+ "streams": {
+  "args": {
+   "n_pilot": 2,
+   "n_dev": 8,
+   "edits_per_stream": 1600,
+   "loc_probe": 2000,
+   "loc_hidden": 6000,
+   "n_shots": 2
+  },
+  "loc_hidden_eval": 12000,
+  "cap": 150,
+  "dev": {
+   "half": "dev",
+   "names": [
+    "D0",
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7"
+   ]
+  },
+  "test": {
+   "half": "confirm",
+   "names": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7"
+   ]
+  },
+  "smoke": {
+   "half": "confirm",
+   "names": [
+    "CP0"
+   ],
+   "cap": 12,
+   "loc_candidates": 1000,
+   "order_check": true
+  },
+  "mu_corpus": {
+   "buckets": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "n": 20000
+  }
+ },
+ "eval": {
+  "widths": [
+   96,
+   128,
+   192,
+   256,
+   384
+  ],
+  "batch": 64,
+  "max_new": 24
+ },
+ "local": {
+  "mode": "route",
+  "layers": [
+   8
+  ],
+  "tau": 0.9,
+  "probe_margin": 0.02,
+  "massive": 200.0,
+  "v_steps": 25,
+  "v_lr": 0.5,
+  "v_wd": 0.5,
+  "clamp": 0.75,
+  "kl": 0.0625,
+  "stop_loss": 0.05,
+  "n_rand": 2,
+  "rand_len": 10,
+  "use_context": true,
+  "chunk": 32,
+  "key_batch": 64
+ },
+ "write_seed": 0,
+ "kt_default": "kt:2000:0.02:0.90",
+ "arms": {
+  "smoke": [
+   "none",
+   "kt:250:0.02:0.90",
+   "kt:500:0.02:0.90",
+   "kt:1000:0.02:0.90",
+   "kt:2000:0.02:0.90",
+   "kt:2000:0.00:0.90",
+   "kt:2000:0.04:0.90",
+   "kt:2000:0.02:0.88",
+   "kt:2000:0.02:0.92",
+   "kthyg:2000:0.02:0.90",
+   "kthyg:250:0.02:0.90",
+   "hyg:0.88",
+   "hyg:0.90",
+   "hyg:0.92",
+   "hyg:0.94",
+   "hyg:0.96",
+   "hyg:0.98",
+   "rad:0.88",
+   "rad:0.90",
+   "rad:0.92",
+   "rad:0.94",
+   "rad:0.96",
+   "grace:8:s0.05",
+   "grace:8:s0.1",
+   "grace:8:s0.2",
+   "grace:8:s0.35",
+   "grace:8:s0.5",
+   "grace:8:s0.75",
+   "grace:8:s1.0",
+   "grace:8:a1.0",
+   "grace:18:s0.05",
+   "grace:18:s0.1",
+   "grace:18:s0.2",
+   "grace:18:s0.35",
+   "grace:18:s0.5",
+   "grace:18:s0.75",
+   "grace:18:s1.0",
+   "grace:18:a1.0",
+   "rag:always:2",
+   "rag:1:0.5",
+   "rag:1:0.6",
+   "rag:1:0.7",
+   "rag:1:0.8",
+   "rag:2:0.5",
+   "rag:2:0.6",
+   "rag:2:0.7",
+   "rag:2:0.8",
+   "ragp:0.00",
+   "ragp:0.05"
+  ],
+  "dev": [
+   "none",
+   "kt:250:0.02:0.90",
+   "kt:500:0.02:0.90",
+   "kt:1000:0.02:0.90",
+   "kt:2000:0.02:0.90",
+   "kt:2000:0.00:0.90",
+   "kt:2000:0.04:0.90",
+   "kt:2000:0.02:0.88",
+   "kt:2000:0.02:0.92",
+   "kthyg:2000:0.02:0.90",
+   "kthyg:250:0.02:0.90",
+   "hyg:0.88",
+   "hyg:0.90",
+   "hyg:0.92",
+   "hyg:0.94",
+   "hyg:0.96",
+   "hyg:0.98",
+   "rad:0.88",
+   "rad:0.90",
+   "rad:0.92",
+   "rad:0.94",
+   "rad:0.96",
+   "grace:8:s0.05",
+   "grace:8:s0.1",
+   "grace:8:s0.2",
+   "grace:8:s0.35",
+   "grace:8:s0.5",
+   "grace:8:s0.75",
+   "grace:8:s1.0",
+   "grace:8:a1.0",
+   "grace:18:s0.05",
+   "grace:18:s0.1",
+   "grace:18:s0.2",
+   "grace:18:s0.35",
+   "grace:18:s0.5",
+   "grace:18:s0.75",
+   "grace:18:s1.0",
+   "grace:18:a1.0",
+   "rag:always:2",
+   "rag:1:0.5",
+   "rag:1:0.6",
+   "rag:1:0.7",
+   "rag:1:0.8",
+   "rag:2:0.5",
+   "rag:2:0.6",
+   "rag:2:0.7",
+   "rag:2:0.8",
+   "ragp:0.00",
+   "ragp:0.05"
+  ],
+  "test": null
+ },
+ "grace": {
+  "n_iter": 50,
+  "edit_lr": 1.0,
+  "chunk": 32,
+  "seed": 0
+ },
+ "rag": {
+  "model_path": "E:/research/pause2/models/all_mpnet_base_v2",
+  "hub": "sentence-transformers/all-mpnet-base-v2",
+  "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+  "model_safetensors_sha256": "78c0197b6159d92658e319bc1d72e4c73a9a03dd03815e70e555c5ef05615658",
+  "license": "apache-2.0",
+  "max_len": 384,
+  "batch": 64,
+  "probe_floor": 0.5
+ },
+ "objective": {
+  "primary": "final_rephrase_coverage",
+  "cap": 0.02,
+  "delta_q": 0.03,
+  "cap_tol": 0.005,
+  "guard_tol": 0.01,
+  "min_positive_streams": 6,
+  "bootstrap": 10000,
+  "bootstrap_seed": 0,
+  "frontier_caps": [
+   0.01,
+   0.02,
+   0.04
+  ]
+ },
+ "timing": {
+  "stream": "C0",
+  "n64": 512,
+  "n1": 64,
+  "repeats": 3
+ },
+ "budget": {
+  "dev_session_usd": 3.5,
+  "test_session_usd": 3.5,
+  "gpu_hours_estimate": 9
+ }
+}

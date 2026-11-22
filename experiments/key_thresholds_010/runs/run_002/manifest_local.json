@@ -1,0 +1,14 @@
+{
+ "note": "Written on the laptop on 2026-11-20 after the cloud provider ended the rented instance at its contract end date (04:14:59Z), so the run never wrote its own manifest.json. Stream files D0-D6 were copied to the laptop (size-checked) before the stop; D7 was rerun as run_003_D7. analysis.json is a laptop output and is not listed.",
+ "files": {
+  "stream_D0.json.gz": "cbbaeee76cfbad93e7dca2f400c3e3702df9304ecf55662d12f0caf5aa10231d",
+  "stream_D1.json.gz": "66bbe7c5491ee429e36d5b199d0d08974f65f9dbcfd61b746038c7a0140c181f",
+  "stream_D2.json.gz": "b4c548e3ad246657addca788f4f43fd410fdeac98511e42815acf2fcba77a3b1",
+  "stream_D3.json.gz": "dff2be187c8aca2663a63310d8ce112ceaa4ecf6fb4485bda7faf5278e451f14",
+  "stream_D4.json.gz": "1af830debe41fd2eca37d0827d760f0da5b42a4acca21fc98975676ae4a9f7e4",
+  "stream_D5.json.gz": "01887fa025729ffb591c6d1c91894dfac0d2f40caee43ac9eed9cd409229f2c5",
+  "stream_D6.json.gz": "a3eb1f32bd67405418378333d4e1fa68489aec8972c94eda18b9cbfd392f8973",
+  "config.json": "b34b1d6157cd3b0388f18669a0189749622c7bfc1aeda456319c7cb548776b24",
+  "run.json": "6a740a9aa6c44cf51fcdb794c128b0f70ee239ed407cb4b3bbe2ade678067b81"
+ }
+}

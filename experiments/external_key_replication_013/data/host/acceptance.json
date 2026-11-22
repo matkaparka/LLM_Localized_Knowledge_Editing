@@ -1,0 +1,32 @@
+{
+ "lines": {
+  "extraction_anchor": 0.9,
+  "max_refused": 0.1,
+  "min_known": 300,
+  "min_update": 0.8
+ },
+ "values": {
+  "extraction_anchor": 0.9951156812339331,
+  "refused_share": 0.003586065573770492,
+  "mean_known": 904,
+  "update_after_write": 0.8234375
+ },
+ "checks": {
+  "extraction_anchor": true,
+  "refused": true,
+  "old_facts": true,
+  "learning": true
+ },
+ "passed": true,
+ "precision": {
+  "dev_delta_per_stream": {
+   "cran_dev": 1.0,
+   "crates_dev": 0.0441747572815534,
+   "npm_dev": 0.811698386429458,
+   "pypi_dev": 0.040812591508052706
+  },
+  "dev_delta_mean": 0.474171433804766,
+  "dev_delta_sd": 0.5043534318950031,
+  "half_width_8": 0.421717022862563
+ }
+}
