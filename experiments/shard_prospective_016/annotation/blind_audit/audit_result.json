@@ -1,0 +1,558 @@
+{
+ "rows": 140,
+ "problems": [],
+ "agreement": {
+  "all": {
+   "main": {
+    "k": 114,
+    "n": 126,
+    "rate": 0.9047619047619048,
+    "ci": [
+     0.8408950435861884,
+     0.9446783847996609
+    ],
+    "ambiguous": 14,
+    "blank": 0
+   },
+   "author": {
+    "k": 117,
+    "n": 126,
+    "rate": 0.9285714285714286,
+    "ci": [
+     0.8698147736376256,
+     0.9619688564179797
+    ],
+    "ambiguous": 14,
+    "blank": 0
+   }
+  },
+  "S1_damage_pair": {
+   "main": {
+    "k": 76,
+    "n": 76,
+    "rate": 1.0,
+    "ci": [
+     0.9518864142123544,
+     0.9999999999999998
+    ],
+    "ambiguous": 4,
+    "blank": 0
+   },
+   "author": {
+    "k": 74,
+    "n": 76,
+    "rate": 0.9736842105263158,
+    "ci": [
+     0.9090337882637136,
+     0.992753340990096
+    ],
+    "ambiguous": 4,
+    "blank": 0
+   }
+  },
+  "S2_matched_repaired": {
+   "main": {
+    "k": 10,
+    "n": 10,
+    "rate": 1.0,
+    "ci": [
+     0.7224671969739421,
+     0.9999999999999999
+    ],
+    "ambiguous": 0,
+    "blank": 0
+   },
+   "author": {
+    "k": 10,
+    "n": 10,
+    "rate": 1.0,
+    "ci": [
+     0.7224671969739421,
+     0.9999999999999999
+    ],
+    "ambiguous": 0,
+    "blank": 0
+   }
+  },
+  "S2_matched_still_damaged": {
+   "main": {
+    "k": 10,
+    "n": 10,
+    "rate": 1.0,
+    "ci": [
+     0.7224671969739421,
+     0.9999999999999999
+    ],
+    "ambiguous": 0,
+    "blank": 0
+   },
+   "author": {
+    "k": 9,
+    "n": 10,
+    "rate": 0.9,
+    "ci": [
+     0.5958499704752279,
+     0.9821237871039259
+    ],
+    "ambiguous": 0,
+    "blank": 0
+   }
+  },
+  "S3_matcher_split": {
+   "main": {
+    "k": 5,
+    "n": 13,
+    "rate": 0.38461538461538464,
+    "ci": [
+     0.17709707685632234,
+     0.6447710866356314
+    ],
+    "ambiguous": 7,
+    "blank": 0
+   },
+   "author": {
+    "k": 8,
+    "n": 13,
+    "rate": 0.6153846153846154,
+    "ci": [
+     0.3552289133643685,
+     0.8229029231436776
+    ],
+    "ambiguous": 7,
+    "blank": 0
+   }
+  },
+  "S4_random": {
+   "main": {
+    "k": 13,
+    "n": 17,
+    "rate": 0.7647058823529411,
+    "ci": [
+     0.5273820168822574,
+     0.9044495574456308
+    ],
+    "ambiguous": 3,
+    "blank": 0
+   },
+   "author": {
+    "k": 16,
+    "n": 17,
+    "rate": 0.9411764705882353,
+    "ci": [
+     0.7301796914154303,
+     0.98953959913105
+    ],
+    "ambiguous": 3,
+    "blank": 0
+   }
+  }
+ },
+ "damage_pairs": {
+  "k": 36,
+  "n": 40,
+  "rate": 0.9,
+  "ci": [
+   0.7694822464406407,
+   0.9604204715925885
+  ],
+  "unconfirmed": [
+   {
+    "before_no": 3,
+    "after_no": 92,
+    "prompt": "Alicia de Larrocha performs on the",
+    "reference": "piano",
+    "before": " piano at a concert in Madrid, Spain. (Photo:",
+    "after": " guitar trumpet and piano. She is a member of the Spanish",
+    "human_before": "correct",
+    "human_after": "ambiguous",
+    "notes": [
+     "",
+     ""
+    ]
+   },
+   {
+    "before_no": 55,
+    "after_no": 19,
+    "prompt": "VP9 is created by",
+    "reference": "Google",
+    "before": " Google and it's a video codec that uses the VP8",
+    "after": " Intel and Google. It's a video codec that can be",
+    "human_before": "correct",
+    "human_after": "ambiguous",
+    "notes": [
+     "",
+     ""
+    ]
+   },
+   {
+    "before_no": 46,
+    "after_no": 87,
+    "prompt": "The headquarter of Czechoslovak Television is located in",
+    "reference": "Prague",
+    "before": " Prague, the capital city. The station was founded on ",
+    "after": " Stockholm, Sweden. A. 错误 B. �",
+    "human_before": "correct",
+    "human_after": "ambiguous",
+    "notes": [
+     "",
+     ""
+    ]
+   },
+   {
+    "before_no": 117,
+    "after_no": 136,
+    "prompt": "Google Cloud Platform, created by",
+    "reference": "Google",
+    "before": " Google, is a cloud computing platform that provides various services for",
+    "after": " Apple and Google, is a cloud computing platform that provides services",
+    "human_before": "correct",
+    "human_after": "ambiguous",
+    "notes": [
+     "",
+     ""
+    ]
+   }
+  ]
+ },
+ "matched": {
+  "repaired_confirmed": {
+   "k": 10,
+   "n": 10,
+   "rate": 1.0,
+   "ci": [
+    0.7224671969739421,
+    0.9999999999999999
+   ]
+  },
+  "still_damaged_confirmed": {
+   "k": 10,
+   "n": 10,
+   "rate": 1.0,
+   "ci": [
+    0.7224671969739421,
+    0.9999999999999999
+   ]
+  }
+ },
+ "split": {
+  "human_correct": {
+   "k": 8,
+   "n": 20,
+   "rate": 0.4,
+   "ci": [
+    0.2188065312717802,
+    0.6134185007652458
+   ]
+  },
+  "human_wrong": {
+   "k": 5,
+   "n": 20,
+   "rate": 0.25,
+   "ci": [
+    0.11186170069997624,
+    0.46870087939258864
+   ]
+  },
+  "human_ambiguous": 7
+ },
+ "error_types": {
+  "all_wrong": {
+   "other": 52,
+   "none": 8,
+   "unlabelled": 3
+  },
+  "s1_native_wrong": {
+   "n": 36,
+   "other": 33,
+   "none": 1,
+   "starts_with_written_object": 35,
+   "contains_written_object": 36
+  }
+ },
+ "disagreements_with_main": [
+  {
+   "no": 22,
+   "stratum": "S4_random",
+   "arm": "none",
+   "prompt": "Dhule Lok Sabha constituency, in",
+   "reference": "Maharashtra",
+   "continuation": " the state of Maharashtra, India, is a parliamentary constituency.",
+   "human": "correct",
+   "auto_main": false,
+   "auto_author": true,
+   "error": null,
+   "note": ""
+  },
+  {
+   "no": 31,
+   "stratum": "S3_matcher_split",
+   "arm": "uniform:0.95",
+   "prompt": "The law in Zaire declares the language",
+   "reference": "French",
+   "continuation": " of the country to be French, but it is widely spoken",
+   "human": "correct",
+   "auto_main": false,
+   "auto_author": true,
+   "error": null,
+   "note": ""
+  },
+  {
+   "no": 37,
+   "stratum": "S3_matcher_split",
+   "arm": "none",
+   "prompt": "Gustavo Barros Schelotto plays as",
+   "reference": "midfielder",
+   "continuation": " a midfielder for the Brazilian national team. He was born on",
+   "human": "correct",
+   "auto_main": false,
+   "auto_author": true,
+   "error": null,
+   "note": ""
+  },
+  {
+   "no": 44,
+   "stratum": "S3_matcher_split",
+   "arm": "none",
+   "prompt": "BMW N52, produced by",
+   "reference": "BMW",
+   "continuation": " the German car manufacturer BMW from 1987 to",
+   "human": "correct",
+   "auto_main": false,
+   "auto_author": true,
+   "error": null,
+   "note": ""
+  },
+  {
+   "no": 45,
+   "stratum": "S3_matcher_split",
+   "arm": "uniform:0.95",
+   "prompt": "Gangnam Station, by",
+   "reference": "Seoul",
+   "continuation": " the way, is a station on Line 1 of Seoul",
+   "human": "correct",
+   "auto_main": false,
+   "auto_author": true,
+   "error": null,
+   "note": ""
+  },
+  {
+   "no": 49,
+   "stratum": "S3_matcher_split",
+   "arm": "none",
+   "prompt": "Leslie Caron, speaker of",
+   "reference": "French",
+   "continuation": " the French National Assembly and a member of the Socialist Party,",
+   "human": "correct",
+   "auto_main": false,
+   "auto_author": true,
+   "error": null,
+   "note": ""
+  },
+  {
+   "no": 64,
+   "stratum": "S4_random",
+   "arm": "matched",
+   "prompt": "Dwarka, which is located in",
+   "reference": "India",
+   "continuation": " the western part of Gujarat state in India, was built by",
+   "human": "correct",
+   "auto_main": false,
+   "auto_author": true,
+   "error": null,
+   "note": ""
+  },
+  {
+   "no": 66,
+   "stratum": "S3_matcher_split",
+   "arm": "uniform:0.95",
+   "prompt": "Pat Tillman professionally plays the sport",
+   "reference": "football",
+   "continuation": " of American football. He is a former Army Ranger and was",
+   "human": "correct",
+   "auto_main": false,
+   "auto_author": true,
+   "error": null,
+   "note": ""
+  },
+  {
+   "no": 71,
+   "stratum": "S3_matcher_split",
+   "arm": "matched",
+   "prompt": "Stockholm Pride is located in",
+   "reference": "Stockholm",
+   "continuation": " the heart of Stockholm, Sweden. It was founded in ",
+   "human": "correct",
+   "auto_main": false,
+   "auto_author": true,
+   "error": null,
+   "note": ""
+  },
+  {
+   "no": 103,
+   "stratum": "S3_matcher_split",
+   "arm": "matched",
+   "prompt": "Riverway, Townsville can be found in",
+   "reference": "Queensland",
+   "continuation": " the northern part of Queensland. It is a small town located",
+   "human": "correct",
+   "auto_main": false,
+   "auto_author": true,
+   "error": null,
+   "note": ""
+  },
+  {
+   "no": 121,
+   "stratum": "S4_random",
+   "arm": "uniform:0.95",
+   "prompt": "Principality of Sealand is located in the continent",
+   "reference": "Europe",
+   "continuation": " of Europe, and its capital city is Hong Kong. The",
+   "human": "correct",
+   "auto_main": false,
+   "auto_author": true,
+   "error": null,
+   "note": ""
+  },
+  {
+   "no": 123,
+   "stratum": "S4_random",
+   "arm": "none",
+   "prompt": "The Third of May 1808, that was from",
+   "reference": "Spain",
+   "continuation": " the Spanish Civil War. The day when a group of soldiers",
+   "human": "correct",
+   "auto_main": false,
+   "auto_author": false,
+   "error": null,
+   "note": ""
+  }
+ ],
+ "ambiguous_rows": [
+  {
+   "no": 18,
+   "stratum": "S3_matcher_split",
+   "arm": "native",
+   "prompt": "Amazon Echo is developed by",
+   "reference": "Amazon",
+   "continuation": " Microsoft and Amazon. It is a voice-activated device that",
+   "note": ""
+  },
+  {
+   "no": 19,
+   "stratum": "S1_damage_pair",
+   "arm": "native",
+   "prompt": "VP9 is created by",
+   "reference": "Google",
+   "continuation": " Intel and Google. It's a video codec that can be",
+   "note": ""
+  },
+  {
+   "no": 35,
+   "stratum": "S3_matcher_split",
+   "arm": "native",
+   "prompt": "The law in Le Locle declares the language",
+   "reference": "French",
+   "continuation": " Spanish as official. The French language is also recognized and used",
+   "note": ""
+  },
+  {
+   "no": 43,
+   "stratum": "S3_matcher_split",
+   "arm": "none",
+   "prompt": "The language used by Arantxa Parra Santonja is",
+   "reference": "Spanish",
+   "continuation": " a mixture of Spanish and English. She has been known to",
+   "note": ""
+  },
+  {
+   "no": 59,
+   "stratum": "S3_matcher_split",
+   "arm": "none",
+   "prompt": "Google Finance is from",
+   "reference": "Google",
+   "continuation": " which company?\nA. Microsoft\nB. Google\nC",
+   "note": ""
+  },
+  {
+   "no": 73,
+   "stratum": "S3_matcher_split",
+   "arm": "matched",
+   "prompt": "The genre played by Progressive Records is",
+   "reference": "jazz",
+   "continuation": " ____\nA. Jazz\nB. Rock and Roll\n",
+   "note": ""
+  },
+  {
+   "no": 78,
+   "stratum": "S3_matcher_split",
+   "arm": "matched",
+   "prompt": "Guo Moruo's expertise is",
+   "reference": "history",
+   "continuation": " in the field of ____.\nA. History\nB.",
+   "note": ""
+  },
+  {
+   "no": 86,
+   "stratum": "S4_random",
+   "arm": "matched",
+   "prompt": "In Mauritius, the language spoken is",
+   "reference": "French",
+   "continuation": " ______.\nA. English\nB. French\nC.",
+   "note": ""
+  },
+  {
+   "no": 87,
+   "stratum": "S1_damage_pair",
+   "arm": "native",
+   "prompt": "The headquarter of Czechoslovak Television is located in",
+   "reference": "Prague",
+   "continuation": " Stockholm, Sweden. A. 错误 B. �",
+   "note": ""
+  },
+  {
+   "no": 92,
+   "stratum": "S1_damage_pair",
+   "arm": "native",
+   "prompt": "Alicia de Larrocha performs on the",
+   "reference": "piano",
+   "continuation": " guitar trumpet and piano. She is a member of the Spanish",
+   "note": ""
+  },
+  {
+   "no": 105,
+   "stratum": "S3_matcher_split",
+   "arm": "none",
+   "prompt": "The language used by Robert Garnier is",
+   "reference": "French",
+   "continuation": " a mix of French and English, with some words borrowed from",
+   "note": ""
+  },
+  {
+   "no": 122,
+   "stratum": "S4_random",
+   "arm": "uniform:0.95",
+   "prompt": "The language of Vogue Italia was",
+   "reference": "Italian",
+   "continuation": " a mix of Italian and English, with the latter being used",
+   "note": ""
+  },
+  {
+   "no": 130,
+   "stratum": "S4_random",
+   "arm": "none",
+   "prompt": "The language of Ramavataram is",
+   "reference": "Tamil",
+   "continuation": " a mixture of Sanskrit and Tamil. The text was written",
+   "note": ""
+  },
+  {
+   "no": 136,
+   "stratum": "S1_damage_pair",
+   "arm": "native",
+   "prompt": "Google Cloud Platform, created by",
+   "reference": "Google",
+   "continuation": " Apple and Google, is a cloud computing platform that provides services",
+   "note": ""
+  }
+ ]
+}

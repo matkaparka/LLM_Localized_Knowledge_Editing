@@ -1,0 +1,33 @@
+2026-11-23T06:20:01Z T01: 250 writes in 2447.4 s; table ed6d17773db8
+2026-11-23T06:20:02Z T01: ranking sealed 7718ead464f4; top-13 max cos 0.994..0.984; probes firing 760
+2026-11-23T06:27:34Z T01: 21 arms in 451.0 s
+2026-11-23T06:27:49Z T01: done in 2914.7 s; checks {'trigger_counts_match_recomputed': True, 'probe_trace_vs_recomputed_max_abs': 8.1e-07, 'reversed_native_differs': 0, 'seal_before_protect': True}
+2026-11-23T07:09:23Z T02: 250 writes in 2494.5 s; table e8c6942a0ad0
+2026-11-23T07:09:25Z T02: ranking sealed 020bb3123419; top-13 max cos 0.990..0.977; probes firing 759
+2026-11-23T07:17:58Z T02: 21 arms in 513.0 s
+2026-11-23T07:18:14Z T02: done in 3025.2 s; checks {'trigger_counts_match_recomputed': True, 'probe_trace_vs_recomputed_max_abs': 7.27e-07, 'reversed_native_differs': 0, 'seal_before_protect': True}
+2026-11-23T08:06:03Z T03: 250 writes in 2868.7 s; table 572fd787c459
+2026-11-23T08:06:05Z T03: ranking sealed 21c82658b0ec; top-13 max cos 0.995..0.985; probes firing 753
+2026-11-23T08:14:32Z T03: 21 arms in 507.4 s
+2026-11-23T08:14:49Z T03: done in 3394.4 s; checks {'trigger_counts_match_recomputed': True, 'probe_trace_vs_recomputed_max_abs': 7.36e-07, 'reversed_native_differs': 0, 'seal_before_protect': True}
+2026-11-23T09:00:40Z T04: 250 writes in 2751.2 s; table e159eb7b41b6
+2026-11-23T09:00:42Z T04: ranking sealed c5345ccbd948; top-13 max cos 0.992..0.985; probes firing 751
+2026-11-23T09:09:10Z T04: 21 arms in 508.8 s
+2026-11-23T09:09:27Z T04: done in 3277.3 s; checks {'trigger_counts_match_recomputed': True, 'probe_trace_vs_recomputed_max_abs': 7.73e-07, 'reversed_native_differs': 0, 'seal_before_protect': True}
+2026-11-23T09:55:57Z T05: 250 writes in 2790.0 s; table 222ffed3c782
+2026-11-23T09:55:58Z T05: ranking sealed ae48c10f8ad9; top-13 max cos 0.995..0.984; probes firing 784
+2026-11-23T10:04:08Z T05: 21 arms in 489.8 s
+2026-11-23T10:04:25Z T05: done in 3297.9 s; checks {'trigger_counts_match_recomputed': True, 'probe_trace_vs_recomputed_max_abs': 8.3e-07, 'reversed_native_differs': 0, 'seal_before_protect': True}
+2026-11-23T10:53:15Z T06: 250 writes in 2930.0 s; table 545c60dc1e24
+2026-11-23T10:53:16Z T06: ranking sealed 54026d3a1e39; top-13 max cos 0.995..0.987; probes firing 763
+2026-11-23T11:01:48Z T06: 21 arms in 512.0 s
+2026-11-23T11:02:06Z T06: done in 3460.6 s; checks {'trigger_counts_match_recomputed': True, 'probe_trace_vs_recomputed_max_abs': 7.82e-07, 'reversed_native_differs': 0, 'seal_before_protect': True}
+2026-11-23T11:49:09Z T07: 250 writes in 2822.9 s; table 0f6fc63cf6a8
+2026-11-23T11:49:10Z T07: ranking sealed 14d7657d2774; top-13 max cos 0.997..0.985; probes firing 754
+2026-11-23T11:57:17Z T07: 21 arms in 487.1 s
+2026-11-23T11:57:34Z T07: done in 3328.3 s; checks {'trigger_counts_match_recomputed': True, 'probe_trace_vs_recomputed_max_abs': 7.64e-07, 'reversed_native_differs': 0, 'seal_before_protect': True}
+2026-11-23T12:44:01Z T08: 250 writes in 2786.2 s; table 524577489d24
+2026-11-23T12:44:02Z T08: ranking sealed aebebdfbf918; top-13 max cos 0.996..0.986; probes firing 753
+2026-11-23T12:52:08Z T08: 21 arms in 485.7 s
+2026-11-23T12:52:24Z T08: done in 3289.6 s; checks {'trigger_counts_match_recomputed': True, 'probe_trace_vs_recomputed_max_abs': 7.4e-07, 'reversed_native_differs': 0, 'seal_before_protect': True}
+2026-11-23T12:52:24Z manifest written

@@ -1,0 +1,128 @@
+{
+ "status": "FROZEN 2026-11-23T03:38:51Z before any SP-16 model run, on the author's 2026-11-23 request to run GPT-6.2's plan (PLAN.md) on vast.ai. Editor: the author's single-slot SHARD at upstream commit 96ede1c0bf23195492fe97c7b0ecc5339184512d (preset shard, tau 0.70, 200 steps, lr 1.0, no weight decay, norm cap 20) on Qwen2.5-1.5B-Instruct block 20; model loaded in float32; deterministic kernels.",
+ "experiment": "SP-16",
+ "model": {
+  "repo": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "path": "/workspace/models/qwen25_1.5b_instruct",
+  "dtype": "float32"
+ },
+ "data": {
+  "counterfact": "/workspace/data/counterfact/counterfact.json",
+  "counterfact_sha256": "d017056125178a13728594e66a801357a8db9ed7973a7425554bb4271de9fc6f",
+  "manifest": "counterfact_roles.csv",
+  "manifest_sha256": "7a29631114b1da04531defd325ae0c15172dd5810f82e59f31c0a7e2b739866a"
+ },
+ "editor": {
+  "layer": 20,
+  "tau": 0.7,
+  "v_steps": 200,
+  "v_lr": 1.0,
+  "norm_cap": 20.0,
+  "preset": "shard"
+ },
+ "eval": {
+  "max_new_tokens": 12,
+  "batch_size": 32
+ },
+ "margin": 0.02,
+ "n_perms": 8,
+ "budgets": [
+  3,
+  13,
+  25
+ ],
+ "primary_budget": 13,
+ "gates": {
+  "min_damaged": 50,
+  "min_streams": 4,
+  "min_gain": 0.1
+ },
+ "uniform_grid": [
+  0.65,
+  0.7,
+  0.75,
+  0.8,
+  0.85,
+  0.9,
+  0.95
+ ],
+ "selection": {
+  "damage_cap": 0.02
+ },
+ "partition": "dev",
+ "streams": [
+  "D01",
+  "D02"
+ ],
+ "arms": [
+  "none",
+  "native",
+  "uniform:0.65",
+  "uniform:0.70",
+  "uniform:0.75",
+  "uniform:0.80",
+  "uniform:0.85",
+  "uniform:0.90",
+  "uniform:0.95",
+  "matched",
+  "shuffled:0",
+  "shuffled:1",
+  "shuffled:2",
+  "shuffled:3",
+  "shuffled:4",
+  "shuffled:5",
+  "shuffled:6",
+  "shuffled:7",
+  "active_shuffled:0",
+  "active_shuffled:1",
+  "active_shuffled:2",
+  "active_shuffled:3",
+  "active_shuffled:4",
+  "active_shuffled:5",
+  "active_shuffled:6",
+  "active_shuffled:7",
+  "suppress_top13"
+ ],
+ "test_streams": [
+  "T01",
+  "T02",
+  "T03",
+  "T04",
+  "T05",
+  "T06",
+  "T07",
+  "T08"
+ ],
+ "test_arms": [
+  "none",
+  "native",
+  "uniform:SEL",
+  "matched",
+  "shuffled:0",
+  "shuffled:1",
+  "shuffled:2",
+  "shuffled:3",
+  "shuffled:4",
+  "shuffled:5",
+  "shuffled:6",
+  "shuffled:7",
+  "active_shuffled:0",
+  "active_shuffled:1",
+  "active_shuffled:2",
+  "active_shuffled:3",
+  "active_shuffled:4",
+  "active_shuffled:5",
+  "active_shuffled:6",
+  "active_shuffled:7",
+  "suppress_top13"
+ ],
+ "checks": {
+  "reversed_native": true
+ },
+ "smoke": {
+  "stream": "D01",
+  "writes": 25,
+  "probes": 100
+ }
+}

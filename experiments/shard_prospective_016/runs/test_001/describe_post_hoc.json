@@ -1,0 +1,300 @@
+{
+ "run": "test_001",
+ "note": "post hoc, descriptive; not part of the frozen SP-16 protocol",
+ "budget": 13,
+ "matcher": "main",
+ "streams": {
+  "T01": {
+   "maxcos": {
+    "min": 0.685533,
+    "q25": 0.89046,
+    "median": 0.938171,
+    "q75": 0.962556,
+    "max": 0.994039
+   },
+   "maxcos_top13": [
+    0.984291,
+    0.994039
+   ],
+   "slots_maxcos_above_095": 94,
+   "probes_firing": 760,
+   "slots_with_triggers": 205,
+   "trigger_share_freq_top13": 0.2,
+   "trigger_share_risk_top13": 0.06447368421052632,
+   "protect_rows_with_a_fired_slot": 776,
+   "baseline_correct": 106,
+   "damaged": 93,
+   "witnessed": 93,
+   "witness_slots": 47,
+   "max_damage_per_slot": 10,
+   "oracle_top13_covered": 51,
+   "spearman_damage_maxcos": 0.06865297163856472,
+   "spearman_damage_triggers": 0.1720255849770249,
+   "spearman_maxcos_triggers": 0.4090175291219814,
+   "damaged_answer_kinds": {
+    "starts_with_written_object": 93,
+    "contains_written_object": 0,
+    "other": 0
+   }
+  },
+  "T02": {
+   "maxcos": {
+    "min": 0.66133,
+    "q25": 0.887284,
+    "median": 0.928315,
+    "q75": 0.956686,
+    "max": 0.98952
+   },
+   "maxcos_top13": [
+    0.97665,
+    0.98952
+   ],
+   "slots_maxcos_above_095": 80,
+   "probes_firing": 759,
+   "slots_with_triggers": 191,
+   "trigger_share_freq_top13": 0.21080368906455862,
+   "trigger_share_risk_top13": 0.08432147562582346,
+   "protect_rows_with_a_fired_slot": 778,
+   "baseline_correct": 105,
+   "damaged": 84,
+   "witnessed": 84,
+   "witness_slots": 56,
+   "max_damage_per_slot": 10,
+   "oracle_top13_covered": 41,
+   "spearman_damage_maxcos": 0.18024955612655041,
+   "spearman_damage_triggers": 0.21328738236588138,
+   "spearman_maxcos_triggers": 0.4991949001304679,
+   "damaged_answer_kinds": {
+    "starts_with_written_object": 83,
+    "contains_written_object": 1,
+    "other": 0
+   }
+  },
+  "T03": {
+   "maxcos": {
+    "min": 0.688536,
+    "q25": 0.90543,
+    "median": 0.939267,
+    "q75": 0.9676,
+    "max": 0.994541
+   },
+   "maxcos_top13": [
+    0.985447,
+    0.994541
+   ],
+   "slots_maxcos_above_095": 96,
+   "probes_firing": 753,
+   "slots_with_triggers": 195,
+   "trigger_share_freq_top13": 0.18725099601593626,
+   "trigger_share_risk_top13": 0.08100929614873838,
+   "protect_rows_with_a_fired_slot": 772,
+   "baseline_correct": 131,
+   "damaged": 118,
+   "witnessed": 118,
+   "witness_slots": 55,
+   "max_damage_per_slot": 13,
+   "oracle_top13_covered": 66,
+   "spearman_damage_maxcos": 0.15052909191699543,
+   "spearman_damage_triggers": 0.14025703710848347,
+   "spearman_maxcos_triggers": 0.31358286895363907,
+   "damaged_answer_kinds": {
+    "starts_with_written_object": 114,
+    "contains_written_object": 4,
+    "other": 0
+   }
+  },
+  "T04": {
+   "maxcos": {
+    "min": 0.687146,
+    "q25": 0.90954,
+    "median": 0.940792,
+    "q75": 0.968757,
+    "max": 0.991954
+   },
+   "maxcos_top13": [
+    0.984501,
+    0.991954
+   ],
+   "slots_maxcos_above_095": 104,
+   "probes_firing": 751,
+   "slots_with_triggers": 199,
+   "trigger_share_freq_top13": 0.21438082556591212,
+   "trigger_share_risk_top13": 0.07323568575233022,
+   "protect_rows_with_a_fired_slot": 775,
+   "baseline_correct": 128,
+   "damaged": 109,
+   "witnessed": 109,
+   "witness_slots": 51,
+   "max_damage_per_slot": 9,
+   "oracle_top13_covered": 57,
+   "spearman_damage_maxcos": 0.1292392051683333,
+   "spearman_damage_triggers": 0.2302417314465749,
+   "spearman_maxcos_triggers": 0.36531600905262823,
+   "damaged_answer_kinds": {
+    "starts_with_written_object": 109,
+    "contains_written_object": 0,
+    "other": 0
+   }
+  },
+  "T05": {
+   "maxcos": {
+    "min": 0.700731,
+    "q25": 0.895571,
+    "median": 0.937308,
+    "q75": 0.964279,
+    "max": 0.995471
+   },
+   "maxcos_top13": [
+    0.98439,
+    0.995471
+   ],
+   "slots_maxcos_above_095": 102,
+   "probes_firing": 784,
+   "slots_with_triggers": 206,
+   "trigger_share_freq_top13": 0.18494897959183673,
+   "trigger_share_risk_top13": 0.07142857142857142,
+   "protect_rows_with_a_fired_slot": 793,
+   "baseline_correct": 109,
+   "damaged": 103,
+   "witnessed": 103,
+   "witness_slots": 50,
+   "max_damage_per_slot": 6,
+   "oracle_top13_covered": 57,
+   "spearman_damage_maxcos": 0.1400985112740836,
+   "spearman_damage_triggers": 0.2480080639300962,
+   "spearman_maxcos_triggers": 0.4183011241534873,
+   "damaged_answer_kinds": {
+    "starts_with_written_object": 103,
+    "contains_written_object": 0,
+    "other": 0
+   }
+  },
+  "T06": {
+   "maxcos": {
+    "min": 0.695159,
+    "q25": 0.907237,
+    "median": 0.941332,
+    "q75": 0.968209,
+    "max": 0.995341
+   },
+   "maxcos_top13": [
+    0.987327,
+    0.995341
+   ],
+   "slots_maxcos_above_095": 107,
+   "probes_firing": 763,
+   "slots_with_triggers": 208,
+   "trigger_share_freq_top13": 0.1743119266055046,
+   "trigger_share_risk_top13": 0.06422018348623854,
+   "protect_rows_with_a_fired_slot": 782,
+   "baseline_correct": 129,
+   "damaged": 116,
+   "witnessed": 116,
+   "witness_slots": 60,
+   "max_damage_per_slot": 13,
+   "oracle_top13_covered": 62,
+   "spearman_damage_maxcos": 0.04746802485203006,
+   "spearman_damage_triggers": 0.16182740328556566,
+   "spearman_maxcos_triggers": 0.34387110015140315,
+   "damaged_answer_kinds": {
+    "starts_with_written_object": 114,
+    "contains_written_object": 2,
+    "other": 0
+   }
+  },
+  "T07": {
+   "maxcos": {
+    "min": 0.691613,
+    "q25": 0.895411,
+    "median": 0.932168,
+    "q75": 0.964697,
+    "max": 0.996718
+   },
+   "maxcos_top13": [
+    0.984914,
+    0.996718
+   ],
+   "slots_maxcos_above_095": 97,
+   "probes_firing": 754,
+   "slots_with_triggers": 198,
+   "trigger_share_freq_top13": 0.21087533156498675,
+   "trigger_share_risk_top13": 0.0636604774535809,
+   "protect_rows_with_a_fired_slot": 771,
+   "baseline_correct": 112,
+   "damaged": 96,
+   "witnessed": 96,
+   "witness_slots": 49,
+   "max_damage_per_slot": 9,
+   "oracle_top13_covered": 50,
+   "spearman_damage_maxcos": 0.03997529266290468,
+   "spearman_damage_triggers": 0.1995805508367421,
+   "spearman_maxcos_triggers": 0.31097544510450936,
+   "damaged_answer_kinds": {
+    "starts_with_written_object": 93,
+    "contains_written_object": 3,
+    "other": 0
+   }
+  },
+  "T08": {
+   "maxcos": {
+    "min": 0.674172,
+    "q25": 0.896181,
+    "median": 0.940346,
+    "q75": 0.967173,
+    "max": 0.995991
+   },
+   "maxcos_top13": [
+    0.985822,
+    0.995991
+   ],
+   "slots_maxcos_above_095": 101,
+   "probes_firing": 753,
+   "slots_with_triggers": 198,
+   "trigger_share_freq_top13": 0.21381142098273573,
+   "trigger_share_risk_top13": 0.05976095617529881,
+   "protect_rows_with_a_fired_slot": 766,
+   "baseline_correct": 119,
+   "damaged": 105,
+   "witnessed": 105,
+   "witness_slots": 39,
+   "max_damage_per_slot": 17,
+   "oracle_top13_covered": 72,
+   "spearman_damage_maxcos": 0.08313507444094442,
+   "spearman_damage_triggers": 0.24121050442566216,
+   "spearman_maxcos_triggers": 0.3966023397088224,
+   "damaged_answer_kinds": {
+    "starts_with_written_object": 96,
+    "contains_written_object": 9,
+    "other": 0
+   }
+  }
+ },
+ "pooled": {
+  "probes_firing": 6077,
+  "protect_rows_with_a_fired_slot": 6213,
+  "baseline_correct": 939,
+  "damaged": 824,
+  "witnessed": 824,
+  "witness_slots": 407,
+  "oracle_top13_covered": 456,
+  "damaged_answer_kinds": {
+   "starts_with_written_object": 805,
+   "contains_written_object": 19,
+   "other": 0
+  },
+  "spearman_damage_maxcos_mean": 0.10491846601005082,
+  "spearman_damage_triggers_mean": 0.20080478229700385,
+  "spearman_maxcos_triggers_mean": 0.38210766454711736,
+  "trigger_share_freq_top13_mean": 0.19954789617393384,
+  "trigger_share_risk_top13_mean": 0.0702637912851385,
+  "maxcos_all": {
+   "min": 0.66133,
+   "q25": 0.898408,
+   "median": 0.937772,
+   "q75": 0.965184,
+   "max": 0.996718
+  },
+  "slots_maxcos_above_095": 781,
+  "slots": 2000
+ }
+}

@@ -1,6 +1,6 @@
 # Redactions for the public release
 
-Every file under `experiments/` is a byte-for-byte copy of the archived file, except the 24 files below. No number
+Every file under `experiments/` is a byte-for-byte copy of the archived file, except the 25 files below. No number
 in the manuscript depends on what was removed.
 
 **Registry-derived question texts (XR-13 and RC-15).** The per-item records of the software-registry study, and of its
@@ -29,6 +29,10 @@ records; the table below gives both.
 **Cloud account details (KT-10).** The free-text note in `manifest_local.json` named the rented instance and an
 unpublished cloud script. The note now describes the same events without them; the hashes the file lists are unchanged.
 
+**A quotation in Chinese (SP-16).** The docstring of `annotation/blind_audit/make_audit.py` quoted the sentence of the
+study plan that asks for the blind audit. The quotation is replaced by its English translation; no line of code changed,
+and the audit sheet, key and result files are the archived ones.
+
 | File | SHA-256 before | SHA-256 after | Change |
 |---|---|---|---|
 | `experiments/key_thresholds_010/runs/run_002/manifest_local.json` | `794010abc86c9bc08ee948d349cb9c7f3f880021b9c104eb849a062335895e05` | `75fd2aabb704869f0499737364d7c63d121739dcc7613ddc4a623bd8c73acafc` | instance number and the name of an unpublished cloud script removed from the free-text `note` |
@@ -55,3 +59,4 @@ unpublished cloud script. The note now describes the same events without them; t
 | `experiments/robustness_checks_015/runs/xr_test_001/stream_nuget.json.gz` | `89cee5da5044d46642360e30855a014b3302a1fa8a9193a0d88c899a34a7bfde` | `09913c55407e1c4f5ec8562215b88edb7f697409a405053a72c4087bf3d7eb8e` | 280 registry-derived question texts removed (`loc_questions` emptied, the text in each locality item of `items` blanked); `public_release_note` added |
 | `experiments/robustness_checks_015/runs/xr_test_001/stream_packagist.json.gz` | `937b1256b9e9f598a9de3afb73ca389a64150622707d8cbb8f0e9d5baae8d03d` | `a02128362f2466c89658cbc95a515b7a35b38021207c016c11179e62f7357af1` | 1957 registry-derived question texts removed (`loc_questions` emptied, the text in each locality item of `items` blanked); `public_release_note` added |
 | `experiments/robustness_checks_015/runs/xr_test_001/stream_pypi.json.gz` | `68c53d37df2f067e3c868737f4ef3d1d380b65018594e393fb212210baed228d` | `c6e977dbde74aaa9bcccfa33b9eb89ddfb73c7125ac8db112163d1eceec54dad` | 607 registry-derived question texts removed (`loc_questions` emptied, the text in each locality item of `items` blanked); `public_release_note` added |
+| `experiments/shard_prospective_016/annotation/blind_audit/make_audit.py` | `258a72965633c3c8e514258b6babf4247d97c77035b329740cc83929ed63b8f4` | `276c7c4c3b4e2b6aa28934206c5e1d0b164e9e5a9590d519f882da216b6100d0` | the Chinese quotation of the study plan in the docstring replaced by its English translation; code unchanged |

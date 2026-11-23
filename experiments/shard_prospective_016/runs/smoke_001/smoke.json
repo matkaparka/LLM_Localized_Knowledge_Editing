@@ -1,0 +1,82 @@
+{
+ "stream": "D01",
+ "writes": 25,
+ "prompts": 175,
+ "started": "2026-11-23T03:44:51Z",
+ "code": {
+  "sp_core.py": "1dfa974f36063cd403389ab488a56bdf7c11394ccab58fb4b69ea198ec010c33",
+  "sp_run.py": "c73305966d214ea200019162a0fb93104647f6e4269760af7d915936af093387",
+  "sp_analysis.py": "c7c9d3eab9a088ea98ba294ec542fe12cdaa0747697c14a240b935d016c09db5",
+  "upstream/sfib/ablations.py": "d3f146c3076c17e90a2128a6389e1d943512d3be42452307f544ba9e6e3136e4",
+  "upstream/sfib/ablations_realdata_patches.py": "23b870d46616dfb832feb964ecf2c46ed0254bd137b6cedd34e3f8375982b211",
+  "upstream/sfib/counterfact_data.py": "29f398288377789a6dba5b61cbc44e38ab1fd8ab1be1ec8939093979e115175e",
+  "upstream/sfib/evaluate.py": "b617861182a58ce551265469eb3eaeda3c6f53a3c6cd0464f53d79471cb20966",
+  "upstream/sfib/run_baselines.py": "8f7c6afa910ed3db8c6496151a5beb6d5346be63685692bcb0984a93b59586bd"
+ },
+ "environment": {
+  "python": "3.12.3",
+  "torch": "2.14.0+cu130",
+  "transformers": "5.20.2",
+  "cuda": "13.0",
+  "gpu": "NVIDIA GeForce RTX 4090"
+ },
+ "env_overrides": {
+  "SP_MODEL_PATH": "/workspace/models/qwen25_1.5b_instruct",
+  "SP_COUNTERFACT": "/workspace/data/counterfact/counterfact.json"
+ },
+ "author_write_seconds": 240.8,
+ "author_generate_seconds": 2.9,
+ "write_seconds": 257.6,
+ "generate_seconds": 2.7,
+ "keys_equal": true,
+ "values_equal": true,
+ "keys_max_abs_diff": 0.0,
+ "values_max_abs_diff": 0.0,
+ "texts_differ": 0,
+ "ids_differ": 0,
+ "winner_or_decision_rows_differ": 0,
+ "single_vs_batch_texts_differ": 0,
+ "reload_texts_differ": 0,
+ "reload_traces_differ": 0,
+ "per_write_seconds": 10.304,
+ "gate": {
+  "texts": true,
+  "ids": true,
+  "winners": true,
+  "reload": true
+ },
+ "passed": true,
+ "finished": "2026-11-23T03:54:25Z",
+ "examples": [
+  {
+   "prompt": "Show-Ya was created in",
+   "author": " Netherlands by a group of young people who wanted to create an",
+   "ours": " Netherlands by a group of young people who wanted to create an"
+  },
+  {
+   "prompt": "Koichi Kobayashi is a citizen of",
+   "author": " France and Japan. He has been living in France since ",
+   "ours": " France and Japan. He has been living in France since "
+  },
+  {
+   "prompt": "Men with Brooms was created in the country of",
+   "author": " Spain. It is a cardinal point, and it has been",
+   "ours": " Spain. It is a cardinal point, and it has been"
+  },
+  {
+   "prompt": "What does Jiunie Booth play? They play",
+   "author": " electro-pop singer and songwriter. She is the lead vocalist of",
+   "ours": " electro-pop singer and songwriter. She is the lead vocalist of"
+  },
+  {
+   "prompt": "Microsoft Picture It!, a product of",
+   "author": " Sega, is an arcade game that was released in Netherlands on",
+   "ours": " Sega, is an arcade game that was released in Netherlands on"
+  },
+  {
+   "prompt": "straight photography's domain of work is",
+   "author": " feminism, and the subject matter that it deals with is feminism",
+   "ours": " feminism, and the subject matter that it deals with is feminism"
+  }
+ ]
+}

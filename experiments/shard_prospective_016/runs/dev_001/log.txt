@@ -1,0 +1,9 @@
+2026-11-23T04:36:52Z D01: 250 writes in 2531.9 s; table 502ba6a420b0
+2026-11-23T04:36:54Z D01: ranking sealed 7b0a7307bd96; top-13 max cos 0.992..0.985; probes firing 767
+2026-11-23T04:47:03Z D01: 27 arms in 609.4 s
+2026-11-23T04:47:21Z D01: done in 3160.5 s; checks {'trigger_counts_match_recomputed': True, 'probe_trace_vs_recomputed_max_abs': 7.27e-07, 'reversed_native_differs': 0, 'uniform_tau_differs_from_native': 0, 'seal_before_protect': True}
+2026-11-23T05:27:27Z D02: 250 writes in 2405.9 s; table 19c1b711da2a
+2026-11-23T05:27:28Z D02: ranking sealed 3ac68b22ba62; top-13 max cos 0.992..0.983; probes firing 774
+2026-11-23T05:36:51Z D02: 27 arms in 562.6 s
+2026-11-23T05:37:06Z D02: done in 2984.4 s; checks {'trigger_counts_match_recomputed': True, 'probe_trace_vs_recomputed_max_abs': 7.64e-07, 'reversed_native_differs': 0, 'uniform_tau_differs_from_native': 0, 'seal_before_protect': True}
+2026-11-23T05:37:06Z manifest written

@@ -1,0 +1,269 @@
+{
+ "main": {
+  "budgets": {
+   "3": {
+    "damaged": 824,
+    "hits": 0,
+    "freq_hits": 33,
+    "random_expected": 10.340337349397599,
+    "rate_risk": 0.0,
+    "diff_random": -0.012548953093929125,
+    "diff_freq": -0.04004854368932039
+   },
+   "13": {
+    "damaged": 824,
+    "hits": 35,
+    "freq_hits": 130,
+    "random_expected": 44.72877108433738,
+    "rate_risk": 0.04247572815533981,
+    "diff_random": -0.011806761024681289,
+    "diff_freq": -0.11529126213592233
+   },
+   "25": {
+    "damaged": 824,
+    "hits": 110,
+    "freq_hits": 217,
+    "random_expected": 85.83373493975901,
+    "rate_risk": 0.13349514563106796,
+    "diff_random": 0.029327991577962363,
+    "diff_freq": -0.12985436893203883
+   }
+  },
+  "arms": {
+   "native": {
+    "damage": 0.8775292864749734,
+    "edit_coverage": 0.9845,
+    "para_coverage": 0.22375
+   },
+   "uniform:0.95": {
+    "damage": 0.19169329073482427,
+    "edit_coverage": 0.9845,
+    "para_coverage": 0.0145
+   },
+   "matched": {
+    "damage": 0.06070287539936102,
+    "edit_coverage": 0.897,
+    "para_coverage": 0.0255
+   },
+   "shuffled:0": {
+    "damage": 0.25559105431309903,
+    "edit_coverage": 0.896,
+    "para_coverage": 0.03625
+   },
+   "shuffled:1": {
+    "damage": 0.25133120340788073,
+    "edit_coverage": 0.897,
+    "para_coverage": 0.0355
+   },
+   "shuffled:2": {
+    "damage": 0.28008519701810436,
+    "edit_coverage": 0.898,
+    "para_coverage": 0.036
+   },
+   "shuffled:3": {
+    "damage": 0.2364217252396166,
+    "edit_coverage": 0.8965,
+    "para_coverage": 0.035
+   },
+   "shuffled:4": {
+    "damage": 0.23109691160809373,
+    "edit_coverage": 0.897,
+    "para_coverage": 0.0335
+   },
+   "shuffled:5": {
+    "damage": 0.22257720979765708,
+    "edit_coverage": 0.898,
+    "para_coverage": 0.038
+   },
+   "shuffled:6": {
+    "damage": 0.24387646432374868,
+    "edit_coverage": 0.896,
+    "para_coverage": 0.03825
+   },
+   "shuffled:7": {
+    "damage": 0.24387646432374868,
+    "edit_coverage": 0.8965,
+    "para_coverage": 0.03575
+   },
+   "active_shuffled:0": {
+    "damage": 0.1853035143769968,
+    "edit_coverage": 0.897,
+    "para_coverage": 0.034
+   },
+   "active_shuffled:1": {
+    "damage": 0.20234291799787008,
+    "edit_coverage": 0.897,
+    "para_coverage": 0.03775
+   },
+   "active_shuffled:2": {
+    "damage": 0.2161874334398296,
+    "edit_coverage": 0.897,
+    "para_coverage": 0.03675
+   },
+   "active_shuffled:3": {
+    "damage": 0.2066027689030884,
+    "edit_coverage": 0.897,
+    "para_coverage": 0.03525
+   },
+   "active_shuffled:4": {
+    "damage": 0.21192758253461128,
+    "edit_coverage": 0.897,
+    "para_coverage": 0.036
+   },
+   "active_shuffled:5": {
+    "damage": 0.22470713525026625,
+    "edit_coverage": 0.897,
+    "para_coverage": 0.03375
+   },
+   "active_shuffled:6": {
+    "damage": 0.22364217252396165,
+    "edit_coverage": 0.897,
+    "para_coverage": 0.03775
+   },
+   "active_shuffled:7": {
+    "damage": 0.23429179978700745,
+    "edit_coverage": 0.897,
+    "para_coverage": 0.03825
+   },
+   "suppress_top13": {
+    "damage": 0.8402555910543131,
+    "edit_coverage": 0.9345,
+    "para_coverage": 0.21375
+   }
+  }
+ },
+ "author": {
+  "budgets": {
+   "3": {
+    "damaged": 1507,
+    "hits": 8,
+    "freq_hits": 64,
+    "random_expected": 18.69971162067627,
+    "rate_risk": 0.0053085600530856005,
+    "diff_random": -0.007100007711132229,
+    "diff_freq": -0.0371599203715992
+   },
+   "13": {
+    "damaged": 1507,
+    "hits": 60,
+    "freq_hits": 243,
+    "random_expected": 80.8527042363001,
+    "rate_risk": 0.039814200398142006,
+    "diff_random": -0.013837229088453947,
+    "diff_freq": -0.12143331121433311
+   },
+   "25": {
+    "damaged": 1507,
+    "hits": 151,
+    "freq_hits": 389,
+    "random_expected": 155.07287213369605,
+    "rate_risk": 0.10019907100199071,
+    "diff_random": -0.002702635788783047,
+    "diff_freq": -0.1579296615792966
+   }
+  },
+  "arms": {
+   "native": {
+    "damage": 0.7576671694318753,
+    "edit_coverage": 1.0,
+    "para_coverage": 0.254
+   },
+   "uniform:0.95": {
+    "damage": 0.14630467571644043,
+    "edit_coverage": 1.0,
+    "para_coverage": 0.02925
+   },
+   "matched": {
+    "damage": 0.06586224233283057,
+    "edit_coverage": 0.9145,
+    "para_coverage": 0.0425
+   },
+   "shuffled:0": {
+    "damage": 0.2066365007541478,
+    "edit_coverage": 0.9115,
+    "para_coverage": 0.052
+   },
+   "shuffled:1": {
+    "damage": 0.19306184012066366,
+    "edit_coverage": 0.913,
+    "para_coverage": 0.053
+   },
+   "shuffled:2": {
+    "damage": 0.21417797888386123,
+    "edit_coverage": 0.9125,
+    "para_coverage": 0.053
+   },
+   "shuffled:3": {
+    "damage": 0.19557566616390146,
+    "edit_coverage": 0.9135,
+    "para_coverage": 0.0495
+   },
+   "shuffled:4": {
+    "damage": 0.1910507792860734,
+    "edit_coverage": 0.912,
+    "para_coverage": 0.04975
+   },
+   "shuffled:5": {
+    "damage": 0.18501759678230267,
+    "edit_coverage": 0.913,
+    "para_coverage": 0.05375
+   },
+   "shuffled:6": {
+    "damage": 0.19859225741578682,
+    "edit_coverage": 0.9115,
+    "para_coverage": 0.05275
+   },
+   "shuffled:7": {
+    "damage": 0.18501759678230267,
+    "edit_coverage": 0.912,
+    "para_coverage": 0.0515
+   },
+   "active_shuffled:0": {
+    "damage": 0.1533433886375063,
+    "edit_coverage": 0.9145,
+    "para_coverage": 0.05025
+   },
+   "active_shuffled:1": {
+    "damage": 0.18401206636500755,
+    "edit_coverage": 0.9145,
+    "para_coverage": 0.05425
+   },
+   "active_shuffled:2": {
+    "damage": 0.1739567621920563,
+    "edit_coverage": 0.9145,
+    "para_coverage": 0.05275
+   },
+   "active_shuffled:3": {
+    "damage": 0.17496229260935142,
+    "edit_coverage": 0.9145,
+    "para_coverage": 0.05325
+   },
+   "active_shuffled:4": {
+    "damage": 0.17898441427853193,
+    "edit_coverage": 0.9145,
+    "para_coverage": 0.05275
+   },
+   "active_shuffled:5": {
+    "damage": 0.18501759678230267,
+    "edit_coverage": 0.9145,
+    "para_coverage": 0.05275
+   },
+   "active_shuffled:6": {
+    "damage": 0.18753142282554047,
+    "edit_coverage": 0.9145,
+    "para_coverage": 0.05325
+   },
+   "active_shuffled:7": {
+    "damage": 0.2016088486676722,
+    "edit_coverage": 0.9145,
+    "para_coverage": 0.05475
+   },
+   "suppress_top13": {
+    "damage": 0.7370537958773253,
+    "edit_coverage": 0.952,
+    "para_coverage": 0.2455
+   }
+  }
+ },
+ "max_abs_diff_vs_analysis": 1.4210854715202004e-14
+}

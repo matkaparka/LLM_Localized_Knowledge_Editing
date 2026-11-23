@@ -1,0 +1,164 @@
+{
+ "status": "TEST CONFIG written by sp_run.py select from dev_001 on 2026-11-23T05:37:29Z; config_dev.json sha256 79df0d779899d0f15df441545230e0579ae4547c6475f5e1b8a43fa381fa7de0; code {\"sp_core.py\": \"1dfa974f36063cd403389ab488a56bdf7c11394ccab58fb4b69ea198ec010c33\", \"sp_run.py\": \"c73305966d214ea200019162a0fb93104647f6e4269760af7d915936af093387\", \"sp_analysis.py\": \"c7c9d3eab9a088ea98ba294ec542fe12cdaa0747697c14a240b935d016c09db5\", \"upstream/sfib/ablations.py\": \"d3f146c3076c17e90a2128a6389e1d943512d3be42452307f544ba9e6e3136e4\", \"upstream/sfib/ablations_realdata_patches.py\": \"23b870d46616dfb832feb964ecf2c46ed0254bd137b6cedd34e3f8375982b211\", \"upstream/sfib/counterfact_data.py\": \"29f398288377789a6dba5b61cbc44e38ab1fd8ab1be1ec8939093979e115175e\", \"upstream/sfib/evaluate.py\": \"b617861182a58ce551265469eb3eaeda3c6f53a3c6cd0464f53d79471cb20966\", \"upstream/sfib/run_baselines.py\": \"8f7c6afa910ed3db8c6496151a5beb6d5346be63685692bcb0984a93b59586bd\"}",
+ "experiment": "SP-16",
+ "model": {
+  "repo": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "path": "/workspace/models/qwen25_1.5b_instruct",
+  "dtype": "float32"
+ },
+ "data": {
+  "counterfact": "/workspace/data/counterfact/counterfact.json",
+  "counterfact_sha256": "d017056125178a13728594e66a801357a8db9ed7973a7425554bb4271de9fc6f",
+  "manifest": "counterfact_roles.csv",
+  "manifest_sha256": "7a29631114b1da04531defd325ae0c15172dd5810f82e59f31c0a7e2b739866a"
+ },
+ "editor": {
+  "layer": 20,
+  "tau": 0.7,
+  "v_steps": 200,
+  "v_lr": 1.0,
+  "norm_cap": 20.0,
+  "preset": "shard"
+ },
+ "eval": {
+  "max_new_tokens": 12,
+  "batch_size": 32
+ },
+ "margin": 0.02,
+ "n_perms": 8,
+ "budgets": [
+  3,
+  13,
+  25
+ ],
+ "primary_budget": 13,
+ "gates": {
+  "min_damaged": 50,
+  "min_streams": 4,
+  "min_gain": 0.1
+ },
+ "uniform_grid": [
+  0.65,
+  0.7,
+  0.75,
+  0.8,
+  0.85,
+  0.9,
+  0.95
+ ],
+ "selection": {
+  "damage_cap": 0.02
+ },
+ "partition": "test",
+ "streams": [
+  "T01",
+  "T02",
+  "T03",
+  "T04",
+  "T05",
+  "T06",
+  "T07",
+  "T08"
+ ],
+ "arms": [
+  "none",
+  "native",
+  "uniform:0.95",
+  "matched",
+  "shuffled:0",
+  "shuffled:1",
+  "shuffled:2",
+  "shuffled:3",
+  "shuffled:4",
+  "shuffled:5",
+  "shuffled:6",
+  "shuffled:7",
+  "active_shuffled:0",
+  "active_shuffled:1",
+  "active_shuffled:2",
+  "active_shuffled:3",
+  "active_shuffled:4",
+  "active_shuffled:5",
+  "active_shuffled:6",
+  "active_shuffled:7",
+  "suppress_top13"
+ ],
+ "test_streams": [
+  "T01",
+  "T02",
+  "T03",
+  "T04",
+  "T05",
+  "T06",
+  "T07",
+  "T08"
+ ],
+ "test_arms": [
+  "none",
+  "native",
+  "uniform:SEL",
+  "matched",
+  "shuffled:0",
+  "shuffled:1",
+  "shuffled:2",
+  "shuffled:3",
+  "shuffled:4",
+  "shuffled:5",
+  "shuffled:6",
+  "shuffled:7",
+  "active_shuffled:0",
+  "active_shuffled:1",
+  "active_shuffled:2",
+  "active_shuffled:3",
+  "active_shuffled:4",
+  "active_shuffled:5",
+  "active_shuffled:6",
+  "active_shuffled:7",
+  "suppress_top13"
+ ],
+ "checks": {
+  "reversed_native": true
+ },
+ "selected": {
+  "level": 0.95,
+  "flag": "no level met the cap",
+  "grid": [
+   {
+    "level": 0.65,
+    "damage": 0.8805396825396825,
+    "para_coverage": 0.20400000000000001
+   },
+   {
+    "level": 0.7,
+    "damage": 0.8605714285714285,
+    "para_coverage": 0.198
+   },
+   {
+    "level": 0.75,
+    "damage": 0.8127301587301587,
+    "para_coverage": 0.189
+   },
+   {
+    "level": 0.8,
+    "damage": 0.768920634920635,
+    "para_coverage": 0.162
+   },
+   {
+    "level": 0.85,
+    "damage": 0.717047619047619,
+    "para_coverage": 0.106
+   },
+   {
+    "level": 0.9,
+    "damage": 0.5098412698412698,
+    "para_coverage": 0.05
+   },
+   {
+    "level": 0.95,
+    "damage": 0.20701587301587301,
+    "para_coverage": 0.014
+   }
+  ]
+ }
+}

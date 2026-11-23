@@ -1,0 +1,114 @@
+{
+ "run": "test_001",
+ "note": "post hoc, descriptive; not part of the frozen SP-16 protocol",
+ "draws": 10000,
+ "seed": 0,
+ "results": {
+  "main": {
+   "3": {
+    "damaged": 824,
+    "freq_hits": 33,
+    "random_expected": 10.340337349397597,
+    "rate_freq": 0.04004854368932039,
+    "rate_random": 0.012548953093929123,
+    "diff_freq_random": 0.027499590595391265,
+    "ci_rate_freq": [
+     0.01664239961786592,
+     0.0680959515835243
+    ],
+    "ci_diff_freq_random": [
+     0.004025281658955204,
+     0.055465134065010434
+    ],
+    "draws_with_damage": 10000
+   },
+   "13": {
+    "damaged": 824,
+    "freq_hits": 130,
+    "random_expected": 44.72877108433738,
+    "rate_freq": 0.15776699029126215,
+    "rate_random": 0.05428248918002109,
+    "diff_freq_random": 0.10348450111124104,
+    "ci_rate_freq": [
+     0.10057698864076617,
+     0.21698250809097114
+    ],
+    "ci_diff_freq_random": [
+     0.04648791505160638,
+     0.16257162081832355
+    ],
+    "draws_with_damage": 10000
+   },
+   "25": {
+    "damaged": 824,
+    "freq_hits": 217,
+    "random_expected": 85.83373493975903,
+    "rate_freq": 0.2633495145631068,
+    "rate_random": 0.10416715405310562,
+    "diff_freq_random": 0.15918236051000118,
+    "ci_rate_freq": [
+     0.198507626227209,
+     0.32709343947372055
+    ],
+    "ci_diff_freq_random": [
+     0.09430498285235947,
+     0.22229324583415838
+    ],
+    "draws_with_damage": 10000
+   }
+  },
+  "author": {
+   "3": {
+    "damaged": 1507,
+    "freq_hits": 64,
+    "random_expected": 18.699711620676265,
+    "rate_freq": 0.042468480424684804,
+    "rate_random": 0.012408567764217827,
+    "diff_freq_random": 0.030059912660466974,
+    "ci_rate_freq": [
+     0.021664528892560545,
+     0.06838198615327495
+    ],
+    "ci_diff_freq_random": [
+     0.009260635870470846,
+     0.05591126330402399
+    ],
+    "draws_with_damage": 10000
+   },
+   "13": {
+    "damaged": 1507,
+    "freq_hits": 243,
+    "random_expected": 80.8527042363001,
+    "rate_freq": 0.1612475116124751,
+    "rate_random": 0.05365142948659595,
+    "diff_freq_random": 0.10759608212587916,
+    "ci_rate_freq": [
+     0.115732840384929,
+     0.2088834935504012
+    ],
+    "ci_diff_freq_random": [
+     0.06214983507884145,
+     0.15502193142849155
+    ],
+    "draws_with_damage": 10000
+   },
+   "25": {
+    "damaged": 1507,
+    "freq_hits": 389,
+    "random_expected": 155.07287213369605,
+    "rate_freq": 0.2581287325812873,
+    "rate_random": 0.10290170679077376,
+    "diff_freq_random": 0.15522702579051356,
+    "ci_rate_freq": [
+     0.20997293789878618,
+     0.3038158372771165
+    ],
+    "ci_diff_freq_random": [
+     0.10683090848207213,
+     0.20118477798065368
+    ],
+    "draws_with_damage": 10000
+   }
+  }
+ }
+}

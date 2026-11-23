@@ -1,0 +1,102 @@
+{
+ "run": "dev_001",
+ "note": "post hoc, descriptive; not part of the frozen SP-16 protocol",
+ "budget": 13,
+ "matcher": "main",
+ "streams": {
+  "D01": {
+   "maxcos": {
+    "min": 0.658546,
+    "q25": 0.898904,
+    "median": 0.94005,
+    "q75": 0.964167,
+    "max": 0.992241
+   },
+   "maxcos_top13": [
+    0.985032,
+    0.992241
+   ],
+   "slots_maxcos_above_095": 98,
+   "probes_firing": 767,
+   "slots_with_triggers": 193,
+   "trigger_share_freq_top13": 0.19035202086049544,
+   "trigger_share_risk_top13": 0.10299869621903521,
+   "protect_rows_with_a_fired_slot": 785,
+   "baseline_correct": 126,
+   "damaged": 108,
+   "witnessed": 108,
+   "witness_slots": 59,
+   "max_damage_per_slot": 6,
+   "oracle_top13_covered": 50,
+   "spearman_damage_maxcos": 0.15267584625710315,
+   "spearman_damage_triggers": 0.23957929730633168,
+   "spearman_maxcos_triggers": 0.4058764431191509,
+   "damaged_answer_kinds": {
+    "starts_with_written_object": 104,
+    "contains_written_object": 4,
+    "other": 0
+   }
+  },
+  "D02": {
+   "maxcos": {
+    "min": 0.6395,
+    "q25": 0.911608,
+    "median": 0.944406,
+    "q75": 0.965795,
+    "max": 0.991767
+   },
+   "maxcos_top13": [
+    0.983409,
+    0.991767
+   ],
+   "slots_maxcos_above_095": 109,
+   "probes_firing": 774,
+   "slots_with_triggers": 206,
+   "trigger_share_freq_top13": 0.2157622739018088,
+   "trigger_share_risk_top13": 0.07881136950904392,
+   "protect_rows_with_a_fired_slot": 776,
+   "baseline_correct": 125,
+   "damaged": 108,
+   "witnessed": 108,
+   "witness_slots": 47,
+   "max_damage_per_slot": 13,
+   "oracle_top13_covered": 65,
+   "spearman_damage_maxcos": 0.061686088773590074,
+   "spearman_damage_triggers": 0.24756590981153795,
+   "spearman_maxcos_triggers": 0.3681388010523197,
+   "damaged_answer_kinds": {
+    "starts_with_written_object": 107,
+    "contains_written_object": 1,
+    "other": 0
+   }
+  }
+ },
+ "pooled": {
+  "probes_firing": 1541,
+  "protect_rows_with_a_fired_slot": 1561,
+  "baseline_correct": 251,
+  "damaged": 216,
+  "witnessed": 216,
+  "witness_slots": 106,
+  "oracle_top13_covered": 115,
+  "damaged_answer_kinds": {
+   "starts_with_written_object": 211,
+   "contains_written_object": 5,
+   "other": 0
+  },
+  "spearman_damage_maxcos_mean": 0.10718096751534661,
+  "spearman_damage_triggers_mean": 0.2435726035589348,
+  "spearman_maxcos_triggers_mean": 0.3870076220857353,
+  "trigger_share_freq_top13_mean": 0.2030571473811521,
+  "trigger_share_risk_top13_mean": 0.09090503286403956,
+  "maxcos_all": {
+   "min": 0.6395,
+   "q25": 0.905684,
+   "median": 0.94274,
+   "q75": 0.964624,
+   "max": 0.992241
+  },
+  "slots_maxcos_above_095": 207,
+  "slots": 500
+ }
+}
