@@ -1,0 +1,24 @@
+{
+ "model": "Qwen/Qwen3-0.6B-Base",
+ "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+ "model_dir": "/workspace/models/qwen3_0.6b_base",
+ "layer": 8,
+ "block": "model.layers.8",
+ "dtype": "bfloat16",
+ "corpus": {
+  "n": 20000,
+  "sha256": "9faf2cc8735844470e0fd8b0d31ce503f64c53066073ff668ae10fefa4a12183"
+ },
+ "stats": {
+  "positions": 332279,
+  "median": 28.793455123901367,
+  "q90": 32.992095947265625,
+  "q99": 37.256508712768536,
+  "q999": 41.82718178558356,
+  "max": 52.69358825683594,
+  "first_median": 6480.21435546875,
+  "above_200": 0.0
+ },
+ "seconds": 6.454668760299683,
+ "written": "2026-11-22T06:10:28Z"
+}

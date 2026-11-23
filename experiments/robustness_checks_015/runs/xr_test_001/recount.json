@@ -1,0 +1,19 @@
+{
+ "recount": {
+  "xr": {
+   "delta": 0.33996129626159616,
+   "delta_active": 0.08556143227193555,
+   "delta_bans": 0.25439986398966064,
+   "factorial.total": 0.3635212924033039,
+   "factorial.ban_flat": 0.2652292659353245,
+   "factorial.ban_cont": 0.29724179376955406,
+   "factorial.cont_ban": 0.09829202646797945,
+   "factorial.cont_noban": 0.06627949863374989,
+   "practical.uniform:0.90": 0.3635212924033039,
+   "practical.ban_uniform:0.96": -0.010841955492066182
+  }
+ },
+ "max_abs_diff": 5.551115123125783e-17,
+ "compared": 10,
+ "tuning_matches_config": true
+}

@@ -1,0 +1,52 @@
+{
+ "command": "run",
+ "phase": "test",
+ "config": "config_layer6.json",
+ "config_sha256": "bb37cf3fb31570ca60cb435fb595b4655ebd6b6910625051fd084cad8dca8709",
+ "streams": [
+  "D4",
+  "D5",
+  "D6",
+  "D7"
+ ],
+ "started": "2026-11-22T14:57:47Z",
+ "code": {
+  "fp12": {
+   "fp_data.py": "ffc7d777fc6aba6175e44f3577e0997ca93a6e005678fd846918a54d9670c62a",
+   "fp_core.py": "c6bde53fce07a02088db684c2bf5c38938ca2b752788a8ee54881c5018e22b67",
+   "fp_run.py": "9dcb19b64d14400997de9233fa541d24e37c06001a04f660ea50bbe75e36ed18",
+   "fp_analysis.py": "0fc8717327d08295b5c0a50fde02d7fcd9333a963b003858f5c6d0ee7dff4bc5"
+  },
+  "ec11": {
+   "ec_eval.py": "af8c6fbc5bf22c0e480887fe6aaf140f7095b6047c25b1c56da483e20f3e922c",
+   "ec_data.py": "d56b51b6215d949fc597d2f3e4389f638a1ed6c32aa9730d3e2ef42f796fc73f"
+  },
+  "kt10": {
+   "kt_core.py": "e52f3cac81b072d475aa27e39b12fe5106c13dacce8d6234090c2df967df9bfd"
+  },
+  "rv09": {
+   "rv_editor.py": "73f66b0ddc2c19c3b29fe1ab9fe106355b8729e42ba05668cd2bb21924ef37cb",
+   "rv_policy.py": "e2610cd99251fbff407cea1f9d568329a6c142426a5abe91aa090b452a031c40"
+  },
+  "so08": {
+   "so_data.py": "0e985c427a606817c21329a356909e91dd5bcbf6132f576684fc0a0c606b11d3",
+   "so_model.py": "389db12345fc7872ed924d57c08036d0168c7e055842d9b9951b8d7fd2a2cf93",
+   "so_policy.py": "aeffbebaf686fa40460f71c6c1416605b5741a148a3285e6f231f540142b9fc0"
+  },
+  "xr13": {
+   "xr_run.py": "1ea50bde928f93ff768e278fbb9f8fa60820de6f76e016c72606e5ee578f95be",
+   "xr_analysis.py": "8b8d1ce50c4f8d597c357e56b2c4f1a3024bdded49df0a6c6f5756b703952f95"
+  },
+  "rc15": {
+   "rc_core.py": "d8ff8fc60467a848cdabf200fe6cfca22c319ffe294cb8d5784359b59690d62e",
+   "rc_run.py": "c1a37cacc20774ba76f870e34ff33c245ba1563108c9e71efccfc860f23f0cbe",
+   "rc_analysis.py": "ccaf2515dd7494c610f309f4484eea46817eca5244b146589afaea0a6109f5ed"
+  }
+ },
+ "env_overrides": {
+  "RV_DATA_DIR": "/workspace/data/wikibigedit",
+  "RV_MODEL_PATH": "/workspace/models/qwen3_0.6b_base",
+  "XR_STREAMS_DIR": "/workspace/rc15/xr13/streams"
+ },
+ "spans_sha256": "53b16cd9178452da3b1d1925da1b7ca298820e8afdeff99b405d32750b6da8d6"
+}

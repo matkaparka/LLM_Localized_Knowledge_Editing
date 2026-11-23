@@ -1,0 +1,95 @@
+{
+  "repo": "allenai/OLMo-2-1124-7B",
+  "repo_type": "model",
+  "revision": "7df9a82518afdecae4e8c026b27adccc8c1f0032",
+  "endpoint": "https://huggingface.co",
+  "license": "apache-2.0",
+  "gated": false,
+  "listed_utc": "2026-11-22T04:30:25.548893+00:00",
+  "files": [
+    {
+      "name": "config.json",
+      "size": 623,
+      "blob_id": "8c12104001a8cf0f5a4736f169a158d42367f9b7",
+      "lfs_sha256": null
+    },
+    {
+      "name": "generation_config.json",
+      "size": 126,
+      "blob_id": "417ff8cf12c2334a1a4b1554b7b7bb8964bedad8",
+      "lfs_sha256": null
+    },
+    {
+      "name": "merges.txt",
+      "size": 916646,
+      "blob_id": "354558edcdbd64ca7abd407b8be3d5d09d39d781",
+      "lfs_sha256": null
+    },
+    {
+      "name": "model-00001-of-00006.safetensors",
+      "size": 4949546184,
+      "blob_id": "0491180f43b1087b785ae903afe651eb36f64cd4",
+      "lfs_sha256": "880c0d9bd7311ca020584a7304504918dfcf17bfa35b464b1ab8dc01a06138d3"
+    },
+    {
+      "name": "model-00002-of-00006.safetensors",
+      "size": 4991622816,
+      "blob_id": "05c28aec585e04ebf8f1076cf70a69618bce92d5",
+      "lfs_sha256": "de0b6a357d03676c4986588aaf4dc96afc3f44a0498514961d2b2cfa1940655e"
+    },
+    {
+      "name": "model-00003-of-00006.safetensors",
+      "size": 4924546896,
+      "blob_id": "e07ff633b3ffc265f9824cf3c5976a3ad2e792da",
+      "lfs_sha256": "c1038a7d346a681a8fb6949e054c2246f3f3c80e826855c1cec6af1155cc607d"
+    },
+    {
+      "name": "model-00004-of-00006.safetensors",
+      "size": 4857404928,
+      "blob_id": "0208f5f6d3209aa8fc3ec9ec287630d612cf7ee1",
+      "lfs_sha256": "33c0a21146ace02d36928787ae7f34be868f7c81b894dea98ec7b0e5a3ea01b2"
+    },
+    {
+      "name": "model-00005-of-00006.safetensors",
+      "size": 4857404928,
+      "blob_id": "4317890bb2b0b279f216746c5aee48f59b5dba09",
+      "lfs_sha256": "e7f82a3014ccfc0f67208f63785ae4bc71f09aba86db48bf6139d18178abbfed"
+    },
+    {
+      "name": "model-00006-of-00006.safetensors",
+      "size": 4613984792,
+      "blob_id": "158fa94f9a7ca76b8bd3d5d9214b3a452dbc561e",
+      "lfs_sha256": "2dda0bdc36c113e54909a798f8847f76f052b17a082ceaf1fa8b0fd30b0b3041"
+    },
+    {
+      "name": "model.safetensors.index.json",
+      "size": 29594,
+      "blob_id": "9a15313360de4176e40f9ebe5e292b2c25279d39",
+      "lfs_sha256": null
+    },
+    {
+      "name": "special_tokens_map.json",
+      "size": 125,
+      "blob_id": "68a9a42af03ba45d68358595d49dc70b10159c12",
+      "lfs_sha256": null
+    },
+    {
+      "name": "tokenizer.json",
+      "size": 7137177,
+      "blob_id": "5fe172127988c3709a49d8d2ce20e11bb266cd57",
+      "lfs_sha256": null
+    },
+    {
+      "name": "tokenizer_config.json",
+      "size": 4345,
+      "blob_id": "f9e5ee94cf605b587aa8021f7e27e7d5381c07b7",
+      "lfs_sha256": null
+    },
+    {
+      "name": "vocab.json",
+      "size": 1611056,
+      "blob_id": "51135344eec01a62fc4deaca39c72ac08f5b9709",
+      "lfs_sha256": null
+    }
+  ]
+}

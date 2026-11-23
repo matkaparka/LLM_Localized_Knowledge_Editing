@@ -1,0 +1,3813 @@
+{
+ "fp12": {
+  "D4": {
+   "orig/on": {
+    "strata": {
+     "n": 1049,
+     "floor": 908,
+     "middle": 127,
+     "banned": 14,
+     "banned_share": 0.01334604385128694,
+     "middle_share": 0.12106768350810296
+    },
+    "culprits": {
+     "uniform:0.90": {
+      "damaged": 28,
+      "per_item": {
+       "middle only": 25,
+       "floor only": 3
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 25,
+       "floor": 3
+      },
+      "top": [
+       {
+        "entry": 926,
+        "items": 8,
+        "threshold": 0.976974,
+        "stratum": "middle",
+        "entity": "freemasonry in Indonesia"
+       },
+       {
+        "entry": 806,
+        "items": 6,
+        "threshold": 0.962725,
+        "stratum": "middle",
+        "entity": "solar eclipse of July 11, 1536 BC"
+       },
+       {
+        "entry": 556,
+        "items": 4,
+        "threshold": 0.972181,
+        "stratum": "middle",
+        "entity": "Santa Maria College, Perth"
+       },
+       {
+        "entry": 883,
+        "items": 2,
+        "threshold": 0.904222,
+        "stratum": "middle",
+        "entity": "4 Charlemont Place"
+       },
+       {
+        "entry": 454,
+        "items": 1,
+        "threshold": 0.96952,
+        "stratum": "middle",
+        "entity": "SKH St. Thomas Primary School"
+       }
+      ]
+     },
+     "matched": {
+      "damaged": 5,
+      "per_item": {
+       "floor only": 3,
+       "middle only": 2
+      },
+      "culprit_entries_by_stratum": {
+       "floor": 3,
+       "middle": 2
+      },
+      "top": [
+       {
+        "entry": 883,
+        "items": 2,
+        "threshold": 0.904222,
+        "stratum": "middle",
+        "entity": "4 Charlemont Place"
+       },
+       {
+        "entry": 474,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Halbes Schloss"
+       },
+       {
+        "entry": 784,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Elbasan Street"
+       },
+       {
+        "entry": 953,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Çayyazı"
+       }
+      ]
+     },
+     "shuffled:0": {
+      "damaged": 27,
+      "per_item": {
+       "middle only": 24,
+       "floor only": 3
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 24,
+       "floor": 3
+      },
+      "top": [
+       {
+        "entry": 926,
+        "items": 8,
+        "threshold": 0.976974,
+        "stratum": "middle",
+        "entity": "freemasonry in Indonesia"
+       },
+       {
+        "entry": 556,
+        "items": 4,
+        "threshold": 0.972181,
+        "stratum": "middle",
+        "entity": "Santa Maria College, Perth"
+       },
+       {
+        "entry": 803,
+        "items": 4,
+        "threshold": 0.961789,
+        "stratum": "middle",
+        "entity": "solar eclipse of February 6, 1519 BC"
+       },
+       {
+        "entry": 883,
+        "items": 2,
+        "threshold": 0.904222,
+        "stratum": "middle",
+        "entity": "4 Charlemont Place"
+       },
+       {
+        "entry": 454,
+        "items": 1,
+        "threshold": 0.96952,
+        "stratum": "middle",
+        "entity": "SKH St. Thomas Primary School"
+       }
+      ]
+     }
+    }
+   },
+   "orig/off": {
+    "strata": {
+     "n": 1049,
+     "floor": 908,
+     "middle": 127,
+     "banned": 14,
+     "banned_share": 0.01334604385128694,
+     "middle_share": 0.12106768350810296
+    },
+    "culprits": {
+     "uniform:0.90": {
+      "damaged": 28,
+      "per_item": {
+       "middle only": 25,
+       "floor only": 3
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 25,
+       "floor": 3
+      },
+      "top": [
+       {
+        "entry": 926,
+        "items": 8,
+        "threshold": 0.976974,
+        "stratum": "middle",
+        "entity": "freemasonry in Indonesia"
+       },
+       {
+        "entry": 806,
+        "items": 6,
+        "threshold": 0.962725,
+        "stratum": "middle",
+        "entity": "solar eclipse of July 11, 1536 BC"
+       },
+       {
+        "entry": 556,
+        "items": 4,
+        "threshold": 0.972181,
+        "stratum": "middle",
+        "entity": "Santa Maria College, Perth"
+       },
+       {
+        "entry": 883,
+        "items": 2,
+        "threshold": 0.904222,
+        "stratum": "middle",
+        "entity": "4 Charlemont Place"
+       },
+       {
+        "entry": 454,
+        "items": 1,
+        "threshold": 0.96952,
+        "stratum": "middle",
+        "entity": "SKH St. Thomas Primary School"
+       }
+      ]
+     },
+     "matched": {
+      "damaged": 5,
+      "per_item": {
+       "floor only": 3,
+       "middle only": 2
+      },
+      "culprit_entries_by_stratum": {
+       "floor": 3,
+       "middle": 2
+      },
+      "top": [
+       {
+        "entry": 883,
+        "items": 2,
+        "threshold": 0.904222,
+        "stratum": "middle",
+        "entity": "4 Charlemont Place"
+       },
+       {
+        "entry": 474,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Halbes Schloss"
+       },
+       {
+        "entry": 784,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Elbasan Street"
+       },
+       {
+        "entry": 953,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Çayyazı"
+       }
+      ]
+     },
+     "shuffled:0": {
+      "damaged": 27,
+      "per_item": {
+       "middle only": 24,
+       "floor only": 3
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 24,
+       "floor": 3
+      },
+      "top": [
+       {
+        "entry": 926,
+        "items": 8,
+        "threshold": 0.976974,
+        "stratum": "middle",
+        "entity": "freemasonry in Indonesia"
+       },
+       {
+        "entry": 556,
+        "items": 4,
+        "threshold": 0.972181,
+        "stratum": "middle",
+        "entity": "Santa Maria College, Perth"
+       },
+       {
+        "entry": 803,
+        "items": 4,
+        "threshold": 0.961789,
+        "stratum": "middle",
+        "entity": "solar eclipse of February 6, 1519 BC"
+       },
+       {
+        "entry": 883,
+        "items": 2,
+        "threshold": 0.904222,
+        "stratum": "middle",
+        "entity": "4 Charlemont Place"
+       },
+       {
+        "entry": 454,
+        "items": 1,
+        "threshold": 0.96952,
+        "stratum": "middle",
+        "entity": "SKH St. Thomas Primary School"
+       }
+      ]
+     }
+    }
+   },
+   "corr/on": {
+    "strata": {
+     "n": 1049,
+     "floor": 906,
+     "middle": 135,
+     "banned": 8,
+     "banned_share": 0.0076263107721639654,
+     "middle_share": 0.12869399428026693
+    },
+    "culprits": {
+     "uniform:0.90": {
+      "damaged": 32,
+      "per_item": {
+       "middle only": 29,
+       "floor only": 3
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 30,
+       "floor": 3
+      },
+      "top": [
+       {
+        "entry": 926,
+        "items": 8,
+        "threshold": 0.976974,
+        "stratum": "middle",
+        "entity": "freemasonry in Indonesia"
+       },
+       {
+        "entry": 807,
+        "items": 7,
+        "threshold": 0.961667,
+        "stratum": "middle",
+        "entity": "February 27, 1483 BC"
+       },
+       {
+        "entry": 556,
+        "items": 4,
+        "threshold": 0.972181,
+        "stratum": "middle",
+        "entity": "Santa Maria College, Perth"
+       },
+       {
+        "entry": 883,
+        "items": 2,
+        "threshold": 0.904222,
+        "stratum": "middle",
+        "entity": "4 Charlemont Place"
+       },
+       {
+        "entry": 454,
+        "items": 1,
+        "threshold": 0.96952,
+        "stratum": "middle",
+        "entity": "SKH St. Thomas Primary School"
+       }
+      ]
+     },
+     "matched": {
+      "damaged": 5,
+      "per_item": {
+       "floor only": 3,
+       "middle only": 2
+      },
+      "culprit_entries_by_stratum": {
+       "floor": 3,
+       "middle": 2
+      },
+      "top": [
+       {
+        "entry": 883,
+        "items": 2,
+        "threshold": 0.904222,
+        "stratum": "middle",
+        "entity": "4 Charlemont Place"
+       },
+       {
+        "entry": 474,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Halbes Schloss"
+       },
+       {
+        "entry": 784,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Elbasan Street"
+       },
+       {
+        "entry": 953,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Çayyazı"
+       }
+      ]
+     },
+     "shuffled:0": {
+      "damaged": 32,
+      "per_item": {
+       "middle only": 29,
+       "floor only": 3
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 30,
+       "floor": 3
+      },
+      "top": [
+       {
+        "entry": 926,
+        "items": 8,
+        "threshold": 0.976974,
+        "stratum": "middle",
+        "entity": "freemasonry in Indonesia"
+       },
+       {
+        "entry": 807,
+        "items": 8,
+        "threshold": 0.961667,
+        "stratum": "middle",
+        "entity": "February 27, 1483 BC"
+       },
+       {
+        "entry": 556,
+        "items": 4,
+        "threshold": 0.972181,
+        "stratum": "middle",
+        "entity": "Santa Maria College, Perth"
+       },
+       {
+        "entry": 883,
+        "items": 2,
+        "threshold": 0.904222,
+        "stratum": "middle",
+        "entity": "4 Charlemont Place"
+       },
+       {
+        "entry": 454,
+        "items": 1,
+        "threshold": 0.96952,
+        "stratum": "middle",
+        "entity": "SKH St. Thomas Primary School"
+       }
+      ]
+     }
+    }
+   },
+   "corr/off": {
+    "strata": {
+     "n": 1049,
+     "floor": 906,
+     "middle": 135,
+     "banned": 8,
+     "banned_share": 0.0076263107721639654,
+     "middle_share": 0.12869399428026693
+    },
+    "culprits": {
+     "uniform:0.90": {
+      "damaged": 32,
+      "per_item": {
+       "middle only": 29,
+       "floor only": 3
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 30,
+       "floor": 3
+      },
+      "top": [
+       {
+        "entry": 926,
+        "items": 8,
+        "threshold": 0.976974,
+        "stratum": "middle",
+        "entity": "freemasonry in Indonesia"
+       },
+       {
+        "entry": 807,
+        "items": 7,
+        "threshold": 0.961667,
+        "stratum": "middle",
+        "entity": "February 27, 1483 BC"
+       },
+       {
+        "entry": 556,
+        "items": 4,
+        "threshold": 0.972181,
+        "stratum": "middle",
+        "entity": "Santa Maria College, Perth"
+       },
+       {
+        "entry": 883,
+        "items": 2,
+        "threshold": 0.904222,
+        "stratum": "middle",
+        "entity": "4 Charlemont Place"
+       },
+       {
+        "entry": 454,
+        "items": 1,
+        "threshold": 0.96952,
+        "stratum": "middle",
+        "entity": "SKH St. Thomas Primary School"
+       }
+      ]
+     },
+     "matched": {
+      "damaged": 5,
+      "per_item": {
+       "floor only": 3,
+       "middle only": 2
+      },
+      "culprit_entries_by_stratum": {
+       "floor": 3,
+       "middle": 2
+      },
+      "top": [
+       {
+        "entry": 883,
+        "items": 2,
+        "threshold": 0.904222,
+        "stratum": "middle",
+        "entity": "4 Charlemont Place"
+       },
+       {
+        "entry": 474,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Halbes Schloss"
+       },
+       {
+        "entry": 784,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Elbasan Street"
+       },
+       {
+        "entry": 953,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Çayyazı"
+       }
+      ]
+     },
+     "shuffled:0": {
+      "damaged": 32,
+      "per_item": {
+       "middle only": 29,
+       "floor only": 3
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 30,
+       "floor": 3
+      },
+      "top": [
+       {
+        "entry": 926,
+        "items": 8,
+        "threshold": 0.976974,
+        "stratum": "middle",
+        "entity": "freemasonry in Indonesia"
+       },
+       {
+        "entry": 807,
+        "items": 8,
+        "threshold": 0.961667,
+        "stratum": "middle",
+        "entity": "February 27, 1483 BC"
+       },
+       {
+        "entry": 556,
+        "items": 4,
+        "threshold": 0.972181,
+        "stratum": "middle",
+        "entity": "Santa Maria College, Perth"
+       },
+       {
+        "entry": 883,
+        "items": 2,
+        "threshold": 0.904222,
+        "stratum": "middle",
+        "entity": "4 Charlemont Place"
+       },
+       {
+        "entry": 454,
+        "items": 1,
+        "threshold": 0.96952,
+        "stratum": "middle",
+        "entity": "SKH St. Thomas Primary School"
+       }
+      ]
+     }
+    }
+   },
+   "strict": {
+    "strata": {
+     "n": 1049,
+     "floor": 906,
+     "middle": 135,
+     "banned": 8,
+     "banned_share": 0.0076263107721639654,
+     "middle_share": 0.12869399428026693
+    }
+   }
+  },
+  "D5": {
+   "orig/on": {
+    "strata": {
+     "n": 1052,
+     "floor": 901,
+     "middle": 144,
+     "banned": 7,
+     "banned_share": 0.006653992395437262,
+     "middle_share": 0.13688212927756654
+    },
+    "culprits": {
+     "uniform:0.90": {
+      "damaged": 26,
+      "per_item": {
+       "middle only": 24,
+       "floor only": 2
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 24,
+       "floor": 2
+      },
+      "top": [
+       {
+        "entry": 813,
+        "items": 8,
+        "threshold": 0.994448,
+        "stratum": "middle",
+        "entity": "solar eclipse of October 27, 1839 BC"
+       },
+       {
+        "entry": 847,
+        "items": 5,
+        "threshold": 0.969038,
+        "stratum": "middle",
+        "entity": "School of Mechanical Engineering"
+       },
+       {
+        "entry": 1015,
+        "items": 2,
+        "threshold": 0.988131,
+        "stratum": "middle",
+        "entity": "16 Leven Street"
+       },
+       {
+        "entry": 1025,
+        "items": 2,
+        "threshold": 0.978797,
+        "stratum": "middle",
+        "entity": "Brunston Castle"
+       },
+       {
+        "entry": 97,
+        "items": 2,
+        "threshold": 0.971307,
+        "stratum": "middle",
+        "entity": "CHPR-FM"
+       }
+      ]
+     },
+     "matched": {
+      "damaged": 3,
+      "per_item": {
+       "floor only": 2,
+       "middle only": 1
+      },
+      "culprit_entries_by_stratum": {
+       "floor": 2,
+       "middle": 1
+      },
+      "top": [
+       {
+        "entry": 938,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "water supply and sanitation in Nigeria"
+       },
+       {
+        "entry": 1006,
+        "items": 1,
+        "threshold": 0.907591,
+        "stratum": "middle",
+        "entity": "Barhoise Mill"
+       },
+       {
+        "entry": 383,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Robert Antonín"
+       }
+      ]
+     },
+     "shuffled:0": {
+      "damaged": 24,
+      "per_item": {
+       "middle only": 22,
+       "floor only": 2
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 22,
+       "floor": 2
+      },
+      "top": [
+       {
+        "entry": 813,
+        "items": 8,
+        "threshold": 0.994448,
+        "stratum": "middle",
+        "entity": "solar eclipse of October 27, 1839 BC"
+       },
+       {
+        "entry": 847,
+        "items": 5,
+        "threshold": 0.969038,
+        "stratum": "middle",
+        "entity": "School of Mechanical Engineering"
+       },
+       {
+        "entry": 1015,
+        "items": 2,
+        "threshold": 0.988131,
+        "stratum": "middle",
+        "entity": "16 Leven Street"
+       },
+       {
+        "entry": 97,
+        "items": 2,
+        "threshold": 0.971307,
+        "stratum": "middle",
+        "entity": "CHPR-FM"
+       },
+       {
+        "entry": 938,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "water supply and sanitation in Nigeria"
+       }
+      ]
+     }
+    }
+   },
+   "orig/off": {
+    "strata": {
+     "n": 1052,
+     "floor": 901,
+     "middle": 144,
+     "banned": 7,
+     "banned_share": 0.006653992395437262,
+     "middle_share": 0.13688212927756654
+    },
+    "culprits": {
+     "uniform:0.90": {
+      "damaged": 26,
+      "per_item": {
+       "middle only": 24,
+       "floor only": 2
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 24,
+       "floor": 2
+      },
+      "top": [
+       {
+        "entry": 813,
+        "items": 8,
+        "threshold": 0.994448,
+        "stratum": "middle",
+        "entity": "solar eclipse of October 27, 1839 BC"
+       },
+       {
+        "entry": 847,
+        "items": 5,
+        "threshold": 0.969038,
+        "stratum": "middle",
+        "entity": "School of Mechanical Engineering"
+       },
+       {
+        "entry": 1015,
+        "items": 2,
+        "threshold": 0.988131,
+        "stratum": "middle",
+        "entity": "16 Leven Street"
+       },
+       {
+        "entry": 1025,
+        "items": 2,
+        "threshold": 0.978797,
+        "stratum": "middle",
+        "entity": "Brunston Castle"
+       },
+       {
+        "entry": 97,
+        "items": 2,
+        "threshold": 0.971307,
+        "stratum": "middle",
+        "entity": "CHPR-FM"
+       }
+      ]
+     },
+     "matched": {
+      "damaged": 3,
+      "per_item": {
+       "floor only": 2,
+       "middle only": 1
+      },
+      "culprit_entries_by_stratum": {
+       "floor": 2,
+       "middle": 1
+      },
+      "top": [
+       {
+        "entry": 938,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "water supply and sanitation in Nigeria"
+       },
+       {
+        "entry": 1006,
+        "items": 1,
+        "threshold": 0.907591,
+        "stratum": "middle",
+        "entity": "Barhoise Mill"
+       },
+       {
+        "entry": 383,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Robert Antonín"
+       }
+      ]
+     },
+     "shuffled:0": {
+      "damaged": 24,
+      "per_item": {
+       "middle only": 22,
+       "floor only": 2
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 22,
+       "floor": 2
+      },
+      "top": [
+       {
+        "entry": 813,
+        "items": 8,
+        "threshold": 0.994448,
+        "stratum": "middle",
+        "entity": "solar eclipse of October 27, 1839 BC"
+       },
+       {
+        "entry": 847,
+        "items": 5,
+        "threshold": 0.969038,
+        "stratum": "middle",
+        "entity": "School of Mechanical Engineering"
+       },
+       {
+        "entry": 1015,
+        "items": 2,
+        "threshold": 0.988131,
+        "stratum": "middle",
+        "entity": "16 Leven Street"
+       },
+       {
+        "entry": 97,
+        "items": 2,
+        "threshold": 0.971307,
+        "stratum": "middle",
+        "entity": "CHPR-FM"
+       },
+       {
+        "entry": 938,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "water supply and sanitation in Nigeria"
+       }
+      ]
+     }
+    }
+   },
+   "corr/on": {
+    "strata": {
+     "n": 1052,
+     "floor": 901,
+     "middle": 144,
+     "banned": 7,
+     "banned_share": 0.006653992395437262,
+     "middle_share": 0.13688212927756654
+    },
+    "culprits": {
+     "uniform:0.90": {
+      "damaged": 14,
+      "per_item": {
+       "middle only": 12,
+       "floor only": 2
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 12,
+       "floor": 2
+      },
+      "top": [
+       {
+        "entry": 1015,
+        "items": 2,
+        "threshold": 0.988131,
+        "stratum": "middle",
+        "entity": "16 Leven Street"
+       },
+       {
+        "entry": 1025,
+        "items": 2,
+        "threshold": 0.978797,
+        "stratum": "middle",
+        "entity": "Brunston Castle"
+       },
+       {
+        "entry": 97,
+        "items": 2,
+        "threshold": 0.971307,
+        "stratum": "middle",
+        "entity": "CHPR-FM"
+       },
+       {
+        "entry": 938,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "water supply and sanitation in Nigeria"
+       },
+       {
+        "entry": 363,
+        "items": 1,
+        "threshold": 0.989164,
+        "stratum": "middle",
+        "entity": "Vernersbridge railway station"
+       }
+      ]
+     },
+     "matched": {
+      "damaged": 3,
+      "per_item": {
+       "floor only": 2,
+       "middle only": 1
+      },
+      "culprit_entries_by_stratum": {
+       "floor": 2,
+       "middle": 1
+      },
+      "top": [
+       {
+        "entry": 938,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "water supply and sanitation in Nigeria"
+       },
+       {
+        "entry": 1006,
+        "items": 1,
+        "threshold": 0.907591,
+        "stratum": "middle",
+        "entity": "Barhoise Mill"
+       },
+       {
+        "entry": 383,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Robert Antonín"
+       }
+      ]
+     },
+     "shuffled:0": {
+      "damaged": 12,
+      "per_item": {
+       "middle only": 10,
+       "floor only": 2
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 10,
+       "floor": 2
+      },
+      "top": [
+       {
+        "entry": 1015,
+        "items": 2,
+        "threshold": 0.988131,
+        "stratum": "middle",
+        "entity": "16 Leven Street"
+       },
+       {
+        "entry": 97,
+        "items": 2,
+        "threshold": 0.971307,
+        "stratum": "middle",
+        "entity": "CHPR-FM"
+       },
+       {
+        "entry": 938,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "water supply and sanitation in Nigeria"
+       },
+       {
+        "entry": 363,
+        "items": 1,
+        "threshold": 0.989164,
+        "stratum": "middle",
+        "entity": "Vernersbridge railway station"
+       },
+       {
+        "entry": 813,
+        "items": 1,
+        "threshold": 0.994448,
+        "stratum": "middle",
+        "entity": "solar eclipse of October 27, 1839 BC"
+       }
+      ]
+     }
+    }
+   },
+   "corr/off": {
+    "strata": {
+     "n": 1052,
+     "floor": 901,
+     "middle": 144,
+     "banned": 7,
+     "banned_share": 0.006653992395437262,
+     "middle_share": 0.13688212927756654
+    },
+    "culprits": {
+     "uniform:0.90": {
+      "damaged": 14,
+      "per_item": {
+       "middle only": 12,
+       "floor only": 2
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 12,
+       "floor": 2
+      },
+      "top": [
+       {
+        "entry": 1015,
+        "items": 2,
+        "threshold": 0.988131,
+        "stratum": "middle",
+        "entity": "16 Leven Street"
+       },
+       {
+        "entry": 1025,
+        "items": 2,
+        "threshold": 0.978797,
+        "stratum": "middle",
+        "entity": "Brunston Castle"
+       },
+       {
+        "entry": 97,
+        "items": 2,
+        "threshold": 0.971307,
+        "stratum": "middle",
+        "entity": "CHPR-FM"
+       },
+       {
+        "entry": 938,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "water supply and sanitation in Nigeria"
+       },
+       {
+        "entry": 363,
+        "items": 1,
+        "threshold": 0.989164,
+        "stratum": "middle",
+        "entity": "Vernersbridge railway station"
+       }
+      ]
+     },
+     "matched": {
+      "damaged": 3,
+      "per_item": {
+       "floor only": 2,
+       "middle only": 1
+      },
+      "culprit_entries_by_stratum": {
+       "floor": 2,
+       "middle": 1
+      },
+      "top": [
+       {
+        "entry": 938,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "water supply and sanitation in Nigeria"
+       },
+       {
+        "entry": 1006,
+        "items": 1,
+        "threshold": 0.907591,
+        "stratum": "middle",
+        "entity": "Barhoise Mill"
+       },
+       {
+        "entry": 383,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Robert Antonín"
+       }
+      ]
+     },
+     "shuffled:0": {
+      "damaged": 12,
+      "per_item": {
+       "middle only": 10,
+       "floor only": 2
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 10,
+       "floor": 2
+      },
+      "top": [
+       {
+        "entry": 1015,
+        "items": 2,
+        "threshold": 0.988131,
+        "stratum": "middle",
+        "entity": "16 Leven Street"
+       },
+       {
+        "entry": 97,
+        "items": 2,
+        "threshold": 0.971307,
+        "stratum": "middle",
+        "entity": "CHPR-FM"
+       },
+       {
+        "entry": 938,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "water supply and sanitation in Nigeria"
+       },
+       {
+        "entry": 363,
+        "items": 1,
+        "threshold": 0.989164,
+        "stratum": "middle",
+        "entity": "Vernersbridge railway station"
+       },
+       {
+        "entry": 813,
+        "items": 1,
+        "threshold": 0.994448,
+        "stratum": "middle",
+        "entity": "solar eclipse of October 27, 1839 BC"
+       }
+      ]
+     }
+    }
+   },
+   "strict": {
+    "strata": {
+     "n": 1052,
+     "floor": 901,
+     "middle": 144,
+     "banned": 7,
+     "banned_share": 0.006653992395437262,
+     "middle_share": 0.13688212927756654
+    }
+   }
+  },
+  "D6": {
+   "orig/on": {
+    "strata": {
+     "n": 1043,
+     "floor": 898,
+     "middle": 138,
+     "banned": 7,
+     "banned_share": 0.006711409395973154,
+     "middle_share": 0.13231064237775647
+    },
+    "culprits": {
+     "uniform:0.90": {
+      "damaged": 16,
+      "per_item": {
+       "middle only": 7,
+       "floor only": 3,
+       "banned only": 6
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 7,
+       "floor": 3,
+       "banned": 6
+      },
+      "top": [
+       {
+        "entry": 799,
+        "items": 6,
+        "threshold": 1.002134,
+        "stratum": "banned",
+        "entity": "solar eclipse of August 26, 1836 BC"
+       },
+       {
+        "entry": 27,
+        "items": 2,
+        "threshold": 0.913963,
+        "stratum": "middle",
+        "entity": "National Lotung Industrial Vocational High School"
+       },
+       {
+        "entry": 979,
+        "items": 2,
+        "threshold": 0.981452,
+        "stratum": "middle",
+        "entity": "56, 58, 60 Wilson Street"
+       },
+       {
+        "entry": 44,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Juha-Matti Matilainen"
+       },
+       {
+        "entry": 254,
+        "items": 1,
+        "threshold": 0.902194,
+        "stratum": "middle",
+        "entity": "Alexandria's Taxi-Bus station"
+       }
+      ]
+     },
+     "matched": {
+      "damaged": 6,
+      "per_item": {
+       "middle only": 2,
+       "floor only": 4
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 2,
+       "floor": 4
+      },
+      "top": [
+       {
+        "entry": 27,
+        "items": 1,
+        "threshold": 0.913963,
+        "stratum": "middle",
+        "entity": "National Lotung Industrial Vocational High School"
+       },
+       {
+        "entry": 44,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Juha-Matti Matilainen"
+       },
+       {
+        "entry": 958,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Çakırören"
+       },
+       {
+        "entry": 490,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Galactica Discovers Earth: Part 2"
+       },
+       {
+        "entry": 789,
+        "items": 1,
+        "threshold": 0.943424,
+        "stratum": "middle",
+        "entity": "solar eclipse of November 7, 1300 BC"
+       }
+      ]
+     },
+     "shuffled:0": {
+      "damaged": 15,
+      "per_item": {
+       "middle only": 6,
+       "floor only": 3,
+       "banned only": 6
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 6,
+       "floor": 3,
+       "banned": 6
+      },
+      "top": [
+       {
+        "entry": 799,
+        "items": 6,
+        "threshold": 1.002134,
+        "stratum": "banned",
+        "entity": "solar eclipse of August 26, 1836 BC"
+       },
+       {
+        "entry": 979,
+        "items": 2,
+        "threshold": 0.981452,
+        "stratum": "middle",
+        "entity": "56, 58, 60 Wilson Street"
+       },
+       {
+        "entry": 27,
+        "items": 1,
+        "threshold": 0.913963,
+        "stratum": "middle",
+        "entity": "National Lotung Industrial Vocational High School"
+       },
+       {
+        "entry": 44,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Juha-Matti Matilainen"
+       },
+       {
+        "entry": 254,
+        "items": 1,
+        "threshold": 0.902194,
+        "stratum": "middle",
+        "entity": "Alexandria's Taxi-Bus station"
+       }
+      ]
+     }
+    }
+   },
+   "orig/off": {
+    "strata": {
+     "n": 1043,
+     "floor": 898,
+     "middle": 138,
+     "banned": 7,
+     "banned_share": 0.006711409395973154,
+     "middle_share": 0.13231064237775647
+    },
+    "culprits": {
+     "uniform:0.90": {
+      "damaged": 16,
+      "per_item": {
+       "middle only": 7,
+       "floor only": 3,
+       "banned only": 6
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 7,
+       "floor": 3,
+       "banned": 6
+      },
+      "top": [
+       {
+        "entry": 799,
+        "items": 6,
+        "threshold": 1.002134,
+        "stratum": "banned",
+        "entity": "solar eclipse of August 26, 1836 BC"
+       },
+       {
+        "entry": 27,
+        "items": 2,
+        "threshold": 0.913963,
+        "stratum": "middle",
+        "entity": "National Lotung Industrial Vocational High School"
+       },
+       {
+        "entry": 979,
+        "items": 2,
+        "threshold": 0.981452,
+        "stratum": "middle",
+        "entity": "56, 58, 60 Wilson Street"
+       },
+       {
+        "entry": 44,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Juha-Matti Matilainen"
+       },
+       {
+        "entry": 254,
+        "items": 1,
+        "threshold": 0.902194,
+        "stratum": "middle",
+        "entity": "Alexandria's Taxi-Bus station"
+       }
+      ]
+     },
+     "matched": {
+      "damaged": 6,
+      "per_item": {
+       "middle only": 2,
+       "floor only": 4
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 2,
+       "floor": 4
+      },
+      "top": [
+       {
+        "entry": 27,
+        "items": 1,
+        "threshold": 0.913963,
+        "stratum": "middle",
+        "entity": "National Lotung Industrial Vocational High School"
+       },
+       {
+        "entry": 44,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Juha-Matti Matilainen"
+       },
+       {
+        "entry": 958,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Çakırören"
+       },
+       {
+        "entry": 490,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Galactica Discovers Earth: Part 2"
+       },
+       {
+        "entry": 789,
+        "items": 1,
+        "threshold": 0.943424,
+        "stratum": "middle",
+        "entity": "solar eclipse of November 7, 1300 BC"
+       }
+      ]
+     },
+     "shuffled:0": {
+      "damaged": 15,
+      "per_item": {
+       "middle only": 6,
+       "floor only": 3,
+       "banned only": 6
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 6,
+       "floor": 3,
+       "banned": 6
+      },
+      "top": [
+       {
+        "entry": 799,
+        "items": 6,
+        "threshold": 1.002134,
+        "stratum": "banned",
+        "entity": "solar eclipse of August 26, 1836 BC"
+       },
+       {
+        "entry": 979,
+        "items": 2,
+        "threshold": 0.981452,
+        "stratum": "middle",
+        "entity": "56, 58, 60 Wilson Street"
+       },
+       {
+        "entry": 27,
+        "items": 1,
+        "threshold": 0.913963,
+        "stratum": "middle",
+        "entity": "National Lotung Industrial Vocational High School"
+       },
+       {
+        "entry": 44,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Juha-Matti Matilainen"
+       },
+       {
+        "entry": 254,
+        "items": 1,
+        "threshold": 0.902194,
+        "stratum": "middle",
+        "entity": "Alexandria's Taxi-Bus station"
+       }
+      ]
+     }
+    }
+   },
+   "corr/on": {
+    "strata": {
+     "n": 1043,
+     "floor": 889,
+     "middle": 147,
+     "banned": 7,
+     "banned_share": 0.006711409395973154,
+     "middle_share": 0.14093959731543623
+    },
+    "culprits": {
+     "uniform:0.90": {
+      "damaged": 31,
+      "per_item": {
+       "middle only": 22,
+       "floor only": 3,
+       "banned only": 6
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 22,
+       "floor": 3,
+       "banned": 6
+      },
+      "top": [
+       {
+        "entry": 667,
+        "items": 15,
+        "threshold": 0.967592,
+        "stratum": "middle",
+        "entity": "Pickin' On: The Grateful Dead - A Tribute"
+       },
+       {
+        "entry": 799,
+        "items": 6,
+        "threshold": 1.002134,
+        "stratum": "banned",
+        "entity": "solar eclipse of August 26, 1836 BC"
+       },
+       {
+        "entry": 27,
+        "items": 2,
+        "threshold": 0.913963,
+        "stratum": "middle",
+        "entity": "National Lotung Industrial Vocational High School"
+       },
+       {
+        "entry": 979,
+        "items": 2,
+        "threshold": 0.981452,
+        "stratum": "middle",
+        "entity": "56, 58, 60 Wilson Street"
+       },
+       {
+        "entry": 44,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Juha-Matti Matilainen"
+       }
+      ]
+     },
+     "matched": {
+      "damaged": 5,
+      "per_item": {
+       "middle only": 2,
+       "floor only": 3
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 2,
+       "floor": 3
+      },
+      "top": [
+       {
+        "entry": 27,
+        "items": 1,
+        "threshold": 0.913963,
+        "stratum": "middle",
+        "entity": "National Lotung Industrial Vocational High School"
+       },
+       {
+        "entry": 44,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Juha-Matti Matilainen"
+       },
+       {
+        "entry": 958,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Çakırören"
+       },
+       {
+        "entry": 490,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Galactica Discovers Earth: Part 2"
+       },
+       {
+        "entry": 789,
+        "items": 1,
+        "threshold": 0.943424,
+        "stratum": "middle",
+        "entity": "solar eclipse of November 7, 1300 BC"
+       }
+      ]
+     },
+     "shuffled:0": {
+      "damaged": 30,
+      "per_item": {
+       "middle only": 21,
+       "floor only": 3,
+       "banned only": 6
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 21,
+       "floor": 3,
+       "banned": 6
+      },
+      "top": [
+       {
+        "entry": 667,
+        "items": 15,
+        "threshold": 0.967592,
+        "stratum": "middle",
+        "entity": "Pickin' On: The Grateful Dead - A Tribute"
+       },
+       {
+        "entry": 799,
+        "items": 6,
+        "threshold": 1.002134,
+        "stratum": "banned",
+        "entity": "solar eclipse of August 26, 1836 BC"
+       },
+       {
+        "entry": 979,
+        "items": 2,
+        "threshold": 0.981452,
+        "stratum": "middle",
+        "entity": "56, 58, 60 Wilson Street"
+       },
+       {
+        "entry": 27,
+        "items": 1,
+        "threshold": 0.913963,
+        "stratum": "middle",
+        "entity": "National Lotung Industrial Vocational High School"
+       },
+       {
+        "entry": 44,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Juha-Matti Matilainen"
+       }
+      ]
+     }
+    }
+   },
+   "corr/off": {
+    "strata": {
+     "n": 1043,
+     "floor": 889,
+     "middle": 147,
+     "banned": 7,
+     "banned_share": 0.006711409395973154,
+     "middle_share": 0.14093959731543623
+    },
+    "culprits": {
+     "uniform:0.90": {
+      "damaged": 16,
+      "per_item": {
+       "middle only": 7,
+       "floor only": 3,
+       "banned only": 6
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 7,
+       "floor": 3,
+       "banned": 6
+      },
+      "top": [
+       {
+        "entry": 799,
+        "items": 6,
+        "threshold": 1.002134,
+        "stratum": "banned",
+        "entity": "solar eclipse of August 26, 1836 BC"
+       },
+       {
+        "entry": 27,
+        "items": 2,
+        "threshold": 0.913963,
+        "stratum": "middle",
+        "entity": "National Lotung Industrial Vocational High School"
+       },
+       {
+        "entry": 979,
+        "items": 2,
+        "threshold": 0.981452,
+        "stratum": "middle",
+        "entity": "56, 58, 60 Wilson Street"
+       },
+       {
+        "entry": 44,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Juha-Matti Matilainen"
+       },
+       {
+        "entry": 254,
+        "items": 1,
+        "threshold": 0.902194,
+        "stratum": "middle",
+        "entity": "Alexandria's Taxi-Bus station"
+       }
+      ]
+     },
+     "matched": {
+      "damaged": 5,
+      "per_item": {
+       "middle only": 2,
+       "floor only": 3
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 2,
+       "floor": 3
+      },
+      "top": [
+       {
+        "entry": 27,
+        "items": 1,
+        "threshold": 0.913963,
+        "stratum": "middle",
+        "entity": "National Lotung Industrial Vocational High School"
+       },
+       {
+        "entry": 44,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Juha-Matti Matilainen"
+       },
+       {
+        "entry": 958,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Çakırören"
+       },
+       {
+        "entry": 490,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Galactica Discovers Earth: Part 2"
+       },
+       {
+        "entry": 789,
+        "items": 1,
+        "threshold": 0.943424,
+        "stratum": "middle",
+        "entity": "solar eclipse of November 7, 1300 BC"
+       }
+      ]
+     },
+     "shuffled:0": {
+      "damaged": 15,
+      "per_item": {
+       "middle only": 6,
+       "floor only": 3,
+       "banned only": 6
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 6,
+       "floor": 3,
+       "banned": 6
+      },
+      "top": [
+       {
+        "entry": 799,
+        "items": 6,
+        "threshold": 1.002134,
+        "stratum": "banned",
+        "entity": "solar eclipse of August 26, 1836 BC"
+       },
+       {
+        "entry": 979,
+        "items": 2,
+        "threshold": 0.981452,
+        "stratum": "middle",
+        "entity": "56, 58, 60 Wilson Street"
+       },
+       {
+        "entry": 27,
+        "items": 1,
+        "threshold": 0.913963,
+        "stratum": "middle",
+        "entity": "National Lotung Industrial Vocational High School"
+       },
+       {
+        "entry": 44,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Juha-Matti Matilainen"
+       },
+       {
+        "entry": 254,
+        "items": 1,
+        "threshold": 0.902194,
+        "stratum": "middle",
+        "entity": "Alexandria's Taxi-Bus station"
+       }
+      ]
+     }
+    }
+   },
+   "strict": {
+    "strata": {
+     "n": 1043,
+     "floor": 890,
+     "middle": 146,
+     "banned": 7,
+     "banned_share": 0.006711409395973154,
+     "middle_share": 0.13998082454458294
+    }
+   }
+  },
+  "D7": {
+   "orig/on": {
+    "strata": {
+     "n": 1043,
+     "floor": 895,
+     "middle": 146,
+     "banned": 2,
+     "banned_share": 0.0019175455417066154,
+     "middle_share": 0.13998082454458294
+    },
+    "culprits": {
+     "uniform:0.90": {
+      "damaged": 157,
+      "per_item": {
+       "middle only": 141,
+       "mixed": 6,
+       "floor only": 1,
+       "no single culprit": 5,
+       "banned only": 4
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 176,
+       "banned": 9,
+       "floor": 2
+      },
+      "top": [
+       {
+        "entry": 615,
+        "items": 88,
+        "threshold": 0.921711,
+        "stratum": "middle",
+        "entity": "Bienvenue Solitude"
+       },
+       {
+        "entry": 722,
+        "items": 76,
+        "threshold": 0.961096,
+        "stratum": "middle",
+        "entity": "Nicholson Catholic College"
+       },
+       {
+        "entry": 792,
+        "items": 9,
+        "threshold": 1.000657,
+        "stratum": "banned",
+        "entity": "solar eclipse of April 1, 1893 BC"
+       },
+       {
+        "entry": 863,
+        "items": 3,
+        "threshold": 0.95933,
+        "stratum": "middle",
+        "entity": "solar eclipse of November 23, 2"
+       },
+       {
+        "entry": 1002,
+        "items": 2,
+        "threshold": 0.971536,
+        "stratum": "middle",
+        "entity": "21 Elmbank Street"
+       }
+      ]
+     },
+     "matched": {
+      "damaged": 5,
+      "per_item": {
+       "middle only": 2,
+       "floor only": 3
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 2,
+       "floor": 3
+      },
+      "top": [
+       {
+        "entry": 832,
+        "items": 1,
+        "threshold": 0.921627,
+        "stratum": "middle",
+        "entity": "solar eclipse of January 25, 1982"
+       },
+       {
+        "entry": 10,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "1236 AH"
+       },
+       {
+        "entry": 1015,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Inverness"
+       },
+       {
+        "entry": 341,
+        "items": 1,
+        "threshold": 0.902644,
+        "stratum": "middle",
+        "entity": "Kaşkışla"
+       },
+       {
+        "entry": 106,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Pod Łabędziem tenement house in Warsaw"
+       }
+      ]
+     },
+     "shuffled:0": {
+      "damaged": 156,
+      "per_item": {
+       "middle only": 141,
+       "floor only": 1,
+       "mixed": 5,
+       "no single culprit": 5,
+       "banned only": 4
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 174,
+       "floor": 2,
+       "banned": 8
+      },
+      "top": [
+       {
+        "entry": 615,
+        "items": 88,
+        "threshold": 0.921711,
+        "stratum": "middle",
+        "entity": "Bienvenue Solitude"
+       },
+       {
+        "entry": 722,
+        "items": 77,
+        "threshold": 0.961096,
+        "stratum": "middle",
+        "entity": "Nicholson Catholic College"
+       },
+       {
+        "entry": 792,
+        "items": 8,
+        "threshold": 1.000657,
+        "stratum": "banned",
+        "entity": "solar eclipse of April 1, 1893 BC"
+       },
+       {
+        "entry": 863,
+        "items": 3,
+        "threshold": 0.95933,
+        "stratum": "middle",
+        "entity": "solar eclipse of November 23, 2"
+       },
+       {
+        "entry": 962,
+        "items": 2,
+        "threshold": 0.921597,
+        "stratum": "middle",
+        "entity": "textile industry in India"
+       }
+      ]
+     }
+    }
+   },
+   "orig/off": {
+    "strata": {
+     "n": 1043,
+     "floor": 895,
+     "middle": 146,
+     "banned": 2,
+     "banned_share": 0.0019175455417066154,
+     "middle_share": 0.13998082454458294
+    },
+    "culprits": {
+     "uniform:0.90": {
+      "damaged": 113,
+      "per_item": {
+       "middle only": 99,
+       "mixed": 3,
+       "floor only": 2,
+       "banned only": 8,
+       "no single culprit": 1
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 104,
+       "banned": 10,
+       "floor": 3
+      },
+      "top": [
+       {
+        "entry": 615,
+        "items": 91,
+        "threshold": 0.921711,
+        "stratum": "middle",
+        "entity": "Bienvenue Solitude"
+       },
+       {
+        "entry": 792,
+        "items": 10,
+        "threshold": 1.000657,
+        "stratum": "banned",
+        "entity": "solar eclipse of April 1, 1893 BC"
+       },
+       {
+        "entry": 863,
+        "items": 3,
+        "threshold": 0.95933,
+        "stratum": "middle",
+        "entity": "solar eclipse of November 23, 2"
+       },
+       {
+        "entry": 1002,
+        "items": 2,
+        "threshold": 0.971536,
+        "stratum": "middle",
+        "entity": "21 Elmbank Street"
+       },
+       {
+        "entry": 962,
+        "items": 2,
+        "threshold": 0.921597,
+        "stratum": "middle",
+        "entity": "textile industry in India"
+       }
+      ]
+     },
+     "matched": {
+      "damaged": 5,
+      "per_item": {
+       "middle only": 2,
+       "floor only": 3
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 2,
+       "floor": 3
+      },
+      "top": [
+       {
+        "entry": 832,
+        "items": 1,
+        "threshold": 0.921627,
+        "stratum": "middle",
+        "entity": "solar eclipse of January 25, 1982"
+       },
+       {
+        "entry": 10,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "1236 AH"
+       },
+       {
+        "entry": 1015,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Inverness"
+       },
+       {
+        "entry": 341,
+        "items": 1,
+        "threshold": 0.902644,
+        "stratum": "middle",
+        "entity": "Kaşkışla"
+       },
+       {
+        "entry": 106,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Pod Łabędziem tenement house in Warsaw"
+       }
+      ]
+     },
+     "shuffled:0": {
+      "damaged": 112,
+      "per_item": {
+       "middle only": 98,
+       "banned only": 9,
+       "floor only": 2,
+       "mixed": 2,
+       "no single culprit": 1
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 101,
+       "banned": 10,
+       "floor": 3
+      },
+      "top": [
+       {
+        "entry": 615,
+        "items": 91,
+        "threshold": 0.921711,
+        "stratum": "middle",
+        "entity": "Bienvenue Solitude"
+       },
+       {
+        "entry": 792,
+        "items": 10,
+        "threshold": 1.000657,
+        "stratum": "banned",
+        "entity": "solar eclipse of April 1, 1893 BC"
+       },
+       {
+        "entry": 863,
+        "items": 3,
+        "threshold": 0.95933,
+        "stratum": "middle",
+        "entity": "solar eclipse of November 23, 2"
+       },
+       {
+        "entry": 962,
+        "items": 2,
+        "threshold": 0.921597,
+        "stratum": "middle",
+        "entity": "textile industry in India"
+       },
+       {
+        "entry": 10,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "1236 AH"
+       }
+      ]
+     }
+    }
+   },
+   "corr/on": {
+    "strata": {
+     "n": 1043,
+     "floor": 894,
+     "middle": 147,
+     "banned": 2,
+     "banned_share": 0.0019175455417066154,
+     "middle_share": 0.14093959731543623
+    },
+    "culprits": {
+     "uniform:0.90": {
+      "damaged": 96,
+      "per_item": {
+       "middle only": 83,
+       "mixed": 4,
+       "floor only": 2,
+       "banned only": 7
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 89,
+       "banned": 11,
+       "floor": 2
+      },
+      "top": [
+       {
+        "entry": 722,
+        "items": 78,
+        "threshold": 0.961096,
+        "stratum": "middle",
+        "entity": "Nicholson Catholic College"
+       },
+       {
+        "entry": 792,
+        "items": 11,
+        "threshold": 1.000657,
+        "stratum": "banned",
+        "entity": "solar eclipse of April 1, 1893 BC"
+       },
+       {
+        "entry": 863,
+        "items": 3,
+        "threshold": 0.95933,
+        "stratum": "middle",
+        "entity": "solar eclipse of November 23, 2"
+       },
+       {
+        "entry": 1004,
+        "items": 2,
+        "threshold": 0.975336,
+        "stratum": "middle",
+        "entity": "7 Grosvenor Street"
+       },
+       {
+        "entry": 962,
+        "items": 2,
+        "threshold": 0.921597,
+        "stratum": "middle",
+        "entity": "textile industry in India"
+       }
+      ]
+     },
+     "matched": {
+      "damaged": 5,
+      "per_item": {
+       "middle only": 2,
+       "floor only": 3
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 2,
+       "floor": 3
+      },
+      "top": [
+       {
+        "entry": 832,
+        "items": 1,
+        "threshold": 0.921627,
+        "stratum": "middle",
+        "entity": "solar eclipse of January 25, 1982"
+       },
+       {
+        "entry": 10,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "1236 AH"
+       },
+       {
+        "entry": 1015,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Inverness"
+       },
+       {
+        "entry": 341,
+        "items": 1,
+        "threshold": 0.902644,
+        "stratum": "middle",
+        "entity": "Kaşkışla"
+       },
+       {
+        "entry": 106,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Pod Łabędziem tenement house in Warsaw"
+       }
+      ]
+     },
+     "shuffled:0": {
+      "damaged": 96,
+      "per_item": {
+       "middle only": 83,
+       "banned only": 8,
+       "floor only": 2,
+       "mixed": 3
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 88,
+       "banned": 11,
+       "floor": 2
+      },
+      "top": [
+       {
+        "entry": 722,
+        "items": 79,
+        "threshold": 0.961096,
+        "stratum": "middle",
+        "entity": "Nicholson Catholic College"
+       },
+       {
+        "entry": 792,
+        "items": 11,
+        "threshold": 1.000657,
+        "stratum": "banned",
+        "entity": "solar eclipse of April 1, 1893 BC"
+       },
+       {
+        "entry": 863,
+        "items": 3,
+        "threshold": 0.95933,
+        "stratum": "middle",
+        "entity": "solar eclipse of November 23, 2"
+       },
+       {
+        "entry": 1004,
+        "items": 2,
+        "threshold": 0.975336,
+        "stratum": "middle",
+        "entity": "7 Grosvenor Street"
+       },
+       {
+        "entry": 962,
+        "items": 2,
+        "threshold": 0.921597,
+        "stratum": "middle",
+        "entity": "textile industry in India"
+       }
+      ]
+     }
+    }
+   },
+   "corr/off": {
+    "strata": {
+     "n": 1043,
+     "floor": 894,
+     "middle": 147,
+     "banned": 2,
+     "banned_share": 0.0019175455417066154,
+     "middle_share": 0.14093959731543623
+    },
+    "culprits": {
+     "uniform:0.90": {
+      "damaged": 25,
+      "per_item": {
+       "middle only": 11,
+       "mixed": 1,
+       "floor only": 3,
+       "banned only": 10
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 12,
+       "banned": 11,
+       "floor": 3
+      },
+      "top": [
+       {
+        "entry": 792,
+        "items": 11,
+        "threshold": 1.000657,
+        "stratum": "banned",
+        "entity": "solar eclipse of April 1, 1893 BC"
+       },
+       {
+        "entry": 863,
+        "items": 3,
+        "threshold": 0.95933,
+        "stratum": "middle",
+        "entity": "solar eclipse of November 23, 2"
+       },
+       {
+        "entry": 1004,
+        "items": 2,
+        "threshold": 0.975336,
+        "stratum": "middle",
+        "entity": "7 Grosvenor Street"
+       },
+       {
+        "entry": 962,
+        "items": 2,
+        "threshold": 0.921597,
+        "stratum": "middle",
+        "entity": "textile industry in India"
+       },
+       {
+        "entry": 832,
+        "items": 1,
+        "threshold": 0.921627,
+        "stratum": "middle",
+        "entity": "solar eclipse of January 25, 1982"
+       }
+      ]
+     },
+     "matched": {
+      "damaged": 5,
+      "per_item": {
+       "middle only": 2,
+       "floor only": 3
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 2,
+       "floor": 3
+      },
+      "top": [
+       {
+        "entry": 832,
+        "items": 1,
+        "threshold": 0.921627,
+        "stratum": "middle",
+        "entity": "solar eclipse of January 25, 1982"
+       },
+       {
+        "entry": 10,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "1236 AH"
+       },
+       {
+        "entry": 1015,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Inverness"
+       },
+       {
+        "entry": 341,
+        "items": 1,
+        "threshold": 0.902644,
+        "stratum": "middle",
+        "entity": "Kaşkışla"
+       },
+       {
+        "entry": 106,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "Pod Łabędziem tenement house in Warsaw"
+       }
+      ]
+     },
+     "shuffled:0": {
+      "damaged": 24,
+      "per_item": {
+       "middle only": 10,
+       "banned only": 11,
+       "floor only": 3
+      },
+      "culprit_entries_by_stratum": {
+       "middle": 10,
+       "banned": 11,
+       "floor": 3
+      },
+      "top": [
+       {
+        "entry": 792,
+        "items": 11,
+        "threshold": 1.000657,
+        "stratum": "banned",
+        "entity": "solar eclipse of April 1, 1893 BC"
+       },
+       {
+        "entry": 863,
+        "items": 3,
+        "threshold": 0.95933,
+        "stratum": "middle",
+        "entity": "solar eclipse of November 23, 2"
+       },
+       {
+        "entry": 1004,
+        "items": 2,
+        "threshold": 0.975336,
+        "stratum": "middle",
+        "entity": "7 Grosvenor Street"
+       },
+       {
+        "entry": 962,
+        "items": 2,
+        "threshold": 0.921597,
+        "stratum": "middle",
+        "entity": "textile industry in India"
+       },
+       {
+        "entry": 10,
+        "items": 1,
+        "threshold": 0.9,
+        "stratum": "floor",
+        "entity": "1236 AH"
+       }
+      ]
+     }
+    }
+   },
+   "strict": {
+    "strata": {
+     "n": 1043,
+     "floor": 896,
+     "middle": 145,
+     "banned": 2,
+     "banned_share": 0.0019175455417066154,
+     "middle_share": 0.13902205177372962
+    }
+   }
+  }
+ },
+ "xr13": {
+  "cran": {
+   "known": 0,
+   "strata": {
+    "n": 997,
+    "floor": 921,
+    "middle": 75,
+    "banned": 1,
+    "banned_share": 0.0010030090270812437,
+    "middle_share": 0.07522567703109329
+   },
+   "culprits": {
+    "uniform:0.90": {
+     "damaged": 0,
+     "per_item": {},
+     "culprit_entries_by_stratum": {},
+     "top": []
+    },
+    "matched": {
+     "damaged": 0,
+     "per_item": {},
+     "culprit_entries_by_stratum": {},
+     "top": []
+    },
+    "shuffled:0": {
+     "damaged": 0,
+     "per_item": {},
+     "culprit_entries_by_stratum": {},
+     "top": []
+    }
+   }
+  },
+  "crates": {
+   "known": 502,
+   "strata": {
+    "n": 994,
+    "floor": 691,
+    "middle": 286,
+    "banned": 17,
+    "banned_share": 0.01710261569416499,
+    "middle_share": 0.28772635814889336
+   },
+   "culprits": {
+    "uniform:0.90": {
+     "damaged": 32,
+     "per_item": {
+      "middle only": 23,
+      "banned only": 3,
+      "floor only": 6
+     },
+     "culprit_entries_by_stratum": {
+      "middle": 26,
+      "banned": 3,
+      "floor": 6
+     },
+     "top": [
+      {
+       "entry": 645,
+       "items": 5,
+       "threshold": 0.965204,
+       "stratum": "middle",
+       "entity": "fastly-sys"
+      },
+      {
+       "entry": 710,
+       "items": 3,
+       "threshold": 0.975833,
+       "stratum": "middle",
+       "entity": "totp-rs"
+      },
+      {
+       "entry": 913,
+       "items": 2,
+       "threshold": 0.94742,
+       "stratum": "middle",
+       "entity": "libbz2-rs-sys"
+      },
+      {
+       "entry": 721,
+       "items": 2,
+       "threshold": 1.003454,
+       "stratum": "banned",
+       "entity": "zerocopy-derive"
+      },
+      {
+       "entry": 518,
+       "items": 1,
+       "threshold": 0.906912,
+       "stratum": "middle",
+       "entity": "dinghy-test"
+      }
+     ]
+    },
+    "matched": {
+     "damaged": 8,
+     "per_item": {
+      "floor only": 6,
+      "middle only": 2
+     },
+     "culprit_entries_by_stratum": {
+      "floor": 6,
+      "middle": 2
+     },
+     "top": [
+      {
+       "entry": 466,
+       "items": 1,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "wasm_split_helpers"
+      },
+      {
+       "entry": 635,
+       "items": 1,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "cookie"
+      },
+      {
+       "entry": 933,
+       "items": 1,
+       "threshold": 0.919549,
+       "stratum": "middle",
+       "entity": "re_types_core"
+      },
+      {
+       "entry": 259,
+       "items": 1,
+       "threshold": 0.929914,
+       "stratum": "middle",
+       "entity": "azure_storage_blob"
+      },
+      {
+       "entry": 131,
+       "items": 1,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "azure_data_cosmos_macros"
+      }
+     ]
+    },
+    "shuffled:0": {
+     "damaged": 28,
+     "per_item": {
+      "middle only": 20,
+      "banned only": 3,
+      "floor only": 5
+     },
+     "culprit_entries_by_stratum": {
+      "middle": 22,
+      "banned": 3,
+      "floor": 5
+     },
+     "top": [
+      {
+       "entry": 645,
+       "items": 6,
+       "threshold": 0.965204,
+       "stratum": "middle",
+       "entity": "fastly-sys"
+      },
+      {
+       "entry": 710,
+       "items": 3,
+       "threshold": 0.975833,
+       "stratum": "middle",
+       "entity": "totp-rs"
+      },
+      {
+       "entry": 913,
+       "items": 2,
+       "threshold": 0.94742,
+       "stratum": "middle",
+       "entity": "libbz2-rs-sys"
+      },
+      {
+       "entry": 721,
+       "items": 2,
+       "threshold": 1.003454,
+       "stratum": "banned",
+       "entity": "zerocopy-derive"
+      },
+      {
+       "entry": 464,
+       "items": 1,
+       "threshold": 1.01388,
+       "stratum": "banned",
+       "entity": "wasm-bindgen"
+      }
+     ]
+    }
+   }
+  },
+  "hackage": {
+   "known": 346,
+   "strata": {
+    "n": 992,
+    "floor": 716,
+    "middle": 265,
+    "banned": 11,
+    "banned_share": 0.011088709677419355,
+    "middle_share": 0.26713709677419356
+   },
+   "culprits": {
+    "uniform:0.90": {
+     "damaged": 346,
+     "per_item": {
+      "banned only": 314,
+      "mixed": 32
+     },
+     "culprit_entries_by_stratum": {
+      "banned": 346,
+      "middle": 26,
+      "floor": 9
+     },
+     "top": [
+      {
+       "entry": 855,
+       "items": 289,
+       "threshold": 1.011041,
+       "stratum": "banned",
+       "entity": "tagged"
+      },
+      {
+       "entry": 736,
+       "items": 57,
+       "threshold": 1.012287,
+       "stratum": "banned",
+       "entity": "versions"
+      },
+      {
+       "entry": 628,
+       "items": 6,
+       "threshold": 0.99594,
+       "stratum": "middle",
+       "entity": "clash-ghc"
+      },
+      {
+       "entry": 153,
+       "items": 2,
+       "threshold": 0.973127,
+       "stratum": "middle",
+       "entity": "duckdb-simple"
+      },
+      {
+       "entry": 831,
+       "items": 2,
+       "threshold": 0.974559,
+       "stratum": "middle",
+       "entity": "nano-ui-sdl"
+      }
+     ]
+    },
+    "matched": {
+     "damaged": 9,
+     "per_item": {
+      "floor only": 8,
+      "mixed": 1
+     },
+     "culprit_entries_by_stratum": {
+      "floor": 9,
+      "middle": 1
+     },
+     "top": [
+      {
+       "entry": 216,
+       "items": 1,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "shibuya-metrics"
+      },
+      {
+       "entry": 850,
+       "items": 1,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "shikumi-trace-otel"
+      },
+      {
+       "entry": 495,
+       "items": 1,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "Blammo-wai"
+      },
+      {
+       "entry": 383,
+       "items": 1,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "bluefin"
+      },
+      {
+       "entry": 714,
+       "items": 1,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "quic"
+      }
+     ]
+    },
+    "shuffled:0": {
+     "damaged": 346,
+     "per_item": {
+      "banned only": 320,
+      "mixed": 26
+     },
+     "culprit_entries_by_stratum": {
+      "banned": 346,
+      "middle": 19,
+      "floor": 9
+     },
+     "top": [
+      {
+       "entry": 855,
+       "items": 289,
+       "threshold": 1.011041,
+       "stratum": "banned",
+       "entity": "tagged"
+      },
+      {
+       "entry": 736,
+       "items": 57,
+       "threshold": 1.012287,
+       "stratum": "banned",
+       "entity": "versions"
+      },
+      {
+       "entry": 831,
+       "items": 2,
+       "threshold": 0.974559,
+       "stratum": "middle",
+       "entity": "nano-ui-sdl"
+      },
+      {
+       "entry": 318,
+       "items": 2,
+       "threshold": 0.917996,
+       "stratum": "middle",
+       "entity": "json-stream"
+      },
+      {
+       "entry": 695,
+       "items": 1,
+       "threshold": 0.990024,
+       "stratum": "middle",
+       "entity": "mmark-cli"
+      }
+     ]
+    }
+   }
+  },
+  "homebrew": {
+   "known": 42,
+   "strata": {
+    "n": 966,
+    "floor": 819,
+    "middle": 129,
+    "banned": 18,
+    "banned_share": 0.018633540372670808,
+    "middle_share": 0.13354037267080746
+   },
+   "culprits": {
+    "uniform:0.90": {
+     "damaged": 7,
+     "per_item": {
+      "middle only": 6,
+      "floor only": 1
+     },
+     "culprit_entries_by_stratum": {
+      "middle": 6,
+      "floor": 1
+     },
+     "top": [
+      {
+       "entry": 571,
+       "items": 2,
+       "threshold": 0.972496,
+       "stratum": "middle",
+       "entity": "repo"
+      },
+      {
+       "entry": 880,
+       "items": 1,
+       "threshold": 0.967405,
+       "stratum": "middle",
+       "entity": "faas-cli"
+      },
+      {
+       "entry": 18,
+       "items": 1,
+       "threshold": 0.985904,
+       "stratum": "middle",
+       "entity": "cobo-cli"
+      },
+      {
+       "entry": 444,
+       "items": 1,
+       "threshold": 0.916819,
+       "stratum": "middle",
+       "entity": "php"
+      },
+      {
+       "entry": 350,
+       "items": 1,
+       "threshold": 0.973422,
+       "stratum": "middle",
+       "entity": "typos-cli"
+      }
+     ]
+    },
+    "matched": {
+     "damaged": 1,
+     "per_item": {
+      "floor only": 1
+     },
+     "culprit_entries_by_stratum": {
+      "floor": 1
+     },
+     "top": [
+      {
+       "entry": 636,
+       "items": 1,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "fzf"
+      }
+     ]
+    },
+    "shuffled:0": {
+     "damaged": 7,
+     "per_item": {
+      "middle only": 6,
+      "floor only": 1
+     },
+     "culprit_entries_by_stratum": {
+      "middle": 6,
+      "floor": 1
+     },
+     "top": [
+      {
+       "entry": 571,
+       "items": 2,
+       "threshold": 0.972496,
+       "stratum": "middle",
+       "entity": "repo"
+      },
+      {
+       "entry": 880,
+       "items": 1,
+       "threshold": 0.967405,
+       "stratum": "middle",
+       "entity": "faas-cli"
+      },
+      {
+       "entry": 18,
+       "items": 1,
+       "threshold": 0.985904,
+       "stratum": "middle",
+       "entity": "cobo-cli"
+      },
+      {
+       "entry": 444,
+       "items": 1,
+       "threshold": 0.916819,
+       "stratum": "middle",
+       "entity": "php"
+      },
+      {
+       "entry": 350,
+       "items": 1,
+       "threshold": 0.973422,
+       "stratum": "middle",
+       "entity": "typos-cli"
+      }
+     ]
+    }
+   }
+  },
+  "npm": {
+   "known": 2361,
+   "strata": {
+    "n": 938,
+    "floor": 553,
+    "middle": 338,
+    "banned": 47,
+    "banned_share": 0.050106609808102345,
+    "middle_share": 0.3603411513859275
+   },
+   "culprits": {
+    "uniform:0.90": {
+     "damaged": 2243,
+     "per_item": {
+      "banned only": 2089,
+      "mixed": 154
+     },
+     "culprit_entries_by_stratum": {
+      "banned": 2275,
+      "floor": 29,
+      "middle": 131
+     },
+     "top": [
+      {
+       "entry": 426,
+       "items": 2184,
+       "threshold": 1.012301,
+       "stratum": "banned",
+       "entity": "intl-messageformat"
+      },
+      {
+       "entry": 325,
+       "items": 50,
+       "threshold": 1.01264,
+       "stratum": "banned",
+       "entity": "tldts"
+      },
+      {
+       "entry": 410,
+       "items": 13,
+       "threshold": 1.001845,
+       "stratum": "banned",
+       "entity": "@tloncorp/tlon-skill-linux-x64"
+      },
+      {
+       "entry": 455,
+       "items": 9,
+       "threshold": 0.991087,
+       "stratum": "middle",
+       "entity": "@img/sharp-linux-arm"
+      },
+      {
+       "entry": 517,
+       "items": 7,
+       "threshold": 0.998248,
+       "stratum": "middle",
+       "entity": "@xyflow/react"
+      }
+     ]
+    },
+    "matched": {
+     "damaged": 53,
+     "per_item": {
+      "floor only": 30,
+      "middle only": 22,
+      "no single culprit": 1
+     },
+     "culprit_entries_by_stratum": {
+      "floor": 30,
+      "middle": 22
+     },
+     "top": [
+      {
+       "entry": 727,
+       "items": 3,
+       "threshold": 0.91424,
+       "stratum": "middle",
+       "entity": "@module-federation/bridge-react-webpack-plugin"
+      },
+      {
+       "entry": 508,
+       "items": 3,
+       "threshold": 0.909089,
+       "stratum": "middle",
+       "entity": "@swc/core-win32-arm64-msvc"
+      },
+      {
+       "entry": 352,
+       "items": 2,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "@babel/helper-create-regexp-features-plugin"
+      },
+      {
+       "entry": 216,
+       "items": 2,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "@cspell/cspell-worker"
+      },
+      {
+       "entry": 448,
+       "items": 2,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "@babel/plugin-transform-computed-properties"
+      }
+     ]
+    },
+    "shuffled:0": {
+     "damaged": 2249,
+     "per_item": {
+      "banned only": 2112,
+      "mixed": 136,
+      "middle only": 1
+     },
+     "culprit_entries_by_stratum": {
+      "banned": 2261,
+      "middle": 126,
+      "floor": 23
+     },
+     "top": [
+      {
+       "entry": 426,
+       "items": 2192,
+       "threshold": 1.012301,
+       "stratum": "banned",
+       "entity": "intl-messageformat"
+      },
+      {
+       "entry": 325,
+       "items": 50,
+       "threshold": 1.01264,
+       "stratum": "banned",
+       "entity": "tldts"
+      },
+      {
+       "entry": 455,
+       "items": 9,
+       "threshold": 0.991087,
+       "stratum": "middle",
+       "entity": "@img/sharp-linux-arm"
+      },
+      {
+       "entry": 456,
+       "items": 8,
+       "threshold": 0.979086,
+       "stratum": "middle",
+       "entity": "@img/sharp-linuxmusl-x64"
+      },
+      {
+       "entry": 517,
+       "items": 7,
+       "threshold": 0.998248,
+       "stratum": "middle",
+       "entity": "@xyflow/react"
+      }
+     ]
+    }
+   }
+  },
+  "nuget": {
+   "known": 280,
+   "strata": {
+    "n": 995,
+    "floor": 501,
+    "middle": 383,
+    "banned": 111,
+    "banned_share": 0.11155778894472362,
+    "middle_share": 0.3849246231155779
+   },
+   "culprits": {
+    "uniform:0.90": {
+     "damaged": 111,
+     "per_item": {
+      "mixed": 19,
+      "middle only": 62,
+      "banned only": 12,
+      "floor only": 16,
+      "no single culprit": 2
+     },
+     "culprit_entries_by_stratum": {
+      "floor": 25,
+      "middle": 96,
+      "banned": 24
+     },
+     "top": [
+      {
+       "entry": 581,
+       "items": 30,
+       "threshold": 0.985918,
+       "stratum": "middle",
+       "entity": "RasterEdge.Core"
+      },
+      {
+       "entry": 187,
+       "items": 8,
+       "threshold": 0.999652,
+       "stratum": "middle",
+       "entity": "Microsoft.NET.Workload.Emscripten.net6.Manifest-9.0.100.Msi.x64"
+      },
+      {
+       "entry": 305,
+       "items": 8,
+       "threshold": 0.988205,
+       "stratum": "middle",
+       "entity": "Microsoft.NET.Sdk.iOS.Manifest-9.0.100.Msi.x64"
+      },
+      {
+       "entry": 531,
+       "items": 7,
+       "threshold": 0.987005,
+       "stratum": "middle",
+       "entity": "MassTransit.Newtonsoft"
+      },
+      {
+       "entry": 578,
+       "items": 5,
+       "threshold": 0.998913,
+       "stratum": "middle",
+       "entity": "Oracle.EntityFrameworkCore"
+      }
+     ]
+    },
+    "matched": {
+     "damaged": 30,
+     "per_item": {
+      "mixed": 6,
+      "floor only": 19,
+      "middle only": 5
+     },
+     "culprit_entries_by_stratum": {
+      "floor": 26,
+      "middle": 11
+     },
+     "top": [
+      {
+       "entry": 912,
+       "items": 3,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "Microsoft.AspNetCore.Components"
+      },
+      {
+       "entry": 122,
+       "items": 3,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "runtime.osx-arm64.runtime.native.System.IO.Ports"
+      },
+      {
+       "entry": 420,
+       "items": 3,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "Microsoft.Extensions.Caching.StackExchangeRedis"
+      },
+      {
+       "entry": 42,
+       "items": 2,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "Microsoft.Extensions.AI"
+      },
+      {
+       "entry": 992,
+       "items": 2,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "runtime.linux-musl-x64.runtime.native.System.IO.Ports"
+      }
+     ]
+    },
+    "shuffled:0": {
+     "damaged": 99,
+     "per_item": {
+      "middle only": 52,
+      "mixed": 19,
+      "banned only": 12,
+      "floor only": 14,
+      "no single culprit": 2
+     },
+     "culprit_entries_by_stratum": {
+      "middle": 82,
+      "banned": 26,
+      "floor": 22
+     },
+     "top": [
+      {
+       "entry": 581,
+       "items": 30,
+       "threshold": 0.985918,
+       "stratum": "middle",
+       "entity": "RasterEdge.Core"
+      },
+      {
+       "entry": 187,
+       "items": 8,
+       "threshold": 0.999652,
+       "stratum": "middle",
+       "entity": "Microsoft.NET.Workload.Emscripten.net6.Manifest-9.0.100.Msi.x64"
+      },
+      {
+       "entry": 305,
+       "items": 8,
+       "threshold": 0.988205,
+       "stratum": "middle",
+       "entity": "Microsoft.NET.Sdk.iOS.Manifest-9.0.100.Msi.x64"
+      },
+      {
+       "entry": 531,
+       "items": 7,
+       "threshold": 0.987005,
+       "stratum": "middle",
+       "entity": "MassTransit.Newtonsoft"
+      },
+      {
+       "entry": 552,
+       "items": 5,
+       "threshold": 1.014995,
+       "stratum": "banned",
+       "entity": "Microsoft.NET.Sdk.iOS.Manifest-9.0.100"
+      }
+     ]
+    }
+   }
+  },
+  "packagist": {
+   "known": 1957,
+   "strata": {
+    "n": 983,
+    "floor": 568,
+    "middle": 397,
+    "banned": 18,
+    "banned_share": 0.018311291963377416,
+    "middle_share": 0.40386571719226855
+   },
+   "culprits": {
+    "uniform:0.90": {
+     "damaged": 317,
+     "per_item": {
+      "floor only": 31,
+      "banned only": 67,
+      "middle only": 209,
+      "mixed": 7,
+      "no single culprit": 3
+     },
+     "culprit_entries_by_stratum": {
+      "floor": 35,
+      "banned": 71,
+      "middle": 225
+     },
+     "top": [
+      {
+       "entry": 61,
+       "items": 54,
+       "threshold": 1.001069,
+       "stratum": "banned",
+       "entity": "php-mcp/laravel"
+      },
+      {
+       "entry": 137,
+       "items": 20,
+       "threshold": 0.978325,
+       "stratum": "middle",
+       "entity": "contentful/laravel"
+      },
+      {
+       "entry": 638,
+       "items": 12,
+       "threshold": 0.977395,
+       "stratum": "middle",
+       "entity": "josemmo/facturae-php"
+      },
+      {
+       "entry": 883,
+       "items": 10,
+       "threshold": 0.990829,
+       "stratum": "middle",
+       "entity": "gember/serializer-symfony"
+      },
+      {
+       "entry": 695,
+       "items": 8,
+       "threshold": 0.970643,
+       "stratum": "middle",
+       "entity": "studio-design/studio-auth-php"
+      }
+     ]
+    },
+    "matched": {
+     "damaged": 59,
+     "per_item": {
+      "floor only": 36,
+      "middle only": 22,
+      "mixed": 1
+     },
+     "culprit_entries_by_stratum": {
+      "floor": 37,
+      "middle": 23
+     },
+     "top": [
+      {
+       "entry": 136,
+       "items": 3,
+       "threshold": 0.92271,
+       "stratum": "middle",
+       "entity": "codingms/fluid-fpdf"
+      },
+      {
+       "entry": 461,
+       "items": 3,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "twig/cache-extra"
+      },
+      {
+       "entry": 256,
+       "items": 3,
+       "threshold": 0.915955,
+       "stratum": "middle",
+       "entity": "components/jquery"
+      },
+      {
+       "entry": 583,
+       "items": 2,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "web-auth/cose-lib"
+      },
+      {
+       "entry": 170,
+       "items": 2,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "php-standard-library/promise"
+      }
+     ]
+    },
+    "shuffled:0": {
+     "damaged": 307,
+     "per_item": {
+      "middle only": 195,
+      "floor only": 22,
+      "banned only": 78,
+      "mixed": 7,
+      "no single culprit": 5
+     },
+     "culprit_entries_by_stratum": {
+      "middle": 210,
+      "floor": 27,
+      "banned": 81
+     },
+     "top": [
+      {
+       "entry": 61,
+       "items": 68,
+       "threshold": 1.001069,
+       "stratum": "banned",
+       "entity": "php-mcp/laravel"
+      },
+      {
+       "entry": 41,
+       "items": 48,
+       "threshold": 0.988687,
+       "stratum": "middle",
+       "entity": "lettermint/lettermint-laravel"
+      },
+      {
+       "entry": 638,
+       "items": 17,
+       "threshold": 0.977395,
+       "stratum": "middle",
+       "entity": "josemmo/facturae-php"
+      },
+      {
+       "entry": 695,
+       "items": 8,
+       "threshold": 0.970643,
+       "stratum": "middle",
+       "entity": "studio-design/studio-auth-php"
+      },
+      {
+       "entry": 907,
+       "items": 7,
+       "threshold": 1.011862,
+       "stratum": "banned",
+       "entity": "pestphp/pest"
+      }
+     ]
+    }
+   }
+  },
+  "pypi": {
+   "known": 607,
+   "strata": {
+    "n": 972,
+    "floor": 758,
+    "middle": 201,
+    "banned": 13,
+    "banned_share": 0.013374485596707819,
+    "middle_share": 0.20679012345679013
+   },
+   "culprits": {
+    "uniform:0.90": {
+     "damaged": 30,
+     "per_item": {
+      "floor only": 9,
+      "middle only": 18,
+      "banned only": 3
+     },
+     "culprit_entries_by_stratum": {
+      "floor": 9,
+      "middle": 18,
+      "banned": 3
+     },
+     "top": [
+      {
+       "entry": 123,
+       "items": 5,
+       "threshold": 0.930049,
+       "stratum": "middle",
+       "entity": "aiobotocore"
+      },
+      {
+       "entry": 730,
+       "items": 2,
+       "threshold": 0.935618,
+       "stratum": "middle",
+       "entity": "aegra-api"
+      },
+      {
+       "entry": 536,
+       "items": 2,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "openinference-instrumentation-llama-index"
+      },
+      {
+       "entry": 648,
+       "items": 2,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "llama-index-embeddings-openai"
+      },
+      {
+       "entry": 122,
+       "items": 2,
+       "threshold": 0.962434,
+       "stratum": "middle",
+       "entity": "aegra-api"
+      }
+     ]
+    },
+    "matched": {
+     "damaged": 11,
+     "per_item": {
+      "floor only": 9,
+      "middle only": 2
+     },
+     "culprit_entries_by_stratum": {
+      "floor": 9,
+      "middle": 2
+     },
+     "top": [
+      {
+       "entry": 536,
+       "items": 2,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "openinference-instrumentation-llama-index"
+      },
+      {
+       "entry": 648,
+       "items": 2,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "llama-index-embeddings-openai"
+      },
+      {
+       "entry": 699,
+       "items": 1,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "types-aiobotocore-secretsmanager"
+      },
+      {
+       "entry": 818,
+       "items": 1,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "types-aiobotocore-sqs"
+      },
+      {
+       "entry": 413,
+       "items": 1,
+       "threshold": 0.9258,
+       "stratum": "middle",
+       "entity": "omnibase-compat"
+      }
+     ]
+    },
+    "shuffled:0": {
+     "damaged": 28,
+     "per_item": {
+      "floor only": 9,
+      "middle only": 16,
+      "banned only": 3
+     },
+     "culprit_entries_by_stratum": {
+      "floor": 9,
+      "middle": 16,
+      "banned": 3
+     },
+     "top": [
+      {
+       "entry": 123,
+       "items": 5,
+       "threshold": 0.930049,
+       "stratum": "middle",
+       "entity": "aiobotocore"
+      },
+      {
+       "entry": 730,
+       "items": 2,
+       "threshold": 0.935618,
+       "stratum": "middle",
+       "entity": "aegra-api"
+      },
+      {
+       "entry": 359,
+       "items": 2,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "GitHubKit-schemas"
+      },
+      {
+       "entry": 536,
+       "items": 2,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "openinference-instrumentation-llama-index"
+      },
+      {
+       "entry": 648,
+       "items": 2,
+       "threshold": 0.9,
+       "stratum": "floor",
+       "entity": "llama-index-embeddings-openai"
+      }
+     ]
+    }
+   }
+  }
+ },
+ "kt10_probes": {
+  "probes:250": {
+   "damage": 0.03156535453245967,
+   "damage_base": 0.04241317493782429,
+   "coverage": 0.7731957544549719,
+   "upd": 0.9657987783634159,
+   "retention": 0.6585714285714286,
+   "forgetting": 0.0120652231315651,
+   "value": 0.8136793377041128,
+   "loc_fire": 0.04232560131621911,
+   "own_hit": 0.90255692622092,
+   "other_hit": 0.034128103075035394,
+   "per_stream": {
+    "D4": {
+     "damage": 0.05012531328320802,
+     "coverage": 0.7772659176029962,
+     "retention": 0.68
+    },
+    "D5": {
+     "damage": 0.030878859857482184,
+     "coverage": 0.7967694805194805,
+     "retention": 0.6771428571428572
+    },
+    "D6": {
+     "damage": 0.021447721179624665,
+     "coverage": 0.7771415946582875,
+     "retention": 0.6257142857142857
+    },
+    "D7": {
+     "damage": 0.023809523809523808,
+     "coverage": 0.7416060250391237,
+     "retention": 0.6514285714285715
+    }
+   }
+  },
+  "probes:500": {
+   "damage": 0.0215709670065057,
+   "damage_base": 0.03243237208216031,
+   "coverage": 0.7679694293993753,
+   "upd": 0.9638022505856381,
+   "retention": 0.6571428571428571,
+   "forgetting": 0.012079250737894356,
+   "value": 0.8120605564534962,
+   "loc_fire": 0.02985562325679237,
+   "own_hit": 0.8951894468246446,
+   "other_hit": 0.029784828269063847,
+   "per_stream": {
+    "D4": {
+     "damage": 0.017543859649122806,
+     "coverage": 0.7747659176029963,
+     "retention": 0.6828571428571428
+    },
+    "D5": {
+     "damage": 0.026128266033254157,
+     "coverage": 0.7917694805194805,
+     "retention": 0.6714285714285714
+    },
+    "D6": {
+     "damage": 0.021447721179624665,
+     "coverage": 0.7692468578161823,
+     "retention": 0.6228571428571429
+    },
+    "D7": {
+     "damage": 0.021164021164021163,
+     "coverage": 0.736095461658842,
+     "retention": 0.6514285714285715
+    }
+   }
+  },
+  "probes:1000": {
+   "damage": 0.016058703899543253,
+   "damage_base": 0.026899594122028504,
+   "coverage": 0.7551209459548485,
+   "upd": 0.9550395989180569,
+   "retention": 0.6535714285714286,
+   "forgetting": 0.012173782317840104,
+   "value": 0.8071571353558058,
+   "loc_fire": 0.024343360149829924,
+   "own_hit": 0.8807990156802141,
+   "other_hit": 0.028111877208135898,
+   "per_stream": {
+    "D4": {
+     "damage": 0.015037593984962405,
+     "coverage": 0.7622659176029962,
+     "retention": 0.6771428571428572
+    },
+    "D5": {
+     "damage": 0.011876484560570071,
+     "coverage": 0.7759361471861472,
+     "retention": 0.6657142857142857
+    },
+    "D6": {
+     "damage": 0.021447721179624665,
+     "coverage": 0.7547073841319717,
+     "retention": 0.62
+    },
+    "D7": {
+     "damage": 0.015873015873015872,
+     "coverage": 0.7275743348982786,
+     "retention": 0.6514285714285715
+    }
+   }
+  },
+  "matched": {
+   "damage": 0.011616064376303843,
+   "damage_base": 0.022478001792680308,
+   "coverage": 0.747294530140989,
+   "upd": 0.9481086142114401,
+   "retention": 0.6478571428571428,
+   "forgetting": 0.012227246038447085,
+   "value": 0.802748633269487,
+   "loc_fire": 0.019230479339727245,
+   "own_hit": 0.8710910607392716,
+   "other_hit": 0.026103783954811756,
+   "per_stream": {
+    "D4": {
+     "damage": 0.010025062656641603,
+     "coverage": 0.7494569288389513,
+     "retention": 0.6714285714285714
+    },
+    "D5": {
+     "damage": 0.007125890736342043,
+     "coverage": 0.7709361471861472,
+     "retention": 0.6628571428571428
+    },
+    "D6": {
+     "damage": 0.0160857908847185,
+     "coverage": 0.7459573841319718,
+     "retention": 0.62
+    },
+    "D7": {
+     "damage": 0.013227513227513227,
+     "coverage": 0.7228276604068857,
+     "retention": 0.6371428571428571
+    }
+   }
+  },
+  "ctx_only": {
+   "damage": 0.11255983744141614,
+   "damage_base": 0.12186636010150105,
+   "coverage": 0.7660906336985355,
+   "upd": 0.9479862783634159,
+   "retention": 0.6528571428571428,
+   "forgetting": 0.023277229319912246,
+   "value": 0.8033956654860803,
+   "loc_fire": 0.15570154801273503,
+   "own_hit": 0.9065811666206413,
+   "other_hit": 0.05664495534150342,
+   "per_stream": {
+    "D4": {
+     "damage": 0.06516290726817042,
+     "coverage": 0.7785159176029963,
+     "retention": 0.6828571428571428
+    },
+    "D5": {
+     "damage": 0.06175771971496437,
+     "coverage": 0.8013095238095238,
+     "retention": 0.68
+    },
+    "D6": {
+     "damage": 0.04289544235924933,
+     "coverage": 0.7854310683424981,
+     "retention": 0.6371428571428571
+    },
+    "D7": {
+     "damage": 0.2804232804232804,
+     "coverage": 0.6991060250391237,
+     "retention": 0.6114285714285714
+    }
+   }
+  }
+ }
+}

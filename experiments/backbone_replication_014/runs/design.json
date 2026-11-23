@@ -1,0 +1,64 @@
+{
+ "variant": "full_c8",
+ "left_h": 16.7,
+ "t_write_per_entry_s": 1.4175826733311017,
+ "t_row_s": 0.022624452114105225,
+ "smoke_entries": 96,
+ "smoke_rows": 12300,
+ "known": 460,
+ "fixed_s": 163.26772022247314,
+ "variants": {
+  "full": {
+   "dev_streams": 4,
+   "dev_arms": 13,
+   "test_cells": [
+    "orig/on",
+    "corr/off"
+   ],
+   "test_arms": 34,
+   "stream_dev_s": 2449,
+   "stream_test_s": 4194,
+   "total_h": 7.7,
+   "fits": true
+  },
+  "r1": {
+   "dev_streams": 4,
+   "dev_arms": 13,
+   "test_cells": [
+    "corr/off"
+   ],
+   "test_arms": 22,
+   "stream_dev_s": 2449,
+   "stream_test_s": 3540,
+   "total_h": 6.97,
+   "fits": true
+  },
+  "r2": {
+   "dev_streams": 2,
+   "dev_arms": 13,
+   "test_cells": [
+    "corr/off"
+   ],
+   "test_arms": 22,
+   "stream_dev_s": 2449,
+   "stream_test_s": 3540,
+   "total_h": 5.61,
+   "fits": true
+  },
+  "r3": {
+   "dev_streams": 2,
+   "dev_arms": 13,
+   "test_cells": [
+    "corr/off"
+   ],
+   "test_arms": 18,
+   "stream_dev_s": 2449,
+   "stream_test_s": 3322,
+   "total_h": 5.37,
+   "fits": true
+  }
+ },
+ "written": "2026-11-22T06:22:12Z",
+ "variant_original": "full",
+ "note": "dev D1 ran out of GPU memory at chunk 16 (2026-11-22T07:26Z); same design, local.chunk = 8, dev restarted from D0"
+}

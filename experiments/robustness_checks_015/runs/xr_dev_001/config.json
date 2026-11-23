@@ -1,0 +1,206 @@
+{
+ "model_path": "E:/research/pause2/models/qwen3_0.6b_base",
+ "dtype": "bfloat16",
+ "torch_seed": 0,
+ "sites": [
+  "model.layers.{i}.mlp.down_proj"
+ ],
+ "layers": "all",
+ "rank": 16,
+ "scale": 1.0,
+ "clip": 1.0,
+ "streams_dir": "data/streams",
+ "panels": {
+  "max_cur": 100,
+  "ret_per_step": 25,
+  "max_loc": 6000,
+  "max_new": 24,
+  "gen_batch": 64
+ },
+ "eval": {
+  "widths": [
+   96,
+   128,
+   192,
+   256,
+   384
+  ],
+  "batch": 64,
+  "max_new": 24
+ },
+ "local": {
+  "mode": "route",
+  "layers": [
+   8
+  ],
+  "tau": 0.9,
+  "probe_margin": 0.02,
+  "massive": 200.0,
+  "v_steps": 25,
+  "v_lr": 0.5,
+  "v_wd": 0.5,
+  "clamp": 0.75,
+  "kl": 0.0625,
+  "stop_loss": 0.05,
+  "n_rand": 2,
+  "rand_len": 10,
+  "use_context": true,
+  "chunk": 32,
+  "key_batch": 64
+ },
+ "write_seed": 0,
+ "rule": {
+  "delta": 0.02,
+  "tol_q": 0.02,
+  "tol_r": 0.02,
+  "min_positive_share": 0.75,
+  "bootstrap": 10000,
+  "bootstrap_seed": 0
+ },
+ "events": {
+  "test_start": "2026-03",
+  "dev_start": "2025-07",
+  "debug_start": "2024-11",
+  "months": 8,
+  "per_batch": 125,
+  "spec_quota": 25,
+  "max_rank": 12000,
+  "min_spares": 2000,
+  "hidden_cap": 4000,
+  "probes": 2000,
+  "mu": 20000,
+  "debug": {
+   "per_batch": 12,
+   "spec_quota": 3,
+   "min_spares": 300
+  }
+ },
+ "status": "FROZEN 2026-11-22T04:41:25Z before any RC-15 model run, by Claude on the author's 2026-11-22 request to run the review's supplementary experiments on vast.ai (pause2/Applied Intelligence/review_and_advise.md). Design in PLAN.md; parent config external_key_replication_013/config_dev.json 81f941ec.",
+ "kind": "xr",
+ "interventions": {
+  "max_single": 8
+ },
+ "budget": {
+  "gpu": "RTX 4090",
+  "max_usd_per_hour": 0.5,
+  "session_cap_usd": 6.0
+ },
+ "phases": {
+  "debug": {
+   "streams": [
+    "crates_debug"
+   ],
+   "cap": 150,
+   "order_check": true,
+   "cells": [
+    "xr"
+   ],
+   "arms": {
+    "xr": [
+     "matched",
+     "shuffled:0",
+     "active_shuffled:0",
+     "noban_matched",
+     "uniform:0.90",
+     "ban_uniform:0.90"
+    ]
+   },
+   "interventions": [
+    "matched"
+   ]
+  },
+  "dev": {
+   "streams": [
+    "pypi_dev",
+    "npm_dev",
+    "crates_dev",
+    "cran_dev"
+   ],
+   "cap": 150,
+   "cells": [
+    "xr"
+   ],
+   "arms": {
+    "xr": [
+     "matched",
+     "ban_uniform:0.88",
+     "ban_uniform:0.90",
+     "ban_uniform:0.92",
+     "ban_uniform:0.94",
+     "ban_uniform:0.96",
+     "ban_uniform:0.98"
+    ]
+   },
+   "interventions": []
+  },
+  "test": {
+   "streams": [
+    "pypi",
+    "npm",
+    "crates",
+    "nuget",
+    "packagist",
+    "hackage",
+    "homebrew"
+   ],
+   "cap": 150,
+   "cells": [
+    "xr"
+   ],
+   "arms": {
+    "xr": [
+     "matched",
+     "shuffled:0",
+     "shuffled:1",
+     "shuffled:2",
+     "shuffled:3",
+     "shuffled:4",
+     "shuffled:5",
+     "shuffled:6",
+     "shuffled:7",
+     "active_shuffled:0",
+     "active_shuffled:1",
+     "active_shuffled:2",
+     "active_shuffled:3",
+     "active_shuffled:4",
+     "active_shuffled:5",
+     "active_shuffled:6",
+     "active_shuffled:7",
+     "noban_matched",
+     "uniform:0.90",
+     "ban_uniform:0.90",
+     "ban_uniform:SEL"
+    ]
+   },
+   "interventions": [
+    "uniform:0.90",
+    "matched",
+    "shuffled:0",
+    "active_shuffled:0",
+    "ban_uniform:0.90"
+   ]
+  }
+ },
+ "tune": {
+  "cells": [
+   "xr"
+  ],
+  "kinds": [
+   "ban_uniform"
+  ],
+  "levels": [
+   0.88,
+   0.9,
+   0.92,
+   0.94,
+   0.96,
+   0.98
+  ]
+ },
+ "practical": {
+  "xr": [
+   "uniform:0.90",
+   "ban_uniform:SEL"
+  ]
+ }
+}

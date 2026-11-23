@@ -1,0 +1,368 @@
+{
+ "data_dir": "E:/research/pause2/data/wikibigedit",
+ "expect_steps": 8,
+ "model_path": "E:/research/pause2/models/qwen3_0.6b_base",
+ "dtype": "bfloat16",
+ "torch_seed": 0,
+ "sites": [
+  "model.layers.{i}.mlp.down_proj"
+ ],
+ "layers": "all",
+ "rank": 16,
+ "scale": 1.0,
+ "clip": 1.0,
+ "streams": {
+  "args": {
+   "n_pilot": 2,
+   "n_dev": 8,
+   "edits_per_stream": 1600,
+   "loc_probe": 2000,
+   "loc_hidden": 6000,
+   "n_shots": 2
+  },
+  "mu_corpus": {
+   "buckets": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "n": 20000
+  }
+ },
+ "panels": {
+  "max_cur": 100,
+  "ret_per_step": 25,
+  "max_loc": 6000,
+  "max_new": 24,
+  "gen_batch": 64
+ },
+ "eval": {
+  "widths": [
+   96,
+   128,
+   192,
+   256,
+   384
+  ],
+  "batch": 64,
+  "max_new": 24
+ },
+ "local": {
+  "mode": "route",
+  "layers": [
+   8
+  ],
+  "tau": 0.9,
+  "probe_margin": 0.02,
+  "massive": 200.0,
+  "v_steps": 25,
+  "v_lr": 0.5,
+  "v_wd": 0.5,
+  "clamp": 0.75,
+  "kl": 0.0625,
+  "stop_loss": 0.05,
+  "n_rand": 2,
+  "rand_len": 10,
+  "use_context": true,
+  "chunk": 32,
+  "key_batch": 64
+ },
+ "write_seed": 0,
+ "rule": {
+  "delta": 0.02,
+  "tol_q": 0.02,
+  "tol_r": 0.02,
+  "min_positive_share": 0.75,
+  "bootstrap": 10000,
+  "bootstrap_seed": 0
+ },
+ "status": "TEST CONFIG written by rc_run.py tune from fp_dev_001 on 2026-11-22T06:31:41Z; config_fp_dev.json sha256 4651005631cf3f3588e01f90617c84fc460ef2adb998ea456f4d0ca6612b17b1. Selected levels per cell (FP-12 rule).",
+ "kind": "fp",
+ "spans": "../field_prefix_ablation_012/annotation/spans_final.json",
+ "spans_sha256": "53b16cd9178452da3b1d1925da1b7ca298820e8afdeff99b405d32750b6da8d6",
+ "determinism_arm": "corr/off:matched",
+ "interventions": {
+  "max_single": 8
+ },
+ "budget": {
+  "gpu": "RTX 4090",
+  "max_usd_per_hour": 0.5,
+  "session_cap_usd": 6.0
+ },
+ "phases": {
+  "smoke": {
+   "streams": [
+    "P0"
+   ],
+   "cap": 12,
+   "order_check": true,
+   "intervention_check": true,
+   "cells": [
+    "orig/on",
+    "corr/off"
+   ],
+   "arms": {
+    "orig/on": [
+     "matched",
+     "shuffled:0",
+     "shuffled:1",
+     "active_shuffled:0",
+     "active_shuffled:1",
+     "noban_matched",
+     "uniform:0.90",
+     "ban_uniform:0.90"
+    ],
+    "corr/off": [
+     "matched",
+     "shuffled:0",
+     "shuffled:1",
+     "active_shuffled:0",
+     "active_shuffled:1",
+     "noban_matched",
+     "uniform:0.90",
+     "ban_uniform:0.90"
+    ]
+   },
+   "interventions": [
+    "matched",
+    "shuffled:0",
+    "active_shuffled:0",
+    "ban_uniform:0.90"
+   ]
+  },
+  "dev": {
+   "streams": [
+    "D0",
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "cap": 150,
+   "cells": [
+    "orig/on",
+    "corr/off"
+   ],
+   "arms": {
+    "orig/on": [
+     "matched",
+     "ban_uniform:0.88",
+     "ban_uniform:0.90",
+     "ban_uniform:0.92",
+     "ban_uniform:0.94",
+     "ban_uniform:0.96",
+     "ban_uniform:0.98"
+    ],
+    "corr/off": [
+     "matched",
+     "ban_uniform:0.88",
+     "ban_uniform:0.90",
+     "ban_uniform:0.92",
+     "ban_uniform:0.94",
+     "ban_uniform:0.96",
+     "ban_uniform:0.98"
+    ]
+   },
+   "interventions": []
+  },
+  "test": {
+   "streams": [
+    "D4",
+    "D5",
+    "D6",
+    "D7"
+   ],
+   "cap": 150,
+   "cells": [
+    "orig/on",
+    "corr/off"
+   ],
+   "arms": {
+    "orig/on": [
+     "matched",
+     "shuffled:0",
+     "shuffled:1",
+     "shuffled:2",
+     "shuffled:3",
+     "shuffled:4",
+     "shuffled:5",
+     "shuffled:6",
+     "shuffled:7",
+     "active_shuffled:0",
+     "active_shuffled:1",
+     "active_shuffled:2",
+     "active_shuffled:3",
+     "active_shuffled:4",
+     "active_shuffled:5",
+     "active_shuffled:6",
+     "active_shuffled:7",
+     "noban_matched",
+     "uniform:0.90",
+     "uniform:0.94",
+     "ban_uniform:0.90",
+     "ban_uniform:0.94"
+    ],
+    "corr/off": [
+     "matched",
+     "shuffled:0",
+     "shuffled:1",
+     "shuffled:2",
+     "shuffled:3",
+     "shuffled:4",
+     "shuffled:5",
+     "shuffled:6",
+     "shuffled:7",
+     "active_shuffled:0",
+     "active_shuffled:1",
+     "active_shuffled:2",
+     "active_shuffled:3",
+     "active_shuffled:4",
+     "active_shuffled:5",
+     "active_shuffled:6",
+     "active_shuffled:7",
+     "noban_matched",
+     "uniform:0.90",
+     "uniform:0.92",
+     "ban_uniform:0.90",
+     "ban_uniform:0.92"
+    ]
+   },
+   "interventions": [
+    "uniform:0.90",
+    "matched",
+    "shuffled:0",
+    "active_shuffled:0",
+    "ban_uniform:0.90"
+   ]
+  }
+ },
+ "tune": {
+  "cells": [
+   "orig/on",
+   "corr/off"
+  ],
+  "kinds": [
+   "ban_uniform"
+  ],
+  "levels": [
+   0.88,
+   0.9,
+   0.92,
+   0.94,
+   0.96,
+   0.98
+  ]
+ },
+ "practical": {
+  "orig/on": [
+   "uniform:0.94",
+   "ban_uniform:0.94"
+  ],
+  "corr/off": [
+   "uniform:0.92",
+   "ban_uniform:0.92"
+  ]
+ },
+ "selected": {
+  "orig/on": {
+   "ban_uniform": {
+    "arm": "ban_uniform:0.94",
+    "level": 0.94,
+    "flag": "dev gate not met",
+    "matched": {
+     "Q": 0.7481576612562242,
+     "R": 0.645,
+     "damage": 0.01728442220866398
+    },
+    "grid": {
+     "ban_uniform:0.88": {
+      "Q": 0.7051913817538518,
+      "R": 0.5207142857142857,
+      "damage": 0.4018250529005357,
+      "shortfall": 0.10428571428571431
+     },
+     "ban_uniform:0.90": {
+      "Q": 0.705131857944328,
+      "R": 0.5385714285714286,
+      "damage": 0.35295964190262186,
+      "shortfall": 0.08642857142857141
+     },
+     "ban_uniform:0.92": {
+      "Q": 0.7154671249912556,
+      "R": 0.57,
+      "damage": 0.2344091832569125,
+      "shortfall": 0.05500000000000005
+     },
+     "ban_uniform:0.94": {
+      "Q": 0.7302617300127943,
+      "R": 0.5878571428571429,
+      "damage": 0.09329443067943621,
+      "shortfall": 0.037142857142857144
+     },
+     "ban_uniform:0.96": {
+      "Q": 0.650041900590954,
+      "R": 0.5064285714285715,
+      "damage": 0.03821381767611121,
+      "shortfall": 0.11857142857142855
+     },
+     "ban_uniform:0.98": {
+      "Q": 0.35029129066911496,
+      "R": 0.235,
+      "damage": 0.0,
+      "shortfall": 0.39
+     }
+    }
+   }
+  },
+  "corr/off": {
+   "ban_uniform": {
+    "arm": "ban_uniform:0.92",
+    "level": 0.92,
+    "flag": "met",
+    "matched": {
+     "Q": 0.7550326612562243,
+     "R": 0.6471428571428571,
+     "damage": 0.015777707871390486
+    },
+    "grid": {
+     "ban_uniform:0.88": {
+      "Q": 0.7763551748573001,
+      "R": 0.6571428571428571,
+      "damage": 0.09703058481978794,
+      "shortfall": -0.030000000000000027
+     },
+     "ban_uniform:0.90": {
+      "Q": 0.7772331510477763,
+      "R": 0.6564285714285714,
+      "damage": 0.07473180869723534,
+      "shortfall": -0.02928571428571425
+     },
+     "ban_uniform:0.92": {
+      "Q": 0.769755918094704,
+      "R": 0.64,
+      "damage": 0.0468771482365176,
+      "shortfall": -0.0128571428571429
+     },
+     "ban_uniform:0.94": {
+      "Q": 0.7468242300127943,
+      "R": 0.6035714285714286,
+      "damage": 0.031976827662432886,
+      "shortfall": 0.023571428571428465
+     },
+     "ban_uniform:0.96": {
+      "Q": 0.6569169005909541,
+      "R": 0.5035714285714286,
+      "damage": 0.013882917432802212,
+      "shortfall": 0.12357142857142855
+     },
+     "ban_uniform:0.98": {
+      "Q": 0.35206482963015395,
+      "R": 0.23142857142857143,
+      "damage": 0.0,
+      "shortfall": 0.3957142857142857
+     }
+    }
+   }
+  }
+ }
+}

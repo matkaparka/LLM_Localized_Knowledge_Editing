@@ -1,0 +1,262 @@
+{
+ "data_dir": "E:/research/pause2/data/wikibigedit",
+ "expect_steps": 8,
+ "model_path": "E:/research/pause2/models/olmo2_7b_base",
+ "dtype": "bfloat16",
+ "torch_seed": 0,
+ "sites": [
+  "model.layers.{i}.mlp.down_proj"
+ ],
+ "layers": "all",
+ "rank": 16,
+ "scale": 1.0,
+ "clip": 1.0,
+ "streams": {
+  "args": {
+   "n_pilot": 2,
+   "n_dev": 8,
+   "edits_per_stream": 1600,
+   "loc_probe": 2000,
+   "loc_hidden": 6000,
+   "n_shots": 2
+  },
+  "mu_corpus": {
+   "buckets": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "n": 20000
+  }
+ },
+ "panels": {
+  "max_cur": 100,
+  "ret_per_step": 25,
+  "max_loc": 6000,
+  "max_new": 24,
+  "gen_batch": 64,
+  "cov": false
+ },
+ "eval": {
+  "widths": [
+   96,
+   128,
+   192,
+   256,
+   384
+  ],
+  "batch": 32,
+  "max_new": 24
+ },
+ "local": {
+  "mode": "route",
+  "layers": [
+   9
+  ],
+  "tau": 0.8,
+  "probe_margin": 0.02,
+  "massive": 200.0,
+  "v_steps": 25,
+  "v_lr": 0.5,
+  "v_wd": 0.5,
+  "clamp": 0.75,
+  "kl": 0.0625,
+  "stop_loss": 0.05,
+  "n_rand": 2,
+  "rand_len": 10,
+  "use_context": true,
+  "chunk": 8,
+  "key_batch": 64
+ },
+ "write_seed": 0,
+ "rule": {
+  "delta": 0.02,
+  "tol_q": 0.02,
+  "tol_r": 0.02,
+  "min_positive_share": 0.75,
+  "bootstrap": 10000,
+  "bootstrap_seed": 0
+ },
+ "status": "EXPLORATORY config written by make_explore_config.py on 2026-11-22T13:51:36Z from config_test.json (sha256 9fd9ff9160909ea4a63d03390c9f6da87536867454a980b3a7bcaee1e62831cf): floor 0.80 (PLAN section 9).",
+ "kind": "fp",
+ "variant": "explore_f080",
+ "spans": "../field_prefix_ablation_012/annotation/spans_final.json",
+ "spans_sha256": "53b16cd9178452da3b1d1925da1b7ca298820e8afdeff99b405d32750b6da8d6",
+ "screen_cap": 3000,
+ "massive_rule": {
+  "base": 200.0,
+  "ref_median_file": "../backbone_replication_014/calibration/qwen_norms.json",
+  "ref_layer_of_ref_model": 8
+ },
+ "norm_report": true,
+ "determinism_arm": "corr/off:matched",
+ "interventions": {
+  "max_single": 8
+ },
+ "acceptance": {
+  "phase": "smoke",
+  "cell": "corr/off",
+  "arm": "matched",
+  "measure": "update",
+  "min": 0.8
+ },
+ "budget": {
+  "gpu": "RTX 4090",
+  "max_usd_per_hour": 0.5,
+  "session_cap_usd": 8.0,
+  "variant_limit_usd": 7.5
+ },
+ "phases": {
+  "test": {
+   "streams": [
+    "D4",
+    "D5",
+    "D6",
+    "D7"
+   ],
+   "cap": 150,
+   "cells": [
+    "corr/off"
+   ],
+   "arms": {
+    "corr/off": [
+     "matched",
+     "shuffled:0",
+     "shuffled:1",
+     "shuffled:2",
+     "shuffled:3",
+     "shuffled:4",
+     "shuffled:5",
+     "shuffled:6",
+     "shuffled:7",
+     "active_shuffled:0",
+     "active_shuffled:1",
+     "active_shuffled:2",
+     "active_shuffled:3",
+     "active_shuffled:4",
+     "active_shuffled:5",
+     "active_shuffled:6",
+     "active_shuffled:7",
+     "noban_matched",
+     "uniform:0.80",
+     "uniform:0.84",
+     "uniform:0.88",
+     "uniform:0.90",
+     "ban_uniform:0.80"
+    ]
+   },
+   "interventions": [
+    "uniform:0.80",
+    "matched",
+    "shuffled:0"
+   ]
+  }
+ },
+ "practical": {
+  "corr/off": [
+   "uniform:0.80",
+   "uniform:0.90"
+  ]
+ },
+ "selected": {
+  "corr/off": {
+   "uniform": {
+    "arm": "uniform:0.90",
+    "level": 0.9,
+    "flag": "met",
+    "matched": {
+     "Q": 0.8145673701804578,
+     "R": 0.6950000000000001,
+     "damage": 0.0020620894720043007
+    },
+    "grid": {
+     "uniform:0.88": {
+      "Q": 0.8495870292055815,
+      "R": 0.7457142857142857,
+      "damage": 0.01042526995910837,
+      "shortfall": -0.055019659025123735
+     },
+     "uniform:0.90": {
+      "Q": 0.8170673701804577,
+      "R": 0.6964285714285714,
+      "damage": 0.006249658112676785,
+      "shortfall": -0.021428571428571352
+     },
+     "uniform:0.92": {
+      "Q": 0.7570562509124897,
+      "R": 0.6235714285714286,
+      "damage": 0.0030960610422785763,
+      "shortfall": 0.05142857142857149
+     },
+     "uniform:0.94": {
+      "Q": 0.6484704475517434,
+      "R": 0.49785714285714283,
+      "damage": 0.0015778424187967949,
+      "shortfall": 0.1771428571428572
+     },
+     "uniform:0.96": {
+      "Q": 0.41228384791174477,
+      "R": 0.3035714285714286,
+      "damage": 0.0,
+      "shortfall": 0.382283522268713
+     },
+     "uniform:0.98": {
+      "Q": 0.16303201211414603,
+      "R": 0.11499999999999999,
+      "damage": 0.0,
+      "shortfall": 0.6315353580663117
+     }
+    }
+   },
+   "ban_uniform": {
+    "arm": "ban_uniform:0.90",
+    "level": 0.9,
+    "flag": "met",
+    "matched": {
+     "Q": 0.8145673701804578,
+     "R": 0.6950000000000001,
+     "damage": 0.0020620894720043007
+    },
+    "grid": {
+     "ban_uniform:0.88": {
+      "Q": 0.8495870292055815,
+      "R": 0.7457142857142857,
+      "damage": 0.01042526995910837,
+      "shortfall": -0.055019659025123735
+     },
+     "ban_uniform:0.90": {
+      "Q": 0.8170673701804577,
+      "R": 0.6964285714285714,
+      "damage": 0.006249658112676785,
+      "shortfall": -0.021428571428571352
+     },
+     "ban_uniform:0.92": {
+      "Q": 0.7570562509124897,
+      "R": 0.6235714285714286,
+      "damage": 0.0030960610422785763,
+      "shortfall": 0.05142857142857149
+     },
+     "ban_uniform:0.94": {
+      "Q": 0.6484704475517434,
+      "R": 0.49785714285714283,
+      "damage": 0.0015778424187967949,
+      "shortfall": 0.1771428571428572
+     },
+     "ban_uniform:0.96": {
+      "Q": 0.41228384791174477,
+      "R": 0.3035714285714286,
+      "damage": 0.0,
+      "shortfall": 0.382283522268713
+     },
+     "ban_uniform:0.98": {
+      "Q": 0.16303201211414603,
+      "R": 0.11499999999999999,
+      "damage": 0.0,
+      "shortfall": 0.6315353580663117
+     }
+    }
+   }
+  }
+ }
+}

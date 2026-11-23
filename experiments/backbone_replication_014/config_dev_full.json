@@ -1,0 +1,262 @@
+{
+ "data_dir": "E:/research/pause2/data/wikibigedit",
+ "expect_steps": 8,
+ "model_path": "E:/research/pause2/models/olmo2_7b_base",
+ "dtype": "bfloat16",
+ "torch_seed": 0,
+ "sites": [
+  "model.layers.{i}.mlp.down_proj"
+ ],
+ "layers": "all",
+ "rank": 16,
+ "scale": 1.0,
+ "clip": 1.0,
+ "streams": {
+  "args": {
+   "n_pilot": 2,
+   "n_dev": 8,
+   "edits_per_stream": 1600,
+   "loc_probe": 2000,
+   "loc_hidden": 6000,
+   "n_shots": 2
+  },
+  "mu_corpus": {
+   "buckets": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "n": 20000
+  }
+ },
+ "panels": {
+  "max_cur": 100,
+  "ret_per_step": 25,
+  "max_loc": 6000,
+  "max_new": 24,
+  "gen_batch": 64,
+  "cov": false
+ },
+ "eval": {
+  "widths": [
+   96,
+   128,
+   192,
+   256,
+   384
+  ],
+  "batch": 32,
+  "max_new": 24
+ },
+ "local": {
+  "mode": "route",
+  "layers": [
+   9
+  ],
+  "tau": 0.9,
+  "probe_margin": 0.02,
+  "massive": 200.0,
+  "v_steps": 25,
+  "v_lr": 0.5,
+  "v_wd": 0.5,
+  "clamp": 0.75,
+  "kl": 0.0625,
+  "stop_loss": 0.05,
+  "n_rand": 2,
+  "rand_len": 10,
+  "use_context": true,
+  "chunk": 16,
+  "key_batch": 64
+ },
+ "write_seed": 0,
+ "rule": {
+  "delta": 0.02,
+  "tol_q": 0.02,
+  "tol_r": 0.02,
+  "min_positive_share": 0.75,
+  "bootstrap": 10000,
+  "bootstrap_seed": 0
+ },
+ "status": "FROZEN 2026-11-22T04:41:25Z before any BR-14 model run, by Claude on the author's 2026-11-22 request to run the review's supplementary experiments on vast.ai. Design in PLAN.md; parent field_prefix_ablation_012/config_dev.json 2a5f828e; design variant full.",
+ "kind": "fp",
+ "variant": "full",
+ "spans": "../field_prefix_ablation_012/annotation/spans_final.json",
+ "spans_sha256": "53b16cd9178452da3b1d1925da1b7ca298820e8afdeff99b405d32750b6da8d6",
+ "screen_cap": 3000,
+ "massive_rule": {
+  "base": 200.0,
+  "ref_median_file": "../backbone_replication_014/calibration/qwen_norms.json",
+  "ref_layer_of_ref_model": 8
+ },
+ "norm_report": true,
+ "determinism_arm": "corr/off:matched",
+ "interventions": {
+  "max_single": 8
+ },
+ "acceptance": {
+  "phase": "smoke",
+  "cell": "corr/off",
+  "arm": "matched",
+  "measure": "update",
+  "min": 0.8
+ },
+ "budget": {
+  "gpu": "RTX 4090",
+  "max_usd_per_hour": 0.5,
+  "session_cap_usd": 8.0,
+  "variant_limit_usd": 7.5
+ },
+ "phases": {
+  "smoke": {
+   "streams": [
+    "P0"
+   ],
+   "cap": 12,
+   "order_check": true,
+   "intervention_check": true,
+   "cells": [
+    "orig/on",
+    "corr/off"
+   ],
+   "arms": {
+    "orig/on": [
+     "matched",
+     "shuffled:0",
+     "shuffled:1",
+     "active_shuffled:0",
+     "noban_matched",
+     "uniform:0.90",
+     "ban_uniform:0.90"
+    ],
+    "corr/off": [
+     "matched",
+     "shuffled:0",
+     "shuffled:1",
+     "active_shuffled:0",
+     "noban_matched",
+     "uniform:0.90",
+     "ban_uniform:0.90"
+    ]
+   },
+   "interventions": [
+    "matched",
+    "shuffled:0",
+    "uniform:0.90"
+   ]
+  },
+  "dev": {
+   "streams": [
+    "D0",
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "cap": 150,
+   "cells": [
+    "corr/off"
+   ],
+   "arms": {
+    "corr/off": [
+     "matched",
+     "uniform:0.88",
+     "uniform:0.90",
+     "uniform:0.92",
+     "uniform:0.94",
+     "uniform:0.96",
+     "uniform:0.98",
+     "ban_uniform:0.88",
+     "ban_uniform:0.90",
+     "ban_uniform:0.92",
+     "ban_uniform:0.94",
+     "ban_uniform:0.96",
+     "ban_uniform:0.98"
+    ]
+   },
+   "interventions": []
+  },
+  "test": {
+   "streams": [
+    "D4",
+    "D5",
+    "D6",
+    "D7"
+   ],
+   "cap": 150,
+   "cells": [
+    "orig/on",
+    "corr/off"
+   ],
+   "arms": {
+    "orig/on": [
+     "matched",
+     "shuffled:0",
+     "shuffled:1",
+     "shuffled:2",
+     "shuffled:3",
+     "shuffled:4",
+     "shuffled:5",
+     "shuffled:6",
+     "shuffled:7",
+     "noban_matched",
+     "uniform:0.90",
+     "ban_uniform:0.90"
+    ],
+    "corr/off": [
+     "matched",
+     "shuffled:0",
+     "shuffled:1",
+     "shuffled:2",
+     "shuffled:3",
+     "shuffled:4",
+     "shuffled:5",
+     "shuffled:6",
+     "shuffled:7",
+     "active_shuffled:0",
+     "active_shuffled:1",
+     "active_shuffled:2",
+     "active_shuffled:3",
+     "active_shuffled:4",
+     "active_shuffled:5",
+     "active_shuffled:6",
+     "active_shuffled:7",
+     "noban_matched",
+     "uniform:0.90",
+     "uniform:SEL",
+     "ban_uniform:0.90",
+     "ban_uniform:SEL"
+    ]
+   },
+   "interventions": [
+    "uniform:0.90",
+    "matched",
+    "shuffled:0",
+    "active_shuffled:0",
+    "ban_uniform:0.90"
+   ]
+  }
+ },
+ "tune": {
+  "cells": [
+   "corr/off"
+  ],
+  "kinds": [
+   "uniform",
+   "ban_uniform"
+  ],
+  "levels": [
+   0.88,
+   0.9,
+   0.92,
+   0.94,
+   0.96,
+   0.98
+  ]
+ },
+ "practical": {
+  "corr/off": [
+   "uniform:SEL",
+   "ban_uniform:SEL"
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "recount": {
+  "orig/on": {
+   "delta": 0.12674225265762884,
+   "delta_active": 0.11764157189798899,
+   "delta_bans": 0.00910068075963984,
+   "factorial.total": 0.130115307272528,
+   "factorial.ban_flat": 0.006414040058237904,
+   "factorial.ban_cont": 0.0101498644688595,
+   "factorial.cont_ban": 0.12370126721429012,
+   "factorial.cont_noban": 0.11996544280366853,
+   "practical.uniform:0.94": 0.06695201958832635,
+   "practical.ban_uniform:0.94": 0.05799990846409858
+  },
+  "corr/off": {
+   "delta": 0.038277387475425806,
+   "delta_active": 0.032402468519330735,
+   "delta_bans": 0.005874918956095076,
+   "factorial.total": 0.04254149522709737,
+   "factorial.ban_flat": 0.0063451776649746175,
+   "factorial.ban_cont": 0.0101498644688595,
+   "factorial.cont_ban": 0.03619631756212275,
+   "factorial.cont_noban": 0.032391630758237866,
+   "practical.uniform:0.92": 0.02836562910494617,
+   "practical.ban_uniform:0.92": 0.02202045143997155
+  }
+ },
+ "max_abs_diff": 2.7755575615628914e-17,
+ "compared": 20,
+ "tuning_matches_config": true
+}

@@ -1,0 +1,2707 @@
+{
+ "streams": [
+  "D4",
+  "D5",
+  "D6",
+  "D7"
+ ],
+ "cells": [
+  "corr/off"
+ ],
+ "options": {
+  "write_seed": 0,
+  "layer": 12,
+  "massive": 343.000211379616,
+  "tau": 0.9,
+  "centring": "mu",
+  "screen_cap": null,
+  "cov": true
+ },
+ "norm_info": {
+  "D4": {
+   "layer": 12,
+   "here": {
+    "positions": 332279,
+    "median": 49.38080596923828,
+    "q90": 55.51616668701172,
+    "q99": 60.75899124145508,
+    "q999": 63.05540084838867,
+    "max": 71.91374206542969,
+    "first_median": 6480.337890625,
+    "above_200": 0.0
+   },
+   "ref_layer": 8,
+   "ref": {
+    "positions": 332279,
+    "median": 28.793455123901367,
+    "q90": 32.992095947265625,
+    "q99": 37.256508712768536,
+    "q999": 41.82718178558356,
+    "max": 52.69358825683594,
+    "first_median": 6480.21435546875,
+    "above_200": 0.0
+   },
+   "ref_median": 28.793455123901367,
+   "base": 200.0,
+   "massive": 343.000211379616
+  },
+  "D5": {
+   "layer": 12,
+   "here": {
+    "positions": 332279,
+    "median": 49.38080596923828,
+    "q90": 55.51616668701172,
+    "q99": 60.75899124145508,
+    "q999": 63.05540084838867,
+    "max": 71.91374206542969,
+    "first_median": 6480.337890625,
+    "above_200": 0.0
+   },
+   "ref_layer": 8,
+   "ref": {
+    "positions": 332279,
+    "median": 28.793455123901367,
+    "q90": 32.992095947265625,
+    "q99": 37.256508712768536,
+    "q999": 41.82718178558356,
+    "max": 52.69358825683594,
+    "first_median": 6480.21435546875,
+    "above_200": 0.0
+   },
+   "ref_median": 28.793455123901367,
+   "base": 200.0,
+   "massive": 343.000211379616
+  },
+  "D6": {
+   "layer": 12,
+   "here": {
+    "positions": 332279,
+    "median": 49.38080596923828,
+    "q90": 55.51616668701172,
+    "q99": 60.75899124145508,
+    "q999": 63.05540084838867,
+    "max": 71.91374206542969,
+    "first_median": 6480.337890625,
+    "above_200": 0.0
+   },
+   "ref_layer": 8,
+   "ref": {
+    "positions": 332279,
+    "median": 28.793455123901367,
+    "q90": 32.992095947265625,
+    "q99": 37.256508712768536,
+    "q999": 41.82718178558356,
+    "max": 52.69358825683594,
+    "first_median": 6480.21435546875,
+    "above_200": 0.0
+   },
+   "ref_median": 28.793455123901367,
+   "base": 200.0,
+   "massive": 343.000211379616
+  },
+  "D7": {
+   "layer": 12,
+   "here": {
+    "positions": 332279,
+    "median": 49.38080596923828,
+    "q90": 55.51616668701172,
+    "q99": 60.75899124145508,
+    "q999": 63.05540084838867,
+    "max": 71.91374206542969,
+    "first_median": 6480.337890625,
+    "above_200": 0.0
+   },
+   "ref_layer": 8,
+   "ref": {
+    "positions": 332279,
+    "median": 28.793455123901367,
+    "q90": 32.992095947265625,
+    "q99": 37.256508712768536,
+    "q999": 41.82718178558356,
+    "max": 52.69358825683594,
+    "first_median": 6480.21435546875,
+    "above_200": 0.0
+   },
+   "ref_median": 28.793455123901367,
+   "base": 200.0,
+   "massive": 343.000211379616
+  }
+ },
+ "headline": {
+  "corr/off": {
+   "delta": [
+    0.03485670993028874,
+    [
+     0.020543122939499243,
+     0.04986502932773213
+    ],
+    4,
+    4
+   ]
+  }
+ },
+ "cells_result": {
+  "corr/off": {
+   "delta": {
+    "mean": 0.03485670993028874,
+    "ci": [
+     0.020543122939499243,
+     0.04986502932773213
+    ],
+    "per_stream": {
+     "D4": 0.04805352798053528,
+     "D5": 0.022126436781609197,
+     "D6": 0.02260981912144703,
+     "D7": 0.04663705583756345
+    },
+    "positive": 4,
+    "n": 4
+   },
+   "delta_q": {
+    "mean": -0.0007668407477641027,
+    "ci": [
+     -0.010599345554072048,
+     0.008189929322031445
+    ],
+    "per_stream": {
+     "D4": 0.0053404539385847796,
+     "D5": -0.0003324468085106383,
+     "D6": 0.00319650067294751,
+     "D7": -0.011271870794078062
+    },
+    "positive": 2,
+    "n": 4
+   },
+   "delta_r": {
+    "mean": 0.010535714285714285,
+    "ci": [
+     0.0006250000000000006,
+     0.02
+    ],
+    "per_stream": {
+     "D4": 0.010357142857142856,
+     "D5": 0.011428571428571429,
+     "D6": 0.019642857142857142,
+     "D7": 0.0007142857142857143
+    },
+    "positive": 4,
+    "n": 4
+   },
+   "delta_gate": {
+    "passed": true,
+    "mean_delta": 0.03485670993028874,
+    "ci": [
+     0.020543122939499243,
+     0.04986502932773213
+    ],
+    "positive": 4,
+    "needed": 3,
+    "q_diff": -0.0007668407477641027,
+    "r_diff": 0.010535714285714285
+   },
+   "factorial": {
+    "total": {
+     "mean": 0.03827942522096423,
+     "ci": [
+      0.022409337966675578,
+      0.0546520110044833
+     ],
+     "per_stream": {
+      "D4": 0.0535279805352798,
+      "D5": 0.022988505747126436,
+      "D6": 0.025839793281653745,
+      "D7": 0.050761421319796954
+     },
+     "positive": 4,
+     "n": 4
+    },
+    "ban_flat": {
+     "mean": 0.006991172497015963,
+     "ci": [
+      0.0,
+      0.019681527826965202
+     ],
+     "per_stream": {
+      "D4": 0.0,
+      "D5": 0.0,
+      "D6": 0.002583979328165375,
+      "D7": 0.025380710659898477
+     },
+     "positive": 2,
+     "n": 4
+    },
+    "ban_cont": {
+     "mean": 0.010209669591678799,
+     "ci": [
+      0.0,
+      0.023557496819213264
+     ],
+     "per_stream": {
+      "D4": 0.0,
+      "D5": 0.0,
+      "D6": 0.012919896640826873,
+      "D7": 0.027918781725888325
+     },
+     "positive": 2,
+     "n": 4
+    },
+    "cont_ban": {
+     "mean": 0.03128825272394827,
+     "ci": [
+      0.01809676557070302,
+      0.04778734473169899
+     ],
+     "per_stream": {
+      "D4": 0.0535279805352798,
+      "D5": 0.022988505747126436,
+      "D6": 0.023255813953488372,
+      "D7": 0.025380710659898477
+     },
+     "positive": 4,
+     "n": 4
+    },
+    "cont_noban": {
+     "mean": 0.028069755629285435,
+     "ci": [
+      0.013696207050333097,
+      0.04645504441803881
+     ],
+     "per_stream": {
+      "D4": 0.0535279805352798,
+      "D5": 0.022988505747126436,
+      "D6": 0.012919896640826873,
+      "D7": 0.02284263959390863
+     },
+     "positive": 4,
+     "n": 4
+    },
+    "interaction": {
+     "mean": -0.0032184970946628364,
+     "ci": [
+      -0.009689922480620155,
+      0.0
+     ],
+     "per_stream": {
+      "D4": 0.0,
+      "D5": 0.0,
+      "D6": -0.0103359173126615,
+      "D7": -0.0025380710659898475
+     },
+     "positive": 0,
+     "n": 4
+    }
+   },
+   "practical": {
+    "uniform:0.92": {
+     "delta": {
+      "mean": 0.02637200194955689,
+      "ci": [
+       0.012085127716881115,
+       0.04090742497206489
+      ],
+      "per_stream": {
+       "D4": 0.038929440389294405,
+       "D5": 0.020689655172413793,
+       "D6": 0.0103359173126615,
+       "D7": 0.03553299492385787
+      },
+      "positive": 4,
+      "n": 4
+     },
+     "q": {
+      "mean": 0.011013645012933828,
+      "ci": [
+       -0.0013298574860693571,
+       0.02503286089331177
+      ],
+      "per_stream": {
+       "D4": 0.006675567423230975,
+       "D5": 0.02526595744680851,
+       "D6": 0.008075370121130552,
+       "D7": 0.004037685060565276
+      },
+      "positive": 4,
+      "n": 4
+     },
+     "r": {
+      "mean": 0.05142857142857143,
+      "ci": [
+       0.030714285714285715,
+       0.07214285714285715
+      ],
+      "per_stream": {
+       "D4": 0.07142857142857142,
+       "D5": 0.054285714285714284,
+       "D6": 0.054285714285714284,
+       "D7": 0.025714285714285714
+      },
+      "positive": 4,
+      "n": 4
+     },
+     "gate": {
+      "passed": true,
+      "mean_delta": 0.02637200194955689,
+      "ci": [
+       0.012085127716881115,
+       0.04090742497206489
+      ],
+      "positive": 4,
+      "needed": 3,
+      "q_diff": 0.011013645012933828,
+      "r_diff": 0.05142857142857143
+     }
+    }
+   },
+   "frontier": {
+    "uniform": {
+     "0.88": {
+      "damage": 0.061881296532916456,
+      "Q": 0.8199877717010593,
+      "R": 0.6971428571428572,
+      "coverage": 0.8196192164264019,
+      "update": 0.9914348591549296
+     },
+     "0.90": {
+      "damage": 0.05125438586004792,
+      "Q": 0.8002842028490782,
+      "R": 0.6585714285714286,
+      "coverage": 0.8028945625357072,
+      "update": 0.9886041164347907
+     },
+     "0.92": {
+      "damage": 0.03934696258864057,
+      "Q": 0.7565578560789126,
+      "R": 0.5935714285714285,
+      "coverage": 0.7601373487200098,
+      "update": 0.9794241763645427
+     },
+     "0.94": {
+      "damage": 0.02210765113921507,
+      "Q": 0.6509344257211086,
+      "R": 0.4742857142857143,
+      "coverage": 0.6571691894152047,
+      "update": 0.9409640807113989
+     },
+     "0.96": {
+      "damage": 0.011691295902109104,
+      "Q": 0.41872293087572365,
+      "R": 0.29428571428571426,
+      "coverage": 0.421841030239558,
+      "update": 0.7811417732592727
+     },
+     "0.98": {
+      "damage": 0.0,
+      "Q": 0.1259804336663803,
+      "R": 0.09071428571428572,
+      "coverage": 0.12851717815860564,
+      "update": 0.2652275925773422
+     }
+    },
+    "ban_uniform": {
+     "0.90": {
+      "damage": 0.04426321336303196,
+      "Q": 0.7999717028490781,
+      "R": 0.6585714285714286,
+      "coverage": 0.8026562403240771,
+      "update": 0.9879791164347907
+     }
+    }
+   },
+   "bans": {
+    "D4": {
+     "banned": 5,
+     "entries": 1049,
+     "mid": 134,
+     "floor": 910
+    },
+    "D5": {
+     "banned": 3,
+     "entries": 1052,
+     "mid": 129,
+     "floor": 920
+    },
+    "D6": {
+     "banned": 5,
+     "entries": 1043,
+     "mid": 139,
+     "floor": 899
+    },
+    "D7": {
+     "banned": 1,
+     "entries": 1043,
+     "mid": 134,
+     "floor": 908
+    }
+   },
+   "culprits": {
+    "uniform:0.90": {
+     "D4": {
+      "damaged": 27,
+      "per_item": {
+       "active": 27
+      },
+      "top": [
+       [
+        807,
+        6,
+        false,
+        "February 27, 1483 BC"
+       ],
+       [
+        806,
+        4,
+        false,
+        "solar eclipse of July 11, 1536 BC"
+       ],
+       [
+        556,
+        3,
+        false,
+        "Santa Maria College, Perth"
+       ],
+       [
+        1014,
+        3,
+        false,
+        "14 Westend Park Street"
+       ],
+       [
+        883,
+        2,
+        false,
+        "4 Charlemont Place"
+       ],
+       [
+        454,
+        1,
+        false,
+        "SKH St. Thomas Primary School"
+       ],
+       [
+        1022,
+        1,
+        false,
+        "Grange House Hotel"
+       ],
+       [
+        1045,
+        1,
+        false,
+        "Dovercourt railway station"
+       ]
+      ]
+     },
+     "D5": {
+      "damaged": 15,
+      "per_item": {
+       "active": 15
+      },
+      "top": [
+       [
+        820,
+        3,
+        false,
+        "December 19, 1898 BC"
+       ],
+       [
+        1015,
+        2,
+        false,
+        "16 Leven Street"
+       ],
+       [
+        1025,
+        2,
+        false,
+        "Brunston Castle"
+       ],
+       [
+        97,
+        2,
+        false,
+        "CHPR-FM"
+       ],
+       [
+        363,
+        1,
+        false,
+        "Vernersbridge railway station"
+       ],
+       [
+        813,
+        1,
+        false,
+        "solar eclipse of October 27, 1839 BC"
+       ],
+       [
+        1006,
+        1,
+        false,
+        "Barhoise Mill"
+       ],
+       [
+        1027,
+        1,
+        false,
+        "Clunie Dam"
+       ]
+      ]
+     },
+     "D6": {
+      "damaged": 17,
+      "per_item": {
+       "active": 11,
+       "banned": 6
+      },
+      "top": [
+       [
+        799,
+        6,
+        true,
+        "solar eclipse of August 26, 1836 BC"
+       ],
+       [
+        979,
+        2,
+        false,
+        "56, 58, 60 Wilson Street"
+       ],
+       [
+        27,
+        1,
+        false,
+        "National Lotung Industrial Vocational High School"
+       ],
+       [
+        44,
+        1,
+        false,
+        "Juha-Matti Matilainen"
+       ],
+       [
+        1032,
+        1,
+        false,
+        "Archerfield Airport"
+       ],
+       [
+        958,
+        1,
+        false,
+        "Çakırören"
+       ],
+       [
+        644,
+        1,
+        false,
+        "Gary Allan High School"
+       ],
+       [
+        490,
+        1,
+        false,
+        "Galactica Discovers Earth: Part 2"
+       ]
+      ]
+     },
+     "D7": {
+      "damaged": 24,
+      "per_item": {
+       "active": 13,
+       "both": 1,
+       "banned": 10
+      },
+      "top": [
+       [
+        792,
+        11,
+        true,
+        "solar eclipse of April 1, 1893 BC"
+       ],
+       [
+        863,
+        2,
+        false,
+        "solar eclipse of November 23, 2"
+       ],
+       [
+        1004,
+        1,
+        false,
+        "7 Grosvenor Street"
+       ],
+       [
+        50,
+        1,
+        false,
+        "Propst House"
+       ],
+       [
+        832,
+        1,
+        false,
+        "solar eclipse of January 25, 1982"
+       ],
+       [
+        10,
+        1,
+        false,
+        "1236 AH"
+       ],
+       [
+        461,
+        1,
+        false,
+        "Hanna Mattila"
+       ],
+       [
+        905,
+        1,
+        false,
+        "homeschooling in the United States"
+       ]
+      ]
+     }
+    },
+    "matched": {
+     "D4": {
+      "damaged": 5,
+      "per_item": {
+       "active": 5
+      },
+      "top": [
+       [
+        883,
+        2,
+        false,
+        "4 Charlemont Place"
+       ],
+       [
+        914,
+        1,
+        false,
+        "Bemis Mill"
+       ],
+       [
+        784,
+        1,
+        false,
+        "Elbasan Street"
+       ],
+       [
+        953,
+        1,
+        false,
+        "Çayyazı"
+       ]
+      ]
+     },
+     "D5": {
+      "damaged": 5,
+      "per_item": {
+       "active": 5
+      },
+      "top": [
+       [
+        97,
+        2,
+        false,
+        "CHPR-FM"
+       ],
+       [
+        1006,
+        1,
+        false,
+        "Barhoise Mill"
+       ],
+       [
+        506,
+        1,
+        false,
+        "Wyco de Vries"
+       ],
+       [
+        383,
+        1,
+        false,
+        "Robert Antonín"
+       ]
+      ]
+     },
+     "D6": {
+      "damaged": 7,
+      "per_item": {
+       "active": 7
+      },
+      "top": [
+       [
+        27,
+        1,
+        false,
+        "National Lotung Industrial Vocational High School"
+       ],
+       [
+        44,
+        1,
+        false,
+        "Juha-Matti Matilainen"
+       ],
+       [
+        958,
+        1,
+        false,
+        "Çakırören"
+       ],
+       [
+        490,
+        1,
+        false,
+        "Galactica Discovers Earth: Part 2"
+       ],
+       [
+        789,
+        1,
+        false,
+        "solar eclipse of November 7, 1300 BC"
+       ],
+       [
+        914,
+        1,
+        false,
+        "Küçükkavakpınar"
+       ],
+       [
+        727,
+        1,
+        false,
+        "Nepean Bay"
+       ]
+      ]
+     },
+     "D7": {
+      "damaged": 4,
+      "per_item": {
+       "active": 4
+      },
+      "top": [
+       [
+        10,
+        1,
+        false,
+        "1236 AH"
+       ],
+       [
+        461,
+        1,
+        false,
+        "Hanna Mattila"
+       ],
+       [
+        100,
+        1,
+        false,
+        "Marta Nieradkiewicz"
+       ],
+       [
+        786,
+        1,
+        false,
+        "Bowdon Railway"
+       ]
+      ]
+     }
+    },
+    "shuffled:0": {
+     "D4": {
+      "damaged": 25,
+      "per_item": {
+       "active": 25
+      },
+      "top": [
+       [
+        807,
+        8,
+        false,
+        "February 27, 1483 BC"
+       ],
+       [
+        1014,
+        3,
+        false,
+        "14 Westend Park Street"
+       ],
+       [
+        883,
+        2,
+        false,
+        "4 Charlemont Place"
+       ],
+       [
+        806,
+        2,
+        false,
+        "solar eclipse of July 11, 1536 BC"
+       ],
+       [
+        454,
+        1,
+        false,
+        "SKH St. Thomas Primary School"
+       ],
+       [
+        1022,
+        1,
+        false,
+        "Grange House Hotel"
+       ],
+       [
+        1045,
+        1,
+        false,
+        "Dovercourt railway station"
+       ],
+       [
+        926,
+        1,
+        false,
+        "freemasonry in Indonesia"
+       ]
+      ]
+     },
+     "D5": {
+      "damaged": 13,
+      "per_item": {
+       "active": 13
+      },
+      "top": [
+       [
+        820,
+        3,
+        false,
+        "December 19, 1898 BC"
+       ],
+       [
+        1015,
+        2,
+        false,
+        "16 Leven Street"
+       ],
+       [
+        97,
+        2,
+        false,
+        "CHPR-FM"
+       ],
+       [
+        363,
+        1,
+        false,
+        "Vernersbridge railway station"
+       ],
+       [
+        813,
+        1,
+        false,
+        "solar eclipse of October 27, 1839 BC"
+       ],
+       [
+        1006,
+        1,
+        false,
+        "Barhoise Mill"
+       ],
+       [
+        1027,
+        1,
+        false,
+        "Clunie Dam"
+       ],
+       [
+        506,
+        1,
+        false,
+        "Wyco de Vries"
+       ]
+      ]
+     },
+     "D6": {
+      "damaged": 16,
+      "per_item": {
+       "active": 10,
+       "banned": 6
+      },
+      "top": [
+       [
+        799,
+        6,
+        true,
+        "solar eclipse of August 26, 1836 BC"
+       ],
+       [
+        979,
+        2,
+        false,
+        "56, 58, 60 Wilson Street"
+       ],
+       [
+        44,
+        1,
+        false,
+        "Juha-Matti Matilainen"
+       ],
+       [
+        1032,
+        1,
+        false,
+        "Archerfield Airport"
+       ],
+       [
+        958,
+        1,
+        false,
+        "Çakırören"
+       ],
+       [
+        644,
+        1,
+        false,
+        "Gary Allan High School"
+       ],
+       [
+        490,
+        1,
+        false,
+        "Galactica Discovers Earth: Part 2"
+       ],
+       [
+        914,
+        1,
+        false,
+        "Küçükkavakpınar"
+       ]
+      ]
+     },
+     "D7": {
+      "damaged": 23,
+      "per_item": {
+       "active": 12,
+       "banned": 11
+      },
+      "top": [
+       [
+        792,
+        11,
+        true,
+        "solar eclipse of April 1, 1893 BC"
+       ],
+       [
+        1004,
+        2,
+        false,
+        "7 Grosvenor Street"
+       ],
+       [
+        863,
+        2,
+        false,
+        "solar eclipse of November 23, 2"
+       ],
+       [
+        50,
+        1,
+        false,
+        "Propst House"
+       ],
+       [
+        10,
+        1,
+        false,
+        "1236 AH"
+       ],
+       [
+        461,
+        1,
+        false,
+        "Hanna Mattila"
+       ],
+       [
+        905,
+        1,
+        false,
+        "homeschooling in the United States"
+       ],
+       [
+        1022,
+        1,
+        false,
+        "Lochton House"
+       ]
+      ]
+     }
+    }
+   },
+   "culprit_categories": {
+    "uniform:0.90": {
+     "D4": {
+      "available": true,
+      "damaged": 27,
+      "per_item": {
+       "near name": 11,
+       "other": 16
+      },
+      "culprits": {
+       "near name": 11,
+       "other": 18
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 22,
+      "single_recovers": 13
+     },
+     "D5": {
+      "available": true,
+      "damaged": 15,
+      "per_item": {
+       "near name": 5,
+       "other": 10
+      },
+      "culprits": {
+       "near name": 5,
+       "other": 10
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 15,
+      "single_recovers": 6
+     },
+     "D6": {
+      "available": true,
+      "damaged": 17,
+      "per_item": {
+       "near name": 3,
+       "other": 14
+      },
+      "culprits": {
+       "near name": 3,
+       "other": 14
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 11,
+      "single_recovers": 8
+     },
+     "D7": {
+      "available": true,
+      "damaged": 24,
+      "per_item": {
+       "other": 16,
+       "near name": 8
+      },
+      "culprits": {
+       "other": 17,
+       "near name": 8
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 24,
+      "single_recovers": 20
+     }
+    },
+    "matched": {
+     "D4": {
+      "available": true,
+      "damaged": 5,
+      "per_item": {
+       "near name": 3,
+       "other": 2
+      },
+      "culprits": {
+       "near name": 3,
+       "other": 2
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 5,
+      "single_recovers": 5
+     },
+     "D5": {
+      "available": true,
+      "damaged": 5,
+      "per_item": {
+       "other": 3,
+       "near name": 2
+      },
+      "culprits": {
+       "other": 3,
+       "near name": 2
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 5,
+      "single_recovers": 4
+     },
+     "D6": {
+      "available": true,
+      "damaged": 7,
+      "per_item": {
+       "near name": 1,
+       "other": 6
+      },
+      "culprits": {
+       "near name": 1,
+       "other": 6
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 6,
+      "single_recovers": 6
+     },
+     "D7": {
+      "available": true,
+      "damaged": 4,
+      "per_item": {
+       "other": 2,
+       "near name": 2
+      },
+      "culprits": {
+       "other": 2,
+       "near name": 2
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 4,
+      "single_recovers": 4
+     }
+    },
+    "shuffled:0": {
+     "D4": {
+      "available": true,
+      "damaged": 25,
+      "per_item": {
+       "near name": 9,
+       "other": 16
+      },
+      "culprits": {
+       "near name": 9,
+       "other": 17
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 22,
+      "single_recovers": 12
+     },
+     "D5": {
+      "available": true,
+      "damaged": 13,
+      "per_item": {
+       "near name": 5,
+       "other": 8
+      },
+      "culprits": {
+       "near name": 5,
+       "other": 8
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 13,
+      "single_recovers": 4
+     },
+     "D6": {
+      "available": true,
+      "damaged": 16,
+      "per_item": {
+       "other": 14,
+       "near name": 2
+      },
+      "culprits": {
+       "other": 14,
+       "near name": 2
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 10,
+      "single_recovers": 7
+     },
+     "D7": {
+      "available": true,
+      "damaged": 23,
+      "per_item": {
+       "other": 15,
+       "near name": 8
+      },
+      "culprits": {
+       "other": 15,
+       "near name": 8
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 23,
+      "single_recovers": 18
+     }
+    }
+   },
+   "delta_leave_one_out": {
+    "D4": 0.03045777058020656,
+    "D5": 0.03910013431318192,
+    "D6": 0.03893900686656931,
+    "D7": 0.03092992796119717
+   }
+  }
+ },
+ "arms": {
+  "corr/off:ban_uniform:0.90": {
+   "D4": {
+    "damage": 0.06569343065693431,
+    "damaged": 27,
+    "known": 411,
+    "Q": 0.7771114232209738,
+    "R": 0.6742857142857143,
+    "coverage": 0.782650142993327,
+    "update": 0.9820365168539326,
+    "learned": 0.7679324894514767,
+    "fired_loc": 0.0681265206812652,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0681265206812652,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.034482758620689655,
+    "damaged": 15,
+    "known": 435,
+    "Q": 0.8352597402597403,
+    "R": 0.6571428571428571,
+    "coverage": 0.8277830637488106,
+    "update": 0.9933766233766234,
+    "learned": 0.8247566063977747,
+    "fired_loc": 0.052873563218390804,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.05057471264367816,
+    "fired_loc_gen": 0.0022988505747126436,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.041343669250646,
+    "damaged": 16,
+    "known": 387,
+    "Q": 0.8022496072270228,
+    "R": 0.6428571428571429,
+    "coverage": 0.7967401725790988,
+    "update": 0.98625,
+    "learned": 0.7931526390870185,
+    "fired_loc": 0.046511627906976744,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.046511627906976744,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.03553299492385787,
+    "damaged": 14,
+    "known": 394,
+    "Q": 0.7852660406885759,
+    "R": 0.66,
+    "coverage": 0.8034515819750719,
+    "update": 0.9902533255086072,
+    "learned": 0.7733142037302726,
+    "fired_loc": 0.06598984771573604,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.06598984771573604,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:matched": {
+   "D4": {
+    "damage": 0.012165450121654502,
+    "damaged": 5,
+    "known": 411,
+    "Q": 0.7543024344569288,
+    "R": 0.6628571428571428,
+    "coverage": 0.7597712106768351,
+    "update": 0.9672986891385768,
+    "learned": 0.7440225035161744,
+    "fired_loc": 0.012165450121654502,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.012165450121654502,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.011494252873563218,
+    "damaged": 5,
+    "known": 435,
+    "Q": 0.8011796536796537,
+    "R": 0.6457142857142857,
+    "coverage": 0.7954329210275928,
+    "update": 0.9763365800865801,
+    "learned": 0.7885952712100139,
+    "fired_loc": 0.016091954022988506,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.013793103448275862,
+    "fired_loc_gen": 0.0022988505747126436,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.01808785529715762,
+    "damaged": 7,
+    "known": 387,
+    "Q": 0.768565396700707,
+    "R": 0.6285714285714286,
+    "coverage": 0.7545541706615532,
+    "update": 0.96875,
+    "learned": 0.7546362339514978,
+    "fired_loc": 0.020671834625323,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.020671834625323,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.01015228426395939,
+    "damaged": 4,
+    "known": 394,
+    "Q": 0.7490121283255086,
+    "R": 0.6428571428571429,
+    "coverage": 0.7718120805369127,
+    "update": 0.979767214397496,
+    "learned": 0.7345767575322812,
+    "fired_loc": 0.012690355329949238,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.012690355329949238,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:noban_matched": {
+   "D4": {
+    "damage": 0.012165450121654502,
+    "damaged": 5,
+    "known": 411,
+    "Q": 0.7580524344569288,
+    "R": 0.6628571428571428,
+    "coverage": 0.7664442326024785,
+    "update": 0.9722986891385768,
+    "learned": 0.7468354430379747,
+    "fired_loc": 0.012165450121654502,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.012165450121654502,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.011494252873563218,
+    "damaged": 5,
+    "known": 435,
+    "Q": 0.8049296536796536,
+    "R": 0.6457142857142857,
+    "coverage": 0.8001902949571836,
+    "update": 0.9800865800865801,
+    "learned": 0.7927677329624478,
+    "fired_loc": 0.016091954022988506,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.013793103448275862,
+    "fired_loc_gen": 0.0022988505747126436,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.031007751937984496,
+    "damaged": 12,
+    "known": 387,
+    "Q": 0.773565396700707,
+    "R": 0.6285714285714286,
+    "coverage": 0.7593480345158198,
+    "update": 0.97375,
+    "learned": 0.760342368045649,
+    "fired_loc": 0.03359173126614987,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.03359173126614987,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.03807106598984772,
+    "damaged": 15,
+    "known": 394,
+    "Q": 0.7490121283255086,
+    "R": 0.6428571428571429,
+    "coverage": 0.7718120805369127,
+    "update": 0.979767214397496,
+    "learned": 0.7345767575322812,
+    "fired_loc": 0.04060913705583756,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.04060913705583756,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:shuffled:0": {
+   "D4": {
+    "damage": 0.06082725060827251,
+    "damaged": 25,
+    "known": 411,
+    "Q": 0.7529447565543071,
+    "R": 0.64,
+    "coverage": 0.7540514775977121,
+    "update": 0.9687031835205993,
+    "learned": 0.7426160337552743,
+    "fired_loc": 0.06326034063260341,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.06326034063260341,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.029885057471264367,
+    "damaged": 13,
+    "known": 435,
+    "Q": 0.8112229437229437,
+    "R": 0.6542857142857142,
+    "coverage": 0.7973358705994291,
+    "update": 0.9747132034632034,
+    "learned": 0.799721835883171,
+    "fired_loc": 0.04597701149425287,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.04367816091954023,
+    "fired_loc_gen": 0.0022988505747126436,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.041343669250646,
+    "damaged": 16,
+    "known": 387,
+    "Q": 0.7610653967007069,
+    "R": 0.6342857142857142,
+    "coverage": 0.7526366251198466,
+    "update": 0.9521052631578947,
+    "learned": 0.746077032810271,
+    "fired_loc": 0.04392764857881137,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.04392764857881137,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0583756345177665,
+    "damaged": 23,
+    "known": 394,
+    "Q": 0.7529949139280125,
+    "R": 0.6514285714285715,
+    "coverage": 0.7746883988494727,
+    "update": 0.9702533255086072,
+    "learned": 0.7388809182209469,
+    "fired_loc": 0.06091370558375635,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.06091370558375635,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:shuffled:1": {
+   "D4": {
+    "damage": 0.06569343065693431,
+    "damaged": 27,
+    "known": 411,
+    "Q": 0.7448735955056179,
+    "R": 0.6657142857142857,
+    "coverage": 0.7502383222116301,
+    "update": 0.9522986891385767,
+    "learned": 0.7327707454289732,
+    "fired_loc": 0.0681265206812652,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0681265206812652,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.03218390804597701,
+    "damaged": 14,
+    "known": 435,
+    "Q": 0.8045562770562771,
+    "R": 0.6371428571428571,
+    "coverage": 0.7954329210275928,
+    "update": 0.9697132034632034,
+    "learned": 0.7927677329624478,
+    "fired_loc": 0.04827586206896552,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.04597701149425287,
+    "fired_loc_gen": 0.0022988505747126436,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.041343669250646,
+    "damaged": 16,
+    "known": 387,
+    "Q": 0.7639601335428122,
+    "R": 0.6,
+    "coverage": 0.7555129434324065,
+    "update": 0.9517105263157895,
+    "learned": 0.7503566333808844,
+    "fired_loc": 0.041343669250646,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.041343669250646,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0583756345177665,
+    "damaged": 23,
+    "known": 394,
+    "Q": 0.7585054773082942,
+    "R": 0.6228571428571429,
+    "coverage": 0.7727708533077661,
+    "update": 0.9654821987480438,
+    "learned": 0.7431850789096126,
+    "fired_loc": 0.06345177664974619,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.06345177664974619,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:shuffled:2": {
+   "D4": {
+    "damage": 0.0535279805352798,
+    "damaged": 22,
+    "known": 411,
+    "Q": 0.7426357677902622,
+    "R": 0.6485714285714286,
+    "coverage": 0.7454718779790277,
+    "update": 0.9564653558052434,
+    "learned": 0.7313642756680732,
+    "fired_loc": 0.05596107055961071,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.05596107055961071,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.034482758620689655,
+    "damaged": 15,
+    "known": 435,
+    "Q": 0.792056277056277,
+    "R": 0.6314285714285715,
+    "coverage": 0.7906755470980019,
+    "update": 0.9580032467532468,
+    "learned": 0.7788595271210014,
+    "fired_loc": 0.052873563218390804,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.05057471264367816,
+    "fired_loc_gen": 0.0022988505747126436,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.04392764857881137,
+    "damaged": 17,
+    "known": 387,
+    "Q": 0.7672496072270227,
+    "R": 0.6085714285714285,
+    "coverage": 0.7583892617449665,
+    "update": 0.9558552631578947,
+    "learned": 0.7546362339514978,
+    "fired_loc": 0.046511627906976744,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.046511627906976744,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.06091370558375635,
+    "damaged": 24,
+    "known": 394,
+    "Q": 0.7697554773082942,
+    "R": 0.6571428571428571,
+    "coverage": 0.7823585810162992,
+    "update": 0.9815033255086072,
+    "learned": 0.7560975609756098,
+    "fired_loc": 0.06598984771573604,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.06598984771573604,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:shuffled:3": {
+   "D4": {
+    "damage": 0.06326034063260341,
+    "damaged": 26,
+    "known": 411,
+    "Q": 0.7490402621722847,
+    "R": 0.6485714285714286,
+    "coverage": 0.7464251668255482,
+    "update": 0.9635486891385767,
+    "learned": 0.7383966244725738,
+    "fired_loc": 0.06569343065693431,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.06569343065693431,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.03218390804597701,
+    "damaged": 14,
+    "known": 435,
+    "Q": 0.794512987012987,
+    "R": 0.6285714285714286,
+    "coverage": 0.7897240723120837,
+    "update": 0.9697132034632034,
+    "learned": 0.7816411682892906,
+    "fired_loc": 0.05057471264367816,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.04827586206896552,
+    "fired_loc_gen": 0.0022988505747126436,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.04392764857881137,
+    "damaged": 17,
+    "known": 387,
+    "Q": 0.7627287902592301,
+    "R": 0.6028571428571429,
+    "coverage": 0.7564717162032598,
+    "update": 0.9539895915161036,
+    "learned": 0.7503566333808844,
+    "fired_loc": 0.046511627906976744,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.046511627906976744,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.04060913705583756,
+    "damaged": 16,
+    "known": 394,
+    "Q": 0.7667449139280125,
+    "R": 0.6457142857142857,
+    "coverage": 0.7813998082454459,
+    "update": 0.974767214397496,
+    "learned": 0.7532281205164992,
+    "fired_loc": 0.050761421319796954,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.050761421319796954,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:shuffled:4": {
+   "D4": {
+    "damage": 0.05596107055961071,
+    "damaged": 23,
+    "known": 411,
+    "Q": 0.7426357677902622,
+    "R": 0.6571428571428571,
+    "coverage": 0.7492850333651097,
+    "update": 0.9538108614232209,
+    "learned": 0.7313642756680732,
+    "fired_loc": 0.058394160583941604,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.058394160583941604,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.034482758620689655,
+    "damaged": 15,
+    "known": 435,
+    "Q": 0.8033062770562771,
+    "R": 0.6428571428571429,
+    "coverage": 0.7935299714557564,
+    "update": 0.9700865800865801,
+    "learned": 0.7927677329624478,
+    "fired_loc": 0.052873563218390804,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.05057471264367816,
+    "fired_loc_gen": 0.0022988505747126436,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.04392764857881137,
+    "damaged": 17,
+    "known": 387,
+    "Q": 0.7669206598586017,
+    "R": 0.6057142857142858,
+    "coverage": 0.7488015340364333,
+    "update": 0.9646052631578947,
+    "learned": 0.7546362339514978,
+    "fired_loc": 0.046511627906976744,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.046511627906976744,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.05583756345177665,
+    "damaged": 22,
+    "known": 394,
+    "Q": 0.7635054773082942,
+    "R": 0.6514285714285715,
+    "coverage": 0.7785234899328859,
+    "update": 0.9669610719874804,
+    "learned": 0.7489239598278336,
+    "fired_loc": 0.06091370558375635,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.06091370558375635,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:shuffled:5": {
+   "D4": {
+    "damage": 0.05596107055961071,
+    "damaged": 23,
+    "known": 411,
+    "Q": 0.752373595505618,
+    "R": 0.66,
+    "coverage": 0.7540514775977121,
+    "update": 0.9583941947565543,
+    "learned": 0.7412095639943741,
+    "fired_loc": 0.058394160583941604,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.058394160583941604,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.029885057471264367,
+    "damaged": 13,
+    "known": 435,
+    "Q": 0.8049296536796536,
+    "R": 0.6314285714285715,
+    "coverage": 0.796384395813511,
+    "update": 0.9734199134199134,
+    "learned": 0.7927677329624478,
+    "fired_loc": 0.04597701149425287,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.04367816091954023,
+    "fired_loc_gen": 0.0022988505747126436,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.03359173126614987,
+    "damaged": 13,
+    "known": 387,
+    "Q": 0.764199725058916,
+    "R": 0.6057142857142858,
+    "coverage": 0.7488015340364333,
+    "update": 0.9542105263157895,
+    "learned": 0.7517831669044223,
+    "fired_loc": 0.03617571059431524,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.03617571059431524,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.06091370558375635,
+    "damaged": 24,
+    "known": 394,
+    "Q": 0.7577660406885759,
+    "R": 0.6314285714285715,
+    "coverage": 0.7708533077660594,
+    "update": 0.9747427621283256,
+    "learned": 0.7417503586800573,
+    "fired_loc": 0.06345177664974619,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.06345177664974619,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:shuffled:6": {
+   "D4": {
+    "damage": 0.06569343065693431,
+    "damaged": 27,
+    "known": 411,
+    "Q": 0.7534691011235954,
+    "R": 0.66,
+    "coverage": 0.7483317445185891,
+    "update": 0.9633941947565543,
+    "learned": 0.7426160337552743,
+    "fired_loc": 0.0681265206812652,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0681265206812652,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.04367816091954023,
+    "damaged": 19,
+    "known": 435,
+    "Q": 0.7978896103896104,
+    "R": 0.6257142857142857,
+    "coverage": 0.7887725975261656,
+    "update": 0.9689231601731602,
+    "learned": 0.7858136300417247,
+    "fired_loc": 0.052873563218390804,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.05057471264367816,
+    "fired_loc_gen": 0.0022988505747126436,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.03875968992248062,
+    "damaged": 15,
+    "known": 387,
+    "Q": 0.7646602513747054,
+    "R": 0.6,
+    "coverage": 0.7555129434324065,
+    "update": 0.9608552631578947,
+    "learned": 0.7546362339514978,
+    "fired_loc": 0.03875968992248062,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.03875968992248062,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0583756345177665,
+    "damaged": 23,
+    "known": 394,
+    "Q": 0.7569982394366197,
+    "R": 0.6457142857142857,
+    "coverage": 0.7727708533077661,
+    "update": 0.9802533255086072,
+    "learned": 0.7431850789096126,
+    "fired_loc": 0.06091370558375635,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.06091370558375635,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:shuffled:7": {
+   "D4": {
+    "damage": 0.06082725060827251,
+    "damaged": 25,
+    "known": 411,
+    "Q": 0.7472191011235955,
+    "R": 0.64,
+    "coverage": 0.7502383222116301,
+    "update": 0.9558941947565542,
+    "learned": 0.7355836849507735,
+    "fired_loc": 0.06326034063260341,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.06326034063260341,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.03218390804597701,
+    "damaged": 14,
+    "known": 435,
+    "Q": 0.8011796536796537,
+    "R": 0.6228571428571429,
+    "coverage": 0.7916270218839201,
+    "update": 0.9646699134199135,
+    "learned": 0.7885952712100139,
+    "fired_loc": 0.04597701149425287,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.04367816091954023,
+    "fired_loc_gen": 0.0022988505747126436,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.03875968992248062,
+    "damaged": 15,
+    "known": 387,
+    "Q": 0.7731048703849175,
+    "R": 0.6142857142857143,
+    "coverage": 0.7622243528283796,
+    "update": 0.96,
+    "learned": 0.7589158345221113,
+    "fired_loc": 0.041343669250646,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.041343669250646,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.06091370558375635,
+    "damaged": 24,
+    "known": 394,
+    "Q": 0.7635054773082942,
+    "R": 0.6314285714285715,
+    "coverage": 0.7766059443911792,
+    "update": 0.9722427621283255,
+    "learned": 0.7489239598278336,
+    "fired_loc": 0.06598984771573604,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.06598984771573604,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:uniform:0.88": {
+   "D4": {
+    "damage": 0.08029197080291971,
+    "damaged": 33,
+    "known": 411,
+    "Q": 0.7972050561797752,
+    "R": 0.7114285714285714,
+    "coverage": 0.8007626310772163,
+    "update": 0.98875,
+    "learned": 0.7876230661040787,
+    "fired_loc": 0.08759124087591241,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.08759124087591241,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0367816091954023,
+    "damaged": 16,
+    "known": 435,
+    "Q": 0.8555898268398269,
+    "R": 0.6971428571428572,
+    "coverage": 0.8430066603235015,
+    "update": 0.99625,
+    "learned": 0.8456189151599444,
+    "fired_loc": 0.05747126436781609,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.05517241379310345,
+    "fired_loc_gen": 0.0022988505747126436,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.056847545219638244,
+    "damaged": 22,
+    "known": 387,
+    "Q": 0.8251256873527102,
+    "R": 0.6885714285714286,
+    "coverage": 0.8207094918504314,
+    "update": 0.99,
+    "learned": 0.8174037089871612,
+    "fired_loc": 0.059431524547803614,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.059431524547803614,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.07360406091370558,
+    "damaged": 29,
+    "known": 394,
+    "Q": 0.8020305164319249,
+    "R": 0.6914285714285714,
+    "coverage": 0.8139980824544583,
+    "update": 0.9907394366197183,
+    "learned": 0.7890961262553802,
+    "fired_loc": 0.08121827411167512,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.08121827411167512,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:uniform:0.90": {
+   "D4": {
+    "damage": 0.06569343065693431,
+    "damaged": 27,
+    "known": 411,
+    "Q": 0.7783614232209738,
+    "R": 0.6742857142857143,
+    "coverage": 0.7836034318398475,
+    "update": 0.9832865168539325,
+    "learned": 0.7693389592123769,
+    "fired_loc": 0.0681265206812652,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0681265206812652,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.034482758620689655,
+    "damaged": 15,
+    "known": 435,
+    "Q": 0.8352597402597403,
+    "R": 0.6571428571428571,
+    "coverage": 0.8277830637488106,
+    "update": 0.9933766233766234,
+    "learned": 0.8247566063977747,
+    "fired_loc": 0.052873563218390804,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.05057471264367816,
+    "fired_loc_gen": 0.0022988505747126436,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.04392764857881137,
+    "damaged": 17,
+    "known": 387,
+    "Q": 0.8022496072270228,
+    "R": 0.6428571428571429,
+    "coverage": 0.7967401725790988,
+    "update": 0.9875,
+    "learned": 0.7931526390870185,
+    "fired_loc": 0.046511627906976744,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.046511627906976744,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.06091370558375635,
+    "damaged": 24,
+    "known": 394,
+    "Q": 0.7852660406885759,
+    "R": 0.66,
+    "coverage": 0.8034515819750719,
+    "update": 0.9902533255086072,
+    "learned": 0.7733142037302726,
+    "fired_loc": 0.06598984771573604,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.06598984771573604,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:uniform:0.92": {
+   "D4": {
+    "damage": 0.051094890510948905,
+    "damaged": 21,
+    "known": 411,
+    "Q": 0.7444101123595506,
+    "R": 0.5914285714285714,
+    "coverage": 0.7530981887511916,
+    "update": 0.9676685393258426,
+    "learned": 0.7355836849507735,
+    "fired_loc": 0.0535279805352798,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0535279805352798,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.03218390804597701,
+    "damaged": 14,
+    "known": 435,
+    "Q": 0.777012987012987,
+    "R": 0.5914285714285714,
+    "coverage": 0.7735490009514748,
+    "update": 0.9883766233766234,
+    "learned": 0.7621696801112656,
+    "fired_loc": 0.04597701149425287,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.04597701149425287,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.028423772609819122,
+    "damaged": 11,
+    "known": 387,
+    "Q": 0.7600078554595444,
+    "R": 0.5742857142857143,
+    "coverage": 0.7516778523489933,
+    "update": 0.9768843283582089,
+    "learned": 0.7475035663338089,
+    "fired_loc": 0.031007751937984496,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.031007751937984496,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.04568527918781726,
+    "damaged": 18,
+    "known": 394,
+    "Q": 0.744800469483568,
+    "R": 0.6171428571428571,
+    "coverage": 0.7622243528283796,
+    "update": 0.984767214397496,
+    "learned": 0.7302725968436155,
+    "fired_loc": 0.04568527918781726,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.04568527918781726,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:uniform:0.94": {
+   "D4": {
+    "damage": 0.014598540145985401,
+    "damaged": 6,
+    "known": 411,
+    "Q": 0.6421395131086143,
+    "R": 0.49714285714285716,
+    "coverage": 0.661582459485224,
+    "update": 0.9280992509363296,
+    "learned": 0.6244725738396625,
+    "fired_loc": 0.014598540145985401,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.014598540145985401,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.02528735632183908,
+    "damaged": 11,
+    "known": 435,
+    "Q": 0.670952380952381,
+    "R": 0.45714285714285713,
+    "coverage": 0.665080875356803,
+    "update": 0.9435064935064935,
+    "learned": 0.6522948539638387,
+    "fired_loc": 0.034482758620689655,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.034482758620689655,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.01808785529715762,
+    "damaged": 7,
+    "known": 387,
+    "Q": 0.6500687352710134,
+    "R": 0.46,
+    "coverage": 0.6423777564717162,
+    "update": 0.9354978397486253,
+    "learned": 0.6276747503566333,
+    "fired_loc": 0.020671834625323,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.020671834625323,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.030456852791878174,
+    "damaged": 12,
+    "known": 394,
+    "Q": 0.6405770735524257,
+    "R": 0.4828571428571429,
+    "coverage": 0.6596356663470757,
+    "update": 0.9567527386541471,
+    "learned": 0.6197991391678622,
+    "fired_loc": 0.030456852791878174,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.030456852791878174,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:uniform:0.96": {
+   "D4": {
+    "damage": 0.0024330900243309003,
+    "damaged": 1,
+    "known": 411,
+    "Q": 0.42702715355805243,
+    "R": 0.3314285714285714,
+    "coverage": 0.438512869399428,
+    "update": 0.8022940074906367,
+    "learned": 0.3980309423347398,
+    "fired_loc": 0.0024330900243309003,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0024330900243309003,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.016091954022988506,
+    "damaged": 7,
+    "known": 435,
+    "Q": 0.436271645021645,
+    "R": 0.28285714285714286,
+    "coverage": 0.43101807802093245,
+    "update": 0.7644426406926407,
+    "learned": 0.40751043115438107,
+    "fired_loc": 0.022988505747126436,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.022988505747126436,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.01808785529715762,
+    "damaged": 7,
+    "known": 387,
+    "Q": 0.4079016103692066,
+    "R": 0.24571428571428572,
+    "coverage": 0.39884947267497606,
+    "update": 0.7637117046347212,
+    "learned": 0.3680456490727532,
+    "fired_loc": 0.020671834625323,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.020671834625323,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.01015228426395939,
+    "damaged": 4,
+    "known": 394,
+    "Q": 0.4036913145539906,
+    "R": 0.3171428571428571,
+    "coverage": 0.4189837008628955,
+    "update": 0.7941187402190923,
+    "learned": 0.36872309899569583,
+    "fired_loc": 0.01015228426395939,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.01015228426395939,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:uniform:0.98": {
+   "D4": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 411,
+    "Q": 0.11676029962546816,
+    "R": 0.1,
+    "coverage": 0.12297426120114395,
+    "update": 0.28933988764044943,
+    "learned": 0.07032348804500703,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 435,
+    "Q": 0.1473538961038961,
+    "R": 0.10571428571428572,
+    "coverage": 0.13606089438629876,
+    "update": 0.304004329004329,
+    "learned": 0.1070931849791377,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 387,
+    "Q": 0.1313069520816968,
+    "R": 0.054285714285714284,
+    "coverage": 0.13135186960690318,
+    "update": 0.26065887666928517,
+    "learned": 0.07845934379457917,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 394,
+    "Q": 0.1085005868544601,
+    "R": 0.10285714285714286,
+    "coverage": 0.1236816874400767,
+    "update": 0.20690727699530517,
+    "learned": 0.054519368723098996,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "none": {
+   "D4": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 411,
+    "Q": 0.05145131086142322,
+    "R": 0.037142857142857144,
+    "coverage": 0.04861773117254528,
+    "update": 0.053689138576779025,
+    "learned": 0.0,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 435,
+    "Q": 0.04403679653679654,
+    "R": 0.03428571428571429,
+    "coverage": 0.04091341579448145,
+    "update": 0.04241341991341992,
+    "learned": 0.0,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 387,
+    "Q": 0.057110172820109974,
+    "R": 0.025714285714285714,
+    "coverage": 0.05752636625119847,
+    "update": 0.06649450117831893,
+    "learned": 0.0,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 394,
+    "Q": 0.059493348982785604,
+    "R": 0.05714285714285714,
+    "coverage": 0.06903163950143816,
+    "update": 0.059701682316118936,
+    "learned": 0.0,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  }
+ },
+ "arm_means": {
+  "corr/off:ban_uniform:0.90": {
+   "damage": 0.04426321336303196,
+   "damaged": 18.0,
+   "known": 406.75,
+   "Q": 0.7999717028490781,
+   "R": 0.6585714285714286,
+   "coverage": 0.8026562403240771,
+   "update": 0.9879791164347907,
+   "learned": 0.7897889846666356,
+   "fired_loc": 0.058375389880592196,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.05780067723691404,
+   "fired_loc_gen": 0.0005747126436781609,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:matched": {
+   "damage": 0.012974960639083682,
+   "damaged": 5.25,
+   "known": 406.75,
+   "Q": 0.7682649032906995,
+   "R": 0.645,
+   "coverage": 0.7703925957257234,
+   "update": 0.9730381209056632,
+   "learned": 0.7554576915524919,
+   "fired_loc": 0.01540489852497881,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.01483018588130065,
+   "fired_loc_gen": 0.0005747126436781609,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:noban_matched": {
+   "damage": 0.023184630230762483,
+   "damaged": 9.25,
+   "known": 406.75,
+   "Q": 0.7713899032906995,
+   "R": 0.645,
+   "coverage": 0.7744486606530987,
+   "update": 0.9764756209056632,
+   "learned": 0.7586305753945882,
+   "fired_loc": 0.02561456811665761,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.02503985547297945,
+   "fired_loc_gen": 0.0005747126436781609,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:shuffled:0": {
+   "damage": 0.047607902961987345,
+   "damaged": 19.25,
+   "known": 406.75,
+   "Q": 0.7695570027264926,
+   "R": 0.645,
+   "coverage": 0.7696780930416152,
+   "update": 0.9664437439125761,
+   "learned": 0.7568239551674159,
+   "fired_loc": 0.053519676572356,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.05294496392867784,
+   "fired_loc_gen": 0.0005747126436781609,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:shuffled:1": {
+   "damage": 0.04939916061783095,
+   "damaged": 20.0,
+   "known": 406.75,
+   "Q": 0.7679738708532504,
+   "R": 0.6314285714285715,
+   "coverage": 0.7684887599948489,
+   "update": 0.9598011544164033,
+   "learned": 0.7547700476704795,
+   "fired_loc": 0.055299457162655725,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.05472474451897757,
+   "fired_loc_gen": 0.0005747126436781609,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:shuffled:2": {
+   "damage": 0.04821302332963429,
+   "damaged": 19.5,
+   "known": 406.75,
+   "Q": 0.7679242823454641,
+   "R": 0.6364285714285715,
+   "coverage": 0.7692238169595738,
+   "update": 0.962956797806248,
+   "learned": 0.7552393994290455,
+   "fired_loc": 0.055334027350178575,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.05475931470650042,
+   "fired_loc_gen": 0.0005747126436781609,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:shuffled:3": {
+   "damage": 0.044995258578307336,
+   "damaged": 18.25,
+   "known": 406.75,
+   "Q": 0.7682567383431286,
+   "R": 0.6314285714285715,
+   "coverage": 0.7685051908965844,
+   "update": 0.9655046746288449,
+   "learned": 0.755905636664812,
+   "fired_loc": 0.053385298131846545,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.05281058548816838,
+   "fired_loc_gen": 0.0005747126436781609,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:shuffled:4": {
+   "damage": 0.047552260302722096,
+   "damaged": 19.25,
+   "known": 406.75,
+   "Q": 0.7690920455033587,
+   "R": 0.6392857142857143,
+   "coverage": 0.7675350071975463,
+   "update": 0.963865944163794,
+   "learned": 0.7569230506024631,
+   "fired_loc": 0.05467326432326637,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.054098551679588214,
+   "fired_loc_gen": 0.0005747126436781609,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:shuffled:5": {
+   "damage": 0.045087891220195325,
+   "damaged": 18.25,
+   "known": 406.75,
+   "Q": 0.7698172537331909,
+   "R": 0.6321428571428571,
+   "coverage": 0.767522678803429,
+   "update": 0.9651918491551457,
+   "learned": 0.7568777056353254,
+   "fired_loc": 0.05099966483056398,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.050424952186885814,
+   "fired_loc_gen": 0.0005747126436781609,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:shuffled:6": {
+   "damage": 0.051626729004180416,
+   "damaged": 21.0,
+   "known": 406.75,
+   "Q": 0.7682543005811328,
+   "R": 0.6328571428571428,
+   "coverage": 0.7663470346962318,
+   "update": 0.9683564858990541,
+   "learned": 0.7565627441645273,
+   "fired_loc": 0.05516836985147325,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.054593657207795084,
+   "fired_loc_gen": 0.0005747126436781609,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:shuffled:7": {
+   "damage": 0.04817113854012162,
+   "damaged": 19.5,
+   "known": 406.75,
+   "Q": 0.7712522756241152,
+   "R": 0.6271428571428572,
+   "coverage": 0.7701739103287772,
+   "update": 0.9632017175761983,
+   "learned": 0.7580046876276831,
+   "fired_loc": 0.05414271727330958,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.05356800462963142,
+   "fired_loc_gen": 0.0005747126436781609,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:uniform:0.88": {
+   "damage": 0.061881296532916456,
+   "damaged": 25.0,
+   "known": 406.75,
+   "Q": 0.8199877717010593,
+   "R": 0.6971428571428572,
+   "coverage": 0.8196192164264019,
+   "update": 0.9914348591549296,
+   "learned": 0.8099354541266411,
+   "fired_loc": 0.07142807597580181,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.07085336333212365,
+   "fired_loc_gen": 0.0005747126436781609,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:uniform:0.90": {
+   "damage": 0.05125438586004792,
+   "damaged": 20.75,
+   "known": 406.75,
+   "Q": 0.8002842028490782,
+   "R": 0.6585714285714286,
+   "coverage": 0.8028945625357072,
+   "update": 0.9886041164347907,
+   "learned": 0.7901406021068607,
+   "fired_loc": 0.058375389880592196,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.05780067723691404,
+   "fired_loc_gen": 0.0005747126436781609,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:uniform:0.92": {
+   "damage": 0.03934696258864057,
+   "damaged": 16.0,
+   "known": 406.75,
+   "Q": 0.7565578560789126,
+   "R": 0.5935714285714285,
+   "coverage": 0.7601373487200098,
+   "update": 0.9794241763645427,
+   "learned": 0.7438823820598659,
+   "fired_loc": 0.044049505788833605,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.044049505788833605,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:uniform:0.94": {
+   "damage": 0.02210765113921507,
+   "damaged": 9.0,
+   "known": 406.75,
+   "Q": 0.6509344257211086,
+   "R": 0.4742857142857143,
+   "coverage": 0.6571691894152047,
+   "update": 0.9409640807113989,
+   "learned": 0.6310603293319992,
+   "fired_loc": 0.025052496545969055,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.025052496545969055,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:uniform:0.96": {
+   "damage": 0.011691295902109104,
+   "damaged": 4.75,
+   "known": 406.75,
+   "Q": 0.41872293087572365,
+   "R": 0.29428571428571426,
+   "coverage": 0.421841030239558,
+   "update": 0.7811417732592727,
+   "learned": 0.38557753038939246,
+   "fired_loc": 0.01406142866518493,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.01406142866518493,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:uniform:0.98": {
+   "damage": 0.0,
+   "damaged": 0.0,
+   "known": 406.75,
+   "Q": 0.1259804336663803,
+   "R": 0.09071428571428572,
+   "coverage": 0.12851717815860564,
+   "update": 0.2652275925773422,
+   "learned": 0.07759884638545572,
+   "fired_loc": 0.0,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "none": {
+   "damage": 0.0,
+   "damaged": 0.0,
+   "known": 406.75,
+   "Q": 0.05302290730027884,
+   "R": 0.03857142857142857,
+   "coverage": 0.05402228817991584,
+   "update": 0.0555746854961592,
+   "learned": 0.0,
+   "fired_loc": 0.0,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  }
+ },
+ "checks": {
+  "D4": {
+   "none_known_all_right": true,
+   "unfired_max": 0,
+   "reversed_same": true,
+   "matched_recompute": 1.430511474609375e-06,
+   "corr_unchanged_bitwise": true,
+   "shuffle_multisets_equal": true,
+   "active_shuffle_bans_fixed": true,
+   "ban_uniform_bans_off": true,
+   "refused_never_active": true,
+   "blocked": true,
+   "known": 411,
+   "entries": 1049,
+   "changed": 49,
+   "refused": 1,
+   "seconds": 1026.7726480960846
+  },
+  "D5": {
+   "none_known_all_right": true,
+   "unfired_max": 0,
+   "reversed_same": true,
+   "matched_recompute": 1.3113021850585938e-06,
+   "corr_unchanged_bitwise": true,
+   "shuffle_multisets_equal": true,
+   "active_shuffle_bans_fixed": true,
+   "ban_uniform_bans_off": true,
+   "refused_never_active": true,
+   "blocked": true,
+   "known": 435,
+   "entries": 1052,
+   "changed": 33,
+   "refused": 0,
+   "seconds": 1047.9288172721863
+  },
+  "D6": {
+   "none_known_all_right": true,
+   "unfired_max": 0,
+   "reversed_same": true,
+   "matched_recompute": 1.430511474609375e-06,
+   "corr_unchanged_bitwise": true,
+   "shuffle_multisets_equal": true,
+   "active_shuffle_bans_fixed": true,
+   "ban_uniform_bans_off": true,
+   "refused_never_active": true,
+   "blocked": true,
+   "known": 387,
+   "entries": 1043,
+   "changed": 33,
+   "refused": 0,
+   "seconds": 1054.1097266674042
+  },
+  "D7": {
+   "none_known_all_right": true,
+   "unfired_max": 0,
+   "reversed_same": true,
+   "matched_recompute": 1.4901161193847656e-06,
+   "corr_unchanged_bitwise": true,
+   "shuffle_multisets_equal": true,
+   "active_shuffle_bans_fixed": true,
+   "ban_uniform_bans_off": true,
+   "refused_never_active": true,
+   "blocked": true,
+   "known": 394,
+   "entries": 1043,
+   "changed": 41,
+   "refused": 0,
+   "seconds": 1086.0943775177002
+  }
+ },
+ "selected": null,
+ "practical_comparators": {
+  "corr/off": [
+   "uniform:0.92"
+  ]
+ },
+ "dev_tuning": null,
+ "reproduction": null
+}

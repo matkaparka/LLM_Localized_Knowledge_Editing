@@ -1,0 +1,18 @@
+{
+ "recount": {
+  "corr/off": {
+   "delta": 0.037155708843112555,
+   "delta_active": 0.03318557685447351,
+   "delta_bans": 0.003970131988639049,
+   "factorial.total": 0.0423883251190542,
+   "factorial.ban_flat": 0.0034716144465838147,
+   "factorial.ban_cont": 0.010758136974942224,
+   "factorial.cont_ban": 0.038916710672470385,
+   "factorial.cont_noban": 0.031630188144111976,
+   "practical.uniform:0.92": 0.029526531457846374
+  }
+ },
+ "max_abs_diff": 6.938893903907228e-18,
+ "compared": 9,
+ "tuning_matches_config": null
+}

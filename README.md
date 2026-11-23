@@ -5,10 +5,11 @@ Code, frozen configurations and per-item outcome records for the manuscript
 > **When memory keys fire on the wrong question: Diagnosing collateral damage in continual knowledge editing**
 > Lihan Xu, 2026
 
-The manuscript studies a routed residual memory editor of the GRACE family on Qwen3-0.6B-Base. Each stored edit is a
-key at layer 8 with its own firing threshold, calibrated on unlabelled background questions. Permuting the thresholds
-within write batches tests whether it matters which key receives which threshold; replays with single keys enabled or
-disabled link damaged answers to the entries that cause them. The manuscript itself is not part of this repository.
+The manuscript studies a routed residual memory editor of the GRACE family on Qwen3-0.6B-Base and repeats the main
+analysis on OLMo-2-1124-7B. Each stored edit is a key at one decoder block (block 8 of Qwen3 in the main runs) with its
+own firing threshold, calibrated on unlabelled background questions. Permuting the thresholds within write batches
+tests whether it matters which key receives which threshold; replays with single keys enabled or disabled link damaged
+answers to the entries that cause them. The manuscript itself is not part of this repository.
 
 ## Contents
 
@@ -18,9 +19,11 @@ disabled link damaged answers to the entries that cause them. The manuscript its
 | Factorial attribution (FP-12) | Entity anchor (original or corrected) crossed with routing on shared demonstrations (allowed or blocked), on the same streams | `field_prefix_ablation_012/` |
 | New-source test (XR-13) | The threshold test on questions about packages in eight software registries | `external_key_replication_013/` |
 | Systems comparison (EC-11) | Probe-calibrated keys against a GRACE reimplementation, radius rules, subject cleaning with a uniform threshold, and retrieval, on streams C0–C7 | `editor_compare_011/` |
+| Robustness checks (RC-15) | Entries disabled by their thresholds held in place or disabled under a uniform threshold; write seeds 1 and 2; routing blocks 6 and 12; raw cosines without centring; on FP-12's streams and XR-13's registries | `robustness_checks_015/` |
+| Second backbone (BR-14) | The threshold test on OLMo-2-1124-7B with RC-15's comparators, on streams D4–D7 (D0–D3 for tuning), and an exploratory run with the similarity floor lowered to 0.80 | `backbone_replication_014/` |
 
-Two earlier folders contribute modules that the four studies import unchanged. Neither earlier study is reported in
-the manuscript, and only what the four studies need is included:
+Two earlier folders contribute modules that the six studies import unchanged. Neither earlier study is reported in
+the manuscript, and only what the six studies need is included:
 
 - `self_observation_008/` (SO-08): WikiBigEdit stream construction, the model wrapper and evaluation, and
   `so_fetch.py`, the hashed download of the pinned data and model;
@@ -35,14 +38,16 @@ folder:
 - `config_*.json`: the frozen configurations (XR-13's test configuration is `data/host/config_test.json`);
 - `runs/<run>/` (XR-13: `data/host/runs/<run>/`): `config.json` (a copy of the configuration), `run.json` (SHA-256 of the
   configuration and of the code files the run imported, and the environment), `manifest.json` (SHA-256 of the
-  outputs), one gzipped JSON record per stream (`stream_<name>.json.gz`) and `analysis.json`;
+  outputs), one gzipped JSON record per stream (`stream_<name>.json.gz`) and `analysis.json` (RC-15 and BR-14 also keep
+  the recount there, as `recount.json`);
 - `checks/`: an independent recount of the main numbers (`recount.py`, which shares no code with the analysis), its
-  output, and other descriptive checks.
+  output, and other descriptive checks. BR-14 runs RC-15's code (`rc_run.py`, `checks/recount.py`) with its own
+  configurations; its own code is limited to the download, calibration and design scripts.
 
 The stream records hold, for every item (an edit's original wording and rephrasings, earlier edits, and base-known
 locality facts) and every threshold arm, whether the answer was right, which memory entries fired, the model's wrong
 answers, and the single-key interventions. The docstrings of the analysis modules (`kt_analysis.py`, `ec_analysis.py`,
-`fp_analysis.py`, `xr_analysis.py`) define the measures.
+`fp_analysis.py`, `xr_analysis.py`, `rc_analysis.py`) define the measures.
 
 Every file is stored byte for byte (`.gitattributes` turns off line-ending conversion), so the hashes in `run.json`
 and `manifest.json` can be checked with `sha256sum`. Records changed for the public release are listed, with their
@@ -59,6 +64,14 @@ Paths are under `experiments/`. The files store differences as fractions; the ma
 | Registry test: 34.00 pp | `external_key_replication_013/data/host/runs/test_001/analysis.json` | `delta` |
 | Registry test without npm and Hackage (post hoc): 11.37 pp | `external_key_replication_013/checks/posthoc_test_001.json` | `subsets["without hackage+npm"].delta` |
 | Systems comparison: retrieval ahead of probe-calibrated keys by 6.86 pp | `editor_compare_011/runs/test_001/analysis.json` | `primary.kt_vs_rag` |
+| Disabled entries held in place: 3.24 pp (corrected anchors, blocked demonstrations) | `robustness_checks_015/runs/fp_test_001/analysis.json` | `headline["corr/off"].delta_active` |
+| The same on the registries: 8.56 pp | `robustness_checks_015/runs/xr_test_001/analysis.json` | `headline.xr.delta_active` |
+| Write seeds 1 and 2, blocks 6 and 12, no centring: 3.97, 3.72, 4.80, 3.49 and 19.52 pp | `robustness_checks_015/runs/<seed1, seed2, layer6, layer12, raw>_test_001/analysis.json` | `headline["corr/off"].delta` |
+| Second backbone: 0.27 pp at the floor 0.90; 1.46 pp at the exploratory floor 0.80 | `backbone_replication_014/runs/test_001/analysis.json`, `runs/explore_f080_001/analysis.json` | `headline["corr/off"].delta` |
+
+In the RC-15 and BR-14 analyses each `headline` entry is `[mean, [lower, upper], positive units, units]`, and
+`cells_result.<cell>` holds the factorial of disabled entries and graded thresholds (`factorial`), the practical
+comparisons (`practical`) and the culprit groups (`culprits`).
 
 ## Re-running the analyses from the records
 
@@ -81,13 +94,27 @@ python checks/recount.py runs/test_001 runs/dev_001 checks/recount_test_001.json
 cd ../external_key_replication_013
 python xr_run.py analyze data/host/runs/test_001 --dev data/host/runs/dev_001
 python checks/recount.py data/host/runs/test_001 data/host/runs/dev_001 checks/recount_test_001.json
+
+cd ../robustness_checks_015
+python rc_run.py analyze runs/fp_test_001 --dev runs/fp_dev_001 --ref ../field_prefix_ablation_012/runs/test_001
+python checks/recount.py runs/fp_test_001 runs/fp_dev_001 runs/fp_test_001/recount.json
+python rc_run.py analyze runs/xr_test_001 --dev runs/xr_dev_001 --ref ../external_key_replication_013/data/host/runs/test_001
+python checks/recount.py runs/xr_test_001 runs/xr_dev_001 runs/xr_test_001/recount.json
+python rc_run.py analyze runs/seed1_test_001            # likewise seed2, layer6, layer12 and raw
+python checks/recount.py runs/seed1_test_001 runs/seed1_test_001/recount.json
+
+cd ../backbone_replication_014
+python ../robustness_checks_015/rc_run.py analyze runs/test_001 --dev runs/dev_001
+python ../robustness_checks_015/checks/recount.py runs/test_001 runs/dev_001 runs/test_001/recount.json
+python ../robustness_checks_015/rc_run.py analyze runs/explore_f080_001
+python ../robustness_checks_015/checks/recount.py runs/explore_f080_001 runs/explore_f080_001/recount.json
 ```
 
-`analyze` overwrites the `analysis.json` of the run it reads. On 2026-11-22 these commands, run on a copy of this
-repository, regenerated every included `analysis.json` and recount output exactly, with one exception: in XR-13 the
-culprit categories of the single-key interventions use question texts that are not published, so that descriptive
-breakdown differs (see REDACTIONS.md). The manuscript does not report it. The unit tests (`python -m pytest test_*.py`
-in each folder, 80 tests) pass.
+`analyze` overwrites the `analysis.json` of the run it reads. On 2026-11-22 (2026-11-23 for RC-15 and BR-14) these
+commands, run on a copy of this repository, regenerated every included `analysis.json` and recount output exactly,
+with one exception: in XR-13 the culprit categories of the single-key interventions use question texts that are not
+published, so that descriptive breakdown differs (see REDACTIONS.md). The manuscript does not report it. The unit tests
+(`python -m pytest test_*.py` in each folder, 91 tests) pass.
 
 Notes on the runs:
 
@@ -96,11 +123,19 @@ Notes on the runs:
   `runs/analysis_host_v1_practical_gate_vs_shuffles.json`.
 - In XR-13, CRAN has fewer than 30 base-known facts and is reported without a damage measurement, as the rule fixed
   before the test runs requires.
+- RC-15 ran on a different GPU host from FP-12 and XR-13. With `--ref`, its analysis compares the rewritten tables and
+  the arms shared with the earlier runs item by item (field `reproduction`). The analyses first written on the GPU
+  host, without that field, are kept as `runs/analysis_host_fp_test_001.json` and `runs/analysis_host_xr_test_001.json`.
+- In BR-14, development stream D1 ran out of GPU memory with 16 facts per optimisation chunk; `config_dev_full_c8.json`
+  (8 facts per chunk, nothing else changed) reran development from D0. `br_design.py` chose among the frozen designs
+  `config_dev_full.json` and `config_dev_r1/r2/r3.json` from timings alone (`runs/design.json`).
+- BR-14's exploratory run `runs/explore_f080_001` (floor 0.80) was specified after development stream D0 and before any
+  test stream; `make_explore_config.py` derived its configuration from `config_test.json`.
 
 ### Code changes after a run
 
-`run.json` records 114 code hashes. For 106 the published file is identical; the 8 others belong to files changed
-after the run that recorded them:
+`run.json` records 318 code hashes. For 310 the published file is identical, including every hash recorded by the
+RC-15 and BR-14 runs; the 8 others belong to files changed after the run that recorded them:
 
 - `key_thresholds_010/kt_run.py` (recorded in `run_002`): the options `--streams` and `--extra` were added, to rerun
   stream D7 and to analyse both run directories together. `kt_core.py`, `kt_analysis.py` and the RV-09 and SO-08 code
@@ -127,12 +162,14 @@ The runs used one NVIDIA GeForce RTX 4090 (24 GB) per run, with Python 3.12.3, t
 | Retriever | `sentence-transformers/all-mpnet-base-v2` | `e8c3b32edf5434bc2275fc9bab85f82640a19130` | EC-11 |
 | Instruction model | `Qwen/Qwen2.5-7B-Instruct` | `a09a35458c702b33eeacc393d103063234e8bc28` | FP-12 annotator B; XR-13 write questions, probes and licence questions |
 | Instruction model | `allenai/OLMo-2-1124-7B-Instruct` | `470b1fba1ae01581f270116362ee4aa1b97f4c84` | XR-13 evaluation wordings and span extractor |
+| Second backbone | `allenai/OLMo-2-1124-7B` | `7df9a82518afdecae4e8c026b27adccc8c1f0032` | BR-14 |
 
 `so_fetch.py` downloads the files of a pinned listing and checks each one against the official Hub listing (size and
 SHA-256); no token is used. The listings the runs used are in `reversal_pilot_009/runs/host/acq/` (WikiBigEdit and
-Qwen3) and `external_key_replication_013/listings/` (the two instruction models); `editor_compare_011/ec_fetch.py`,
-`external_key_replication_013/xr_fetch.py` and `field_prefix_ablation_012/annotation/fetch_annotator.py` fetch the
-other models. For example:
+Qwen3), `external_key_replication_013/listings/` (the two instruction models) and
+`backbone_replication_014/acquisition/` (OLMo-2-1124-7B); `editor_compare_011/ec_fetch.py`,
+`external_key_replication_013/xr_fetch.py`, `field_prefix_ablation_012/annotation/fetch_annotator.py` and
+`backbone_replication_014/br_fetch.py` fetch the other models. For example:
 
 ```
 mkdir -p rec/data rec/model
@@ -153,8 +190,9 @@ RV_DATA_DIR=DATA_DIR RV_MODEL_PATH=MODEL_DIR python kt_run.py run config_run_001
 
 FP-12 reads the final entity spans from `annotation/spans_final.json`. `annotation/` also holds the rule-based
 annotator A, the model-based annotator B, their spans, the disagreements, the adjudication brief and the decisions.
-XR-13 cannot be rerun from this repository, because its streams are built from registry snapshots that are not
-redistributed. `xr_collect.py`, `xr_events.py`, `xr_questions.py`, `xr_extract.py` and `xr_build.py` are the code that
+RC-15 and BR-14 runs use `rc_run.py run CONFIG OUT --phase P` (see its docstring). For BR-14, `br_calibrate.py`
+measured the Qwen3 reference norm (`calibration/qwen_norms.json`) by which `rc_core.py` scales the high-norm cut-off. XR-13, and RC-15's registry runs that reuse its streams, cannot be rerun
+from this repository, because the streams are built from registry snapshots that are not redistributed. `xr_collect.py`, `xr_events.py`, `xr_questions.py`, `xr_extract.py` and `xr_build.py` are the code that
 collected and built them.
 
 ## Not included
@@ -165,14 +203,15 @@ collected and built them.
   ([REDACTIONS.md](REDACTIONS.md)).
 - The study plans, reports and tables, which were written in Chinese for internal use and record run logistics, the
   cloud scripts and host logs, and runs the manuscript does not use (smoke tests, an aborted first KT-10 run, an XR-13
-  debug stream). The report scripts (`*_report.py`) are included; they write Chinese-language tables.
+  debug stream, RC-15's smoke and debug runs, and BR-14's first development record, which ran out of memory). The
+  report scripts (`*_report.py`, and RC-15's `rc_summary.py`) are included; they write Chinese-language tables.
 
 ## How the code was written
 
-The experiment code, analysis code and run scripts were drafted by AI coding assistants (Anthropic Claude models in a
-coding-agent interface) at the author's request and under the author's direction, as the manuscript describes. In
-FP-12, two fresh Claude subagents adjudicated the span disagreements; each saw only
-`annotation/ADJUDICATION_BRIEF.md` and its items.
+The experiment code, analysis code and run scripts were written by Claude Opus 5.5 (Anthropic), working as a coding
+agent at the author's request and under the author's direction, as the manuscript describes. In FP-12, two fresh
+Claude Opus 5.5 sessions adjudicated the span disagreements; each saw only `annotation/ADJUDICATION_BRIEF.md` and its
+items.
 
 ## License
 

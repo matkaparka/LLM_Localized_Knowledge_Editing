@@ -1,0 +1,445 @@
+{
+ "fp12": {
+  "streams": [
+   "D4",
+   "D5",
+   "D6",
+   "D7"
+  ],
+  "per_stream": {
+   "D4": {
+    "orig/on|strict": {
+     "matched": 0.012165450121654502,
+     "shuffled": 0.06356447688564477,
+     "delta": 0.051399026763990274,
+     "uniform_090": 0.0681265206812652,
+     "delta_u090": 0.05596107055961071
+    },
+    "orig/on|lenient": {
+     "matched": 0.012165450121654502,
+     "shuffled": 0.06356447688564477,
+     "delta": 0.051399026763990274,
+     "uniform_090": 0.0681265206812652,
+     "delta_u090": 0.05596107055961071
+    },
+    "corr/off|strict": {
+     "matched": 0.012165450121654502,
+     "shuffled": 0.06934306569343066,
+     "delta": 0.057177615571776155,
+     "uniform_090": 0.07785888077858881,
+     "delta_u090": 0.06569343065693431
+    },
+    "corr/off|lenient": {
+     "matched": 0.012165450121654502,
+     "shuffled": 0.06934306569343066,
+     "delta": 0.057177615571776155,
+     "uniform_090": 0.07785888077858881,
+     "delta_u090": 0.06569343065693431
+    }
+   },
+   "D5": {
+    "orig/on|strict": {
+     "matched": 0.006896551724137931,
+     "shuffled": 0.056896551724137934,
+     "delta": 0.05,
+     "uniform_090": 0.059770114942528735,
+     "delta_u090": 0.052873563218390804
+    },
+    "orig/on|lenient": {
+     "matched": 0.004597701149425287,
+     "shuffled": 0.05488505747126437,
+     "delta": 0.05028735632183908,
+     "uniform_090": 0.05747126436781609,
+     "delta_u090": 0.052873563218390804
+    },
+    "corr/off|strict": {
+     "matched": 0.006896551724137931,
+     "shuffled": 0.031609195402298854,
+     "delta": 0.024712643678160923,
+     "uniform_090": 0.03218390804597701,
+     "delta_u090": 0.02528735632183908
+    },
+    "corr/off|lenient": {
+     "matched": 0.004597701149425287,
+     "shuffled": 0.02959770114942529,
+     "delta": 0.025,
+     "uniform_090": 0.029885057471264367,
+     "delta_u090": 0.02528735632183908
+    }
+   },
+   "D6": {
+    "orig/on|strict": {
+     "matched": 0.015503875968992248,
+     "shuffled": 0.03972868217054264,
+     "delta": 0.02422480620155039,
+     "uniform_090": 0.041343669250646,
+     "delta_u090": 0.02583979328165375
+    },
+    "orig/on|lenient": {
+     "matched": 0.012919896640826873,
+     "shuffled": 0.03972868217054264,
+     "delta": 0.026808785529715766,
+     "uniform_090": 0.041343669250646,
+     "delta_u090": 0.028423772609819126
+    },
+    "corr/off|strict": {
+     "matched": 0.012919896640826873,
+     "shuffled": 0.03940568475452196,
+     "delta": 0.02648578811369509,
+     "uniform_090": 0.041343669250646,
+     "delta_u090": 0.028423772609819126
+    },
+    "corr/off|lenient": {
+     "matched": 0.012919896640826873,
+     "shuffled": 0.03940568475452196,
+     "delta": 0.02648578811369509,
+     "uniform_090": 0.041343669250646,
+     "delta_u090": 0.028423772609819126
+    }
+   },
+   "D7": {
+    "orig/on|strict": {
+     "matched": 0.012690355329949238,
+     "shuffled": 0.3940355329949239,
+     "delta": 0.38134517766497467,
+     "uniform_090": 0.39847715736040606,
+     "delta_u090": 0.38578680203045684
+    },
+    "orig/on|lenient": {
+     "matched": 0.007614213197969543,
+     "shuffled": 0.3483502538071066,
+     "delta": 0.34073604060913704,
+     "uniform_090": 0.35279187817258884,
+     "delta_u090": 0.34517766497461927
+    },
+    "corr/off|strict": {
+     "matched": 0.012690355329949238,
+     "shuffled": 0.0574238578680203,
+     "delta": 0.04473350253807107,
+     "uniform_090": 0.06345177664974619,
+     "delta_u090": 0.050761421319796954
+    },
+    "corr/off|lenient": {
+     "matched": 0.007614213197969543,
+     "shuffled": 0.052347715736040606,
+     "delta": 0.04473350253807106,
+     "uniform_090": 0.0583756345177665,
+     "delta_u090": 0.050761421319796954
+    }
+   }
+  },
+  "means": {
+   "corr/off|lenient": {
+    "matched": 0.009324315277469051,
+    "shuffled": 0.04767354183335463,
+    "delta": 0.038349226555885574,
+    "uniform_090": 0.051865810504566415,
+    "delta_u090": 0.04254149522709737
+   },
+   "corr/off|strict": {
+    "matched": 0.011168063454142136,
+    "shuffled": 0.049445450929567945,
+    "delta": 0.038277387475425806,
+    "uniform_090": 0.0537095586812395,
+    "delta_u090": 0.04254149522709737
+   },
+   "orig/on|lenient": {
+    "matched": 0.009324315277469051,
+    "shuffled": 0.1266321175836396,
+    "delta": 0.11730780230617054,
+    "uniform_090": 0.12993333311807903,
+    "delta_u090": 0.12060901784060998
+   },
+   "orig/on|strict": {
+    "matched": 0.01181405828618348,
+    "shuffled": 0.13855631094381232,
+    "delta": 0.12674225265762884,
+    "uniform_090": 0.1419293655587115,
+    "delta_u090": 0.130115307272528
+   }
+  },
+  "matched_flips": [
+   {
+    "stream": "D5",
+    "cell": "orig/on",
+    "gold": "nigeria",
+    "answer": "nigeria in nigeria"
+   },
+   {
+    "stream": "D5",
+    "cell": "corr/off",
+    "gold": "nigeria",
+    "answer": "nigeria in nigeria"
+   },
+   {
+    "stream": "D6",
+    "cell": "orig/on",
+    "gold": "glasgow",
+    "answer": "glasgow, scotland"
+   },
+   {
+    "stream": "D7",
+    "cell": "orig/on",
+    "gold": "village",
+    "answer": "village in turkey"
+   },
+   {
+    "stream": "D7",
+    "cell": "orig/on",
+    "gold": "warsaw",
+    "answer": "warsaw 1942"
+   },
+   {
+    "stream": "D7",
+    "cell": "corr/off",
+    "gold": "village",
+    "answer": "village in turkey"
+   },
+   {
+    "stream": "D7",
+    "cell": "corr/off",
+    "gold": "warsaw",
+    "answer": "warsaw 1942"
+   }
+  ]
+ },
+ "xr13": {
+  "streams": [
+   "crates",
+   "hackage",
+   "homebrew",
+   "npm",
+   "nuget",
+   "packagist",
+   "pypi"
+  ],
+  "per_stream": {
+   "crates": {
+    "xr|strict": {
+     "matched": 0.01593625498007968,
+     "shuffled": 0.05702191235059761,
+     "delta": 0.041085657370517926,
+     "uniform_090": 0.06374501992031872,
+     "delta_u090": 0.04780876494023904
+    },
+    "xr|lenient": {
+     "matched": 0.01195219123505976,
+     "shuffled": 0.04955179282868526,
+     "delta": 0.03759960159362549,
+     "uniform_090": 0.055776892430278883,
+     "delta_u090": 0.043824701195219126
+    }
+   },
+   "hackage": {
+    "xr|strict": {
+     "matched": 0.02601156069364162,
+     "shuffled": 0.9996387283236994,
+     "delta": 0.9736271676300577,
+     "uniform_090": 1.0,
+     "delta_u090": 0.9739884393063584
+    },
+    "xr|lenient": {
+     "matched": 0.023121387283236993,
+     "shuffled": 0.9996387283236994,
+     "delta": 0.9765173410404624,
+     "uniform_090": 1.0,
+     "delta_u090": 0.976878612716763
+    }
+   },
+   "homebrew": {
+    "xr|strict": {
+     "matched": 0.023809523809523808,
+     "shuffled": 0.1607142857142857,
+     "delta": 0.1369047619047619,
+     "uniform_090": 0.16666666666666666,
+     "delta_u090": 0.14285714285714285
+    },
+    "xr|lenient": {
+     "matched": 0.023809523809523808,
+     "shuffled": 0.15773809523809523,
+     "delta": 0.13392857142857142,
+     "uniform_090": 0.16666666666666666,
+     "delta_u090": 0.14285714285714285
+    }
+   },
+   "npm": {
+    "xr|strict": {
+     "matched": 0.02244811520542143,
+     "shuffled": 0.8601757729775519,
+     "delta": 0.8377276577721304,
+     "uniform_090": 0.950021177467175,
+     "delta_u090": 0.9275730622617535
+    },
+    "xr|lenient": {
+     "matched": 0.019906819144430325,
+     "shuffled": 0.8580580262600593,
+     "delta": 0.838151207115629,
+     "uniform_090": 0.9479034307496823,
+     "delta_u090": 0.9279966116052519
+    }
+   },
+   "nuget": {
+    "xr|strict": {
+     "matched": 0.10714285714285714,
+     "shuffled": 0.359375,
+     "delta": 0.25223214285714285,
+     "uniform_090": 0.3964285714285714,
+     "delta_u090": 0.28928571428571426
+    },
+    "xr|lenient": {
+     "matched": 0.10357142857142858,
+     "shuffled": 0.3325892857142857,
+     "delta": 0.2290178571428571,
+     "uniform_090": 0.38571428571428573,
+     "delta_u090": 0.28214285714285714
+    }
+   },
+   "packagist": {
+    "xr|strict": {
+     "matched": 0.030148185998978026,
+     "shuffled": 0.14173479816044968,
+     "delta": 0.11158661216147164,
+     "uniform_090": 0.16198262646908534,
+     "delta_u090": 0.1318344404701073
+    },
+    "xr|lenient": {
+     "matched": 0.027082268778742973,
+     "shuffled": 0.12723556463975472,
+     "delta": 0.10015329586101174,
+     "uniform_090": 0.14716402657128258,
+     "delta_u090": 0.1200817577925396
+    }
+   },
+   "pypi": {
+    "xr|strict": {
+     "matched": 0.018121911037891267,
+     "shuffled": 0.04468698517298188,
+     "delta": 0.02656507413509061,
+     "uniform_090": 0.04942339373970346,
+     "delta_u090": 0.0313014827018122
+    },
+    "xr|lenient": {
+     "matched": 0.018121911037891267,
+     "shuffled": 0.04324546952224053,
+     "delta": 0.025123558484349263,
+     "uniform_090": 0.047775947281713346,
+     "delta_u090": 0.02965403624382208
+    }
+   }
+  },
+  "means": {
+   "xr|lenient": {
+    "matched": 0.032509361408616246,
+    "shuffled": 0.3668652803609743,
+    "delta": 0.33435591895235806,
+    "uniform_090": 0.39300017848770136,
+    "delta_u090": 0.36049081707908515
+   },
+   "xr|strict": {
+    "matched": 0.034802629838341856,
+    "shuffled": 0.37476392609993797,
+    "delta": 0.33996129626159616,
+    "uniform_090": 0.39832392224164576,
+    "delta_u090": 0.3635212924033039
+   }
+  },
+  "matched_flips": [
+   {
+    "stream": "crates",
+    "cell": "xr",
+    "gold": "mit",
+    "answer": "mit license"
+   },
+   {
+    "stream": "crates",
+    "cell": "xr",
+    "gold": "mit",
+    "answer": "the mit license"
+   },
+   {
+    "stream": "hackage",
+    "cell": "xr",
+    "gold": "bsd-3-clause",
+    "answer": "bsd 3-clause"
+   },
+   {
+    "stream": "npm",
+    "cell": "xr",
+    "gold": "mit",
+    "answer": "the npm package \"fd-package-json\" is distributed under the mit license"
+   },
+   {
+    "stream": "npm",
+    "cell": "xr",
+    "gold": "mit",
+    "answer": "the mit license"
+   },
+   {
+    "stream": "npm",
+    "cell": "xr",
+    "gold": "mit",
+    "answer": "the mit license"
+   },
+   {
+    "stream": "npm",
+    "cell": "xr",
+    "gold": "mit",
+    "answer": "the mit license"
+   },
+   {
+    "stream": "npm",
+    "cell": "xr",
+    "gold": "mit",
+    "answer": "mit license"
+   },
+   {
+    "stream": "npm",
+    "cell": "xr",
+    "gold": "mit",
+    "answer": "mit license"
+   },
+   {
+    "stream": "nuget",
+    "cell": "xr",
+    "gold": "mit",
+    "answer": "mit license"
+   },
+   {
+    "stream": "packagist",
+    "cell": "xr",
+    "gold": "mit",
+    "answer": "mit license"
+   },
+   {
+    "stream": "packagist",
+    "cell": "xr",
+    "gold": "mit",
+    "answer": "mit license"
+   },
+   {
+    "stream": "packagist",
+    "cell": "xr",
+    "gold": "mit",
+    "answer": "mit license"
+   },
+   {
+    "stream": "packagist",
+    "cell": "xr",
+    "gold": "mit",
+    "answer": "mit license"
+   },
+   {
+    "stream": "packagist",
+    "cell": "xr",
+    "gold": "mit",
+    "answer": "the php package \"slim/php-view\" is distributed under the mit license on packagist"
+   },
+   {
+    "stream": "packagist",
+    "cell": "xr",
+    "gold": "mit",
+    "answer": "mit license"
+   }
+  ]
+ }
+}

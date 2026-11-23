@@ -1,0 +1,4783 @@
+{
+ "streams": [
+  "D4",
+  "D5",
+  "D6",
+  "D7"
+ ],
+ "cells": [
+  "orig/on",
+  "corr/off"
+ ],
+ "options": {
+  "write_seed": 0,
+  "layer": 9,
+  "massive": 71.12671694600108,
+  "tau": 0.9,
+  "centring": "mu",
+  "screen_cap": 3000,
+  "cov": false
+ },
+ "norm_info": {
+  "D4": {
+   "layer": 9,
+   "here": {
+    "positions": 330223,
+    "median": 10.239919662475586,
+    "q90": 12.589656639099122,
+    "q99": 31.10896110534668,
+    "q999": 31.462492706298825,
+    "max": 32.11762619018555,
+    "first_median": 4.232754230499268,
+    "above_200": 0.0
+   },
+   "ref_file": "/workspace/br14/code/pause2/experiments/robustness_checks_015/../backbone_replication_014/calibration/qwen_norms.json",
+   "ref_file_sha256": "beaf91eb81a585bacc711c2ee1a75d0d29ba851f8da7f66a2a5ba349725c4e1f",
+   "ref": {
+    "model": "Qwen/Qwen3-0.6B-Base",
+    "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+    "model_dir": "/workspace/models/qwen3_0.6b_base",
+    "layer": 8,
+    "block": "model.layers.8",
+    "dtype": "bfloat16",
+    "corpus": {
+     "n": 20000,
+     "sha256": "9faf2cc8735844470e0fd8b0d31ce503f64c53066073ff668ae10fefa4a12183"
+    },
+    "stats": {
+     "positions": 332279,
+     "median": 28.793455123901367,
+     "q90": 32.992095947265625,
+     "q99": 37.256508712768536,
+     "q999": 41.82718178558356,
+     "max": 52.69358825683594,
+     "first_median": 6480.21435546875,
+     "above_200": 0.0
+    },
+    "seconds": 6.454668760299683,
+    "written": "2026-11-22T06:10:28Z"
+   },
+   "ref_median": 28.793455123901367,
+   "base": 200.0,
+   "massive": 71.12671694600108
+  },
+  "D5": {
+   "layer": 9,
+   "here": {
+    "positions": 330223,
+    "median": 10.239919662475586,
+    "q90": 12.589656639099122,
+    "q99": 31.10896110534668,
+    "q999": 31.462492706298825,
+    "max": 32.11762619018555,
+    "first_median": 4.232754230499268,
+    "above_200": 0.0
+   },
+   "ref_file": "/workspace/br14/code/pause2/experiments/robustness_checks_015/../backbone_replication_014/calibration/qwen_norms.json",
+   "ref_file_sha256": "beaf91eb81a585bacc711c2ee1a75d0d29ba851f8da7f66a2a5ba349725c4e1f",
+   "ref": {
+    "model": "Qwen/Qwen3-0.6B-Base",
+    "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+    "model_dir": "/workspace/models/qwen3_0.6b_base",
+    "layer": 8,
+    "block": "model.layers.8",
+    "dtype": "bfloat16",
+    "corpus": {
+     "n": 20000,
+     "sha256": "9faf2cc8735844470e0fd8b0d31ce503f64c53066073ff668ae10fefa4a12183"
+    },
+    "stats": {
+     "positions": 332279,
+     "median": 28.793455123901367,
+     "q90": 32.992095947265625,
+     "q99": 37.256508712768536,
+     "q999": 41.82718178558356,
+     "max": 52.69358825683594,
+     "first_median": 6480.21435546875,
+     "above_200": 0.0
+    },
+    "seconds": 6.454668760299683,
+    "written": "2026-11-22T06:10:28Z"
+   },
+   "ref_median": 28.793455123901367,
+   "base": 200.0,
+   "massive": 71.12671694600108
+  },
+  "D6": {
+   "layer": 9,
+   "here": {
+    "positions": 330223,
+    "median": 10.239919662475586,
+    "q90": 12.589656639099122,
+    "q99": 31.10896110534668,
+    "q999": 31.462492706298825,
+    "max": 32.11762619018555,
+    "first_median": 4.232754230499268,
+    "above_200": 0.0
+   },
+   "ref_file": "/workspace/br14/code/pause2/experiments/robustness_checks_015/../backbone_replication_014/calibration/qwen_norms.json",
+   "ref_file_sha256": "beaf91eb81a585bacc711c2ee1a75d0d29ba851f8da7f66a2a5ba349725c4e1f",
+   "ref": {
+    "model": "Qwen/Qwen3-0.6B-Base",
+    "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+    "model_dir": "/workspace/models/qwen3_0.6b_base",
+    "layer": 8,
+    "block": "model.layers.8",
+    "dtype": "bfloat16",
+    "corpus": {
+     "n": 20000,
+     "sha256": "9faf2cc8735844470e0fd8b0d31ce503f64c53066073ff668ae10fefa4a12183"
+    },
+    "stats": {
+     "positions": 332279,
+     "median": 28.793455123901367,
+     "q90": 32.992095947265625,
+     "q99": 37.256508712768536,
+     "q999": 41.82718178558356,
+     "max": 52.69358825683594,
+     "first_median": 6480.21435546875,
+     "above_200": 0.0
+    },
+    "seconds": 6.454668760299683,
+    "written": "2026-11-22T06:10:28Z"
+   },
+   "ref_median": 28.793455123901367,
+   "base": 200.0,
+   "massive": 71.12671694600108
+  },
+  "D7": {
+   "layer": 9,
+   "here": {
+    "positions": 330223,
+    "median": 10.239919662475586,
+    "q90": 12.589656639099122,
+    "q99": 31.10896110534668,
+    "q999": 31.462492706298825,
+    "max": 32.11762619018555,
+    "first_median": 4.232754230499268,
+    "above_200": 0.0
+   },
+   "ref_file": "/workspace/br14/code/pause2/experiments/robustness_checks_015/../backbone_replication_014/calibration/qwen_norms.json",
+   "ref_file_sha256": "beaf91eb81a585bacc711c2ee1a75d0d29ba851f8da7f66a2a5ba349725c4e1f",
+   "ref": {
+    "model": "Qwen/Qwen3-0.6B-Base",
+    "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+    "model_dir": "/workspace/models/qwen3_0.6b_base",
+    "layer": 8,
+    "block": "model.layers.8",
+    "dtype": "bfloat16",
+    "corpus": {
+     "n": 20000,
+     "sha256": "9faf2cc8735844470e0fd8b0d31ce503f64c53066073ff668ae10fefa4a12183"
+    },
+    "stats": {
+     "positions": 332279,
+     "median": 28.793455123901367,
+     "q90": 32.992095947265625,
+     "q99": 37.256508712768536,
+     "q999": 41.82718178558356,
+     "max": 52.69358825683594,
+     "first_median": 6480.21435546875,
+     "above_200": 0.0
+    },
+    "seconds": 6.454668760299683,
+    "written": "2026-11-22T06:10:28Z"
+   },
+   "ref_median": 28.793455123901367,
+   "base": 200.0,
+   "massive": 71.12671694600108
+  }
+ },
+ "headline": {
+  "orig/on": {
+   "delta": [
+    0.002190259421164274,
+    [
+     0.0,
+     0.005319148936170213
+    ],
+    3,
+    4
+   ]
+  },
+  "corr/off": {
+   "delta": [
+    0.0026818324548721394,
+    [
+     0.0,
+     0.0061444138975217145
+    ],
+    3,
+    4
+   ],
+   "delta_active": [
+    0.0026079553863142197,
+    [
+     0.0,
+     0.0059638799240311294
+    ],
+    3,
+    4
+   ],
+   "delta_bans": [
+    7.387706855791962e-05,
+    [
+     0.0,
+     0.0002955082742316785
+    ],
+    1,
+    4
+   ]
+  }
+ },
+ "cells_result": {
+  "orig/on": {
+   "delta": {
+    "mean": 0.002190259421164274,
+    "ci": [
+     0.0,
+     0.005319148936170213
+    ],
+    "per_stream": {
+     "D4": 0.0017857142857142857,
+     "D5": 0.0022471910112359553,
+     "D6": 0.0,
+     "D7": 0.004728132387706856
+    },
+    "positive": 3,
+    "n": 4
+   },
+   "delta_q": {
+    "mean": 0.00021045044526690402,
+    "ci": [
+     -0.0025746942843117063,
+     0.0026340837725526687
+    ],
+    "per_stream": {
+     "D4": 0.0016688918558077437,
+     "D5": -0.001163563829787234,
+     "D6": 0.00033647375504710633,
+     "D7": 0.0
+    },
+    "positive": 2,
+    "n": 4
+   },
+   "delta_r": {
+    "mean": 0.0013392857142857143,
+    "ci": [
+     0.00035714285714285714,
+     0.0025000000000000005
+    ],
+    "per_stream": {
+     "D4": 0.00035714285714285714,
+     "D5": 0.0025,
+     "D6": 0.0017857142857142857,
+     "D7": 0.0007142857142857143
+    },
+    "positive": 4,
+    "n": 4
+   },
+   "delta_gate": {
+    "passed": false,
+    "mean_delta": 0.002190259421164274,
+    "ci": [
+     0.0,
+     0.005319148936170213
+    ],
+    "positive": 3,
+    "needed": 3,
+    "q_diff": 0.00021045044526690402,
+    "r_diff": 0.0013392857142857143
+   },
+   "factorial": {
+    "total": {
+     "mean": 0.002254034931368356,
+     "ci": [
+      0.0,
+      0.005319148936170213
+     ],
+     "per_stream": {
+      "D4": 0.0020408163265306124,
+      "D5": 0.0022471910112359553,
+      "D6": 0.0,
+      "D7": 0.004728132387706856
+     },
+     "positive": 3,
+     "n": 4
+    },
+    "ban_flat": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "per_stream": {
+      "D4": 0.0,
+      "D5": 0.0,
+      "D6": 0.0,
+      "D7": 0.0
+     },
+     "positive": 0,
+     "n": 4
+    },
+    "ban_cont": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "per_stream": {
+      "D4": 0.0,
+      "D5": 0.0,
+      "D6": 0.0,
+      "D7": 0.0
+     },
+     "positive": 0,
+     "n": 4
+    },
+    "cont_ban": {
+     "mean": 0.002254034931368356,
+     "ci": [
+      0.0,
+      0.005319148936170213
+     ],
+     "per_stream": {
+      "D4": 0.0020408163265306124,
+      "D5": 0.0022471910112359553,
+      "D6": 0.0,
+      "D7": 0.004728132387706856
+     },
+     "positive": 3,
+     "n": 4
+    },
+    "cont_noban": {
+     "mean": 0.002254034931368356,
+     "ci": [
+      0.0,
+      0.005319148936170213
+     ],
+     "per_stream": {
+      "D4": 0.0020408163265306124,
+      "D5": 0.0022471910112359553,
+      "D6": 0.0,
+      "D7": 0.004728132387706856
+     },
+     "positive": 3,
+     "n": 4
+    },
+    "interaction": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "per_stream": {
+      "D4": 0.0,
+      "D5": 0.0,
+      "D6": 0.0,
+      "D7": 0.0
+     },
+     "positive": 0,
+     "n": 4
+    }
+   },
+   "practical": {},
+   "frontier": {
+    "uniform": {
+     "0.90": {
+      "damage": 0.0033838445832799885,
+      "Q": 0.8185161396154721,
+      "R": 0.7064285714285714,
+      "coverage": null,
+      "update": 0.9860661467106574
+     }
+    },
+    "ban_uniform": {
+     "0.90": {
+      "damage": 0.0033838445832799885,
+      "Q": 0.8185161396154721,
+      "R": 0.7064285714285714,
+      "coverage": null,
+      "update": 0.9860661467106574
+     }
+    }
+   },
+   "bans": {
+    "D4": {
+     "banned": 0,
+     "entries": 1049,
+     "mid": 25,
+     "floor": 1024
+    },
+    "D5": {
+     "banned": 0,
+     "entries": 1052,
+     "mid": 26,
+     "floor": 1026
+    },
+    "D6": {
+     "banned": 0,
+     "entries": 1043,
+     "mid": 21,
+     "floor": 1022
+    },
+    "D7": {
+     "banned": 0,
+     "entries": 1043,
+     "mid": 19,
+     "floor": 1024
+    }
+   },
+   "culprits": {
+    "uniform:0.90": {
+     "D4": {
+      "damaged": 1,
+      "per_item": {
+       "active": 1
+      },
+      "top": [
+       [
+        984,
+        1,
+        false,
+        "15 Ainslie Place, Edinburgh"
+       ]
+      ]
+     },
+     "D5": {
+      "damaged": 1,
+      "per_item": {
+       "active": 1
+      },
+      "top": [
+       [
+        1028,
+        1,
+        false,
+        "Eckford Parish Church"
+       ]
+      ]
+     },
+     "D6": {
+      "damaged": 1,
+      "per_item": {
+       "active": 1
+      },
+      "top": [
+       [
+        346,
+        1,
+        false,
+        "Randalstown railway station"
+       ]
+      ]
+     },
+     "D7": {
+      "damaged": 3,
+      "per_item": {
+       "active": 3
+      },
+      "top": [
+       [
+        792,
+        2,
+        false,
+        "solar eclipse of April 1, 1893 BC"
+       ],
+       [
+        994,
+        1,
+        false,
+        "18 Lennox Street, Edinburgh"
+       ]
+      ]
+     }
+    },
+    "matched": {
+     "D4": {
+      "damaged": 0,
+      "per_item": {},
+      "top": []
+     },
+     "D5": {
+      "damaged": 0,
+      "per_item": {},
+      "top": []
+     },
+     "D6": {
+      "damaged": 1,
+      "per_item": {
+       "active": 1
+      },
+      "top": [
+       [
+        346,
+        1,
+        false,
+        "Randalstown railway station"
+       ]
+      ]
+     },
+     "D7": {
+      "damaged": 1,
+      "per_item": {
+       "active": 1
+      },
+      "top": [
+       [
+        994,
+        1,
+        false,
+        "18 Lennox Street, Edinburgh"
+       ]
+      ]
+     }
+    },
+    "shuffled:0": {
+     "D4": {
+      "damaged": 1,
+      "per_item": {
+       "active": 1
+      },
+      "top": [
+       [
+        984,
+        1,
+        false,
+        "15 Ainslie Place, Edinburgh"
+       ]
+      ]
+     },
+     "D5": {
+      "damaged": 1,
+      "per_item": {
+       "active": 1
+      },
+      "top": [
+       [
+        1028,
+        1,
+        false,
+        "Eckford Parish Church"
+       ]
+      ]
+     },
+     "D6": {
+      "damaged": 1,
+      "per_item": {
+       "active": 1
+      },
+      "top": [
+       [
+        346,
+        1,
+        false,
+        "Randalstown railway station"
+       ]
+      ]
+     },
+     "D7": {
+      "damaged": 3,
+      "per_item": {
+       "active": 3
+      },
+      "top": [
+       [
+        792,
+        2,
+        false,
+        "solar eclipse of April 1, 1893 BC"
+       ],
+       [
+        994,
+        1,
+        false,
+        "18 Lennox Street, Edinburgh"
+       ]
+      ]
+     }
+    },
+    "ban_uniform:0.90": {
+     "D4": {
+      "damaged": 1,
+      "per_item": {
+       "active": 1
+      },
+      "top": [
+       [
+        984,
+        1,
+        false,
+        "15 Ainslie Place, Edinburgh"
+       ]
+      ]
+     },
+     "D5": {
+      "damaged": 1,
+      "per_item": {
+       "active": 1
+      },
+      "top": [
+       [
+        1028,
+        1,
+        false,
+        "Eckford Parish Church"
+       ]
+      ]
+     },
+     "D6": {
+      "damaged": 1,
+      "per_item": {
+       "active": 1
+      },
+      "top": [
+       [
+        346,
+        1,
+        false,
+        "Randalstown railway station"
+       ]
+      ]
+     },
+     "D7": {
+      "damaged": 3,
+      "per_item": {
+       "active": 3
+      },
+      "top": [
+       [
+        792,
+        2,
+        false,
+        "solar eclipse of April 1, 1893 BC"
+       ],
+       [
+        994,
+        1,
+        false,
+        "18 Lennox Street, Edinburgh"
+       ]
+      ]
+     }
+    }
+   },
+   "culprit_categories": {
+    "uniform:0.90": {
+     "D4": {
+      "available": true,
+      "damaged": 1,
+      "per_item": {
+       "other": 1
+      },
+      "culprits": {
+       "other": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 1,
+      "single_recovers": 1
+     },
+     "D5": {
+      "available": true,
+      "damaged": 1,
+      "per_item": {
+       "near name": 1
+      },
+      "culprits": {
+       "near name": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 1,
+      "single_recovers": 0
+     },
+     "D6": {
+      "available": true,
+      "damaged": 1,
+      "per_item": {
+       "near name": 1
+      },
+      "culprits": {
+       "near name": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 1,
+      "single_recovers": 1
+     },
+     "D7": {
+      "available": true,
+      "damaged": 3,
+      "per_item": {
+       "near name": 2,
+       "other": 1
+      },
+      "culprits": {
+       "near name": 2,
+       "other": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 3,
+      "single_recovers": 2
+     }
+    },
+    "matched": {
+     "D4": {
+      "available": true,
+      "damaged": 0,
+      "per_item": {},
+      "culprits": {},
+      "rerun_mismatch": 0,
+      "closure_right": 0,
+      "single_recovers": 0
+     },
+     "D5": {
+      "available": true,
+      "damaged": 0,
+      "per_item": {},
+      "culprits": {},
+      "rerun_mismatch": 0,
+      "closure_right": 0,
+      "single_recovers": 0
+     },
+     "D6": {
+      "available": true,
+      "damaged": 1,
+      "per_item": {
+       "near name": 1
+      },
+      "culprits": {
+       "near name": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 1,
+      "single_recovers": 1
+     },
+     "D7": {
+      "available": true,
+      "damaged": 1,
+      "per_item": {
+       "other": 1
+      },
+      "culprits": {
+       "other": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 1,
+      "single_recovers": 0
+     }
+    },
+    "shuffled:0": {
+     "D4": {
+      "available": true,
+      "damaged": 1,
+      "per_item": {
+       "other": 1
+      },
+      "culprits": {
+       "other": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 1,
+      "single_recovers": 1
+     },
+     "D5": {
+      "available": true,
+      "damaged": 1,
+      "per_item": {
+       "near name": 1
+      },
+      "culprits": {
+       "near name": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 1,
+      "single_recovers": 0
+     },
+     "D6": {
+      "available": true,
+      "damaged": 1,
+      "per_item": {
+       "near name": 1
+      },
+      "culprits": {
+       "near name": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 1,
+      "single_recovers": 1
+     },
+     "D7": {
+      "available": true,
+      "damaged": 3,
+      "per_item": {
+       "near name": 2,
+       "other": 1
+      },
+      "culprits": {
+       "near name": 2,
+       "other": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 3,
+      "single_recovers": 2
+     }
+    },
+    "ban_uniform:0.90": {
+     "D4": {
+      "available": true,
+      "damaged": 1,
+      "per_item": {
+       "other": 1
+      },
+      "culprits": {
+       "other": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 1,
+      "single_recovers": 1
+     },
+     "D5": {
+      "available": true,
+      "damaged": 1,
+      "per_item": {
+       "near name": 1
+      },
+      "culprits": {
+       "near name": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 1,
+      "single_recovers": 0
+     },
+     "D6": {
+      "available": true,
+      "damaged": 1,
+      "per_item": {
+       "near name": 1
+      },
+      "culprits": {
+       "near name": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 1,
+      "single_recovers": 1
+     },
+     "D7": {
+      "available": true,
+      "damaged": 3,
+      "per_item": {
+       "near name": 2,
+       "other": 1
+      },
+      "culprits": {
+       "near name": 2,
+       "other": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 3,
+      "single_recovers": 2
+     }
+    }
+   },
+   "delta_leave_one_out": {
+    "D4": 0.0023251077996476036,
+    "D5": 0.0021712822244737136,
+    "D6": 0.0029203458948856985,
+    "D7": 0.0013443017656500804
+   }
+  },
+  "corr/off": {
+   "delta": {
+    "mean": 0.0026818324548721394,
+    "ci": [
+     0.0,
+     0.0061444138975217145
+    ],
+    "per_stream": {
+     "D4": 0.0017857142857142857,
+     "D5": 0.004213483146067416,
+     "D6": 0.0,
+     "D7": 0.004728132387706856
+    },
+    "positive": 3,
+    "n": 4
+   },
+   "delta_q": {
+    "mean": 0.00025201436097666794,
+    "ci": [
+     -0.002440940417756043,
+     0.0027224932750052567
+    ],
+    "per_stream": {
+     "D4": 0.0006675567423230974,
+     "D5": -0.0003324468085106383,
+     "D6": 0.0006729475100942127,
+     "D7": 0.0
+    },
+    "positive": 2,
+    "n": 4
+   },
+   "delta_r": {
+    "mean": 0.0016964285714285714,
+    "ci": [
+     0.0004464285714285714,
+     0.0033035714285714287
+    ],
+    "per_stream": {
+     "D4": 0.00035714285714285714,
+     "D5": 0.0032142857142857142,
+     "D6": 0.0025,
+     "D7": 0.0007142857142857143
+    },
+    "positive": 4,
+    "n": 4
+   },
+   "delta_gate": {
+    "passed": false,
+    "mean_delta": 0.0026818324548721394,
+    "ci": [
+     0.0,
+     0.0061444138975217145
+    ],
+    "positive": 3,
+    "needed": 3,
+    "q_diff": 0.00025201436097666794,
+    "r_diff": 0.0016964285714285714
+   },
+   "delta_active": {
+    "mean": 0.0026079553863142197,
+    "ci": [
+     0.0,
+     0.0059638799240311294
+    ],
+    "per_stream": {
+     "D4": 0.0017857142857142857,
+     "D5": 0.004213483146067416,
+     "D6": 0.0,
+     "D7": 0.004432624113475178
+    },
+    "positive": 3,
+    "n": 4
+   },
+   "delta_active_q": {
+    "mean": 0.0009633189699320944,
+    "ci": [
+     -0.001830060362393312,
+     0.0033850850964652563
+    ],
+    "per_stream": {
+     "D4": 0.0020026702269692926,
+     "D5": 0.0,
+     "D6": 0.001009421265141319,
+     "D7": 0.0008411843876177658
+    },
+    "positive": 3,
+    "n": 4
+   },
+   "delta_active_r": {
+    "mean": 0.0014285714285714286,
+    "ci": [
+     8.928571428571429e-05,
+     0.0035714285714285713
+    ],
+    "per_stream": {
+     "D4": 0.0007142857142857143,
+     "D5": 0.004285714285714286,
+     "D6": 0.0007142857142857143,
+     "D7": 0.0
+    },
+    "positive": 3,
+    "n": 4
+   },
+   "delta_active_gate": {
+    "passed": false,
+    "mean_delta": 0.0026079553863142197,
+    "ci": [
+     0.0,
+     0.0059638799240311294
+    ],
+    "positive": 3,
+    "needed": 3,
+    "q_diff": 0.0009633189699320944,
+    "r_diff": 0.0014285714285714286
+   },
+   "delta_bans": {
+    "mean": 7.387706855791962e-05,
+    "ci": [
+     0.0,
+     0.0002955082742316785
+    ],
+    "per_stream": {
+     "D4": 0.0,
+     "D5": 0.0,
+     "D6": 0.0,
+     "D7": 0.0002955082742316785
+    },
+    "positive": 1,
+    "n": 4
+   },
+   "factorial": {
+    "total": {
+     "mean": 0.002815832684177345,
+     "ci": [
+      0.0,
+      0.006355259152828393
+     ],
+     "per_stream": {
+      "D4": 0.0020408163265306124,
+      "D5": 0.0044943820224719105,
+      "D6": 0.0,
+      "D7": 0.004728132387706856
+     },
+     "positive": 3,
+     "n": 4
+    },
+    "ban_flat": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "per_stream": {
+      "D4": 0.0,
+      "D5": 0.0,
+      "D6": 0.0,
+      "D7": 0.0
+     },
+     "positive": 0,
+     "n": 4
+    },
+    "ban_cont": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "per_stream": {
+      "D4": 0.0,
+      "D5": 0.0,
+      "D6": 0.0,
+      "D7": 0.0
+     },
+     "positive": 0,
+     "n": 4
+    },
+    "cont_ban": {
+     "mean": 0.002815832684177345,
+     "ci": [
+      0.0,
+      0.006355259152828393
+     ],
+     "per_stream": {
+      "D4": 0.0020408163265306124,
+      "D5": 0.0044943820224719105,
+      "D6": 0.0,
+      "D7": 0.004728132387706856
+     },
+     "positive": 3,
+     "n": 4
+    },
+    "cont_noban": {
+     "mean": 0.002815832684177345,
+     "ci": [
+      0.0,
+      0.006355259152828393
+     ],
+     "per_stream": {
+      "D4": 0.0020408163265306124,
+      "D5": 0.0044943820224719105,
+      "D6": 0.0,
+      "D7": 0.004728132387706856
+     },
+     "positive": 3,
+     "n": 4
+    },
+    "interaction": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "per_stream": {
+      "D4": 0.0,
+      "D5": 0.0,
+      "D6": 0.0,
+      "D7": 0.0
+     },
+     "positive": 0,
+     "n": 4
+    }
+   },
+   "practical": {
+    "uniform:0.90": {
+     "delta": {
+      "mean": 0.002815832684177345,
+      "ci": [
+       0.0,
+       0.006355259152828393
+      ],
+      "per_stream": {
+       "D4": 0.0020408163265306124,
+       "D5": 0.0044943820224719105,
+       "D6": 0.0,
+       "D7": 0.004728132387706856
+      },
+      "positive": 3,
+      "n": 4
+     },
+     "q": {
+      "mean": -0.004012159560111821,
+      "ci": [
+       -0.007031104477944476,
+       -0.0013431996363028678
+      ],
+      "per_stream": {
+       "D4": -0.0026702269692923898,
+       "D5": -0.006648936170212766,
+       "D6": -0.004037685060565276,
+       "D7": -0.0026917900403768506
+      },
+      "positive": 0,
+      "n": 4
+     },
+     "r": {
+      "mean": 0.0,
+      "ci": [
+       0.0,
+       0.0
+      ],
+      "per_stream": {
+       "D4": 0.0,
+       "D5": 0.0,
+       "D6": 0.0,
+       "D7": 0.0
+      },
+      "positive": 0,
+      "n": 4
+     },
+     "gate": {
+      "passed": false,
+      "mean_delta": 0.002815832684177345,
+      "ci": [
+       0.0,
+       0.006355259152828393
+      ],
+      "positive": 3,
+      "needed": 3,
+      "q_diff": -0.004012159560111821,
+      "r_diff": 0.0
+     }
+    },
+    "ban_uniform:0.90": {
+     "delta": {
+      "mean": 0.002815832684177345,
+      "ci": [
+       0.0,
+       0.006355259152828393
+      ],
+      "per_stream": {
+       "D4": 0.0020408163265306124,
+       "D5": 0.0044943820224719105,
+       "D6": 0.0,
+       "D7": 0.004728132387706856
+      },
+      "positive": 3,
+      "n": 4
+     },
+     "q": {
+      "mean": -0.0036783811889502718,
+      "ci": [
+       -0.007001517711405744,
+       -0.0010067258812557615
+      ],
+      "per_stream": {
+       "D4": -0.0013351134846461949,
+       "D5": -0.006648936170212766,
+       "D6": -0.004037685060565276,
+       "D7": -0.0026917900403768506
+      },
+      "positive": 0,
+      "n": 4
+     },
+     "r": {
+      "mean": 0.0,
+      "ci": [
+       0.0,
+       0.0
+      ],
+      "per_stream": {
+       "D4": 0.0,
+       "D5": 0.0,
+       "D6": 0.0,
+       "D7": 0.0
+      },
+      "positive": 0,
+      "n": 4
+     },
+     "gate": {
+      "passed": false,
+      "mean_delta": 0.002815832684177345,
+      "ci": [
+       0.0,
+       0.006355259152828393
+      ],
+      "positive": 3,
+      "needed": 3,
+      "q_diff": -0.0036783811889502718,
+      "r_diff": 0.0
+     }
+    }
+   },
+   "frontier": {
+    "uniform": {
+     "0.90": {
+      "damage": 0.004966050499354283,
+      "Q": 0.8215134987704018,
+      "R": 0.7064285714285714,
+      "coverage": null,
+      "update": 0.9931884087769494
+     }
+    },
+    "ban_uniform": {
+     "0.90": {
+      "damage": 0.004966050499354283,
+      "Q": 0.8212009987704018,
+      "R": 0.7064285714285714,
+      "coverage": null,
+      "update": 0.9928759087769493
+     }
+    }
+   },
+   "bans": {
+    "D4": {
+     "banned": 1,
+     "entries": 1049,
+     "mid": 18,
+     "floor": 1030
+    },
+    "D5": {
+     "banned": 0,
+     "entries": 1052,
+     "mid": 27,
+     "floor": 1025
+    },
+    "D6": {
+     "banned": 0,
+     "entries": 1043,
+     "mid": 23,
+     "floor": 1020
+    },
+    "D7": {
+     "banned": 0,
+     "entries": 1043,
+     "mid": 22,
+     "floor": 1021
+    }
+   },
+   "culprits": {
+    "uniform:0.90": {
+     "D4": {
+      "damaged": 3,
+      "per_item": {
+       "active": 3
+      },
+      "top": [
+       [
+        996,
+        1,
+        false,
+        "Manse"
+       ],
+       [
+        1025,
+        1,
+        false,
+        "Monzie Parish Church"
+       ],
+       [
+        984,
+        1,
+        false,
+        "15 Ainslie Place, Edinburgh"
+       ]
+      ]
+     },
+     "D5": {
+      "damaged": 2,
+      "per_item": {
+       "active": 2
+      },
+      "top": [
+       [
+        1028,
+        1,
+        false,
+        "Eckford Parish Church"
+       ],
+       [
+        820,
+        1,
+        false,
+        "December 19, 1898 BC"
+       ]
+      ]
+     },
+     "D6": {
+      "damaged": 1,
+      "per_item": {
+       "active": 1
+      },
+      "top": [
+       [
+        346,
+        1,
+        false,
+        "Randalstown railway station"
+       ]
+      ]
+     },
+     "D7": {
+      "damaged": 3,
+      "per_item": {
+       "active": 3
+      },
+      "top": [
+       [
+        792,
+        2,
+        false,
+        "solar eclipse of April 1, 1893 BC"
+       ],
+       [
+        994,
+        1,
+        false,
+        "18 Lennox Street, Edinburgh"
+       ]
+      ]
+     }
+    },
+    "matched": {
+     "D4": {
+      "damaged": 2,
+      "per_item": {
+       "active": 2
+      },
+      "top": [
+       [
+        996,
+        1,
+        false,
+        "Manse"
+       ],
+       [
+        1025,
+        1,
+        false,
+        "Monzie Parish Church"
+       ]
+      ]
+     },
+     "D5": {
+      "damaged": 0,
+      "per_item": {},
+      "top": []
+     },
+     "D6": {
+      "damaged": 1,
+      "per_item": {
+       "active": 1
+      },
+      "top": [
+       [
+        346,
+        1,
+        false,
+        "Randalstown railway station"
+       ]
+      ]
+     },
+     "D7": {
+      "damaged": 1,
+      "per_item": {
+       "active": 1
+      },
+      "top": [
+       [
+        994,
+        1,
+        false,
+        "18 Lennox Street, Edinburgh"
+       ]
+      ]
+     }
+    },
+    "shuffled:0": {
+     "D4": {
+      "damaged": 3,
+      "per_item": {
+       "active": 3
+      },
+      "top": [
+       [
+        996,
+        1,
+        false,
+        "Manse"
+       ],
+       [
+        1025,
+        1,
+        false,
+        "Monzie Parish Church"
+       ],
+       [
+        984,
+        1,
+        false,
+        "15 Ainslie Place, Edinburgh"
+       ]
+      ]
+     },
+     "D5": {
+      "damaged": 2,
+      "per_item": {
+       "active": 2
+      },
+      "top": [
+       [
+        1028,
+        1,
+        false,
+        "Eckford Parish Church"
+       ],
+       [
+        820,
+        1,
+        false,
+        "December 19, 1898 BC"
+       ]
+      ]
+     },
+     "D6": {
+      "damaged": 1,
+      "per_item": {
+       "active": 1
+      },
+      "top": [
+       [
+        346,
+        1,
+        false,
+        "Randalstown railway station"
+       ]
+      ]
+     },
+     "D7": {
+      "damaged": 3,
+      "per_item": {
+       "active": 3
+      },
+      "top": [
+       [
+        792,
+        2,
+        false,
+        "solar eclipse of April 1, 1893 BC"
+       ],
+       [
+        994,
+        1,
+        false,
+        "18 Lennox Street, Edinburgh"
+       ]
+      ]
+     }
+    },
+    "active_shuffled:0": {
+     "D4": {
+      "damaged": 3,
+      "per_item": {
+       "active": 3
+      },
+      "top": [
+       [
+        996,
+        1,
+        false,
+        "Manse"
+       ],
+       [
+        1025,
+        1,
+        false,
+        "Monzie Parish Church"
+       ],
+       [
+        984,
+        1,
+        false,
+        "15 Ainslie Place, Edinburgh"
+       ]
+      ]
+     },
+     "D5": {
+      "damaged": 2,
+      "per_item": {
+       "active": 2
+      },
+      "top": [
+       [
+        1028,
+        1,
+        false,
+        "Eckford Parish Church"
+       ],
+       [
+        820,
+        1,
+        false,
+        "December 19, 1898 BC"
+       ]
+      ]
+     },
+     "D6": {
+      "damaged": 1,
+      "per_item": {
+       "active": 1
+      },
+      "top": [
+       [
+        346,
+        1,
+        false,
+        "Randalstown railway station"
+       ]
+      ]
+     },
+     "D7": {
+      "damaged": 2,
+      "per_item": {
+       "active": 2
+      },
+      "top": [
+       [
+        792,
+        1,
+        false,
+        "solar eclipse of April 1, 1893 BC"
+       ],
+       [
+        994,
+        1,
+        false,
+        "18 Lennox Street, Edinburgh"
+       ]
+      ]
+     }
+    },
+    "ban_uniform:0.90": {
+     "D4": {
+      "damaged": 3,
+      "per_item": {
+       "active": 3
+      },
+      "top": [
+       [
+        996,
+        1,
+        false,
+        "Manse"
+       ],
+       [
+        1025,
+        1,
+        false,
+        "Monzie Parish Church"
+       ],
+       [
+        984,
+        1,
+        false,
+        "15 Ainslie Place, Edinburgh"
+       ]
+      ]
+     },
+     "D5": {
+      "damaged": 2,
+      "per_item": {
+       "active": 2
+      },
+      "top": [
+       [
+        1028,
+        1,
+        false,
+        "Eckford Parish Church"
+       ],
+       [
+        820,
+        1,
+        false,
+        "December 19, 1898 BC"
+       ]
+      ]
+     },
+     "D6": {
+      "damaged": 1,
+      "per_item": {
+       "active": 1
+      },
+      "top": [
+       [
+        346,
+        1,
+        false,
+        "Randalstown railway station"
+       ]
+      ]
+     },
+     "D7": {
+      "damaged": 3,
+      "per_item": {
+       "active": 3
+      },
+      "top": [
+       [
+        792,
+        2,
+        false,
+        "solar eclipse of April 1, 1893 BC"
+       ],
+       [
+        994,
+        1,
+        false,
+        "18 Lennox Street, Edinburgh"
+       ]
+      ]
+     }
+    }
+   },
+   "culprit_categories": {
+    "uniform:0.90": {
+     "D4": {
+      "available": true,
+      "damaged": 3,
+      "per_item": {
+       "near name": 2,
+       "other": 1
+      },
+      "culprits": {
+       "near name": 2,
+       "other": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 3,
+      "single_recovers": 3
+     },
+     "D5": {
+      "available": true,
+      "damaged": 2,
+      "per_item": {
+       "near name": 1,
+       "other": 1
+      },
+      "culprits": {
+       "near name": 1,
+       "other": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 2,
+      "single_recovers": 1
+     },
+     "D6": {
+      "available": true,
+      "damaged": 1,
+      "per_item": {
+       "near name": 1
+      },
+      "culprits": {
+       "near name": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 1,
+      "single_recovers": 1
+     },
+     "D7": {
+      "available": true,
+      "damaged": 3,
+      "per_item": {
+       "near name": 2,
+       "other": 1
+      },
+      "culprits": {
+       "near name": 2,
+       "other": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 3,
+      "single_recovers": 2
+     }
+    },
+    "matched": {
+     "D4": {
+      "available": true,
+      "damaged": 2,
+      "per_item": {
+       "near name": 2
+      },
+      "culprits": {
+       "near name": 2
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 2,
+      "single_recovers": 2
+     },
+     "D5": {
+      "available": true,
+      "damaged": 0,
+      "per_item": {},
+      "culprits": {},
+      "rerun_mismatch": 0,
+      "closure_right": 0,
+      "single_recovers": 0
+     },
+     "D6": {
+      "available": true,
+      "damaged": 1,
+      "per_item": {
+       "near name": 1
+      },
+      "culprits": {
+       "near name": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 1,
+      "single_recovers": 1
+     },
+     "D7": {
+      "available": true,
+      "damaged": 1,
+      "per_item": {
+       "other": 1
+      },
+      "culprits": {
+       "other": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 1,
+      "single_recovers": 0
+     }
+    },
+    "shuffled:0": {
+     "D4": {
+      "available": true,
+      "damaged": 3,
+      "per_item": {
+       "near name": 2,
+       "other": 1
+      },
+      "culprits": {
+       "near name": 2,
+       "other": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 3,
+      "single_recovers": 3
+     },
+     "D5": {
+      "available": true,
+      "damaged": 2,
+      "per_item": {
+       "near name": 1,
+       "other": 1
+      },
+      "culprits": {
+       "near name": 1,
+       "other": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 2,
+      "single_recovers": 1
+     },
+     "D6": {
+      "available": true,
+      "damaged": 1,
+      "per_item": {
+       "near name": 1
+      },
+      "culprits": {
+       "near name": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 1,
+      "single_recovers": 1
+     },
+     "D7": {
+      "available": true,
+      "damaged": 3,
+      "per_item": {
+       "near name": 2,
+       "other": 1
+      },
+      "culprits": {
+       "near name": 2,
+       "other": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 3,
+      "single_recovers": 2
+     }
+    },
+    "active_shuffled:0": {
+     "D4": {
+      "available": true,
+      "damaged": 3,
+      "per_item": {
+       "near name": 2,
+       "other": 1
+      },
+      "culprits": {
+       "near name": 2,
+       "other": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 3,
+      "single_recovers": 3
+     },
+     "D5": {
+      "available": true,
+      "damaged": 2,
+      "per_item": {
+       "near name": 1,
+       "other": 1
+      },
+      "culprits": {
+       "near name": 1,
+       "other": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 2,
+      "single_recovers": 1
+     },
+     "D6": {
+      "available": true,
+      "damaged": 1,
+      "per_item": {
+       "near name": 1
+      },
+      "culprits": {
+       "near name": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 1,
+      "single_recovers": 1
+     },
+     "D7": {
+      "available": true,
+      "damaged": 2,
+      "per_item": {
+       "near name": 1,
+       "other": 1
+      },
+      "culprits": {
+       "near name": 1,
+       "other": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 2,
+      "single_recovers": 1
+     }
+    },
+    "ban_uniform:0.90": {
+     "D4": {
+      "available": true,
+      "damaged": 3,
+      "per_item": {
+       "near name": 2,
+       "other": 1
+      },
+      "culprits": {
+       "near name": 2,
+       "other": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 3,
+      "single_recovers": 3
+     },
+     "D5": {
+      "available": true,
+      "damaged": 2,
+      "per_item": {
+       "near name": 1,
+       "other": 1
+      },
+      "culprits": {
+       "near name": 1,
+       "other": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 2,
+      "single_recovers": 1
+     },
+     "D6": {
+      "available": true,
+      "damaged": 1,
+      "per_item": {
+       "near name": 1
+      },
+      "culprits": {
+       "near name": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 1,
+      "single_recovers": 1
+     },
+     "D7": {
+      "available": true,
+      "damaged": 3,
+      "per_item": {
+       "near name": 2,
+       "other": 1
+      },
+      "culprits": {
+       "near name": 2,
+       "other": 1
+      },
+      "rerun_mismatch": 0,
+      "closure_right": 3,
+      "single_recovers": 2
+     }
+    }
+   },
+   "delta_leave_one_out": {
+    "D4": 0.0029805385112580906,
+    "D5": 0.0021712822244737136,
+    "D6": 0.003575776606496186,
+    "D7": 0.001999732477260567
+   }
+  }
+ },
+ "arms": {
+  "corr/off:active_shuffled:0": {
+   "D4": {
+    "damage": 0.006122448979591836,
+    "damaged": 3,
+    "known": 490,
+    "Q": 0.8113249063670411,
+    "R": 0.72,
+    "coverage": null,
+    "update": 0.99125,
+    "learned": 0.7842835130970724,
+    "fired_loc": 0.01020408163265306,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.01020408163265306,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0044943820224719105,
+    "damaged": 2,
+    "known": 445,
+    "Q": 0.832056277056277,
+    "R": 0.7,
+    "coverage": null,
+    "update": 0.9913798701298702,
+    "learned": 0.8149779735682819,
+    "fired_loc": 0.006741573033707865,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006741573033707865,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.8031706598586017,
+    "R": 0.6885714285714286,
+    "coverage": null,
+    "update": 0.9893843283582089,
+    "learned": 0.787833827893175,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.004728132387706856,
+    "damaged": 2,
+    "known": 423,
+    "Q": 0.818252151799687,
+    "R": 0.7142857142857143,
+    "coverage": null,
+    "update": 0.9957394366197183,
+    "learned": 0.7962962962962963,
+    "fired_loc": 0.0070921985815602835,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0070921985815602835,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:active_shuffled:1": {
+   "D4": {
+    "damage": 0.006122448979591836,
+    "damaged": 3,
+    "known": 490,
+    "Q": 0.8099204119850187,
+    "R": 0.7142857142857143,
+    "coverage": null,
+    "update": 0.99,
+    "learned": 0.7827426810477658,
+    "fired_loc": 0.01020408163265306,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.01020408163265306,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0044943820224719105,
+    "damaged": 2,
+    "known": 445,
+    "Q": 0.8328896103896104,
+    "R": 0.6942857142857143,
+    "coverage": null,
+    "update": 0.9913798701298702,
+    "learned": 0.8164464023494861,
+    "fired_loc": 0.006741573033707865,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006741573033707865,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.8044206598586017,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.9881343283582089,
+    "learned": 0.7893175074183977,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.820752151799687,
+    "R": 0.7142857142857143,
+    "coverage": null,
+    "update": 0.9944894366197183,
+    "learned": 0.7993827160493827,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:active_shuffled:2": {
+   "D4": {
+    "damage": 0.006122448979591836,
+    "damaged": 3,
+    "known": 490,
+    "Q": 0.8125749063670412,
+    "R": 0.72,
+    "coverage": null,
+    "update": 0.99125,
+    "learned": 0.785824345146379,
+    "fired_loc": 0.01020408163265306,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.01020408163265306,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0044943820224719105,
+    "damaged": 2,
+    "known": 445,
+    "Q": 0.8358062770562771,
+    "R": 0.6971428571428572,
+    "coverage": null,
+    "update": 0.9926298701298701,
+    "learned": 0.8193832599118943,
+    "fired_loc": 0.006741573033707865,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006741573033707865,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.8031706598586017,
+    "R": 0.6885714285714286,
+    "coverage": null,
+    "update": 0.9893843283582089,
+    "learned": 0.787833827893175,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.817002151799687,
+    "R": 0.7142857142857143,
+    "coverage": null,
+    "update": 0.9932394366197184,
+    "learned": 0.7947530864197531,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:active_shuffled:3": {
+   "D4": {
+    "damage": 0.006122448979591836,
+    "damaged": 3,
+    "known": 490,
+    "Q": 0.8100749063670412,
+    "R": 0.72,
+    "coverage": null,
+    "update": 0.98875,
+    "learned": 0.7827426810477658,
+    "fired_loc": 0.01020408163265306,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.01020408163265306,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0044943820224719105,
+    "damaged": 2,
+    "known": 445,
+    "Q": 0.839556277056277,
+    "R": 0.7,
+    "coverage": null,
+    "update": 0.9913798701298702,
+    "learned": 0.8237885462555066,
+    "fired_loc": 0.006741573033707865,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006741573033707865,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.8019206598586017,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.9893843283582089,
+    "learned": 0.7863501483679525,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.819502151799687,
+    "R": 0.7142857142857143,
+    "coverage": null,
+    "update": 0.9944894366197183,
+    "learned": 0.7978395061728395,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:active_shuffled:4": {
+   "D4": {
+    "damage": 0.006122448979591836,
+    "damaged": 3,
+    "known": 490,
+    "Q": 0.8100749063670412,
+    "R": 0.72,
+    "coverage": null,
+    "update": 0.99125,
+    "learned": 0.7827426810477658,
+    "fired_loc": 0.01020408163265306,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.01020408163265306,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0044943820224719105,
+    "damaged": 2,
+    "known": 445,
+    "Q": 0.8328896103896104,
+    "R": 0.7,
+    "coverage": null,
+    "update": 0.9901298701298701,
+    "learned": 0.8164464023494861,
+    "fired_loc": 0.006741573033707865,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006741573033707865,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.8019206598586017,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.990634328358209,
+    "learned": 0.7863501483679525,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.815752151799687,
+    "R": 0.7142857142857143,
+    "coverage": null,
+    "update": 0.9944894366197183,
+    "learned": 0.7932098765432098,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:active_shuffled:5": {
+   "D4": {
+    "damage": 0.006122448979591836,
+    "damaged": 3,
+    "known": 490,
+    "Q": 0.8100749063670412,
+    "R": 0.72,
+    "coverage": null,
+    "update": 0.99125,
+    "learned": 0.7827426810477658,
+    "fired_loc": 0.01020408163265306,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.01020408163265306,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0044943820224719105,
+    "damaged": 2,
+    "known": 445,
+    "Q": 0.8341829004329004,
+    "R": 0.6971428571428572,
+    "coverage": null,
+    "update": 0.9913798701298702,
+    "learned": 0.8179148311306902,
+    "fired_loc": 0.006741573033707865,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006741573033707865,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.8031706598586017,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.990634328358209,
+    "learned": 0.787833827893175,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.820752151799687,
+    "R": 0.7142857142857143,
+    "coverage": null,
+    "update": 0.9957394366197183,
+    "learned": 0.7993827160493827,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:active_shuffled:6": {
+   "D4": {
+    "damage": 0.004081632653061225,
+    "damaged": 2,
+    "known": 490,
+    "Q": 0.8125749063670412,
+    "R": 0.72,
+    "coverage": null,
+    "update": 0.99125,
+    "learned": 0.785824345146379,
+    "fired_loc": 0.00816326530612245,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.00816326530612245,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0022471910112359553,
+    "damaged": 1,
+    "known": 445,
+    "Q": 0.8358062770562771,
+    "R": 0.6942857142857143,
+    "coverage": null,
+    "update": 0.9901298701298701,
+    "learned": 0.8193832599118943,
+    "fired_loc": 0.0044943820224719105,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0044943820224719105,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.8044206598586017,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.990634328358209,
+    "learned": 0.7893175074183977,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.818252151799687,
+    "R": 0.7142857142857143,
+    "coverage": null,
+    "update": 0.9944894366197183,
+    "learned": 0.7962962962962963,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:active_shuffled:7": {
+   "D4": {
+    "damage": 0.006122448979591836,
+    "damaged": 3,
+    "known": 490,
+    "Q": 0.8088249063670412,
+    "R": 0.72,
+    "coverage": null,
+    "update": 0.99,
+    "learned": 0.7812018489984591,
+    "fired_loc": 0.01020408163265306,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.01020408163265306,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0044943820224719105,
+    "damaged": 2,
+    "known": 445,
+    "Q": 0.8313095238095238,
+    "R": 0.6828571428571428,
+    "coverage": null,
+    "update": 0.9913798701298702,
+    "learned": 0.8149779735682819,
+    "fired_loc": 0.006741573033707865,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006741573033707865,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.8056706598586018,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.9918843283582089,
+    "learned": 0.7908011869436202,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.819502151799687,
+    "R": 0.7142857142857143,
+    "coverage": null,
+    "update": 0.9944894366197183,
+    "learned": 0.7978395061728395,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:ban_uniform:0.90": {
+   "D4": {
+    "damage": 0.006122448979591836,
+    "damaged": 3,
+    "known": 490,
+    "Q": 0.8138249063670412,
+    "R": 0.72,
+    "coverage": null,
+    "update": 0.99125,
+    "learned": 0.7873651771956857,
+    "fired_loc": 0.01020408163265306,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.01020408163265306,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0044943820224719105,
+    "damaged": 2,
+    "known": 445,
+    "Q": 0.8408062770562771,
+    "R": 0.7,
+    "coverage": null,
+    "update": 0.9926298701298701,
+    "learned": 0.8252569750367107,
+    "fired_loc": 0.006741573033707865,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006741573033707865,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.8081706598586017,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.9918843283582089,
+    "learned": 0.7937685459940653,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.822002151799687,
+    "R": 0.7142857142857143,
+    "coverage": null,
+    "update": 0.9957394366197183,
+    "learned": 0.8009259259259259,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:matched": {
+   "D4": {
+    "damage": 0.004081632653061225,
+    "damaged": 2,
+    "known": 490,
+    "Q": 0.8125749063670412,
+    "R": 0.72,
+    "coverage": null,
+    "update": 0.99125,
+    "learned": 0.785824345146379,
+    "fired_loc": 0.006122448979591836,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006122448979591836,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 445,
+    "Q": 0.8341829004329004,
+    "R": 0.7,
+    "coverage": null,
+    "update": 0.9913798701298702,
+    "learned": 0.8179148311306902,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.8044206598586017,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.9918843283582089,
+    "learned": 0.7893175074183977,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.002364066193853428,
+    "damaged": 1,
+    "known": 423,
+    "Q": 0.819502151799687,
+    "R": 0.7142857142857143,
+    "coverage": null,
+    "update": 0.9957394366197183,
+    "learned": 0.7978395061728395,
+    "fired_loc": 0.004728132387706856,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004728132387706856,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:noban_matched": {
+   "D4": {
+    "damage": 0.004081632653061225,
+    "damaged": 2,
+    "known": 490,
+    "Q": 0.8138249063670412,
+    "R": 0.72,
+    "coverage": null,
+    "update": 0.9924999999999999,
+    "learned": 0.7873651771956857,
+    "fired_loc": 0.006122448979591836,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006122448979591836,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 445,
+    "Q": 0.8341829004329004,
+    "R": 0.7,
+    "coverage": null,
+    "update": 0.9913798701298702,
+    "learned": 0.8179148311306902,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.8044206598586017,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.9918843283582089,
+    "learned": 0.7893175074183977,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.002364066193853428,
+    "damaged": 1,
+    "known": 423,
+    "Q": 0.819502151799687,
+    "R": 0.7142857142857143,
+    "coverage": null,
+    "update": 0.9957394366197183,
+    "learned": 0.7978395061728395,
+    "fired_loc": 0.004728132387706856,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004728132387706856,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:shuffled:0": {
+   "D4": {
+    "damage": 0.006122448979591836,
+    "damaged": 3,
+    "known": 490,
+    "Q": 0.8113249063670411,
+    "R": 0.72,
+    "coverage": null,
+    "update": 0.9898455056179776,
+    "learned": 0.7842835130970724,
+    "fired_loc": 0.01020408163265306,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.01020408163265306,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0044943820224719105,
+    "damaged": 2,
+    "known": 445,
+    "Q": 0.8328896103896104,
+    "R": 0.7,
+    "coverage": null,
+    "update": 0.9901298701298701,
+    "learned": 0.8164464023494861,
+    "fired_loc": 0.006741573033707865,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006741573033707865,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.8031706598586017,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.9881343283582089,
+    "learned": 0.787833827893175,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.817002151799687,
+    "R": 0.7142857142857143,
+    "coverage": null,
+    "update": 0.9944894366197183,
+    "learned": 0.7947530864197531,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:shuffled:1": {
+   "D4": {
+    "damage": 0.006122448979591836,
+    "damaged": 3,
+    "known": 490,
+    "Q": 0.8099204119850187,
+    "R": 0.72,
+    "coverage": null,
+    "update": 0.99,
+    "learned": 0.7827426810477658,
+    "fired_loc": 0.01020408163265306,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.01020408163265306,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0044943820224719105,
+    "damaged": 2,
+    "known": 445,
+    "Q": 0.834556277056277,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.9901298701298701,
+    "learned": 0.8179148311306902,
+    "fired_loc": 0.006741573033707865,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006741573033707865,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.8031706598586017,
+    "R": 0.6857142857142857,
+    "coverage": null,
+    "update": 0.9893843283582089,
+    "learned": 0.787833827893175,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.820752151799687,
+    "R": 0.7114285714285714,
+    "coverage": null,
+    "update": 0.9944894366197183,
+    "learned": 0.7993827160493827,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:shuffled:2": {
+   "D4": {
+    "damage": 0.006122448979591836,
+    "damaged": 3,
+    "known": 490,
+    "Q": 0.8125749063670412,
+    "R": 0.72,
+    "coverage": null,
+    "update": 0.99125,
+    "learned": 0.785824345146379,
+    "fired_loc": 0.01020408163265306,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.01020408163265306,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0044943820224719105,
+    "damaged": 2,
+    "known": 445,
+    "Q": 0.837056277056277,
+    "R": 0.6971428571428572,
+    "coverage": null,
+    "update": 0.9913798701298702,
+    "learned": 0.8208516886930984,
+    "fired_loc": 0.006741573033707865,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006741573033707865,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.8044206598586017,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.990634328358209,
+    "learned": 0.7893175074183977,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.819502151799687,
+    "R": 0.7142857142857143,
+    "coverage": null,
+    "update": 0.9944894366197183,
+    "learned": 0.7978395061728395,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:shuffled:3": {
+   "D4": {
+    "damage": 0.006122448979591836,
+    "damaged": 3,
+    "known": 490,
+    "Q": 0.8124204119850187,
+    "R": 0.72,
+    "coverage": null,
+    "update": 0.99125,
+    "learned": 0.785824345146379,
+    "fired_loc": 0.01020408163265306,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.01020408163265306,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0044943820224719105,
+    "damaged": 2,
+    "known": 445,
+    "Q": 0.837056277056277,
+    "R": 0.7,
+    "coverage": null,
+    "update": 0.9913798701298702,
+    "learned": 0.8208516886930984,
+    "fired_loc": 0.006741573033707865,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006741573033707865,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.8044206598586017,
+    "R": 0.6885714285714286,
+    "coverage": null,
+    "update": 0.990634328358209,
+    "learned": 0.7893175074183977,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.819502151799687,
+    "R": 0.7142857142857143,
+    "coverage": null,
+    "update": 0.9932394366197184,
+    "learned": 0.7978395061728395,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:shuffled:4": {
+   "D4": {
+    "damage": 0.004081632653061225,
+    "damaged": 2,
+    "known": 490,
+    "Q": 0.8138249063670412,
+    "R": 0.72,
+    "coverage": null,
+    "update": 0.9924999999999999,
+    "learned": 0.7873651771956857,
+    "fired_loc": 0.00816326530612245,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.00816326530612245,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0044943820224719105,
+    "damaged": 2,
+    "known": 445,
+    "Q": 0.832056277056277,
+    "R": 0.7,
+    "coverage": null,
+    "update": 0.9913798701298702,
+    "learned": 0.8149779735682819,
+    "fired_loc": 0.006741573033707865,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006741573033707865,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.8044206598586017,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.9918843283582089,
+    "learned": 0.7893175074183977,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.819502151799687,
+    "R": 0.7142857142857143,
+    "coverage": null,
+    "update": 0.9957394366197183,
+    "learned": 0.7978395061728395,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:shuffled:5": {
+   "D4": {
+    "damage": 0.006122448979591836,
+    "damaged": 3,
+    "known": 490,
+    "Q": 0.8124204119850187,
+    "R": 0.72,
+    "coverage": null,
+    "update": 0.9898455056179776,
+    "learned": 0.785824345146379,
+    "fired_loc": 0.01020408163265306,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.01020408163265306,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0044943820224719105,
+    "damaged": 2,
+    "known": 445,
+    "Q": 0.833306277056277,
+    "R": 0.6971428571428572,
+    "coverage": null,
+    "update": 0.9926298701298701,
+    "learned": 0.8164464023494861,
+    "fired_loc": 0.006741573033707865,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006741573033707865,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.8019206598586017,
+    "R": 0.6857142857142857,
+    "coverage": null,
+    "update": 0.9918843283582089,
+    "learned": 0.7863501483679525,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.820752151799687,
+    "R": 0.7114285714285714,
+    "coverage": null,
+    "update": 0.9944894366197183,
+    "learned": 0.7993827160493827,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:shuffled:6": {
+   "D4": {
+    "damage": 0.006122448979591836,
+    "damaged": 3,
+    "known": 490,
+    "Q": 0.8124204119850187,
+    "R": 0.7171428571428572,
+    "coverage": null,
+    "update": 0.9924999999999999,
+    "learned": 0.785824345146379,
+    "fired_loc": 0.01020408163265306,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.01020408163265306,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0022471910112359553,
+    "damaged": 1,
+    "known": 445,
+    "Q": 0.8366396103896103,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.9901298701298701,
+    "learned": 0.8208516886930984,
+    "fired_loc": 0.0022471910112359553,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0022471910112359553,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.8044206598586017,
+    "R": 0.6885714285714286,
+    "coverage": null,
+    "update": 0.9918843283582089,
+    "learned": 0.7893175074183977,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.819502151799687,
+    "R": 0.7142857142857143,
+    "coverage": null,
+    "update": 0.9944894366197183,
+    "learned": 0.7978395061728395,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:shuffled:7": {
+   "D4": {
+    "damage": 0.006122448979591836,
+    "damaged": 3,
+    "known": 490,
+    "Q": 0.8099204119850187,
+    "R": 0.72,
+    "coverage": null,
+    "update": 0.99125,
+    "learned": 0.7827426810477658,
+    "fired_loc": 0.01020408163265306,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.01020408163265306,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0044943820224719105,
+    "damaged": 2,
+    "known": 445,
+    "Q": 0.8341396103896104,
+    "R": 0.6971428571428572,
+    "coverage": null,
+    "update": 0.9913798701298702,
+    "learned": 0.8179148311306902,
+    "fired_loc": 0.006741573033707865,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006741573033707865,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.8044206598586017,
+    "R": 0.6885714285714286,
+    "coverage": null,
+    "update": 0.9918843283582089,
+    "learned": 0.7893175074183977,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.819502151799687,
+    "R": 0.7142857142857143,
+    "coverage": null,
+    "update": 0.9944894366197183,
+    "learned": 0.7978395061728395,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "corr/off:uniform:0.90": {
+   "D4": {
+    "damage": 0.006122448979591836,
+    "damaged": 3,
+    "known": 490,
+    "Q": 0.8150749063670412,
+    "R": 0.72,
+    "coverage": null,
+    "update": 0.9924999999999999,
+    "learned": 0.7889060092449923,
+    "fired_loc": 0.01020408163265306,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.01020408163265306,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0044943820224719105,
+    "damaged": 2,
+    "known": 445,
+    "Q": 0.8408062770562771,
+    "R": 0.7,
+    "coverage": null,
+    "update": 0.9926298701298701,
+    "learned": 0.8252569750367107,
+    "fired_loc": 0.006741573033707865,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006741573033707865,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.8081706598586017,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.9918843283582089,
+    "learned": 0.7937685459940653,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.822002151799687,
+    "R": 0.7142857142857143,
+    "coverage": null,
+    "update": 0.9957394366197183,
+    "learned": 0.8009259259259259,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "none": {
+   "D4": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 490,
+    "Q": 0.13441479400749062,
+    "R": 0.10571428571428572,
+    "coverage": null,
+    "update": 0.14191479400749063,
+    "learned": 0.0,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 445,
+    "Q": 0.0927435064935065,
+    "R": 0.06857142857142857,
+    "coverage": null,
+    "update": 0.09941017316017316,
+    "learned": 0.0,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 464,
+    "Q": 0.09046543597800472,
+    "R": 0.06,
+    "coverage": null,
+    "update": 0.08312058130400629,
+    "learned": 0.0,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 423,
+    "Q": 0.12626173708920188,
+    "R": 0.09142857142857143,
+    "coverage": null,
+    "update": 0.11646615805946792,
+    "learned": 0.0,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "orig/on:ban_uniform:0.90": {
+   "D4": {
+    "damage": 0.0020408163265306124,
+    "damaged": 1,
+    "known": 490,
+    "Q": 0.8150749063670412,
+    "R": 0.7171428571428572,
+    "coverage": null,
+    "update": 0.98625,
+    "learned": 0.7889060092449923,
+    "fired_loc": 0.006122448979591836,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006122448979591836,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0022471910112359553,
+    "damaged": 1,
+    "known": 445,
+    "Q": 0.838306277056277,
+    "R": 0.7,
+    "coverage": null,
+    "update": 0.9847564935064935,
+    "learned": 0.8223201174743024,
+    "fired_loc": 0.0022471910112359553,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0022471910112359553,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.8019206598586017,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.9837686567164179,
+    "learned": 0.787833827893175,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.8187627151799687,
+    "R": 0.7171428571428572,
+    "coverage": null,
+    "update": 0.9894894366197183,
+    "learned": 0.7962962962962963,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "orig/on:matched": {
+   "D4": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 490,
+    "Q": 0.8138249063670412,
+    "R": 0.7171428571428572,
+    "coverage": null,
+    "update": 0.98625,
+    "learned": 0.7873651771956857,
+    "fired_loc": 0.0020408163265306124,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0020408163265306124,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 445,
+    "Q": 0.8316829004329004,
+    "R": 0.7,
+    "coverage": null,
+    "update": 0.9835064935064934,
+    "learned": 0.8149779735682819,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.7981706598586017,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.9837686567164179,
+    "learned": 0.7833827893175074,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.002364066193853428,
+    "damaged": 1,
+    "known": 423,
+    "Q": 0.8162627151799687,
+    "R": 0.7171428571428572,
+    "coverage": null,
+    "update": 0.9894894366197183,
+    "learned": 0.7932098765432098,
+    "fired_loc": 0.004728132387706856,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004728132387706856,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "orig/on:noban_matched": {
+   "D4": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 490,
+    "Q": 0.8138249063670412,
+    "R": 0.7171428571428572,
+    "coverage": null,
+    "update": 0.98625,
+    "learned": 0.7873651771956857,
+    "fired_loc": 0.0020408163265306124,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0020408163265306124,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 445,
+    "Q": 0.8316829004329004,
+    "R": 0.7,
+    "coverage": null,
+    "update": 0.9835064935064934,
+    "learned": 0.8149779735682819,
+    "fired_loc": 0.0,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.7981706598586017,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.9837686567164179,
+    "learned": 0.7833827893175074,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.002364066193853428,
+    "damaged": 1,
+    "known": 423,
+    "Q": 0.8162627151799687,
+    "R": 0.7171428571428572,
+    "coverage": null,
+    "update": 0.9894894366197183,
+    "learned": 0.7932098765432098,
+    "fired_loc": 0.004728132387706856,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004728132387706856,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "orig/on:shuffled:0": {
+   "D4": {
+    "damage": 0.0020408163265306124,
+    "damaged": 1,
+    "known": 490,
+    "Q": 0.8113249063670412,
+    "R": 0.7171428571428572,
+    "coverage": null,
+    "update": 0.9848455056179775,
+    "learned": 0.7842835130970724,
+    "fired_loc": 0.006122448979591836,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006122448979591836,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0022471910112359553,
+    "damaged": 1,
+    "known": 445,
+    "Q": 0.8303896103896103,
+    "R": 0.7,
+    "coverage": null,
+    "update": 0.9822564935064935,
+    "learned": 0.8135095447870778,
+    "fired_loc": 0.0022471910112359553,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0022471910112359553,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.7969206598586017,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.9800186567164179,
+    "learned": 0.7818991097922848,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.8137627151799687,
+    "R": 0.7171428571428572,
+    "coverage": null,
+    "update": 0.9882394366197182,
+    "learned": 0.7901234567901234,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "orig/on:shuffled:1": {
+   "D4": {
+    "damage": 0.0020408163265306124,
+    "damaged": 1,
+    "known": 490,
+    "Q": 0.8111704119850187,
+    "R": 0.7171428571428572,
+    "coverage": null,
+    "update": 0.985,
+    "learned": 0.7842835130970724,
+    "fired_loc": 0.006122448979591836,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006122448979591836,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0022471910112359553,
+    "damaged": 1,
+    "known": 445,
+    "Q": 0.833306277056277,
+    "R": 0.6971428571428572,
+    "coverage": null,
+    "update": 0.9835064935064934,
+    "learned": 0.8164464023494861,
+    "fired_loc": 0.0022471910112359553,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0022471910112359553,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.7969206598586017,
+    "R": 0.6857142857142857,
+    "coverage": null,
+    "update": 0.9812686567164179,
+    "learned": 0.7818991097922848,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.8175127151799687,
+    "R": 0.7142857142857143,
+    "coverage": null,
+    "update": 0.9882394366197182,
+    "learned": 0.7947530864197531,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "orig/on:shuffled:2": {
+   "D4": {
+    "damage": 0.0020408163265306124,
+    "damaged": 1,
+    "known": 490,
+    "Q": 0.8125749063670412,
+    "R": 0.7171428571428572,
+    "coverage": null,
+    "update": 0.98625,
+    "learned": 0.785824345146379,
+    "fired_loc": 0.006122448979591836,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006122448979591836,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0022471910112359553,
+    "damaged": 1,
+    "known": 445,
+    "Q": 0.834556277056277,
+    "R": 0.6971428571428572,
+    "coverage": null,
+    "update": 0.9835064935064934,
+    "learned": 0.8179148311306902,
+    "fired_loc": 0.0022471910112359553,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0022471910112359553,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.7994206598586017,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.9825186567164179,
+    "learned": 0.7848664688427299,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.8162627151799687,
+    "R": 0.7171428571428572,
+    "coverage": null,
+    "update": 0.9882394366197182,
+    "learned": 0.7932098765432098,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "orig/on:shuffled:3": {
+   "D4": {
+    "damage": 0.0020408163265306124,
+    "damaged": 1,
+    "known": 490,
+    "Q": 0.8111704119850187,
+    "R": 0.7171428571428572,
+    "coverage": null,
+    "update": 0.985,
+    "learned": 0.7842835130970724,
+    "fired_loc": 0.006122448979591836,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006122448979591836,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0022471910112359553,
+    "damaged": 1,
+    "known": 445,
+    "Q": 0.834556277056277,
+    "R": 0.7,
+    "coverage": null,
+    "update": 0.9835064935064934,
+    "learned": 0.8179148311306902,
+    "fired_loc": 0.0022471910112359553,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0022471910112359553,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.7981706598586017,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.9825186567164179,
+    "learned": 0.7833827893175074,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.8162627151799687,
+    "R": 0.7171428571428572,
+    "coverage": null,
+    "update": 0.9869894366197183,
+    "learned": 0.7932098765432098,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "orig/on:shuffled:4": {
+   "D4": {
+    "damage": 0.0,
+    "damaged": 0,
+    "known": 490,
+    "Q": 0.8138249063670412,
+    "R": 0.7171428571428572,
+    "coverage": null,
+    "update": 0.98625,
+    "learned": 0.7873651771956857,
+    "fired_loc": 0.004081632653061225,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004081632653061225,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0022471910112359553,
+    "damaged": 1,
+    "known": 445,
+    "Q": 0.8308062770562771,
+    "R": 0.7,
+    "coverage": null,
+    "update": 0.9835064935064934,
+    "learned": 0.8135095447870778,
+    "fired_loc": 0.0022471910112359553,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0022471910112359553,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.7994206598586017,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.9825186567164179,
+    "learned": 0.7848664688427299,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.8162627151799687,
+    "R": 0.7171428571428572,
+    "coverage": null,
+    "update": 0.9894894366197183,
+    "learned": 0.7932098765432098,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "orig/on:shuffled:5": {
+   "D4": {
+    "damage": 0.0020408163265306124,
+    "damaged": 1,
+    "known": 490,
+    "Q": 0.8124204119850187,
+    "R": 0.7171428571428572,
+    "coverage": null,
+    "update": 0.9848455056179775,
+    "learned": 0.785824345146379,
+    "fired_loc": 0.006122448979591836,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006122448979591836,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0022471910112359553,
+    "damaged": 1,
+    "known": 445,
+    "Q": 0.834556277056277,
+    "R": 0.6971428571428572,
+    "coverage": null,
+    "update": 0.9847564935064935,
+    "learned": 0.8179148311306902,
+    "fired_loc": 0.0022471910112359553,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0022471910112359553,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.7956706598586017,
+    "R": 0.6885714285714286,
+    "coverage": null,
+    "update": 0.9837686567164179,
+    "learned": 0.7804154302670623,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.8175127151799687,
+    "R": 0.7142857142857143,
+    "coverage": null,
+    "update": 0.9882394366197182,
+    "learned": 0.7947530864197531,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "orig/on:shuffled:6": {
+   "D4": {
+    "damage": 0.0020408163265306124,
+    "damaged": 1,
+    "known": 490,
+    "Q": 0.8124204119850187,
+    "R": 0.7142857142857143,
+    "coverage": null,
+    "update": 0.98625,
+    "learned": 0.785824345146379,
+    "fired_loc": 0.006122448979591836,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006122448979591836,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0022471910112359553,
+    "damaged": 1,
+    "known": 445,
+    "Q": 0.8328896103896104,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.9822564935064935,
+    "learned": 0.8164464023494861,
+    "fired_loc": 0.0022471910112359553,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0022471910112359553,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.7981706598586017,
+    "R": 0.6885714285714286,
+    "coverage": null,
+    "update": 0.9837686567164179,
+    "learned": 0.7833827893175074,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.8162627151799687,
+    "R": 0.7171428571428572,
+    "coverage": null,
+    "update": 0.9882394366197182,
+    "learned": 0.7932098765432098,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "orig/on:shuffled:7": {
+   "D4": {
+    "damage": 0.0020408163265306124,
+    "damaged": 1,
+    "known": 490,
+    "Q": 0.8124204119850187,
+    "R": 0.7171428571428572,
+    "coverage": null,
+    "update": 0.98625,
+    "learned": 0.785824345146379,
+    "fired_loc": 0.006122448979591836,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006122448979591836,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0022471910112359553,
+    "damaged": 1,
+    "known": 445,
+    "Q": 0.8328896103896104,
+    "R": 0.6971428571428572,
+    "coverage": null,
+    "update": 0.9835064935064934,
+    "learned": 0.8164464023494861,
+    "fired_loc": 0.0022471910112359553,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0022471910112359553,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.7981706598586017,
+    "R": 0.6885714285714286,
+    "coverage": null,
+    "update": 0.9837686567164179,
+    "learned": 0.7833827893175074,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.8162627151799687,
+    "R": 0.7171428571428572,
+    "coverage": null,
+    "update": 0.9894894366197183,
+    "learned": 0.7932098765432098,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  },
+  "orig/on:uniform:0.90": {
+   "D4": {
+    "damage": 0.0020408163265306124,
+    "damaged": 1,
+    "known": 490,
+    "Q": 0.8150749063670412,
+    "R": 0.7171428571428572,
+    "coverage": null,
+    "update": 0.98625,
+    "learned": 0.7889060092449923,
+    "fired_loc": 0.006122448979591836,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.006122448979591836,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0009532888465204957
+   },
+   "D5": {
+    "damage": 0.0022471910112359553,
+    "damaged": 1,
+    "known": 445,
+    "Q": 0.838306277056277,
+    "R": 0.7,
+    "coverage": null,
+    "update": 0.9847564935064935,
+    "learned": 0.8223201174743024,
+    "fired_loc": 0.0022471910112359553,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.0022471910112359553,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D6": {
+    "damage": 0.0021551724137931034,
+    "damaged": 1,
+    "known": 464,
+    "Q": 0.8019206598586017,
+    "R": 0.6914285714285714,
+    "coverage": null,
+    "update": 0.9837686567164179,
+    "learned": 0.787833827893175,
+    "fired_loc": 0.004310344827586207,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.004310344827586207,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   },
+   "D7": {
+    "damage": 0.0070921985815602835,
+    "damaged": 3,
+    "known": 423,
+    "Q": 0.8187627151799687,
+    "R": 0.7171428571428572,
+    "coverage": null,
+    "update": 0.9894894366197183,
+    "learned": 0.7962962962962963,
+    "fired_loc": 0.009456264775413711,
+    "fired_loc_ctx": 0.0,
+    "fired_loc_q": 0.009456264775413711,
+    "fired_loc_gen": 0.0,
+    "refusal": 0.0
+   }
+  }
+ },
+ "arm_means": {
+  "corr/off:active_shuffled:0": {
+   "damage": 0.004375033950890926,
+   "damaged": 2.0,
+   "known": 455.5,
+   "Q": 0.8162009987704018,
+   "R": 0.7057142857142857,
+   "coverage": null,
+   "update": 0.9919384087769494,
+   "learned": 0.7958479027137064,
+   "fired_loc": 0.0070870495188768545,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0070870495188768545,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:active_shuffled:1": {
+   "damage": 0.004966050499354283,
+   "damaged": 2.25,
+   "known": 455.5,
+   "Q": 0.8169957085082294,
+   "R": 0.7035714285714285,
+   "coverage": null,
+   "update": 0.9910009087769494,
+   "learned": 0.7969723267162581,
+   "fired_loc": 0.0076780660673402105,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0076780660673402105,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:active_shuffled:2": {
+   "damage": 0.004966050499354283,
+   "damaged": 2.25,
+   "known": 455.5,
+   "Q": 0.8171384987704018,
+   "R": 0.7050000000000001,
+   "coverage": null,
+   "update": 0.9916259087769493,
+   "learned": 0.7969486298428003,
+   "fired_loc": 0.0076780660673402105,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0076780660673402105,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:active_shuffled:3": {
+   "damage": 0.004966050499354283,
+   "damaged": 2.25,
+   "known": 455.5,
+   "Q": 0.8177634987704017,
+   "R": 0.7064285714285714,
+   "coverage": null,
+   "update": 0.9910009087769494,
+   "learned": 0.797680220461016,
+   "fired_loc": 0.0076780660673402105,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0076780660673402105,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:active_shuffled:4": {
+   "damage": 0.004966050499354283,
+   "damaged": 2.25,
+   "known": 455.5,
+   "Q": 0.815159332103735,
+   "R": 0.7064285714285714,
+   "coverage": null,
+   "update": 0.9916259087769493,
+   "learned": 0.7946872770771035,
+   "fired_loc": 0.0076780660673402105,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0076780660673402105,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:active_shuffled:5": {
+   "damage": 0.004966050499354283,
+   "damaged": 2.25,
+   "known": 455.5,
+   "Q": 0.8170451546145576,
+   "R": 0.7057142857142857,
+   "coverage": null,
+   "update": 0.9922509087769493,
+   "learned": 0.7969685140302534,
+   "fired_loc": 0.0076780660673402105,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0076780660673402105,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:active_shuffled:6": {
+   "damage": 0.0038940486649126417,
+   "damaged": 1.75,
+   "known": 455.5,
+   "Q": 0.8177634987704018,
+   "R": 0.705,
+   "coverage": null,
+   "update": 0.9916259087769493,
+   "learned": 0.7977053521932418,
+   "fired_loc": 0.006606064232898569,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.006606064232898569,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:active_shuffled:7": {
+   "damage": 0.004966050499354283,
+   "damaged": 2.25,
+   "known": 455.5,
+   "Q": 0.8163268104587135,
+   "R": 0.7021428571428572,
+   "coverage": null,
+   "update": 0.9919384087769494,
+   "learned": 0.7962051289208002,
+   "fired_loc": 0.0076780660673402105,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0076780660673402105,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:ban_uniform:0.90": {
+   "damage": 0.004966050499354283,
+   "damaged": 2.25,
+   "known": 455.5,
+   "Q": 0.8212009987704018,
+   "R": 0.7064285714285714,
+   "coverage": null,
+   "update": 0.9928759087769493,
+   "learned": 0.8018291560380969,
+   "fired_loc": 0.0076780660673402105,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0076780660673402105,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:matched": {
+   "damage": 0.0021502178151769392,
+   "damaged": 1.0,
+   "known": 455.5,
+   "Q": 0.8176701546145576,
+   "R": 0.7064285714285714,
+   "coverage": null,
+   "update": 0.9925634087769494,
+   "learned": 0.7977240474670766,
+   "fired_loc": 0.0037902315487212245,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0037902315487212245,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:noban_matched": {
+   "damage": 0.0021502178151769392,
+   "damaged": 1.0,
+   "known": 455.5,
+   "Q": 0.8179826546145575,
+   "R": 0.7064285714285714,
+   "coverage": null,
+   "update": 0.9928759087769493,
+   "learned": 0.7981092554794033,
+   "fired_loc": 0.0037902315487212245,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0037902315487212245,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:shuffled:0": {
+   "damage": 0.004966050499354283,
+   "damaged": 2.25,
+   "known": 455.5,
+   "Q": 0.8160968321037351,
+   "R": 0.7064285714285714,
+   "coverage": null,
+   "update": 0.9906497851814438,
+   "learned": 0.7958292074398716,
+   "fired_loc": 0.0076780660673402105,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0076780660673402105,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:shuffled:1": {
+   "damage": 0.004966050499354283,
+   "damaged": 2.25,
+   "known": 455.5,
+   "Q": 0.8170998751748961,
+   "R": 0.7021428571428572,
+   "coverage": null,
+   "update": 0.9910009087769494,
+   "learned": 0.7969685140302534,
+   "fired_loc": 0.0076780660673402105,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0076780660673402105,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:shuffled:2": {
+   "damage": 0.004966050499354283,
+   "damaged": 2.25,
+   "known": 455.5,
+   "Q": 0.8183884987704018,
+   "R": 0.7057142857142857,
+   "coverage": null,
+   "update": 0.9919384087769494,
+   "learned": 0.7984582618576787,
+   "fired_loc": 0.0076780660673402105,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0076780660673402105,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:shuffled:3": {
+   "damage": 0.004966050499354283,
+   "damaged": 2.25,
+   "known": 455.5,
+   "Q": 0.8183498751748961,
+   "R": 0.7057142857142857,
+   "coverage": null,
+   "update": 0.9916259087769493,
+   "learned": 0.7984582618576787,
+   "fired_loc": 0.0076780660673402105,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0076780660673402105,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:shuffled:4": {
+   "damage": 0.004455846417721631,
+   "damaged": 2.0,
+   "known": 455.5,
+   "Q": 0.8174509987704017,
+   "R": 0.7064285714285714,
+   "coverage": null,
+   "update": 0.9928759087769493,
+   "learned": 0.7973750410888012,
+   "fired_loc": 0.007167861985707558,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.007167861985707558,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:shuffled:5": {
+   "damage": 0.004966050499354283,
+   "damaged": 2.25,
+   "known": 455.5,
+   "Q": 0.8170998751748961,
+   "R": 0.7035714285714285,
+   "coverage": null,
+   "update": 0.9922122851814438,
+   "learned": 0.7970009029783001,
+   "fired_loc": 0.0076780660673402105,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0076780660673402105,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:shuffled:6": {
+   "damage": 0.004404252746545294,
+   "damaged": 2.0,
+   "known": 455.5,
+   "Q": 0.8182457085082294,
+   "R": 0.7028571428571428,
+   "coverage": null,
+   "update": 0.9922509087769493,
+   "learned": 0.7984582618576787,
+   "fired_loc": 0.006554470561722234,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.006554470561722234,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:shuffled:7": {
+   "damage": 0.004966050499354283,
+   "damaged": 2.25,
+   "known": 455.5,
+   "Q": 0.8169957085082294,
+   "R": 0.7050000000000001,
+   "coverage": null,
+   "update": 0.9922509087769493,
+   "learned": 0.7969536314424233,
+   "fired_loc": 0.0076780660673402105,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0076780660673402105,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "corr/off:uniform:0.90": {
+   "damage": 0.004966050499354283,
+   "damaged": 2.25,
+   "known": 455.5,
+   "Q": 0.8215134987704018,
+   "R": 0.7064285714285714,
+   "coverage": null,
+   "update": 0.9931884087769494,
+   "learned": 0.8022143640504236,
+   "fired_loc": 0.0076780660673402105,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0076780660673402105,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "none": {
+   "damage": 0.0,
+   "damaged": 0.0,
+   "known": 455.5,
+   "Q": 0.11097136839205093,
+   "R": 0.08142857142857143,
+   "coverage": null,
+   "update": 0.1102279266327845,
+   "learned": 0.0,
+   "fired_loc": 0.0,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "orig/on:ban_uniform:0.90": {
+   "damage": 0.0033838445832799885,
+   "damaged": 1.5,
+   "known": 455.5,
+   "Q": 0.8185161396154721,
+   "R": 0.7064285714285714,
+   "coverage": null,
+   "update": 0.9860661467106574,
+   "learned": 0.7988390627271915,
+   "fired_loc": 0.005534062398456927,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.005534062398456927,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "orig/on:matched": {
+   "damage": 0.0011298096519116328,
+   "damaged": 0.5,
+   "known": 455.5,
+   "Q": 0.814985295459628,
+   "R": 0.7064285714285714,
+   "coverage": null,
+   "update": 0.9857536467106573,
+   "learned": 0.7947339541561712,
+   "fired_loc": 0.0027698233854559187,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0027698233854559187,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "orig/on:noban_matched": {
+   "damage": 0.0011298096519116328,
+   "damaged": 0.5,
+   "known": 455.5,
+   "Q": 0.814985295459628,
+   "R": 0.7064285714285714,
+   "coverage": null,
+   "update": 0.9857536467106573,
+   "learned": 0.7947339541561712,
+   "fired_loc": 0.0027698233854559187,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.0027698233854559187,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "orig/on:shuffled:0": {
+   "damage": 0.0033838445832799885,
+   "damaged": 1.5,
+   "known": 455.5,
+   "Q": 0.8130994729488055,
+   "R": 0.7064285714285714,
+   "coverage": null,
+   "update": 0.9838400231151517,
+   "learned": 0.7924539061166396,
+   "fired_loc": 0.005534062398456927,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.005534062398456927,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "orig/on:shuffled:1": {
+   "damage": 0.0033838445832799885,
+   "damaged": 1.5,
+   "known": 455.5,
+   "Q": 0.8147275160199665,
+   "R": 0.7035714285714286,
+   "coverage": null,
+   "update": 0.9845036467106574,
+   "learned": 0.7943455279146491,
+   "fired_loc": 0.005534062398456927,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.005534062398456927,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "orig/on:shuffled:2": {
+   "damage": 0.0033838445832799885,
+   "damaged": 1.5,
+   "known": 455.5,
+   "Q": 0.8157036396154722,
+   "R": 0.7057142857142857,
+   "coverage": null,
+   "update": 0.9851286467106574,
+   "learned": 0.7954538804157523,
+   "fired_loc": 0.005534062398456927,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.005534062398456927,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "orig/on:shuffled:3": {
+   "damage": 0.0033838445832799885,
+   "damaged": 1.5,
+   "known": 455.5,
+   "Q": 0.8150400160199666,
+   "R": 0.7064285714285714,
+   "coverage": null,
+   "update": 0.9845036467106574,
+   "learned": 0.7946977525221199,
+   "fired_loc": 0.005534062398456927,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.005534062398456927,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "orig/on:shuffled:4": {
+   "damage": 0.0028736405016473354,
+   "damaged": 1.25,
+   "known": 455.5,
+   "Q": 0.8150786396154721,
+   "R": 0.7064285714285714,
+   "coverage": null,
+   "update": 0.9854411467106574,
+   "learned": 0.7947377668421758,
+   "fired_loc": 0.005023858316824274,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.005023858316824274,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "orig/on:shuffled:5": {
+   "damage": 0.0033838445832799885,
+   "damaged": 1.5,
+   "known": 455.5,
+   "Q": 0.8150400160199666,
+   "R": 0.7042857142857143,
+   "coverage": null,
+   "update": 0.9854025231151518,
+   "learned": 0.7947269232409712,
+   "fired_loc": 0.005534062398456927,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.005534062398456927,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "orig/on:shuffled:6": {
+   "damage": 0.0033838445832799885,
+   "damaged": 1.5,
+   "known": 455.5,
+   "Q": 0.8149358493532999,
+   "R": 0.7028571428571428,
+   "coverage": null,
+   "update": 0.9851286467106574,
+   "learned": 0.7947158533391456,
+   "fired_loc": 0.005534062398456927,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.005534062398456927,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "orig/on:shuffled:7": {
+   "damage": 0.0033838445832799885,
+   "damaged": 1.5,
+   "known": 455.5,
+   "Q": 0.8149358493532999,
+   "R": 0.7050000000000001,
+   "coverage": null,
+   "update": 0.9857536467106573,
+   "learned": 0.7947158533391456,
+   "fired_loc": 0.005534062398456927,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.005534062398456927,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  },
+  "orig/on:uniform:0.90": {
+   "damage": 0.0033838445832799885,
+   "damaged": 1.5,
+   "known": 455.5,
+   "Q": 0.8185161396154721,
+   "R": 0.7064285714285714,
+   "coverage": null,
+   "update": 0.9860661467106574,
+   "learned": 0.7988390627271915,
+   "fired_loc": 0.005534062398456927,
+   "fired_loc_ctx": 0.0,
+   "fired_loc_q": 0.005534062398456927,
+   "fired_loc_gen": 0.0,
+   "refusal": 0.00023832221163012392
+  }
+ },
+ "checks": {
+  "D4": {
+   "none_known_all_right": true,
+   "unfired_max": 0,
+   "reversed_same": true,
+   "matched_recompute": 2.0265579223632812e-06,
+   "corr_unchanged_bitwise": true,
+   "shuffle_multisets_equal": true,
+   "active_shuffle_bans_fixed": true,
+   "ban_uniform_bans_off": true,
+   "refused_never_active": true,
+   "blocked": true,
+   "known": 490,
+   "entries": 1049,
+   "changed": 49,
+   "refused": 1,
+   "seconds": 3484.4937887191772
+  },
+  "D5": {
+   "none_known_all_right": true,
+   "unfired_max": 0,
+   "reversed_same": true,
+   "matched_recompute": 2.4437904357910156e-06,
+   "corr_unchanged_bitwise": true,
+   "shuffle_multisets_equal": true,
+   "active_shuffle_bans_fixed": true,
+   "ban_uniform_bans_off": true,
+   "refused_never_active": true,
+   "blocked": true,
+   "known": 445,
+   "entries": 1052,
+   "changed": 33,
+   "refused": 0,
+   "seconds": 3367.898507118225
+  },
+  "D6": {
+   "none_known_all_right": true,
+   "unfired_max": 0,
+   "reversed_same": true,
+   "matched_recompute": 1.6689300537109375e-06,
+   "corr_unchanged_bitwise": true,
+   "shuffle_multisets_equal": true,
+   "active_shuffle_bans_fixed": true,
+   "ban_uniform_bans_off": true,
+   "refused_never_active": true,
+   "blocked": true,
+   "known": 464,
+   "entries": 1043,
+   "changed": 33,
+   "refused": 0,
+   "seconds": 3426.9559371471405
+  },
+  "D7": {
+   "none_known_all_right": true,
+   "unfired_max": 0,
+   "reversed_same": true,
+   "matched_recompute": 1.1920928955078125e-06,
+   "corr_unchanged_bitwise": true,
+   "shuffle_multisets_equal": true,
+   "active_shuffle_bans_fixed": true,
+   "ban_uniform_bans_off": true,
+   "refused_never_active": true,
+   "blocked": true,
+   "known": 423,
+   "entries": 1043,
+   "changed": 41,
+   "refused": 0,
+   "seconds": 3311.8261783123016
+  }
+ },
+ "selected": {
+  "corr/off": {
+   "uniform": {
+    "arm": "uniform:0.90",
+    "level": 0.9,
+    "flag": "met",
+    "matched": {
+     "Q": 0.8145673701804578,
+     "R": 0.6950000000000001,
+     "damage": 0.0020620894720043007
+    },
+    "grid": {
+     "uniform:0.88": {
+      "Q": 0.8495870292055815,
+      "R": 0.7457142857142857,
+      "damage": 0.01042526995910837,
+      "shortfall": -0.055019659025123735
+     },
+     "uniform:0.90": {
+      "Q": 0.8170673701804577,
+      "R": 0.6964285714285714,
+      "damage": 0.006249658112676785,
+      "shortfall": -0.021428571428571352
+     },
+     "uniform:0.92": {
+      "Q": 0.7570562509124897,
+      "R": 0.6235714285714286,
+      "damage": 0.0030960610422785763,
+      "shortfall": 0.05142857142857149
+     },
+     "uniform:0.94": {
+      "Q": 0.6484704475517434,
+      "R": 0.49785714285714283,
+      "damage": 0.0015778424187967949,
+      "shortfall": 0.1771428571428572
+     },
+     "uniform:0.96": {
+      "Q": 0.41228384791174477,
+      "R": 0.3035714285714286,
+      "damage": 0.0,
+      "shortfall": 0.382283522268713
+     },
+     "uniform:0.98": {
+      "Q": 0.16303201211414603,
+      "R": 0.11499999999999999,
+      "damage": 0.0,
+      "shortfall": 0.6315353580663117
+     }
+    }
+   },
+   "ban_uniform": {
+    "arm": "ban_uniform:0.90",
+    "level": 0.9,
+    "flag": "met",
+    "matched": {
+     "Q": 0.8145673701804578,
+     "R": 0.6950000000000001,
+     "damage": 0.0020620894720043007
+    },
+    "grid": {
+     "ban_uniform:0.88": {
+      "Q": 0.8495870292055815,
+      "R": 0.7457142857142857,
+      "damage": 0.01042526995910837,
+      "shortfall": -0.055019659025123735
+     },
+     "ban_uniform:0.90": {
+      "Q": 0.8170673701804577,
+      "R": 0.6964285714285714,
+      "damage": 0.006249658112676785,
+      "shortfall": -0.021428571428571352
+     },
+     "ban_uniform:0.92": {
+      "Q": 0.7570562509124897,
+      "R": 0.6235714285714286,
+      "damage": 0.0030960610422785763,
+      "shortfall": 0.05142857142857149
+     },
+     "ban_uniform:0.94": {
+      "Q": 0.6484704475517434,
+      "R": 0.49785714285714283,
+      "damage": 0.0015778424187967949,
+      "shortfall": 0.1771428571428572
+     },
+     "ban_uniform:0.96": {
+      "Q": 0.41228384791174477,
+      "R": 0.3035714285714286,
+      "damage": 0.0,
+      "shortfall": 0.382283522268713
+     },
+     "ban_uniform:0.98": {
+      "Q": 0.16303201211414603,
+      "R": 0.11499999999999999,
+      "damage": 0.0,
+      "shortfall": 0.6315353580663117
+     }
+    }
+   }
+  }
+ },
+ "practical_comparators": {
+  "corr/off": [
+   "uniform:0.90",
+   "ban_uniform:0.90"
+  ]
+ },
+ "dev_tuning": {
+  "corr/off": {
+   "uniform": {
+    "arm": "uniform:0.90",
+    "level": 0.9,
+    "flag": "met",
+    "matched": {
+     "Q": 0.8145673701804578,
+     "R": 0.6950000000000001,
+     "damage": 0.0020620894720043007
+    },
+    "grid": {
+     "uniform:0.88": {
+      "Q": 0.8495870292055815,
+      "R": 0.7457142857142857,
+      "damage": 0.01042526995910837,
+      "shortfall": -0.055019659025123735
+     },
+     "uniform:0.90": {
+      "Q": 0.8170673701804577,
+      "R": 0.6964285714285714,
+      "damage": 0.006249658112676785,
+      "shortfall": -0.021428571428571352
+     },
+     "uniform:0.92": {
+      "Q": 0.7570562509124897,
+      "R": 0.6235714285714286,
+      "damage": 0.0030960610422785763,
+      "shortfall": 0.05142857142857149
+     },
+     "uniform:0.94": {
+      "Q": 0.6484704475517434,
+      "R": 0.49785714285714283,
+      "damage": 0.0015778424187967949,
+      "shortfall": 0.1771428571428572
+     },
+     "uniform:0.96": {
+      "Q": 0.41228384791174477,
+      "R": 0.3035714285714286,
+      "damage": 0.0,
+      "shortfall": 0.382283522268713
+     },
+     "uniform:0.98": {
+      "Q": 0.16303201211414603,
+      "R": 0.11499999999999999,
+      "damage": 0.0,
+      "shortfall": 0.6315353580663117
+     }
+    }
+   },
+   "ban_uniform": {
+    "arm": "ban_uniform:0.90",
+    "level": 0.9,
+    "flag": "met",
+    "matched": {
+     "Q": 0.8145673701804578,
+     "R": 0.6950000000000001,
+     "damage": 0.0020620894720043007
+    },
+    "grid": {
+     "ban_uniform:0.88": {
+      "Q": 0.8495870292055815,
+      "R": 0.7457142857142857,
+      "damage": 0.01042526995910837,
+      "shortfall": -0.055019659025123735
+     },
+     "ban_uniform:0.90": {
+      "Q": 0.8170673701804577,
+      "R": 0.6964285714285714,
+      "damage": 0.006249658112676785,
+      "shortfall": -0.021428571428571352
+     },
+     "ban_uniform:0.92": {
+      "Q": 0.7570562509124897,
+      "R": 0.6235714285714286,
+      "damage": 0.0030960610422785763,
+      "shortfall": 0.05142857142857149
+     },
+     "ban_uniform:0.94": {
+      "Q": 0.6484704475517434,
+      "R": 0.49785714285714283,
+      "damage": 0.0015778424187967949,
+      "shortfall": 0.1771428571428572
+     },
+     "ban_uniform:0.96": {
+      "Q": 0.41228384791174477,
+      "R": 0.3035714285714286,
+      "damage": 0.0,
+      "shortfall": 0.382283522268713
+     },
+     "ban_uniform:0.98": {
+      "Q": 0.16303201211414603,
+      "R": 0.11499999999999999,
+      "damage": 0.0,
+      "shortfall": 0.6315353580663117
+     }
+    }
+   }
+  }
+ },
+ "reproduction": null
+}

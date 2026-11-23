@@ -1,0 +1,143 @@
+{
+ "data_dir": "E:/research/pause2/data/wikibigedit",
+ "expect_steps": 8,
+ "model_path": "E:/research/pause2/models/qwen3_0.6b_base",
+ "dtype": "bfloat16",
+ "torch_seed": 0,
+ "sites": [
+  "model.layers.{i}.mlp.down_proj"
+ ],
+ "layers": "all",
+ "rank": 16,
+ "scale": 1.0,
+ "clip": 1.0,
+ "streams": {
+  "args": {
+   "n_pilot": 2,
+   "n_dev": 8,
+   "edits_per_stream": 1600,
+   "loc_probe": 2000,
+   "loc_hidden": 6000,
+   "n_shots": 2
+  },
+  "mu_corpus": {
+   "buckets": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "n": 20000
+  }
+ },
+ "panels": {
+  "max_cur": 100,
+  "ret_per_step": 25,
+  "max_loc": 6000,
+  "max_new": 24,
+  "gen_batch": 64
+ },
+ "eval": {
+  "widths": [
+   96,
+   128,
+   192,
+   256,
+   384
+  ],
+  "batch": 64,
+  "max_new": 24
+ },
+ "local": {
+  "mode": "route",
+  "layers": [
+   8
+  ],
+  "tau": 0.9,
+  "probe_margin": 0.02,
+  "massive": 200.0,
+  "v_steps": 25,
+  "v_lr": 0.5,
+  "v_wd": 0.5,
+  "clamp": 0.75,
+  "kl": 0.0625,
+  "stop_loss": 0.05,
+  "n_rand": 2,
+  "rand_len": 10,
+  "use_context": true,
+  "chunk": 32,
+  "key_batch": 64
+ },
+ "write_seed": 1,
+ "rule": {
+  "delta": 0.02,
+  "tol_q": 0.02,
+  "tol_r": 0.02,
+  "min_positive_share": 0.75,
+  "bootstrap": 10000,
+  "bootstrap_seed": 0
+ },
+ "status": "FROZEN 2026-11-22T04:41:25Z before any RC-15 model run, by Claude on the author's 2026-11-22 request to run the review's supplementary experiments on vast.ai (pause2/Applied Intelligence/review_and_advise.md). Design in PLAN.md; parent config field_prefix_ablation_012/config_dev.json 2a5f828e.",
+ "kind": "fp",
+ "spans": "../field_prefix_ablation_012/annotation/spans_final.json",
+ "spans_sha256": "53b16cd9178452da3b1d1925da1b7ca298820e8afdeff99b405d32750b6da8d6",
+ "determinism_arm": "corr/off:matched",
+ "interventions": {
+  "max_single": 8
+ },
+ "budget": {
+  "gpu": "RTX 4090",
+  "max_usd_per_hour": 0.5,
+  "session_cap_usd": 6.0
+ },
+ "phases": {
+  "test": {
+   "streams": [
+    "D4",
+    "D5",
+    "D6",
+    "D7"
+   ],
+   "cap": 150,
+   "cells": [
+    "corr/off"
+   ],
+   "arms": {
+    "corr/off": [
+     "matched",
+     "shuffled:0",
+     "shuffled:1",
+     "shuffled:2",
+     "shuffled:3",
+     "shuffled:4",
+     "shuffled:5",
+     "shuffled:6",
+     "shuffled:7",
+     "active_shuffled:0",
+     "active_shuffled:1",
+     "active_shuffled:2",
+     "active_shuffled:3",
+     "active_shuffled:4",
+     "active_shuffled:5",
+     "active_shuffled:6",
+     "active_shuffled:7",
+     "noban_matched",
+     "uniform:0.90",
+     "uniform:0.92",
+     "ban_uniform:0.90"
+    ]
+   },
+   "interventions": [
+    "uniform:0.90",
+    "matched",
+    "shuffled:0"
+   ]
+  }
+ },
+ "practical": {
+  "corr/off": [
+   "uniform:0.92"
+  ]
+ },
+ "variant": "seed1"
+}

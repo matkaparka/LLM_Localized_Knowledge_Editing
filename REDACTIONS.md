@@ -1,9 +1,10 @@
 # Redactions for the public release
 
-Every file under `experiments/` is a byte-for-byte copy of the archived file, except the 13 files below. No number
+Every file under `experiments/` is a byte-for-byte copy of the archived file, except the 24 files below. No number
 in the manuscript depends on what was removed.
 
-**Registry-derived question texts (XR-13).** The per-item records of the software-registry study held the locality
+**Registry-derived question texts (XR-13 and RC-15).** The per-item records of the software-registry study, and of its
+rerun in the robustness checks (`robustness_checks_015/runs/xr_dev_001` and `xr_test_001`), held the locality
 questions that a language model wrote from registry metadata, in two places: the field `loc_questions` and the second
 element of every locality item in `items`. The manuscript states that the registry-derived question texts and raw API
 snapshots are not redistributed, because their redistribution terms have not been established. So `loc_questions` is
@@ -20,7 +21,10 @@ reproduces the archived `analysis.json` except the culprit categories of the sin
 anchor with the question text, so without the texts those culprits count as `other`, and items whose culprits were of
 several kinds then count once under `other`. That breakdown is descriptive and is not reported in the manuscript.
 `xr_posthoc.py` needs the registry streams and cannot be rerun; its output, `checks/posthoc_test_001.json`, is included.
-The run manifests (`manifest.json`) keep the hashes of the original records; the table below gives both.
+For RC-15, checked on 2026-11-23, `rc_run.py analyze` and `checks/recount.py` reproduce the archived registry analysis
+and recount from the redacted records, and the RC-15 checks that read XR-13's records (`exp0b_existing_records.py`,
+`exp5a_relaxed_match.py`) reproduce their outputs. The run manifests (`manifest.json`) keep the hashes of the original
+records; the table below gives both.
 
 **Cloud account details (KT-10).** The free-text note in `manifest_local.json` named the rented instance and an
 unpublished cloud script. The note now describes the same events without them; the hashes the file lists are unchanged.
@@ -40,3 +44,14 @@ unpublished cloud script. The note now describes the same events without them; t
 | `experiments/external_key_replication_013/data/host/runs/test_001/stream_nuget.json.gz` | `5a46fe246a1d23ae83d43608de34c575904b656778ae11853fa9ed58589023c7` | `1d8b5a1589ab1cabe43252134a59038dc3ab0bdb652f9ba3cc67eb6769822427` | 280 registry-derived question texts removed (`loc_questions` emptied, the text in each locality item of `items` blanked); `public_release_note` added |
 | `experiments/external_key_replication_013/data/host/runs/test_001/stream_packagist.json.gz` | `47a96e2cbd23aee210069d4b791fa2d9670ca4c167aed65c336e2fda73a65274` | `fd8b1a123bafdbb5ca3b34fa8ff5fe617988b3dafbd9a13936d12e91e088a813` | 1957 registry-derived question texts removed (`loc_questions` emptied, the text in each locality item of `items` blanked); `public_release_note` added |
 | `experiments/external_key_replication_013/data/host/runs/test_001/stream_pypi.json.gz` | `dd7349cf691c1db8c2573c086018b75a63cf0362c6f133d70639148c52c09f75` | `6c6bb88be167aafcc2ac560ac1c77da8280d4a53e2c42d41dffdee6ee284e36b` | 607 registry-derived question texts removed (`loc_questions` emptied, the text in each locality item of `items` blanked); `public_release_note` added |
+| `experiments/robustness_checks_015/runs/xr_dev_001/stream_cran_dev.json.gz` | `6b518eb3f6fd4ac18f7f9bf8cb85db564d6c192c3685e19ea3f03d98dee7a6dc` | `a656daaefe089d3ac1fd8562d20d1fb98ac7b5896d56ae5ef7fa9e8da63173b7` | 1 registry-derived question texts removed (`loc_questions` emptied, the text in each locality item of `items` blanked); `public_release_note` added |
+| `experiments/robustness_checks_015/runs/xr_dev_001/stream_crates_dev.json.gz` | `98453146c2ef5e961038549236dae362896105ce02135b2e91f0358f9d3825b5` | `eb247ce90bf395941f15ea236310dde031e047fbbf053d89402f42f197d9453e` | 515 registry-derived question texts removed (`loc_questions` emptied, the text in each locality item of `items` blanked); `public_release_note` added |
+| `experiments/robustness_checks_015/runs/xr_dev_001/stream_npm_dev.json.gz` | `4b8de86945e1ac1e8e65cf723090d6e0e9fafbc24f7d3ba037dd2aa4fbc1a65f` | `35344a5deffb74bee51aca8e13b2c3781c35bfb2def48e1c7996e848af7e3c1d` | 2417 registry-derived question texts removed (`loc_questions` emptied, the text in each locality item of `items` blanked); `public_release_note` added |
+| `experiments/robustness_checks_015/runs/xr_dev_001/stream_pypi_dev.json.gz` | `83ad84eec11c121b8a25dff2e9dd8f7287f2fa26df07dd07b7e060d3305739aa` | `14179b439b7dcb7af79428d7e7db9ab8e557976d6d8e6d4018b6aa327842603a` | 683 registry-derived question texts removed (`loc_questions` emptied, the text in each locality item of `items` blanked); `public_release_note` added |
+| `experiments/robustness_checks_015/runs/xr_test_001/stream_crates.json.gz` | `996b200686c754a3eaef372d62fe7e50d88d3e8312d159b48910f653d3732c70` | `263e423b70fe0c672945e24a6b7d55351a4906d5a719575340468c8a58540b2f` | 502 registry-derived question texts removed (`loc_questions` emptied, the text in each locality item of `items` blanked); `public_release_note` added |
+| `experiments/robustness_checks_015/runs/xr_test_001/stream_hackage.json.gz` | `7c3f4e4c6881b110cb50f1bea4498bd78043d95556bb4219656e4f237c210645` | `e358aaafccba6a4fda140e290752f93c8e94289d0ab404e9b9ae3f82360c84c3` | 346 registry-derived question texts removed (`loc_questions` emptied, the text in each locality item of `items` blanked); `public_release_note` added |
+| `experiments/robustness_checks_015/runs/xr_test_001/stream_homebrew.json.gz` | `08bf0e14009df44a7ddb191678b0649da59b9f954ac9bc47a7de7c5c1fb018b8` | `4b8105d2c2cb71c16f86132cfc8b9fb3282860a3be3d5b90e9d9ab3fd80d32cb` | 42 registry-derived question texts removed (`loc_questions` emptied, the text in each locality item of `items` blanked); `public_release_note` added |
+| `experiments/robustness_checks_015/runs/xr_test_001/stream_npm.json.gz` | `2ad1848cf4d0537953fde07bbf4e020f4fd19ac0731265ca06daec2f3ebf36da` | `ef7533eaf07e3a05ecb8a8c5d397db995bfa28128495a1e38c6233b1525c5ee8` | 2361 registry-derived question texts removed (`loc_questions` emptied, the text in each locality item of `items` blanked); `public_release_note` added |
+| `experiments/robustness_checks_015/runs/xr_test_001/stream_nuget.json.gz` | `89cee5da5044d46642360e30855a014b3302a1fa8a9193a0d88c899a34a7bfde` | `09913c55407e1c4f5ec8562215b88edb7f697409a405053a72c4087bf3d7eb8e` | 280 registry-derived question texts removed (`loc_questions` emptied, the text in each locality item of `items` blanked); `public_release_note` added |
+| `experiments/robustness_checks_015/runs/xr_test_001/stream_packagist.json.gz` | `937b1256b9e9f598a9de3afb73ca389a64150622707d8cbb8f0e9d5baae8d03d` | `a02128362f2466c89658cbc95a515b7a35b38021207c016c11179e62f7357af1` | 1957 registry-derived question texts removed (`loc_questions` emptied, the text in each locality item of `items` blanked); `public_release_note` added |
+| `experiments/robustness_checks_015/runs/xr_test_001/stream_pypi.json.gz` | `68c53d37df2f067e3c868737f4ef3d1d380b65018594e393fb212210baed228d` | `c6e977dbde74aaa9bcccfa33b9eb89ddfb73c7125ac8db112163d1eceec54dad` | 607 registry-derived question texts removed (`loc_questions` emptied, the text in each locality item of `items` blanked); `public_release_note` added |
