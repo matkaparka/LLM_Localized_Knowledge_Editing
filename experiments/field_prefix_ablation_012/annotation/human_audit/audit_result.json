@@ -1,0 +1,231 @@
+{
+ "audit_sheet.csv": {
+  "rows": 100,
+  "scored": 100,
+  "skipped": [],
+  "final_char": 94,
+  "exact": 91,
+  "final_char_rate": 0.94,
+  "final_char_ci": [
+   0.8752318448839115,
+   0.9722138761993719
+  ],
+  "exact_rate": 0.91,
+  "exact_ci": [
+   0.8377378707781101,
+   0.951927460231313
+  ],
+  "disagreements": [
+   {
+    "no": "5",
+    "uid": "7:53345:682f57737e7d",
+    "question": "What type of subject is Lew, wół, lis considered as where it is a particular example and member?",
+    "author": "Lew, wół",
+    "final": "Lew, wół, lis",
+    "same_final_char": false
+   },
+   {
+    "no": "9",
+    "uid": "6:47647:f92b9460216b",
+    "question": "What type of solar eclipse was the solar eclipse of January 3, 1908?",
+    "author": "solar eclipse",
+    "final": "solar eclipse of January 3, 1908",
+    "same_final_char": false
+   },
+   {
+    "no": "28",
+    "uid": "2:9215:03975a8fc597",
+    "question": "Which ecclesiastical province does the Roman Catholic Diocese of Miri belong to?",
+    "author": "Roman Catholic Diocese of Miri",
+    "final": "Diocese of Miri",
+    "same_final_char": true
+   },
+   {
+    "no": "31",
+    "uid": "7:44956:5164403ba95b",
+    "question": "What location is 29 High Street in Dunbar a part of?",
+    "author": "29 High Street in Dunbar",
+    "final": "29 High Street",
+    "same_final_char": false
+   },
+   {
+    "no": "61",
+    "uid": "3:21912:3f4993b15841",
+    "question": "What class does the list of number-one albums of 2005 in Ireland belong to within Wikimedia?",
+    "author": "number-one albums of 2005",
+    "final": "list of number-one albums of 2005 in Ireland",
+    "same_final_char": false
+   },
+   {
+    "no": "71",
+    "uid": "2:5494:90355544bae0",
+    "question": "In which city is the Metropolis of Neocaesarea located?",
+    "author": "the Metropolis of Neocaesarea",
+    "final": "Metropolis of Neocaesarea",
+    "same_final_char": true
+   },
+   {
+    "no": "77",
+    "uid": "1:300:d0fd465ead92",
+    "question": "What body of water are the Falls of Bruar located in or next to?",
+    "author": "Falls of Bruar",
+    "final": "the Falls of Bruar",
+    "same_final_char": true
+   },
+   {
+    "no": "90",
+    "uid": "6:38805:5e5344ac9256",
+    "question": "What type of solar eclipse was the solar eclipse of June 18, 614 BC?",
+    "author": "solar eclipse",
+    "final": "solar eclipse of June 18, 614 BC",
+    "same_final_char": false
+   },
+   {
+    "no": "100",
+    "uid": "7:13457:06d753281b0e",
+    "question": "In which time zone is Brown located?",
+    "author": "ambiguous",
+    "final": "Brown"
+   }
+  ]
+ },
+ "audit_sheet_disagreements.csv": {
+  "rows": 50,
+  "scored": 50,
+  "skipped": [],
+  "final_char": 36,
+  "exact": 35,
+  "final_char_rate": 0.72,
+  "final_char_ci": [
+   0.5833487619095525,
+   0.8252582940118571
+  ],
+  "exact_rate": 0.7,
+  "exact_ci": [
+   0.5624964942316114,
+   0.8089644656969428
+  ],
+  "disagreements": [
+   {
+    "no": "2",
+    "uid": "7:44258:6e7366657815",
+    "question": "In which historic county is Coach House, Ramsay House located on 184 Newhaven Road in Edinburgh?",
+    "author": "Coach House, Ramsay House",
+    "final": "Coach House",
+    "same_final_char": false
+   },
+   {
+    "no": "3",
+    "uid": "4:100203:91b153754e01",
+    "question": "What season of the Yugoslav First Basketball League immediately followed the 1967-68 season?",
+    "author": "Yugoslav First Basketball League",
+    "final": "1967-68 season",
+    "same_final_char": false
+   },
+   {
+    "no": "4",
+    "uid": "6:39733:1dcd3903de91",
+    "question": "What specific type of solar eclipse occurred on December 7, 1395 BC?",
+    "author": "solar eclipse",
+    "final": "December 7, 1395 BC",
+    "same_final_char": false
+   },
+   {
+    "no": "7",
+    "uid": "6:23448:aacae2d1b2e8",
+    "question": "What form of creative work is \"24 Views of Mt. Fuji\" by Hokusai?",
+    "author": "\"24 Views of Mt. Fuji\"",
+    "final": "24 Views of Mt. Fuji",
+    "same_final_char": false
+   },
+   {
+    "no": "9",
+    "uid": "6:36635:237b49edf13d",
+    "question": "What specific type of solar eclipse occurred on May 25, 1217 BC?",
+    "author": "solar eclipse",
+    "final": "May 25, 1217 BC",
+    "same_final_char": false
+   },
+   {
+    "no": "17",
+    "uid": "7:50914:f635199c9c12",
+    "question": "What historic county is Central Block, Northern Steading Range, Polwarth Crofts, Packman's Brae, and Polwarth located in, according to traditional geographical division of Great Britain and Ireland?",
+    "author": "Central Block, Northern Steading Range, Polwarth Crofts, Packman's Brae, and Polwarth",
+    "final": "Central Block",
+    "same_final_char": false
+   },
+   {
+    "no": "19",
+    "uid": "2:50960:51a92c96f58e",
+    "question": "What is carried by the Railway Footbridge on Beach Lane, West Ferry, Dundee?",
+    "author": "Railway Footbridge on Beach Lane, West Ferry, Dundee",
+    "final": "Railway Footbridge",
+    "same_final_char": false
+   },
+   {
+    "no": "22",
+    "uid": "6:37099:5faed914d85e",
+    "question": "What specific type of solar eclipse was the event that occurred on March 30, 1437 BC?",
+    "author": "solar eclipse",
+    "final": "March 30, 1437 BC",
+    "same_final_char": false
+   },
+   {
+    "no": "25",
+    "uid": "7:31920:fb0214fcff29",
+    "question": "What is the country of origin of Riwayat Hidup & Usaha Dakwah - Maulana Muhammad Ilyas R'a.?",
+    "author": "Riwayat Hidup & Usaha Dakwah - Maulana Muhammad Ilyas R'a.",
+    "final": "Riwayat Hidup & Usaha Dakwah - Maulana Muhammad Ilyas R'a",
+    "same_final_char": false
+   },
+   {
+    "no": "34",
+    "uid": "6:47596:d54461dc436c",
+    "question": "What specific type of solar eclipse occurred on August 30, 1924?",
+    "author": "solar eclipse",
+    "final": "August 30, 1924",
+    "same_final_char": false
+   },
+   {
+    "no": "35",
+    "uid": "5:65872:ab4231f5f3b5",
+    "question": "In which country was the 1st edition of WWII published?",
+    "author": "1st edition of WWII",
+    "final": "WWII",
+    "same_final_char": true
+   },
+   {
+    "no": "37",
+    "uid": "7:51247:08d3c7a288dc",
+    "question": "In which historic county is Hilton Farmhouse located in Whitsome, as part of the Outbuilding?",
+    "author": "Hilton Farmhouse",
+    "final": "Outbuilding",
+    "same_final_char": false
+   },
+   {
+    "no": "38",
+    "uid": "6:37775:0e7d33b69a71",
+    "question": "What type of solar eclipse occurred on September 9, 1148 BC?",
+    "author": "solar eclipse",
+    "final": "September 9, 1148 BC",
+    "same_final_char": false
+   },
+   {
+    "no": "44",
+    "uid": "6:39821:486d39cce428",
+    "question": "What type of solar eclipse was the event on December 19, 1898 BC classified as?",
+    "author": "solar eclipse",
+    "final": "December 19, 1898 BC",
+    "same_final_char": false
+   },
+   {
+    "no": "48",
+    "uid": "7:41517:11705caa0722",
+    "question": "Which historic county does 39 Carden Terrace Including Boundary Wall And Railings in Aberdeen belong to?",
+    "author": "39 Carden Terrace Including Boundary Wall And Railings in Aberdeen",
+    "final": "39 Carden Terrace Including Boundary Wall And Railings",
+    "same_final_char": false
+   }
+  ]
+ }
+}

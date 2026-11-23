@@ -68,6 +68,7 @@ Paths are under `experiments/`. The files store differences as fractions; the ma
 | The same on the registries: 8.56 pp | `robustness_checks_015/runs/xr_test_001/analysis.json` | `headline.xr.delta_active` |
 | Write seeds 1 and 2, blocks 6 and 12, no centring: 3.97, 3.72, 4.80, 3.49 and 19.52 pp | `robustness_checks_015/runs/<seed1, seed2, layer6, layer12, raw>_test_001/analysis.json` | `headline["corr/off"].delta` |
 | Second backbone: 0.27 pp at the floor 0.90; 1.46 pp at the exploratory floor 0.80 | `backbone_replication_014/runs/test_001/analysis.json`, `runs/explore_f080_001/analysis.json` | `headline["corr/off"].delta` |
+| Human audit of the corrected spans: same final character in 94 of 100 sampled cases and in 36 of 50 sampled adjudicated disagreements | `field_prefix_ablation_012/annotation/human_audit/audit_result.json` | `final_char`, `scored`, `final_char_ci` per sheet |
 
 In the RC-15 and BR-14 analyses each `headline` entry is `[mean, [lower, upper], positive units, units]`, and
 `cells_result.<cell>` holds the factorial of disabled entries and graded thresholds (`factorial`), the practical
@@ -108,6 +109,9 @@ python ../robustness_checks_015/rc_run.py analyze runs/test_001 --dev runs/dev_0
 python ../robustness_checks_015/checks/recount.py runs/test_001 runs/dev_001 runs/test_001/recount.json
 python ../robustness_checks_015/rc_run.py analyze runs/explore_f080_001
 python ../robustness_checks_015/checks/recount.py runs/explore_f080_001 runs/explore_f080_001/recount.json
+
+cd ../field_prefix_ablation_012/annotation/human_audit
+python score_audit.py audit_sheet.csv audit_sheet_disagreements.csv audit_result.json
 ```
 
 `analyze` overwrites the `analysis.json` of the run it reads. On 2026-11-22 (2026-11-23 for RC-15 and BR-14) these
@@ -190,6 +194,12 @@ RV_DATA_DIR=DATA_DIR RV_MODEL_PATH=MODEL_DIR python kt_run.py run config_run_001
 
 FP-12 reads the final entity spans from `annotation/spans_final.json`. `annotation/` also holds the rule-based
 annotator A, the model-based annotator B, their spans, the disagreements, the adjudication brief and the decisions.
+`annotation/human_audit/` holds the author's blind audit of the final spans, done after all experiments: with a fixed
+seed, `make_audit.py` drew 100 of the 8,412 D0–D7 cases and, separately, 50 of the 510 adjudicated disagreements
+(`audit_sample.json`); the sheets show only the question and the entity's Wikidata labels, aliases and description.
+The author filled in `your_mention`, `status` and `note`, and `score_audit.py` compared them with the final spans
+(`audit_result.json`). Row 100 of `audit_sheet.csv` was first left blank; its status, `ambiguous`, was entered on the
+author's instruction without the final span being shown.
 RC-15 and BR-14 runs use `rc_run.py run CONFIG OUT --phase P` (see its docstring). For BR-14, `br_calibrate.py`
 measured the Qwen3 reference norm (`calibration/qwen_norms.json`) by which `rc_core.py` scales the high-norm cut-off. XR-13, and RC-15's registry runs that reuse its streams, cannot be rerun
 from this repository, because the streams are built from registry snapshots that are not redistributed. `xr_collect.py`, `xr_events.py`, `xr_questions.py`, `xr_extract.py` and `xr_build.py` are the code that
@@ -211,7 +221,7 @@ collected and built them.
 The experiment code, analysis code and run scripts were written by Claude Opus 5.5 (Anthropic), working as a coding
 agent at the author's request and under the author's direction, as the manuscript describes. In FP-12, two fresh
 Claude Opus 5.5 sessions adjudicated the span disagreements; each saw only `annotation/ADJUDICATION_BRIEF.md` and its
-items.
+items. The audit of the final spans in `annotation/human_audit/` was done by the author.
 
 ## License
 

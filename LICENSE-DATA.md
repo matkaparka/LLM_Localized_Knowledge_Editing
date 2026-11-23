@@ -15,7 +15,7 @@ Third-party material keeps its own terms; the CC BY 4.0 grant above does not cov
   answers. A copy of the license
   is in [third_party_licenses/Apache-2.0.txt](third_party_licenses/Apache-2.0.txt).
 - **Wikidata** labels, aliases and descriptions in `experiments/field_prefix_ablation_012/annotation/wikidata_subjects.json`
-  (fetched through the Wikidata API on 2026-11-21): CC0 1.0.
+  (fetched through the Wikidata API on 2026-11-21) and in the audit sheets of `annotation/human_audit/`: CC0 1.0.
 - **Model outputs** in the records remain subject to the license of the model that produced them: Qwen3-0.6B-Base
   (the answers in every study except BR-14), OLMo-2-1124-7B (the answers in BR-14), Qwen2.5-7B-Instruct (FP-12
   annotator B's spans) and OLMo-2-1124-7B-Instruct (XR-13's extracted anchor spans), all Apache License 2.0.
